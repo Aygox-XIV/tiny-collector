@@ -1,3 +1,17 @@
-import { type RouteConfig, index } from "@react-router/dev/routes";
+import { type RouteConfig, index, layout, prefix, route } from '@react-router/dev/routes';
 
-export default [index("routes/home.tsx")] satisfies RouteConfig;
+export default [
+    layout('routes/base.tsx', [
+        index('routes/home.tsx'),
+        route('catalog', 'catalog/view.tsx', [
+            // /catalog : main catalog view
+            // /catalog/:iid : catalog view w/ selected item
+            route(':iid', 'catalog/item-view.tsx'),
+        ]),
+        ...prefix('calc', [
+            // /calc : license calculator view
+            // filters are controlled by query params
+            index('license/view.tsx'),
+        ]),
+    ]),
+] satisfies RouteConfig;

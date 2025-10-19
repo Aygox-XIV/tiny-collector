@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "name": "Public Perfected Rubber Ducky",
+      "id": 1,
+      "recipe": {
+        "ingredient": [
+          { "name": "Slime Extract", "quantity": 2 },
+          { "name": "Anthracite", "quantity": 2 },
+          { "name": "Summer Glory", "quantity": 2 }
+        ],
+        "craft_amount": 2
+      },
+      "licence_amount": 9999
+    },
+    {
+      "name": "Fire Shield",
+      "id": 2,
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron Shield", "quantity": 1 },
+          { "name": "Fire Extract", "quantity": 1 }
+        ],
+        "craft_amount": 1
+      },
+      "licence_amount": 700
+    },
+    {
+      "name": "Iron Shield",
+      "id": 3,
+      "recipe": {
+        "ingredient": [{ "name": "Iron", "quantity": 5 }],
+        "craft_amount": 1
+      },
+      "licence_amount": 250
+    },
+    {
+      "name": "Fire Extract",
+      "id": 4,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 3 },
+          { "name": "Firebloom Leaves", "quantity": 2 },
+          { "name": "Standard Catalyst", "quantity": 1 }
+        ],
+        "craft_amount": 1
+      },
+      "licence_amount": 550
+    },
+    {
+      "name": "Standard Catalyst",
+      "id": 5,
+      "recipe": {
+        "ingredient": [
+          { "name": "Summer Glory", "quantity": 1 },
+          { "name": "Blue Tower", "quantity": 1 },
+          { "name": "Puff Flower", "quantity": 1 },
+          { "name": "Spices", "quantity": 1 }
+        ],
+        "craft_amount": 3
+      },
+      "licence_amount": 300,
+      "alt_recipe": ["Standard Catalyst+"]
+    },
+    { "name": "Slime Extract", "id": 6 },
+    { "name": "Anthracite", "id": 7 },
+    { "name": "Summer Glory", "id": 8 },
+    { "name": "Iron", "id": 9 },
+    { "name": "Purified Water", "id": 10 },
+    { "name": "Blue Tower", "id": 11 },
+    { "name": "Puff Flower", "id": 12 },
+    { "name": "Spices", "id": 13 }
+  ],
+  "alt_recipes": [
+    {
+      "name": "Standard Catalyst+",
+      "ingredient": [
+        { "name": "Summer Glory", "quantity": 20 },
+        { "name": "Blue Tower", "quantity": 20 },
+        { "name": "Puff Flower", "quantity": 20 },
+        { "name": "Spices", "quantity": 20 }
+      ],
+      "craft_amount": 60
+    }
+  ]
+}
