@@ -9,10 +9,12 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     const items = db.items;
     return (
         <div className="catalog">
-            Full Catalog:
-            {Object.keys(items || {}).map((i) => (
-                <CatalogItem id={i} key={i} />
-            ))}
+            <div className="catalog-search search-bar">Search Bar.</div>
+            <div className="catalog-content">
+                {Object.keys(items || {}).map((i) => (
+                    <CatalogItem id={i} key={i} />
+                ))}
+            </div>
         </div>
     );
 };

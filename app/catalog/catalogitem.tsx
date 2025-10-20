@@ -11,7 +11,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
     const item = db.items[id];
     const detialLink = '/catalog/' + id;
     return (
-        <div>
+        <div className="catalog-item">
             CatItem: {item?.name}. <NavLink to={detialLink}>details</NavLink>
         </div>
     );

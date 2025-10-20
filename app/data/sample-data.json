@@ -69,7 +69,27 @@
     { "name": "Purified Water", "id": 10 },
     { "name": "Blue Tower", "id": 11 },
     { "name": "Puff Flower", "id": 12 },
-    { "name": "Spices", "id": 13 }
+    { "name": "Spices", "id": 13 },
+    {
+      "name": "Blank Scroll Sheets",
+      "id": 14,
+      "recipe": {
+        "ingredient": [{ "name": "Everspring Leaves", "quantity": 4 }],
+        "craft_amount": 2
+      },
+      "licence_amount": 300,
+      "alt_recipe": ["Blank Scroll Sheets +"]
+    },
+    { "name": "Everspring Leaves", "id": 15 },
+    {
+      "name": "Mana Draught",
+      "id": 16,
+      "recipe": {
+        "ingredient": [{ "name": "Blue Tower", "quantity": 2 }],
+        "craft_amount": 4
+      },
+      "licence_amount": 50
+    }
   ],
   "alt_recipes": [
     {
@@ -81,6 +101,11 @@
         { "name": "Spices", "quantity": 20 }
       ],
       "craft_amount": 60
+    },
+    {
+      "name": "Blank Scroll Sheets +",
+      "ingredient": [{ "name": "Everspring Leaves", "quantity": 40 }],
+      "craft_amount": 40
     }
   ]
 }

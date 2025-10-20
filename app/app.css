@@ -1,8 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans:
+    'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
 }
 
 html,
@@ -12,4 +13,87 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+main {
+  height: 100%;
+  max-height: 100%;
+}
+
+/* temp */
+div {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px;
+  height: 100%;
+  max-height: 100%;
+}
+
+div.content {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50px 50px auto;
+  max-height: 100%;
+}
+
+div.menu-bar {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  gap: 5px;
+}
+
+div.menu-item {
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.menu-item > a.active {
+  font-weight: bold;
+}
+
+div.catalog-view {
+  display: grid;
+  grid-template-columns: 150px auto 600px;
+  background-color: antiquewhite;
+  height: 100%;
+  max-height: calc(100vh - 105px);
+}
+
+div.catalog-filter {
+  max-height: calc(100lvh - 105px);
+  background-color: darkturquoise;
+}
+
+div.catalog {
+  display: grid;
+  grid-template-rows: 50px auto;
+  max-height: calc(100vh - 105px);
+  background-color: aquamarine;
+}
+
+div.search-bar {
+  background-color: cornflowerblue;
+}
+
+div.catalog-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto-fit;
+  max-height: 100%;
+  padding: 15px;
+  gap: 20px;
+  background-color: bisque;
+  overflow-y: scroll;
+}
+
+div.catalog-item {
+  min-height: 180px;
+}
+
+div.catalog-item > a.active {
+  font-weight: bolder;
+}
+
+div.details-panel {
+  max-height: calc(100lvh - 105px);
 }

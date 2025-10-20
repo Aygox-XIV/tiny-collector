@@ -8,5 +8,5 @@ export interface DetailsProps {
 export const Details: React.FC<DetailsProps> = ({ id }) => {
     const db = useDatabase();
     const item = db.items[id];
-    return <div>Details: {item?.name}</div>;
+    return <div className="details-panel">Details: {item?.name}</div>;
 };

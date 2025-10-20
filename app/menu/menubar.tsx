@@ -1,0 +1,25 @@
+import type React from 'react';
+import { NavLink } from 'react-router';
+
+interface MenuItemProps {
+    text: string;
+    url: string;
+}
+
+/** element in the catalog list */
+const MenuItem: React.FC<MenuItemProps> = ({ text, url }) => {
+    return (
+        <div className="menu-item">
+            <NavLink to={url}>{text}</NavLink>
+        </div>
+    );
+};
+
+export const MenuBar: React.FC = () => {
+    return (
+        <div className="menu-bar">
+            <MenuItem text="Catalog" url="/catalog" />
+            <MenuItem text="License Calculator" url="/license" />
+        </div>
+    );
+};
