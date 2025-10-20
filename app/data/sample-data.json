@@ -11,7 +11,7 @@
         ],
         "craft_amount": 2
       },
-      "licence_amount": 9999
+      "licenseAmount": 9999
     },
     {
       "name": "Fire Shield",
@@ -23,7 +23,7 @@
         ],
         "craft_amount": 1
       },
-      "licence_amount": 700
+      "licenseAmount": 700
     },
     {
       "name": "Iron Shield",
@@ -32,7 +32,7 @@
         "ingredient": [{ "name": "Iron", "quantity": 5 }],
         "craft_amount": 1
       },
-      "licence_amount": 250
+      "licenseAmount": 250
     },
     {
       "name": "Fire Extract",
@@ -45,7 +45,7 @@
         ],
         "craft_amount": 1
       },
-      "licence_amount": 550
+      "licenseAmount": 550
     },
     {
       "name": "Standard Catalyst",
@@ -59,7 +59,7 @@
         ],
         "craft_amount": 3
       },
-      "licence_amount": 300,
+      "licenseAmount": 300,
       "alt_recipe": ["Standard Catalyst+"]
     },
     { "name": "Slime Extract", "id": 6 },
@@ -77,7 +77,7 @@
         "ingredient": [{ "name": "Everspring Leaves", "quantity": 4 }],
         "craft_amount": 2
       },
-      "licence_amount": 300,
+      "licenseAmount": 300,
       "alt_recipe": ["Blank Scroll Sheets +"]
     },
     { "name": "Everspring Leaves", "id": 15 },
@@ -88,7 +88,7 @@
         "ingredient": [{ "name": "Blue Tower", "quantity": 2 }],
         "craft_amount": 4
       },
-      "licence_amount": 50
+      "licenseAmount": 50
     }
   ],
   "alt_recipes": [

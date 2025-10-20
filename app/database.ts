@@ -19,7 +19,7 @@ export interface ItemData {
 export interface Item extends IdentifiableEntity {
     readonly recipe?: Recipe;
     readonly alt_recipe?: string;
-    readonly license_amount?: number;
+    readonly licenseAmount?: number;
 }
 
 export interface Recipe {

@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
+import { collectionSlice } from './collection';
 import { dbSlice } from './database';
 
 export const store = configureStore({
     reducer: {
         db: dbSlice.reducer,
+        collection: collectionSlice.reducer,
     },
 });
 

@@ -5,7 +5,7 @@ export interface CatalogProps {}
 
 export const Catalog: React.FC<CatalogProps> = ({}) => {
     const db = useDatabase();
-    // TODO: apply filter (need filter context around bar + catalog)
+    // TODO: apply filter
     const items = db.items;
     return (
         <div className="catalog">
