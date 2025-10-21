@@ -20,10 +20,10 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
             {({ isActive }) => (
                 <div className={'catalog-item' + (isActive ? ' active' : '')}>
                     <NameTag name={item.name} />
-                    <Icon id={id} />
+                    <Icon wiki_path={item.wiki_image_path} />
                     <StatusIcon status={collected.licensed ? 'licensed' : collected.seen ? 'seen' : 'unseen'} />
-                    {item.licenseAmount && (
-                        <LicenseBar max={item.licenseAmount} actual={collected.licenceProgress || 0} />
+                    {item.license_amount && (
+                        <LicenseBar max={item.license_amount} actual={collected.licenceProgress || 0} />
                     )}
                 </div>
             )}
@@ -38,11 +38,19 @@ const NameTag: React.FC<NameTagProps> = ({ name }) => {
     return <div className="name-tag">{name}</div>;
 };
 
-interface IdProp {
-    readonly id: string;
+interface IconProp {
+    readonly wiki_path?: string;
 }
 
-const Icon: React.FC<IdProp> = ({ id }) => {
+const Icon: React.FC<IconProp> = ({ wiki_path }) => {
+    if (wiki_path) {
+        return (
+            <img
+                className="catalog-item-icon"
+                src={'https://static.wikia.nocookie.net/tiny-shop/images/' + wiki_path}
+            />
+        );
+    }
     return <BsQuestionSquare />;
 };
 

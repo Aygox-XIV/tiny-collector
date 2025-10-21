@@ -11,7 +11,7 @@
         ],
         "craft_amount": 2
       },
-      "licenseAmount": 9999
+      "license_amount": 9999
     },
     {
       "name": "Fire Shield",
@@ -23,7 +23,17 @@
         ],
         "craft_amount": 1
       },
-      "licenseAmount": 700
+      "license_amount": 700,
+      "wiki_image_path": "1/18/Fire_Shield.png",
+      "source": [
+        {
+          "kind": "recipe",
+          "fragment": false,
+          "type": "City",
+          "subtype": "Research",
+          "name": "Ardent Forge"
+        }
+      ]
     },
     {
       "name": "Iron Shield",
@@ -32,7 +42,17 @@
         "ingredient": [{ "name": "Iron", "quantity": 5 }],
         "craft_amount": 1
       },
-      "licenseAmount": 250
+      "license_amount": 250,
+      "wiki_image_path": "f/ff/Iron_Shield.png",
+      "source": [
+        {
+          "kind": "recipe",
+          "fragment": false,
+          "type": "City",
+          "subtype": "Research",
+          "name": "Ardent Forge"
+        }
+      ]
     },
     {
       "name": "Fire Extract",
@@ -45,7 +65,17 @@
         ],
         "craft_amount": 1
       },
-      "licenseAmount": 550
+      "license_amount": 550,
+      "wiki_image_path": "b/b3/Fire_Extract.png",
+      "source": [
+        {
+          "kind": "recipe",
+          "fragment": false,
+          "type": "City",
+          "subtype": "Research",
+          "name": "Almo's Lab"
+        }
+      ]
     },
     {
       "name": "Standard Catalyst",
@@ -59,16 +89,108 @@
         ],
         "craft_amount": 3
       },
-      "licenseAmount": 300,
-      "alt_recipe": ["Standard Catalyst+"]
+      "license_amount": 300,
+      "alt_recipe": ["Standard Catalyst+"],
+      "wiki_image_path": "f/f0/Standard_Catalyst.png",
+      "source": [
+        {
+          "kind": "recipe",
+          "fragment": false,
+          "type": "City",
+          "subtype": "Research",
+          "name": "Almo's Lab"
+        }
+      ]
     },
-    { "name": "Slime Extract", "id": 6 },
-    { "name": "Anthracite", "id": 7 },
-    { "name": "Summer Glory", "id": 8 },
-    { "name": "Iron", "id": 9 },
-    { "name": "Purified Water", "id": 10 },
-    { "name": "Blue Tower", "id": 11 },
-    { "name": "Puff Flower", "id": 12 },
+    {
+      "name": "Slime Extract",
+      "id": 6,
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Market",
+          "name": "Materials"
+        }
+      ]
+    },
+    {
+      "name": "Anthracite",
+      "id": 7,
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Market",
+          "name": "Materials"
+        }
+      ]
+    },
+    {
+      "name": "Summer Glory",
+      "id": 8,
+      "wiki_image_path": "e/eb/Summer_Glory.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Harvest",
+          "name": "Summer Glory"
+        }
+      ]
+    },
+    {
+      "name": "Iron",
+      "id": 9,
+      "wiki_image_path": "4/45/Iron.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Market",
+          "name": "Materials"
+        }
+      ]
+    },
+    {
+      "name": "Purified Water",
+      "id": 10,
+      "wiki_image_path": "3/30/Purified_Water.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Market",
+          "name": "Materials"
+        }
+      ]
+    },
+    {
+      "name": "Blue Tower",
+      "id": 11,
+      "wiki_image_path": "8/8a/Blue_Tower.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Harvest",
+          "name": "Blue Tower"
+        }
+      ]
+    },
+    {
+      "name": "Puff Flower",
+      "id": 12,
+      "wiki_image_path": "1/1c/Puff_Flower.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Harvest",
+          "name": "Puff Flower"
+        }
+      ]
+    },
     { "name": "Spices", "id": 13 },
     {
       "name": "Blank Scroll Sheets",
@@ -77,10 +199,22 @@
         "ingredient": [{ "name": "Everspring Leaves", "quantity": 4 }],
         "craft_amount": 2
       },
-      "licenseAmount": 300,
-      "alt_recipe": ["Blank Scroll Sheets +"]
+      "license_amount": 300,
+      "alt_recipe": ["Blank Scroll Sheets +"],
+      "wiki_image_path": "4/40/Blank_Scroll_Sheets.png"
     },
-    { "name": "Everspring Leaves", "id": 15 },
+    {
+      "name": "Everspring Leaves",
+      "id": 15,
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Harvest",
+          "name": "Everspring"
+        }
+      ]
+    },
     {
       "name": "Mana Draught",
       "id": 16,
@@ -88,7 +222,77 @@
         "ingredient": [{ "name": "Blue Tower", "quantity": 2 }],
         "craft_amount": 4
       },
-      "licenseAmount": 50
+      "license_amount": 50
+    },
+    {
+      "name": "Everwood",
+      "id": 17,
+      "wiki_image_path": "0/00/Everwood.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Market",
+          "name": "Materials"
+        }
+      ]
+    },
+    {
+      "name": "Firebloom Leaves",
+      "id": 18,
+      "wiki_image_path": "c/cb/Firebloom_Leaves.png",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Outpost",
+          "subtype": "Shop",
+          "name": "Trading"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Outpost",
+          "subtype": "Exchange",
+          "name": "Trading"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Task Chest",
+          "subtype": "Daily"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "name": "Hunt: Fire Elementals"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "name": "Hunt: Magmashells"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "name": "Analysis: Cindergrove"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "name": "Samples: Firebloom"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "name": "Survey: Botanical Study"
+        }
+      ]
     }
   ],
   "alt_recipes": [

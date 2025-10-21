@@ -87,6 +87,11 @@ div.catalog-item {
   border: 1px solid black;
 }
 
+img.catalog-item-icon {
+  height: 100px;
+  width: 100px;
+}
+
 div.active {
   border: 2px solid black;
 }
@@ -104,4 +109,6 @@ div.license-bar > progress::-webkit-progress-value {
 
 div.details-panel {
   max-height: calc(100lvh - 105px);
+  overflow-x: auto;
+  overflow-y: auto;
 }

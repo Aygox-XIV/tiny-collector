@@ -9,6 +9,9 @@ export interface IdentifiableEntity {
     readonly name: string;
     // calculated if absent. hash of name by default, XOR with props (recipe, etc) when there's a conflict.
     readonly id?: number;
+    // Path relative to https://static.wikia.nocookie.net/tiny-shop/images/ that has this item's image
+    readonly wiki_image_path?: string;
+    readonly source?: Source[];
 }
 
 export interface ItemData {
@@ -19,7 +22,7 @@ export interface ItemData {
 export interface Item extends IdentifiableEntity {
     readonly recipe?: Recipe;
     readonly alt_recipe?: string;
-    readonly licenseAmount?: number;
+    readonly license_amount?: number;
 }
 
 export interface Recipe {
@@ -32,6 +35,31 @@ export interface AltRecipe extends Recipe, IdentifiableEntity {}
 
 export interface Ingredient extends IdentifiableEntity {
     readonly quantity: number;
+}
+
+export interface Source {
+    readonly kind: 'item' | 'recipe';
+    readonly fragment: boolean;
+    // TODO: make actual types so that subtype and name can be constrained for some cases
+    readonly type:
+        | 'Outpost'
+        | 'City'
+        | 'Harvest'
+        | 'Premium Pack'
+        | 'Boutique'
+        | 'Battle'
+        | 'Journey'
+        | 'Shifty'
+        | 'Event Market'
+        | 'Mission Reward'
+        | 'Market' // materials tab only
+        | 'Feat'
+        | 'Task' // individual task rewards
+        | 'Task Chest'
+        | 'Combine' // extra rewards when combining
+        | 'Shop Level';
+    readonly subtype?: string;
+    readonly name: string;
 }
 
 /// parsed data
@@ -56,6 +84,7 @@ export const dbSlice = createSlice({
 
 function initDb() {
     console.log('yield new db');
+    // TODO: allow data to be split up for easier manual management
     const db = createDB(rawItemData as ItemData);
     return db;
     // below needs to get the scheme+authority from somewhere to work, or run from clientLoader().
