@@ -1,4 +1,6 @@
 import { useCollectedItem } from '../collection';
+import { Icon } from '../common/icon';
+import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database';
 
 export interface DetailsProps {
@@ -13,8 +15,8 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     return (
         <div className="details-panel">
             <div className="detail-name">{item.name}</div>
-            <div className="detail-icon">icon placeholder</div>
-            <div className="detail-status">status (unseen/seen/licensed) placeholder</div>
+            <Icon wiki_path={item.wiki_image_path} />
+            <StatusIcons status={collection.status} />
             <div className="detail-license-data">license progress/input placeholder</div>
             <div className="detail-sources">Sources: {JSON.stringify(item.source)}</div>
         </div>

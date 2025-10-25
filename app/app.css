@@ -87,9 +87,39 @@ div.catalog-item {
   border: 1px solid black;
 }
 
-img.catalog-item-icon {
+.status-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.status-icons > .selected {
+  color: black;
+}
+
+.status-icons > .unselected {
+  color: gainsboro;
+  border: 1px solid black;
+}
+
+img.item-icon {
+  height: 150px;
+  width: 150px;
+}
+
+div.catalog-item > img.item-icon {
   height: 100px;
   width: 100px;
+}
+
+div.details-panel > img.item-icon {
+  height: 200px;
+  width: 200px;
+}
+
+div.catalog-item > .status-icons {
+  display: grid;
+  grid-template-columns: 25px 25px 25px auto;
+  gap: 2px;
 }
 
 div.active {
@@ -111,4 +141,10 @@ div.details-panel {
   max-height: calc(100lvh - 105px);
   overflow-x: auto;
   overflow-y: auto;
+}
+
+div.details-panel > .status-icons {
+  display: grid;
+  grid-template-columns: 25px 25px 25px auto;
+  gap: 2px;
 }

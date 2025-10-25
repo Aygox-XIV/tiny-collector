@@ -1,11 +1,14 @@
 import { useDatabase } from '../database';
 import { CatalogItem } from './catalogitem';
+import { useCatalogFilter } from './filtercontext';
 
 export interface CatalogProps {}
 
 export const Catalog: React.FC<CatalogProps> = ({}) => {
     const db = useDatabase();
-    // TODO: apply filter
+    const filter = useCatalogFilter();
+    // TODO: apply filter. order properly.
+    // TODO: search bar context & filtering
     const items = db.items;
     return (
         <div className="catalog">

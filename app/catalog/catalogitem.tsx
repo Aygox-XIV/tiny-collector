@@ -1,8 +1,7 @@
-import { BsQuestionSquare } from 'react-icons/bs';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { LuScrollText } from 'react-icons/lu';
 import { NavLink } from 'react-router';
 import { useCollectedItem } from '../collection';
+import { Icon } from '../common/icon';
+import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database';
 
 export interface CatalogItemProps {
@@ -21,7 +20,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
                 <div className={'catalog-item' + (isActive ? ' active' : '')}>
                     <NameTag name={item.name} />
                     <Icon wiki_path={item.wiki_image_path} />
-                    <StatusIcon status={collected.licensed ? 'licensed' : collected.seen ? 'seen' : 'unseen'} />
+                    <StatusIcons status={collected.status} />
                     {item.license_amount && (
                         <LicenseBar max={item.license_amount} actual={collected.licenceProgress || 0} />
                     )}
@@ -36,37 +35,6 @@ interface NameTagProps {
 }
 const NameTag: React.FC<NameTagProps> = ({ name }) => {
     return <div className="name-tag">{name}</div>;
-};
-
-interface IconProp {
-    readonly wiki_path?: string;
-}
-
-const Icon: React.FC<IconProp> = ({ wiki_path }) => {
-    if (wiki_path) {
-        return (
-            <img
-                className="catalog-item-icon"
-                src={'https://static.wikia.nocookie.net/tiny-shop/images/' + wiki_path}
-            />
-        );
-    }
-    return <BsQuestionSquare />;
-};
-
-interface StatusIconProps {
-    readonly status: 'unseen' | 'seen' | 'licensed';
-}
-
-const StatusIcon: React.FC<StatusIconProps> = ({ status }) => {
-    switch (status) {
-        case 'unseen':
-            return <FaEyeSlash />;
-        case 'seen':
-            return <FaEye />;
-        case 'licensed':
-            return <LuScrollText />;
-    }
 };
 
 interface LicenseBarProps {

@@ -1,7 +1,10 @@
+import { useDatabase } from '../database';
 import type { Route } from './+types/item-view';
 import { Details } from './details';
 
 export default function ItemDetailView({ params, matches }: Route.ComponentProps) {
-    const itemId = parseInt(params.iid);
-    return !!itemId ? <Details id={itemId} /> : <div className="invis" />;
+    const db = useDatabase();
+    // boring input validation
+    const itemExists = parseInt(params.iid) && !!db.items[params.iid];
+    return itemExists ? <Details id={params.iid} /> : <div className="invis" />;
 }

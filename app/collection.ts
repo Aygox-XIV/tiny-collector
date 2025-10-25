@@ -6,12 +6,18 @@ export interface Collection {
     readonly items: Record<string, CollectedItem>;
 }
 
+export type ItemStatus = 'unseen' | 'seen' | 'licensed';
+
 export interface CollectedItem {
     readonly id: string;
-    readonly seen: boolean;
-    readonly licensed: boolean;
+    readonly status: ItemStatus;
     readonly licenceProgress?: number;
     readonly storageAmount?: number;
+}
+
+export interface ChangeStatusArgs {
+    readonly id: string;
+    readonly status: ItemStatus;
 }
 
 export const collectionSlice = createSlice({
@@ -22,22 +28,13 @@ export const collectionSlice = createSlice({
             console.log('load collection');
             state = action.payload;
         },
-        observe: (state, action) => {
-            const id = action.payload as string;
-            if (!state.items[id]) {
-                state.items[id] = { id, seen: true, licensed: false };
+        changeStatus: (state, action) => {
+            const args = action.payload as ChangeStatusArgs;
+            if (!state.items[args.id]) {
+                state.items[args.id] = { ...args };
             } else {
-                state.items[id].seen = true;
+                state.items[args.id] = { ...state.items[args.id], status: args.status };
             }
-        },
-        markLicensed: (state, action) => {
-            const id = action.payload as string;
-            if (!state.items[id]) {
-                state.items[id] = { id, seen: true, licensed: true };
-            } else {
-                state.items[id].licensed = true;
-            }
-            // TODO: probably a setState instead for this + above + unmark?
         },
         // TODO: update license amount
     },
