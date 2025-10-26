@@ -1,5 +1,7 @@
+import { BiEdit } from 'react-icons/bi';
 import { useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
+import { ProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database/database';
 import { SourceList } from './sourcelist';
@@ -18,7 +20,12 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
             <div className="detail-name">{item.name}</div>
             <Icon wiki_path={item.wiki_image_path} />
             <StatusIcons status={collection.status} />
-            <div className="detail-license-data">license progress/input placeholder</div>
+            {item.license_amount && (
+                <div className="detail-license-data">
+                    <ProgressBar max={item.license_amount} actual={collection?.licenceProgress || 0} />
+                    <BiEdit />
+                </div>
+            )}
             {item.source && <SourceList sources={item.source} />}
             {!item.source && <div className="no-source">No catalogued (or known) sources</div>}
         </div>

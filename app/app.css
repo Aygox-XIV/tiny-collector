@@ -141,11 +141,33 @@ div.catalog-item > a.active {
   font-weight: bolder;
 }
 
-div.license-bar > progress::-webkit-progress-bar {
+div.license-bar {
   background-color: darkslateblue;
+  height: 100%;
+  min-height: 20px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
-div.license-bar > progress::-webkit-progress-value {
+
+div.license-bar > .license-progress {
   background-color: lightskyblue;
+  height: 100%;
+  min-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+div.license-bar > .progress-text {
+  height: 0;
+  width: 100%;
+  text-align: center;
+  overflow-y: visible;
+  font-size: small;
+  padding: 0;
+  margin: 0;
+  text-shadow: darkslateblue 1px 1px;
+  color: white;
 }
 
 div.details-panel {

@@ -47,5 +47,5 @@ export function useCollection(): Collection {
 export function useCollectedItem(id: string) {
     const collection = useCollection();
     // TODO: have fake collection data to load, default progress back to 0
-    return collection.items[id] || { id, seen: false, licensed: false, licenceProgress: 25 };
+    return collection.items[id] || { id, seen: false, licensed: false, licenceProgress: 50 };
 }

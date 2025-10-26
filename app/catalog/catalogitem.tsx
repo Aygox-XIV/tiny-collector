@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router';
 import { useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
+import { ProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database/database';
 
@@ -23,7 +24,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
                     <Icon wiki_path={item.wiki_image_path} />
                     <StatusIcons status={collected.status} />
                     {item.license_amount && (
-                        <LicenseBar max={item.license_amount} actual={collected.licenceProgress || 0} />
+                        <ProgressBar max={item.license_amount} actual={collected.licenceProgress || 0} />
                     )}
                 </div>
             )}
@@ -43,20 +44,4 @@ const NameTag: React.FC<NameTagProps> = ({ name }) => {
     //         </text>
     //     </svg>
     // );
-};
-
-interface LicenseBarProps {
-    readonly max: number;
-    readonly actual: number;
-}
-
-const LicenseBar: React.FC<LicenseBarProps> = ({ max, actual }) => {
-    // TODO: manual progress bar, to not rely on browser details.
-    return (
-        <div className="license-bar">
-            <progress value={actual} max={max}>
-                {actual} / {max}
-            </progress>
-        </div>
-    );
 };
