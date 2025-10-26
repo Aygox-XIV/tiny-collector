@@ -1,4 +1,4 @@
-import { useDatabase } from '../database';
+import { useDatabase } from '../database/database';
 import { CatalogItem } from './catalogitem';
 import { useCatalogFilter } from './filtercontext';
 

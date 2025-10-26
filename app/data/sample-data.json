@@ -11,7 +11,51 @@
         ],
         "craft_amount": 2
       },
-      "license_amount": 9999
+      "license_amount": 9999,
+      "source": [
+        {
+          "kind": "recipe",
+          "fragment": true,
+          "type": "Battle",
+          "subtype": "Flooded Expedition",
+          "name": "Coral Ducky"
+        },
+        {
+          "kind": "recipe",
+          "fragment": false,
+          "type": "Feat",
+          "subtype": "Crafting",
+          "name": "Ducktastic!",
+          "level": 3
+        },
+        { "kind": "item", "fragment": false, "type": "Boutique" },
+        { "kind": "item", "fragment": true, "type": "City", "subtype": "Shop", "name": "Almo's Lab" },
+        { "kind": "recipe", "fragment": false, "type": "Combine", "name": "Fire Shield", "id": "2" },
+        { "kind": "item", "fragment": true, "type": "Event Market", "subtype": "Sun Festival" },
+        { "kind": "item", "fragment": true, "type": "Event Market", "subtype": "Flooded Expedition" },
+        { "kind": "item", "fragment": false, "type": "Harvest", "name": "Lily Pads" },
+        { "kind": "item", "fragment": false, "type": "Harvest", "name": "Reeds" },
+        {
+          "kind": "recipe",
+          "fragment": true,
+          "type": "Journey",
+          "subtype": "Flooded Expedition",
+          "name": "Hunt: Crimson Duck"
+        },
+        { "kind": "item", "fragment": false, "type": "Mission Reward", "name": "Duck Hunt Season - part 2" },
+        { "kind": "item", "fragment": true, "type": "Premium Pack", "name": "Ducks in a Row" },
+        { "kind": "item", "fragment": false, "type": "Shifty", "name": "Duck Crate" },
+        { "kind": "item", "fragment": false, "type": "Shifty" },
+        { "kind": "item", "fragment": false, "type": "Shop Level", "name": "69" },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Task",
+          "subtype": "Flooded Expedition",
+          "name": "Tap on a Duck decor"
+        },
+        { "kind": "item", "fragment": true, "type": "Corrupted-data" }
+      ]
     },
     {
       "name": "Fire Shield",

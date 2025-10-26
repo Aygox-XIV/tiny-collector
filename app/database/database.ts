@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
-import rawItemData from './data/sample-data.json';
-import type { RootState } from './store';
+import rawItemData from '../data/sample-data.json';
+import type { RootState } from '../store';
+import type { Source } from './sources';
 
 /// raw data
 
@@ -35,31 +36,6 @@ export interface AltRecipe extends Recipe, IdentifiableEntity {}
 
 export interface Ingredient extends IdentifiableEntity {
     readonly quantity: number;
-}
-
-export interface Source {
-    readonly kind: 'item' | 'recipe';
-    readonly fragment: boolean;
-    // TODO: make actual types so that subtype and name can be constrained for some cases
-    readonly type:
-        | 'Outpost'
-        | 'City'
-        | 'Harvest'
-        | 'Premium Pack'
-        | 'Boutique'
-        | 'Battle'
-        | 'Journey'
-        | 'Shifty'
-        | 'Event Market'
-        | 'Mission Reward'
-        | 'Market' // materials tab only
-        | 'Feat'
-        | 'Task' // individual task rewards
-        | 'Task Chest'
-        | 'Combine' // extra rewards when combining
-        | 'Shop Level';
-    readonly subtype?: string;
-    readonly name: string;
 }
 
 /// parsed data

@@ -1,7 +1,8 @@
 import { useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
 import { StatusIcons } from '../common/statusicons';
-import { useDatabase } from '../database';
+import { useDatabase } from '../database/database';
+import { SourceList } from './sourcelist';
 
 export interface DetailsProps {
     id: string;
@@ -18,7 +19,8 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
             <Icon wiki_path={item.wiki_image_path} />
             <StatusIcons status={collection.status} />
             <div className="detail-license-data">license progress/input placeholder</div>
-            <div className="detail-sources">Sources: {JSON.stringify(item.source)}</div>
+            {item.source && <SourceList sources={item.source} />}
+            {!item.source && <div className="no-source">No catalogued (or known) sources</div>}
         </div>
     );
 };

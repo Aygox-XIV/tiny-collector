@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { collectionSlice } from './collection';
-import { dbSlice } from './database';
+import { dbSlice } from './database/database';
 
 export const store = configureStore({
     reducer: {

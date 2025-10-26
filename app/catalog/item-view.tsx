@@ -1,4 +1,4 @@
-import { useDatabase } from '../database';
+import { useDatabase } from '../database/database';
 import type { Route } from './+types/item-view';
 import { Details } from './details';
 

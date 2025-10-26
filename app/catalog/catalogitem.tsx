@@ -2,7 +2,7 @@ import { NavLink } from 'react-router';
 import { useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
 import { StatusIcons } from '../common/statusicons';
-import { useDatabase } from '../database';
+import { useDatabase } from '../database/database';
 
 export interface CatalogItemProps {
     readonly id: string;
@@ -14,6 +14,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
     const collected = useCollectedItem(id);
     const item = db.items[id];
     const detailLink = '/catalog/' + id;
+    // TODO: move status icons to be vertical next to the icon to save some vertical space
     return (
         <NavLink to={detailLink}>
             {({ isActive }) => (
@@ -35,6 +36,13 @@ interface NameTagProps {
 }
 const NameTag: React.FC<NameTagProps> = ({ name }) => {
     return <div className="name-tag">{name}</div>;
+    // return (
+    //     <svg className="name-tag" viewBox="0 0 240 25">
+    //         <text x="0" y="15">
+    //             {name}
+    //         </text>
+    //     </svg>
+    // );
 };
 
 interface LicenseBarProps {

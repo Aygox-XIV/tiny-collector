@@ -27,6 +27,10 @@ div {
   padding: 1px;
 }
 
+.text-with-tt {
+  text-decoration: dashed underline;
+}
+
 div.content {
   height: 100vh;
   display: grid;
@@ -83,8 +87,15 @@ div.catalog-content {
 }
 
 div.catalog-item {
-  min-height: 180px;
+  min-height: 195px;
   border: 1px solid black;
+  padding: 3px;
+}
+
+.name-tag {
+  width: 100%;
+  overflow-y: visible;
+  max-height: 25px;
 }
 
 .status-icon {
@@ -101,17 +112,17 @@ div.catalog-item {
   border: 1px solid black;
 }
 
-img.item-icon {
+.item-icon {
   height: 150px;
   width: 150px;
 }
 
-div.catalog-item > img.item-icon {
+div.catalog-item > .item-icon {
   height: 100px;
   width: 100px;
 }
 
-div.details-panel > img.item-icon {
+div.details-panel > .item-icon {
   height: 200px;
   width: 200px;
 }
@@ -145,6 +156,29 @@ div.details-panel {
 
 div.details-panel > .status-icons {
   display: grid;
-  grid-template-columns: 25px 25px 25px auto;
+  grid-template-columns: 25px 25px 25px;
   gap: 2px;
+}
+
+div.source-type {
+  display: grid;
+  grid-template-columns: 25px auto;
+  vertical-align: middle;
+}
+
+.source-icon {
+  height: 100%;
+  width: 75%;
+}
+
+div.individual-sources {
+  display: grid;
+  grid-template-columns: auto;
+  padding-left: 20px;
+}
+
+div.single-source {
+  display: grid;
+  /* event icon (opt) - item/recipe icon - fragment icon (opt) - strings */
+  grid-template-columns: 20px 20px 20px auto;
 }
