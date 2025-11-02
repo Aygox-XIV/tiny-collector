@@ -28,8 +28,8 @@ export const SourceList: React.FC<SourceListProps> = ({ sources }) => {
     });
     return (
         <div className="source-list">
-            {Object.values(sourceMap).map((s) => {
-                return <SingleSourceList sources={s} />;
+            {Object.keys(sourceMap).map((t) => {
+                return <SingleSourceList sources={sourceMap[t]} key={t} />;
             })}
             <Tooltip id={SOURCE_TOOLTIP} />
         </div>
@@ -37,6 +37,7 @@ export const SourceList: React.FC<SourceListProps> = ({ sources }) => {
 };
 
 const SingleSourceList: React.FC<SourceListProps> = ({ sources }) => {
+    let i = 0;
     return (
         <div className="single-source-list">
             <div className="source-type">
@@ -45,7 +46,7 @@ const SingleSourceList: React.FC<SourceListProps> = ({ sources }) => {
             </div>
             <div className="individual-sources">
                 {sources.map((s) => {
-                    return <SingleSource source={s} />;
+                    return <SingleSource source={s} key={i++} />;
                 })}
             </div>
         </div>

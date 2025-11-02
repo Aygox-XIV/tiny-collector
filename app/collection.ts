@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { useAppSelector } from './store';
 
 export interface Collection {
@@ -26,18 +26,19 @@ export const collectionSlice = createSlice({
     name: 'collection',
     initialState: { items: {} } as Collection,
     reducers: {
-        load: (state, action) => {
+        load: (state, action: PayloadAction<Collection>) => {
             console.log('load collection');
             state = action.payload;
         },
-        changeStatus: (state, action) => {
-            const args = action.payload as ChangeStatusArgs;
+        changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
+            const args = action.payload;
             if (!state.items[args.id]) {
                 state.items[args.id] = { ...args };
             } else {
                 state.items[args.id] = { ...state.items[args.id], status: args.status };
             }
         },
+        setLicenseAmount: (state, action) => {},
         // TODO: update license amount
         // TODO: toggle to keep crafting even if it's licensed
         // TODO: toggle to craft at all even if it's not licensable

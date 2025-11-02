@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 import rawItemData from '../data/sample-data.json';
 import type { RootState } from '../store';
@@ -51,7 +51,7 @@ export const dbSlice = createSlice({
     name: 'database',
     initialState: initDb(),
     reducers: {
-        reload: (state, action) => {
+        reload: (state, action: PayloadAction<Database>) => {
             console.log('reload');
             state = action.payload;
         },
