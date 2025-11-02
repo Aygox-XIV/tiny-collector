@@ -22,7 +22,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
                 <div className={'catalog-item' + (isActive ? ' active' : '')}>
                     <NameTag name={item.name} />
                     <Icon wiki_path={item.wiki_image_path} />
-                    <StatusIcons status={collected.status} />
+                    <StatusIcons id={id} />
                     {item.license_amount && (
                         <ProgressBar max={item.license_amount} actual={collected.licenceProgress || 0} />
                     )}

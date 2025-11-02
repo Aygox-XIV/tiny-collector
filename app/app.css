@@ -20,7 +20,7 @@ main {
   max-height: 100%;
 }
 
-/* temp */
+/* temp. TODO: apply only to relevant divs */
 div {
   /* border: 1px solid black; */
   border-radius: 5px;
@@ -101,15 +101,15 @@ div.catalog-item {
 .status-icon {
   width: 25px;
   height: 25px;
+  border: 1px solid black;
 }
 
 .status-icons > .selected {
-  color: black;
+  color: seagreen;
 }
 
 .status-icons > .unselected {
-  color: gainsboro;
-  border: 1px solid black;
+  color: dimgray;
 }
 
 .item-icon {
@@ -133,12 +133,8 @@ div.catalog-item > .status-icons {
   gap: 2px;
 }
 
-div.active {
+div.catalog-content div.active {
   border: 2px solid black;
-}
-
-div.catalog-item > a.active {
-  font-weight: bolder;
 }
 
 div.license-bar {

@@ -1,12 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { useSelector } from 'react-redux';
-import type { RootState } from './store';
+import { useAppSelector } from './store';
 
 export interface Collection {
     readonly items: Record<string, CollectedItem>;
 }
 
-export type ItemStatus = 'unseen' | 'seen' | 'licensed';
+export interface ItemStatus {
+    readonly haveRecipe: boolean;
+    readonly licensed: boolean;
+}
 
 export interface CollectedItem {
     readonly id: string;
@@ -37,15 +39,21 @@ export const collectionSlice = createSlice({
             }
         },
         // TODO: update license amount
+        // TODO: toggle to keep crafting even if it's licensed
+        // TODO: toggle to craft at all even if it's not licensable
+        // TODO: maybe a toggle per source? could have some "game state" settings to toggle a bunch of these by default ('active event', etc)
+        // TODO: toggle per alt recipe
     },
 });
 
-export function useCollection(): Collection {
-    return useSelector((state: RootState) => state.collection);
+export const { load, changeStatus } = collectionSlice.actions;
+
+export function useFullCollection(): Collection {
+    return useAppSelector((state) => state.collection);
 }
 
-export function useCollectedItem(id: string) {
-    const collection = useCollection();
+export function useCollectedItem(id: string): CollectedItem {
+    const item = useAppSelector((state) => state.collection.items[id]);
     // TODO: have fake collection data to load, default progress back to 0
-    return collection.items[id] || { id, seen: false, licensed: false, licenceProgress: 50 };
+    return item || { id, status: { haveRecipe: false, licensed: false }, licenceProgress: 50 };
 }

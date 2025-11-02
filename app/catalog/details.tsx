@@ -19,7 +19,7 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
         <div className="details-panel">
             <div className="detail-name">{item.name}</div>
             <Icon wiki_path={item.wiki_image_path} />
-            <StatusIcons status={collection.status} />
+            <StatusIcons id={id} />
             {item.license_amount && (
                 <div className="detail-license-data">
                     <ProgressBar max={item.license_amount} actual={collection?.licenceProgress || 0} />
