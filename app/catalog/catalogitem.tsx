@@ -24,7 +24,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
                     <Icon wiki_path={item.wiki_image_path} />
                     <StatusIcons id={id} />
                     {item.license_amount && (
-                        <ProgressBar max={item.license_amount} actual={collected.licenceProgress || 0} />
+                        <ProgressBar max={item.license_amount} actual={collected.licenseProgress || 0} />
                     )}
                 </div>
             )}
@@ -37,6 +37,8 @@ interface NameTagProps {
 }
 const NameTag: React.FC<NameTagProps> = ({ name }) => {
     return <div className="name-tag">{name}</div>;
+    // TODO: figure out if anything fancy is needed to fit things neatly.
+    // maybe the overflow onto the icon is fine though.
     // return (
     //     <svg className="name-tag" viewBox="0 0 240 25">
     //         <text x="0" y="15">

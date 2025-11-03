@@ -166,6 +166,20 @@ div.license-bar > .progress-text {
   color: white;
 }
 
+div.license-bar .progress-input {
+  background-color: white;
+  color: darkslateblue;
+  border: 1px solid darkslateblue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* does this work everywhere? */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
 div.details-panel {
   max-height: calc(100lvh - 105px);
   overflow-x: auto;

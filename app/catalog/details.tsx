@@ -1,9 +1,9 @@
-import { BiEdit } from 'react-icons/bi';
-import { useCollectedItem } from '../collection';
+import { setLicenseAmount, useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
-import { ProgressBar } from '../common/progressbar';
+import { EditingProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database/database';
+import { useAppDispatch } from '../store';
 import { SourceList } from './sourcelist';
 
 export interface DetailsProps {
@@ -14,7 +14,15 @@ export interface DetailsProps {
 export const Details: React.FC<DetailsProps> = ({ id }) => {
     const db = useDatabase();
     const collection = useCollectedItem(id);
+    const dispatch = useAppDispatch();
     const item = db.items[id];
+
+    // TODO: debounce?
+    const updateLicenseAmount = (newValue: number) => {
+        const clampedValue = Math.max(Math.min(newValue, item.license_amount || newValue), 0);
+        dispatch(setLicenseAmount({ id, amount: clampedValue }));
+    };
+
     return (
         <div className="details-panel">
             <div className="detail-name">{item.name}</div>
@@ -22,8 +30,11 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
             <StatusIcons id={id} />
             {item.license_amount && (
                 <div className="detail-license-data">
-                    <ProgressBar max={item.license_amount} actual={collection?.licenceProgress || 0} />
-                    <BiEdit />
+                    <EditingProgressBar
+                        max={item.license_amount}
+                        actual={collection?.licenseProgress || 0}
+                        edit={updateLicenseAmount}
+                    />
                 </div>
             )}
             {item.source && <SourceList sources={item.source} />}

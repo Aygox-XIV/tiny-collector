@@ -1,5 +1,6 @@
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
-import { changeStatus, useCollectedItem } from '../collection';
+import { changeStatus, setLicenseAmount, useCollectedItem } from '../collection';
+import { useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';
 
 export interface StatusIconProps {
@@ -9,10 +10,16 @@ export interface StatusIconProps {
 export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
     const status = useCollectedItem(id).status;
     const dispatch = useAppDispatch();
+    const dbItem = useDatabase().items[id];
     function toggleRecipe() {
         dispatch(changeStatus({ id, status: { ...status, haveRecipe: !status.haveRecipe } }));
     }
     function toggleLicense() {
+        // It's extremely rare to license an item without having 100% progress, so just max it by default.
+        // (in practice this only happens if the license amount is updated after it has already been licensed)
+        if (!status.licensed && dbItem.license_amount) {
+            dispatch(setLicenseAmount({ id, amount: dbItem.license_amount }));
+        }
         dispatch(changeStatus({ id, status: { ...status, licensed: !status.licensed } }));
     }
 
