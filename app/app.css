@@ -73,6 +73,21 @@ div.catalog {
 
 div.search-bar {
   background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+input.catalog-search {
+  border: 1px solid black;
+  background-color: #94b5ff;
+  width: 80%;
+}
+
+div.catalog-search-content {
+  width: 100%;
 }
 
 div.catalog-content {
@@ -172,6 +187,7 @@ div.license-bar .progress-input {
   border: 1px solid darkslateblue;
   border-radius: 5px;
   text-align: center;
+  height: 20px;
 }
 
 /* does this work everywhere? */

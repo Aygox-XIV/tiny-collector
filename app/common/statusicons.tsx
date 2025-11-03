@@ -23,6 +23,8 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
         dispatch(changeStatus({ id, status: { ...status, licensed: !status.licensed } }));
     }
 
+    // TODO: tooltips/ move them next to the icon stacked vertically
+
     return (
         <div className="status-icons">
             {(!status || !status.haveRecipe) && (

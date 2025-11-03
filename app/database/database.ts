@@ -8,8 +8,8 @@ import type { Source } from './sources';
 
 export interface IdentifiableEntity {
     readonly name: string;
-    // calculated if absent. hash of name by default, XOR with props (recipe, etc) when there's a conflict.
-    readonly id?: number;
+    // maintained/enforced by conversion script
+    readonly id: number;
     // Path relative to https://static.wikia.nocookie.net/tiny-shop/images/ that has this item's image
     readonly wiki_image_path?: string;
     readonly source?: Source[];
@@ -64,6 +64,7 @@ function initDb() {
     const db = createDB(rawItemData as ItemData);
     return db;
     // below needs to get the scheme+authority from somewhere to work, or run from clientLoader().
+    // may not be needed, depending on how it'll be hosted/served?
     // const rawItemData = await fetch("/sample-data.json").then(r => r.json()) as ItemData;
 }
 
@@ -76,24 +77,13 @@ function createDB(itemData: ItemData): Database {
     let alt_recipes: AltRecipe[] = [];
 
     itemData.items.forEach((i) => {
-        const [conflict, id] = getId(items, i);
-        items[id] = { ...i, id };
+        items[i.id] = i;
     });
 
     itemData.alt_recipes.forEach((r) => {
-        const [conflict, id] = getId(items, r);
-        alt_recipes.push({ ...r, id });
+        alt_recipes.push(r);
     });
     console.log('created db: ' + Object.keys(items).length + ' items');
 
     return { items, alt_recipes };
-}
-
-function getId(items: ItemDB, item: IdentifiableEntity): [conflict: boolean, id: number] {
-    if (!!item.id) {
-        return [false, item.id];
-    }
-    // how to get the crypto module to work to make a hash???
-    // could make the conversion script do it instead I guess.
-    return [false, -1];
 }
