@@ -1,0 +1,46 @@
+{
+  "catalogs": [
+    {
+      "key": "catalog",
+      "name": "Catalog",
+      "icon": "catalog_main.png",
+      "items": ["1", "2", "3", "4", "5"]
+    },
+    {
+      "key": "catalogMats",
+      "name": "Catalog (Materials)",
+      "icon": "catalog_materials.png",
+      "items": ["1", "2", "3", "6", "7"]
+    },
+    {
+      "key": "catalogCons",
+      "name": "Catalog (Consumables)",
+      "icon": "catalog_consumable.png",
+      "items": ["4", "8", "9", "0"]
+    },
+    {
+      "key": "catalogGear",
+      "name": "Catalog (Gear)",
+      "icon": "catalog_gear.png",
+      "items": ["5", "1", "2"]
+    },
+    {
+      "key": "catalogSpec",
+      "name": "Catalog (Special)",
+      "icon": "catalog_quest.png",
+      "items": ["9", "2", "1"]
+    },
+    {
+      "key": "floodEx",
+      "name": "Flooded Expedition",
+      "icon": "catalog_fe.png",
+      "items": ["3", "4", "5"]
+    },
+    {
+      "key": "sunFes",
+      "name": "Sun Festival",
+      "icon": "catalog_sf.png",
+      "items": ["6", "7", "8"]
+    }
+  ]
+}

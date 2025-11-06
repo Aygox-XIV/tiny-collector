@@ -1,5 +1,6 @@
 import type { ChangeEvent } from 'react';
-import { useDatabase, type Item } from '../database/database';
+import { useFullCollection } from '../collection';
+import { useDatabase } from '../database/database';
 import { CatalogItem } from './catalogitem';
 import { itemMatchesFilter, useCatalogFilter } from './filtercontext';
 
@@ -8,12 +9,18 @@ export interface CatalogProps {}
 export const Catalog: React.FC<CatalogProps> = ({}) => {
     const db = useDatabase();
     const [filter, setFilter] = useCatalogFilter();
-    // TODO: order properly?
-    const allItems = db.items || {};
-    let filteredItems: Item[] = [];
-    Object.keys(allItems).forEach((id) => {
-        if (itemMatchesFilter(allItems[id], filter)) {
-            filteredItems.push(allItems[id]);
+    const collection = useFullCollection();
+    // TODO: pick wich collection of items to iterate over based on filter.catalogView
+    let itemIds: string[];
+    if (filter.catalogView && db.catalogs[filter.catalogView]) {
+        itemIds = db.catalogs[filter.catalogView].items;
+    } else {
+        itemIds = Object.keys(db.items || {});
+    }
+    let filteredItems: string[] = [];
+    itemIds.forEach((id) => {
+        if (itemMatchesFilter(db.items[id], collection.items[id], filter)) {
+            filteredItems.push(id);
         }
     });
     // TODO: debounce if it's too slow with all data?
@@ -34,8 +41,8 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                 </div>
             </div>
             <div className="catalog-content">
-                {filteredItems.map((item) => {
-                    return <CatalogItem id={item.id.toString()} key={item.id} />;
+                {filteredItems.map((id) => {
+                    return <CatalogItem id={id.toString()} key={id} />;
                 })}
             </div>
         </div>
