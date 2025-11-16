@@ -28,13 +28,8 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
         if (filter.licenseFilter == 'licensable' && !item.license_amount) {
             return false;
         }
-        if (filter.licenseFilter == 'unlicensed') {
-            if (!item.license_amount) {
-                return false;
-            }
-            if ((collection.licenseProgress || 0) >= item.license_amount) {
-                return false;
-            }
+        if (filter.licenseFilter == 'unlicensed' && (!item.license_amount || collection?.status?.licensed)) {
+            return false;
         }
     }
     if (filter.hiddenCategories?.has(item.category)) {

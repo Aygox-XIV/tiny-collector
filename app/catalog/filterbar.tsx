@@ -4,7 +4,7 @@ import { FaSeedling } from 'react-icons/fa';
 import { FaShield } from 'react-icons/fa6';
 import { GiOre, GiPotionBall } from 'react-icons/gi';
 import { useDatabase, type CatalogType, type Category } from '../database/database';
-import { useCatalogFilter } from './filtercontext';
+import { useCatalogFilter, type LicenseFilter } from './filtercontext';
 
 export interface CatalogFilterBarProps {}
 
@@ -21,7 +21,12 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
         }
     };
 
+    const setLicenseFilter = function (lf: LicenseFilter) {
+        setFilter({ ...filter, licenseFilter: lf });
+    };
+
     // TODO: find better icons once react-icons is back online
+    // TODO: update allowed categories dynamically based on actual items in the category
     let allowedCategories: Set<Category> | undefined = new Set(['Material', 'Gear', 'Consumables']);
     if (filter.catalogView) {
         // Quest items can't be filtered
@@ -51,6 +56,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
             </div>
             {allowedCategories && (
                 <div className="item-type-selection">
+                    <br />
                     Item categories:
                     <div className="item-category-selection">
                         {allowedCategories.has('Material') && <CategorySelectionIcon category="Material" />}
@@ -60,7 +66,42 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                     </div>
                 </div>
             )}
-            <div className="collection-selection">coll options</div>
+            <div className="collection-selection">
+                <br />
+                <div>
+                    <input
+                        type="radio"
+                        name="collection-select"
+                        id="all"
+                        onSelect={() => setLicenseFilter('none')}
+                        onClick={() => setLicenseFilter('none')}
+                        checked={!filter.licenseFilter || filter.licenseFilter == 'none'}
+                    />
+                    <label htmlFor="all"> All items</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="collection-select"
+                        id="licensable"
+                        onSelect={() => setLicenseFilter('licensable')}
+                        onClick={() => setLicenseFilter('licensable')}
+                        checked={filter.licenseFilter == 'licensable'}
+                    />
+                    <label htmlFor="licensable"> Licensable only</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="collection-select"
+                        id="unlicensed"
+                        onSelect={() => setLicenseFilter('unlicensed')}
+                        onClick={() => setLicenseFilter('unlicensed')}
+                        checked={filter.licenseFilter == 'unlicensed'}
+                    />
+                    <label htmlFor="unlicensed"> Unlicensed only</label>
+                </div>
+            </div>
         </div>
     );
 };
