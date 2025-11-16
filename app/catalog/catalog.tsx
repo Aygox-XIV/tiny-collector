@@ -10,8 +10,8 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     const db = useDatabase();
     const [filter, setFilter] = useCatalogFilter();
     const collection = useFullCollection();
-    // TODO: pick wich collection of items to iterate over based on filter.catalogView
     let itemIds: string[];
+    // TODO: display catalog name somewhere
     if (filter.catalogView && db.catalogs[filter.catalogView]) {
         itemIds = db.catalogs[filter.catalogView].items;
     } else {
@@ -36,6 +36,12 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     return (
         <div className="catalog">
             <div className="catalog-search search-bar">
+                {filter.catalogView && (
+                    <div className="catalog-name">
+                        <img className="catalog-icon" src={db.catalogs[filter.catalogView].icon} />
+                        {db.catalogs[filter.catalogView].name}
+                    </div>
+                )}
                 <div className="catalog-search-content">
                     Filter by name: <input className="catalog-search" onChange={updateFilter} />
                 </div>

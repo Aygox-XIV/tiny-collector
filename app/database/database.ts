@@ -7,6 +7,8 @@ import type { Source } from './sources';
 
 /// raw data
 
+export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' | 'Plant';
+
 export interface IdentifiableEntity {
     readonly name: string;
     // maintained/enforced by conversion script
@@ -22,6 +24,7 @@ export interface ItemData {
 }
 
 export interface Item extends IdentifiableEntity {
+    readonly category: Category;
     readonly recipe?: Recipe;
     readonly alt_recipe?: string;
     readonly license_amount?: number;

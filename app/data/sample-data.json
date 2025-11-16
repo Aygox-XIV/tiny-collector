@@ -3,6 +3,7 @@
     {
       "name": "Builtin Perfected Rubber Ducky",
       "id": 1,
+      "category": "Gear",
       "recipe": {
         "ingredient": [
           { "name": "Slime Extract", "quantity": 2 },
@@ -60,6 +61,7 @@
     {
       "name": "Fire Shield",
       "id": 2,
+      "category": "Gear",
       "recipe": {
         "ingredient": [
           { "name": "Iron Shield", "quantity": 1 },
@@ -82,6 +84,7 @@
     {
       "name": "Iron Shield",
       "id": 3,
+      "category": "Gear",
       "recipe": {
         "ingredient": [{ "name": "Iron", "quantity": 5 }],
         "craft_amount": 1
@@ -101,6 +104,7 @@
     {
       "name": "Fire Extract",
       "id": 4,
+      "category": "Consumables",
       "recipe": {
         "ingredient": [
           { "name": "Purified Water", "quantity": 3 },
@@ -124,6 +128,7 @@
     {
       "name": "Standard Catalyst",
       "id": 5,
+      "category": "Material",
       "recipe": {
         "ingredient": [
           { "name": "Summer Glory", "quantity": 1 },
@@ -149,6 +154,7 @@
     {
       "name": "Slime Extract",
       "id": 6,
+      "category": "Material",
       "source": [
         {
           "kind": "item",
@@ -161,6 +167,7 @@
     {
       "name": "Anthracite",
       "id": 7,
+      "category": "Material",
       "source": [
         {
           "kind": "item",
@@ -173,6 +180,7 @@
     {
       "name": "Summer Glory",
       "id": 8,
+      "category": "Material",
       "wiki_image_path": "e/eb/Summer_Glory.png",
       "source": [
         {
@@ -186,6 +194,7 @@
     {
       "name": "Iron",
       "id": 9,
+      "category": "Material",
       "wiki_image_path": "4/45/Iron.png",
       "source": [
         {
@@ -199,6 +208,7 @@
     {
       "name": "Purified Water",
       "id": 10,
+      "category": "Material",
       "wiki_image_path": "3/30/Purified_Water.png",
       "source": [
         {
@@ -212,6 +222,7 @@
     {
       "name": "Blue Tower",
       "id": 11,
+      "category": "Material",
       "wiki_image_path": "8/8a/Blue_Tower.png",
       "source": [
         {
@@ -225,6 +236,7 @@
     {
       "name": "Puff Flower",
       "id": 12,
+      "category": "Material",
       "wiki_image_path": "1/1c/Puff_Flower.png",
       "source": [
         {
@@ -239,6 +251,7 @@
     {
       "name": "Blank Scroll Sheets",
       "id": 14,
+      "category": "Consumables",
       "recipe": {
         "ingredient": [{ "name": "Everspring Leaves", "quantity": 4 }],
         "craft_amount": 2
@@ -250,6 +263,7 @@
     {
       "name": "Everspring Leaves",
       "id": 15,
+      "category": "Material",
       "source": [
         {
           "kind": "item",
@@ -262,6 +276,7 @@
     {
       "name": "Mana Draught",
       "id": 16,
+      "category": "Consumables",
       "recipe": {
         "ingredient": [{ "name": "Blue Tower", "quantity": 2 }],
         "craft_amount": 4
@@ -271,6 +286,7 @@
     {
       "name": "Everwood",
       "id": 17,
+      "category": "Material",
       "wiki_image_path": "0/00/Everwood.png",
       "source": [
         {
@@ -284,6 +300,7 @@
     {
       "name": "Firebloom Leaves",
       "id": 18,
+      "category": "Material",
       "wiki_image_path": "c/cb/Firebloom_Leaves.png",
       "source": [
         {

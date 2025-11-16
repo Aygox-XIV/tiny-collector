@@ -61,18 +61,32 @@ div.catalog-view {
 
 div.catalog-filter {
   max-height: calc(100lvh - 105px);
-  background-color: darkturquoise;
+  background-color: rgb(187, 156, 119);
+  margin: 1px;
+}
+
+div.catalog-type-selection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img.catalog-icon {
+  padding: 1px;
+}
+
+div.catalog-type-selection > img.selected {
+  border: 2px solid black;
 }
 
 div.catalog {
   display: grid;
   grid-template-rows: 50px auto;
   max-height: calc(100vh - 105px);
-  background-color: aquamarine;
+  background-color: bisque;
 }
 
 div.search-bar {
-  background-color: cornflowerblue;
+  background-color: rgb(187, 156, 119);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,9 +94,20 @@ div.search-bar {
   width: 100%;
 }
 
+div.catalog-name {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.catalog-name > img.catalog-icon {
+  height: 40px;
+}
+
 input.catalog-search {
   border: 1px solid black;
-  background-color: #94b5ff;
+  background-color: rgb(215, 180, 137);
   width: 80%;
 }
 
