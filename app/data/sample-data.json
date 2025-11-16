@@ -247,7 +247,7 @@
         }
       ]
     },
-    { "name": "Spices", "id": 13 },
+    { "name": "Spices", "id": 13, "category": "Material" },
     {
       "name": "Blank Scroll Sheets",
       "id": 14,

@@ -48,13 +48,16 @@ export interface CatalogList {
     readonly catalogs: CatalogDef[];
 }
 
+export type CatalogType = 'catalog' | 'catalogSpec' | 'floodEx' | 'sunFes' | 'phantom' | 'evercold';
+
 export interface CatalogDef {
-    readonly key: string;
+    readonly key: CatalogType;
     // display name
     readonly name: string;
     // TODO: make icons their own type, with local & wiki & elsewhere options?
     readonly icon: string;
     // IDs only. TODO: name+id for manual management?
+    // TODO: allow "empty" slots to better simulate autolog positioning
     readonly items: string[];
 }
 
@@ -68,7 +71,7 @@ export interface Database {
     // Keyed by name
     readonly alt_recipes: Record<string, AltRecipe>;
     // keyed by catalog-specific key string
-    readonly catalogs: Record<string, CatalogDef>;
+    readonly catalogs: Record<CatalogType, CatalogDef>;
 }
 
 export const dbSlice = createSlice({

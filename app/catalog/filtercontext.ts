@@ -1,14 +1,14 @@
 import { createContext, useContext, type Dispatch, type SetStateAction } from 'react';
 import type { CollectedItem } from '../collection';
-import type { Category, Item } from '../database/database';
+import type { CatalogType, Category, Item } from '../database/database';
 
 export type LicenseFilter = 'none' | 'licensable' | 'unlicensed';
 
 export interface CatalogFilter {
     // Which catalog to view
-    readonly catalogView?: string;
-    // Which categories of item to view
-    readonly categoryFilter?: Set<Category>;
+    readonly catalogView?: CatalogType;
+    // Which categories of item to HIDE
+    readonly hiddenCategories?: Set<Category>;
     // everything in the view, only licensable, or only not-yet-licensed
     readonly licenseFilter?: LicenseFilter;
     // value of the search bar
@@ -37,7 +37,7 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
             }
         }
     }
-    if (filter.categoryFilter && !filter.categoryFilter.has(item.category)) {
+    if (filter.hiddenCategories?.has(item.category)) {
         return false;
     }
     if (filter.nameMatch && !item.name.toLowerCase().match(filter.nameMatch)) {

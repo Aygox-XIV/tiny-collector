@@ -78,6 +78,23 @@ div.catalog-type-selection > img.selected {
   border: 2px solid black;
 }
 
+div.item-category-selection {
+  display: flex;
+}
+
+.category-selection {
+  width: 50px;
+  height: 30px;
+}
+
+.item-category-selection > .selected {
+  color: red;
+}
+
+.item-category-selection > .unselected {
+  color: green;
+}
+
 div.catalog {
   display: grid;
   grid-template-rows: 50px auto;
