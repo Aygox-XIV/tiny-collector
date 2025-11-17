@@ -8,6 +8,7 @@ interface MenuItemProps {
 
 /** element in the catalog list */
 const MenuItem: React.FC<MenuItemProps> = ({ text, url }) => {
+    // TODO: make selection target larger
     return (
         <div className="menu-item">
             <NavLink to={url}>{text}</NavLink>
@@ -20,6 +21,8 @@ export const MenuBar: React.FC = () => {
         <div className="menu-bar">
             <MenuItem text="Catalog" url="/catalog" />
             <MenuItem text="License Calculator" url="/license" />
+            <MenuItem text="Checklist" url="/checklist" />
+            <MenuItem text="Data management" url="/settings" />
         </div>
     );
 };

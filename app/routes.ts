@@ -13,5 +13,7 @@ export default [
             // filters are controlled by query params
             index('license/view.tsx'),
         ]),
+        route('checklist', 'checklist/view.tsx'),
+        route('settings', 'settings/view.tsx'),
     ]),
 ] satisfies RouteConfig;

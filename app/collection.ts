@@ -7,8 +7,11 @@ export interface Collection {
 }
 
 export interface ItemStatus {
-    readonly haveRecipe: boolean;
-    readonly licensed: boolean;
+    // For craftable/sellable items
+    readonly haveRecipe?: boolean;
+    readonly licensed?: boolean;
+    // For decor, quest items, etc
+    readonly collected?: boolean;
 }
 
 export interface CollectedItem {
@@ -33,9 +36,9 @@ export const collectionSlice = createSlice({
     initialState: { items: {} } as Collection,
     reducers: {
         load: (state, action: PayloadAction<Collection>) => {
-            console.log('Loaded: ' + JSON.stringify(action.payload));
             state.items = action.payload.items;
             state.initialized = true;
+            console.log('Loaded: ' + Object.keys(action.payload.items).length + ' items from localStorage');
         },
         changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
             const args = action.payload;
@@ -62,15 +65,17 @@ export const collectionSlice = createSlice({
     },
 });
 
+const COLLECTION_STORAGE_KEY = 'tiny-collector.Collection';
+
 function saveCollection(coll: Collection) {
     // TODO: compress, probably (max is 5MB; might be enough, but will still depend on read/write speed).
     // TODO: add a rate limiter, at least for when the license amount input gets edited (cheap option: only save on focus lost?)
     // optional: optimize collection state format (e.g. at some point, it'll be cheaper to switch the default)
-    localStorage.setItem('tiny-collector.Collection', JSON.stringify(coll));
+    localStorage.setItem(COLLECTION_STORAGE_KEY, JSON.stringify(coll));
 }
 
 export function loadCollection(): Collection {
-    return JSON.parse(localStorage.getItem('tiny-collector.Collection') || '{ "items": {}}') as Collection;
+    return JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY) || '{ "items": {}}') as Collection;
     // TODO: sanitize?
 }
 

@@ -74,6 +74,22 @@ export interface Database {
     readonly catalogs: Record<CatalogType, CatalogDef>;
 }
 
+// Whether a single 'collected' state should be tracked instead of recipe+license
+export function isCollectable(item: Item) {
+    switch (item.category) {
+        case 'Decor':
+        case 'Quest':
+            return true;
+        case 'Consumables':
+        case 'Gear':
+        case 'Material':
+            return !item.license_amount;
+        case 'Plant':
+            // TODO: figure out how to represent now-this-can-be-bought-from-Lily
+            return false;
+    }
+}
+
 export const dbSlice = createSlice({
     name: 'database',
     initialState: initDb(),

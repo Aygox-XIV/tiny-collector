@@ -1,6 +1,7 @@
+import { IoCheckmark, IoCheckmarkDone } from 'react-icons/io5';
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
 import { changeStatus, setLicenseAmount, useCollectedItem } from '../collection';
-import { useDatabase } from '../database/database';
+import { isCollectable, useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';
 
 export interface StatusIconProps {
@@ -22,6 +23,9 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
         }
         dispatch(changeStatus({ id, status: { ...status, licensed: !status.licensed } }));
     }
+    function toggleCollected() {
+        dispatch(changeStatus({ id, status: { ...status, collected: !status.collected } }));
+    }
 
     // TODO: tooltips/ move them next to the icon stacked vertically
     // TODO: markers for no-recipe & unlicensable items?
@@ -39,6 +43,12 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
             )}
             {status?.licensed && dbItem.license_amount && (
                 <TbLicense className="status-icon selected" onClick={toggleLicense} />
+            )}
+            {isCollectable(dbItem) && !status?.collected && (
+                <IoCheckmark className="status-icon unselected" onClick={toggleCollected} />
+            )}
+            {isCollectable(dbItem) && status?.collected && (
+                <IoCheckmarkDone className="status-icon selected" onClick={toggleCollected} />
             )}
         </div>
     );
