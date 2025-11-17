@@ -24,17 +24,22 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
     }
 
     // TODO: tooltips/ move them next to the icon stacked vertically
+    // TODO: markers for no-recipe & unlicensable items?
 
     return (
         <div className="status-icons">
-            {(!status || !status.haveRecipe) && (
+            {(!status || !status.haveRecipe) && dbItem.recipe && (
                 <TbChefHatOff className="status-icon unselected" onClick={toggleRecipe} />
             )}
-            {status && status.haveRecipe && <TbChefHat className="status-icon selected" onClick={toggleRecipe} />}
-            {(!status || !status.licensed) && (
+            {status?.haveRecipe && dbItem.recipe && (
+                <TbChefHat className="status-icon selected" onClick={toggleRecipe} />
+            )}
+            {(!status || !status.licensed) && dbItem.license_amount && (
                 <TbLicenseOff className="status-icon unselected" onClick={toggleLicense} />
             )}
-            {status && status.licensed && <TbLicense className="status-icon selected" onClick={toggleLicense} />}
+            {status?.licensed && dbItem.license_amount && (
+                <TbLicense className="status-icon selected" onClick={toggleLicense} />
+            )}
         </div>
     );
 };

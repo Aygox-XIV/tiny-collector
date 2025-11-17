@@ -3,6 +3,7 @@ import { useAppSelector } from './store';
 
 export interface Collection {
     readonly items: Record<string, CollectedItem>;
+    readonly initialized?: boolean;
 }
 
 export interface ItemStatus {
@@ -32,8 +33,9 @@ export const collectionSlice = createSlice({
     initialState: { items: {} } as Collection,
     reducers: {
         load: (state, action: PayloadAction<Collection>) => {
-            state = action.payload;
-            // TODO: use clientLoader to read from local storage & call this
+            console.log('Loaded: ' + JSON.stringify(action.payload));
+            state.items = action.payload.items;
+            state.initialized = true;
         },
         changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
             const args = action.payload;
@@ -42,7 +44,7 @@ export const collectionSlice = createSlice({
             } else {
                 state.items[args.id] = { ...state.items[args.id], status: args.status };
             }
-            // TODO: save to local storage
+            saveCollection(state);
         },
         setLicenseAmount: (state, action: PayloadAction<SetLicenceAmountArgs>) => {
             const args = action.payload;
@@ -51,7 +53,7 @@ export const collectionSlice = createSlice({
             } else {
                 state.items[args.id] = { ...state.items[args.id], licenseProgress: args.amount };
             }
-            // TODO: save to local storage
+            saveCollection(state);
         },
         // TODO: toggle to keep crafting even if it's licensed
         // TODO: toggle to craft at all even if it's not licensable
@@ -60,15 +62,30 @@ export const collectionSlice = createSlice({
     },
 });
 
+function saveCollection(coll: Collection) {
+    // TODO: compress, probably (max is 5MB; might be enough, but will still depend on read/write speed).
+    // TODO: add a rate limiter, at least for when the license amount input gets edited (cheap option: only save on focus lost?)
+    // optional: optimize collection state format (e.g. at some point, it'll be cheaper to switch the default)
+    localStorage.setItem('tiny-collector.Collection', JSON.stringify(coll));
+}
+
+export function loadCollection(): Collection {
+    return JSON.parse(localStorage.getItem('tiny-collector.Collection') || '{ "items": {}}') as Collection;
+    // TODO: sanitize?
+}
+
 function defaultCollectionState(id: string): CollectedItem {
-    // TODO: have fake collection data to load, default progress back to 0
-    return { id, status: { haveRecipe: false, licensed: false }, licenseProgress: 50 };
+    return { id, status: { haveRecipe: false, licensed: false }, licenseProgress: 0 };
 }
 
 export const { load, changeStatus, setLicenseAmount } = collectionSlice.actions;
 
 export function useFullCollection(): Collection {
     return useAppSelector((state) => state.collection);
+}
+
+export function useCollectionInitialized(): boolean {
+    return useAppSelector((state) => state?.collection?.initialized || false);
 }
 
 export function useCollectedItem(id: string): CollectedItem {

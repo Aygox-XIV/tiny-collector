@@ -47,6 +47,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                     const key: CatalogType = rawKey as CatalogType;
                     return (
                         <img
+                            key={rawKey}
                             src={db.catalogs[key].icon}
                             className={'catalog-icon' + selectedClass(filter.catalogView === key)}
                             onClick={() => setCatalog(key)}
@@ -76,6 +77,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                         onSelect={() => setLicenseFilter('none')}
                         onClick={() => setLicenseFilter('none')}
                         checked={!filter.licenseFilter || filter.licenseFilter == 'none'}
+                        readOnly
                     />
                     <label htmlFor="all"> All items</label>
                 </div>
@@ -87,6 +89,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                         onSelect={() => setLicenseFilter('licensable')}
                         onClick={() => setLicenseFilter('licensable')}
                         checked={filter.licenseFilter == 'licensable'}
+                        readOnly
                     />
                     <label htmlFor="licensable"> Licensable only</label>
                 </div>
@@ -98,6 +101,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                         onSelect={() => setLicenseFilter('unlicensed')}
                         onClick={() => setLicenseFilter('unlicensed')}
                         checked={filter.licenseFilter == 'unlicensed'}
+                        readOnly
                     />
                     <label htmlFor="unlicensed"> Unlicensed only</label>
                 </div>

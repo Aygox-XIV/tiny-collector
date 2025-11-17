@@ -86,6 +86,7 @@ export const dbSlice = createSlice({
 });
 
 function initDb() {
+    // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
     console.log('yield new db');
     // TODO: allow data to be split up for easier (manual) management
     const db = createDB(rawItemData as ItemData, rawCatalogData as CatalogList);
