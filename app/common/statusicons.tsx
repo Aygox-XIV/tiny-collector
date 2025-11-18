@@ -1,6 +1,6 @@
 import { IoCheckmark, IoCheckmarkDone } from 'react-icons/io5';
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
-import { changeStatus, setLicenseAmount, useCollectedItem } from '../collection';
+import { changeStatus, useCollectedItem } from '../collection';
 import { isCollectable, useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';
 
@@ -16,11 +16,10 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
         dispatch(changeStatus({ id, status: { ...status, haveRecipe: !status.haveRecipe } }));
     }
     function toggleLicense() {
-        // It's extremely rare to license an item without having 100% progress, so just max it by default.
+        // Since i's extremely rare to license an item without having 100% progress, the license amount could be maxed.
         // (in practice this only happens if the license amount is updated after it has already been licensed)
-        if (!status.licensed && dbItem.license_amount) {
-            dispatch(setLicenseAmount({ id, amount: dbItem.license_amount }));
-        }
+        // However, just let the displayed license amount for licensed items be the max instead so we can cheaply
+        // guard against misclicks.
         dispatch(changeStatus({ id, status: { ...status, licensed: !status.licensed } }));
     }
     function toggleCollected() {

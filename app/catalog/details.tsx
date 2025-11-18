@@ -32,7 +32,8 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
                 <div className="detail-license-data">
                     <EditingProgressBar
                         max={item.license_amount}
-                        actual={collection?.licenseProgress || 0}
+                        actual={collection.licenseProgress}
+                        autoMax={collection.status.licensed}
                         edit={updateLicenseAmount}
                     />
                 </div>

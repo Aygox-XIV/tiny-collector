@@ -15,6 +15,7 @@ export interface ItemStatus {
 }
 
 export interface CollectedItem {
+    // TODO: needed? or just duplicate?
     readonly id: string;
     readonly status: ItemStatus;
     readonly licenseProgress?: number;
@@ -38,7 +39,7 @@ export const collectionSlice = createSlice({
         load: (state, action: PayloadAction<Collection>) => {
             state.items = action.payload.items;
             state.initialized = true;
-            console.log('Loaded: ' + Object.keys(action.payload.items).length + ' items from localStorage');
+            console.log('Loaded: ' + Object.keys(action.payload.items).length + ' items with a collection status');
         },
         changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
             const args = action.payload;
@@ -68,19 +69,26 @@ export const collectionSlice = createSlice({
 const COLLECTION_STORAGE_KEY = 'tiny-collector.Collection';
 
 function saveCollection(coll: Collection) {
-    // TODO: compress, probably (max is 5MB; might be enough, but will still depend on read/write speed).
+    // TODO: compress, probably (max is 5MB; probably enough, but will still depend on read/write speed).
     // TODO: add a rate limiter, at least for when the license amount input gets edited (cheap option: only save on focus lost?)
-    // optional: optimize collection state format (e.g. at some point, it'll be cheaper to switch the default)
+    // optional: optimize collection state format (e.g. at some point, it may be cheaper to switch some defaults?)
     localStorage.setItem(COLLECTION_STORAGE_KEY, JSON.stringify(coll));
 }
 
 export function loadCollection(): Collection {
-    return JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY) || '{ "items": {}}') as Collection;
+    return parseCollection(localStorage.getItem(COLLECTION_STORAGE_KEY));
+}
+
+export function parseCollection(data?: string | undefined | null): Collection {
+    if (!data) {
+        return { items: {} };
+    }
+    return JSON.parse(data) as Collection;
     // TODO: sanitize?
 }
 
 function defaultCollectionState(id: string): CollectedItem {
-    return { id, status: { haveRecipe: false, licensed: false }, licenseProgress: 0 };
+    return { id, status: {} };
 }
 
 export const { load, changeStatus, setLicenseAmount } = collectionSlice.actions;

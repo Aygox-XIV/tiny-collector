@@ -24,7 +24,11 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
                     <Icon wiki_path={item.wiki_image_path} />
                     <StatusIcons id={id} />
                     {item.license_amount && (
-                        <ProgressBar max={item.license_amount} actual={collected.licenseProgress || 0} />
+                        <ProgressBar
+                            max={item.license_amount}
+                            actual={collected.licenseProgress}
+                            autoMax={collected.status.licensed}
+                        />
                     )}
                 </div>
             )}

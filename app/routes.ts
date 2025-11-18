@@ -9,7 +9,7 @@ export default [
             route(':iid', 'catalog/item-view.tsx'),
         ]),
         ...prefix('license', [
-            // /calc : license calculator view
+            // /license : license calculator view
             // filters are controlled by query params
             index('license/view.tsx'),
         ]),
