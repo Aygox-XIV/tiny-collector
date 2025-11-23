@@ -8,6 +8,7 @@ import { ChecklistTypeFilterBar } from './typefilter';
 
 export default function ChecklistView({ params, matches }: Route.ComponentProps) {
     const filterContext = useState<SourceFilter>({});
+    // TODO: move all filter contexts to the top level so their state persists when switching views
     return (
         <div className="checklist-view">
             <SourceFilterContext value={filterContext}>

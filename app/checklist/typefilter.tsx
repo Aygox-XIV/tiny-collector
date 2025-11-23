@@ -38,46 +38,7 @@ const SourceTypeSelector: React.FC<SourceTypeProps> = ({ type }) => {
                 type={type}
                 extraClasses={'toggle-select-icon ' + (filter.hiddenTypes?.has(type) ? 'unselected' : 'selected')}
             />{' '}
-            {readableName(type)}
+            {type}
         </div>
     );
 };
-
-function readableName(t: SourceType): string {
-    switch (t) {
-        case SourceType.Battle:
-            return 'Battles';
-        case SourceType.Boutique:
-            return 'Boutique';
-        case SourceType.City:
-            return 'City';
-        case SourceType.Combine:
-            return 'Combining';
-        case SourceType.EventMarket:
-            return 'Event Markets';
-        case SourceType.Feat:
-            return 'Feats';
-        case SourceType.Harvest:
-            return 'Harvesting';
-        case SourceType.Journey:
-            return 'Journeys';
-        case SourceType.Market:
-            return 'Material Market';
-        case SourceType.MissionReward:
-            return 'Mission Rewards';
-        case SourceType.Outpost:
-            return 'Outposts';
-        case SourceType.PremiumPack:
-            return 'Premium Packs';
-        case SourceType.Shifty:
-            return 'Shifty';
-        case SourceType.ShopLevel:
-            return 'Shop Level';
-        case SourceType.Task:
-            return 'Tasks';
-        case SourceType.TaskChest:
-            return 'Task Chests';
-        default:
-            return 'untyped ' + t;
-    }
-}

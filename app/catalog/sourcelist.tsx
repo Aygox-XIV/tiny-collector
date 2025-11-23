@@ -1,21 +1,21 @@
-import { BsSun } from 'react-icons/bs';
-import { FaRegSnowflake } from 'react-icons/fa6';
-import { GiPumpkin } from 'react-icons/gi';
+import { BsThreeDots } from 'react-icons/bs';
 import { HiPuzzlePiece } from 'react-icons/hi2';
 import { LuScrollText } from 'react-icons/lu';
-import { PiWaves } from 'react-icons/pi';
 import { TbMoneybag } from 'react-icons/tb';
 import { NavLink } from 'react-router';
 import { Tooltip } from 'react-tooltip';
+import { EventIcon } from '../common/eventicon';
 import { SourceTypeIcon } from '../common/sourceicon';
-import { EventType, SourceType, type Source } from '../database/sources';
+import { SourceName } from '../common/sourcename';
+import { sourceId } from '../database/database';
+import { getEventCategory, type Source } from '../database/sources';
 
 export interface SourceListProps {
     sources: Source[];
 }
 
 interface SourceMap extends Record<string, Source[]> {}
-const SOURCE_TOOLTIP = 'source-tt';
+export const SOURCE_TOOLTIP = 'source-tt';
 
 /** Details panel */
 export const SourceList: React.FC<SourceListProps> = ({ sources }) => {
@@ -59,168 +59,17 @@ interface SingleSourceProps {
 const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
     return (
         <div className={'single-source ' + source.type}>
-            <EventIcon type={source.subtype} />
+            <EventIcon type={getEventCategory(source)} tooltipId={SOURCE_TOOLTIP} />
             <KindIcon kind={source.kind} />
             <FragmentIcon fragment={source.fragment} />
             <div className="source-name">
-                <SourceName source={source} />
+                <SourceName source={source} tooltipId={SOURCE_TOOLTIP} />
             </div>
+            <NavLink to={'/checklist/' + sourceId(source)}>
+                <BsThreeDots />
+            </NavLink>
         </div>
     );
-};
-
-const SourceName: React.FC<SingleSourceProps> = ({ source }) => {
-    switch (source.type) {
-        case SourceType.Battle:
-            return (
-                <div data-tooltip-id={SOURCE_TOOLTIP} data-tooltip-content="Enemy name" data-tooltip-place="top-start">
-                    {source.name}
-                </div>
-            );
-        case SourceType.Boutique:
-            return <div>Buy from the Boutique using Gems</div>;
-        case SourceType.City:
-            return (
-                <div>
-                    {source.subtype} at {source.name}
-                </div>
-            );
-        case SourceType.Combine:
-            return (
-                <div
-                    data-tooltip-id={SOURCE_TOOLTIP}
-                    data-tooltip-content="Combine fragments for this item"
-                    data-tooltip-place="top-start"
-                >
-                    <NavLink to={'/catalog/' + source.id}>{source.name}</NavLink>
-                </div>
-            );
-        case SourceType.EventMarket:
-            return <div>Buy from the {source.subtype} event market.</div>;
-        case SourceType.Feat:
-            return (
-                <div
-                    data-tooltip-id={SOURCE_TOOLTIP}
-                    data-tooltip-content={'Feat category: ' + source.subtype}
-                    data-tooltip-place="top-start"
-                >
-                    Reward for level {source.level} of {source.name}
-                </div>
-            );
-        case SourceType.Harvest:
-            return <div>{source.name}</div>;
-        case SourceType.Journey:
-            return <div>{source.name}</div>;
-        case SourceType.Market:
-            return <div>Buy from the Materials tab in the standard Market</div>;
-        case SourceType.MissionReward:
-            return <div>Complete "{source.name}"</div>;
-        case SourceType.Outpost:
-            return (
-                <div>
-                    {source.subtype} at <OutpostDescription type={source.name} />
-                </div>
-            );
-        case SourceType.PremiumPack:
-            return <div>Buy the "{source.name}" premium pack.</div>;
-        case SourceType.Shifty:
-            if (source.name) {
-                return <div>Exchange for the "{source.name}" at Shifty's Bazaar</div>;
-            } else {
-                return <div>Exchange directly at Shifty's Bazaar</div>;
-            }
-        case SourceType.ShopLevel:
-            return <div>Reach shop level {source.name}.</div>;
-        case SourceType.Task:
-            if (
-                source.name === 'Archeology' ||
-                source.name === 'Naturalist' ||
-                source.name === 'Coastal' ||
-                source.name === 'Trader'
-            ) {
-                return <div>Complete tasks from any outpost with a {source.name} occupation</div>;
-            }
-            return <div>{source.name}</div>;
-        case SourceType.TaskChest:
-            if (source.subtype === 'Daily') {
-                return <div>Reward from daily task chests</div>;
-            } else {
-                return <div>{source.name}</div>;
-            }
-        default:
-            return <div>Unknown source type for: {JSON.stringify(source)}</div>;
-    }
-};
-
-interface OutpostTypeProp {
-    readonly type: string;
-}
-
-const OutpostDescription: React.FC<OutpostTypeProp> = ({ type }) => {
-    let availableOutposts = 'Unknown -- corrupted data: type ' + type;
-    switch (type) {
-        case 'Trading':
-            availableOutposts = 'Shimmery, Azur, Sunbound, Refuge';
-            break;
-        case 'Coastal':
-            availableOutposts = 'Azur, Sunbound, Refuge';
-            break;
-        case 'Naturalist':
-            availableOutposts = 'Azur, Sunbound';
-            break;
-        case 'Archeologist':
-            availableOutposts = 'Refuge';
-            break;
-    }
-    return (
-        <span>
-            <span
-                data-tooltip-id={SOURCE_TOOLTIP}
-                data-tooltip-content={'Outposts that can have this occupation: ' + availableOutposts}
-                data-tooltip-place="top-start"
-                className="text-with-tt"
-            >
-                any outpost
-            </span>{' '}
-            with the{' '}
-            <span
-                data-tooltip-id={SOURCE_TOOLTIP}
-                data-tooltip-content="Change outpost occupations on the 'Level Up' tab"
-                data-tooltip-place="top-start"
-                className="text-with-tt"
-            >
-                {type} occupation
-            </span>
-        </span>
-    );
-};
-
-interface EventIconProps {
-    readonly type?: string;
-}
-
-const EventIcon: React.FC<EventIconProps> = ({ type }) => {
-    let IconChoice;
-    switch (type) {
-        case EventType.EvercoldIslePart1:
-        case EventType.EvercoldIslePart2:
-            IconChoice = FaRegSnowflake;
-            break;
-        case EventType.PhantomIslePart1:
-        case EventType.PhantomIslePart2:
-        case EventType.PhantomIslePart3:
-            IconChoice = GiPumpkin;
-            break;
-        case EventType.FloodedExpedition:
-            IconChoice = PiWaves;
-            break;
-        case EventType.SunFestival:
-            IconChoice = BsSun;
-            break;
-        default:
-            return <div className="source-icon" />;
-    }
-    return <IconChoice className="source-icon" data-tooltip-id={SOURCE_TOOLTIP} data-tooltip-content={type} />;
 };
 
 interface KindIconProps {

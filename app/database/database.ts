@@ -178,7 +178,7 @@ function createDB(itemData: ItemData, catalogData: CatalogList): Database {
 }
 
 export function sourceId(s: Source): string {
-    return s.type + '_' + (s.subtype || '') + '_' + (s.name || 'no-name');
+    return s.type + '_' + (s.subtype || '') + '_' + (s.name || '');
 }
 
 function toDrop(item: Item, source: Source): DropDetail {

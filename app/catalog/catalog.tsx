@@ -46,7 +46,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                     Filter by name: <input className="catalog-search" onChange={updateFilter} />
                 </div>
             </div>
-            <div className="catalog-content">
+            <div className="catalog-content center-content">
                 {filteredItems.map((id) => {
                     return <CatalogItem id={id.toString()} key={id} />;
                 })}

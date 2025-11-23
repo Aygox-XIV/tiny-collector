@@ -20,7 +20,7 @@ main {
   max-height: 100%;
 }
 
-/* temp. TODO: apply only to relevant divs */
+/* temp. TODO: apply only to relevant divs? */
 div {
   /* border: 1px solid black; */
   border-radius: 5px;
@@ -52,6 +52,8 @@ div.menu-item > a.active {
   font-weight: bold;
 }
 
+/* TODO: standardize colors more. */
+
 div.vert-filter-bar {
   max-height: calc(100lvh - 105px);
   background-color: rgb(187, 156, 119);
@@ -62,6 +64,12 @@ div.vert-filter-bar {
 div.toggle-row {
   display: flex;
   align-items: center;
+}
+
+div.center-content {
+  max-height: 100%;
+  background-color: bisque;
+  overflow-y: auto;
 }
 
 div.catalog-view {
@@ -148,11 +156,8 @@ div.catalog-content {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto-fit;
-  max-height: 100%;
   padding: 15px;
   gap: 20px;
-  background-color: bisque;
-  overflow-y: auto;
 }
 
 div.catalog-item {
@@ -277,12 +282,14 @@ div.individual-sources {
   display: grid;
   grid-template-columns: auto;
   padding-left: 20px;
+  gap: 5px;
 }
 
 div.single-source {
   display: grid;
   /* event icon (opt) - item/recipe icon - fragment icon (opt) - strings */
-  grid-template-columns: 20px 20px 20px auto;
+  grid-template-columns: 20px 20px 20px auto 20px;
+  background-color: rgb(239, 221, 197);
 }
 
 div.checklist-view {
@@ -317,4 +324,35 @@ div.toggle-row > svg.unselected {
 svg.toggle-select-icon {
   width: 25px;
   margin-right: 5px;
+}
+
+div.checklist-content {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 15px;
+}
+
+div.checklist-type-container {
+  border: 1px solid rgb(187, 156, 119);
+}
+
+div.type-label {
+  display: flex;
+  gap: 10px;
+}
+div.type-label > svg {
+  height: 25px;
+  width: 25px;
+}
+
+div.checklist-type-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+div.checklist-source-entry {
+  display: grid;
+  grid-template-columns: 40px auto 60px;
+  background-color: rgb(228, 201, 169);
 }

@@ -28,6 +28,7 @@ interface EventProps {
 const EventSelector: React.FC<EventProps> = ({ event }) => {
     const [filter, setFilter] = useSourceFilter();
     const selectionClass = filter.event === event ? 'selected' : 'unselected';
+    // TODO: make this an actual per-event toggle (to allow e.g. hiding yearly events)
     const toggleEvent = function () {
         if (filter.event === event) {
             setFilter({ ...filter, event: undefined });

@@ -61,6 +61,24 @@ export enum EventCategory {
     EvercoldIsle = 'Evercold Isle',
 }
 
+export function getEventCategory(source: Source): EventCategory | null {
+    switch (source.subtype) {
+        case EventType.EvercoldIslePart1:
+        case EventType.EvercoldIslePart2:
+            return EventCategory.EvercoldIsle;
+        case EventType.PhantomIslePart1:
+        case EventType.PhantomIslePart2:
+        case EventType.PhantomIslePart3:
+            return EventCategory.PhantomIsle;
+        case EventType.FloodedExpedition:
+            return EventCategory.FloodedExpedition;
+        case EventType.SunFestival:
+            return EventCategory.SunFestival;
+        default:
+            return null;
+    }
+}
+
 export enum OutpostType {
     Trading = 'Trading',
     Coastal = 'Coastal',
