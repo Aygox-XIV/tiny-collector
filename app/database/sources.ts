@@ -55,13 +55,14 @@ export enum EventType {
 }
 
 export enum EventCategory {
+    NoEvent = '',
     SunFestival = 'Sun Festival',
     FloodedExpedition = 'Flooded Expedition',
     PhantomIsle = 'Phantom Isle',
     EvercoldIsle = 'Evercold Isle',
 }
 
-export function getEventCategory(source: Source): EventCategory | null {
+export function getEventCategory(source: Source): EventCategory {
     switch (source.subtype) {
         case EventType.EvercoldIslePart1:
         case EventType.EvercoldIslePart2:
@@ -75,7 +76,7 @@ export function getEventCategory(source: Source): EventCategory | null {
         case EventType.SunFestival:
             return EventCategory.SunFestival;
         default:
-            return null;
+            return EventCategory.NoEvent;
     }
 }
 

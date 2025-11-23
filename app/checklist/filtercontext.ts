@@ -2,7 +2,7 @@ import { createContext, useContext, type Dispatch, type SetStateAction } from 'r
 import type { EventCategory, SourceType } from '../database/sources';
 
 export interface SourceFilter {
-    readonly event?: EventCategory;
+    readonly hiddenEvents?: Set<EventCategory>;
     readonly hiddenTypes?: Set<SourceType>;
     readonly hideCompleted?: boolean;
 }

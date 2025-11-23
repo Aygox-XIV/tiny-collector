@@ -14,7 +14,7 @@ export const ChecklistSourceList: React.FC<NoProps> = ({}) => {
     const collection = useFullCollection();
 
     const shouldDisplay = function (source: SourceDetails) {
-        if (filter.event && getEventCategory(source.source) != filter.event) {
+        if (filter.hiddenEvents?.has(getEventCategory(source.source))) {
             return false;
         }
         if (filter.hiddenTypes && filter.hiddenTypes.has(source.source.type)) {
