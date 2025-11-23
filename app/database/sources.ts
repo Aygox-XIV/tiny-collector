@@ -1,7 +1,6 @@
 interface UnknownSource {
     readonly kind: 'item' | 'recipe';
     readonly fragment: boolean;
-    // TODO: make actual types so that subtype and name can be constrained for some cases
     readonly type: SourceType;
     readonly subtype?: string;
     readonly name?: string;
@@ -50,8 +49,16 @@ export enum EventType {
     FloodedExpedition = 'Flooded Expedition',
     PhantomIslePart1 = 'Phantom Isle (part 1)',
     PhantomIslePart2 = 'Phantom Isle (part 2)',
+    PhantomIslePart3 = 'Phantom Isle (part 2)',
     EvercoldIslePart1 = 'Evercold Isle (part 1)',
     EvercoldIslePart2 = 'Evercold Isle (part 2)',
+}
+
+export enum EventCategory {
+    SunFestival = 'Sun Festival',
+    FloodedExpedition = 'Flooded Expedition',
+    PhantomIsle = 'Phantom Isle',
+    EvercoldIsle = 'Evercold Isle',
 }
 
 export enum OutpostType {

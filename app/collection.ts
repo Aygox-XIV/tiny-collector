@@ -43,6 +43,7 @@ export const collectionSlice = createSlice({
         },
         changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
             const args = action.payload;
+            // TODO: optimize status by omitting `false` entries.
             if (!state.items[args.id]) {
                 state.items[args.id] = { id: args.id, status: args.status };
             } else {

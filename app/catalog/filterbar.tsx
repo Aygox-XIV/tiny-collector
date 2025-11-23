@@ -39,7 +39,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
         }
     }
     return (
-        <div className="catalog-filter">
+        <div className="catalog-filter vert-filter-bar">
             Catalog Type:
             <div className="catalog-type-selection">
                 {Object.keys(db.catalogs).map((rawKey) => {

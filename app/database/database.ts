@@ -65,13 +65,26 @@ export interface CatalogDef {
 
 export interface ItemDB extends Record<string, Item> {}
 
+export interface SourceDetails {
+    // arbitrary fragment/kind data
+    readonly source: Source;
+    readonly drops: DropDetail[];
+}
+
+export interface DropDetail {
+    readonly itemId: string;
+    readonly fragment: boolean;
+    readonly kind: 'item' | 'recipe';
+}
+
 export interface Database {
     // Keyed by id
     readonly items: ItemDB;
     // Keyed by name
     readonly alt_recipes: Record<string, AltRecipe>;
-    // keyed by catalog-specific key string
     readonly catalogs: Record<CatalogType, CatalogDef>;
+    // Keyed by synthetic source ID (type+name)
+    readonly sources: Record<string, SourceDetails>;
 }
 
 // Whether a single 'collected' state should be tracked instead of recipe+license
@@ -119,12 +132,29 @@ export function useDatabase(): Database {
 function createDB(itemData: ItemData, catalogData: CatalogList): Database {
     let items: ItemDB = {};
     let alt_recipes: Record<string, AltRecipe> = {};
+    let sources: Record<string, SourceDetails> = {};
 
     itemData.items.forEach((i) => {
         if (items[i.id]) {
             throw 'Duplicate item id: ' + i.id;
         }
         items[i.id] = i;
+
+        if (i.source) {
+            i.source.forEach((s) => {
+                const sId = sourceId(s);
+                if (sources[sId]) {
+                    let drops = sources[sId].drops;
+                    drops.push(toDrop(i, s));
+                    sources[sId] = { ...sources[sId], drops: drops };
+                } else {
+                    sources[sId] = {
+                        source: s,
+                        drops: [toDrop(i, s)],
+                    };
+                }
+            });
+        }
     });
 
     itemData.alt_recipes.forEach((r) => {
@@ -144,5 +174,13 @@ function createDB(itemData: ItemData, catalogData: CatalogList): Database {
 
     console.log('created db: ' + Object.keys(items).length + ' items');
 
-    return { items, alt_recipes, catalogs };
+    return { items, alt_recipes, catalogs, sources };
+}
+
+export function sourceId(s: Source): string {
+    return s.type + '_' + (s.subtype || '') + '_' + (s.name || 'no-name');
+}
+
+function toDrop(item: Item, source: Source): DropDetail {
+    return { itemId: item.id.toString(), fragment: source.fragment, kind: source.kind };
 }

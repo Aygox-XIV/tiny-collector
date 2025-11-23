@@ -1,14 +1,13 @@
-import { BsCashCoin, BsExclamationCircle, BsQuestionSquareFill, BsSun } from 'react-icons/bs';
-import { FaOctopusDeploy, FaRegStar, FaShieldAlt, FaShoppingBasket } from 'react-icons/fa';
-import { FaCheck, FaRegSnowflake, FaTreeCity } from 'react-icons/fa6';
-import { GiOpenChest, GiPumpkin, GiRaccoonHead } from 'react-icons/gi';
+import { BsSun } from 'react-icons/bs';
+import { FaRegSnowflake } from 'react-icons/fa6';
+import { GiPumpkin } from 'react-icons/gi';
 import { HiPuzzlePiece } from 'react-icons/hi2';
-import { LiaLevelUpAltSolid } from 'react-icons/lia';
-import { LuGem, LuScrollText, LuSword } from 'react-icons/lu';
-import { PiPlant, PiWaves } from 'react-icons/pi';
-import { TbMoneybag, TbPuzzle2 } from 'react-icons/tb';
+import { LuScrollText } from 'react-icons/lu';
+import { PiWaves } from 'react-icons/pi';
+import { TbMoneybag } from 'react-icons/tb';
 import { NavLink } from 'react-router';
 import { Tooltip } from 'react-tooltip';
+import { SourceTypeIcon } from '../common/sourceicon';
 import { EventType, SourceType, type Source } from '../database/sources';
 
 export interface SourceListProps {
@@ -209,6 +208,7 @@ const EventIcon: React.FC<EventIconProps> = ({ type }) => {
             break;
         case EventType.PhantomIslePart1:
         case EventType.PhantomIslePart2:
+        case EventType.PhantomIslePart3:
             IconChoice = GiPumpkin;
             break;
         case EventType.FloodedExpedition:
@@ -251,66 +251,4 @@ const FragmentIcon: React.FC<FragmentIconProps> = ({ fragment }) => {
     } else {
         return <div className="source-icon" />;
     }
-};
-
-interface SourceIconProps {
-    readonly type: SourceType;
-}
-
-const SourceTypeIcon: React.FC<SourceIconProps> = ({ type }) => {
-    let IconChoice;
-    switch (type) {
-        case SourceType.Battle:
-            IconChoice = LuSword;
-            break;
-        case SourceType.Boutique:
-            IconChoice = LuGem;
-            break;
-        case SourceType.City:
-            IconChoice = FaTreeCity;
-            break;
-        case SourceType.Combine:
-            IconChoice = TbPuzzle2;
-            break;
-        case SourceType.EventMarket:
-            IconChoice = FaShoppingBasket;
-            break;
-        case SourceType.Feat:
-            IconChoice = FaRegStar;
-            break;
-        case SourceType.Harvest:
-            IconChoice = PiPlant;
-            break;
-        case SourceType.Journey:
-            IconChoice = BsExclamationCircle;
-            break;
-        case SourceType.Market:
-            IconChoice = FaShieldAlt;
-            break;
-        case SourceType.MissionReward:
-            IconChoice = LuScrollText;
-            break;
-        case SourceType.Outpost:
-            IconChoice = FaOctopusDeploy;
-            break;
-        case SourceType.PremiumPack:
-            IconChoice = BsCashCoin;
-            break;
-        case SourceType.Shifty:
-            IconChoice = GiRaccoonHead;
-            break;
-        case SourceType.ShopLevel:
-            IconChoice = LiaLevelUpAltSolid;
-            break;
-        case SourceType.Task:
-            IconChoice = FaCheck;
-            break;
-        case SourceType.TaskChest:
-            IconChoice = GiOpenChest;
-            break;
-        default:
-            IconChoice = BsQuestionSquareFill;
-            break;
-    }
-    return <IconChoice className="source-icon" />;
 };
