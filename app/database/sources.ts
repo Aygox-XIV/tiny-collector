@@ -49,7 +49,7 @@ export enum EventType {
     FloodedExpedition = 'Flooded Expedition',
     PhantomIslePart1 = 'Phantom Isle (part 1)',
     PhantomIslePart2 = 'Phantom Isle (part 2)',
-    PhantomIslePart3 = 'Phantom Isle (part 2)',
+    PhantomIslePart3 = 'Phantom Isle (part 3)',
     EvercoldIslePart1 = 'Evercold Isle (part 1)',
     EvercoldIslePart2 = 'Evercold Isle (part 2)',
 }

@@ -387,3 +387,8 @@ div.droplist-item {
   gap: 4px;
   background-color: rgb(239, 221, 197);
 }
+
+div.collected {
+  background-color: rgb(239, 233, 225);
+  color: rgb(153, 137, 116);
+}

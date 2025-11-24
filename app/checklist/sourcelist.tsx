@@ -92,7 +92,13 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
     return (
         <NavLink to={detailLink}>
             {({ isActive }) => (
-                <div className={'checklist-source-entry' + (isActive ? ' active' : '')}>
+                <div
+                    className={
+                        'checklist-source-entry ' +
+                        (isActive ? 'active ' : '') +
+                        (collectedDrops == details.drops.length ? 'collected' : 'uncollected')
+                    }
+                >
                     <EventIcon type={getEventCategory(details.source)} tooltipId="no-tooltip" />
                     <SourceName source={details.source} disableLinks={true} />
                     <div className="drop-detail">

@@ -6,7 +6,7 @@ import { FragmentIcon } from '../common/fragmenticon';
 import { WIKI_IMAGE_PATH_PREFIX } from '../common/icon';
 import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
-import { CollectableStatusIcon, RecipeStatusIcon } from '../common/statusicons';
+import { CollectableStatusIcon, LicenseStatusIcon, RecipeStatusIcon } from '../common/statusicons';
 import { dropIsCollected, isCollectable, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
 import { EventType, SourceType, type Source } from '../database/sources';
 import { useAppDispatch } from '../store';
@@ -59,6 +59,9 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
     function toggleRecipe() {
         dispatch(changeStatus({ id: drop.itemId, status: { ...status, haveRecipe: !status.haveRecipe } }));
     }
+    function toggleLicense() {
+        dispatch(changeStatus({ id: drop.itemId, status: { ...status, licensed: !status.licensed } }));
+    }
     function toggleCollected() {
         dispatch(changeStatus({ id: drop.itemId, status: { ...status, collected: !status.collected } }));
     }
@@ -71,7 +74,12 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
             <KindIcon kind={drop.kind} />
             <FragmentIcon fragment={drop.fragment} />
             {item.name}
-            {item.recipe && <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />}
+            {drop.kind == 'recipe' && item.recipe && (
+                <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />
+            )}
+            {drop.kind == 'item' && !isCollectable(item) && (
+                <LicenseStatusIcon selected={collectedState.status.licensed} onClick={toggleLicense} />
+            )}
             {isCollectable(item) && (
                 <CollectableStatusIcon selected={collectedState.status.collected} onClick={toggleCollected} />
             )}
