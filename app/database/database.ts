@@ -2,8 +2,9 @@ import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 import rawCatalogData from '../data/sample-catalogs.json';
 import rawItemData from '../data/sample-data.json';
+import rawSourceImageData from '../data/sample-source-images.json';
 import type { RootState } from '../store';
-import type { Source } from './sources';
+import type { Source, SourceType } from './sources';
 
 /// raw data
 
@@ -54,11 +55,24 @@ export interface CatalogDef {
     readonly key: CatalogType;
     // display name
     readonly name: string;
-    // TODO: make icons their own type, with local & wiki & elsewhere options?
+    // TODO: make icons/images their own type, with local & wiki & elsewhere options?
     readonly icon: string;
     // IDs only. TODO: name+id for manual management?
     // TODO: allow "empty" slots to better simulate autolog positioning
     readonly items: string[];
+}
+
+// source images file
+
+export interface SourceImageList {
+    readonly images: SourceImage[];
+}
+
+export interface SourceImage {
+    readonly type: SourceType;
+    readonly subtype?: string;
+    readonly name?: string;
+    readonly src?: string;
 }
 
 /// parsed data
@@ -69,6 +83,7 @@ export interface SourceDetails {
     // arbitrary fragment/kind data
     readonly source: Source;
     readonly drops: DropDetail[];
+    readonly imageSrc?: string;
 }
 
 export interface DropDetail {
@@ -118,7 +133,7 @@ function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
     console.log('yield new db');
     // TODO: allow data to be split up for easier (manual) management
-    const db = createDB(rawItemData as ItemData, rawCatalogData as CatalogList);
+    const db = createDB(rawItemData as ItemData, rawCatalogData as CatalogList, rawSourceImageData as SourceImageList);
     return db;
     // below needs to get the scheme+authority from somewhere to work, or run from clientLoader().
     // may not be needed, depending on how it'll be hosted/served?
@@ -129,10 +144,17 @@ export function useDatabase(): Database {
     return useSelector((state: RootState) => state.db);
 }
 
-function createDB(itemData: ItemData, catalogData: CatalogList): Database {
+function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: SourceImageList): Database {
     let items: ItemDB = {};
     let alt_recipes: Record<string, AltRecipe> = {};
     let sources: Record<string, SourceDetails> = {};
+    let sourceImageMap: Record<string, string> = {};
+
+    sourceImages.images.forEach((i) => {
+        if (i.src) {
+            sourceImageMap[sourceId(i)] = i.src;
+        }
+    });
 
     itemData.items.forEach((i) => {
         if (items[i.id]) {
@@ -151,6 +173,7 @@ function createDB(itemData: ItemData, catalogData: CatalogList): Database {
                     sources[sId] = {
                         source: s,
                         drops: [toDrop(i, s)],
+                        imageSrc: sourceImageMap[sId],
                     };
                 }
             });
@@ -177,7 +200,7 @@ function createDB(itemData: ItemData, catalogData: CatalogList): Database {
     return { items, alt_recipes, catalogs, sources };
 }
 
-export function sourceId(s: Source): string {
+export function sourceId(s: Source | SourceImage): string {
     return s.type + '_' + (s.subtype || '') + '_' + (s.name || '');
 }
 

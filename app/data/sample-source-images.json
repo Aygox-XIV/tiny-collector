@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Coral Ducky",
+      "src": "/sources/battle/tmp/coral_ducky.png"
+    },
+    {
+      "type": "City",
+      "subtype": "Shop",
+      "name": "Almo's Lab",
+      "src": "/sources/city/lab.png"
+    },
+    {
+      "type": "City",
+      "subtype": "Research",
+      "name": "Almo's Lab",
+      "src": "/sources/city/lab.png"
+    },
+    {
+      "type": "City",
+      "subtype": "Shop",
+      "name": "Ardent Forge",
+      "src": "/sources/city/forge.png"
+    },
+    {
+      "type": "City",
+      "subtype": "Research",
+      "name": "Ardent Forge",
+      "src": "/sources/city/forge.png"
+    }
+  ]
+}

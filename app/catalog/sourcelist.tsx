@@ -1,7 +1,6 @@
-import { BsThreeDots } from 'react-icons/bs';
 import { HiPuzzlePiece } from 'react-icons/hi2';
 import { LuScrollText } from 'react-icons/lu';
-import { TbMoneybag } from 'react-icons/tb';
+import { TbInfoSquareRounded, TbMoneybag } from 'react-icons/tb';
 import { NavLink } from 'react-router';
 import { Tooltip } from 'react-tooltip';
 import { EventIcon } from '../common/eventicon';
@@ -66,7 +65,7 @@ const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
                 <SourceName source={source} tooltipId={SOURCE_TOOLTIP} />
             </div>
             <NavLink to={'/checklist/' + sourceId(source)}>
-                <BsThreeDots />
+                <TbInfoSquareRounded />
             </NavLink>
         </div>
     );

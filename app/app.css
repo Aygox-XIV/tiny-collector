@@ -356,3 +356,24 @@ div.checklist-source-entry {
   grid-template-columns: 40px auto 60px;
   background-color: rgb(228, 201, 169);
 }
+
+div.source-details-type {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div.source-details-type > .source-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.detail-image {
+  width: 200px;
+  height: 200px;
+}
+
+div.source-details-droplist {
+  margin-top: 20px;
+}
