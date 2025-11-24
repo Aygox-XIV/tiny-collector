@@ -3,7 +3,7 @@ import { useFullCollection, type Collection } from '../collection';
 import { EventIcon } from '../common/eventicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
-import { sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
+import { dropIsCollected, sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
 import { getEventCategory, SourceType } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
@@ -23,7 +23,7 @@ export const ChecklistSourceList: React.FC<NoProps> = ({}) => {
         if (filter.hideCompleted) {
             let anyUncollected = false;
             for (const drop of source.drops) {
-                if (!dropIsCollected(drop, collection)) {
+                if (!isDropCollected(drop, collection)) {
                     anyUncollected = true;
                     break;
                 }
@@ -84,7 +84,7 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
     const collection = useFullCollection();
     let collectedDrops = 0;
     for (const drop of details.drops) {
-        if (dropIsCollected(drop, collection)) {
+        if (isDropCollected(drop, collection)) {
             collectedDrops++;
         }
     }
@@ -104,18 +104,7 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
     );
 };
 
-function dropIsCollected(drop: DropDetail, collection: Collection) {
-    const collected = collection.items[drop.itemId];
-    if (collected) {
-        switch (drop.kind) {
-            case 'item':
-                // Item drops are only 'done' when the item is licensed or present in the autolog.
-                // TODO: consider checking license progress instead of the licensed mark
-                return collected.status.licensed || collected.status.collected;
-            case 'recipe':
-                // Recipe drops are only 'done' once the recipe is available.
-                // I don't want to track collected fragment counts; having all fragments is considered equivalent to having the combined recipe.
-                return collected.status.haveRecipe;
-        }
-    }
+function isDropCollected(drop: DropDetail, collection: Collection) {
+    const item = collection.items[drop.itemId];
+    return item && dropIsCollected(drop, item);
 }

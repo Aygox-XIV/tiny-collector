@@ -1,9 +1,15 @@
+import { BiInfoSquare } from 'react-icons/bi';
 import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
+import { changeStatus, useCollectedItem } from '../collection';
+import { FragmentIcon } from '../common/fragmenticon';
 import { WIKI_IMAGE_PATH_PREFIX } from '../common/icon';
+import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
-import { useDatabase, type SourceDetails } from '../database/database';
+import { CollectableStatusIcon, RecipeStatusIcon } from '../common/statusicons';
+import { dropIsCollected, isCollectable, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
 import { EventType, SourceType, type Source } from '../database/sources';
+import { useAppDispatch } from '../store';
 import type { Route } from './+types/source-view';
 
 export default function SourceDetailView({ params, matches }: Route.ComponentProps) {
@@ -31,15 +37,47 @@ const SourceDetailPanel: React.FC<SourceDetailsProps> = ({ details }) => {
             </div>
 
             <div className="source-details-droplist">
-                Drop list:
+                All items obtainable this way:
                 {details.drops.map((d) => {
-                    return (
-                        <div key={i++} className="droplist-item">
-                            {db.items[d.itemId].name}
-                        </div>
-                    );
+                    return <DropDetailItem key={i++} drop={d} />;
                 })}
             </div>
+        </div>
+    );
+};
+
+interface DropDetailProps {
+    readonly drop: DropDetail;
+}
+
+const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
+    const db = useDatabase();
+    const collectedState = useCollectedItem(drop.itemId);
+    const dispatch = useAppDispatch();
+    const status = collectedState.status;
+
+    function toggleRecipe() {
+        dispatch(changeStatus({ id: drop.itemId, status: { ...status, haveRecipe: !status.haveRecipe } }));
+    }
+    function toggleCollected() {
+        dispatch(changeStatus({ id: drop.itemId, status: { ...status, collected: !status.collected } }));
+    }
+
+    const item = db.items[drop.itemId];
+    const collected = dropIsCollected(drop, collectedState);
+    const collectionClass = collected ? 'collected' : 'uncollected';
+    return (
+        <div className={'droplist-item ' + collectionClass}>
+            <KindIcon kind={drop.kind} />
+            <FragmentIcon fragment={drop.fragment} />
+            {item.name}
+            {item.recipe && <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />}
+            {isCollectable(item) && (
+                <CollectableStatusIcon selected={collectedState.status.collected} onClick={toggleCollected} />
+            )}
+            <NavLink to={'/catalog/' + drop.itemId}>
+                <BiInfoSquare />
+            </NavLink>
         </div>
     );
 };
@@ -65,7 +103,7 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
         case SourceType.City:
             return (
                 <div>
-                    {source.subtype} at {source.name}
+                    {source.subtype} at {source.name} in the City
                     <DetailImage src={details.imageSrc} />
                 </div>
             );

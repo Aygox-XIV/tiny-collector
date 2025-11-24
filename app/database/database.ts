@@ -1,5 +1,6 @@
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
+import type { CollectedItem } from '../collection';
 import rawCatalogData from '../data/sample-catalogs.json';
 import rawItemData from '../data/sample-data.json';
 import rawSourceImageData from '../data/sample-source-images.json';
@@ -206,4 +207,17 @@ export function sourceId(s: Source | SourceImage): string {
 
 function toDrop(item: Item, source: Source): DropDetail {
     return { itemId: item.id.toString(), fragment: source.fragment, kind: source.kind };
+}
+
+export function dropIsCollected(drop: DropDetail, item: CollectedItem) {
+    switch (drop.kind) {
+        case 'item':
+            // Item drops are only 'done' when the item is licensed or present in the autolog.
+            // TODO: consider checking license progress instead of the licensed mark
+            return item.status.licensed || item.status.collected;
+        case 'recipe':
+            // Recipe drops are only 'done' once the recipe is available.
+            // I don't want to track collected fragment counts; having all fragments is considered equivalent to having the combined recipe.
+            return item.status.haveRecipe;
+    }
 }

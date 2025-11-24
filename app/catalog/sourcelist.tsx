@@ -1,9 +1,9 @@
-import { HiPuzzlePiece } from 'react-icons/hi2';
-import { LuScrollText } from 'react-icons/lu';
-import { TbInfoSquareRounded, TbMoneybag } from 'react-icons/tb';
+import { TbInfoSquareRounded } from 'react-icons/tb';
 import { NavLink } from 'react-router';
 import { Tooltip } from 'react-tooltip';
 import { EventIcon } from '../common/eventicon';
+import { FragmentIcon } from '../common/fragmenticon';
+import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { sourceId } from '../database/database';
@@ -59,8 +59,8 @@ const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
     return (
         <div className={'single-source ' + source.type}>
             <EventIcon type={getEventCategory(source)} tooltipId={SOURCE_TOOLTIP} />
-            <KindIcon kind={source.kind} />
-            <FragmentIcon fragment={source.fragment} />
+            <KindIcon kind={source.kind} tooltipId={SOURCE_TOOLTIP} />
+            <FragmentIcon fragment={source.fragment} tooltipId={SOURCE_TOOLTIP} />
             <div className="source-name">
                 <SourceName source={source} tooltipId={SOURCE_TOOLTIP} />
             </div>
@@ -69,34 +69,4 @@ const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
             </NavLink>
         </div>
     );
-};
-
-interface KindIconProps {
-    readonly kind: 'item' | 'recipe';
-}
-const KindIcon: React.FC<KindIconProps> = ({ kind }) => {
-    let IconChoice;
-    switch (kind) {
-        case 'item':
-            IconChoice = TbMoneybag;
-            break;
-        case 'recipe':
-            IconChoice = LuScrollText;
-            break;
-    }
-    return <IconChoice className="source-icon" data-tooltip-id={SOURCE_TOOLTIP} data-tooltip-content={kind} />;
-};
-
-interface FragmentIconProps {
-    readonly fragment: boolean;
-}
-
-const FragmentIcon: React.FC<FragmentIconProps> = ({ fragment }) => {
-    if (fragment) {
-        return (
-            <HiPuzzlePiece className="source-icon" data-tooltip-id={SOURCE_TOOLTIP} data-tooltip-content="Fragment" />
-        );
-    } else {
-        return <div className="source-icon" />;
-    }
 };

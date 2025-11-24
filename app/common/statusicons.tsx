@@ -16,7 +16,7 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
         dispatch(changeStatus({ id, status: { ...status, haveRecipe: !status.haveRecipe } }));
     }
     function toggleLicense() {
-        // Since i's extremely rare to license an item without having 100% progress, the license amount could be maxed.
+        // Since it's extremely rare to license an item without having 100% progress, the license amount could be maxed.
         // (in practice this only happens if the license amount is updated after it has already been licensed)
         // However, just let the displayed license amount for licensed items be the max instead so we can cheaply
         // guard against misclicks.
@@ -27,28 +27,33 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
     }
 
     // TODO: tooltips/ move them next to the icon stacked vertically
-    // TODO: markers for no-recipe & unlicensable items?
+    // TODO: better markers for no-recipe & unlicensable items?
 
     return (
         <div className="status-icons">
-            {(!status || !status.haveRecipe) && dbItem.recipe && (
-                <TbChefHatOff className="status-icon unselected" onClick={toggleRecipe} />
-            )}
-            {status?.haveRecipe && dbItem.recipe && (
-                <TbChefHat className="status-icon selected" onClick={toggleRecipe} />
-            )}
-            {(!status || !status.licensed) && dbItem.license_amount && (
-                <TbLicenseOff className="status-icon unselected" onClick={toggleLicense} />
-            )}
-            {status?.licensed && dbItem.license_amount && (
-                <TbLicense className="status-icon selected" onClick={toggleLicense} />
-            )}
-            {isCollectable(dbItem) && !status?.collected && (
-                <IoCheckmark className="status-icon unselected" onClick={toggleCollected} />
-            )}
-            {isCollectable(dbItem) && status?.collected && (
-                <IoCheckmarkDone className="status-icon selected" onClick={toggleCollected} />
-            )}
+            {dbItem.recipe && <RecipeStatusIcon selected={status?.haveRecipe} onClick={toggleRecipe} />}
+            {dbItem.license_amount && <LicenseStatusIcon selected={status?.licensed} onClick={toggleLicense} />}
+            {isCollectable(dbItem) && <CollectableStatusIcon selected={status?.collected} onClick={toggleCollected} />}
         </div>
     );
+};
+
+export interface SingleIconProps {
+    readonly selected?: boolean;
+    readonly onClick: () => void;
+}
+
+export const RecipeStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
+    const IconType = selected ? TbChefHat : TbChefHatOff;
+    return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
+};
+
+export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
+    const IconType = selected ? TbLicense : TbLicenseOff;
+    return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
+};
+
+export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
+    const IconType = selected ? IoCheckmarkDone : IoCheckmark;
+    return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
 };

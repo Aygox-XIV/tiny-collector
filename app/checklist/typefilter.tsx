@@ -5,6 +5,7 @@ import { useSourceFilter } from './filtercontext';
 
 export const ChecklistTypeFilterBar: React.FC<NoProps> = ({}) => {
     // TODO: hide types that the currently-selected event does not have
+    // TODO: match the sort order between this, full checklist page content, and catalog item details
 
     return (
         <div className="type-filter vert-filter-bar">
