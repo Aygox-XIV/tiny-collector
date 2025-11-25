@@ -1,4 +1,4 @@
-import { IoCheckmark, IoCheckmarkDone } from 'react-icons/io5';
+import { HiOutlineCheck, HiOutlineX } from 'react-icons/hi';
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
 import { changeStatus, useCollectedItem } from '../collection';
 import { isCollectable, useDatabase } from '../database/database';
@@ -54,6 +54,6 @@ export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick
 };
 
 export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
-    const IconType = selected ? IoCheckmarkDone : IoCheckmark;
+    const IconType = selected ? HiOutlineCheck : HiOutlineX;
     return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
 };

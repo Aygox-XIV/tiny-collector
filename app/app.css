@@ -211,14 +211,6 @@ div.with-license {
   cursor: pointer;
 }
 
-.status-icons > .selected {
-  color: seagreen;
-}
-
-.status-icons > .unselected {
-  color: dimgray;
-}
-
 .item-icon {
   height: 150px;
   width: 150px;
@@ -241,7 +233,7 @@ div.catalog-item > .status-icons {
 }
 
 div.catalog-content div.active {
-  border: 2px solid black;
+  border: 2px solid darkslateblue;
 }
 
 div.license-bar {
