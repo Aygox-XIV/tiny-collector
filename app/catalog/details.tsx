@@ -13,16 +13,17 @@ export interface DetailsProps {
 /** Details panel */
 export const Details: React.FC<DetailsProps> = ({ id }) => {
     const db = useDatabase();
-    const collection = useCollectedItem(id);
+    const collectionDetails = useCollectedItem(id);
     const dispatch = useAppDispatch();
     const item = db.items[id];
 
-    // TODO: debounce?
+    // TODO: debounce if it's being changed through scrolling?
     const updateLicenseAmount = (newValue: number) => {
         const clampedValue = Math.max(Math.min(newValue, item.license_amount || newValue), 0);
         dispatch(setLicenseAmount({ id, amount: clampedValue }));
     };
 
+    // TODO: describe best way to report new findings when no sources are listed
     return (
         <div className="details-panel">
             <div className="detail-name">{item.name}</div>
@@ -32,14 +33,14 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
                 <div className="detail-license-data">
                     <EditingProgressBar
                         max={item.license_amount}
-                        actual={collection.licenseProgress}
-                        autoMax={collection.status.licensed}
+                        actual={collectionDetails.licenseProgress}
+                        autoMax={collectionDetails.status.licensed}
                         edit={updateLicenseAmount}
                     />
                 </div>
             )}
             {item.source && <SourceList sources={item.source} />}
-            {!item.source && <div className="no-source">No catalogued (or known) sources</div>}
+            {!item.source && <div className="no-source">No catalogued (or known) sources.</div>}
         </div>
     );
 };

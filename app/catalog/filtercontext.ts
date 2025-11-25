@@ -9,8 +9,11 @@ export interface CatalogFilter {
     readonly catalogView?: CatalogType;
     // Which categories of item to HIDE
     readonly hiddenCategories?: Set<Category>;
-    // everything in the view, only licensable, or only not-yet-licensed
-    readonly licenseFilter?: LicenseFilter;
+    readonly hideUnlicensable?: boolean;
+    // Recipe or Collected
+    readonly hideCollected?: boolean;
+    // hide items with no known source
+    readonly hideUnknown?: boolean;
     // value of the search bar
     readonly nameMatch?: string;
 }
@@ -24,18 +27,33 @@ export function useCatalogFilter() {
 }
 
 export function itemMatchesFilter(item: Item, collection: CollectedItem, filter: CatalogFilter): boolean {
-    if (filter.licenseFilter) {
-        if (filter.licenseFilter == 'licensable' && !item.license_amount) {
+    const hasNameFilter = filter.nameMatch && filter.nameMatch.length > 0;
+    // empty items maybe present in the catalog for ordering. hide them as soon as anything gets omitted.
+    if (!item) {
+        if (
+            filter.hideCollected ||
+            filter.hideUnknown ||
+            filter.hideUnlicensable ||
+            hasNameFilter ||
+            (filter.hiddenCategories && filter.hiddenCategories.size > 0)
+        ) {
             return false;
         }
-        if (filter.licenseFilter == 'unlicensed' && (!item.license_amount || collection?.status?.licensed)) {
-            return false;
-        }
+        return true;
+    }
+    if (filter.hideUnlicensable && !item.license_amount) {
+        return false;
+    }
+    if (filter.hideCollected && (collection?.status?.collected || collection?.status?.haveRecipe)) {
+        return false;
+    }
+    if (filter.hideUnknown && (!item.source || item.source.length == 0)) {
+        return false;
     }
     if (filter.hiddenCategories?.has(item.category)) {
         return false;
     }
-    if (filter.nameMatch && !item.name.toLowerCase().match(filter.nameMatch)) {
+    if (hasNameFilter && !item.name.toLowerCase().match(filter.nameMatch)) {
         return false;
     }
     return true;

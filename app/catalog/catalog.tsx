@@ -11,7 +11,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     const [filter, setFilter] = useCatalogFilter();
     const collection = useFullCollection();
     let itemIds: string[];
-    // TODO: display catalog name somewhere
+
     if (filter.catalogView && db.catalogs[filter.catalogView]) {
         itemIds = db.catalogs[filter.catalogView].items;
     } else {
@@ -24,7 +24,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
         }
     });
     // TODO: debounce if it's too slow with all data?
-    const updateFilter = (event: ChangeEvent<HTMLInputElement>) => {
+    const updateNameFilter = (event: ChangeEvent<HTMLInputElement>) => {
         const newValue = event.target.value;
         if (!newValue || newValue == '') {
             setFilter({ ...filter, nameMatch: undefined });
@@ -43,7 +43,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                     </div>
                 )}
                 <div className="catalog-search-content">
-                    Filter by name: <input className="catalog-search" onChange={updateFilter} />
+                    Filter by name: <input className="catalog-search" onChange={updateNameFilter} />
                 </div>
             </div>
             <div className="catalog-content center-content">

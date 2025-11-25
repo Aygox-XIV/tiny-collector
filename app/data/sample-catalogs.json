@@ -4,18 +4,20 @@
       "key": "catalog",
       "name": "Autolog",
       "icon": "/autolog.png",
-      "items": ["1", "2", "3", "4", "5", "6", "7", "8"]
+      "items": ["-1", "1", "2", "3", "4", "5", "6", "7", "8"]
     },
     {
       "key": "catalogSpec",
       "name": "Autolog (Quest)",
       "icon": "/catalog_quest.png",
+      "categories": ["Quest"],
       "items": ["9", "2", "1"]
     },
     {
       "key": "sunFes",
       "name": "Sun Festival",
       "icon": "/catalog_sf.png",
+      "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
       "items": ["6", "7", "8"]
     },
     {

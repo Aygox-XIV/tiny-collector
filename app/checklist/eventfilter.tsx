@@ -1,9 +1,13 @@
-import { GiCheckMark, GiCrossMark } from 'react-icons/gi';
+import { Toggle } from '../common/toggle';
 import { EventCategory } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
 
 export const ChecklistEventFilterBar: React.FC<NoProps> = ({}) => {
+    const [filter, setFilter] = useSourceFilter();
+    const toggleHideCompleted = function () {
+        setFilter({ ...filter, hideCompleted: !filter.hideCompleted });
+    };
     return (
         <div className="event-filter vert-filter-bar">
             Event Type:
@@ -15,7 +19,7 @@ export const ChecklistEventFilterBar: React.FC<NoProps> = ({}) => {
             <br />
             <br />
             <div className="checklist-options">
-                <ChecklistOptions />
+                <Toggle text="Hide completed: " checked={filter.hideCompleted} onClick={toggleHideCompleted} />
             </div>
             <br />
             <br />
@@ -75,17 +79,4 @@ const EventSelector: React.FC<EventProps> = ({ event }) => {
     }
 
     return <img src={iconPath} className={'event-selector ' + selectionClass} onClick={handleEventClick} />;
-};
-
-const ChecklistOptions: React.FC<NoProps> = ({}) => {
-    const [filter, setFilter] = useSourceFilter();
-    const toggleHideCompleted = function () {
-        setFilter({ ...filter, hideCompleted: !filter.hideCompleted });
-    };
-    const Checkmark = filter.hideCompleted ? GiCheckMark : GiCrossMark;
-    return (
-        <div className="toggle-row" onClick={toggleHideCompleted}>
-            Hide completed: <Checkmark className={filter.hideCompleted ? 'selected' : 'unselected'} />
-        </div>
-    );
 };

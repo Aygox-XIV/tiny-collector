@@ -1,10 +1,12 @@
 import { BiQuestionMark } from 'react-icons/bi';
-import { BsExclamation, BsHouse } from 'react-icons/bs';
+import { BsExclamationCircle, BsHouse } from 'react-icons/bs';
 import { FaSeedling } from 'react-icons/fa';
 import { FaShield } from 'react-icons/fa6';
-import { GiOre, GiPotionBall } from 'react-icons/gi';
+import { TbFlask2Filled } from 'react-icons/tb';
+import { VscRuby } from 'react-icons/vsc';
+import { Toggle } from '../common/toggle';
 import { useDatabase, type CatalogType, type Category } from '../database/database';
-import { useCatalogFilter, type LicenseFilter } from './filtercontext';
+import { useCatalogFilter } from './filtercontext';
 
 export interface CatalogFilterBarProps {}
 
@@ -12,7 +14,6 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
     const [filter, setFilter] = useCatalogFilter();
     const db = useDatabase();
 
-    // TODO: hover text
     const setCatalog = function (key: CatalogType) {
         if (filter.catalogView == key) {
             setFilter({ ...filter, catalogView: undefined });
@@ -21,22 +22,11 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
         }
     };
 
-    const setLicenseFilter = function (lf: LicenseFilter) {
-        setFilter({ ...filter, licenseFilter: lf });
-    };
-
-    // TODO: find better icons once react-icons is back online
     // TODO: update allowed categories dynamically based on actual items in the category
-    let allowedCategories: Set<Category> | undefined = new Set(['Material', 'Gear', 'Consumables']);
-    if (filter.catalogView) {
-        // Quest items can't be filtered
-        if (filter.catalogView == 'catalogSpec') {
-            allowedCategories = undefined;
-        }
-        // non-autolog catalogs also include decor
-        else if (filter.catalogView != 'catalog') {
-            allowedCategories.add('Decor');
-        }
+    // (or just have the data processor do that?)
+    let allowedCategories: Set<Category> = new Set(['Material', 'Gear', 'Consumables', 'Decor', 'Quest', 'Plant']);
+    if (filter.catalogView && db.catalogs[filter.catalogView].categories) {
+        allowedCategories = new Set(db.catalogs[filter.catalogView].categories);
     }
     return (
         <div className="catalog-filter vert-filter-bar">
@@ -55,7 +45,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                     );
                 })}
             </div>
-            {allowedCategories && (
+            {allowedCategories?.size > 1 && (
                 <div className="item-type-selection">
                     <br />
                     Item categories:
@@ -64,47 +54,34 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                         {allowedCategories.has('Consumables') && <CategorySelectionIcon category="Consumables" />}
                         {allowedCategories.has('Gear') && <CategorySelectionIcon category="Gear" />}
                         {allowedCategories.has('Decor') && <CategorySelectionIcon category="Decor" />}
+                        {allowedCategories.has('Plant') && <CategorySelectionIcon category="Plant" />}
+                        {allowedCategories.has('Quest') && <CategorySelectionIcon category="Quest" />}
                     </div>
                 </div>
             )}
             <div className="collection-selection">
                 <br />
-                <div>
-                    <input
-                        type="radio"
-                        name="collection-select"
-                        id="all"
-                        onSelect={() => setLicenseFilter('none')}
-                        onClick={() => setLicenseFilter('none')}
-                        checked={!filter.licenseFilter || filter.licenseFilter == 'none'}
-                        readOnly
-                    />
-                    <label htmlFor="all"> All items</label>
-                </div>
-                <div>
-                    <input
-                        type="radio"
-                        name="collection-select"
-                        id="licensable"
-                        onSelect={() => setLicenseFilter('licensable')}
-                        onClick={() => setLicenseFilter('licensable')}
-                        checked={filter.licenseFilter == 'licensable'}
-                        readOnly
-                    />
-                    <label htmlFor="licensable"> Licensable only</label>
-                </div>
-                <div>
-                    <input
-                        type="radio"
-                        name="collection-select"
-                        id="unlicensed"
-                        onSelect={() => setLicenseFilter('unlicensed')}
-                        onClick={() => setLicenseFilter('unlicensed')}
-                        checked={filter.licenseFilter == 'unlicensed'}
-                        readOnly
-                    />
-                    <label htmlFor="unlicensed"> Unlicensed only</label>
-                </div>
+                <Toggle
+                    text="Show unlicensable: "
+                    checked={!filter.hideUnlicensable}
+                    onClick={() => {
+                        setFilter({ ...filter, hideUnlicensable: !filter.hideUnlicensable });
+                    }}
+                />
+                <Toggle
+                    text="Show collected: "
+                    checked={!filter.hideCollected}
+                    onClick={() => {
+                        setFilter({ ...filter, hideCollected: !filter.hideCollected });
+                    }}
+                />
+                <Toggle
+                    text="Show items with missing data: "
+                    checked={!filter.hideUnknown}
+                    onClick={() => {
+                        setFilter({ ...filter, hideUnknown: !filter.hideUnknown });
+                    }}
+                />
             </div>
         </div>
     );
@@ -132,7 +109,7 @@ const CategorySelectionIcon: React.FC<CatSelectionProps> = ({ category }) => {
     let IconType = BiQuestionMark;
     switch (category) {
         case 'Consumables':
-            IconType = GiPotionBall;
+            IconType = TbFlask2Filled;
             break;
         case 'Decor':
             IconType = BsHouse;
@@ -141,20 +118,20 @@ const CategorySelectionIcon: React.FC<CatSelectionProps> = ({ category }) => {
             IconType = FaShield;
             break;
         case 'Material':
-            IconType = GiOre;
+            IconType = VscRuby;
             break;
         case 'Plant':
             IconType = FaSeedling;
             break;
         case 'Quest':
-            IconType = BsExclamation;
+            IconType = BsExclamationCircle;
             break;
     }
 
     // TODO: hover text
     return (
         <IconType
-            className={'category-selection' + selectedClass(filter.hiddenCategories?.has(category))}
+            className={'category-selection' + selectedClass(!filter.hiddenCategories?.has(category))}
             onClick={() => toggleCategory(category)}
         />
     );

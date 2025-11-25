@@ -12,22 +12,40 @@ export interface CatalogItemProps {
 /** element in the catalog list */
 export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
     const db = useDatabase();
-    const collected = useCollectedItem(id);
+    const collectedState = useCollectedItem(id);
     const item = db.items[id];
+    if (!item) {
+        return <div className="catalog-item empty-item" />;
+    }
+    let collectionStateClass = '';
+    if (!item.source || item.source.length == 0) {
+        collectionStateClass = ' missing-source';
+    } else if (
+        (collectedState.status.haveRecipe && collectedState.status.licensed) ||
+        collectedState.status.collected
+    ) {
+        collectionStateClass = ' complete';
+    } else if (collectedState.status.haveRecipe) {
+        collectionStateClass = ' with-recipe';
+    } else if (collectedState.status.licensed) {
+        collectionStateClass = ' with-license';
+    } else {
+        collectionStateClass = ' missing';
+    }
     const detailLink = '/catalog/' + id;
     // TODO: move status icons to be vertical next to the icon to save some vertical space
     return (
         <NavLink to={detailLink}>
             {({ isActive }) => (
-                <div className={'catalog-item' + (isActive ? ' active' : '')}>
+                <div className={'catalog-item' + (isActive ? ' active' : '') + collectionStateClass}>
                     <NameTag name={item.name} />
                     <Icon wiki_path={item.wiki_image_path} />
                     <StatusIcons id={id} />
                     {item.license_amount && (
                         <ProgressBar
                             max={item.license_amount}
-                            actual={collected.licenseProgress}
-                            autoMax={collected.status.licensed}
+                            actual={collectedState.licenseProgress}
+                            autoMax={collectedState.status.licensed}
                         />
                     )}
                 </div>

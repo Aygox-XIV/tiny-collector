@@ -58,6 +58,8 @@ export interface CatalogDef {
     readonly name: string;
     // TODO: make icons/images their own type, with local & wiki & elsewhere options?
     readonly icon: string;
+    // Which item categories are present
+    readonly categories?: Category[];
     // IDs only. TODO: name+id for manual management?
     // TODO: allow "empty" slots to better simulate autolog positioning
     readonly items: string[];

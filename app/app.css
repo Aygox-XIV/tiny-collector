@@ -99,19 +99,22 @@ div.catalog-type-selection > img.selected {
 }
 
 div.item-category-selection {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  cursor: pointer;
 }
 
 .category-selection {
-  width: 50px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
-.item-category-selection > .selected {
-  color: red;
+svg.unselected {
+  color: darkred;
 }
 
-.item-category-selection > .unselected {
+svg.selected {
   color: green;
 }
 
@@ -161,9 +164,38 @@ div.catalog-content {
 }
 
 div.catalog-item {
-  min-height: 195px;
+  min-height: 200px;
+  max-height: 200px;
   border: 1px solid black;
   padding: 3px;
+}
+
+div.missing-source {
+  background-color: rgb(240, 135, 156);
+}
+
+div.complete {
+  background-color: rgb(242, 245, 214);
+}
+
+div.with-recipe {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(242, 245, 214),
+    rgb(242, 245, 214) 15px,
+    transparent 15px,
+    transparent 30px
+  );
+}
+
+div.with-license {
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(242, 245, 214),
+    rgb(242, 245, 214) 15px,
+    transparent 15px,
+    transparent 30px
+  );
 }
 
 .name-tag {
@@ -176,6 +208,7 @@ div.catalog-item {
   width: 25px;
   height: 25px;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .status-icons > .selected {
@@ -311,14 +344,12 @@ img.event-selector {
 div.toggle-row {
   border: 1px solid grey;
   margin-top: 4px;
+  cursor: pointer;
 }
 
-div.toggle-row > svg.selected {
-  color: green;
-}
-
-div.toggle-row > svg.unselected {
-  color: darkred;
+div.checkmark-toggle {
+  display: grid;
+  grid-template-columns: auto 25px;
 }
 
 svg.toggle-select-icon {

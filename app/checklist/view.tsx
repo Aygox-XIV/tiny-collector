@@ -1,22 +1,16 @@
-import { useState } from 'react';
 import { Outlet } from 'react-router';
 import type { Route } from './+types/view';
 import { ChecklistEventFilterBar } from './eventfilter';
-import { SourceFilterContext, type SourceFilter } from './filtercontext';
 import { ChecklistSourceList } from './sourcelist';
 import { ChecklistTypeFilterBar } from './typefilter';
 
 export default function ChecklistView({ params, matches }: Route.ComponentProps) {
-    const filterContext = useState<SourceFilter>({});
-    // TODO: move all filter contexts to the top level so their state persists when switching views
     return (
         <div className="checklist-view">
-            <SourceFilterContext value={filterContext}>
-                <ChecklistEventFilterBar />
-                <ChecklistTypeFilterBar />
-                <ChecklistSourceList />
-                <Outlet />
-            </SourceFilterContext>
+            <ChecklistEventFilterBar />
+            <ChecklistTypeFilterBar />
+            <ChecklistSourceList />
+            <Outlet />
         </div>
     );
 }
