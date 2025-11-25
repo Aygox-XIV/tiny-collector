@@ -10,14 +10,14 @@ export default function Base({ loaderData, actionData, params, matches }: Route.
     const initialized = useCollectionInitialized();
     useEffect(() => {
         if (!initialized) {
-            // TODO: spinner?
+            // TODO: spinner via hydration?
             dispatch(load(loadCollection()));
         }
     });
     return (
         <div className="content">
             <div className="header">
-                <NavLink to="/">Header</NavLink>
+                <NavLink to="/">Tiny Shop collection tracker</NavLink>
             </div>
             <MenuBar />
             <Outlet />

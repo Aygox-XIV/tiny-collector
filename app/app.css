@@ -52,10 +52,10 @@ div.menu-item > a.active {
 /* TODO: standardize colors more. */
 
 div.vert-filter-bar {
-  max-height: calc(100lvh - 105px);
+  max-height: calc(100lvh - 100px);
   background-color: rgb(187, 156, 119);
-  /* margin: 1px; */
   overflow-y: auto;
+  border-radius: 0px;
 }
 
 div.toggle-row {
@@ -69,16 +69,31 @@ div.center-content {
   overflow-y: auto;
 }
 
+div.license-view {
+  background-color: bisque;
+}
+
+div.settings-view {
+  background-color: bisque;
+  padding-left: 50px;
+}
+
+div.settings-item {
+  cursor: pointer;
+  border: 1px solid rgb(187, 156, 119);
+  width: 50%;
+}
+
 div.catalog-view {
   display: grid;
   grid-template-columns: 150px auto 600px;
   background-color: antiquewhite;
-  max-height: calc(100vh - 105px);
+  max-height: calc(100vh - 100px);
   padding: 0px;
 }
 
 div.catalog-filter {
-  max-height: calc(100lvh - 105px);
+  max-height: calc(100lvh - 100px);
   background-color: rgb(187, 156, 119);
   padding: 3px;
   border-radius: 0px;
@@ -120,7 +135,7 @@ svg.selected {
 div.catalog {
   display: grid;
   grid-template-rows: 50px auto;
-  max-height: calc(100vh - 105px);
+  max-height: calc(100vh - 100px);
   background-color: bisque;
   padding: 0px;
 }
@@ -169,6 +184,9 @@ div.catalog-item {
   max-height: 200px;
   border: 1px solid black;
   padding: 3px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
 }
 
 div.missing-source {
@@ -275,14 +293,14 @@ div.license-bar .progress-input {
   height: 20px;
 }
 
-/* does this work everywhere? */
+/* TODO: does this work everywhere? */
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
   opacity: 1;
 }
 
 div.details-panel {
-  max-height: calc(100lvh - 105px);
+  max-height: calc(100lvh - 100px);
   overflow-x: auto;
   overflow-y: auto;
 }
@@ -322,7 +340,9 @@ div.checklist-view {
   display: grid;
   grid-template-columns: 150px 150px auto 600px;
   background-color: antiquewhite;
-  max-height: calc(100vh - 105px);
+  max-height: calc(100vh - 100px);
+  column-gap: 1px;
+  padding: 0px;
 }
 
 img.event-selector {

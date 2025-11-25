@@ -11,7 +11,7 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
     // TODO: compress by removing redundant fields (maybe provide as separate option to compress localStorage?)
     const collectionJson = JSON.stringify({ items: useFullCollection().items });
     const collectionJsonBase64 = btoa(collectionJson);
-    // TODO: something that works in more than just Chromium (textbox input)
+    // TODO: something that works in more than just Chromium (textbox input, probably)
     const loadColl = async function () {
         if (window.showOpenFilePicker !== undefined) {
             const pickerOpts = {
@@ -31,32 +31,35 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
         await stream.write(collectionJson);
         await stream.close();
     };
-    // this yields an error (in dev?) when loading the /settings directly because SSR!=CSR. that's fine.
+    // this yields an error (in dev?) when loading the /settings directly because SSR!=CSR. that's fine if it's only in dev.
     let fsAvailable = typeof window !== 'undefined' && window.showSaveFilePicker !== undefined;
-    // TODO: make the items look like they're clickable.
     return (
         <div className="settings-view">
             All per-user data is kept locally in the browser (localStorage); nothing is ever sent to the server.
             <br />
+            Use this page to save your collection to a local file, for backup purposes or to e.g. move it to another
+            device. For now, only Chromium-based browsers (Chrome, Edge) support importing. A fallback option for other
+            browsers is in the works.
             <br />
             <br />
             <div className="settings-item">
                 {fsAvailable && <a onClick={saveColl}>Export collection</a>}
                 {!fsAvailable && (
                     <a href={'data:application/octet-stream;charset=utf-16le;base64,' + collectionJsonBase64}>
-                        Export collection via data url
+                        Export collection via data url (saving as .txt is recommended)
                     </a>
                 )}
             </div>
+            <br />
             <div className="settings-item">
                 {fsAvailable && <a onClick={loadColl}>Import collection</a>}
                 {!fsAvailable && <div>Importing is only available in Chromium browsers (Chrome, Edge) for now</div>}
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="settings-item">
-                <br />
-                <br />
-                <br />
-                <br />
                 <a onClick={() => dispatch(load({ items: {} }))}>
                     Reset collection (warning: not recoverable unless you've exported it)
                 </a>

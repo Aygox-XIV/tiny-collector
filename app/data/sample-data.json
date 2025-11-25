@@ -55,6 +55,20 @@
           "subtype": "Flooded Expedition",
           "name": "Tap on a Duck decor"
         },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Task",
+          "subtype": "Phantom Isle (part 1)",
+          "name": "Tap on a Spooky Duck decor"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Task",
+          "subtype": "Evercold Isle (part 2)",
+          "name": "Tap on a Frosty Duck decor"
+        },
         { "kind": "item", "fragment": true, "type": "Corrupted-data" }
       ]
     },
