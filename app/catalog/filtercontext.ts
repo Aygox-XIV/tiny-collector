@@ -2,8 +2,6 @@ import { createContext, useContext, type Dispatch, type SetStateAction } from 'r
 import type { CollectedItem } from '../collection';
 import type { CatalogType, Category, Item } from '../database/database';
 
-export type LicenseFilter = 'none' | 'licensable' | 'unlicensed';
-
 export interface CatalogFilter {
     // Which catalog to view
     readonly catalogView?: CatalogType;

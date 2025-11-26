@@ -1,12 +1,13 @@
-// include filter bar, list of required materials
-
 import { Outlet } from 'react-router';
 import type { Route } from './+types/view';
+import { LicenseEventFilterBar } from './eventfilter';
+import { LicenseList } from './licenselist';
 
 export default function CatalogView({ params, matches }: Route.ComponentProps) {
     return (
         <div className="license-view center-content">
-            <p>License materials view.</p>
+            <LicenseEventFilterBar />
+            <LicenseList />
             <Outlet />
         </div>
     );

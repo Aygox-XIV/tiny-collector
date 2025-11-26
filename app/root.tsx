@@ -6,6 +6,7 @@ import type { Route } from './+types/root';
 import './app.css';
 import { CatalogFilterContext, type CatalogFilter } from './catalog/filtercontext';
 import { SourceFilterContext, type SourceFilter } from './checklist/filtercontext';
+import { LicenseFilterContext, type LicenseFilter } from './license/filtercontext';
 import { store } from './store';
 
 export const links: Route.LinksFunction = () => [
@@ -51,13 +52,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App({ loaderData }: Route.ComponentProps) {
     // Filter contexts are put here so they persist between navigating
     const sourceFilterState = useState<SourceFilter>({});
+    const licenseFilterstate = useState<LicenseFilter>({});
     const catalogFilterState = useState<CatalogFilter>({});
     return (
         <Provider store={store}>
             <CatalogFilterContext value={catalogFilterState}>
-                <SourceFilterContext value={sourceFilterState}>
-                    <Outlet />
-                </SourceFilterContext>
+                <LicenseFilterContext value={licenseFilterstate}>
+                    <SourceFilterContext value={sourceFilterState}>
+                        <Outlet />
+                    </SourceFilterContext>
+                </LicenseFilterContext>
             </CatalogFilterContext>
         </Provider>
     );

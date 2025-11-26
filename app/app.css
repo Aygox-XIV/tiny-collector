@@ -82,6 +82,9 @@ div.center-content {
 
 div.license-view {
   background-color: bisque;
+  display: grid;
+  grid-template-columns: 150px auto;
+  padding: 0px;
 }
 
 div.settings-view {
