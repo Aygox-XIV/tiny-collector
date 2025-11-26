@@ -5,7 +5,7 @@ import type { Route } from './+types/view';
 
 export default function CatalogView({ params, matches }: Route.ComponentProps) {
     return (
-        <div className="license-view">
+        <div className="license-view center-content">
             <p>License materials view.</p>
             <Outlet />
         </div>

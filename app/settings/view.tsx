@@ -34,7 +34,7 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
     // this yields an error (in dev?) when loading the /settings directly because SSR!=CSR. that's fine if it's only in dev.
     let fsAvailable = typeof window !== 'undefined' && window.showSaveFilePicker !== undefined;
     return (
-        <div className="settings-view">
+        <div className="settings-view center-content">
             All per-user data is kept locally in the browser (localStorage); nothing is ever sent to the server.
             <br />
             Use this page to save your collection to a local file, for backup purposes or to e.g. move it to another

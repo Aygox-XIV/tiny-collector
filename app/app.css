@@ -30,7 +30,7 @@ div {
 div.content {
   height: 100vh;
   display: grid;
-  grid-template-rows: 50px 50px auto;
+  grid-template-rows: 50px 50px auto 20px;
   padding: 0px;
 }
 
@@ -49,10 +49,21 @@ div.menu-item > a.active {
   font-weight: bold;
 }
 
+div.footer {
+  height: 20px;
+  max-height: 20px;
+  overflow: hidden;
+  font-size: x-small;
+}
+
+div.footer > a {
+  text-decoration: underline;
+}
+
 /* TODO: standardize colors more. */
 
 div.vert-filter-bar {
-  max-height: calc(100lvh - 100px);
+  max-height: calc(100lvh - 120px);
   background-color: rgb(187, 156, 119);
   overflow-y: auto;
   border-radius: 0px;
@@ -88,12 +99,13 @@ div.catalog-view {
   display: grid;
   grid-template-columns: 150px auto 600px;
   background-color: antiquewhite;
-  max-height: calc(100vh - 100px);
+  max-height: calc(100vh - 120px);
+  height: calc(100vh - 120px);
   padding: 0px;
 }
 
 div.catalog-filter {
-  max-height: calc(100lvh - 100px);
+  max-height: calc(100lvh - 120px);
   background-color: rgb(187, 156, 119);
   padding: 3px;
   border-radius: 0px;
@@ -135,7 +147,7 @@ svg.selected {
 div.catalog {
   display: grid;
   grid-template-rows: 50px auto;
-  max-height: calc(100vh - 100px);
+  max-height: calc(100vh - 120px);
   background-color: bisque;
   padding: 0px;
 }
@@ -300,7 +312,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 div.details-panel {
-  max-height: calc(100lvh - 100px);
+  max-height: calc(100lvh - 120px);
   overflow-x: auto;
   overflow-y: auto;
 }
@@ -340,7 +352,7 @@ div.checklist-view {
   display: grid;
   grid-template-columns: 150px 150px auto 600px;
   background-color: antiquewhite;
-  max-height: calc(100vh - 100px);
+  max-height: calc(100vh - 120px);
   column-gap: 1px;
   padding: 0px;
 }

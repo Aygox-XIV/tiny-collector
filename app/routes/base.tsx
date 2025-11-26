@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
-import { NavLink, Outlet } from 'react-router';
+import { Outlet } from 'react-router';
 import { load, loadCollection, useCollectionInitialized } from '../collection';
+import { Footer } from '../menu/footer';
+import { Header } from '../menu/header';
 import { MenuBar } from '../menu/menubar';
 import { useAppDispatch } from '../store';
 import type { Route } from './+types/base';
@@ -16,11 +18,10 @@ export default function Base({ loaderData, actionData, params, matches }: Route.
     });
     return (
         <div className="content">
-            <div className="header">
-                <NavLink to="/">Tiny Shop collection tracker</NavLink>
-            </div>
+            <Header />
             <MenuBar />
             <Outlet />
+            <Footer />
         </div>
     );
 }
