@@ -6,9 +6,9 @@
       "category": "Gear",
       "recipe": {
         "ingredient": [
-          { "name": "Slime Extract", "quantity": 2 },
-          { "name": "Anthracite", "quantity": 2 },
-          { "name": "Summer Glory", "quantity": 2 }
+          { "name": "Slime Extract", "id": "6", "quantity": 2 },
+          { "name": "Anthracite", "id": "7", "quantity": 2 },
+          { "name": "Summer Glory", "id": "8", "quantity": 2 }
         ],
         "craft_amount": 2
       },
@@ -78,8 +78,8 @@
       "category": "Gear",
       "recipe": {
         "ingredient": [
-          { "name": "Iron Shield", "quantity": 1 },
-          { "name": "Fire Extract", "quantity": 1 }
+          { "name": "Iron Shield", "id": "3", "quantity": 1 },
+          { "name": "Fire Extract", "id": "4", "quantity": 1 }
         ],
         "craft_amount": 1
       },
@@ -100,7 +100,7 @@
       "id": 3,
       "category": "Gear",
       "recipe": {
-        "ingredient": [{ "name": "Iron", "quantity": 5 }],
+        "ingredient": [{ "name": "Iron", "id": "9", "quantity": 5 }],
         "craft_amount": 1
       },
       "license_amount": 250,
@@ -121,9 +121,9 @@
       "category": "Consumables",
       "recipe": {
         "ingredient": [
-          { "name": "Purified Water", "quantity": 3 },
-          { "name": "Firebloom Leaves", "quantity": 2 },
-          { "name": "Standard Catalyst", "quantity": 1 }
+          { "name": "Purified Water", "id": "10", "quantity": 3 },
+          { "name": "Firebloom Leaves", "id": "18", "quantity": 2 },
+          { "name": "Standard Catalyst", "id": "5", "quantity": 1 }
         ],
         "craft_amount": 1
       },
@@ -145,10 +145,10 @@
       "category": "Material",
       "recipe": {
         "ingredient": [
-          { "name": "Summer Glory", "quantity": 1 },
-          { "name": "Blue Tower", "quantity": 1 },
-          { "name": "Puff Flower", "quantity": 1 },
-          { "name": "Spices", "quantity": 1 }
+          { "name": "Summer Glory", "id": "8", "quantity": 1 },
+          { "name": "Blue Tower", "id": "11", "quantity": 1 },
+          { "name": "Puff Flower", "id": "12", "quantity": 1 },
+          { "name": "Spices", "id": "13", "quantity": 1 }
         ],
         "craft_amount": 3
       },
@@ -267,7 +267,7 @@
       "id": 14,
       "category": "Consumables",
       "recipe": {
-        "ingredient": [{ "name": "Everspring Leaves", "quantity": 4 }],
+        "ingredient": [{ "name": "Everspring Leaves", "id": "15", "quantity": 4 }],
         "craft_amount": 2
       },
       "license_amount": 300,
@@ -292,7 +292,7 @@
       "id": 16,
       "category": "Consumables",
       "recipe": {
-        "ingredient": [{ "name": "Blue Tower", "quantity": 2 }],
+        "ingredient": [{ "name": "Blue Tower", "id": "11", "quantity": 2 }],
         "craft_amount": 4
       },
       "license_amount": 50
@@ -374,10 +374,10 @@
     {
       "name": "Standard Catalyst+",
       "ingredient": [
-        { "name": "Summer Glory", "quantity": 20 },
-        { "name": "Blue Tower", "quantity": 20 },
-        { "name": "Puff Flower", "quantity": 20 },
-        { "name": "Spices", "quantity": 20 }
+        { "name": "Summer Glory", "id": "8", "quantity": 20 },
+        { "name": "Blue Tower", "id": "11", "quantity": 20 },
+        { "name": "Puff Flower", "id": "12", "quantity": 20 },
+        { "name": "Spices", "id": "13", "quantity": 20 }
       ],
       "craft_amount": 60
     },

@@ -50,7 +50,14 @@ export interface CatalogList {
     readonly catalogs: CatalogDef[];
 }
 
-export type CatalogType = 'catalog' | 'catalogSpec' | 'floodEx' | 'sunFes' | 'phantom' | 'evercold';
+export enum CatalogType {
+    FullCatalog = 'catalog',
+    QuestCatalog = 'catalogSpec',
+    FloodedCatalog = 'floodEx',
+    SunCatalog = 'sunFes',
+    PhantomCatalog = 'phantom',
+    EvercoldCatalog = 'evercold',
+}
 
 export interface CatalogDef {
     readonly key: CatalogType;
@@ -63,6 +70,8 @@ export interface CatalogDef {
     // IDs only. TODO: name+id for manual management?
     // TODO: allow "empty" slots to better simulate autolog positioning
     readonly items: string[];
+    // Populated after loading
+    readonly itemSet?: Set<string>;
 }
 
 // source images file
@@ -195,7 +204,7 @@ function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: So
         if (catalogs[c.key]) {
             throw 'Duplicate catalog key ' + c.key;
         }
-        catalogs[c.key] = c;
+        catalogs[c.key] = { ...c, itemSet: new Set(c.items) };
     });
 
     console.log('created db: ' + Object.keys(items).length + ' items');

@@ -88,7 +88,7 @@ export function parseCollection(data?: string | undefined | null): Collection {
     // TODO: sanitize?
 }
 
-function defaultCollectionState(id: string): CollectedItem {
+export function defaultCollectionState(id: string): CollectedItem {
     return { id, status: {} };
 }
 

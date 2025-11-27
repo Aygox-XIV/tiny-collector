@@ -1,8 +1,9 @@
 import { createContext, useContext, type Dispatch, type SetStateAction } from 'react';
-import type { EventCategory } from '../database/sources';
+import type { CatalogType } from '../database/database';
 
 export interface LicenseFilter {
-    readonly hiddenEvents?: Set<EventCategory>;
+    readonly hiddenCatalogs?: Set<CatalogType>;
+    readonly hidePremiumItems?: boolean;
 }
 
 export type LicenseFilterState = [LicenseFilter, Dispatch<SetStateAction<LicenseFilter>>];
