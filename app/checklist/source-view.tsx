@@ -3,11 +3,18 @@ import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
 import { changeStatus, useCollectedItem } from '../collection';
 import { FragmentIcon } from '../common/fragmenticon';
-import { WIKI_IMAGE_PATH_PREFIX } from '../common/icon';
 import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { CollectableStatusIcon, LicenseStatusIcon, RecipeStatusIcon } from '../common/statusicons';
-import { dropIsCollected, isCollectable, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
+import {
+    dropIsCollected,
+    getImgSrc,
+    isCollectable,
+    useDatabase,
+    type DropDetail,
+    type ImageRef,
+    type SourceDetails,
+} from '../database/database';
 import { EventType, SourceType, type Source } from '../database/sources';
 import { useAppDispatch } from '../store';
 import type { Route } from './+types/source-view';
@@ -122,7 +129,7 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                     <NavLink to={'/catalog/' + source.id}>{source.name}</NavLink>
                     <div>
                         <NavLink to={'/catalog/' + source.id}>
-                            <DetailImage src={WIKI_IMAGE_PATH_PREFIX + db.items[source.id].wiki_image_path} />
+                            <DetailImage src={db.items[source.id].image} />
                         </NavLink>
                     </div>
                 </div>
@@ -221,12 +228,12 @@ const EventSubtypeDetails: React.FC<SourceProps> = ({ source }) => {
 };
 
 interface ImageProps {
-    readonly src?: string;
+    readonly src?: ImageRef;
 }
 
 const DetailImage: React.FC<ImageProps> = ({ src }) => {
     if (src) {
-        return <img src={src} className="detail-image" />;
+        return <img src={getImgSrc(src)} className="detail-image" />;
     } else {
         return <BsQuestionSquare className="detail-image" />;
     }

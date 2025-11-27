@@ -5,7 +5,7 @@ import { FaShield } from 'react-icons/fa6';
 import { TbFlask2Filled } from 'react-icons/tb';
 import { VscRuby } from 'react-icons/vsc';
 import { Toggle } from '../common/toggle';
-import { useDatabase, type CatalogType, type Category } from '../database/database';
+import { getImgSrc, useDatabase, type CatalogType, type Category } from '../database/database';
 import { useCatalogFilter } from './filtercontext';
 
 export interface CatalogFilterBarProps {}
@@ -38,7 +38,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                     return (
                         <img
                             key={rawKey}
-                            src={db.catalogs[key].icon}
+                            src={getImgSrc(db.catalogs[key].icon)}
                             className={'catalog-icon' + selectedClass(filter.catalogView === key)}
                             onClick={() => setCatalog(key)}
                         />

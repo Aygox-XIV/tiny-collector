@@ -84,7 +84,7 @@
         "craft_amount": 1
       },
       "license_amount": 700,
-      "wiki_image_path": "1/18/Fire_Shield.png",
+      "image": { "fandom_wiki_image_path": "1/18/Fire_Shield.png" },
       "source": [
         {
           "kind": "recipe",
@@ -104,7 +104,7 @@
         "craft_amount": 1
       },
       "license_amount": 250,
-      "wiki_image_path": "f/ff/Iron_Shield.png",
+      "image": { "fandom_wiki_image_path": "f/ff/Iron_Shield.png" },
       "source": [
         {
           "kind": "recipe",
@@ -128,7 +128,7 @@
         "craft_amount": 1
       },
       "license_amount": 550,
-      "wiki_image_path": "b/b3/Fire_Extract.png",
+      "image": { "fandom_wiki_image_path": "b/b3/Fire_Extract.png" },
       "source": [
         {
           "kind": "recipe",
@@ -154,7 +154,7 @@
       },
       "license_amount": 300,
       "alt_recipe": ["Standard Catalyst+"],
-      "wiki_image_path": "f/f0/Standard_Catalyst.png",
+      "image": { "fandom_wiki_image_path": "f/f0/Standard_Catalyst.png" },
       "source": [
         {
           "kind": "recipe",
@@ -195,7 +195,7 @@
       "name": "Summer Glory",
       "id": 8,
       "category": "Material",
-      "wiki_image_path": "e/eb/Summer_Glory.png",
+      "image": { "fandom_wiki_image_path": "e/eb/Summer_Glory.png" },
       "source": [
         {
           "kind": "item",
@@ -209,7 +209,7 @@
       "name": "Iron",
       "id": 9,
       "category": "Material",
-      "wiki_image_path": "4/45/Iron.png",
+      "image": { "fandom_wiki_image_path": "4/45/Iron.png" },
       "source": [
         {
           "kind": "item",
@@ -223,7 +223,7 @@
       "name": "Purified Water",
       "id": 10,
       "category": "Material",
-      "wiki_image_path": "3/30/Purified_Water.png",
+      "image": { "fandom_wiki_image_path": "3/30/Purified_Water.png" },
       "source": [
         {
           "kind": "item",
@@ -237,7 +237,7 @@
       "name": "Blue Tower",
       "id": 11,
       "category": "Material",
-      "wiki_image_path": "8/8a/Blue_Tower.png",
+      "image": { "fandom_wiki_image_path": "8/8a/Blue_Tower.png" },
       "source": [
         {
           "kind": "item",
@@ -251,7 +251,7 @@
       "name": "Puff Flower",
       "id": 12,
       "category": "Material",
-      "wiki_image_path": "1/1c/Puff_Flower.png",
+      "image": { "fandom_wiki_image_path": "1/1c/Puff_Flower.png" },
       "source": [
         {
           "kind": "item",
@@ -272,7 +272,7 @@
       },
       "license_amount": 300,
       "alt_recipe": ["Blank Scroll Sheets +"],
-      "wiki_image_path": "4/40/Blank_Scroll_Sheets.png"
+      "image": { "fandom_wiki_image_path": "4/40/Blank_Scroll_Sheets.png" }
     },
     {
       "name": "Everspring Leaves",
@@ -301,7 +301,7 @@
       "name": "Everwood",
       "id": 17,
       "category": "Material",
-      "wiki_image_path": "0/00/Everwood.png",
+      "image": { "fandom_wiki_image_path": "0/00/Everwood.png" },
       "source": [
         {
           "kind": "item",
@@ -315,7 +315,7 @@
       "name": "Firebloom Leaves",
       "id": 18,
       "category": "Material",
-      "wiki_image_path": "c/cb/Firebloom_Leaves.png",
+      "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" },
       "source": [
         {
           "kind": "item",

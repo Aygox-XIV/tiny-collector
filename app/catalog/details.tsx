@@ -27,7 +27,7 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     return (
         <div className="details-panel">
             <div className="detail-name">{item.name}</div>
-            <Icon wiki_path={item.wiki_image_path} />
+            <Icon src={item.image} />
             <StatusIcons id={id} />
             {item.license_amount && (
                 <div className="detail-license-data">

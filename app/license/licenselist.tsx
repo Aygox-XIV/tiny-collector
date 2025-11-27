@@ -73,7 +73,7 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
     // - show & edit license progress, mark-as-licensed
     // - allow marking items as "ignored"? Or have a separate "no collected recipe" list when that option is unchecked & allow marking recipe collection as well
     // optimistic TODO: fully-customizable list with manual item selection.
-    // TODO: allow marking craftable materials as "keep crafting"
+    // TODO: allow marking craftable materials as "keep crafting" and do another pass over the materials list
 
     // TODO: tiny scrollable item icons in materials list for which items they're for w/ counts & even tinier license progress bar? lots of empty space otherwise.
 
@@ -124,7 +124,7 @@ const LicenseListEntry: React.FC<LicenseItemProps> = ({ id, amount }) => {
         <NavLink to={'/catalog/' + item.id}>
             <div className="license-list-entry">
                 <div className="license-list-material-icon">
-                    <Icon wiki_path={item.wiki_image_path} />
+                    <Icon src={item.image} />
                 </div>
                 <div className="license-list-details">
                     <div className="item-name">{item.name}</div>

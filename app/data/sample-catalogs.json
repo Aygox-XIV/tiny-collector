@@ -3,39 +3,39 @@
     {
       "key": "catalog",
       "name": "Autolog",
-      "icon": "/autolog.png",
+      "icon": { "local_path": "/autolog.png" },
       "items": ["-1", "1", "2", "3", "4", "5", "6", "7", "8", "19", "20", "21", "22", "23", "24"]
     },
     {
       "key": "catalogSpec",
       "name": "Autolog (Quest)",
-      "icon": "/catalog_quest.png",
+      "icon": { "local_path": "/catalog_quest.png" },
       "categories": ["Quest"],
       "items": ["9", "2", "1"]
     },
     {
       "key": "sunFes",
       "name": "Sun Festival",
-      "icon": "/catalog_sf.png",
+      "icon": { "local_path": "/catalog_sf.png" },
       "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
       "items": ["6", "7", "8", "16"]
     },
     {
       "key": "floodEx",
       "name": "Flooded Expedition",
-      "icon": "/catalog_fe.png",
+      "icon": { "local_path": "/catalog_fe.png" },
       "items": ["3", "4", "5"]
     },
     {
       "key": "phantom",
       "name": "Phantom Isle",
-      "icon": "/catalog_phantom.png",
+      "icon": { "local_path": "/catalog_phantom.png" },
       "items": ["19", "22", "23", "24"]
     },
     {
       "key": "evercold",
       "name": "Evercold Isle",
-      "icon": "/catalog_evercold.png",
+      "icon": { "local_path": "/catalog_evercold.png" },
       "items": ["13", "14", "15", "16"]
     }
   ]

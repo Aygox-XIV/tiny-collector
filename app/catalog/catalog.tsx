@@ -1,6 +1,6 @@
 import type { ChangeEvent } from 'react';
 import { useFullCollection } from '../collection';
-import { useDatabase } from '../database/database';
+import { getImgSrc, useDatabase } from '../database/database';
 import { CatalogItem } from './catalogitem';
 import { itemMatchesFilter, useCatalogFilter } from './filtercontext';
 
@@ -38,7 +38,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
             <div className="catalog-search search-bar">
                 {filter.catalogView && (
                     <div className="catalog-name">
-                        <img className="catalog-icon" src={db.catalogs[filter.catalogView].icon} />
+                        <img className="catalog-icon" src={getImgSrc(db.catalogs[filter.catalogView].icon)} />
                         {db.catalogs[filter.catalogView].name}
                     </div>
                 )}

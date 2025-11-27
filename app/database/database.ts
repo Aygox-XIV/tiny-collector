@@ -15,9 +15,17 @@ export interface IdentifiableEntity {
     readonly name: string;
     // maintained/enforced by conversion script
     readonly id: number;
-    // Path relative to https://static.wikia.nocookie.net/tiny-shop/images/ that has this item's image
-    readonly wiki_image_path?: string;
+    readonly image?: ImageRef;
     readonly source?: Source[];
+}
+
+export interface ImageRef {
+    // Path relative to https://static.wikia.nocookie.net/tiny-shop/images/ that has this item's image
+    readonly fandom_wiki_image_path?: string;
+    // Path relative to whatever _domain_ this application is hosted on.
+    readonly local_path?: string;
+    // Full url of the image. (only https: and data: URLs are allowed)
+    readonly full_url?: string;
 }
 
 export interface ItemData {
@@ -63,8 +71,7 @@ export interface CatalogDef {
     readonly key: CatalogType;
     // display name
     readonly name: string;
-    // TODO: make icons/images their own type, with local & wiki & elsewhere options?
-    readonly icon: string;
+    readonly icon: ImageRef;
     // Which item categories are present
     readonly categories?: Category[];
     // IDs only. TODO: name+id for manual management?
@@ -84,7 +91,7 @@ export interface SourceImage {
     readonly type: SourceType;
     readonly subtype?: string;
     readonly name?: string;
-    readonly src?: string;
+    readonly src?: ImageRef;
 }
 
 /// parsed data
@@ -95,7 +102,7 @@ export interface SourceDetails {
     // arbitrary fragment/kind data
     readonly source: Source;
     readonly drops: DropDetail[];
-    readonly imageSrc?: string;
+    readonly imageSrc?: ImageRef;
 }
 
 export interface DropDetail {
@@ -160,7 +167,7 @@ function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: So
     let items: ItemDB = {};
     let alt_recipes: Record<string, AltRecipe> = {};
     let sources: Record<string, SourceDetails> = {};
-    let sourceImageMap: Record<string, string> = {};
+    let sourceImageMap: Record<string, ImageRef> = {};
 
     sourceImages.images.forEach((i) => {
         if (i.src) {
@@ -231,4 +238,24 @@ export function dropIsCollected(drop: DropDetail, item: CollectedItem) {
             // I don't want to track collected fragment counts; having all fragments is considered equivalent to having the combined recipe.
             return item.status.haveRecipe;
     }
+}
+
+export function getImgSrc(ref: ImageRef) {
+    if (ref.fandom_wiki_image_path) {
+        return 'https://static.wikia.nocookie.net/tiny-shop/images/' + ref.fandom_wiki_image_path;
+    }
+    if (ref.full_url) {
+        if (!ref.full_url.startsWith('data:') && !ref.full_url.startsWith('https://')) {
+            throw 'invalid ImageRef.full_url: ' + ref.full_url.toString();
+        }
+        return ref.full_url;
+    }
+    if (ref.local_path) {
+        if (!ref.local_path.startsWith('/')) {
+            return '/' + ref.local_path;
+        } else {
+            return ref.local_path;
+        }
+    }
+    throw 'unhandled ImageRef option: ' + JSON.stringify(ref);
 }

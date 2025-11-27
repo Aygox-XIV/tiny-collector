@@ -39,7 +39,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
             {({ isActive }) => (
                 <div className={'catalog-item' + (isActive ? ' active' : '') + collectionStateClass}>
                     <NameTag name={item.name} />
-                    <Icon wiki_path={item.wiki_image_path} />
+                    <Icon src={item.image} />
                     <StatusIcons id={id} />
                     {item.license_amount && (
                         <ProgressBar
