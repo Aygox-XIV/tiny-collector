@@ -23,6 +23,9 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
         if (collectedState.status.licensed || (collectedState.licenseProgress || 0) >= item.license_amount) {
             return;
         }
+        if (filter.hideUncollectedItems && !collectedState.status.haveRecipe) {
+            return;
+        }
         // Even if an item also has a non-premium source (teas, map), still consider it a premium-only item
         if (filter.hidePremiumItems) {
             for (const source of item.source || []) {
@@ -69,6 +72,8 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
     // - show & edit license progress, mark-as-licensed
     // - allow marking items as "ignored"
     // optimistic TODO: allow adding arbitrary items to the list
+
+    // TODO: tiny scrollable item icons in materials list for which items they're for?
 
     return (
         <div className="license-list center-content">

@@ -1,8 +1,10 @@
+import { Toggle } from '../common/toggle';
 import { CatalogType } from '../database/database';
 import type { NoProps } from '../util';
 import { useLicenseFilter } from './filtercontext';
 
 export const LicenseCalatogFilterBar: React.FC<NoProps> = ({}) => {
+    const [filter, setFilter] = useLicenseFilter();
     // (class names use the 'event' filter for convenience even though this selects catalogs)
 
     // TODO: this is not a great setup, but may feel better with more-realistic event catalogs.
@@ -19,7 +21,20 @@ export const LicenseCalatogFilterBar: React.FC<NoProps> = ({}) => {
                 })}
             </div>
             <br />
-            <br />
+            <Toggle
+                text="Include uncollected recipes"
+                checked={!filter.hideUncollectedItems}
+                onClick={() => {
+                    setFilter({ ...filter, hideUncollectedItems: !filter.hideUncollectedItems });
+                }}
+            />
+            <Toggle
+                text="Include premium items"
+                checked={!filter.hidePremiumItems}
+                onClick={() => {
+                    setFilter({ ...filter, hidePremiumItems: !filter.hidePremiumItems });
+                }}
+            />
             <br />
             Click to select, click again to select all. Hold Ctrl to add to or remove from the selection.
         </div>

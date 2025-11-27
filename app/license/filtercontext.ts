@@ -3,6 +3,7 @@ import type { CatalogType } from '../database/database';
 
 export interface LicenseFilter {
     readonly hiddenCatalogs?: Set<CatalogType>;
+    readonly hideUncollectedItems?: boolean;
     readonly hidePremiumItems?: boolean;
 }
 
