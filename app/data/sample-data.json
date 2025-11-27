@@ -368,6 +368,162 @@
           "name": "Survey: Botanical Study"
         }
       ]
+    },
+    {
+      "name": "Spectral Bourguignon",
+      "id": 19,
+      "category": "Consumables",
+      "source": [
+        {
+          "kind": "recipe",
+          "fragment": true,
+          "type": "Journey",
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Resort: Cafetaria"
+        }
+      ],
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "id": "20", "quantity": 2 },
+          { "name": "Potatoes", "id": "21", "quantity": 2 },
+          { "name": "Ectoplasm", "id": "22", "quantity": 1 },
+          { "name": "Tombstone Eye", "id": "23", "quantity": 2 }
+        ],
+        "craft_amount": 4
+      },
+      "license_amount": 750
+    },
+    {
+      "name": "Drakegull Meat",
+      "id": 20,
+      "category": "Material",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "City",
+          "subtype": "Shop",
+          "name": "Chez Gustave"
+        }
+      ]
+    },
+    {
+      "name": "Potatoes",
+      "id": 21,
+      "category": "Material"
+    },
+    {
+      "name": "Ectoplasm",
+      "id": 22,
+      "category": "Material",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "subtype": "Phantom Isle (part 1)",
+          "name": "Hunt: Swarm of Will O' Wisps"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "subtype": "Phantom Isle (part 2)",
+          "name": "Hunt: Swarm of Will O' Wisps"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Journey",
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Resort: Spectral Jungle"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Shifty",
+          "name": "Phantom Monster Material Crate"
+        }
+      ]
+    },
+    {
+      "name": "Tombstone Eye",
+      "id": 23,
+      "category": "Material",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 2)",
+          "name": "Animated Tombstone"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 2)",
+          "name": "Soulfire Tombstone"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Animated Tombstone"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Soulfire Tombstone"
+        }
+      ]
+    },
+    {
+      "name": "Figurine: Animated Tombstone",
+      "id": 24,
+      "category": "Material",
+      "source": [
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 2)",
+          "name": "Animated Tombstone"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 2)",
+          "name": "Soulfire Tombstone"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Animated Tombstone"
+        },
+        {
+          "kind": "item",
+          "fragment": false,
+          "type": "Battle",
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Soulfire Tombstone"
+        }
+      ],
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "id": "7", "quantity": 2 },
+          { "name": "Slime Extract", "id": 6, "quantity": 1 },
+          { "name": "Tombstone Eye", "id": 23, "quantity": 2 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 600
     }
   ],
   "alt_recipes": [

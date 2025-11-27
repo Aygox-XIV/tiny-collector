@@ -5,10 +5,8 @@ import { useLicenseFilter } from './filtercontext';
 
 export const LicenseCalatogFilterBar: React.FC<NoProps> = ({}) => {
     const [filter, setFilter] = useLicenseFilter();
-    // (class names use the 'event' filter for convenience even though this selects catalogs)
 
-    // TODO: this is not a great setup, but may feel better with more-realistic event catalogs.
-    // TODO: toggle to ignore items without collected recipe
+    // (class names use the 'event' filter for convenience even though this selects catalogs)
     return (
         <div className="catalog-filter vert-filter-bar">
             Catalog Type:

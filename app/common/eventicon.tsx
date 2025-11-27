@@ -10,6 +10,7 @@ export interface EventIconProps {
 }
 
 export const EventIcon: React.FC<EventIconProps> = ({ type, tooltipId }) => {
+    // TODO: include phase number as super/subscript
     let IconChoice;
     switch (type) {
         case EventCategory.EvercoldIsle:

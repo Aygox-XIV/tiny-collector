@@ -35,8 +35,8 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
             }
         }
 
-        // Catalog logic is convoluted, since the main catalog includes all other catalogs (minus quest).
-        // As such 'main catalog' means 'any item in none of the event catalogs'
+        // Catalog logic is a little bit convoluted, since the main catalog includes all other catalogs (minus quest, which has nothing to license).
+        // As such 'full catalog' means 'any item in none of the event catalogs'
         let nonEventItems;
         for (const hiddenCatalog of filter.hiddenCatalogs || []) {
             if (hiddenCatalog == CatalogType.FullCatalog) {
@@ -59,21 +59,23 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
         // no recipe, but licensable: just add the item directly
         if (!item.recipe) {
             materialsToLicense[i] = (materialsToLicense[i] || 0) + remainingToLicense;
-        }
-        const craftsNeeded = Math.ceil(remainingToLicense / item.recipe!.craft_amount);
-        // TODO: consider alt recipes, if they are collected
-        for (const ingredient of item.recipe!.ingredient) {
-            materialsToLicense[ingredient.id] =
-                (materialsToLicense[ingredient.id] || 0) + craftsNeeded * ingredient.quantity;
+        } else {
+            const craftsNeeded = Math.ceil(remainingToLicense / item.recipe!.craft_amount);
+            // TODO: take into consideration alt recipes, if they are collected
+            for (const ingredient of item.recipe.ingredient) {
+                materialsToLicense[ingredient.id] =
+                    (materialsToLicense[ingredient.id] || 0) + craftsNeeded * ingredient.quantity;
+            }
         }
     });
 
     // TODO: more details in item list:
     // - show & edit license progress, mark-as-licensed
-    // - allow marking items as "ignored"
-    // optimistic TODO: allow adding arbitrary items to the list
+    // - allow marking items as "ignored"? Or have a separate "no collected recipe" list when that option is unchecked & allow marking recipe collection as well
+    // optimistic TODO: fully-customizable list with manual item selection.
+    // TODO: allow marking craftable materials as "keep crafting"
 
-    // TODO: tiny scrollable item icons in materials list for which items they're for?
+    // TODO: tiny scrollable item icons in materials list for which items they're for w/ counts & even tinier license progress bar? lots of empty space otherwise.
 
     return (
         <div className="license-list center-content">

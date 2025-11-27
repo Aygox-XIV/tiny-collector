@@ -4,7 +4,7 @@
       "key": "catalog",
       "name": "Autolog",
       "icon": "/autolog.png",
-      "items": ["-1", "1", "2", "3", "4", "5", "6", "7", "8"]
+      "items": ["-1", "1", "2", "3", "4", "5", "6", "7", "8", "19", "20", "21", "22", "23", "24"]
     },
     {
       "key": "catalogSpec",
@@ -18,7 +18,7 @@
       "name": "Sun Festival",
       "icon": "/catalog_sf.png",
       "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
-      "items": ["6", "7", "8"]
+      "items": ["6", "7", "8", "16"]
     },
     {
       "key": "floodEx",
@@ -30,7 +30,7 @@
       "key": "phantom",
       "name": "Phantom Isle",
       "icon": "/catalog_phantom.png",
-      "items": ["9", "10", "11", "12"]
+      "items": ["19", "22", "23", "24"]
     },
     {
       "key": "evercold",
