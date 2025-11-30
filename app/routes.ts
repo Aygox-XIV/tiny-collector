@@ -19,5 +19,6 @@ export default [
             route(':sid', 'checklist/source-view.tsx'),
         ]),
         route('settings', 'settings/view.tsx'),
+        route('db-mgmt', 'datamgmt/view.tsx'),
     ]),
 ] satisfies RouteConfig;

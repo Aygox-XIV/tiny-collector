@@ -184,6 +184,9 @@ input.catalog-search {
 
 div.catalog-search-content {
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 div.catalog-content {

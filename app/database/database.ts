@@ -77,8 +77,8 @@ export interface CatalogDef {
     // IDs only. TODO: name+id for manual management?
     // TODO: allow "empty" slots to better simulate autolog positioning
     readonly items: string[];
-    // Populated after loading
-    readonly itemSet?: Set<string>;
+    // Populated after loading. ID -> true to simulate a serializable Set.
+    readonly itemSet?: Record<string, boolean>;
 }
 
 // source images file
@@ -132,7 +132,7 @@ export function isCollectable(item: Item) {
         case 'Material':
             return !item.license_amount;
         case 'Plant':
-            // TODO: figure out how to represent now-this-can-be-bought-from-Lily
+            // TODO: figure out how to represent now-this-can-be-bought-from-Lily?
             return false;
     }
 }
@@ -141,12 +141,14 @@ export const dbSlice = createSlice({
     name: 'database',
     initialState: initDb(),
     reducers: {
-        reload: (state, action: PayloadAction<Database>) => {
-            console.log('reload');
-            state = action.payload;
+        setDbItems: (state, action: PayloadAction<ItemDB>) => {
+            console.log('setting item DB with ' + Object.keys(action.payload).length + ' items');
+            state.items = action.payload;
         },
     },
 });
+
+export const { setDbItems } = dbSlice.actions;
 
 function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
@@ -211,7 +213,11 @@ function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: So
         if (catalogs[c.key]) {
             throw 'Duplicate catalog key ' + c.key;
         }
-        catalogs[c.key] = { ...c, itemSet: new Set(c.items) };
+        let itemSet: Record<string, boolean> = {};
+        c.items.forEach((id) => {
+            itemSet[id] = true;
+        });
+        catalogs[c.key] = { ...c, itemSet };
     });
 
     console.log('created db: ' + Object.keys(items).length + ' items');

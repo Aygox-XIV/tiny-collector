@@ -44,7 +44,7 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
                 if (nonEventItems.has(id)) {
                     return;
                 }
-            } else if (db.catalogs[hiddenCatalog].itemSet?.has(id)) {
+            } else if (db.catalogs[hiddenCatalog].itemSet && db.catalogs[hiddenCatalog].itemSet[id]) {
                 return;
             }
         }
@@ -103,7 +103,7 @@ function createNonEventItemSet(db: Database): Set<string> {
         if (catalog == CatalogType.FullCatalog || catalog == CatalogType.QuestCatalog) {
             continue;
         }
-        db.catalogs[catalog].itemSet?.forEach((i) => {
+        Object.keys(db.catalogs[catalog].itemSet || {}).forEach((i) => {
             nonEventItems.delete(i);
         });
     }

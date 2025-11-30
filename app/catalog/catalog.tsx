@@ -1,4 +1,5 @@
 import type { ChangeEvent } from 'react';
+import { HiOutlineX } from 'react-icons/hi';
 import { useFullCollection } from '../collection';
 import { getImgSrc, useDatabase } from '../database/database';
 import { CatalogItem } from './catalogitem';
@@ -43,7 +44,18 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                     </div>
                 )}
                 <div className="catalog-search-content">
-                    Filter by name: <input className="catalog-search" onChange={updateNameFilter} />
+                    Filter by name:{' '}
+                    <input
+                        id="catalog-search"
+                        className="catalog-search"
+                        onChange={updateNameFilter}
+                        value={filter.nameMatch || ''}
+                    />
+                    <HiOutlineX
+                        onClick={() => {
+                            setFilter({ ...filter, nameMatch: undefined });
+                        }}
+                    />
                 </div>
             </div>
             <div className="catalog-content center-content">
