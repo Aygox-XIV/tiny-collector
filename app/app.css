@@ -465,6 +465,12 @@ div.collected {
 div.license-list {
   display: grid;
   grid-template-columns: auto 600px;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+div.license-material-list-container {
+  max-height: 100%;
 }
 
 div.license-materials-list {
@@ -472,10 +478,14 @@ div.license-materials-list {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   gap: 15px;
+  overflow-y: auto;
 }
 
 div.license-item-list {
   padding: 10px;
+  max-height: calc(100lvh - 120px);
+  overflow-y: auto;
+  background-color: antiquewhite;
 }
 
 div.license-list-entry {

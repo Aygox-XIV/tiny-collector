@@ -76,10 +76,11 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
     // TODO: allow marking craftable materials as "keep crafting" and do another pass over the materials list
 
     // TODO: tiny scrollable item icons in materials list for which items they're for w/ counts & even tinier license progress bar? lots of empty space otherwise.
+    // TODO: sort by required quantity?
 
     return (
-        <div className="license-list center-content">
-            <div>
+        <div className="license-list">
+            <div className="license-material-list center-content">
                 Required materials:
                 <div className="license-materials-list">
                     {Object.keys(materialsToLicense).map((i) => {
