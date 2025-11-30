@@ -20,7 +20,7 @@ export const MenuBar: React.FC = () => {
     return (
         <div className="menu-bar">
             <MenuItem text="Catalog" url="/catalog" />
-            <MenuItem text="License Calculator" url="/license" />
+            <MenuItem text="License Calculator" url="/calc" />
             <MenuItem text="Checklist" url="/checklist" />
             <MenuItem text="Data management" url="/settings" />
         </div>
