@@ -62,6 +62,14 @@ export enum EventCategory {
     EvercoldIsle = 'Evercold Isle',
 }
 
+const eventTypeSet: Set<string> = new Set(Object.values(EventType));
+
+export function getEventType(source: Source): EventType | undefined {
+    if (source.subtype && eventTypeSet.has(source.subtype)) {
+        return source.subtype as EventType;
+    }
+}
+
 export function getEventCategory(source: Source): EventCategory {
     switch (source.subtype) {
         case EventType.EvercoldIslePart1:
@@ -80,7 +88,7 @@ export function getEventCategory(source: Source): EventCategory {
     }
 }
 
-export function eventTypeToCategory(type: EventType): EventCategory {
+export function eventTypeToCategory(type?: EventType): EventCategory {
     switch (type) {
         case EventType.EvercoldIslePart1:
         case EventType.EvercoldIslePart2:
@@ -130,6 +138,19 @@ export function eventCategoryToType(category: EventCategory, phase?: number): Ev
                 throw 'unknown sun festival event phase ' + phase;
             }
             return EventType.SunFestival;
+    }
+}
+
+export function getEventPhase(type?: EventType): number | undefined {
+    switch (type) {
+        case EventType.EvercoldIslePart1:
+        case EventType.PhantomIslePart1:
+            return 1;
+        case EventType.EvercoldIslePart2:
+        case EventType.PhantomIslePart2:
+            return 2;
+        case EventType.PhantomIslePart3:
+            return 3;
     }
 }
 

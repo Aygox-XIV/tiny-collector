@@ -7,7 +7,7 @@ import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { sourceId } from '../database/database';
-import { getEventCategory, type Source } from '../database/sources';
+import { getEventType, type Source } from '../database/sources';
 
 export interface SourceListProps {
     sources: Source[];
@@ -58,7 +58,7 @@ interface SingleSourceProps {
 const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
     return (
         <div className={'single-source ' + source.type}>
-            <EventIcon type={getEventCategory(source)} tooltipId={SOURCE_TOOLTIP} />
+            <EventIcon showEventPhase={false} type={getEventType(source)} tooltipId={SOURCE_TOOLTIP} />
             <KindIcon kind={source.kind} tooltipId={SOURCE_TOOLTIP} />
             <FragmentIcon fragment={source.fragment} tooltipId={SOURCE_TOOLTIP} />
             <div className="source-name">

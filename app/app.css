@@ -335,6 +335,17 @@ div.source-type {
   vertical-align: middle;
 }
 
+div.source-icon-wrapper {
+  max-height: 30px;
+}
+
+div.source-icon-wrapper > div.source-icon-phase-num {
+  position: relative;
+  top: -35px;
+  left: 25px;
+  overflow: visible;
+}
+
 .source-icon {
   height: 100%;
   width: 75%;

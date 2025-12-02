@@ -4,7 +4,7 @@ import { EventIcon } from '../common/eventicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { dropIsCollected, sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
-import { getEventCategory, SourceType } from '../database/sources';
+import { getEventCategory, getEventType, SourceType } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
 
@@ -99,7 +99,7 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
                         (collectedDrops == details.drops.length ? 'collected' : 'uncollected')
                     }
                 >
-                    <EventIcon type={getEventCategory(details.source)} tooltipId="no-tooltip" />
+                    <EventIcon showEventPhase={true} type={getEventType(details.source)} tooltipId="no-tooltip" />
                     <SourceName source={details.source} disableLinks={true} />
                     <div className="drop-detail">
                         {collectedDrops} / {details.drops.length}

@@ -2,17 +2,17 @@ import { BsSun } from 'react-icons/bs';
 import { FaRegSnowflake } from 'react-icons/fa';
 import { GiPumpkin } from 'react-icons/gi';
 import { PiWaves } from 'react-icons/pi';
-import { EventCategory } from '../database/sources';
+import { EventCategory, EventType, eventTypeToCategory, getEventPhase } from '../database/sources';
 
 export interface EventIconProps {
-    readonly type: EventCategory | null;
+    readonly type?: EventType;
+    readonly showEventPhase?: boolean;
     readonly tooltipId: string;
 }
 
-export const EventIcon: React.FC<EventIconProps> = ({ type, tooltipId }) => {
-    // TODO: include phase number as super/subscript
+export const EventIcon: React.FC<EventIconProps> = ({ type, showEventPhase, tooltipId }) => {
     let IconChoice;
-    switch (type) {
+    switch (eventTypeToCategory(type)) {
         case EventCategory.EvercoldIsle:
             IconChoice = FaRegSnowflake;
             break;
@@ -28,5 +28,18 @@ export const EventIcon: React.FC<EventIconProps> = ({ type, tooltipId }) => {
         default:
             return <div className="source-icon" />;
     }
-    return <IconChoice className="source-icon" data-tooltip-id={tooltipId} data-tooltip-content={type} />;
+
+    const phase = getEventPhase(type);
+
+    // TODO: figure something out for the phase number in the catalog source list. (maybe just make those icons bigger)
+    if (showEventPhase) {
+        return (
+            <div className="source-icon-wrapper">
+                <IconChoice className="source-icon" data-tooltip-id={tooltipId} data-tooltip-content={type} />
+                {phase && <div className="source-icon-phase-num">{phase}</div>}
+            </div>
+        );
+    } else {
+        return <IconChoice className="source-icon" data-tooltip-id={tooltipId} data-tooltip-content={type} />;
+    }
 };
