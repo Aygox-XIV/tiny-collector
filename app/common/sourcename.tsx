@@ -22,7 +22,11 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
                 </div>
             );
         case SourceType.Boutique:
-            return <div>Buy from the Boutique using Gems</div>;
+            if (source.subtype == 'Anniversary') {
+                return <div>Obtain from the anniversary boutique during the yearly anniversary event.</div>;
+            } else {
+                return <div>Buy from the Boutique using Gems</div>;
+            }
         case SourceType.City:
             return (
                 <div>

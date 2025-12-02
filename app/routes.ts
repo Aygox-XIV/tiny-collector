@@ -9,8 +9,8 @@ export default [
             route(':iid', 'catalog/item-view.tsx'),
         ]),
         ...prefix('calc', [
-            // /license : license calculator view
-            // filters are controlled by query params
+            // /calc : license calculator view
+            // (/license will render the MIT license if refreshed by the user :/ )
             index('license/view.tsx'),
         ]),
         route('checklist', 'checklist/view.tsx', [

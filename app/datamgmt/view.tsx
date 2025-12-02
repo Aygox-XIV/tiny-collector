@@ -12,9 +12,10 @@ import {
     type ItemDB,
     type Recipe,
 } from '../database/database';
+import type { Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
-import { importLicenseCalcSheet } from './parserFromLicenseCalc';
+import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
 
 const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Sunscreen',
@@ -24,6 +25,8 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Whole Birthday Cake',
     'Beach Shorts',
 ]);
+
+const CSV_FILES: FilePickerAcceptType[] = [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }];
 
 export default function DatabaseManagementView({ params, matches }: Route.ComponentProps) {
     const db = useDatabase();
@@ -40,23 +43,24 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
     const saveItemData = () => saveFile(JSON.stringify(extractItemData(db)));
     const saveCatalogs = () => saveFile(JSON.stringify(extractCatalogList(db)));
     const loadFromLicenseCalc = () => {
-        loadFile(
-            (f) => {
-                const items = importLicenseCalcSheet(f);
-                appDispatch(setDbItems(integrateItemsWithoutIds(db, items)));
-            },
-            [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }],
-        );
+        loadFile((f) => {
+            const items = importLicenseCalcSheet(f);
+            appDispatch(setDbItems(integrateItemsWithoutIds(db, items)));
+        }, CSV_FILES);
     };
     const loadSourcesFromLicenseCalc = () => {
-        // TODO
-        console.log('not yet implemented');
+        loadFile((f) => {
+            const sources = importLicenseWikiSheet(f);
+            appDispatch(setDbItems(integrateSources(db, sources)));
+        }, CSV_FILES);
     };
     return (
         <div className="db-data-management center-content">
             <div className="db-mgmt-heading">
-                These options act on the database, to help maintain it. No changes applied this way are saved when this
-                tab is closed. Use the relevant Export option to get the files needed.
+                These options act on the database, to help build & maintain it. No changes applied this way are saved
+                when this tab is closed. Use the relevant Export option to get the files needed. Some options may get
+                removed later once they have served their purpose (as they handle spreadsheet formats that the community
+                no longer uses)
             </div>
             <div className="db-mgmt-options">
                 <div className="settings-item" onClick={saveItemData}>
@@ -66,10 +70,10 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                     Export catalogs
                 </div>
                 <div className="settings-item" onClick={loadFromLicenseCalc}>
-                    Import data from License Calculator (recipes)
+                    Import data from License Calculator (recipes) (will overwrite)
                 </div>
                 <div className="settings-item" onClick={loadSourcesFromLicenseCalc}>
-                    Import data from License Calculator (sources)
+                    Import data from License Calculator (sources) (will overwrite, must have imported recipes first)
                 </div>
             </div>
         </div>
@@ -96,7 +100,7 @@ function extractCatalogList(db: Database): CatalogList {
     return { catalogs: defs };
 }
 
-function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
+function buildExistingItemNameToId(db: Database): [Record<string, number>, number] {
     let itemNameToId: Record<string, number> = {};
     let maxId = -1;
     for (const idStr of Object.keys(db.items)) {
@@ -113,6 +117,11 @@ function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
         itemNameToId[name] = id;
         maxId = Math.max(id, maxId);
     }
+    return [itemNameToId, maxId];
+}
+
+function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
+    let [itemNameToId, maxId] = buildExistingItemNameToId(db);
 
     let combinedItemDb: ItemDB = {};
     for (const id of Object.keys(db.items)) {
@@ -168,10 +177,35 @@ function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
             combinedItemDb[id] = {
                 name,
                 id,
-                // I think anything that falls under this categiry is in the material catgeory?
+                // I think anything that falls under this category is in the material catgeory?
                 category: 'Material',
             };
         }
     }
     return combinedItemDb;
+}
+
+function integrateSources(db: Database, sources: Record<string, Source[]>): ItemDB {
+    let [itemNameToId] = buildExistingItemNameToId(db);
+
+    let updatedItemDb: ItemDB = {};
+    for (const id of Object.keys(db.items)) {
+        updatedItemDb[id] = db.items[id];
+    }
+
+    for (const name of Object.keys(sources)) {
+        if (KNOWN_DUPLICATE_ITEM_NAMES.has(name)) {
+            console.log('Skipping ' + name + " since there's >1 item with that name.");
+            continue;
+        }
+        // Assume there is no (valid) existing source data, and this is just for initial seeding.
+        // Assume the recipes have been imported already, and no new items need to be added.
+        const id = itemNameToId[name];
+        if (!id) {
+            throw 'Item ' + name + ' was expected to be present in the database already.';
+        }
+
+        updatedItemDb[id] = { ...updatedItemDb[id], source: sources[name] };
+    }
+    return updatedItemDb;
 }

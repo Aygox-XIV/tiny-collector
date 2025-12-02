@@ -144,6 +144,9 @@ export const dbSlice = createSlice({
         setDbItems: (state, action: PayloadAction<ItemDB>) => {
             console.log('setting item DB with ' + Object.keys(action.payload).length + ' items');
             state.items = action.payload;
+            const newSources = rebuildSourcesFromItemData(state);
+            console.log('updating sources to have ' + Object.keys(newSources).length + ' entries.');
+            state.sources = newSources;
         },
     },
 });
@@ -225,8 +228,41 @@ function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: So
     return { items, alt_recipes, catalogs, sources };
 }
 
+/** Hack to let dm-mgmt imports show updates to the checklist. Will not try to fix source images. */
+export function rebuildSourcesFromItemData(db: Database): Record<string, SourceDetails> {
+    let sources: Record<string, SourceDetails> = {};
+    Object.values(db.items).forEach((item) => {
+        if (item.source) {
+            item.source.forEach((s) => {
+                const sId = sourceId(s);
+                if (sources[sId]) {
+                    let drops = sources[sId].drops;
+                    drops.push(toDrop(item, s));
+                    sources[sId] = { ...sources[sId], drops: drops };
+                } else {
+                    let imageSrc = db.sources[sId]?.imageSrc;
+                    sources[sId] = {
+                        source: s,
+                        drops: [toDrop(item, s)],
+                        imageSrc,
+                    };
+                }
+            });
+        }
+    });
+
+    return sources;
+}
+
 export function sourceId(s: Source | SourceImage): string {
-    return s.type + '_' + (s.subtype || '') + '_' + (s.name || '');
+    // These go into URLs, so don't add URL delimiters
+    return (
+        s.type +
+        '_' +
+        (s.subtype || '') +
+        '_' +
+        (s.name || '').replaceAll('/', '-').replaceAll('#', '-').replaceAll('?', '-')
+    );
 }
 
 function toDrop(item: Item, source: Source): DropDetail {

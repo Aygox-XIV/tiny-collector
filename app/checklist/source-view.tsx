@@ -31,7 +31,6 @@ interface SourceDetailsProps {
 }
 
 const SourceDetailPanel: React.FC<SourceDetailsProps> = ({ details }) => {
-    const db = useDatabase();
     let i = 0;
     return (
         <div className="source-details-panel">
@@ -114,7 +113,11 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                 </div>
             );
         case SourceType.Boutique:
-            return <div>Buy from the Boutique (Premium menu, Boutique tab)</div>;
+            if (source.subtype == 'Anniversary') {
+                return <div>Obtain from the Anniversary boutique</div>;
+            } else {
+                return <div>Buy from the Boutique (Premium menu, Boutique tab)</div>;
+            }
         case SourceType.City:
             return (
                 <div>

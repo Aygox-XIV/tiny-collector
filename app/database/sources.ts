@@ -80,6 +80,59 @@ export function getEventCategory(source: Source): EventCategory {
     }
 }
 
+export function eventTypeToCategory(type: EventType): EventCategory {
+    switch (type) {
+        case EventType.EvercoldIslePart1:
+        case EventType.EvercoldIslePart2:
+            return EventCategory.EvercoldIsle;
+        case EventType.PhantomIslePart1:
+        case EventType.PhantomIslePart2:
+        case EventType.PhantomIslePart3:
+            return EventCategory.PhantomIsle;
+        case EventType.FloodedExpedition:
+            return EventCategory.FloodedExpedition;
+        case EventType.SunFestival:
+            return EventCategory.SunFestival;
+        default:
+            return EventCategory.NoEvent;
+    }
+}
+
+export function eventCategoryToType(category: EventCategory, phase?: number): EventType {
+    switch (category) {
+        case EventCategory.NoEvent:
+            throw 'NoEvent has no associated event type';
+        case EventCategory.EvercoldIsle:
+            switch (phase) {
+                case 1:
+                    return EventType.EvercoldIslePart1;
+                case 2:
+                    return EventType.EvercoldIslePart2;
+            }
+            throw 'Unknown evercold event phase ' + phase;
+        case EventCategory.PhantomIsle:
+            switch (phase) {
+                case 1:
+                    return EventType.PhantomIslePart1;
+                case 2:
+                    return EventType.PhantomIslePart2;
+                case 3:
+                    return EventType.PhantomIslePart3;
+            }
+            throw 'Unknown phantom  event phase ' + phase;
+        case EventCategory.FloodedExpedition:
+            if (phase !== undefined) {
+                throw 'unknown flooded expedition event phase ' + phase;
+            }
+            return EventType.FloodedExpedition;
+        case EventCategory.SunFestival:
+            if (phase !== undefined) {
+                throw 'unknown sun festival event phase ' + phase;
+            }
+            return EventType.SunFestival;
+    }
+}
+
 export enum OutpostType {
     Trading = 'Trading',
     Coastal = 'Coastal',
@@ -98,58 +151,62 @@ export interface OutpostSource extends UnknownSource {
     readonly name: OutpostType;
 }
 
+export type CityBuilding =
+    | 'Trading Guild'
+    | 'Gismoshop'
+    | 'Ardent Forge'
+    | "Almo's Lab"
+    | "Lily's Garden"
+    | 'Chic Furnishings'
+    | 'Chez Gustave';
+
 export interface CitySource extends UnknownSource {
     readonly type: SourceType.City;
     readonly subtype: 'Shop' | 'Research';
-    readonly name:
-        | 'Trading Guild'
-        | 'Gismoshop'
-        | 'Ardent Forge'
-        | "Almo's Lab"
-        | "Lily's Garden"
-        | 'Chic Furnishings'
-        | 'Chez Gustave';
+    readonly name: CityBuilding;
 }
+
+export type GardenSeed =
+    | 'Blue Tower'
+    | 'Summer Glory'
+    | 'Puff Flower'
+    | 'Sunsugar Cane'
+    | 'Pumpkin'
+    | 'Dwarf Cocoa Seed'
+    | 'Carrots'
+    | 'Wheat'
+    | 'Cinderwheat'
+    | 'Everspring'
+    | 'Rice'
+    | 'Potatoes'
+    | 'Croissant Tree'
+    | 'Sunseekers'
+    | 'Koko Tree'
+    | 'Bonefinger'
+    | 'Scalebulb'
+    | 'Bana Tree'
+    | 'Arcane Croissant Tree'
+    | 'Coffee'
+    | 'Strange Seed'
+    | 'Even Stranger Seed'
+    | 'Ashen Wheat'
+    | 'White Megashroom';
 
 export interface HarvestSource extends UnknownSource {
     readonly type: SourceType.Harvest;
     readonly subtype: undefined;
-    readonly name:
-        | 'Blue Tower'
-        | 'Summer Glory'
-        | 'Puff Flower'
-        | 'Sunsugar Cane'
-        | 'Pumpkin'
-        | 'Dwarf Cocoa Seed'
-        | 'Carrots'
-        | 'Wheat'
-        | 'Cinderwheat'
-        | 'Everspring'
-        | 'Rice'
-        | 'Potatoes'
-        | 'Croissant Tree'
-        | 'Sunseekers'
-        | 'Koko Tree'
-        | 'Bonefinger'
-        | 'Scalebulb'
-        | 'Bana Tree'
-        | 'Arcane Croissant Tree'
-        | 'Coffee'
-        | 'Strange Seed'
-        | 'Even Stranger Seed'
-        | 'Ashen Wheat'
-        | 'White Megashroom';
+    readonly name: GardenSeed;
 }
 
 export interface PremiumPackSource extends UnknownSource {
     readonly type: SourceType.PremiumPack;
     readonly subtype: EventType.SunFestival | undefined;
-    readonly name: 'Trading Guild Pack' | 'Kitchen Set' | 'Botanist Set' | 'Blacksmith Set' | string;
+    readonly name: 'Trading Guild Pack' | 'Kitchen Set' | 'Botanist Set' | 'Home Set' | 'Blacksmith Set' | string;
 }
 
 export interface BoutiqueSource extends UnknownSource {
     readonly type: SourceType.Boutique;
-    readonly subtype: undefined;
+    readonly subtype: 'Anniversary' | undefined;
     readonly name: undefined;
 }
 
@@ -158,6 +215,7 @@ export interface BattleSource extends UnknownSource {
     readonly subtype:
         | EventType.FloodedExpedition
         | EventType.PhantomIslePart2
+        | EventType.PhantomIslePart3
         // TODO: I forget if part 1 has battles or not
         | EventType.EvercoldIslePart2;
     // name is untyped (too many enemies to list usefully)

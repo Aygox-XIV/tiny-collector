@@ -80,7 +80,7 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
 
     return (
         <div className="license-list">
-            <div className="license-material-list center-content">
+            <div className="license-material-list-container center-content">
                 Required materials:
                 <div className="license-materials-list">
                     {Object.keys(materialsToLicense).map((i) => {
