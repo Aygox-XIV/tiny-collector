@@ -130,9 +130,8 @@ export interface CatalogDef {
     readonly icon: ImageRef;
     // Which item categories are present
     readonly categories?: Category[];
-    // IDs only. TODO: name+id for manual management?
-    // TODO: allow "empty" slots to better simulate autolog positioning
-    readonly items: string[];
+    // [ID, optional name]
+    readonly items: [string, string?][];
     // Populated after loading. ID -> true to simulate a serializable Set.
     readonly itemSet?: Record<string, boolean>;
 }
@@ -237,7 +236,7 @@ function createDB(files: FileCollection): Database {
     files.itemFiles.forEach((itemData) => {
         itemData.items.forEach((i) => {
             if (items[i.id]) {
-                throw 'Duplicate item id: ' + i.id;
+                console.error('Duplicate item id: ' + i.id);
             }
             items[i.id] = i;
 
@@ -260,7 +259,8 @@ function createDB(files: FileCollection): Database {
         });
         itemData.alt_recipes.forEach((r) => {
             if (alt_recipes[r.name]) {
-                throw 'Duplicate Alt Recipe name ' + r.name;
+                console.error('Duplicate Alt Recipe name ' + r.name);
+                return;
             }
             alt_recipes[r.name] = r;
         });
@@ -270,10 +270,27 @@ function createDB(files: FileCollection): Database {
     files.catalogFiles.forEach((catalogData) => {
         catalogData.catalogs.forEach((c) => {
             if (catalogs[c.key]) {
-                throw 'Duplicate catalog key ' + c.key;
+                console.error('Duplicate catalog key ' + c.key);
+                return;
             }
             let itemSet: Record<string, boolean> = {};
-            c.items.forEach((id) => {
+            c.items.forEach(([id, name]) => {
+                if (name) {
+                    const dbItem = items[id];
+                    if (!dbItem || dbItem.name !== name) {
+                        console.error(
+                            'Catalog ' +
+                                c.name +
+                                ' has name ' +
+                                name +
+                                ' for item with id ' +
+                                id +
+                                ' but it is ' +
+                                dbItem?.name,
+                        );
+                        return;
+                    }
+                }
                 itemSet[id] = true;
             });
             catalogs[c.key] = { ...c, itemSet };

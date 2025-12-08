@@ -14,14 +14,19 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     let itemIds: string[];
 
     if (filter.catalogView && db.catalogs[filter.catalogView]) {
-        itemIds = db.catalogs[filter.catalogView].items;
+        const itemNameList = db.catalogs[filter.catalogView].items;
+        itemIds = [];
+        for (const [id, _] of itemNameList) {
+            itemIds.push(id);
+        }
     } else {
         itemIds = Object.keys(db.items || {});
     }
     let filteredItems: string[] = [];
+    let blankCounter = 0; // if there's >1 blank, don't require the catalog to keep those blanks unique to hide react warnings
     itemIds.forEach((id) => {
         if (itemMatchesFilter(db.items[id], collection.items[id], filter)) {
-            filteredItems.push(id);
+            filteredItems.push(id.charAt(0) == '-' ? (--blankCounter).toString() : id);
         }
     });
     // TODO: debounce if it's too slow with all data?
