@@ -1,0 +1,10 @@
+{
+  "catalogs": [
+    {
+      "key": "evercold",
+      "name": "Evercold Isle",
+      "icon": { "local_path": "/catalog_evercold.png" },
+      "items": []
+    }
+  ]
+}

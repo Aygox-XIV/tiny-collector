@@ -1,13 +1,69 @@
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 import type { CollectedItem } from '../collection';
-import rawCatalogData from '../data/sample-catalogs.json';
-import rawItemData from '../data/sample-data.json';
-import rawSourceImageData from '../data/sample-source-images.json';
+import itemFileEvercold from '../data/items/evercold-items.json';
+import itemFileFlooded from '../data/items/flooded-expedition-items.json';
+import itemFileMain1 from '../data/items/main-items-1.json';
+import itemFileMain2 from '../data/items/main-items-2.json';
+import itemFilePhantom from '../data/items/phantom-items.json';
+import itemFileQuest from '../data/items/quest-items.json';
+import itemFileSun from '../data/items/sun-festival-items.json';
+import catalogFileEvercold from '../data/metadata/evercold-catalog.json';
+import catalogFileFlooded from '../data/metadata/flooded-expedition-catalog.json';
+import catalogFileMain from '../data/metadata/main-catalog.json';
+import sourceMetaFileMain from '../data/metadata/main-source-metadata.json';
+import catalogFilePhantom from '../data/metadata/phantom-catalog.json';
+import catalogFileQuest from '../data/metadata/quest-catalog.json';
+import catalogFileSun from '../data/metadata/sun-festival-catalog.json';
+import sourceMetaFileWeekly from '../data/metadata/weekly-event-source-metadata.json';
+import sourceMetaFileYearly from '../data/metadata/yearly-event-source-metadata.json';
+import sampleCatalogs from '../data/samples/sample-catalogs.json';
+import sampleItems from '../data/samples/sample-data.json';
+import sampleMetadata from '../data/samples/sample-source-images.json';
 import type { RootState } from '../store';
 import type { Source, SourceType } from './sources';
 
 /// raw data
+
+export interface FileCollection {
+    readonly itemFiles: ItemData[];
+    readonly catalogFiles: CatalogList[];
+    readonly sourceMetadata: SourceImageList[];
+}
+
+const SAMPLE_FILES: FileCollection = {
+    itemFiles: [sampleItems as ItemData],
+    catalogFiles: [sampleCatalogs as CatalogList],
+    sourceMetadata: [sampleMetadata as SourceImageList],
+};
+
+// It would have been nice if this could be a config somewhere,
+// but static imports yield the fewest DB reloads, and this shouldn't change much.
+// (maybe a new items file once in a while if a new patch is large, or a new event is added)
+const REAL_FILES: FileCollection = {
+    itemFiles: [
+        itemFileEvercold as ItemData,
+        itemFileFlooded as ItemData,
+        itemFileMain1 as ItemData,
+        itemFileMain2 as ItemData,
+        itemFilePhantom as ItemData,
+        itemFileQuest as ItemData,
+        itemFileSun as ItemData,
+    ],
+    catalogFiles: [
+        catalogFileEvercold as CatalogList,
+        catalogFileFlooded as CatalogList,
+        catalogFileMain as CatalogList,
+        catalogFilePhantom as CatalogList,
+        catalogFileQuest as CatalogList,
+        catalogFileSun as CatalogList,
+    ],
+    sourceMetadata: [
+        sourceMetaFileMain as SourceImageList,
+        sourceMetaFileWeekly as SourceImageList,
+        sourceMetaFileYearly as SourceImageList,
+    ],
+};
 
 export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' | 'Plant';
 
@@ -156,71 +212,72 @@ export const { setDbItems } = dbSlice.actions;
 function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
     console.log('yield new db');
-    // TODO: allow data to be split up for easier (manual) management
-    const db = createDB(rawItemData as ItemData, rawCatalogData as CatalogList, rawSourceImageData as SourceImageList);
+    const db = createDB(SAMPLE_FILES);
     return db;
-    // below needs to get the scheme+authority from somewhere to work, or run from clientLoader().
-    // may not be needed, depending on how it'll be hosted/served?
-    // const rawItemData = await fetch("/sample-data.json").then(r => r.json()) as ItemData;
 }
 
 export function useDatabase(): Database {
     return useSelector((state: RootState) => state.db);
 }
 
-function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: SourceImageList): Database {
+function createDB(files: FileCollection): Database {
     let items: ItemDB = {};
     let alt_recipes: Record<string, AltRecipe> = {};
     let sources: Record<string, SourceDetails> = {};
     let sourceImageMap: Record<string, ImageRef> = {};
 
-    sourceImages.images.forEach((i) => {
-        if (i.src) {
-            sourceImageMap[sourceId(i)] = i.src;
-        }
+    files.sourceMetadata.forEach((sourceImages) => {
+        sourceImages.images.forEach((i) => {
+            if (i.src) {
+                sourceImageMap[sourceId(i)] = i.src;
+            }
+        });
     });
 
-    itemData.items.forEach((i) => {
-        if (items[i.id]) {
-            throw 'Duplicate item id: ' + i.id;
-        }
-        items[i.id] = i;
+    files.itemFiles.forEach((itemData) => {
+        itemData.items.forEach((i) => {
+            if (items[i.id]) {
+                throw 'Duplicate item id: ' + i.id;
+            }
+            items[i.id] = i;
 
-        if (i.source) {
-            i.source.forEach((s) => {
-                const sId = sourceId(s);
-                if (sources[sId]) {
-                    let drops = sources[sId].drops;
-                    drops.push(toDrop(i, s));
-                    sources[sId] = { ...sources[sId], drops: drops };
-                } else {
-                    sources[sId] = {
-                        source: s,
-                        drops: [toDrop(i, s)],
-                        imageSrc: sourceImageMap[sId],
-                    };
-                }
-            });
-        }
-    });
-
-    itemData.alt_recipes.forEach((r) => {
-        if (alt_recipes[r.name]) {
-            throw 'Duplicate Alt Recipe name ' + r.name;
-        }
-        alt_recipes[r.name] = r;
+            if (i.source) {
+                i.source.forEach((s) => {
+                    const sId = sourceId(s);
+                    if (sources[sId]) {
+                        let drops = sources[sId].drops;
+                        drops.push(toDrop(i, s));
+                        sources[sId] = { ...sources[sId], drops: drops };
+                    } else {
+                        sources[sId] = {
+                            source: s,
+                            drops: [toDrop(i, s)],
+                            imageSrc: sourceImageMap[sId],
+                        };
+                    }
+                });
+            }
+        });
+        itemData.alt_recipes.forEach((r) => {
+            if (alt_recipes[r.name]) {
+                throw 'Duplicate Alt Recipe name ' + r.name;
+            }
+            alt_recipes[r.name] = r;
+        });
     });
 
     let catalogs: Record<string, CatalogDef> = {};
-    catalogData.catalogs.forEach((c) => {
-        if (catalogs[c.key]) {
-            throw 'Duplicate catalog key ' + c.key;
-        }
-        let itemSet: Record<string, boolean> = {};
-        c.items.forEach((id) => {
-            itemSet[id] = true;
+    files.catalogFiles.forEach((catalogData) => {
+        catalogData.catalogs.forEach((c) => {
+            if (catalogs[c.key]) {
+                throw 'Duplicate catalog key ' + c.key;
+            }
+            let itemSet: Record<string, boolean> = {};
+            c.items.forEach((id) => {
+                itemSet[id] = true;
+            });
+            catalogs[c.key] = { ...c, itemSet };
         });
-        catalogs[c.key] = { ...c, itemSet };
     });
 
     console.log('created db: ' + Object.keys(items).length + ' items');

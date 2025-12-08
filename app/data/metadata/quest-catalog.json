@@ -1,0 +1,11 @@
+{
+  "catalogs": [
+    {
+      "key": "catalogSpec",
+      "name": "Autolog (Quest)",
+      "icon": { "local_path": "/catalog_quest.png" },
+      "categories": ["Quest"],
+      "items": []
+    }
+  ]
+}

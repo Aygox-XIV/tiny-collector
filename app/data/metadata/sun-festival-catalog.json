@@ -1,0 +1,11 @@
+{
+  "catalogs": [
+    {
+      "key": "sunFes",
+      "name": "Sun Festival",
+      "icon": { "local_path": "/catalog_sf.png" },
+      "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
+      "items": []
+    }
+  ]
+}

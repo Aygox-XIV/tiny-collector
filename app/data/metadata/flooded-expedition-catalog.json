@@ -1,0 +1,10 @@
+{
+  "catalogs": [
+    {
+      "key": "floodEx",
+      "name": "Flooded Expedition",
+      "icon": { "local_path": "/catalog_fe.png" },
+      "items": []
+    }
+  ]
+}
