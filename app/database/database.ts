@@ -69,7 +69,8 @@ export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' |
 
 export interface IdentifiableEntity {
     readonly name: string;
-    // maintained/enforced by conversion script
+    // maintained/enforced by conversion scripts
+    // Real data starts at 100
     readonly id: number;
     readonly image?: ImageRef;
     readonly source?: Source[];
@@ -211,7 +212,7 @@ export const { setDbItems } = dbSlice.actions;
 function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
     console.log('yield new db');
-    const db = createDB(SAMPLE_FILES);
+    const db = createDB(REAL_FILES);
     return db;
 }
 

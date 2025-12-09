@@ -18,12 +18,12 @@ import { useAppDispatch } from '../store';
 import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
 
 const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
-    'Sunscreen',
-    'Cursedconut Flan',
-    'Jam Waffles',
-    'Anniversary Cake',
-    'Whole Birthday Cake',
-    'Beach Shorts',
+    'Sunscreen', // sun festival lotion / premium pack sunflower shield
+    'Cursedconut Flan', // different years different flans (round vs square)
+    'Jam Waffles', // yellow & red
+    'Anniversary Cake', // 2024 (carrot/strawberry) and 2025 (chocolate)
+    'Whole Birthday Cake', // 2024 (carrot/strawberry) and 2025 (chocolate)
+    'Beach Shorts', // yellow & blue
 ]);
 
 const CSV_FILES: FilePickerAcceptType[] = [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }];
@@ -102,7 +102,7 @@ function extractCatalogList(db: Database): CatalogList {
 
 function buildExistingItemNameToId(db: Database): [Record<string, number>, number] {
     let itemNameToId: Record<string, number> = {};
-    let maxId = -1;
+    let maxId = 99;
     for (const idStr of Object.keys(db.items)) {
         const id = parseInt(idStr);
         const name = db.items[id].name;
