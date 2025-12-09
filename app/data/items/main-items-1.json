@@ -294,77 +294,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     { "name": "Everspring Leaves", "id": 137, "category": "Material" },
-    {
-      "name": "Blood Pearls",
-      "id": 138,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
-          { "name": "Sunsugar", "quantity": 1, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Cluster of Bloodberry Slime"
-        }
-      ]
-    },
-    { "name": "Bloodberry Slime", "id": 139, "category": "Material" },
-    {
-      "name": "Bloody Berry",
-      "id": 140,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Bloodberry Slime", "quantity": 3, "id": 139 },
-          { "name": "Bloodslime Residue", "quantity": 2, "id": 141 },
-          { "name": "Ectoplasm", "quantity": 4, "id": 142 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Hunt: Cluster of Bloodberry Slime"
-        }
-      ]
-    },
-    { "name": "Bloodslime Residue", "id": 141, "category": "Material" },
-    { "name": "Ectoplasm", "id": 142, "category": "Material" },
-    {
-      "name": "Bloody Cookies",
-      "id": 143,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
-          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Cluster of Bloodberry Slime"
-        }
-      ]
-    },
     { "name": "Drakegull Egg", "id": 144, "category": "Material" },
     { "name": "Tinder Powder", "id": 147, "category": "Material" },
     {
@@ -573,30 +502,6 @@
       ]
     },
     {
-      "name": "Coco Cookies",
-      "id": 165,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Cursedconut", "quantity": 1, "id": 166 },
-          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Stealth: Colony of Cursedconuts"
-        }
-      ]
-    },
-    { "name": "Cursedconut", "id": 166, "category": "Material" },
-    {
       "name": "Constricting Poison",
       "id": 167,
       "category": "Consumables",
@@ -696,29 +601,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
-      "name": "Cyclolipops Chill Grape",
-      "id": 180,
-      "category": "Consumables",
-      "license_amount": 900,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ectogems", "quantity": 1, "id": 181 },
-          { "name": "Sunsugar", "quantity": 1, "id": 122 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Gathering: Expedition Supplies"
-        }
-      ]
-    },
-    { "name": "Ectogems", "id": 181, "category": "Material" },
-    {
       "name": "Dark Chocolate",
       "id": 182,
       "category": "Consumables",
@@ -756,30 +638,6 @@
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }]
     },
     {
-      "name": "Dread Kokolada",
-      "id": 189,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Cursedconut", "quantity": 3, "id": 166 },
-          { "name": "Cursedconut Leaves", "quantity": 3, "id": 190 },
-          { "name": "Ectoplasm", "quantity": 4, "id": 142 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Stealth: Colony of Cursedconuts"
-        }
-      ]
-    },
-    { "name": "Cursedconut Leaves", "id": 190, "category": "Material" },
-    {
       "name": "Egg Toast",
       "id": 191,
       "category": "Consumables",
@@ -792,43 +650,6 @@
         "craft_amount": 2
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
-    },
-    {
-      "name": "Eldritch Croissant",
-      "id": 192,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Liquid Aether", "quantity": 4, "id": 193 },
-          { "name": "Unstable Essence", "quantity": 1, "id": 194 },
-          { "name": "Wheat Flour", "quantity": 8, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Exploration: Cultists Endevours"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Pandemonium of Scarecrows"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Unkindness of Skeletons"
-        }
-      ]
     },
     {
       "name": "Liquid Aether",
@@ -1193,29 +1014,6 @@
       ]
     },
     {
-      "name": "Ghostly Cookies",
-      "id": 220,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Swarm of Will O' Wisps"
-        }
-      ]
-    },
-    {
       "name": "Gingerbread Chocolate Cookies",
       "id": 221,
       "category": "Consumables",
@@ -1458,29 +1256,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
-      "name": "Jackie's",
-      "id": 237,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Pumpkin", "quantity": 1, "id": 238 },
-          { "name": "Sunsugar", "quantity": 1, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Pandemonium of Scarecrows"
-        }
-      ]
-    },
-    { "name": "Pumpkin", "id": 238, "category": "Material" },
-    {
       "name": "Jelly's Special",
       "id": 239,
       "category": "Consumables",
@@ -1510,28 +1285,6 @@
         "craft_amount": 1
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
-    },
-    {
-      "name": "Koko Jinx",
-      "id": 247,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Cursedconut", "quantity": 1, "id": 166 },
-          { "name": "Sunsugar", "quantity": 1, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Stealth: Colony of Cursedconuts"
-        }
-      ]
     },
     {
       "name": "Kraken Black Noodles",
@@ -1764,164 +1517,6 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
-    },
-    {
-      "name": "Mad Screecher Spectral",
-      "id": 267,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Aetheric Water", "quantity": 2, "id": 132 },
-          { "name": "Coast Lemons", "quantity": 1, "id": 153 },
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Will O' Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Will O' Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Knight"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Knight"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Mage"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Mage"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Healer"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Healer"
-        }
-      ]
-    },
-    {
-      "name": "Essence of Undeath",
-      "id": 268,
-      "category": "Material",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ectogems", "quantity": 20, "id": 181 },
-          { "name": "Ectoplasm", "quantity": 6, "id": 142 },
-          { "name": "Undead Bones", "quantity": 6, "id": 436 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Ectoknight"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Ectoknight"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Mage"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Mage"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Healer"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Healer"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Will O'wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Will O'wisp"
-        }
-      ]
     },
     {
       "name": "Maelstrom Poison",
@@ -2443,103 +2038,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
-      "name": "Pumpkin Bread",
-      "id": 308,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Pumpkin", "quantity": 2, "id": 238 },
-          { "name": "Purified Water", "quantity": 4, "id": 110 },
-          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Swarm of Will O' Wisps"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Exploration: Cultists Endevours"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Pandemonium of Scarecrows"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Unkindness of Skeletons"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Cluster of Bloodberry Slime"
-        }
-      ]
-    },
-    {
-      "name": "Pumpkin Cookies",
-      "id": 309,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Pumpkin", "quantity": 1, "id": 238 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Pandemonium of Scarecrows"
-        }
-      ]
-    },
-    {
-      "name": "Pumpkin Pie",
-      "id": 310,
-      "category": "Consumables",
-      "license_amount": 900,
-      "recipe": {
-        "ingredient": [
-          { "name": "Pumpkin", "quantity": 1, "id": 238 },
-          { "name": "Sunsugar", "quantity": 2, "id": 122 },
-          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Sell 50 Pumpkins"
-        }
-      ]
-    },
-    {
       "name": "Purple Buzz",
       "id": 311,
       "category": "Consumables",
@@ -2608,30 +2106,6 @@
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 6/6" }
       ]
     },
-    {
-      "name": "Spectral Fairy",
-      "id": 320,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ectogems", "quantity": 3, "id": 181 },
-          { "name": "Ectoplasm", "quantity": 4, "id": 142 },
-          { "name": "Tombstone Eye", "quantity": 3, "id": 321 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Hunt: Swarm of Will O' Wisps"
-        }
-      ]
-    },
-    { "name": "Tombstone Eye", "id": 321, "category": "Material" },
     {
       "name": "Spectral Pumpkin",
       "id": 322,
@@ -2827,28 +2301,6 @@
         "craft_amount": 4
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
-    },
-    {
-      "name": "Sweet O'wisp",
-      "id": 340,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
-          { "name": "Sunsugar", "quantity": 1, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Swarm of Will O' Wisps"
-        }
-      ]
     },
     {
       "name": "The Huntress",
@@ -3557,119 +3009,6 @@
     { "name": "Condensed Water Aether", "id": 406, "category": "Material" },
     { "name": "Sharp Monster Teeth", "id": 407, "category": "Material" },
     {
-      "name": "Black Catula Mask",
-      "id": 408,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Black Paint", "quantity": 1, "id": 409 },
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Gathering: Expedition Supplies"
-        }
-      ]
-    },
-    {
-      "name": "Blood Scythe",
-      "id": 411,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 },
-          { "name": "Scythe", "quantity": 1, "id": 412 },
-          { "name": "Standard Catalyst", "quantity": 1, "id": 111 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Bloodslime"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Bloodslime"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Spiky Bloodslime"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Spiky Bloodslime"
-        }
-      ]
-    },
-    {
-      "name": "Scythe",
-      "id": 412,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Everwood", "quantity": 5, "id": 325 },
-          { "name": "Iron", "quantity": 5, "id": 157 },
-          { "name": "Whetstone", "quantity": 1, "id": 354 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Scarecrow"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Scarecrow"
-        }
-      ]
-    },
-    {
-      "name": "Bloodslime Mask",
-      "id": 413,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Earn 1xp" }
-      ]
-    },
-    {
       "name": "Rope",
       "id": 418,
       "category": "Gear",
@@ -3841,25 +3180,6 @@
       ]
     },
     {
-      "name": "Bone Scythe",
-      "id": 435,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Scythe", "quantity": 1, "id": 412 },
-          { "name": "Standard Catalyst", "quantity": 1, "id": 111 },
-          { "name": "Undead Bones", "quantity": 4, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
-      ]
-    },
-    { "name": "Undead Bones", "id": 436, "category": "Material" },
-    {
       "name": "Bone Spear",
       "id": 437,
       "category": "Gear",
@@ -4008,52 +3328,6 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
-    },
-    {
-      "name": "Cursedconut Mask",
-      "id": 452,
-      "category": "Gear",
-      "license_amount": 200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 },
-          { "name": "Cursedconut", "quantity": 1, "id": 166 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Stealth: Colony of Cursedconuts"
-        }
-      ]
-    },
-    {
-      "name": "Ducky Mask",
-      "id": 453,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 },
-          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Gathering: Expedition Supplies"
-        }
       ]
     },
     {
@@ -4621,350 +3895,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
-      "name": "Gravewarden Amulet",
-      "id": 489,
-      "category": "Gear",
-      "license_amount": 900,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Undead Bones", "quantity": 3, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Mage"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Mage"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    {
-      "name": "Gravewarden Armor",
-      "id": 490,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Iron", "quantity": 5, "id": 157 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Animated Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Animated Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Soulfire Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Soulfire Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Knight"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Knight"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    {
-      "name": "Gravewarden Gauntlets",
-      "id": 491,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Hexed Linen", "quantity": 2, "id": 492 },
-          { "name": "Iron", "quantity": 4, "id": 157 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursedconut Tree"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursedconut Tree"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Mage"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Mage"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    { "name": "Hexed Linen", "id": 492, "category": "Material" },
-    {
-      "name": "Gravewarden Greaves",
-      "id": 493,
-      "category": "Gear",
-      "license_amount": 900,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Hexed Linen", "quantity": 2, "id": 492 },
-          { "name": "Iron", "quantity": 4, "id": 157 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Scarecrow"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Scarecrow"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Healer"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Healer"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    {
-      "name": "Gravewarden Scythe",
-      "id": 494,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 3, "id": 268 },
-          { "name": "Scythe", "quantity": 1, "id": 412 },
-          { "name": "Superior Catalyst", "quantity": 1, "id": 106 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Will O' Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Will O' Wisp"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    {
-      "name": "Gravewarden Shield",
-      "id": 495,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
-          { "name": "Iron", "quantity": 5, "id": 157 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Animated Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Animated Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Soulfire Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Soulfire Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Knight"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Knight"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    {
-      "name": "Gravewarden Veil",
-      "id": 496,
-      "category": "Gear",
-      "license_amount": 950,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Will O' Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Will O' Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursed Healer"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursed Healer"
-        },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
-    },
-    {
       "name": "Headband",
       "id": 497,
       "category": "Gear",
@@ -5014,98 +3944,6 @@
       ]
     },
     { "name": "Condensed Nature Aether", "id": 502, "category": "Material" },
-    {
-      "name": "Hexed Boots",
-      "id": 503,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
-          { "name": "Monster Fangs", "quantity": 1, "id": 425 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Unkindness of Skeletons"
-        }
-      ]
-    },
-    {
-      "name": "Hexed Garb",
-      "id": 504,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Cursedconut", "quantity": 1, "id": 166 },
-          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Exploration: Cultists Endevours"
-        }
-      ]
-    },
-    {
-      "name": "Hexed Hat",
-      "id": 505,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
-          { "name": "Leather", "quantity": 1, "id": 369 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Exploration: Cultists Endevours"
-        }
-      ]
-    },
-    {
-      "name": "Hexed Mace",
-      "id": 506,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Cursedconut", "quantity": 1, "id": 166 },
-          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "Hunt: Unkindness of Skeletons"
-        }
-      ]
-    },
     {
       "name": "Hydrologist Grimoire",
       "id": 507,
@@ -5161,29 +3999,6 @@
           "fragment": false,
           "subtype": "Evercold Isle (part 2)",
           "name": "Sell 100 Enchanted Yarn"
-        }
-      ]
-    },
-    {
-      "name": "Jelly Mask",
-      "id": 510,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 },
-          { "name": "Green Paint", "quantity": 1, "id": 228 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Gathering: Expedition Supplies"
         }
       ]
     },
@@ -5486,28 +4301,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
-      "name": "Mummy Mask",
-      "id": 530,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Hexed Linen", "quantity": 1, "id": 492 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Complete 25 journeys"
-        }
-      ]
-    },
-    {
       "name": "Naturalist's Bag",
       "id": 531,
       "category": "Gear",
@@ -5684,28 +4477,6 @@
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
     {
-      "name": "Pumpkin Mask",
-      "id": 543,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Pumpkin", "quantity": 1, "id": 238 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Sell 50 Pumpkins"
-        }
-      ]
-    },
-    {
       "name": "Pyromancy Spellbook",
       "id": 544,
       "category": "Gear",
@@ -5773,29 +4544,6 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
-      ]
-    },
-    {
-      "name": "Screecher Mask",
-      "id": 551,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 },
-          { "name": "White Paint", "quantity": 1, "id": 319 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Gathering: Expedition Supplies"
-        }
       ]
     },
     {
@@ -6002,28 +4750,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
-      "name": "Skull Mask",
-      "id": 565,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Sell 120 Essense of Undeath"
-        }
-      ]
-    },
-    {
       "name": "Small Hammer",
       "id": 566,
       "category": "Gear",
@@ -6186,28 +4912,6 @@
           "name": "Icemazon Guardian"
         },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
-      ]
-    },
-    {
-      "name": "Spectral Blade",
-      "id": 577,
-      "category": "Gear",
-      "license_amount": 300,
-      "recipe": {
-        "ingredient": [
-          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
-          { "name": "Iron Sword", "quantity": 1, "id": 392 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Hunt: Pandemonium of Scarecrows"
-        }
       ]
     },
     {
@@ -6472,29 +5176,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
-      "name": "White Catula Mask",
-      "id": 603,
-      "category": "Gear",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 },
-          { "name": "White Paint", "quantity": 1, "id": 319 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Gathering: Expedition Supplies"
-        }
-      ]
-    },
-    {
       "name": "Wood Lure",
       "id": 604,
       "category": "Gear",
@@ -6566,29 +5247,6 @@
       "license_amount": 50,
       "recipe": { "ingredient": [{ "name": "Everwood", "quantity": 2, "id": 325 }], "craft_amount": 1 },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A New Life - Part 6/6" }]
-    },
-    {
-      "name": "Zombie Mask",
-      "id": 609,
-      "category": "Gear",
-      "license_amount": 200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
-          { "name": "Bowstring", "quantity": 1, "id": 151 },
-          { "name": "Undead Bones", "quantity": 1, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Exploration: Cultists Endevours"
-        }
-      ]
     },
     {
       "name": "Ancient Stories",
@@ -6727,29 +5385,6 @@
     { "name": "Cocoa", "id": 624, "category": "Material" },
     { "name": "Cinder Wheat", "id": 625, "category": "Material" },
     {
-      "name": "Corrupted Diary",
-      "id": 626,
-      "category": "Material",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blank Scroll Sheets", "quantity": 20, "id": 136 },
-          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 },
-          { "name": "Oil", "quantity": 5, "id": 172 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 1)",
-          "name": "All Halloween journeys"
-        }
-      ]
-    },
-    {
       "name": "Cryptozoology Treatise",
       "id": 627,
       "category": "Material",
@@ -6781,66 +5416,6 @@
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
     { "name": "Eyenemone", "id": 629, "category": "Material" },
-    {
-      "name": "Figurine: Animated Pumpkin",
-      "id": 630,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Undead Bones", "quantity": 2, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Pumpkin Mimic"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Pumpkin Mimic"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Animated Tombstone",
-      "id": 631,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Animated Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Animated Tombstone"
-        }
-      ]
-    },
     {
       "name": "Figurine: Arcane Wizard",
       "id": 632,
@@ -6880,127 +5455,6 @@
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 3/6" }
       ]
     },
-    {
-      "name": "Figurine: Cursedconut",
-      "id": 634,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursedconut Tree"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursedconut Tree"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Cursedconut Nut",
-      "id": 635,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Cursedconut Nut"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Cursedconut Nut"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Diseased Corpse",
-      "id": 636,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Undead Bones", "quantity": 2, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Diseased Corpse"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Diseased Corpse"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Dread Wisp",
-      "id": 637,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Spectral Fabric", "quantity": 2, "id": 638 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Dread Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Dread Wisp"
-        }
-      ]
-    },
-    { "name": "Spectral Fabric", "id": 638, "category": "Material" },
     {
       "name": "Figurine: Frostbeard Ancient",
       "id": 639,
@@ -7215,96 +5669,6 @@
       ]
     },
     {
-      "name": "Figurine: Scarecrow",
-      "id": 649,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Undead Bones", "quantity": 2, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Scarecrow"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Scarecrow"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Soulfire Tombstone",
-      "id": 650,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Soulfire Tombstone"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Soulfire Tombstone"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Spiky Bloodslime",
-      "id": 651,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Bloodslime Residue", "quantity": 2, "id": 141 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Spiky Bloodslime"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Spiky Bloodslime"
-        }
-      ]
-    },
-    {
       "name": "Figurine: the Sculptor",
       "id": 652,
       "category": "Material",
@@ -7318,54 +5682,6 @@
           "subtype": "Evercold Isle (part 2)",
           "name": "The Scultpor"
         }
-      ]
-    },
-    {
-      "name": "Figurine: Will O' Wisp",
-      "id": 653,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Spectral Fabric", "quantity": 2, "id": 638 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 2)",
-          "name": "Will O' Wisp"
-        },
-        {
-          "type": "Battle",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Phantom Isle (part 3)",
-          "name": "Will O' Wisp"
-        }
-      ]
-    },
-    {
-      "name": "Figurine: Zombie",
-      "id": 654,
-      "category": "Material",
-      "license_amount": 600,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Slime Extract", "quantity": 1, "id": 173 },
-          { "name": "Undead Bones", "quantity": 2, "id": 436 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
       ]
     },
     {
