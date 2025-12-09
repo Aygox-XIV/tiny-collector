@@ -54,6 +54,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             appDispatch(setDbItems(integrateSources(db, sources)));
         }, CSV_FILES);
     };
+    // TODO: item to export source metadata with empty image defs so just the image links can be added without having to add the boilerplate manually
     return (
         <div className="db-data-management center-content">
             <div className="db-mgmt-heading">
