@@ -417,91 +417,6 @@
       ]
     },
     {
-      "name": "Chocolate",
-      "id": 161,
-      "category": "Material",
-      "license_amount": 800,
-      "recipe": { "ingredient": [{ "name": "Cocoa", "quantity": 4, "id": 624 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        }
-      ]
-    },
-    {
-      "name": "Chocolate Cookies",
-      "id": 162,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 1, "id": 161 },
-          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        }
-      ]
-    },
-    {
-      "name": "Chocolate Croissant",
-      "id": 163,
-      "category": "Consumables",
-      "license_amount": 1200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 8, "id": 161 },
-          { "name": "Purified Water", "quantity": 8, "id": 110 },
-          { "name": "Wheat Flour", "quantity": 8, "id": 125 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "All Winter journeys"
-        }
-      ]
-    },
-    {
-      "name": "Chocolate Chips Ice Cream",
-      "id": 164,
-      "category": "Consumables",
-      "license_amount": 1200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 8, "id": 161 },
-          { "name": "Fresh Milk", "quantity": 6, "id": 121 },
-          { "name": "Sunsugar", "quantity": 4, "id": 122 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Snowflower Field"
-        }
-      ]
-    },
-    {
       "name": "Constricting Poison",
       "id": 167,
       "category": "Consumables",
@@ -600,28 +515,6 @@
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
-    {
-      "name": "Dark Chocolate",
-      "id": 182,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Sunsugar", "quantity": 1, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Chilling Around"
-        }
-      ]
-    },
     { "name": "Archipelago Greens", "id": 184, "category": "Material" },
     {
       "name": "Fresh Bread",
@@ -682,29 +575,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
     },
     {
-      "name": "Enchanted Gingerbread Loaf",
-      "id": 195,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Gingerbread Dough", "quantity": 1, "id": 196 },
-          { "name": "Spices", "quantity": 2, "id": 159 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Snowflower Field"
-        }
-      ]
-    },
-    { "name": "Enchanted Gingerbread Dough", "id": 196, "category": "Material" },
-    {
       "name": "Endurance Lollipop",
       "id": 197,
       "category": "Consumables",
@@ -747,142 +617,6 @@
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
     { "name": "Summer Glory", "id": 200, "category": "Material" },
-    {
-      "name": "Evercold Arrows",
-      "id": 201,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Evercold Crystals", "quantity": 2, "id": 202 },
-          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
-          { "name": "Standard Arrow", "quantity": 3, "id": 108 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Chilling Around"
-        }
-      ]
-    },
-    { "name": "Evercold Crystals", "id": 202, "category": "Material" },
-    {
-      "name": "Evercold Oil",
-      "id": 203,
-      "category": "Material",
-      "license_amount": 35102,
-      "recipe": {
-        "ingredient": [
-          { "name": "Evercold Crystals", "quantity": 2, "id": 202 },
-          { "name": "Standard Catalyst", "quantity": 4, "id": 111 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Crystals Formation"
-        }
-      ]
-    },
-    {
-      "name": "Evercold Chocolate",
-      "id": 204,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Evercold Oil", "quantity": 2, "id": 203 },
-          { "name": "Fresh Milk", "quantity": 1, "id": 121 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Crystal Formations"
-        }
-      ]
-    },
-    {
-      "name": "Evercold Gingerbread Biscuits",
-      "id": 205,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Gingerbread Dough", "quantity": 1, "id": 196 },
-          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
-          { "name": "Sunsugar", "quantity": 2, "id": 122 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Gingerbread Falls"
-        }
-      ]
-    },
-    {
-      "name": "Evercold Milk",
-      "id": 206,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Evercold Crystals", "quantity": 1, "id": 202 },
-          { "name": "Fresh Milk", "quantity": 4, "id": 121 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Crystal Formations"
-        }
-      ]
-    },
-    {
-      "name": "Evercold Snow Balls",
-      "id": 207,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Evercold Crystals", "quantity": 4, "id": 202 },
-          { "name": "Purified Water", "quantity": 4, "id": 110 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Crystals Formation"
-        }
-      ]
-    },
     {
       "name": "Fire Arrows",
       "id": 209,
@@ -1014,52 +748,6 @@
       ]
     },
     {
-      "name": "Gingerbread Chocolate Cookies",
-      "id": 221,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 1, "id": 161 },
-          { "name": "Enchanted Gingerbread Dough", "quantity": 1, "id": 196 },
-          { "name": "Spices", "quantity": 1, "id": 159 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Gingerbread Falls"
-        }
-      ]
-    },
-    {
-      "name": "Gingerbread Cookies",
-      "id": 222,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Gingerbread Dough", "quantity": 1, "id": 196 },
-          { "name": "Spices", "quantity": 1, "id": 159 },
-          { "name": "Sunsugar", "quantity": 2, "id": 122 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Gingerbread Falls"
-        }
-      ]
-    },
-    {
       "name": "Gingerbread Loaf",
       "id": 223,
       "category": "Consumables",
@@ -1151,29 +839,6 @@
       ]
     },
     {
-      "name": "Health Chocolate",
-      "id": 230,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
-          { "name": "Minor Health Potion", "quantity": 2, "id": 158 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        }
-      ]
-    },
-    {
       "name": "Health Lollipop",
       "id": 231,
       "category": "Consumables",
@@ -1186,29 +851,6 @@
         "craft_amount": 4
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
-    },
-    {
-      "name": "Hot Chocolate",
-      "id": 232,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 4, "id": 161 },
-          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
-          { "name": "Sunsugar", "quantity": 2, "id": 122 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Sell 100 Chocolate"
-        }
-      ]
     },
     {
       "name": "Hotdog",
@@ -1534,29 +1176,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
     },
     {
-      "name": "Mana Chocolate",
-      "id": 270,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Minor Mana Potion", "quantity": 2, "id": 261 },
-          { "name": "Sunsugar", "quantity": 2, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        }
-      ]
-    },
-    {
       "name": "Mana Draught",
       "id": 271,
       "category": "Consumables",
@@ -1592,28 +1211,6 @@
         "craft_amount": 1
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
-    },
-    {
-      "name": "Milk Chocolate",
-      "id": 274,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Fresh Milk", "quantity": 1, "id": 121 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        }
-      ]
     },
     {
       "name": "Mind Rot",
@@ -1899,98 +1496,6 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
     },
     {
-      "name": "Potion of Evercold Breath",
-      "id": 301,
-      "category": "Consumables",
-      "license_amount": 1200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Arcane Extract", "quantity": 1, "id": 109 },
-          { "name": "Evercold Crystals", "quantity": 1, "id": 202 },
-          { "name": "Evercold Oil", "quantity": 3, "id": 203 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Sell 150 Evercold Milk"
-        }
-      ]
-    },
-    {
-      "name": "Potion of Fire Resistance",
-      "id": 302,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Evercold Crystals", "quantity": 4, "id": 202 },
-          { "name": "Everspring Leaves", "quantity": 4, "id": 137 },
-          { "name": "Standard Catalyst", "quantity": 2, "id": 111 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Crystal Formations"
-        }
-      ]
-    },
-    {
-      "name": "Potion of Gingerbread Armor",
-      "id": 303,
-      "category": "Consumables",
-      "license_amount": 800,
-      "recipe": {
-        "ingredient": [
-          { "name": "Blue Tower", "quantity": 4, "id": 120 },
-          { "name": "Enchanted Gingerbread Dough", "quantity": 4, "id": 196 },
-          { "name": "Standard Catalyst", "quantity": 2, "id": 111 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Gingerbread Falls"
-        }
-      ]
-    },
-    {
-      "name": "Prescient Chocolate",
-      "id": 304,
-      "category": "Consumables",
-      "license_amount": 1200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Arcane Extract", "quantity": 1, "id": 109 },
-          { "name": "Blue Tower", "quantity": 3, "id": 120 },
-          { "name": "Chocolate", "quantity": 2, "id": 161 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Chilling Around"
-        }
-      ]
-    },
-    {
       "name": "Puff Juice",
       "id": 305,
       "category": "Consumables",
@@ -2209,36 +1714,6 @@
         "craft_amount": 1
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
-    },
-    {
-      "name": "Strength Chocolate",
-      "id": 330,
-      "category": "Consumables",
-      "license_amount": 1200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Fire Extract", "quantity": 1, "id": 213 },
-          { "name": "Summer Glory", "quantity": 3, "id": 200 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        },
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Chilling Around"
-        }
-      ]
     },
     {
       "name": "Summer Delight",
@@ -2465,28 +1940,6 @@
         "craft_amount": 2
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
-    },
-    {
-      "name": "White Chocolate",
-      "id": 356,
-      "category": "Consumables",
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Sunsugar", "quantity": 3, "id": 122 }
-        ],
-        "craft_amount": 3
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Dwarf Cocoa Forest"
-        }
-      ]
     },
     {
       "name": "Armor Pouches",
@@ -3640,29 +3093,6 @@
       ]
     },
     {
-      "name": "Evercold Sword",
-      "id": 472,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Evercold Crystals", "quantity": 1, "id": 202 },
-          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
-          { "name": "Iron Sword", "quantity": 1, "id": 392 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Chilling Around"
-        }
-      ]
-    },
-    {
       "name": "Exploration Kit",
       "id": 473,
       "category": "Gear",
@@ -3999,94 +3429,6 @@
           "fragment": false,
           "subtype": "Evercold Isle (part 2)",
           "name": "Sell 100 Enchanted Yarn"
-        }
-      ]
-    },
-    {
-      "name": "Jelly Winter Gloves",
-      "id": 511,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
-          { "name": "Leather", "quantity": 1, "id": 369 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Snowflower Fields"
-        }
-      ]
-    },
-    {
-      "name": "Jelly Winter Hat",
-      "id": 512,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
-          { "name": "Jute", "quantity": 1, "id": 444 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Snowflower Fields"
-        }
-      ]
-    },
-    {
-      "name": "Jelly Winter Pull",
-      "id": 513,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
-          { "name": "Jute", "quantity": 2, "id": 444 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Snowflower Fields"
-        }
-      ]
-    },
-    {
-      "name": "Jelly Winter Scarf",
-      "id": 514,
-      "category": "Gear",
-      "license_amount": 1500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
-          { "name": "Jute", "quantity": 2, "id": 444 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Exploration: Snowflower Fields"
         }
       ]
     },
@@ -5382,7 +4724,6 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Cocoa", "id": 624, "category": "Material" },
     { "name": "Cinder Wheat", "id": 625, "category": "Material" },
     {
       "name": "Cryptozoology Treatise",
@@ -5841,53 +5182,6 @@
     { "name": "Sunsugar Cane", "id": 671, "category": "Material" },
     { "name": "Wheat", "id": 674, "category": "Material" },
     {
-      "name": "Chocolate Brownies",
-      "id": 678,
-      "category": "Consumables",
-      "license_amount": 200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 2, "id": 161 },
-          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Sell 150 items of the Chocolate category"
-        }
-      ]
-    },
-    {
-      "name": "Chocolate Gingerbread Cake",
-      "id": 679,
-      "category": "Consumables",
-      "license_amount": 200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 4, "id": 161 },
-          { "name": "Enchanted Gingerbread Dough", "quantity": 2, "id": 196 },
-          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
-          { "name": "Wheat Flour", "quantity": 2, "id": 125 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Craft 100 items of the Chocolate category"
-        }
-      ]
-    },
-    {
       "name": "Chocolate Ice Cream",
       "id": 680,
       "category": "Consumables",
@@ -5907,29 +5201,6 @@
           "fragment": true,
           "subtype": "Evercold Isle (part 2)",
           "name": "Exploration: Crystals Formations"
-        }
-      ]
-    },
-    {
-      "name": "Chocolate Muffin",
-      "id": 681,
-      "category": "Consumables",
-      "license_amount": 200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Chocolate", "quantity": 1, "id": 161 },
-          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
-          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
-        ],
-        "craft_amount": 4
-      },
-      "source": [
-        {
-          "type": "Task",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Evercold Isle (part 1)",
-          "name": "Complete 35 journeys"
         }
       ]
     },
