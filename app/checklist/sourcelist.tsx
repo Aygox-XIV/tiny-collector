@@ -35,6 +35,7 @@ export const ChecklistSourceList: React.FC<NoProps> = ({}) => {
         return true;
     };
 
+    // TODO: sort
     let toDisplay: Record<string | SourceType, SourceDetails[]> = {};
     for (const source of Object.values(db.sources)) {
         if (!shouldDisplay(source)) {

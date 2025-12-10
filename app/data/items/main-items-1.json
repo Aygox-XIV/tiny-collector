@@ -162,7 +162,7 @@
       "recipe": { "ingredient": [{ "name": "Sunsugar Cane", "quantity": 6, "id": 671 }], "craft_amount": 3 },
       "source": [
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Handful of Seeds - Part 2/2" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Gathering: Expedition Supplies" }
       ]
     },
     {
@@ -1617,7 +1617,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Drakegull" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Winged Menace" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Winged Menaces" }
       ]
     },
     {
@@ -2377,7 +2377,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Drakegull [southern only]" },
+        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Drakegull [lower only]" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Coral Crabs" }
       ]
@@ -3909,10 +3909,7 @@
       "id": 613,
       "category": "Material",
       "license_amount": 10,
-      "source": [
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Drakegull" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Drakegull SOMETHING?? there's another one" }
-      ]
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Drakegull" }]
     },
     {
       "name": "Figurine: Fire Sprite",

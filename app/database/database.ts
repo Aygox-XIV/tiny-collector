@@ -51,12 +51,12 @@ const REAL_FILES: FileCollection = {
         itemFileSun as ItemData,
     ],
     catalogFiles: [
-        catalogFileEvercold as CatalogList,
-        catalogFileFlooded as CatalogList,
         catalogFileMain as CatalogList,
-        catalogFilePhantom as CatalogList,
         catalogFileQuest as CatalogList,
         catalogFileSun as CatalogList,
+        catalogFileFlooded as CatalogList,
+        catalogFilePhantom as CatalogList,
+        catalogFileEvercold as CatalogList,
     ],
     sourceMetadata: [
         sourceMetaFileMain as SourceImageList,

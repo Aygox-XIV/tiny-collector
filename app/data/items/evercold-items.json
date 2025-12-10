@@ -11,7 +11,8 @@
       "license_amount": 800,
       "recipe": { "ingredient": [{ "name": "Cocoa", "quantity": 4, "id": 624 }], "craft_amount": 4 },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
       ]
     },
     {
@@ -28,7 +29,8 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
       ]
     },
     {
@@ -46,11 +48,17 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
       ]
     },
     {
@@ -67,7 +75,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
       ]
     },
     {
@@ -83,7 +92,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
       ]
     },
     {
@@ -99,7 +109,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
       ]
     },
     {
@@ -116,7 +127,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
       ]
     },
     {
@@ -132,7 +144,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
       ]
     },
     {
@@ -149,7 +162,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
       ]
     },
     {
@@ -166,7 +180,8 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
       ]
     },
     {
@@ -182,7 +197,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
       ]
     },
     {
@@ -198,7 +214,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
       ]
     },
     {
@@ -215,7 +232,8 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
       ]
     },
     {
@@ -232,7 +250,8 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
       ]
     },
     {
@@ -249,7 +268,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
       ]
     },
     {
@@ -281,7 +301,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
       ]
     },
     {
@@ -297,7 +318,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
       ]
     },
     {
@@ -329,7 +351,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
       ]
     },
     {
@@ -346,7 +369,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
       ]
     },
     {
@@ -363,7 +387,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
       ]
     },
     {
@@ -381,7 +406,9 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
       ]
     },
     {
@@ -397,7 +424,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
       ]
     },
     {
@@ -414,7 +442,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
       ]
     },
     {
@@ -430,7 +459,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
       ]
     },
     {
@@ -446,7 +476,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
       ]
     },
     {
@@ -462,7 +493,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
       ]
     },
     {
@@ -478,7 +510,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
       ]
     },
     {
@@ -622,7 +655,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -779,7 +812,7 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Ancient" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Yeti" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Youngling" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -813,7 +846,7 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Ancient" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Yeti" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Youngling" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -830,7 +863,7 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "???" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -848,7 +881,7 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Duelist" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -866,7 +899,7 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Soother" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -884,7 +917,7 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -918,7 +951,7 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -995,8 +1028,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian (1/5) )" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -1161,7 +1194,7 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -1180,7 +1213,7 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -1199,7 +1232,7 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
@@ -1218,7 +1251,7 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
-        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Event Boat" }
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
     {
