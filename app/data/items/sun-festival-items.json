@@ -1,5 +1,14 @@
 {
   "items": [
+    { "name": "Tinder Powder", "id": 147, "category": "Material" },
+    { "name": "Koko Water", "id": 243, "category": "Material" },
+    { "name": "Koko Coir", "id": 402, "category": "Material" },
+    { "name": "Sunseeker Seeds", "id": 339, "category": "Material" },
+    { "name": "Sunseeker's Stems", "id": 670, "category": "Material" },
+    { "name": "Violetines", "id": 673, "category": "Material" },
+    { "name": "Silverblooms", "id": 676, "category": "Material" },
+    { "name": "Redchidaes", "id": 667, "category": "Material" },
+    { "name": "Sunseekers", "id": 335, "category": "Material" },
     {
       "name": "Archipelago Rice",
       "id": 116,
@@ -318,7 +327,6 @@
         }
       ]
     },
-    { "name": "Koko Water", "id": 243, "category": "Material" },
     {
       "name": "Koko Flan",
       "id": 244,
@@ -754,7 +762,6 @@
         }
       ]
     },
-    { "name": "Sunseeker Seeds", "id": 339, "category": "Material" },
     {
       "name": "Tartare Moonfish Salad",
       "id": 341,
@@ -935,7 +942,6 @@
         }
       ]
     },
-    { "name": "Koko Coir", "id": 402, "category": "Material" },
     {
       "name": "Beach Necklace",
       "id": 405,
@@ -1032,6 +1038,14 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Sunseeker's Stems", "quantity": 4, "id": 670 }], "craft_amount": 2 },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
+    },
+    {
+      "name": "Sunseeker Oil",
+      "id": 127,
+      "category": "Material",
+      "license_amount": 500,
+      "recipe": { "ingredient": [{ "name": "Sunseekers", "quantity": 4, "id": 335 }], "craft_amount": 4 },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
     },
     {
@@ -1578,7 +1592,6 @@
         }
       ]
     },
-    { "name": "Violetines", "id": 673, "category": "Material" },
     {
       "name": "White Pigment",
       "id": 675,
@@ -1595,7 +1608,6 @@
         }
       ]
     },
-    { "name": "Silverblooms", "id": 676, "category": "Material" },
     {
       "name": "Yellow Pigment",
       "id": 677,
@@ -2031,6 +2043,20 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+    },
+    {
+      "name": "Koko Milk",
+      "id": 117,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Koko", "quantity": 2, "id": 150 },
+          { "name": "Koko Water", "quantity": 2, "id": 243 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }]
     }
   ],
   "alt_recipes": []

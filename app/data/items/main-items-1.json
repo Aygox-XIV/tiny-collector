@@ -142,20 +142,6 @@
       ]
     },
     { "name": "Kraken Grease", "id": 115, "category": "Material" },
-    {
-      "name": "Koko Milk",
-      "id": 117,
-      "category": "Consumables",
-      "license_amount": 200,
-      "recipe": {
-        "ingredient": [
-          { "name": "Koko", "quantity": 2, "id": 150 },
-          { "name": "Koko Water", "quantity": 2, "id": 243 }
-        ],
-        "craft_amount": 2
-      },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }]
-    },
     { "name": "Rice", "id": 118, "category": "Material" },
     {
       "name": "Archipelatea",
@@ -225,14 +211,6 @@
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
     },
     {
-      "name": "Sunseeker Oil",
-      "id": 127,
-      "category": "Material",
-      "license_amount": 500,
-      "recipe": { "ingredient": [{ "name": "Sunseekers", "quantity": 4, "id": 335 }], "craft_amount": 4 },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
-    },
-    {
       "name": "Bana Drink",
       "id": 128,
       "category": "Consumables",
@@ -295,7 +273,6 @@
     },
     { "name": "Everspring Leaves", "id": 137, "category": "Material" },
     { "name": "Drakegull Egg", "id": 144, "category": "Material" },
-    { "name": "Tinder Powder", "id": 147, "category": "Material" },
     {
       "name": "Blue Ribbon",
       "id": 148,
@@ -1746,7 +1723,6 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Sunseekers", "id": 335, "category": "Material" },
     {
       "name": "Sun Up",
       "id": 336,
@@ -5162,7 +5138,6 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" }
       ]
     },
-    { "name": "Redchidaes", "id": 667, "category": "Material" },
     { "name": "Crabantula Shell", "id": 668, "category": "Material" },
     {
       "name": "Summer Glory Sprout",
@@ -5178,7 +5153,6 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Sunseeker's Stems", "id": 670, "category": "Material" },
     { "name": "Sunsugar Cane", "id": 671, "category": "Material" },
     { "name": "Wheat", "id": 674, "category": "Material" },
     {
