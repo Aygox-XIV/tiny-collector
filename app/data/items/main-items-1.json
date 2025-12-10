@@ -21,14 +21,7 @@
       "license_amount": 1200,
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
-        {
-          "type": "Feat",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Selling",
-          "name": "Sell Mad Screechers",
-          "level": 5
-        }
+        { "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Selling", "name": "Sell Mad Screechers", "level": 5 }
       ]
     },
     {
@@ -255,9 +248,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     { "name": "Aetheric Water", "id": 132, "category": "Material" },
     { "name": "Aethero Insulating Empty Bottle", "id": 133, "category": "Material" },
@@ -294,9 +285,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     { "name": "Coast Lemons", "id": 153, "category": "Material" },
     { "name": "Snow Lilies", "id": 154, "category": "Material" },
@@ -568,7 +557,13 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Cinder Wheat", "quantity": 4, "id": 625 }], "craft_amount": 2 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Fire Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
+      ]
     },
     {
       "name": "Fire Croissant",
@@ -582,7 +577,12 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Fire Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
+      ]
     },
     {
       "name": "Fire Extract",
@@ -611,7 +611,12 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Fire Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
+      ]
     },
     {
       "name": "Fishies",
@@ -656,9 +661,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }]
     },
     {
       "name": "Fried Moonfish Salad",
@@ -673,9 +676,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }]
     },
     {
       "name": "Glorious Ice Cream",
@@ -720,9 +721,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Misc", "name": "KROASSANT!", "level": 2 }
-      ]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Misc", "name": "KROASSANT!", "level": 2 }]
     },
     {
       "name": "Health Lollipop",
@@ -992,14 +991,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Mission Reward",
-          "kind": "recipe",
-          "fragment": false,
-          "name": "A Flying Opportunity - Part II - Part 4/7"
-        }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 4/7" }]
     },
     {
       "name": "Mad Screecher Blue Sky",
@@ -1127,9 +1119,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     {
       "name": "Moonfish Soup",
@@ -1449,9 +1439,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 6/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 6/6" }]
     },
     {
       "name": "Spectral Pumpkin",
@@ -1505,9 +1493,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }]
     },
     {
       "name": "Improved Arcane Catalyst",
@@ -1538,9 +1524,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }]
     },
     {
       "name": "Steamed Fish & Rice",
@@ -1725,9 +1709,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 1/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 1/6" }]
     },
     {
       "name": "Weak Elixir",
@@ -1873,7 +1855,12 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Arcane Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
+      ]
     },
     {
       "name": "Iron Axe",
@@ -2044,7 +2031,12 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Arcane Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
+      ]
     },
     {
       "name": "Iron Helmet",
@@ -2385,7 +2377,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Drakegull (lower)" },
+        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Drakegull [southern only]" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Coral Crabs" }
       ]
@@ -2569,9 +2561,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Ducky Overlord",
@@ -2617,9 +2607,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Emerald Armor",
@@ -2694,9 +2682,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Emerald Ring",
@@ -2729,9 +2715,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Exploration Kit",
@@ -2787,7 +2771,12 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Fire Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
+      ]
     },
     {
       "name": "Fire Boots",
@@ -2857,7 +2846,12 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Fire Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
+      ]
     },
     {
       "name": "Fire Shield",
@@ -2929,9 +2923,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }]
     },
     {
       "name": "Fungal Sword",
@@ -2946,9 +2938,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }]
     },
     {
       "name": "Goggles",
@@ -2993,9 +2983,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     {
       "name": "Healing Wand",
@@ -3010,9 +2998,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     { "name": "Condensed Nature Aether", "id": 502, "category": "Material" },
     {
@@ -3029,9 +3015,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Inkosophist Grimoire",
@@ -3047,9 +3031,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Kraken Lure",
@@ -3094,9 +3076,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Nature Extract",
@@ -3157,14 +3137,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Mission Reward",
-          "kind": "recipe",
-          "fragment": false,
-          "name": "A Flying Opportunity - Part III - Part 3/6"
-        }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part III - Part 3/6" }]
     },
     { "name": "Ancient Sketchbook", "id": 524, "category": "Material" },
     {
@@ -3237,9 +3210,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     {
       "name": "Pair of Arcane Daggers",
@@ -3411,9 +3382,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
     {
       "name": "Ranger's Dagger",
@@ -3446,9 +3415,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     { "name": "Seastone", "id": 554, "category": "Material" },
     {
@@ -3561,9 +3528,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Seastone Ring",
@@ -3596,9 +3561,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Skull Cap",
@@ -3650,14 +3613,7 @@
       "category": "Gear",
       "license_amount": 650,
       "recipe": { "ingredient": [{ "name": "Anthracite", "quantity": 2, "id": 235 }], "craft_amount": 3 },
-      "source": [
-        {
-          "type": "Mission Reward",
-          "kind": "recipe",
-          "fragment": false,
-          "name": "A Flying Opportunity - Part II - Part 7/7"
-        }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
     },
     {
       "name": "Straw Hat",
@@ -3689,9 +3645,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Thorn Amulet",
@@ -3706,9 +3660,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Thorn Ring",
@@ -3723,9 +3675,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Tongs",
@@ -3959,14 +3909,23 @@
       "id": 613,
       "category": "Material",
       "license_amount": 10,
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "All Drakegull (1/5 Repeatable)" }]
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Drakegull SOMETHING?? there's another one" }
+      ]
     },
     {
       "name": "Figurine: Fire Sprite",
       "id": 614,
       "category": "Material",
       "license_amount": 10,
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "All Fire Island (1/5 Reapeatable)" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
+      ]
     },
     {
       "name": "Figurine: Seaslime",
@@ -4002,9 +3961,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Ancient History Records",
@@ -4019,9 +3976,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Armor Cleaner",
@@ -4081,9 +4036,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Everspring Sprout",
@@ -4113,14 +4066,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Mission Reward",
-          "kind": "recipe",
-          "fragment": false,
-          "name": "A Flying Opportunity - Part II - Part 7/7"
-        }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
     },
     {
       "name": "Figurine: Baneana",
@@ -4135,9 +4081,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 3/6" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 3/6" }]
     },
     {
       "name": "Figurine: Healer",
@@ -4152,14 +4096,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Mission Reward",
-          "kind": "recipe",
-          "fragment": false,
-          "name": "A Flying Opportunity - Part II - Part 7/7"
-        }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
     },
     {
       "name": "Figurine: Royal Knight",
@@ -4174,14 +4111,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Mission Reward",
-          "kind": "recipe",
-          "fragment": false,
-          "name": "A Flying Opportunity - Part II - Part 7/7"
-        }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
     },
     {
       "name": "Jellyvenger's Adventures Vol.1",
@@ -4232,7 +4162,12 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "All Arcane Island" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
+      ]
     },
     {
       "name": "Mages & Monsters 3.5 Edition Rulebook",
@@ -4247,9 +4182,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "An Ancient Game - Part 5/5" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "An Ancient Game - Part 5/5" }]
     },
     {
       "name": "Magic Mint",
@@ -4264,9 +4197,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business in a Can - Part 5/5" }
-      ]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business in a Can - Part 5/5" }]
     },
     {
       "name": "Oceanic Essence",

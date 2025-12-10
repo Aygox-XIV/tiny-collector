@@ -22,15 +22,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Blue Firework",
@@ -45,15 +37,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Blue Paint",
@@ -67,15 +51,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Bonbon Koko",
@@ -90,15 +66,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Curry Pizza",
@@ -113,15 +81,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Curry Sauce",
@@ -136,15 +96,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Drakegull Burger",
@@ -159,15 +111,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Drakegull Curry",
@@ -183,15 +127,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Drakegull Fireger",
@@ -206,15 +142,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Fire Bread",
@@ -228,15 +156,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Fiery Egg Toast",
@@ -250,15 +170,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Green Firework",
@@ -273,15 +185,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Green Paint",
@@ -295,15 +199,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Koko Drink",
@@ -318,15 +214,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Koko Flan",
@@ -341,15 +229,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Koko Friedbread",
@@ -364,15 +244,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Koko Ice Cream",
@@ -387,15 +259,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Koko Rice Pudding",
@@ -410,15 +274,7 @@
         ],
         "craft_amount": 2
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Kraken Curry",
@@ -434,15 +290,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Moonfish Bites",
@@ -457,15 +305,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Moonfish Burger",
@@ -480,15 +320,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Moonfish Curry",
@@ -504,15 +336,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Orange Firework",
@@ -527,15 +351,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Orange Paint",
@@ -549,15 +365,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Pink Firework",
@@ -572,15 +380,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Pink Paint",
@@ -594,15 +394,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Red Firework",
@@ -617,15 +409,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Red Paint",
@@ -639,15 +423,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Silver Firework",
@@ -662,15 +438,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "White Paint",
@@ -684,15 +452,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Summer Can",
@@ -707,15 +467,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Sun Potion",
@@ -730,15 +482,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Sunseeker Bread",
@@ -753,15 +497,7 @@
         ],
         "craft_amount": 2
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Tartare Moonfish Salad",
@@ -776,15 +512,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Violet Firework",
@@ -799,15 +527,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Violet Paint",
@@ -821,15 +541,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Yellow Firework",
@@ -844,15 +556,7 @@
         ],
         "craft_amount": 3
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Yellow Paint",
@@ -866,15 +570,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Adventurer's Belt",
@@ -889,15 +585,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Adventurer's Boots",
@@ -911,15 +599,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Artsy Palette",
@@ -933,15 +613,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Beach Necklace",
@@ -956,15 +628,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Black Paint",
@@ -978,15 +642,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Blank Canvas",
@@ -1001,15 +657,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Blue Bandana",
@@ -1023,15 +671,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Sun Linen",
@@ -1061,15 +701,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Blue Pareo",
@@ -1084,15 +716,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Blue Summer Top",
@@ -1106,15 +730,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Blue Swimwear",
@@ -1128,15 +744,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Commonfolk's Belt",
@@ -1151,15 +759,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Commonfolk's Shoes",
@@ -1173,15 +773,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Healer's Dress",
@@ -1196,15 +788,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Healer's Top",
@@ -1219,15 +803,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Rogue's Pant",
@@ -1242,15 +818,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Rogue's Top",
@@ -1265,15 +833,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Sorceress Skirt",
@@ -1288,15 +848,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Sorceress Top",
@@ -1311,15 +863,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Sorceress Wraps",
@@ -1334,15 +878,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Sun Oracle Skirt",
@@ -1357,15 +893,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Sun Oracle Top",
@@ -1380,15 +908,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Sun Oracle Wraps",
@@ -1403,15 +923,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Trader's Belt",
@@ -1426,15 +938,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Trader's Boots",
@@ -1448,15 +952,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Trader's Vest",
@@ -1471,15 +967,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Tailors Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
     },
     {
       "name": "Black Pigment",
@@ -1487,15 +975,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Kraken Ink", "quantity": 1, "id": 250 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Blue Pigment",
@@ -1503,15 +983,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Blue Tower", "quantity": 1, "id": 120 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Green Pigment",
@@ -1519,15 +991,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 1, "id": 137 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Orange Pigment",
@@ -1535,15 +999,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Summer Glory", "quantity": 1, "id": 200 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Pink Pigment",
@@ -1551,15 +1007,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Puff Flower", "quantity": 1, "id": 257 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Red Pigment",
@@ -1567,15 +1015,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Redchidaes", "quantity": 1, "id": 667 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Violet Pigment",
@@ -1583,15 +1023,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Violetines", "quantity": 1, "id": 673 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "White Pigment",
@@ -1599,15 +1031,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Silverblooms", "quantity": 1, "id": 676 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Yellow Pigment",
@@ -1615,15 +1039,7 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Sunseekers", "quantity": 1, "id": 335 }], "craft_amount": 4 },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Mad Screecher Koko",
@@ -1638,15 +1054,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Fiery Noodles",
@@ -1675,9 +1083,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Botanists Guild" }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Botanists Guild" }]
     },
     {
       "name": "Blue Beach Towel",
@@ -1692,15 +1098,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Solar Fibre",
@@ -1729,9 +1127,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Tailors Guild" }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Tailors Guild" }]
     },
     {
       "name": "Green Beach Towel",
@@ -1746,15 +1142,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Green Flip Flops",
@@ -1769,15 +1157,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Culinary Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
     },
     {
       "name": "Pink Beach Towel",
@@ -1792,15 +1172,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Pink Flip Flops",
@@ -1815,15 +1187,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Alchemists Guild"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
     },
     {
       "name": "Rogue's Belt",
@@ -1837,15 +1201,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Solar Rope",
@@ -1853,15 +1209,7 @@
       "category": "Gear",
       "license_amount": 120,
       "recipe": { "ingredient": [{ "name": "Solar Fibre", "quantity": 2, "id": 717 }], "craft_amount": 1 },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Yellow Beach Towel",
@@ -1876,15 +1224,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Medium Chest (12, 24 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {
       "name": "Yellow Flip Flops",
@@ -1899,15 +1239,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Journey",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Workshop: Art Initiation"
-        }
-      ]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
     },
     {
       "name": "Solar Fishing Line",
@@ -1915,15 +1247,7 @@
       "category": "Material",
       "license_amount": 120,
       "recipe": { "ingredient": [{ "name": "Solar Fibre", "quantity": 2, "id": 717 }], "craft_amount": 2 },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "Sunseeker Fishing Rod",
@@ -1937,15 +1261,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": true,
-          "subtype": "Sun Festival",
-          "name": "Small Chest (3, 6, 9 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
       "name": "The Cheesy Inferno",
@@ -1960,15 +1276,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        {
-          "type": "Task Chest",
-          "kind": "recipe",
-          "fragment": false,
-          "subtype": "Sun Festival",
-          "name": "Large Chest (36 tasks)"
-        }
-      ]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
     },
     {
       "name": "Black Cap",
