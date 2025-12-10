@@ -1684,6 +1684,5 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
       ]
     }
-  ],
-  "alt_recipes": []
+  ]
 }

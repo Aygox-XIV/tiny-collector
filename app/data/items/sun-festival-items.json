@@ -2059,6 +2059,5 @@
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }]
     }
-  ],
-  "alt_recipes": []
+  ]
 }

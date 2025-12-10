@@ -2283,6 +2283,5 @@
       "license_amount": 10,
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }]
     }
-  ],
-  "alt_recipes": []
+  ]
 }

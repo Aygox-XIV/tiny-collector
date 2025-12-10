@@ -87,7 +87,7 @@ export interface ImageRef {
 
 export interface ItemData {
     readonly items: Item[];
-    readonly alt_recipes: AltRecipe[];
+    readonly alt_recipes?: AltRecipe[];
 }
 
 export interface Item extends IdentifiableEntity {
@@ -258,7 +258,7 @@ function createDB(files: FileCollection): Database {
                 });
             }
         });
-        itemData.alt_recipes.forEach((r) => {
+        (itemData.alt_recipes || []).forEach((r) => {
             if (alt_recipes[r.name]) {
                 console.error('Duplicate Alt Recipe name ' + r.name);
                 return;
