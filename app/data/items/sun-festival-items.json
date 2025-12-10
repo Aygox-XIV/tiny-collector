@@ -1,6 +1,7 @@
 {
   "items": [
     { "name": "Tinder Powder", "id": 147, "category": "Material" },
+    { "name": "Koko", "id": 150, "category": "Material" },
     { "name": "Koko Water", "id": 243, "category": "Material" },
     { "name": "Koko Coir", "id": 402, "category": "Material" },
     { "name": "Sunseeker Seeds", "id": 339, "category": "Material" },
