@@ -154,6 +154,35 @@ export function getEventPhase(type?: EventType): number | undefined {
     }
 }
 
+export function sourceSortFn(a: Source, b: Source): number {
+    const aEventCat = getEventCategory(a);
+    const bEventCat = getEventCategory(b);
+    if (aEventCat != bEventCat) {
+        if (aEventCat == EventCategory.NoEvent) {
+            return -1;
+        } else if (bEventCat == EventCategory.NoEvent) {
+            return 1;
+        } else if (aEventCat < bEventCat) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+    const aEventPhase = getEventPhase(a.subtype as EventType) || 0;
+    const bEventPhase = getEventPhase(b.subtype as EventType) || 0;
+    if (aEventPhase !== bEventPhase) {
+        if (aEventPhase < bEventPhase) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+    if (a.name === b.name) {
+        return 0;
+    }
+    return (a.name || '') < (b.name || '') ? -1 : 1;
+}
+
 export enum OutpostType {
     Trading = 'Trading',
     Coastal = 'Coastal',

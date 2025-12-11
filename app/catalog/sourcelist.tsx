@@ -7,7 +7,7 @@ import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { sourceId } from '../database/database';
-import { getEventType, type Source } from '../database/sources';
+import { getEventType, sourceSortFn, type Source } from '../database/sources';
 
 export interface SourceListProps {
     sources: Source[];
@@ -36,6 +36,7 @@ export const SourceList: React.FC<SourceListProps> = ({ sources }) => {
 
 const SingleSourceList: React.FC<SourceListProps> = ({ sources }) => {
     let i = 0;
+    const sortedSources = sources.sort((a, b) => sourceSortFn(a, b));
     return (
         <div className="single-source-list">
             <div className="source-type">
@@ -43,7 +44,7 @@ const SingleSourceList: React.FC<SourceListProps> = ({ sources }) => {
                 {sources[0].type}
             </div>
             <div className="individual-sources">
-                {sources.map((s) => {
+                {sortedSources.map((s) => {
                     return <SingleSource source={s} key={i++} />;
                 })}
             </div>
@@ -56,6 +57,7 @@ interface SingleSourceProps {
 }
 
 const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
+    // TODO: show event phase number
     return (
         <div className={'single-source ' + source.type}>
             <EventIcon showEventPhase={false} type={getEventType(source)} tooltipId={SOURCE_TOOLTIP} />

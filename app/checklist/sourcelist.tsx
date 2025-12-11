@@ -4,14 +4,7 @@ import { EventIcon } from '../common/eventicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { dropIsCollected, sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
-import {
-    EventCategory,
-    EventType,
-    getEventCategory,
-    getEventPhase,
-    getEventType,
-    SourceType,
-} from '../database/sources';
+import { getEventCategory, getEventType, sourceSortFn, SourceType } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
 
@@ -69,34 +62,7 @@ interface SourceTypeEntryProps {
 }
 
 const ChecklistSourceTypeEntry: React.FC<SourceTypeEntryProps> = ({ type, sources }) => {
-    const sortedSources = sources.sort((a, b) => {
-        const aEventCat = getEventCategory(a.source);
-        const bEventCat = getEventCategory(b.source);
-        if (aEventCat != bEventCat) {
-            if (aEventCat == EventCategory.NoEvent) {
-                return -1;
-            } else if (bEventCat == EventCategory.NoEvent) {
-                return 1;
-            } else if (aEventCat < bEventCat) {
-                return -1;
-            } else {
-                return 1;
-            }
-        }
-        const aEventPhase = getEventPhase(a.source.subtype as EventType) || 0;
-        const bEventPhase = getEventPhase(b.source.subtype as EventType) || 0;
-        if (aEventPhase !== bEventPhase) {
-            if (aEventPhase < bEventPhase) {
-                return -1;
-            } else {
-                return 1;
-            }
-        }
-        if (a.source.name === b.source.name) {
-            return 0;
-        }
-        return (a.source.name || '') < (b.source.name || '') ? -1 : 1;
-    });
+    const sortedSources = sources.sort((a, b) => sourceSortFn(a.source, b.source));
     return (
         <div className="checklist-type-container">
             <div className="type-label">
