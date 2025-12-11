@@ -1,6 +1,6 @@
 {
   "items": [
-    { "name": "Cocoa", "id": 624, "category": "Material" },
+    { "name": "Cocoa", "id": 624, "category": "Material", "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }] },
     { "name": "Enchanted Gingerbread Dough", "id": 196, "category": "Material" },
     { "name": "Evercold Crystals", "id": 202, "category": "Material" },
     { "name": "Enchanted Yarn", "id": 372, "category": "Material" },

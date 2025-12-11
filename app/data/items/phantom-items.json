@@ -24,7 +24,9 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Cluster of Bloodberry Slime" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
       ]
     },
     {
@@ -40,7 +42,11 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Cluster of Bloodberry Slime" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ]
     },
     {
       "name": "Coco Cookies",
@@ -56,7 +62,9 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
       ]
     },
     {
@@ -73,9 +81,15 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endevours" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrows" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
       ]
     },
     {
@@ -92,7 +106,9 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O' Wisps" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
       ]
     },
     {
@@ -108,7 +124,9 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrows" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
       ]
     },
     {
@@ -124,7 +142,9 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
       ]
     },
     {
@@ -141,11 +161,21 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O' Wisps" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endevours" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrows" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
       ]
     },
     {
@@ -162,7 +192,9 @@
         "craft_amount": 2
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrows" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
       ]
     },
     {
@@ -178,7 +210,9 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O' Wisps" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
       ]
     },
     {
@@ -195,7 +229,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
       ]
     },
     {
@@ -212,7 +248,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endevours" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
       ]
     },
     {
@@ -229,7 +267,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endevours" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
       ]
     },
     {
@@ -246,7 +286,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
       ]
     },
     {
@@ -262,7 +304,29 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "All Halloween journeys" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ]
     },
     {
       "name": "Bloody Berry",
@@ -278,7 +342,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
       ]
     },
     {
@@ -294,7 +359,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ]
     },
     {
@@ -311,7 +377,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
       ]
     },
     {
@@ -393,7 +460,8 @@
         "craft_amount": 3
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O' Wisps" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
       ]
     },
     {
@@ -410,7 +478,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ]
     },
     {
@@ -497,7 +566,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
       ]
     },
     {
@@ -514,7 +584,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ]
     },
     {
@@ -682,7 +753,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ]
     },
     {
@@ -727,7 +799,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ]
     },
     {
@@ -757,7 +830,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrows" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
       ]
     },
     {
@@ -774,7 +848,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ]
     },
     {
@@ -791,7 +866,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endevours" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
       ]
     },
     {
