@@ -4,6 +4,7 @@
     { "name": "Enchanted Gingerbread Dough", "id": 196, "category": "Material" },
     { "name": "Evercold Crystals", "id": 202, "category": "Material" },
     { "name": "Enchanted Yarn", "id": 372, "category": "Material" },
+    { "name": "Frozen Documents", "id": 823, "category": "Material" },
     {
       "name": "Chocolate",
       "id": 161,
@@ -1078,7 +1079,7 @@
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
     },
     {
-      "name": "Figurine: the Sculptor",
+      "name": "Figurine: The Sculptor",
       "id": 652,
       "category": "Material",
       "license_amount": 1000,
@@ -2094,6 +2095,91 @@
         ],
         "craft_amount": 1
       }
+    },
+    {
+      "name": "Blue Woolsworn Scarf",
+      "id": 824,
+      "category": "Gear",
+      "license_amount": 70,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    },
+    {
+      "name": "Green Woolsworn Scarf",
+      "id": 825,
+      "category": "Gear",
+      "license_amount": 70,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
+          { "name": "Green Paint", "quantity": 1, "id": 228 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    },
+    {
+      "name": "Pink Woolsworn Scarf",
+      "id": 826,
+      "category": "Gear",
+      "license_amount": 70,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
+          { "name": "Pink Paint", "quantity": 1, "id": 292 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    },
+    {
+      "name": "Red Woolsworn Scarf",
+      "id": 827,
+      "category": "Gear",
+      "license_amount": 70,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
+          { "name": "Red Paint", "quantity": 1, "id": 313 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    },
+    {
+      "name": "White Woolsworn Scarf",
+      "id": 828,
+      "category": "Gear",
+      "license_amount": 70,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 1, "id": 372 },
+          { "name": "White Paint", "quantity": 1, "id": 319 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    },
+    {
+      "name": "Jellykin Potion",
+      "id": 829,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
     }
   ]
 }

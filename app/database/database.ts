@@ -240,6 +240,7 @@ function createDB(files: FileCollection): Database {
 
     files.itemFiles.forEach((itemData) => {
         itemData.items.forEach((i) => {
+            // TODO: support placeholder (negative?) ID so manual additions don't need to find the next available ID
             if (items[i.id]) {
                 console.error('Duplicate item id: ' + i.id);
             }
@@ -282,6 +283,7 @@ function createDB(files: FileCollection): Database {
                 return;
             }
             let itemSet: Record<string, boolean> = {};
+            let fixedItems: [string, string?][] = [];
             for (let i = 0; i < c.items.length; i++) {
                 let [id, name] = c.items[i];
                 if (name && id.length > 0) {
@@ -297,7 +299,7 @@ function createDB(files: FileCollection): Database {
                                 ' but it is ' +
                                 dbItem?.name,
                         );
-                        return;
+                        continue;
                     }
                 } else if (name && id.length == 0) {
                     // name without id; fix the id.
@@ -305,14 +307,14 @@ function createDB(files: FileCollection): Database {
                         console.error(
                             'Catalog ' + c.name + ' has item ' + name + ' without id, but it does not exist.',
                         );
-                        return;
+                        continue;
                     }
                     id = itemNameToIdMap[name].toString();
-                    c.items[i] = [id, name];
                 }
+                fixedItems.push([id, name]);
                 itemSet[id] = true;
             }
-            catalogs[c.key] = { ...c, itemSet };
+            catalogs[c.key] = { ...c, itemSet, items: fixedItems };
         });
     });
 
