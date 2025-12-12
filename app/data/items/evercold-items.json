@@ -1708,6 +1708,392 @@
       "category": "Gear",
       "license_amount": 10,
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }]
+    },
+    {
+      "name": "Aetheric Coolant",
+      "id": 795,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 },
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Chocolate Brioche",
+      "id": 796,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 2, "id": 161 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Chocolate Crunch",
+      "id": 797,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 2, "id": 161 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Chocolate Donut",
+      "id": 798,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 1, "id": 161 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Chocolate Fondant",
+      "id": 799,
+      "category": "Consumables",
+      "license_amount": 300,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 1, "id": 161 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Koko Ice Cream", "quantity": 1, "id": 246 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Chocolate Head",
+      "id": 800,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 1, "id": 161 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Chocolate Quindim",
+      "id": 801,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 1, "id": 161 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Deepfrost Oil",
+      "id": 802,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Oil", "quantity": 1, "id": 172 },
+          { "name": "Superior Catalyst", "quantity": 2, "id": 106 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Evercold Bandage",
+      "id": 803,
+      "category": "Consumables",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 4, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Evercold Brioche",
+      "id": 804,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Evercold Crystals", "quantity": 2, "id": 202 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Evercold Cheesecake",
+      "id": 805,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 0.2, "id": 144 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Evercold Croissant",
+      "id": 806,
+      "category": "Consumables",
+      "license_amount": 300,
+      "recipe": {
+        "ingredient": [
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Purified Water", "quantity": 8, "id": 110 },
+          { "name": "Wheat Flour", "quantity": 8, "id": 125 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Evercold Cupcake",
+      "id": 807,
+      "category": "Consumables",
+      "license_amount": 300,
+      "recipe": {
+        "ingredient": [
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Evercold Donut",
+      "id": 808,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Evercold Crystals", "quantity": 1, "id": 202 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Evercold Flan",
+      "id": 809,
+      "category": "Consumables",
+      "license_amount": 300,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Evercold Quindim",
+      "id": 810,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Evercold Crystals", "quantity": 1, "id": 202 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "North Rune Cake",
+      "id": 811,
+      "category": "Consumables",
+      "license_amount": 100,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 1, "id": 161 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Aetheric Compass",
+      "id": 812,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Rough Emerald", "quantity": 1, "id": 439 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Deepwinter Amulet",
+      "id": 813,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Iron", "quantity": 2, "id": 157 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Deepwinter Fan",
+      "id": 814,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 2, "id": 136 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 },
+          { "name": "Everwood", "quantity": 1, "id": 325 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Mechcrabby",
+      "id": 815,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Aetheric Coolant", "quantity": 1, "id": 795 },
+          { "name": "Databoard", "quantity": 1, "id": 529 },
+          { "name": "Mechanical Parts", "quantity": 2, "id": 527 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pathfinder Belt",
+      "id": 816,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 2, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Leather", "quantity": 2, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pathfinder Boots",
+      "id": 817,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 2, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Leather", "quantity": 4, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pathfinder Gloves",
+      "id": 818,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 2, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Leather", "quantity": 4, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pathfinder Hat",
+      "id": 819,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 2, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Monster Scales", "quantity": 2, "id": 171 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pathfinder Trousers",
+      "id": 820,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 2, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Leather", "quantity": 4, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pathfinder Tunic",
+      "id": 821,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Enchanted Yarn", "quantity": 4, "id": 372 },
+          { "name": "Evercold Oil", "quantity": 1, "id": 203 },
+          { "name": "Leather", "quantity": 4, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
     }
   ]
 }

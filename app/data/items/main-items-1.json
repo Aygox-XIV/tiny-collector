@@ -4320,7 +4320,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
       ]
-    }
+    },
+    { "name": "Arcane Catalyst", "id": 822, "category": "Material" }
   ],
   "alt_recipes": []
 }
