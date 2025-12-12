@@ -228,6 +228,7 @@ function createDB(files: FileCollection): Database {
     let sources: Record<string, SourceDetails> = {};
     let sourceImageMap: Record<string, ImageRef> = {};
     let maxId = -1;
+    let itemNameToIdMap: Record<string, number> = {};
 
     files.sourceMetadata.forEach((sourceImages) => {
         sourceImages.images.forEach((i) => {
@@ -261,6 +262,8 @@ function createDB(files: FileCollection): Database {
                     }
                 });
             }
+            // overwrites duplicates. that's fine; it's only for fixing the catalog.
+            itemNameToIdMap[i.name] = i.id;
         });
         (itemData.alt_recipes || []).forEach((r) => {
             if (alt_recipes[r.name]) {
@@ -279,8 +282,9 @@ function createDB(files: FileCollection): Database {
                 return;
             }
             let itemSet: Record<string, boolean> = {};
-            c.items.forEach(([id, name]) => {
-                if (name) {
+            for (let i = 0; i < c.items.length; i++) {
+                let [id, name] = c.items[i];
+                if (name && id.length > 0) {
                     const dbItem = items[id];
                     if (!dbItem || dbItem.name !== name) {
                         console.error(
@@ -295,9 +299,19 @@ function createDB(files: FileCollection): Database {
                         );
                         return;
                     }
+                } else if (name && id.length == 0) {
+                    // name without id; fix the id.
+                    if (!itemNameToIdMap[name]) {
+                        console.error(
+                            'Catalog ' + c.name + ' has item ' + name + ' without id, but it does not exist.',
+                        );
+                        return;
+                    }
+                    id = itemNameToIdMap[name].toString();
+                    c.items[i] = [id, name];
                 }
                 itemSet[id] = true;
-            });
+            }
             catalogs[c.key] = { ...c, itemSet };
         });
     });

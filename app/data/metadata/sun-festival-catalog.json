@@ -5,7 +5,18 @@
       "name": "Sun Festival",
       "icon": { "local_path": "/catalog_sf.png" },
       "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
-      "items": []
+      "items": [
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["149", "Bonbon Koko"],
+        ["338", "Sunseeker Bread"],
+        ["248", "Koko Rice Pudding"],
+        ["727", "Solar Fishing Line"],
+        ["728", "Sunseeker Fishing Rod"]
+      ]
     }
   ]
 }

@@ -72,7 +72,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                     Export new items (one file)
                 </div>
                 <div className="settings-item" onClick={saveCatalogs}>
-                    Export catalogs
+                    Export catalogs (one file)
                 </div>
                 <div className="settings-item" onClick={loadFromLicenseCalc}>
                     Import data from License Calculator (recipes) (will overwrite)
