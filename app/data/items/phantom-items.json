@@ -15,7 +15,7 @@
       "name": "Blood Pearls",
       "id": 138,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
@@ -33,7 +33,7 @@
       "name": "Bloody Cookies",
       "id": 143,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
@@ -52,7 +52,7 @@
       "name": "Coco Cookies",
       "id": 165,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Cursedconut", "quantity": 1, "id": 166 },
@@ -96,7 +96,7 @@
       "name": "Ghostly Cookies",
       "id": 220,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
@@ -151,7 +151,7 @@
       "name": "Pumpkin Bread",
       "id": 308,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Pumpkin", "quantity": 2, "id": 238 },
@@ -182,7 +182,7 @@
       "name": "Pumpkin Cookies",
       "id": 309,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
@@ -201,7 +201,7 @@
       "name": "Sweet O'wisp",
       "id": 340,
       "category": "Consumables",
-      "license_amount": 1000,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Ectoplasm", "quantity": 1, "id": 142 },
@@ -219,7 +219,7 @@
       "name": "Hexed Boots",
       "id": 503,
       "category": "Gear",
-      "license_amount": 1500,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Hexed Linen", "quantity": 1, "id": 492 },
@@ -238,7 +238,7 @@
       "name": "Hexed Garb",
       "id": 504,
       "category": "Gear",
-      "license_amount": 1500,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Cursedconut", "quantity": 1, "id": 166 },
@@ -257,7 +257,7 @@
       "name": "Hexed Hat",
       "id": 505,
       "category": "Gear",
-      "license_amount": 1500,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Hexed Linen", "quantity": 1, "id": 492 },
@@ -276,7 +276,7 @@
       "name": "Hexed Mace",
       "id": 506,
       "category": "Gear",
-      "license_amount": 1500,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Cursedconut", "quantity": 1, "id": 166 },
@@ -350,7 +350,7 @@
       "name": "Cyclolipops Chill Grape",
       "id": 180,
       "category": "Consumables",
-      "license_amount": 900,
+      "license_amount": 450,
       "recipe": {
         "ingredient": [
           { "name": "Ectogems", "quantity": 1, "id": 181 },
@@ -435,7 +435,7 @@
       "name": "Pumpkin Pie",
       "id": 310,
       "category": "Consumables",
-      "license_amount": 900,
+      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Pumpkin", "quantity": 1, "id": 238 },
@@ -486,7 +486,7 @@
       "name": "Blood Scythe",
       "id": 411,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Bloodberry Slime", "quantity": 4, "id": 139 },
@@ -506,7 +506,7 @@
       "name": "Scythe",
       "id": 412,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Everwood", "quantity": 5, "id": 325 },
@@ -524,7 +524,7 @@
       "name": "Bloodslime Mask",
       "id": 413,
       "category": "Gear",
-      "license_amount": 500,
+      "license_amount": 200,
       "recipe": {
         "ingredient": [
           { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
@@ -538,7 +538,7 @@
       "name": "Bone Scythe",
       "id": 435,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Scythe", "quantity": 1, "id": 412 },
@@ -592,7 +592,7 @@
       "name": "Gravewarden Amulet",
       "id": 489,
       "category": "Gear",
-      "license_amount": 900,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
@@ -612,7 +612,7 @@
       "name": "Gravewarden Armor",
       "id": 490,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
@@ -634,7 +634,7 @@
       "name": "Gravewarden Gauntlets",
       "id": 491,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
@@ -655,7 +655,7 @@
       "name": "Gravewarden Greaves",
       "id": 493,
       "category": "Gear",
-      "license_amount": 900,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
@@ -676,7 +676,7 @@
       "name": "Gravewarden Scythe",
       "id": 494,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 3, "id": 268 },
@@ -697,7 +697,7 @@
       "name": "Gravewarden Shield",
       "id": 495,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
@@ -720,7 +720,7 @@
       "name": "Gravewarden Veil",
       "id": 496,
       "category": "Gear",
-      "license_amount": 950,
+      "license_amount": 400,
       "recipe": {
         "ingredient": [
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
@@ -761,7 +761,7 @@
       "name": "Mummy Mask",
       "id": 530,
       "category": "Gear",
-      "license_amount": 500,
+      "license_amount": 200,
       "recipe": {
         "ingredient": [
           { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
@@ -775,7 +775,7 @@
       "name": "Pumpkin Mask",
       "id": 543,
       "category": "Gear",
-      "license_amount": 500,
+      "license_amount": 200,
       "recipe": {
         "ingredient": [
           { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
@@ -807,7 +807,7 @@
       "name": "Skull Mask",
       "id": 565,
       "category": "Gear",
-      "license_amount": 500,
+      "license_amount": 200,
       "recipe": {
         "ingredient": [
           { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
