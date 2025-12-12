@@ -321,8 +321,6 @@ div.details-panel {
   max-height: calc(100lvh - 120px);
   overflow-x: auto;
   overflow-y: auto;
-  display: grid;
-  row-gap: 3px;
 }
 
 div.details-panel > .status-icons {
