@@ -118,8 +118,8 @@ export interface CatalogList {
 export enum CatalogType {
     FullCatalog = 'catalog',
     QuestCatalog = 'catalogSpec',
-    FloodedCatalog = 'floodEx',
     SunCatalog = 'sunFes',
+    FloodedCatalog = 'floodEx',
     PhantomCatalog = 'phantom',
     EvercoldCatalog = 'evercold',
 }
