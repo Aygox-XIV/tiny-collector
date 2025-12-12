@@ -28,14 +28,18 @@ export function importLicenseCalcSheet(csvData: string): Item[] {
 
     let rows = parseCsv(csvData);
 
-    let ingredientNames = rows[1];
+    let ingredientRow = 1;
+    while (rows[ingredientRow][1] == '') {
+        ingredientRow++;
+    }
+    let ingredientNames = rows[ingredientRow];
     for (let i = 8; i < ingredientNames.length; i++) {
         ingredientNames[i] = formatItemName(ingredientNames[i]);
     }
 
     let items: Item[] = [];
 
-    for (let r = 2; r < rows.length; r++) {
+    for (let r = ingredientRow + 1; r < rows.length; r++) {
         const row = rows[r];
         const name = formatItemName(row[0]);
         const category = parseCategory(row[1]);

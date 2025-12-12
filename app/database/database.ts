@@ -175,6 +175,8 @@ export interface Database {
     readonly catalogs: Record<CatalogType, CatalogDef>;
     // Keyed by synthetic source ID (type+name)
     readonly sources: Record<string, SourceDetails>;
+    // To support exporting only new items
+    readonly maxIdOnFirstLoad: number;
 }
 
 // Whether a single 'collected' state should be tracked instead of recipe+license
@@ -225,6 +227,7 @@ function createDB(files: FileCollection): Database {
     let alt_recipes: Record<string, AltRecipe> = {};
     let sources: Record<string, SourceDetails> = {};
     let sourceImageMap: Record<string, ImageRef> = {};
+    let maxId = -1;
 
     files.sourceMetadata.forEach((sourceImages) => {
         sourceImages.images.forEach((i) => {
@@ -240,6 +243,7 @@ function createDB(files: FileCollection): Database {
                 console.error('Duplicate item id: ' + i.id);
             }
             items[i.id] = i;
+            maxId = Math.max(maxId, i.id);
 
             if (i.source) {
                 i.source.forEach((s) => {
@@ -300,7 +304,7 @@ function createDB(files: FileCollection): Database {
 
     console.log('created db: ' + Object.keys(items).length + ' items');
 
-    return { items, alt_recipes, catalogs, sources };
+    return { items, alt_recipes, catalogs, sources, maxIdOnFirstLoad: maxId };
 }
 
 /** Hack to let dm-mgmt imports show updates to the checklist. Will not try to fix source images. */

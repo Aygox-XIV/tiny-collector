@@ -11,6 +11,7 @@
     { "name": "Cursedconut Leaves", "id": 190, "category": "Material" },
     { "name": "Tombstone Eye", "id": 321, "category": "Material" },
     { "name": "Spectral Fabric", "id": 638, "category": "Material" },
+    { "name": "Bloodslime Residus", "id": 738, "category": "Material" },
     {
       "name": "Blood Pearls",
       "id": 138,
@@ -1068,6 +1069,752 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
       ]
+    },
+    {
+      "name": "Darkbloom Tunic",
+      "id": 739,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 1, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    { "name": "Tombstone Fragment", "id": 740, "category": "Material" },
+    {
+      "name": "Darkbloom Robe",
+      "id": 741,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Hexed Linen", "quantity": 4, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    { "name": "Broken Scythe", "id": 742, "category": "Material" },
+    {
+      "name": "Darkbloom Anklet",
+      "id": 743,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    { "name": "Spectral Residus", "id": 744, "category": "Material" },
+    {
+      "name": "Darkbloom Necklace",
+      "id": 745,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Darkbloom Headband",
+      "id": 746,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 1, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Darkbloom Mask",
+      "id": 747,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Roots", "quantity": 2, "id": 748 },
+          { "name": "Hexed Linen", "quantity": 2, "id": 492 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    { "name": "Cursedconut Roots", "id": 748, "category": "Material" },
+    {
+      "name": "Cultist Tunic",
+      "id": 749,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Cultist Belt",
+      "id": 750,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 2, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Cultist Pants",
+      "id": 751,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 4, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Cultist Headpiece",
+      "id": 752,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Darkbloom Chakram",
+      "id": 753,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 4, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Darkbloom Kama",
+      "id": 754,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 4, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Darkbloom Sword",
+      "id": 755,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 4, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pumpkin Donut",
+      "id": 756,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Bloodberry Cheesecake",
+      "id": 757,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Cursedconut Cheesecake",
+      "id": 758,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 1, "id": 166 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pumpkin Cheesecake",
+      "id": 759,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Spectral Cheesecake",
+      "id": 760,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Bloodberry Flan",
+      "id": 761,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Spectral Flan",
+      "id": 762,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Pumpkin Soup",
+      "id": 763,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Pumpkin Flan",
+      "id": 764,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Monster Fizz Original",
+      "id": 765,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Bloodberry Ice Cream",
+      "id": 766,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 },
+          { "name": "Bloodslime Residus", "quantity": 4, "id": 738 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Spectral Choco Ice Cream",
+      "id": 767,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 4, "id": 161 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Cultist Brochures",
+      "id": 768,
+      "category": "Consumables",
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 5, "id": 136 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Blue Haze",
+      "id": 769,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Cursed Pumpkin Ice Cream",
+      "id": 770,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 4, "id": 166 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Pumpkin", "quantity": 4, "id": 238 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Spirit Smash",
+      "id": 771,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Cult Torch",
+      "id": 772,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Log", "quantity": 1, "id": 773 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Tombstone Fragment", "quantity": 1, "id": 740 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    { "name": "Cursedconut Log", "id": 773, "category": "Material" },
+    {
+      "name": "Headless Spring",
+      "id": 774,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bana Fruits", "quantity": 2, "id": 124 },
+          { "name": "Bloodberry Slime", "quantity": 2, "id": 139 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Spectral Noodles",
+      "id": 775,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Fresh Noodles", "quantity": 1, "id": 217 },
+          { "name": "Spectral Residus", "quantity": 1, "id": 744 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Spectral Bourguignon",
+      "id": 776,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Potatoes", "quantity": 2, "id": 113 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Spectral Pumpkin Soup",
+      "id": 777,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Spectral Pumpkin", "quantity": 1, "id": 322 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Spectral Quindim",
+      "id": 778,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Spectral Residus", "quantity": 1, "id": 744 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Ghostly Mary",
+      "id": 779,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Monster Fizz Bloodberry",
+      "id": 780,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Cursed Bana Ice Cream",
+      "id": 781,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bana Fruits", "quantity": 4, "id": 124 },
+          { "name": "Cursedconut", "quantity": 4, "id": 166 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Shadow Libre",
+      "id": 782,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Monster Fizz Pumpkin",
+      "id": 783,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Pumpkin", "quantity": 2, "id": 238 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Cult Barbecue",
+      "id": 784,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Essence of Undeath", "quantity": 2, "id": 268 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Grilling Tools",
+      "id": 785,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Log", "quantity": 1, "id": 773 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "Tombstone Fragment", "quantity": 1, "id": 740 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Blender",
+      "id": 786,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Databoard", "quantity": 1, "id": 529 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Mechanical Parts", "quantity": 1, "id": 527 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Cult Censer",
+      "id": 787,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Tombstone Blues",
+      "id": 788,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Monster Fizz Spectral",
+      "id": 789,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Monster Mucus",
+      "id": 790,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Bubbling Sunset",
+      "id": 791,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Pumpkin", "quantity": 2, "id": 238 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Black Bayou",
+      "id": 792,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Smash Fizz",
+      "id": 793,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 2, "id": 139 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Koko Loco",
+      "id": 794,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron Sword", "quantity": 2, "id": 392 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     }
   ]
 }

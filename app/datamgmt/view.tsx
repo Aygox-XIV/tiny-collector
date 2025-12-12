@@ -41,6 +41,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
         );
     }
     const saveItemData = () => saveFile(JSON.stringify(extractItemData(db)));
+    const saveNewItemData = () => saveFile(JSON.stringify(extractNewItemData(db)));
     const saveCatalogs = () => saveFile(JSON.stringify(extractCatalogList(db)));
     const loadFromLicenseCalc = () => {
         loadFile((f) => {
@@ -67,6 +68,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 <div className="settings-item" onClick={saveItemData}>
                     Export item data (one file)
                 </div>
+                <div className="settings-item" onClick={saveNewItemData}>
+                    Export new items (one file)
+                </div>
                 <div className="settings-item" onClick={saveCatalogs}>
                     Export catalogs
                 </div>
@@ -91,6 +95,16 @@ function extractItemData(db: Database): ItemData {
         alt_recipes.push(ar);
     }
     return { items, alt_recipes };
+}
+
+function extractNewItemData(db: Database): ItemData {
+    let items: Item[] = [];
+    for (const item of Object.values(db.items)) {
+        if (item.id > db.maxIdOnFirstLoad) {
+            items.push(item);
+        }
+    }
+    return { items };
 }
 
 function extractCatalogList(db: Database): CatalogList {
