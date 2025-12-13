@@ -561,8 +561,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
       ]
     },
     {
