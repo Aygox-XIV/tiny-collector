@@ -1,6 +1,7 @@
 import { loadFile, saveFile } from '../common/files';
 import {
     setDbItems,
+    setDbItemsAndCatalogs,
     useDatabase,
     type AltRecipe,
     type CatalogDef,
@@ -15,6 +16,7 @@ import {
 import type { Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
+import { importCatalogList } from './parserForJourneyList';
 import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
 
 const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
@@ -55,7 +57,16 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             appDispatch(setDbItems(integrateSources(db, sources)));
         }, CSV_FILES);
     };
-    // TODO: item to export source metadata with empty image defs so just the image links can be added without having to add the boilerplate manually
+    const loadItemsFromJourneysAndCatalog = () => {
+        loadFile((f) => {
+            const [items, catalog] = importCatalogList(f);
+            const itemDb = integrateItemsWithoutIds(db, items);
+            console.log('new itemdb has ' + Object.keys(itemDb).length + ' items');
+            const catalogs = fixCatalogIds(itemDb, [catalog]);
+            appDispatch(setDbItemsAndCatalogs([itemDb, catalogs]));
+        }, CSV_FILES);
+    };
+    // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     return (
         <div className="db-data-management center-content">
             <div className="db-mgmt-heading">
@@ -79,6 +90,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 </div>
                 <div className="settings-item" onClick={loadSourcesFromLicenseCalc}>
                     Import data from License Calculator (sources) (will overwrite, must have imported recipes first)
+                </div>
+                <div className="settings-item" onClick={loadItemsFromJourneysAndCatalog}>
+                    Import Item/catalog data from "Journey and catalog" (catalog tab)
                 </div>
             </div>
         </div>
@@ -115,12 +129,12 @@ function extractCatalogList(db: Database): CatalogList {
     return { catalogs: defs };
 }
 
-function buildExistingItemNameToId(db: Database): [Record<string, number>, number] {
+function buildExistingItemNameToId(items: ItemDB): [Record<string, number>, number] {
     let itemNameToId: Record<string, number> = {};
     let maxId = 99;
-    for (const idStr of Object.keys(db.items)) {
+    for (const idStr of Object.keys(items)) {
         const id = parseInt(idStr);
-        const name = db.items[id].name;
+        const name = items[id].name;
         if (KNOWN_DUPLICATE_ITEM_NAMES.has(name)) {
             // TODO: handle these somehow? Requiring these to be manual is probably fine for now.
             console.log('Ignoring existing items with duplicate names for now: ' + name);
@@ -136,7 +150,7 @@ function buildExistingItemNameToId(db: Database): [Record<string, number>, numbe
 }
 
 function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
-    let [itemNameToId, maxId] = buildExistingItemNameToId(db);
+    let [itemNameToId, maxId] = buildExistingItemNameToId(db.items);
 
     let combinedItemDb: ItemDB = {};
     for (const id of Object.keys(db.items)) {
@@ -200,8 +214,24 @@ function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
     return combinedItemDb;
 }
 
+function fixCatalogIds(items: ItemDB, catalogs: CatalogDef[]): Record<string, CatalogDef> {
+    let fixedCatalogs: Record<string, CatalogDef> = {};
+    let [itemNameToId] = buildExistingItemNameToId(items);
+    for (const newCatalog of catalogs) {
+        let fixedItems: [string, string?][] = [];
+        for (let [id, name] of newCatalog.items) {
+            if (id.length == 0) {
+                id = itemNameToId[name!!].toString();
+            }
+            fixedItems.push([id, name]);
+        }
+        fixedCatalogs[newCatalog.key] = { ...newCatalog, items: fixedItems };
+    }
+    return fixedCatalogs;
+}
+
 function integrateSources(db: Database, sources: Record<string, Source[]>): ItemDB {
-    let [itemNameToId] = buildExistingItemNameToId(db);
+    let [itemNameToId] = buildExistingItemNameToId(db.items);
 
     let updatedItemDb: ItemDB = {};
     for (const id of Object.keys(db.items)) {

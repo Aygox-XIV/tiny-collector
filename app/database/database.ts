@@ -206,10 +206,21 @@ export const dbSlice = createSlice({
             console.log('updating sources to have ' + Object.keys(newSources).length + ' entries.');
             state.sources = newSources;
         },
+        setDbItemsAndCatalogs: (state, action: PayloadAction<[ItemDB, Record<string, CatalogDef>]>) => {
+            console.log('setting item DB with ' + Object.keys(action.payload[0]).length + ' items');
+            state.items = action.payload[0];
+            const newSources = rebuildSourcesFromItemData(state);
+            console.log('updating sources to have ' + Object.keys(newSources).length + ' entries.');
+            state.sources = newSources;
+            for (const catType of Object.keys(action.payload[1])) {
+                console.log('overwriting catalog ' + catType);
+                state.catalogs[catType as CatalogType] = action.payload[1][catType as CatalogType];
+            }
+        },
     },
 });
 
-export const { setDbItems } = dbSlice.actions;
+export const { setDbItems, setDbItemsAndCatalogs } = dbSlice.actions;
 
 function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
@@ -240,7 +251,8 @@ function createDB(files: FileCollection): Database {
 
     files.itemFiles.forEach((itemData) => {
         itemData.items.forEach((i) => {
-            // TODO: support placeholder (negative?) ID so manual additions don't need to find the next available ID
+            // TODO: support placeholder (negative?) ID so manual additions don't need to find the next available ID?
+            // Or just use item count + 100 as next ID, which should also work
             if (items[i.id]) {
                 console.error('Duplicate item id: ' + i.id);
             }
