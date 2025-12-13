@@ -16,6 +16,7 @@ import {
 import type { Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
+import { importItemIconUrls } from './parserForFandomWiki';
 import { importCatalogList } from './parserForJourneyList';
 import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
 
@@ -66,6 +67,13 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             appDispatch(setDbItemsAndCatalogs([itemDb, catalogs]));
         }, CSV_FILES);
     };
+    const loadImageUrlsFromWikiTable = () => {
+        loadFile((f) => {
+            const images = importItemIconUrls(f);
+            const itemDb = integrateItemIcons(db, images);
+            appDispatch(setDbItems(itemDb));
+        });
+    };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     // requires things to not break on empty image defs
     return (
@@ -95,6 +103,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 </div>
                 <div className="settings-item" onClick={loadItemsFromJourneysAndCatalog}>
                     Import Item/catalog data from "Journey and catalog" (catalog tab)
+                </div>
+                <div className="settings-item" onClick={loadImageUrlsFromWikiTable}>
+                    Import item icons from wiki table
                 </div>
             </div>
         </div>
@@ -254,5 +265,29 @@ function integrateSources(db: Database, sources: Record<string, Source[]>): Item
 
         updatedItemDb[id] = { ...updatedItemDb[id], source: sources[name] };
     }
+    return updatedItemDb;
+}
+
+function integrateItemIcons(db: Database, icons: Record<string, string>): ItemDB {
+    let updatedItemDb: ItemDB = {};
+
+    let fixedItems = new Set();
+
+    for (const id of Object.keys(db.items)) {
+        const item = db.items[id];
+        if (icons[item.name]) {
+            updatedItemDb[id] = { ...item, image: { fandom_wiki_image_path: icons[item.name] } };
+            fixedItems.add(item.name);
+        } else {
+            updatedItemDb[id] = item;
+        }
+    }
+
+    for (const name of Object.keys(icons)) {
+        if (!fixedItems.has(name)) {
+            console.log('could not add available image for ' + name);
+        }
+    }
+
     return updatedItemDb;
 }
