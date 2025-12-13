@@ -8,7 +8,7 @@ export interface IconProp {
 
 export const Icon: React.FC<IconProp> = ({ src }) => {
     if (src) {
-        return <img className="item-icon" src={getImgSrc(src)} />;
+        return <img className="item-icon" src={getImgSrc(src)} loading="lazy" decoding="async" />;
     }
     return <BsQuestionSquare className="item-icon" />;
 };
