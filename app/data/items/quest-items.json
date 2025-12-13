@@ -10,6 +10,7 @@
     { "name": "Introduction to Bakeromancy", "id": 837, "category": "Quest" },
     { "name": "Mysterious Note", "id": 838, "category": "Quest" },
     { "name": "High Quality Moonfish", "id": 839, "category": "Quest" },
+    { "name": "Jelly's Special", "id": 1172, "category": "Quest" },
     { "name": "Gustave's Bourguignon", "id": 840, "category": "Quest" },
     { "name": "Clockwork Jelly", "id": 841, "category": "Quest" },
     { "name": "Intact Bakeromancy Pages", "id": 842, "category": "Quest" },
@@ -32,6 +33,11 @@
     { "name": "Sun Emblem", "id": 859, "category": "Quest" },
     { "name": "Wing Shaped Fragment", "id": 860, "category": "Quest" },
     { "name": "Strange Loaf", "id": 861, "category": "Quest" },
-    { "name": "Strange Looking Plants", "id": 862, "category": "Quest" }
+    { "name": "Strange Looking Plants", "id": 862, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1167, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1168, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1169, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1170, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1171, "category": "Quest" }
   ]
 }

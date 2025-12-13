@@ -67,6 +67,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
         }, CSV_FILES);
     };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
+    // requires things to not break on empty image defs
     return (
         <div className="db-data-management center-content">
             <div className="db-mgmt-heading">
@@ -86,10 +87,11 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                     Export catalogs (one file)
                 </div>
                 <div className="settings-item" onClick={loadFromLicenseCalc}>
-                    Import data from License Calculator (recipes) (will overwrite)
+                    Import data from License Calculator (recipes) (will overwrite) [to be deleted]
                 </div>
                 <div className="settings-item" onClick={loadSourcesFromLicenseCalc}>
-                    Import data from License Calculator (sources) (will overwrite, must have imported recipes first)
+                    Import data from License Calculator (sources) (will overwrite, must have imported recipes first) [to
+                    be deleted]
                 </div>
                 <div className="settings-item" onClick={loadItemsFromJourneysAndCatalog}>
                     Import Item/catalog data from "Journey and catalog" (catalog tab)
