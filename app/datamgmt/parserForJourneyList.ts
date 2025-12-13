@@ -2,8 +2,10 @@ import { CatalogType, type CatalogDef, type Category, type Item } from '../datab
 import { parseCsv } from './common';
 
 /** parses a csv dump in the format of the "Journey and catalog" sheet (catalog tab).
- * Returns Item[] with placeholder (-1) IDs, and the Quest catalog.
- * Non-quest items are not currently ordered in the required way. (they're corrcetly ordered by type, but not combined) */
+ * Returns Item[] with placeholder (-1) IDs, and the Quest catalog w/o IDs.
+ * Non-quest items are not currently ordered in the required way. (they're correctly ordered by type, but not combined)
+ * Skips items with a ? in the name since most are placeholders.
+ */
 export function importCatalogList(csvData: string): [Item[], CatalogDef] {
     /*
     row 1: headers
