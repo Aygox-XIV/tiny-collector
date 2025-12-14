@@ -147,7 +147,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "alt_recipes": [{ "name": "Evercold Oil+", "id": 1 }]
     },
     {
       "name": "Evercold Chocolate",
@@ -2180,6 +2181,18 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    }
+  ],
+  "alt_recipes": [
+    {
+      "name": "Evercold Oil+",
+      "id": 1,
+      "source": [{ "type": "Event Market", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true }],
+      "ingredient": [
+        { "name": "Evercold Crystals", "quantity": 15, "id": 202 },
+        { "name": "Standard Catalyst", "quantity": 30, "id": 111 }
+      ],
+      "craft_amount": 60
     }
   ]
 }

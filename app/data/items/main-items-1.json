@@ -59,7 +59,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "alt_recipes": [{ "name": "Superior Catalyst+", "id": 6 }]
     },
     {
       "name": "Arcane Arrows",
@@ -106,7 +107,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "alt_recipes": [{ "name": "Standard Catalyst+", "id": 4 }]
     },
     {
       "name": "Archipelago Chips",
@@ -260,7 +262,8 @@
       "category": "Consumables",
       "license_amount": 300,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 4, "id": 137 }], "craft_amount": 2 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "alt_recipes": [{ "name": "Blank Scroll Sheets+", "id": 2 }]
     },
     { "name": "Everspring Leaves", "id": 137, "category": "Material" },
     { "name": "Drakegull Egg", "id": 144, "category": "Material" },
@@ -1508,7 +1511,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "alt_recipes": [{ "name": "Improved Arcane Catalyst+", "id": 3 }]
     },
     {
       "name": "Stasis Powder",
@@ -2575,7 +2579,66 @@
           { "name": "Slime Extract", "quantity": 4, "id": 173 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [{ "type": "Combine", "kind": "recipe", "fragment": false, "name": "Enigquacktic Fragment", "id": 1183 }]
+    },
+    {
+      "name": "Enigquacktic Fragment",
+      "id": 1183,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "8/89/Enigquatic_fragment_2.png" },
+      "source": [
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Antique Crown", "id": 1184 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Antique Scepter", "id": 1185 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Benevolent Soulstone", "id": 1186 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Majestic Cape", "id": 1187 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Timeless Schematics", "id": 1188 }
+      ]
+    },
+    {
+      "name": "Antique Crown",
+      "id": 1184,
+      "category": "Quest",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" }]
+    },
+    {
+      "name": "Antique Scepter",
+      "id": 1185,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" }
+      ]
+    },
+    {
+      "name": "Benevolent Soulstone",
+      "id": 1186,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Gathering: Mineral Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Request: Apothecary" }
+      ]
+    },
+    {
+      "name": "Majestic Cape",
+      "id": 1187,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruined Farmstead" }
+      ]
+    },
+    {
+      "name": "Timeless Schematics",
+      "id": 1188,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Patrol: Seaside" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Request: Garden Duty" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" }
+      ]
     },
     { "name": "Rune Stone", "id": 455, "category": "Material" },
     {
@@ -4320,7 +4383,140 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
       ]
     },
-    { "name": "Arcane Catalyst", "id": 822, "category": "Material" }
+    { "name": "Arcane Catalyst", "id": 822, "category": "Material" },
+    {
+      "name": "Arcane Croissant",
+      "id": 964,
+      "category": "Consumables",
+      "license_amount": 1000,
+      "source": [{ "type": "Harvest", "name": "Arcane Croissant Tree" }]
+    },
+    {
+      "name": "Arcane Croissant Tree",
+      "id": 1178,
+      "category": "Plant",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" }
+      ]
+    },
+    {
+      "name": "Anniversary Cake",
+      "id": 1179,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 4, "id": 144 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }]
+    },
+    {
+      "name": "Anniversary Cake",
+      "id": 1180,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 4, "id": 144 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }]
+    },
+    {
+      "name": "Whole Birthday Cake",
+      "id": 1181,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1179 }],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+    },
+    {
+      "name": "Whole Birthday Cake",
+      "id": 1182,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1180 }],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+    }
   ],
-  "alt_recipes": []
+  "alt_recipes": [
+    {
+      "name": "Blank Scroll Sheets+",
+      "id": 2,
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
+      "ingredient": [{ "name": "Everspring Leaves", "quantity": 40, "id": 137 }],
+      "craft_amount": 40
+    },
+    {
+      "name": "Improved Arcane Catalyst+",
+      "id": 3,
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" }
+      ],
+      "ingredient": [
+        { "name": "Anthracite", "quantity": 50, "id": 235 },
+        { "name": "Condensed Arcane Aether", "quantity": 50, "id": 105 },
+        { "name": "Summergreen Leaves", "quantity": 50, "id": 129 },
+        { "name": "Superior Catalyst", "quantity": 35, "id": 106 }
+      ],
+      "craft_amount": 50
+    },
+    {
+      "name": "Standard Catalyst+",
+      "id": 4,
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" }
+      ],
+      "ingredient": [
+        { "name": "Blue Tower", "quantity": 35, "id": 120 },
+        { "name": "Puff Flower", "quantity": 35, "id": 257 },
+        { "name": "Spices", "quantity": 35, "id": 159 },
+        { "name": "Summer Glory", "quantity": 35, "id": 200 }
+      ],
+      "craft_amount": 50
+    },
+    {
+      "name": "Superior Catalyst+",
+      "id": 6,
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" }
+      ],
+      "ingredient": [
+        { "name": "Anthracite", "quantity": 35, "id": 235 },
+        { "name": "Standard Catalyst", "quantity": 35, "id": 111 },
+        { "name": "Summergreen Leaves", "quantity": 35, "id": 129 }
+      ],
+      "craft_amount": 50
+    }
+  ]
 }

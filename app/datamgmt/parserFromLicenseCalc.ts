@@ -143,14 +143,17 @@ export function importLicenseWikiSheet(csvData: string): Record<string, Source[]
 
         // Some items need special handling I don't want to have to include here. (just add them manually)
         if (name.match('[+]$')) {
+            // DONE. added manually.
             console.log('skipping +-recipe (complex): ' + name);
             continue;
         }
         if (name == 'Ducky Overlord') {
+            // DONE. added manually.
             console.log('Skipping Ducky Overlord (complex)');
             continue;
         }
         if (name == 'Arcane Croissant' || name == 'Anniversary Cake') {
+            // DONE. added manually.
             console.log('Skipping ' + name + ' (not in recipes)');
             continue;
         }

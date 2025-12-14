@@ -679,7 +679,8 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Sunseeker's Stems", "quantity": 4, "id": 670 }], "craft_amount": 2 },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
+      "alt_recipes": [{ "name": "Sun Linen+", "id": 5 }]
     },
     {
       "name": "Sunseeker Oil",
@@ -1366,6 +1367,15 @@
         "craft_amount": 2
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }]
+    }
+  ],
+  "alt_recipes": [
+    {
+      "name": "Sun Linen+",
+      "id": 5,
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Sun Festival" }],
+      "ingredient": [{ "name": "Sunseeker's Stems", "quantity": 40, "id": 670 }],
+      "craft_amount": 40
     }
   ]
 }
