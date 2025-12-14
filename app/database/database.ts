@@ -392,6 +392,7 @@ export function dropIsCollected(drop: DropDetail, item: CollectedItem) {
 export function getImgSrc(ref: ImageRef) {
     if (ref.fandom_wiki_image_path) {
         return 'https://static.wikia.nocookie.net/tiny-shop/images/' + ref.fandom_wiki_image_path;
+        // TODO: add /revision/latest/scale-to-width-down/<width> suffix?
     }
     if (ref.full_url) {
         if (!ref.full_url.startsWith('data:') && !ref.full_url.startsWith('https://')) {
