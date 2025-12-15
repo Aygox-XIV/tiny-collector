@@ -69,7 +69,7 @@ export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' |
 
 export interface IdentifiableEntity {
     readonly name: string;
-    // Real data starts at 100. (for manual additions: add 100 to the current item count for the next id)
+    // Real data starts at 100.
     readonly id: number;
     readonly image?: ImageRef;
     readonly source?: Source[];
@@ -319,6 +319,7 @@ function createDB(files: FileCollection): Database {
     });
 
     console.log('created db: ' + Object.keys(items).length + ' items');
+    console.log(maxId + 1 + ' is the next available id');
 
     return { items, catalogs, sources, maxIdOnFirstLoad: maxId };
 }
@@ -375,8 +376,10 @@ export function dropIsCollected(drop: DropDetail, item: CollectedItem) {
             // I don't want to track collected fragment counts; having all fragments is considered equivalent to having the combined recipe.
             return item.status.haveRecipe;
         case 'unlock':
-            // This is primarily (only?) for plants
-            return item.status.collected;
+            // This is for plants being available in Lily's shop, and items being available in outpost shops or exchanges.
+            // It's a bit awkward for plants, but for now just consider the unlock done as soon as the item is marked as collected (plants, materials)
+            // or licensed (gear, etc).
+            return item.status.collected || item.status.licensed;
     }
 }
 

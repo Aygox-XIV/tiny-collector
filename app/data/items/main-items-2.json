@@ -1,9 +1,6 @@
 {
   "items": [
     { "name": "Condensed Time", "id": 863, "category": "Material" },
-    { "name": "Blush Flower Petals", "id": 864, "category": "Material" },
-    { "name": "Monster Horns", "id": 865, "category": "Material" },
-    { "name": "Datablets", "id": 866, "category": "Material" },
     {
       "name": "Half-digested Adventurer Bag",
       "id": 867,
@@ -41,25 +38,40 @@
       "name": "Empty Bottle",
       "id": 875,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
+      ]
     },
-    { "name": "Aethero Insulation Empty Bottle", "id": 876, "category": "Material" },
-    { "name": "Trading Scrip", "id": 877, "category": "Material" },
-    { "name": "Coastal Scrip", "id": 878, "category": "Material" },
-    { "name": "Naturalist Scrip", "id": 879, "category": "Material" },
-    { "name": "Archipelago Botanical Copendum I", "id": 880, "category": "Material" },
-    { "name": "Archipelago Botanical Copendum II", "id": 881, "category": "Material" },
-    { "name": "Archipelago Botanical Copendum III", "id": 882, "category": "Material" },
+    {
+      "name": "Trading Scrip",
+      "id": 877,
+      "category": "Material",
+      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Trading" }]
+    },
+    {
+      "name": "Coastal Scrip",
+      "id": 878,
+      "category": "Material",
+      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Coastal" }]
+    },
+    {
+      "name": "Naturalist Scrip",
+      "id": 879,
+      "category": "Material",
+      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Naturalist" }]
+    },
     {
       "name": "Ancient Text",
       "id": 883,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Archeology" }
+      ],
       "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_ancient_text_basic.png" }
     },
-    { "name": "Ancient HIstory Records", "id": 884, "category": "Material" },
-    { "name": "Figure: Bloodslime", "id": 885, "category": "Material" },
-    { "name": "Cryptozoology Treatrise", "id": 886, "category": "Material" },
     {
       "name": "Partially Translated Book",
       "id": 887,
@@ -83,9 +95,16 @@
       "name": "Runestone Fragments",
       "id": 890,
       "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "0/01/Itm_material_runestone_fragments.png" }
     },
-    { "name": "Mnemonic Crystal", "id": 891, "category": "Material", "image": { "fandom_wiki_image_path": "4/43/Itm_material_ancient_crystal.png" } },
+    {
+      "name": "Mnemonic Crystal",
+      "id": 891,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "4/43/Itm_material_ancient_crystal.png" }
+    },
     {
       "name": "Ancient Alloy",
       "id": 892,
@@ -93,8 +112,20 @@
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_alloy.png" }
     },
-    { "name": "Golden Coin", "id": 893, "category": "Material", "image": { "fandom_wiki_image_path": "c/cc/Itm_material_ancient_gold_coin.png" } },
-    { "name": "Silver Coin", "id": 894, "category": "Material", "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_silver_coin.png" } },
+    {
+      "name": "Golden Coin",
+      "id": 893,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "c/cc/Itm_material_ancient_gold_coin.png" }
+    },
+    {
+      "name": "Silver Coin",
+      "id": 894,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_silver_coin.png" }
+    },
     {
       "name": "Crabantula Web",
       "id": 895,
@@ -102,18 +133,10 @@
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
     },
-    { "name": "Mages & Monsters 3,5 Edition Rulebook", "id": 897, "category": "Material" },
-    { "name": "M&M Module 1: The Arcane Tower", "id": 898, "category": "Material" },
-    { "name": "Figurine: Will O'Wisp", "id": 899, "category": "Material" },
     { "name": "Tombstone Fragments", "id": 900, "category": "Material", "image": { "fandom_wiki_image_path": "f/f7/Tombstone_Fragments.png" } },
-    { "name": "Cursedconut Leave", "id": 901, "category": "Material" },
     { "name": "Slime Covered Bone", "id": 902, "category": "Material", "image": { "fandom_wiki_image_path": "4/4d/Itm_material_slime_bone.png" } },
     { "name": "Tattered Hat", "id": 903, "category": "Material" },
-    { "name": "Figurine: Mimking", "id": 904, "category": "Material" },
-    { "name": "Figurine: Mimqueen", "id": 905, "category": "Material" },
-    { "name": "M&M Module: The Winged Terror", "id": 906, "category": "Material" },
-    { "name": "Solar Fishing Lines", "id": 907, "category": "Material" },
-    { "name": "Piezeroite (presumably)", "id": 908, "category": "Material" },
+    { "name": "Piezeroite [presumably]", "id": 908, "category": "Material" },
     {
       "name": "Figurine: Barrel Mimic",
       "id": 909,
@@ -205,22 +228,14 @@
     { "name": "Faded Xp Boost", "id": 944, "category": "Consumables" },
     { "name": "Faded Faster Selling", "id": 945, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/78/Faded_Faster_Selling.png" } },
     { "name": "Faded Income Boost", "id": 946, "category": "Consumables", "image": { "fandom_wiki_image_path": "c/ce/Faded_Income_Boost.png" } },
-    { "name": "Corroding Posion", "id": 947, "category": "Consumables" },
-    { "name": "Moonlight Sushis", "id": 948, "category": "Consumables", "image": { "fandom_wiki_image_path": "a/af/Moonlight_Sushis.png" } },
-    { "name": "Noodle Soop", "id": 949, "category": "Consumables" },
-    { "name": "Veggie Noodles", "id": 950, "category": "Consumables" },
     { "name": "Bourguignon", "id": 951, "category": "Consumables" },
     { "name": "Vegan Bourguignon", "id": 952, "category": "Consumables" },
-    { "name": "Sweet O'Wisp", "id": 953, "category": "Consumables" },
-    { "name": "Chocoloate Croissant", "id": 954, "category": "Consumables" },
-    { "name": "Barksin Potion", "id": 955, "category": "Consumables" },
-    { "name": "Constrcting Poison", "id": 956, "category": "Consumables" },
-    { "name": "Kraken on a Stick", "id": 957, "category": "Consumables" },
-    { "name": "Antique Map", "id": 958, "category": "Consumables" },
-    { "name": "Pumkin Pie", "id": 959, "category": "Consumables" },
-    { "name": "M&M Character Sheets", "id": 960, "category": "Consumables" },
-    { "name": "Moonfush Burger", "id": 961, "category": "Consumables" },
-    { "name": "Tatare Moonfish salad", "id": 962, "category": "Consumables" },
+    {
+      "name": "Antique Map",
+      "id": 958,
+      "category": "Consumables",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }]
+    },
     { "name": "Summon Theo - 3 days", "id": 963, "category": "Consumables" },
     { "name": "Kraken Paella", "id": 965, "category": "Consumables" },
     { "name": "Avocado Maki", "id": 966, "category": "Consumables" },
@@ -251,7 +266,7 @@
     { "name": "Rusting Poison", "id": 991, "category": "Consumables" },
     { "name": "Silencing Poison", "id": 992, "category": "Consumables" },
     { "name": "Crab Stock", "id": 993, "category": "Consumables" },
-    { "name": "Porion of Flowing Thoughts", "id": 994, "category": "Consumables" },
+    { "name": "Potion of Flowing Thoughts", "id": 994, "category": "Consumables" },
     { "name": "Potion of Serenity", "id": 995, "category": "Consumables" },
     { "name": "Crab Cakes", "id": 996, "category": "Consumables" },
     { "name": "Hot Sauce", "id": 997, "category": "Consumables" },
@@ -274,7 +289,7 @@
     { "name": "Arcane Flan", "id": 1014, "category": "Consumables" },
     { "name": "Lemon Flan", "id": 1015, "category": "Consumables" },
     { "name": "Pumkin Soup", "id": 1016, "category": "Consumables" },
-    { "name": "Pumkin Flan", "id": 1017, "category": "Consumables" },
+    { "name": "Pumpkin Flan", "id": 1017, "category": "Consumables" },
     { "name": "Fire Flan", "id": 1018, "category": "Consumables" },
     { "name": "Fire Cheesecake", "id": 1019, "category": "Consumables" },
     { "name": "Fiery Brioche", "id": 1020, "category": "Consumables" },
@@ -373,31 +388,7 @@
       "category": "Consumables",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
     },
-    { "name": "Tombstones Blues", "id": 1096, "category": "Consumables" },
-    { "name": "Spectral Bourguinon", "id": 1097, "category": "Consumables" },
-    { "name": "Spectral Noodle", "id": 1098, "category": "Consumables" },
-    { "name": "Traveling Boots", "id": 1099, "category": "Gear" },
     { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
-    { "name": "Paire of Fire Daggers", "id": 1101, "category": "Gear" },
-    { "name": "Paire of Arcane Daggers", "id": 1102, "category": "Gear" },
-    { "name": "Weaving Glare", "id": 1103, "category": "Gear" },
-    { "name": "Hexed Mage", "id": 1104, "category": "Gear" },
-    { "name": "Naturalist Bag", "id": 1105, "category": "Gear" },
-    { "name": "Coralline Dagger", "id": 1106, "category": "Gear" },
-    { "name": "Arcane Armot", "id": 1107, "category": "Gear" },
-    { "name": "Fire Gauntlets", "id": 1108, "category": "Gear" },
-    { "name": "Arcange Gauntlets", "id": 1109, "category": "Gear" },
-    { "name": "Arcange Greaves", "id": 1110, "category": "Gear" },
-    { "name": "Inksophist Grimoire", "id": 1111, "category": "Gear" },
-    { "name": "Elder Snowbinber Coat", "id": 1112, "category": "Gear" },
-    { "name": "Elder Snowbinber Cape", "id": 1113, "category": "Gear" },
-    { "name": "Wavy Hat", "id": 1114, "category": "Gear" },
-    { "name": "Pelagos Sunlgasses", "id": 1115, "category": "Gear" },
-    { "name": "Seastne Greaves", "id": 1116, "category": "Gear" },
-    { "name": "Everold Greaves", "id": 1117, "category": "Gear" },
-    { "name": "Evercold Helmet", "id": 1118, "category": "Gear" },
-    { "name": "Frostbeard badge", "id": 1119, "category": "Gear" },
-    { "name": "Blue Whoolsworn Hat", "id": 1120, "category": "Gear" },
     { "name": "Coastguard Captain Armor", "id": 1121, "category": "Gear" },
     { "name": "Coastguard Captain Boots", "id": 1122, "category": "Gear" },
     { "name": "Coastguard Captain Kilt", "id": 1123, "category": "Gear" },
@@ -413,7 +404,7 @@
     { "name": "Hydrologist Hat", "id": 1133, "category": "Gear" },
     { "name": "Hydrologist Shoes", "id": 1134, "category": "Gear" },
     { "name": "Hydrologist Staff", "id": 1135, "category": "Gear" },
-    { "name": "Inksophist Brush", "id": 1136, "category": "Gear" },
+    { "name": "Inkosophist Brush", "id": 1136, "category": "Gear" },
     { "name": "Coastguard Spear", "id": 1137, "category": "Gear" },
     { "name": "Emerald Shield", "id": 1138, "category": "Gear" },
     { "name": "Seastone Shield", "id": 1139, "category": "Gear" },
@@ -431,7 +422,6 @@
     { "name": "Kneadfield Aegis", "id": 1151, "category": "Gear", "image": { "fandom_wiki_image_path": "b/b2/Itm_gear_croissant_shield.png" } },
     { "name": "Croissword", "id": 1152, "category": "Gear", "image": { "fandom_wiki_image_path": "2/2c/Itm_gear_croissant_sword.png" } },
     { "name": "Kneadfield Mantle", "id": 1153, "category": "Gear", "image": { "fandom_wiki_image_path": "a/a5/Itm_gear_croissant_cape.png" } },
-    { "name": "Cutist Tunic", "id": 1154, "category": "Gear" },
     { "name": "Yellow Bandana", "id": 1155, "category": "Gear" },
     { "name": "Yellow Swimwear", "id": 1156, "category": "Gear" },
     { "name": "Yellow Pareo", "id": 1157, "category": "Gear" },

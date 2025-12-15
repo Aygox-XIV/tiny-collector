@@ -191,7 +191,7 @@ export function importLicenseWikiSheet(csvData: string): Record<string, Source[]
                             kind: 'recipe',
                             fragment: false,
                             subtype: undefined,
-                            name: 'Botanist Bundle',
+                            name: 'Botanist Set',
                         },
                         {
                             type: SourceType.MissionReward,
@@ -217,7 +217,7 @@ export function importLicenseWikiSheet(csvData: string): Record<string, Source[]
                             kind: 'recipe',
                             fragment: false,
                             subtype: undefined,
-                            name: 'Botanist Bundle',
+                            name: 'Botanist Set',
                         },
                         {
                             type: SourceType.MissionReward,
@@ -235,7 +235,7 @@ export function importLicenseWikiSheet(csvData: string): Record<string, Source[]
                             kind: 'recipe',
                             fragment: false,
                             subtype: undefined,
-                            name: 'Starter Bundle',
+                            name: 'Trading Guild Pack',
                         },
                         {
                             type: SourceType.MissionReward,

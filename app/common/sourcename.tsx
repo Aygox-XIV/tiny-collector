@@ -86,7 +86,7 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
                 source.name === 'Archeology' ||
                 source.name === 'Naturalist' ||
                 source.name === 'Coastal' ||
-                source.name === 'Trader'
+                source.name === 'Trading'
             ) {
                 return <div>Complete tasks from any outpost with a {source.name} occupation</div>;
             }
