@@ -1810,7 +1810,7 @@
       "license_amount": 650,
       "recipe": {
         "ingredient": [
-          { "name": "Iron Sword", "quantity": 2, "id": 392 },
+          { "name": "Koko", "quantity": 2, "id": 150 },
           { "name": "Sunsugar", "quantity": 2, "id": 122 }
         ],
         "craft_amount": 4
