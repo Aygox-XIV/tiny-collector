@@ -185,7 +185,7 @@ export function isCollectable(item: Item) {
         case 'Consumables':
         case 'Gear':
         case 'Material':
-            return !item.license_amount;
+            return !item.license_amount && !item.recipe;
         case 'Plant':
             // TODO: figure out how to represent now-this-can-be-bought-from-Lily?
             return false;

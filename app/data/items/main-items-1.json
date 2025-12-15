@@ -153,7 +153,12 @@
       "recipe": { "ingredient": [{ "name": "Potatoes", "quantity": 4, "id": 113 }], "craft_amount": 4 },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
     },
-    { "name": "Potatoes", "id": 113, "category": "Material" },
+    {
+      "name": "Potatoes",
+      "id": 113,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     {
       "name": "Archipelago Fries",
       "id": 114,
@@ -172,7 +177,12 @@
       ]
     },
     { "name": "Kraken Grease", "id": 115, "category": "Material" },
-    { "name": "Rice", "id": 118, "category": "Material" },
+    {
+      "name": "Rice",
+      "id": 118,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     {
       "name": "Archipelatea",
       "id": 119,
@@ -190,16 +200,21 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     { "name": "Blue Tower", "id": 120, "category": "Material" },
-    { "name": "Fresh Milk", "id": 121, "category": "Material" },
+    {
+      "name": "Fresh Milk",
+      "id": 121,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     {
       "name": "Sunsugar",
       "id": 122,
       "category": "Material",
-      "license_amount": 25306,
       "recipe": { "ingredient": [{ "name": "Sunsugar Cane", "quantity": 6, "id": 671 }], "craft_amount": 3 },
       "source": [
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Handful of Seeds - Part 2/2" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Gathering: Expedition Supplies" },
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }
       ]
     },
     {
@@ -315,7 +330,12 @@
       ]
     },
     { "name": "Everspring Leaves", "id": 137, "category": "Material" },
-    { "name": "Drakegull Egg", "id": 144, "category": "Material" },
+    {
+      "name": "Drakegull Egg",
+      "id": 144,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     {
       "name": "Bowstring",
       "id": 151,
@@ -339,7 +359,12 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
-    { "name": "Coast Lemons", "id": 153, "category": "Material" },
+    {
+      "name": "Coast Lemons",
+      "id": 153,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     { "name": "Snow Lilies", "id": 154, "category": "Material" },
     {
       "name": "Brioche",
@@ -469,7 +494,12 @@
       },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }]
     },
-    { "name": "Drakegull Meat", "id": 177, "category": "Material" },
+    {
+      "name": "Drakegull Meat",
+      "id": 177,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     { "name": "Sumac Spice", "id": 178, "category": "Material" },
     {
       "name": "Cuter Brioche",
@@ -684,7 +714,12 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
     },
-    { "name": "Moonfish Filet", "id": 216, "category": "Material" },
+    {
+      "name": "Moonfish Filet",
+      "id": 216,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+    },
     {
       "name": "Fresh Noodles",
       "id": 217,
