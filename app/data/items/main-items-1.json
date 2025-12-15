@@ -235,7 +235,11 @@
       "name": "Fresh Milk",
       "id": 121,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+      ],
       "image": { "fandom_wiki_image_path": "3/34/Fresh_Milk.png" }
     },
     {
@@ -246,7 +250,9 @@
       "source": [
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Handful of Seeds - Part 2/2" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Gathering: Expedition Supplies" },
-        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
       ],
       "image": { "fandom_wiki_image_path": "6/60/Sunsugar.png" }
     },
@@ -469,7 +475,16 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
       "image": { "fandom_wiki_image_path": "a/a8/Minor_Health_Potion.png" }
     },
-    { "name": "Spices", "id": 159, "category": "Material", "image": { "fandom_wiki_image_path": "9/94/Spices.png" } },
+    {
+      "name": "Spices",
+      "id": 159,
+      "category": "Material",
+      "sources": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
+    },
     {
       "name": "Constricting Poison",
       "id": 167,
@@ -718,7 +733,6 @@
       "name": "Summer Glory",
       "id": 200,
       "category": "Material",
-
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Summer Glory" }],
       "image": { "fandom_wiki_image_path": "e/eb/Summer_Glory.png" }
     },
@@ -4469,11 +4483,13 @@
       "name": "Cinderwheat",
       "id": 1209,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "3/30/Cinderwheat_%28Seed%29.png" },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" }
       ]
     },
     {
@@ -4871,54 +4887,63 @@
       "name": "Blue Tower",
       "id": 1189,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "4/46/Blue_Tower_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Summer Glory",
       "id": 1190,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "9/93/Summer_Glory_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Puff Flower",
       "id": 1191,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "1/17/Puff_Flower_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Sunsugar Cane",
       "id": 1192,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "4/41/Sunsugar_Cane_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Wheat",
       "id": 1193,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "6/6e/Wheat_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Everspring",
       "id": 1194,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "9/9e/Everspring_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Rice",
       "id": 1195,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "1/1e/Rice_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "Potatoes",
       "id": 1196,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "3/38/Potatoes_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {
       "name": "White Megashroom",
       "id": 1197,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "e/ea/White_Megashroom_%28Seed%29.png" },
       "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
     },
     {

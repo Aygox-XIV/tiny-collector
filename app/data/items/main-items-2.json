@@ -13,7 +13,12 @@
     { "name": "Depleted Aether Charge", "id": 868, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Depleted_Aether_Charge.png" } },
     { "name": "Void Stone", "id": 869, "category": "Material", "image": { "fandom_wiki_image_path": "c/c2/Void_Stone.png" } },
     { "name": "Ashen Wheat", "id": 870, "category": "Material", "image": { "fandom_wiki_image_path": "a/a3/Ashen_Wheat.png" } },
-    { "name": "Ashen Wheat", "id": 1208, "category": "Plant" },
+    {
+      "name": "Ashen Wheat",
+      "id": 1208,
+      "category": "Plant",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" }]
+    },
     {
       "name": "Arcanite Toothfish Skull",
       "id": 871,
@@ -108,6 +113,7 @@
     { "name": "Crabantula Silk", "id": 922, "category": "Material" },
     { "name": "Ashen Flour", "id": 923, "category": "Material" },
     { "name": "Coffee Berries", "id": 924, "category": "Material", "image": { "fandom_wiki_image_path": "f/f8/Coffee_Berries.png" } },
+    { "name": "Coffee", "id": 1217, "category": "Plant", "image": { "fandom_wiki_image_path": "6/67/Coffee_%28Seed%29.png" } },
     { "name": "Time Stalk", "id": 925, "category": "Material" },
     { "name": "Potted Aetheric Flowers", "id": 926, "category": "Material" },
     { "name": "Potted Violetines", "id": 927, "category": "Material" },

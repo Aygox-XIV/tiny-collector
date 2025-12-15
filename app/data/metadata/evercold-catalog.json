@@ -151,7 +151,25 @@
         ["825", "Green Woolsworn Scarf"],
         ["826", "Pink Woolsworn Scarf"],
         ["827", "Red Woolsworn Scarf"],
-        ["828", "White Woolsworn Scarf"]
+        ["828", "White Woolsworn Scarf"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["-1"],
+        ["1199", "Dwarf Cocoa Seed"],
+        ["1206", "Strange Seed"],
+        ["1207", "Even Stranger Seed"],
+        ["1210", "Winter Emblem"],
+        ["1211", "Skin: Deepwinter Sprite"],
+        ["1212", "Skin: Deepwinter Spirit"],
+        ["1213", "Cosmetic: Deepwniter Youngling"],
+        ["1214", "Cosmetic: Spirit Mask"],
+        ["1215", "Cosmetic: Warm Mug"],
+        ["1216", "Skin: Deepwinter Jelly"]
       ]
     }
   ]

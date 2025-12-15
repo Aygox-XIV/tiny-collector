@@ -1892,6 +1892,7 @@
       "name": "Pumpkin",
       "id": 1198,
       "category": "Plant",
+      "image": { "fandom_wiki_image_path": "c/c9/Pumpkin_%28Seed%29.png" },
       "source": [{ "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" }]
     }
   ]

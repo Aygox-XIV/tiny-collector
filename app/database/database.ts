@@ -69,8 +69,7 @@ export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' |
 
 export interface IdentifiableEntity {
     readonly name: string;
-    // maintained/enforced by conversion scripts
-    // Real data starts at 100
+    // Real data starts at 100. (for manual additions: add 100 to the current item count for the next id)
     readonly id: number;
     readonly image?: ImageRef;
     readonly source?: Source[];

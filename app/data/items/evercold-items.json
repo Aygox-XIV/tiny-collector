@@ -11,20 +11,70 @@
       "name": "Enchanted Gingerbread Dough",
       "id": 196,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 20, "id": 125 },
+          { "name": "Sunsugar", "quantity": 20, "id": 122 },
+          { "name": "Drakegull Egg", "quantity": 20, "id": 144 },
+          { "name": "Spices", "quantity": 20, "id": 159 }
+        ],
+        "craft_amount": 20
+      },
+      "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Strange Seed" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
+      ],
       "image": { "fandom_wiki_image_path": "b/b8/Enchanted_Gingerbread_Dough.png" }
     },
-    { "name": "Evercold Crystals", "id": 202, "category": "Material", "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" } },
+    {
+      "name": "Evercold Crystals",
+      "id": 202,
+      "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 60, "id": 110 },
+          { "name": "Improved Arcane Catalyst", "quantity": 2, "id": 327 }
+        ],
+        "craft_amount": 30
+      },
+      "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Strange Seed" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" }
+    },
     {
       "name": "Enchanted Yarn",
       "id": 372,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Jute", "quantity": 60, "id": 444 },
+          { "name": "Improved Arcane Catalyst", "quantity": 2, "id": 327 }
+        ],
+        "craft_amount": 30
+      },
       "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Strange Seed" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
-        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" }
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
       ],
       "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" }
     },
-    { "name": "Frozen Documents", "id": 823, "category": "Material" },
+    {
+      "name": "Frozen Documents",
+      "id": 823,
+      "category": "Material",
+      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }]
+    },
     {
       "name": "Chocolate",
       "id": 161,
@@ -33,7 +83,8 @@
       "recipe": { "ingredient": [{ "name": "Cocoa", "quantity": 4, "id": 624 }], "craft_amount": 4 },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
       ],
       "image": { "fandom_wiki_image_path": "d/df/Chocolate.png" }
     },
@@ -101,7 +152,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/41/Chocolate_Ice_Cream.png" }
     },
     {
       "name": "Dark Chocolate",
@@ -924,7 +976,7 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "??? [unknown]" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "??? [unknown, need reports]" },
         { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
       ]
     },
@@ -1153,7 +1205,7 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Evercold Crystals", "quantity": 10, "id": 202 }], "craft_amount": 1 },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Scultpor" }],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Sculptor" }],
       "image": { "fandom_wiki_image_path": "8/83/Itm_mat_figurine_sculptor.png" }
     },
     {
@@ -1171,8 +1223,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ],
-      "image": { "fandom_wiki_image_path": "4/41/Chocolate_Ice_Cream.png" }
+      ]
     },
     {
       "name": "Evercold Ice Cream",
@@ -1766,7 +1817,7 @@
       "name": "Shiny Jelly Winter Gloves",
       "id": 363,
       "category": "Gear",
-      "license_amount": 10,
+      "license_amount": 35,
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "c/c2/Shiny_Jelly_Winter_Gloves.png" }
     },
@@ -1774,7 +1825,7 @@
       "name": "Shiny Jelly Winter Hat",
       "id": 364,
       "category": "Gear",
-      "license_amount": 10,
+      "license_amount": 35,
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "b/b0/Shiny_Jelly_Winter_Hat.png" }
     },
@@ -1782,7 +1833,7 @@
       "name": "Shiny Jelly Winter Pull",
       "id": 365,
       "category": "Gear",
-      "license_amount": 10,
+      "license_amount": 35,
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "1/16/Shiny_Jelly_Winter_Pull.png" }
     },
@@ -1790,7 +1841,7 @@
       "name": "Shiny Jelly Winter Scarf",
       "id": 366,
       "category": "Gear",
-      "license_amount": 10,
+      "license_amount": 35,
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "2/20/Shiny_Jelly_Winter_Scarf.png" }
     },
@@ -1806,7 +1857,8 @@
           { "name": "Slime Extract", "quantity": 1, "id": 173 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "Final Chest" }]
     },
     {
       "name": "Chocolate Brioche",
@@ -1821,7 +1873,8 @@
           { "name": "Wheat Flour", "quantity": 2, "id": 125 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }]
     },
     {
       "name": "Chocolate Crunch",
@@ -1835,7 +1888,11 @@
           { "name": "Wheat Flour", "quantity": 2, "id": 125 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" }
+      ]
     },
     {
       "name": "Chocolate Donut",
@@ -1850,7 +1907,11 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" }
+      ]
     },
     {
       "name": "Chocolate Fondant",
@@ -1865,7 +1926,11 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" }
+      ]
     },
     {
       "name": "Chocolate Head",
@@ -1880,7 +1945,11 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" }
+      ]
     },
     {
       "name": "Chocolate Quindim",
@@ -1894,7 +1963,11 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" }
+      ]
     },
     {
       "name": "Deepfrost Oil",
@@ -1908,7 +1981,10 @@
           { "name": "Superior Catalyst", "quantity": 2, "id": 106 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
+      ]
     },
     {
       "name": "Evercold Bandage",
@@ -1921,7 +1997,10 @@
           { "name": "Evercold Oil", "quantity": 1, "id": 203 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
+      ]
     },
     {
       "name": "Evercold Brioche",
@@ -1936,7 +2015,8 @@
           { "name": "Wheat Flour", "quantity": 2, "id": 125 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Evercold Cheesecake",
@@ -1951,7 +2031,12 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" }
+      ]
     },
     {
       "name": "Evercold Croissant",
@@ -1965,7 +2050,10 @@
           { "name": "Wheat Flour", "quantity": 8, "id": 125 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
+      ]
     },
     {
       "name": "Evercold Cupcake",
@@ -1979,7 +2067,10 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" }
+      ]
     },
     {
       "name": "Evercold Donut",
@@ -1994,7 +2085,8 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Evercold Flan",
@@ -2009,7 +2101,10 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" }
+      ]
     },
     {
       "name": "Evercold Quindim",
@@ -2023,7 +2118,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "North Rune Cake",
@@ -2038,7 +2134,8 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }]
     },
     {
       "name": "Aetheric Compass",
@@ -2052,7 +2149,8 @@
           { "name": "Rough Emerald", "quantity": 1, "id": 439 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Deepwinter Amulet",
@@ -2066,7 +2164,8 @@
           { "name": "Iron", "quantity": 2, "id": 157 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Deepwinter Fan",
@@ -2080,7 +2179,8 @@
           { "name": "Everwood", "quantity": 1, "id": 325 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Mechcrabby",
@@ -2094,7 +2194,8 @@
           { "name": "Mechanical Parts", "quantity": 2, "id": 527 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "Final Chest" }]
     },
     {
       "name": "Pathfinder Belt",
@@ -2108,7 +2209,8 @@
           { "name": "Leather", "quantity": 2, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pathfinder Boots",
@@ -2122,7 +2224,8 @@
           { "name": "Leather", "quantity": 4, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pathfinder Gloves",
@@ -2136,7 +2239,8 @@
           { "name": "Leather", "quantity": 4, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pathfinder Hat",
@@ -2150,7 +2254,8 @@
           { "name": "Monster Scales", "quantity": 2, "id": 171 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pathfinder Trousers",
@@ -2164,7 +2269,8 @@
           { "name": "Leather", "quantity": 4, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pathfinder Tunic",
@@ -2178,7 +2284,8 @@
           { "name": "Leather", "quantity": 4, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Blue Woolsworn Scarf",
@@ -2269,17 +2376,76 @@
       "name": "Dwarf Cocoa Seed",
       "id": 1199,
       "category": "Plant",
-      "source": [{ "type": "City", "subtype": "Shop", "kind": "item", "fragment": true, "name": "Lily's Garden" }]
+      "image": { "fandom_wiki_image_path": "d/de/Dwarf_Cocoa_Seed_%28Seed%29.png" },
+      "source": [
+        { "type": "City", "subtype": "Shop", "kind": "item", "fragment": true, "name": "Lily's Garden" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
+      ]
     },
     {
       "name": "Strange Seed",
       "id": 1206,
-      "category": "Plant"
+      "category": "Plant",
+      "image": { "fandom_wiki_image_path": "4/49/Strange_Seed_%28Seed%29.png" },
+      "source": [
+        { "type": "Event Market", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" }
+      ]
     },
     {
       "name": "Even Stranger Seed",
       "id": 1207,
-      "category": "Plant"
+      "category": "Plant",
+      "image": { "fandom_wiki_image_path": "9/93/Even_Stranger_Seed_%28Seed%29.png" },
+      "source": [
+        { "type": "Event Market", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Crystals Formations" }
+      ]
+    },
+    {
+      "name": "Winter Emblem",
+      "id": 1210,
+      "category": "Material",
+      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }]
+    },
+    {
+      "name": "Skin: Deepwinter Sprite",
+      "id": 1211,
+      "category": "Cosmetic",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+    },
+    {
+      "name": "Skin: Deepwinter Spirit",
+      "id": 1212,
+      "category": "Cosmetic",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+    },
+    {
+      "name": "Cosmetic: Deepwniter Youngling",
+      "id": 1213,
+      "category": "Cosmetic",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+    },
+    {
+      "name": "Cosmetic: Spirit Mask",
+      "id": 1214,
+      "category": "Cosmetic",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+    },
+    {
+      "name": "Cosmetic: Warm Mug",
+      "id": 1215,
+      "category": "Cosmetic",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+    },
+    {
+      "name": "Skin: Deepwinter Jelly",
+      "id": 1216,
+      "category": "Cosmetic",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
     }
   ]
 }
