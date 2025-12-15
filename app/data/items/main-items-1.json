@@ -60,7 +60,24 @@
         "craft_amount": 3
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
-      "alt_recipes": [{ "name": "Superior Catalyst+", "id": 6 }]
+      "alt_recipes": [
+        {
+          "name": "Superior Catalyst+",
+          "id": 1,
+          "source": [
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" }
+          ],
+          "ingredient": [
+            { "name": "Anthracite", "quantity": 35, "id": 235 },
+            { "name": "Standard Catalyst", "quantity": 35, "id": 111 },
+            { "name": "Summergreen Leaves", "quantity": 35, "id": 129 }
+          ],
+          "craft_amount": 50
+        }
+      ]
     },
     {
       "name": "Arcane Arrows",
@@ -108,7 +125,25 @@
         "craft_amount": 3
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
-      "alt_recipes": [{ "name": "Standard Catalyst+", "id": 4 }]
+      "alt_recipes": [
+        {
+          "name": "Standard Catalyst+",
+          "id": 1,
+          "source": [
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" }
+          ],
+          "ingredient": [
+            { "name": "Blue Tower", "quantity": 35, "id": 120 },
+            { "name": "Puff Flower", "quantity": 35, "id": 257 },
+            { "name": "Spices", "quantity": 35, "id": 159 },
+            { "name": "Summer Glory", "quantity": 35, "id": 200 }
+          ],
+          "craft_amount": 50
+        }
+      ]
     },
     {
       "name": "Archipelago Chips",
@@ -263,7 +298,21 @@
       "license_amount": 300,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 4, "id": 137 }], "craft_amount": 2 },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
-      "alt_recipes": [{ "name": "Blank Scroll Sheets+", "id": 2 }]
+      "alt_recipes": [
+        {
+          "name": "Blank Scroll Sheets+",
+          "id": 1,
+          "source": [
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Meadow" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+            { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+          ],
+          "ingredient": [{ "name": "Everspring Leaves", "quantity": 40, "id": 137 }],
+          "craft_amount": 40
+        }
+      ]
     },
     { "name": "Everspring Leaves", "id": 137, "category": "Material" },
     { "name": "Drakegull Egg", "id": 144, "category": "Material" },
@@ -1512,7 +1561,25 @@
         "craft_amount": 2
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
-      "alt_recipes": [{ "name": "Improved Arcane Catalyst+", "id": 3 }]
+      "alt_recipes": [
+        {
+          "name": "Improved Arcane Catalyst+",
+          "id": 1,
+          "source": [
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Meadow" },
+            { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" }
+          ],
+          "ingredient": [
+            { "name": "Anthracite", "quantity": 50, "id": 235 },
+            { "name": "Condensed Arcane Aether", "quantity": 50, "id": 105 },
+            { "name": "Summergreen Leaves", "quantity": 50, "id": 129 },
+            { "name": "Superior Catalyst", "quantity": 35, "id": 106 }
+          ],
+          "craft_amount": 50
+        }
+      ]
     },
     {
       "name": "Stasis Powder",
@@ -4452,71 +4519,6 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
-    }
-  ],
-  "alt_recipes": [
-    {
-      "name": "Blank Scroll Sheets+",
-      "id": 2,
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Meadow" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ],
-      "ingredient": [{ "name": "Everspring Leaves", "quantity": 40, "id": 137 }],
-      "craft_amount": 40
-    },
-    {
-      "name": "Improved Arcane Catalyst+",
-      "id": 3,
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Meadow" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" }
-      ],
-      "ingredient": [
-        { "name": "Anthracite", "quantity": 50, "id": 235 },
-        { "name": "Condensed Arcane Aether", "quantity": 50, "id": 105 },
-        { "name": "Summergreen Leaves", "quantity": 50, "id": 129 },
-        { "name": "Superior Catalyst", "quantity": 35, "id": 106 }
-      ],
-      "craft_amount": 50
-    },
-    {
-      "name": "Standard Catalyst+",
-      "id": 4,
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" }
-      ],
-      "ingredient": [
-        { "name": "Blue Tower", "quantity": 35, "id": 120 },
-        { "name": "Puff Flower", "quantity": 35, "id": 257 },
-        { "name": "Spices", "quantity": 35, "id": 159 },
-        { "name": "Summer Glory", "quantity": 35, "id": 200 }
-      ],
-      "craft_amount": 50
-    },
-    {
-      "name": "Superior Catalyst+",
-      "id": 6,
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" }
-      ],
-      "ingredient": [
-        { "name": "Anthracite", "quantity": 35, "id": 235 },
-        { "name": "Standard Catalyst", "quantity": 35, "id": 111 },
-        { "name": "Summergreen Leaves", "quantity": 35, "id": 129 }
-      ],
-      "craft_amount": 50
     }
   ]
 }

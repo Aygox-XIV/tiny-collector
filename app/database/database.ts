@@ -87,7 +87,6 @@ export interface ImageRef {
 
 export interface ItemData {
     readonly items: Item[];
-    readonly alt_recipes?: AltRecipe[];
 }
 
 export interface Item extends IdentifiableEntity {
@@ -170,8 +169,6 @@ export interface DropDetail {
 export interface Database {
     // Keyed by id
     readonly items: ItemDB;
-    // Keyed by name
-    readonly alt_recipes: Record<string, AltRecipe>;
     readonly catalogs: Record<CatalogType, CatalogDef>;
     // Keyed by synthetic source ID (type+name)
     readonly sources: Record<string, SourceDetails>;
@@ -235,7 +232,6 @@ export function useDatabase(): Database {
 
 function createDB(files: FileCollection): Database {
     let items: ItemDB = {};
-    let alt_recipes: Record<string, AltRecipe> = {};
     let sources: Record<string, SourceDetails> = {};
     let sourceImageMap: Record<string, ImageRef> = {};
     let maxId = -1;
@@ -277,13 +273,6 @@ function createDB(files: FileCollection): Database {
             }
             // overwrites duplicates. that's fine; it's only for fixing the catalog.
             itemNameToIdMap[i.name] = i.id;
-        });
-        (itemData.alt_recipes || []).forEach((r) => {
-            if (alt_recipes[r.name]) {
-                console.error('Duplicate Alt Recipe name ' + r.name);
-                return;
-            }
-            alt_recipes[r.name] = r;
         });
     });
 
@@ -332,7 +321,7 @@ function createDB(files: FileCollection): Database {
 
     console.log('created db: ' + Object.keys(items).length + ' items');
 
-    return { items, alt_recipes, catalogs, sources, maxIdOnFirstLoad: maxId };
+    return { items, catalogs, sources, maxIdOnFirstLoad: maxId };
 }
 
 /** Hack to let dm-mgmt imports show updates to the checklist. Will not try to fix source images. */
