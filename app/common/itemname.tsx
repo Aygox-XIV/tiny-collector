@@ -1,4 +1,5 @@
 import { FaSeedling } from 'react-icons/fa';
+import { GiCarnivalMask } from 'react-icons/gi';
 import type { Item } from '../database/database';
 
 export interface ItemNameProps {
@@ -10,6 +11,7 @@ export const ItemName: React.FC<ItemNameProps> = ({ item }) => {
         <div className="item-name">
             {item.name}
             {item.category == 'Plant' && <FaSeedling />}
+            {item.category == 'Cosmetic' && <GiCarnivalMask />}
         </div>
     );
 };

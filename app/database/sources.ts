@@ -1,5 +1,7 @@
+export type DropKind = 'item' | 'recipe' | 'unlock';
+
 interface UnknownSource {
-    readonly kind: 'item' | 'recipe';
+    readonly kind: DropKind;
     readonly fragment: boolean;
     readonly type: SourceType;
     readonly subtype?: string;

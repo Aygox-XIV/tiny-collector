@@ -1,8 +1,10 @@
+import { CiUnlock } from 'react-icons/ci';
 import { LuScrollText } from 'react-icons/lu';
 import { TbMoneybag } from 'react-icons/tb';
+import type { DropKind } from '../database/sources';
 
 export interface KindIconProps {
-    readonly kind: 'item' | 'recipe';
+    readonly kind: DropKind;
     readonly tooltipId?: string;
 }
 export const KindIcon: React.FC<KindIconProps> = ({ kind, tooltipId }) => {
@@ -13,6 +15,9 @@ export const KindIcon: React.FC<KindIconProps> = ({ kind, tooltipId }) => {
             break;
         case 'recipe':
             IconChoice = LuScrollText;
+            break;
+        case 'unlock':
+            IconChoice = CiUnlock;
             break;
     }
     return (

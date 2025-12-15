@@ -2,6 +2,7 @@ import { BiQuestionMark } from 'react-icons/bi';
 import { BsExclamationCircle, BsHouse } from 'react-icons/bs';
 import { FaSeedling } from 'react-icons/fa';
 import { FaShield } from 'react-icons/fa6';
+import { GiCarnivalMask } from 'react-icons/gi';
 import { TbFlask2Filled } from 'react-icons/tb';
 import { VscRuby } from 'react-icons/vsc';
 import { Toggle } from '../common/toggle';
@@ -25,7 +26,15 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
     // TODO: update allowed categories dynamically based on actual items in the category
     // (or just have the data processor do that?)
     // TODO: make the item category selector work like the other tabs.
-    let allowedCategories: Set<Category> = new Set(['Material', 'Gear', 'Consumables', 'Decor', 'Quest', 'Plant']);
+    let allowedCategories: Set<Category> = new Set([
+        'Material',
+        'Gear',
+        'Consumables',
+        'Decor',
+        'Quest',
+        'Plant',
+        'Cosmetic',
+    ]);
     if (filter.catalogView && db.catalogs[filter.catalogView].categories) {
         allowedCategories = new Set(db.catalogs[filter.catalogView].categories);
     }
@@ -57,6 +66,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                         {allowedCategories.has('Decor') && <CategorySelectionIcon category="Decor" />}
                         {allowedCategories.has('Plant') && <CategorySelectionIcon category="Plant" />}
                         {allowedCategories.has('Quest') && <CategorySelectionIcon category="Quest" />}
+                        {allowedCategories.has('Cosmetic') && <CategorySelectionIcon category="Cosmetic" />}
                     </div>
                 </div>
             )}
@@ -126,6 +136,9 @@ const CategorySelectionIcon: React.FC<CatSelectionProps> = ({ category }) => {
             break;
         case 'Quest':
             IconType = BsExclamationCircle;
+            break;
+        case 'Cosmetic':
+            IconType = GiCarnivalMask;
             break;
     }
 

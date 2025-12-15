@@ -21,7 +21,7 @@ import sampleCatalogs from '../data/samples/sample-catalogs.json';
 import sampleItems from '../data/samples/sample-data.json';
 import sampleMetadata from '../data/samples/sample-source-images.json';
 import type { RootState } from '../store';
-import type { Source, SourceType } from './sources';
+import type { DropKind, Source, SourceType } from './sources';
 
 /// raw data
 
@@ -65,7 +65,7 @@ export const REAL_FILES: FileCollection = {
     ],
 };
 
-export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' | 'Plant';
+export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' | 'Plant' | 'Cosmetic';
 
 export interface IdentifiableEntity {
     readonly name: string;
@@ -163,7 +163,7 @@ export interface SourceDetails {
 export interface DropDetail {
     readonly itemId: string;
     readonly fragment: boolean;
-    readonly kind: 'item' | 'recipe';
+    readonly kind: DropKind;
 }
 
 export interface Database {
@@ -182,6 +182,7 @@ export function isCollectable(item: Item) {
         case 'Decor':
         case 'Quest':
         case 'Plant':
+        case 'Cosmetic':
             return true;
         case 'Consumables':
         case 'Gear':
@@ -374,6 +375,9 @@ export function dropIsCollected(drop: DropDetail, item: CollectedItem) {
             // Recipe drops are only 'done' once the recipe is available.
             // I don't want to track collected fragment counts; having all fragments is considered equivalent to having the combined recipe.
             return item.status.haveRecipe;
+        case 'unlock':
+            // This is primarily (only?) for plants
+            return item.status.collected;
     }
 }
 
