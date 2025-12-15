@@ -14,7 +14,16 @@
       "image": { "fandom_wiki_image_path": "b/b8/Enchanted_Gingerbread_Dough.png" }
     },
     { "name": "Evercold Crystals", "id": 202, "category": "Material", "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" } },
-    { "name": "Enchanted Yarn", "id": 372, "category": "Material", "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" } },
+    {
+      "name": "Enchanted Yarn",
+      "id": 372,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" }
+    },
     { "name": "Frozen Documents", "id": 823, "category": "Material" },
     {
       "name": "Chocolate",
@@ -880,7 +889,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "5/5e/Evercold_Dagger.png" }
     },
     {
@@ -1119,7 +1128,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
       "image": { "fandom_wiki_image_path": "1/1b/Itm_mat_figurine_mimiking.png" }
     },
     {
@@ -1135,7 +1144,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "0/06/Itm_mat_figurine_mimiqueen.png" }
     },
     {
@@ -1194,7 +1203,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Blue Woolsworn Coat",
@@ -1208,7 +1217,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Blue Woolsworn Hat",
@@ -1222,7 +1231,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Chillmane Badge",
@@ -1407,7 +1416,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pink Woolsworn Coat",
@@ -1421,7 +1430,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Pink Woolsworn Hat",
@@ -1435,7 +1444,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Red Woolsworn Boots",
@@ -1675,7 +1684,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Elder Snowbinder Coat",
@@ -1690,7 +1699,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Elder Snowbinder Gloves",
@@ -1705,7 +1714,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
     },
     {
       "name": "Elder Snowbinder Scarf",
@@ -1719,7 +1728,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "8/88/Elder_Snowbinder_Scarf.png" }
     },
     {
@@ -1735,7 +1744,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "2/22/Pair_of_Evercold_Daggers.png" }
     },
     {
@@ -1751,14 +1760,14 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
     },
     {
       "name": "Shiny Jelly Winter Gloves",
       "id": 363,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "c/c2/Shiny_Jelly_Winter_Gloves.png" }
     },
     {
@@ -1766,7 +1775,7 @@
       "id": 364,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "b/b0/Shiny_Jelly_Winter_Hat.png" }
     },
     {
@@ -1774,7 +1783,7 @@
       "id": 365,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "1/16/Shiny_Jelly_Winter_Pull.png" }
     },
     {
@@ -1782,7 +1791,7 @@
       "id": 366,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" }],
       "image": { "fandom_wiki_image_path": "2/20/Shiny_Jelly_Winter_Scarf.png" }
     },
     {
@@ -2255,6 +2264,22 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+    },
+    {
+      "name": "Dwarf Cocoa Seed",
+      "id": 1199,
+      "category": "Plant",
+      "source": [{ "type": "City", "subtype": "Shop", "kind": "item", "fragment": true, "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Strange Seed",
+      "id": 1206,
+      "category": "Plant"
+    },
+    {
+      "name": "Even Stranger Seed",
+      "id": 1207,
+      "category": "Plant"
     }
   ]
 }

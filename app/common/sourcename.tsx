@@ -57,6 +57,7 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
                 </div>
             );
         case SourceType.Harvest:
+            // TODO: link to plant item
             return <div>{source.name}</div>;
         case SourceType.Journey:
             return <div>{source.name}</div>;

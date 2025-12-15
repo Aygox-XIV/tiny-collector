@@ -1,15 +1,63 @@
 {
   "items": [
-    { "name": "Tinder Powder", "id": 147, "category": "Material" },
-    { "name": "Koko", "id": 150, "category": "Material" },
-    { "name": "Koko Water", "id": 243, "category": "Material" },
-    { "name": "Koko Coir", "id": 402, "category": "Material" },
-    { "name": "Sunseeker Seeds", "id": 339, "category": "Material" },
-    { "name": "Sunseeker's Stems", "id": 670, "category": "Material" },
-    { "name": "Violetines", "id": 673, "category": "Material", "image": { "fandom_wiki_image_path": "3/3c/Itm_material_violetine.png" } },
-    { "name": "Silverblooms", "id": 676, "category": "Material", "image": { "fandom_wiki_image_path": "b/b5/Itm_material_silverbloom.png" } },
-    { "name": "Redchidaes", "id": 667, "category": "Material", "image": { "fandom_wiki_image_path": "9/96/Itm_material_redchidae.png" } },
-    { "name": "Sunseekers", "id": 335, "category": "Material" },
+    {
+      "name": "Tinder Powder",
+      "id": 147,
+      "category": "Material",
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Alchemists Guild" }]
+    },
+    { "name": "Koko", "id": 150, "category": "Material", "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }] },
+    {
+      "name": "Koko Water",
+      "id": 243,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }]
+    },
+    {
+      "name": "Koko Coir",
+      "id": 402,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }]
+    },
+    {
+      "name": "Sunseekers",
+      "id": 335,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }]
+    },
+    {
+      "name": "Sunseeker Seeds",
+      "id": 339,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }]
+    },
+    {
+      "name": "Sunseeker's Stems",
+      "id": 670,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }]
+    },
+    {
+      "name": "Violetines",
+      "id": 673,
+      "category": "Material",
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "image": { "fandom_wiki_image_path": "3/3c/Itm_material_violetine.png" }
+    },
+    {
+      "name": "Silverblooms",
+      "id": 676,
+      "category": "Material",
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "image": { "fandom_wiki_image_path": "b/b5/Itm_material_silverbloom.png" }
+    },
+    {
+      "name": "Redchidaes",
+      "id": 667,
+      "category": "Material",
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "image": { "fandom_wiki_image_path": "9/96/Itm_material_redchidae.png" }
+    },
     {
       "name": "Archipelago Rice",
       "id": 116,
@@ -1393,6 +1441,18 @@
         "craft_amount": 2
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }]
+    },
+    {
+      "name": "Sunseekers",
+      "id": 1202,
+      "category": "Plant",
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }]
+    },
+    {
+      "name": "Koko Tree",
+      "id": 1203,
+      "category": "Plant",
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }]
     }
   ]
 }

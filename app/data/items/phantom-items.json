@@ -1590,6 +1590,40 @@
       }
     },
     {
+      "name": "Spectral Pumpkin",
+      "id": 322,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectogems", "quantity": 1, "id": 181 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/05/Spectral_Pumpkin.png" }
+    },
+    {
+      "name": "Spectral Pumpkin Pie",
+      "id": 323,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Spectral Pumpkin", "quantity": 1, "id": 322 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }]
+    },
+    {
       "name": "Spectral Pumpkin Soup",
       "id": 777,
       "category": "Consumables",
@@ -1853,6 +1887,12 @@
         ],
         "craft_amount": 4
       }
+    },
+    {
+      "name": "Pumpkin",
+      "id": 1198,
+      "category": "Plant",
+      "source": [{ "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" }]
     }
   ]
 }

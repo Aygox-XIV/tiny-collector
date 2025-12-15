@@ -118,7 +118,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
       "image": { "fandom_wiki_image_path": "8/80/Arcane_Extract.png" }
     },
-    { "name": "Purified Water", "id": 110, "category": "Material", "image": { "fandom_wiki_image_path": "3/30/Purified_Water.png" } },
+    {
+      "name": "Purified Water",
+      "id": 110,
+      "category": "Material",
+      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "image": { "fandom_wiki_image_path": "3/30/Purified_Water.png" }
+    },
     {
       "name": "Standard Catalyst",
       "id": 111,
@@ -167,7 +173,10 @@
       "name": "Potatoes",
       "id": 113,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Potatoes" }
+      ],
       "image": { "fandom_wiki_image_path": "4/42/Potatoes.png" }
     },
     {
@@ -192,7 +201,10 @@
       "name": "Rice",
       "id": 118,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Rice" }
+      ],
       "image": { "fandom_wiki_image_path": "d/da/Rice.png" }
     },
     {
@@ -212,7 +224,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
       "image": { "fandom_wiki_image_path": "6/64/Archipelatea.png" }
     },
-    { "name": "Blue Tower", "id": 120, "category": "Material", "image": { "fandom_wiki_image_path": "8/8a/Blue_Tower.png" } },
+    {
+      "name": "Blue Tower",
+      "id": 120,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Blue Tower" }],
+      "image": { "fandom_wiki_image_path": "8/8a/Blue_Tower.png" }
+    },
     {
       "name": "Fresh Milk",
       "id": 121,
@@ -351,7 +369,13 @@
       ],
       "image": { "fandom_wiki_image_path": "4/40/Blank_Scroll_Sheets.png" }
     },
-    { "name": "Everspring Leaves", "id": 137, "category": "Material", "image": { "fandom_wiki_image_path": "c/ce/Everspring_Leaves.png" } },
+    {
+      "name": "Everspring Leaves",
+      "id": 137,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Everspring" }],
+      "image": { "fandom_wiki_image_path": "c/ce/Everspring_Leaves.png" }
+    },
     {
       "name": "Drakegull Egg",
       "id": 144,
@@ -423,7 +447,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
       "image": { "fandom_wiki_image_path": "3/32/Cherry_Delight.png" }
     },
-    { "name": "Iron", "id": 157, "category": "Material", "image": { "fandom_wiki_image_path": "4/45/Iron.png" } },
+    {
+      "name": "Iron",
+      "id": 157,
+      "category": "Material",
+      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
+    },
     {
       "name": "Minor Health Potion",
       "id": 158,
@@ -495,7 +525,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
       "image": { "fandom_wiki_image_path": "1/1f/Corroding_Poison.png" }
     },
-    { "name": "Monster Scales", "id": 171, "category": "Material", "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" } },
+    {
+      "name": "Monster Scales",
+      "id": 171,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" }],
+      "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" }
+    },
     {
       "name": "Oil",
       "id": 172,
@@ -511,7 +547,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
       "image": { "fandom_wiki_image_path": "0/06/Oil.png" }
     },
-    { "name": "Slime Extract", "id": 173, "category": "Material", "image": { "fandom_wiki_image_path": "a/a6/Slime_Extract.png" } },
+    {
+      "name": "Slime Extract",
+      "id": 173,
+      "category": "Material",
+      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "image": { "fandom_wiki_image_path": "a/a6/Slime_Extract.png" }
+    },
     {
       "name": "Croissant",
       "id": 174,
@@ -524,8 +566,22 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }],
+      "source": [
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Croissant Tree" }
+      ],
       "image": { "fandom_wiki_image_path": "a/a0/Croissant.png" }
+    },
+    {
+      "name": "Croissant Tree",
+      "id": 141,
+      "category": "Plant",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
+      ]
     },
     {
       "name": "Drakegull Meat",
@@ -658,7 +714,14 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Summer Glory", "id": 200, "category": "Material", "image": { "fandom_wiki_image_path": "e/eb/Summer_Glory.png" } },
+    {
+      "name": "Summer Glory",
+      "id": 200,
+      "category": "Material",
+
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Summer Glory" }],
+      "image": { "fandom_wiki_image_path": "e/eb/Summer_Glory.png" }
+    },
     {
       "name": "Fire Arrows",
       "id": 209,
@@ -905,7 +968,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
       "image": { "fandom_wiki_image_path": "8/89/Improved_Smoke_Bomb.png" }
     },
-    { "name": "Anthracite", "id": 235, "category": "Material", "image": { "fandom_wiki_image_path": "f/ff/Anthracite.png" } },
+    {
+      "name": "Anthracite",
+      "id": 235,
+      "category": "Material",
+      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "image": { "fandom_wiki_image_path": "f/ff/Anthracite.png" }
+    },
     {
       "name": "Smoke Bomb",
       "id": 236,
@@ -938,7 +1007,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
       "image": { "fandom_wiki_image_path": "1/12/Jelly%27s_Special.png" }
     },
-    { "name": "Mushrooms Portion", "id": 240, "category": "Material", "image": { "fandom_wiki_image_path": "c/c6/Mushrooms_Portion.png" } },
+    {
+      "name": "Mushrooms Portion",
+      "id": 240,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "White Megashroom" }],
+      "image": { "fandom_wiki_image_path": "c/c6/Mushrooms_Portion.png" }
+    },
     {
       "name": "Karjalanpiirakka",
       "id": 241,
@@ -1047,7 +1122,13 @@
       ],
       "image": { "fandom_wiki_image_path": "5/5f/Large_Elixir.png" }
     },
-    { "name": "Puff Flower", "id": 257, "category": "Material", "image": { "fandom_wiki_image_path": "1/1c/Puff_Flower.png" } },
+    {
+      "name": "Puff Flower",
+      "id": 257,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Puff Flower" }],
+      "image": { "fandom_wiki_image_path": "1/1c/Puff_Flower.png" }
+    },
     {
       "name": "Large Endurance Potion",
       "id": 258,
@@ -1612,37 +1693,6 @@
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 6/6" }]
     },
     {
-      "name": "Spectral Pumpkin",
-      "id": 322,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ectogems", "quantity": 1, "id": 181 },
-          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
-          { "name": "Pumpkin", "quantity": 1, "id": 238 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }],
-      "image": { "fandom_wiki_image_path": "0/05/Spectral_Pumpkin.png" }
-    },
-    {
-      "name": "Spectral Pumpkin Pie",
-      "id": 323,
-      "category": "Consumables",
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Spectral Pumpkin", "quantity": 1, "id": 322 },
-          { "name": "Sunsugar", "quantity": 2, "id": 122 },
-          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
-        ],
-        "craft_amount": 1
-      },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }]
-    },
-    {
       "name": "Standard Arrows",
       "id": 324,
       "category": "Consumables",
@@ -1651,7 +1701,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
       "image": { "fandom_wiki_image_path": "8/8d/Standard_Arrows.png" }
     },
-    { "name": "Everwood", "id": 325, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Everwood.png" } },
+    {
+      "name": "Everwood",
+      "id": 325,
+      "category": "Material",
+      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "image": { "fandom_wiki_image_path": "0/00/Everwood.png" }
+    },
     {
       "name": "Stasis Potion",
       "id": 326,
@@ -2020,7 +2076,13 @@
       ],
       "image": { "fandom_wiki_image_path": "c/c1/Adventure_Map.png" }
     },
-    { "name": "Leather", "id": 369, "category": "Material", "image": { "fandom_wiki_image_path": "3/3d/Leather.png" } },
+    {
+      "name": "Leather",
+      "id": 369,
+      "category": "Material",
+      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "image": { "fandom_wiki_image_path": "3/3d/Leather.png" }
+    },
     {
       "name": "Arcane Armor",
       "id": 373,
@@ -2508,11 +2570,25 @@
       },
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
       ]
     },
-    { "name": "Monster Bones", "id": 422, "category": "Material", "image": { "fandom_wiki_image_path": "f/f7/Itm_material_monster_bones.png" } },
-    { "name": "Sinew", "id": 423, "category": "Material" },
+    {
+      "name": "Monster Bones",
+      "id": 422,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" }],
+      "image": { "fandom_wiki_image_path": "f/f7/Itm_material_monster_bones.png" }
+    },
+    {
+      "name": "Sinew",
+      "id": 423,
+      "category": "Material",
+      "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" }
+      ]
+    },
     {
       "name": "Bone Dagger",
       "id": 424,
@@ -2551,7 +2627,7 @@
       },
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
       ]
     },
     {
@@ -2584,7 +2660,7 @@
       },
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
       ]
     },
     {
@@ -2602,7 +2678,7 @@
       },
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
       ]
     },
     {
@@ -2655,7 +2731,7 @@
       },
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
       ]
     },
     {
@@ -2673,7 +2749,7 @@
       },
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
       ]
     },
     {
@@ -3583,7 +3659,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Dreadfangs Band" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Jackals" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Steelsnappers" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt Coral Crabs" }
+        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Coral Crabs" }
       ],
       "image": { "fandom_wiki_image_path": "0/09/Pair_of_Bone_Daggers.png" }
     },
@@ -4382,7 +4458,24 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Cinder Wheat", "id": 625, "category": "Material", "image": { "fandom_wiki_image_path": "5/5a/Cinder_Wheat.png" } },
+    {
+      "name": "Cinder Wheat",
+      "id": 625,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Cinderwheat" }],
+      "image": { "fandom_wiki_image_path": "5/5a/Cinder_Wheat.png" }
+    },
+    {
+      "name": "Cinderwheat",
+      "id": 1209,
+      "category": "Plant",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
+      ]
+    },
     {
       "name": "Cryptozoology Treatise",
       "id": 627,
@@ -4639,8 +4732,20 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Sunsugar Cane", "id": 671, "category": "Material", "image": { "fandom_wiki_image_path": "2/2e/Sunsugar_Cane.png" } },
-    { "name": "Wheat", "id": 674, "category": "Material", "image": { "fandom_wiki_image_path": "e/e2/Wheat.png" } },
+    {
+      "name": "Sunsugar Cane",
+      "id": 671,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunsugar Cane" }],
+      "image": { "fandom_wiki_image_path": "2/2e/Sunsugar_Cane.png" }
+    },
+    {
+      "name": "Wheat",
+      "id": 674,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Wheat" }],
+      "image": { "fandom_wiki_image_path": "e/e2/Wheat.png" }
+    },
     {
       "name": "Regenerating Balm",
       "id": 730,
@@ -4703,7 +4808,7 @@
       "id": 964,
       "category": "Consumables",
       "license_amount": 1000,
-      "source": [{ "type": "Harvest", "name": "Arcane Croissant Tree" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Arcane Croissant Tree" }]
     },
     {
       "name": "Arcane Croissant Tree",
@@ -4712,7 +4817,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
       ]
     },
     {
@@ -4751,7 +4857,7 @@
       "category": "Consumables",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1179 }], "craft_amount": 1 },
-      "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
     },
     {
       "name": "Whole Birthday Cake",
@@ -4759,7 +4865,79 @@
       "category": "Consumables",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1180 }], "craft_amount": 1 },
-      "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+    },
+    {
+      "name": "Blue Tower",
+      "id": 1189,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Summer Glory",
+      "id": 1190,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Puff Flower",
+      "id": 1191,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Sunsugar Cane",
+      "id": 1192,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Wheat",
+      "id": 1193,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Everspring",
+      "id": 1194,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Rice",
+      "id": 1195,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Potatoes",
+      "id": 1196,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "White Megashroom",
+      "id": 1197,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Bana Tree",
+      "id": 1200,
+      "category": "Plant",
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Bonefinger",
+      "id": 1204,
+      "category": "Plant",
+      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }]
+    },
+    {
+      "name": "Scalebulb",
+      "id": 1205,
+      "category": "Plant",
+      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }]
     }
   ]
 }
