@@ -6,9 +6,9 @@
     { "name": "Koko Coir", "id": 402, "category": "Material" },
     { "name": "Sunseeker Seeds", "id": 339, "category": "Material" },
     { "name": "Sunseeker's Stems", "id": 670, "category": "Material" },
-    { "name": "Violetines", "id": 673, "category": "Material" },
-    { "name": "Silverblooms", "id": 676, "category": "Material" },
-    { "name": "Redchidaes", "id": 667, "category": "Material" },
+    { "name": "Violetines", "id": 673, "category": "Material", "image": { "fandom_wiki_image_path": "3/3c/Itm_material_violetine.png" } },
+    { "name": "Silverblooms", "id": 676, "category": "Material", "image": { "fandom_wiki_image_path": "b/b5/Itm_material_silverbloom.png" } },
+    { "name": "Redchidaes", "id": 667, "category": "Material", "image": { "fandom_wiki_image_path": "9/96/Itm_material_redchidae.png" } },
     { "name": "Sunseekers", "id": 335, "category": "Material" },
     {
       "name": "Archipelago Rice",
@@ -51,7 +51,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "c/c2/Itm_material_pigment_blue.png" }
     },
     {
       "name": "Bonbon Koko",
@@ -199,7 +200,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "e/ee/Itm_material_pigment_green.png" }
     },
     {
       "name": "Koko Drink",
@@ -365,7 +367,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "8/8f/Itm_material_pigment_orange.png" }
     },
     {
       "name": "Pink Firework",
@@ -394,7 +397,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "5/50/Itm_material_pigment_pink.png" }
     },
     {
       "name": "Red Firework",
@@ -423,7 +427,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "5/5b/Itm_material_pigment_red.png" }
     },
     {
       "name": "Silver Firework",
@@ -452,7 +457,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "2/23/Itm_material_pigment_white.png" }
     },
     {
       "name": "Summer Can",
@@ -541,7 +547,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "2/24/Itm_material_pigment_purple.png" }
     },
     {
       "name": "Yellow Firework",
@@ -570,7 +577,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "f/f7/Itm_material_pigment_yellow.png" }
     },
     {
       "name": "Adventurer's Belt",
@@ -642,7 +650,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "a/ae/Itm_material_pigment_black.png" }
     },
     {
       "name": "Blank Canvas",
@@ -984,7 +993,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Kraken Ink", "quantity": 1, "id": 250 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "0/03/Itm_material_powder_black.png" }
     },
     {
       "name": "Blue Pigment",
@@ -992,7 +1002,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Blue Tower", "quantity": 1, "id": 120 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "3/30/Itm_material_powder_blue.png" }
     },
     {
       "name": "Green Pigment",
@@ -1000,7 +1011,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 1, "id": 137 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "4/4f/Itm_material_powder_green.png" }
     },
     {
       "name": "Orange Pigment",
@@ -1008,7 +1020,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Summer Glory", "quantity": 1, "id": 200 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "4/48/Itm_material_powder_orange.png" }
     },
     {
       "name": "Pink Pigment",
@@ -1016,7 +1029,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Puff Flower", "quantity": 1, "id": 257 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "e/ed/Itm_material_powder_pink.png" }
     },
     {
       "name": "Red Pigment",
@@ -1024,7 +1038,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Redchidaes", "quantity": 1, "id": 667 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "1/1c/Itm_material_powder_red.png" }
     },
     {
       "name": "Violet Pigment",
@@ -1032,7 +1047,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Violetines", "quantity": 1, "id": 673 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "0/0d/Itm_material_powder_purple.png" }
     },
     {
       "name": "White Pigment",
@@ -1040,7 +1056,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Silverblooms", "quantity": 1, "id": 676 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "8/84/Itm_material_powder_white.png" }
     },
     {
       "name": "Yellow Pigment",
@@ -1048,7 +1065,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Sunseekers", "quantity": 1, "id": 335 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "3/35/Itm_material_powder_yellow.png" }
     },
     {
       "name": "Mad Screecher Koko",

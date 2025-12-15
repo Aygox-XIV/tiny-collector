@@ -43,9 +43,15 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "6/6c/Aether_Charge.png" }
     },
-    { "name": "Condensed Arcane Aether", "id": 105, "category": "Material" },
+    {
+      "name": "Condensed Arcane Aether",
+      "id": 105,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "5/56/Condensed_Arcane_Aether.png" }
+    },
     {
       "name": "Superior Catalyst",
       "id": 106,
@@ -77,7 +83,8 @@
           ],
           "craft_amount": 50
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/60/Superior_Catalyst.png" }
     },
     {
       "name": "Arcane Arrows",
@@ -91,7 +98,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "d/da/Arcane_Arrows.png" }
     },
     { "name": "Standard Arrow", "id": 108, "category": "Material" },
     {
@@ -107,9 +115,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "8/80/Arcane_Extract.png" }
     },
-    { "name": "Purified Water", "id": 110, "category": "Material" },
+    { "name": "Purified Water", "id": 110, "category": "Material", "image": { "fandom_wiki_image_path": "3/30/Purified_Water.png" } },
     {
       "name": "Standard Catalyst",
       "id": 111,
@@ -143,7 +152,8 @@
           ],
           "craft_amount": 50
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f0/Standard_Catalyst.png" }
     },
     {
       "name": "Archipelago Chips",
@@ -157,7 +167,8 @@
       "name": "Potatoes",
       "id": 113,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "4/42/Potatoes.png" }
     },
     {
       "name": "Archipelago Fries",
@@ -176,12 +187,13 @@
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
       ]
     },
-    { "name": "Kraken Grease", "id": 115, "category": "Material" },
+    { "name": "Kraken Grease", "id": 115, "category": "Material", "image": { "fandom_wiki_image_path": "2/27/Itm_material_kraken_grease.png" } },
     {
       "name": "Rice",
       "id": 118,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "d/da/Rice.png" }
     },
     {
       "name": "Archipelatea",
@@ -197,14 +209,16 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "6/64/Archipelatea.png" }
     },
-    { "name": "Blue Tower", "id": 120, "category": "Material" },
+    { "name": "Blue Tower", "id": 120, "category": "Material", "image": { "fandom_wiki_image_path": "8/8a/Blue_Tower.png" } },
     {
       "name": "Fresh Milk",
       "id": 121,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "3/34/Fresh_Milk.png" }
     },
     {
       "name": "Sunsugar",
@@ -215,7 +229,8 @@
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Handful of Seeds - Part 2/2" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Gathering: Expedition Supplies" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/60/Sunsugar.png" }
     },
     {
       "name": "Bana Bread",
@@ -239,7 +254,8 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Wheat", "quantity": 4, "id": 674 }], "craft_amount": 2 },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 3/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 3/7" }],
+      "image": { "fandom_wiki_image_path": "2/2c/Wheat_Flour.png" }
     },
     {
       "name": "Bana Chips",
@@ -270,7 +286,7 @@
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
     },
-    { "name": "Summergreen Leaves", "id": 129, "category": "Material" },
+    { "name": "Summergreen Leaves", "id": 129, "category": "Material", "image": { "fandom_wiki_image_path": "d/d5/Summergreen_Leaves.png" } },
     {
       "name": "Bana Ice Cream",
       "id": 130,
@@ -302,10 +318,15 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
-    { "name": "Aetheric Water", "id": 132, "category": "Material" },
+    { "name": "Aetheric Water", "id": 132, "category": "Material", "image": { "fandom_wiki_image_path": "7/79/Itm_material_water_aetheric.png" } },
     { "name": "Aethero Insulating Empty Bottle", "id": 133, "category": "Material" },
-    { "name": "Brightmoth Dust", "id": 134, "category": "Material" },
-    { "name": "Monster Blood", "id": 135, "category": "Material" },
+    {
+      "name": "Brightmoth Dust",
+      "id": 134,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "6/6a/Itm_material_brightmoth_glitter.png" }
+    },
+    { "name": "Monster Blood", "id": 135, "category": "Material", "image": { "fandom_wiki_image_path": "2/2a/Itm_material_monster_blood.png" } },
     {
       "name": "Blank Scroll Sheets",
       "id": 136,
@@ -327,14 +348,16 @@
           "ingredient": [{ "name": "Everspring Leaves", "quantity": 40, "id": 137 }],
           "craft_amount": 40
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/40/Blank_Scroll_Sheets.png" }
     },
-    { "name": "Everspring Leaves", "id": 137, "category": "Material" },
+    { "name": "Everspring Leaves", "id": 137, "category": "Material", "image": { "fandom_wiki_image_path": "c/ce/Everspring_Leaves.png" } },
     {
       "name": "Drakegull Egg",
       "id": 144,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
     {
       "name": "Bowstring",
@@ -342,7 +365,8 @@
       "category": "Consumables",
       "license_amount": 400,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 2, "id": 137 }], "craft_amount": 4 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "8/8b/Bowstring.png" }
     },
     {
       "name": "Bravery Potion",
@@ -363,9 +387,10 @@
       "name": "Coast Lemons",
       "id": 153,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "6/6e/Coast_Lemons.png" }
     },
-    { "name": "Snow Lilies", "id": 154, "category": "Material" },
+    { "name": "Snow Lilies", "id": 154, "category": "Material", "image": { "fandom_wiki_image_path": "3/3d/Itm_material_snow_lilies.png" } },
     {
       "name": "Brioche",
       "id": 155,
@@ -379,7 +404,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "9/99/Brioche.png" }
     },
     {
       "name": "Cherry Delight",
@@ -394,9 +420,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "3/32/Cherry_Delight.png" }
     },
-    { "name": "Iron", "id": 157, "category": "Material" },
+    { "name": "Iron", "id": 157, "category": "Material", "image": { "fandom_wiki_image_path": "4/45/Iron.png" } },
     {
       "name": "Minor Health Potion",
       "id": 158,
@@ -409,9 +436,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "a/a8/Minor_Health_Potion.png" }
     },
-    { "name": "Spices", "id": 159, "category": "Material" },
+    { "name": "Spices", "id": 159, "category": "Material", "image": { "fandom_wiki_image_path": "9/94/Spices.png" } },
     {
       "name": "Constricting Poison",
       "id": 167,
@@ -428,9 +456,10 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/67/Itm_consum_poison_constricting.png" }
     },
-    { "name": "Blue Headed Coral", "id": 168, "category": "Material" },
+    { "name": "Blue Headed Coral", "id": 168, "category": "Material", "image": { "fandom_wiki_image_path": "a/a2/Itm_material_coralpng.png" } },
     {
       "name": "Eyenemone Venom",
       "id": 169,
@@ -447,7 +476,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/5d/Itm_consum_venom_eyenemone.png" }
     },
     {
       "name": "Corroding Poison",
@@ -462,9 +492,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "1/1f/Corroding_Poison.png" }
     },
-    { "name": "Monster Scales", "id": 171, "category": "Material" },
+    { "name": "Monster Scales", "id": 171, "category": "Material", "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" } },
     {
       "name": "Oil",
       "id": 172,
@@ -477,9 +508,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "0/06/Oil.png" }
     },
-    { "name": "Slime Extract", "id": 173, "category": "Material" },
+    { "name": "Slime Extract", "id": 173, "category": "Material", "image": { "fandom_wiki_image_path": "a/a6/Slime_Extract.png" } },
     {
       "name": "Croissant",
       "id": 174,
@@ -492,15 +524,17 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }],
+      "image": { "fandom_wiki_image_path": "a/a0/Croissant.png" }
     },
     {
       "name": "Drakegull Meat",
       "id": 177,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "e/e2/Drakegull_Meat.png" }
     },
-    { "name": "Sumac Spice", "id": 178, "category": "Material" },
+    { "name": "Sumac Spice", "id": 178, "category": "Material", "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" } },
     {
       "name": "Cuter Brioche",
       "id": 179,
@@ -514,7 +548,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "2/21/Cuter_Brioche.png" }
     },
     { "name": "Archipelago Greens", "id": 184, "category": "Material" },
     {
@@ -529,7 +564,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }],
+      "image": { "fandom_wiki_image_path": "0/06/Fresh_Bread.png" }
     },
     {
       "name": "Egg Toast",
@@ -543,7 +579,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "6/69/Egg_Toast.png" }
     },
     {
       "name": "Liquid Aether",
@@ -558,7 +595,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "7/75/Liquid_Aether.png" }
     },
     {
       "name": "Unstable Essence",
@@ -573,7 +611,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "8/83/Unstable_Essence.png" }
     },
     {
       "name": "Endurance Lollipop",
@@ -587,7 +626,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "2/28/Endurance_Lollipop.png" }
     },
     {
       "name": "Minor Endurance Potion",
@@ -601,7 +641,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "8/8b/Minor_Endurance_Potion.png" }
     },
     {
       "name": "Energetic Herb Mix",
@@ -617,7 +658,7 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Summer Glory", "id": 200, "category": "Material" },
+    { "name": "Summer Glory", "id": 200, "category": "Material", "image": { "fandom_wiki_image_path": "e/eb/Summer_Glory.png" } },
     {
       "name": "Fire Arrows",
       "id": 209,
@@ -630,9 +671,10 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "a/a7/Fire_Arrows.png" }
     },
-    { "name": "Firebloom Leaves", "id": 210, "category": "Material" },
+    { "name": "Firebloom Leaves", "id": 210, "category": "Material", "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" } },
     {
       "name": "Cinderwheat Flour",
       "id": 211,
@@ -644,7 +686,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/9d/Cinderwheat_Flour.png" }
     },
     {
       "name": "Fire Croissant",
@@ -663,7 +706,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/06/Fire_Croissant.png" }
     },
     {
       "name": "Fire Extract",
@@ -678,7 +722,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "b/b3/Fire_Extract.png" }
     },
     {
       "name": "Firebloom Tea",
@@ -697,7 +742,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a0/Firebloom_Tea.png" }
     },
     {
       "name": "Fishies",
@@ -718,7 +764,8 @@
       "name": "Moonfish Filet",
       "id": 216,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
     {
       "name": "Fresh Noodles",
@@ -732,7 +779,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "6/6c/Fresh_Noodles.png" }
     },
     {
       "name": "Fried Drakegull Salad",
@@ -777,7 +825,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "5/51/Glorious_Ice_Cream.png" }
     },
     {
       "name": "Glory Bread",
@@ -792,7 +841,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 5/7" }],
+      "image": { "fandom_wiki_image_path": "a/a3/Glory_Bread.png" }
     },
     {
       "name": "Golden Croissant",
@@ -821,7 +871,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "9/98/Health_Lollipop.png" }
     },
     {
       "name": "Hotdog",
@@ -851,9 +902,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "8/89/Improved_Smoke_Bomb.png" }
     },
-    { "name": "Anthracite", "id": 235, "category": "Material" },
+    { "name": "Anthracite", "id": 235, "category": "Material", "image": { "fandom_wiki_image_path": "f/ff/Anthracite.png" } },
     {
       "name": "Smoke Bomb",
       "id": 236,
@@ -866,7 +918,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "e/eb/Smoke_Bomb.png" }
     },
     {
       "name": "Jelly's Special",
@@ -882,9 +935,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "1/12/Jelly%27s_Special.png" }
     },
-    { "name": "Mushrooms Portion", "id": 240, "category": "Material" },
+    { "name": "Mushrooms Portion", "id": 240, "category": "Material", "image": { "fandom_wiki_image_path": "c/c6/Mushrooms_Portion.png" } },
     {
       "name": "Karjalanpiirakka",
       "id": 241,
@@ -897,7 +951,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "2/25/Karjalanpiirakka.png" }
     },
     {
       "name": "Kraken Black Noodles",
@@ -922,9 +977,10 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/48/Itm_material_kraken_ink.png" }
     },
-    { "name": "Kraken Tentacle", "id": 251, "category": "Material" },
+    { "name": "Kraken Tentacle", "id": 251, "category": "Material", "image": { "fandom_wiki_image_path": "8/8d/Itm_material_tentacle_kraken.png" } },
     {
       "name": "Kraken Chips",
       "id": 252,
@@ -988,9 +1044,10 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Water Samples" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Request: Apothecary" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/5f/Large_Elixir.png" }
     },
-    { "name": "Puff Flower", "id": 257, "category": "Material" },
+    { "name": "Puff Flower", "id": 257, "category": "Material", "image": { "fandom_wiki_image_path": "1/1c/Puff_Flower.png" } },
     {
       "name": "Large Endurance Potion",
       "id": 258,
@@ -1004,7 +1061,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "5/5b/Large_Endurance_Potion.png" }
     },
     {
       "name": "Large Health Potion",
@@ -1019,7 +1077,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "1/18/Large_Health_Potion.png" }
     },
     {
       "name": "Large Mana Potion",
@@ -1034,7 +1093,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "3/34/Large_Mana_Potion.png" }
     },
     {
       "name": "Minor Mana Potion",
@@ -1048,7 +1108,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "8/8f/Minor_Mana_Potion.png" }
     },
     {
       "name": "Life Potion",
@@ -1063,7 +1124,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "a/a8/Life_Potion.png" }
     },
     {
       "name": "M&m Character Sheets",
@@ -1137,7 +1199,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "1/13/Itm_consum_poison_maelstrom.png" }
     },
     {
       "name": "Mana Draught",
@@ -1145,7 +1208,8 @@
       "category": "Consumables",
       "license_amount": 50,
       "recipe": { "ingredient": [{ "name": "Blue Tower", "quantity": 2, "id": 120 }], "craft_amount": 4 },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Open Horizons - Part 2/2" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Open Horizons - Part 2/2" }],
+      "image": { "fandom_wiki_image_path": "2/2b/Mana_Draught.png" }
     },
     {
       "name": "Mana Lollipop",
@@ -1159,7 +1223,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "5/5c/Mana_Lollipop.png" }
     },
     {
       "name": "Manaweaving Potion",
@@ -1174,7 +1239,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "c/cf/Manaweaving_Potion.png" }
     },
     {
       "name": "Mind Rot",
@@ -1189,7 +1255,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "0/0a/Itm_consum_poison_mind_rot.png" }
     },
     {
       "name": "Minor Invisibility Potion",
@@ -1220,7 +1287,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "b/b5/Moonfish_Soup.png" }
     },
     {
       "name": "Moonfish Sushis",
@@ -1252,7 +1320,8 @@
         { "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Botanist Bundle" },
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Business As Usual - Part 2/7" },
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Wheat and Sea - Part 11/13" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/29/Morning_Tea.png" }
     },
     {
       "name": "Mushy Skewers",
@@ -1267,9 +1336,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "4/49/Mushy_Skewers.png" }
     },
-    { "name": "Brown Heads", "id": 284, "category": "Material" },
+    { "name": "Brown Heads", "id": 284, "category": "Material", "image": { "fandom_wiki_image_path": "0/05/Brown_Heads.png" } },
     {
       "name": "Noodle Soup",
       "id": 285,
@@ -1283,7 +1353,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "8/86/Noodle_Soup.png" }
     },
     {
       "name": "Ocean Hiss",
@@ -1298,7 +1369,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "d/dc/Ocean_Hiss.png" }
     },
     {
       "name": "Ocean Sip",
@@ -1313,7 +1385,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "e/ed/Ocean_Sip.png" }
     },
     {
       "name": "Pinky Charm",
@@ -1329,7 +1402,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "8/83/Pinky_Charm.png" }
     },
     {
       "name": "Portable Save Point",
@@ -1344,7 +1418,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "3/33/Portable_Save_Point.png" }
     },
     {
       "name": "Potato Chips",
@@ -1366,7 +1441,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "f/fd/Potato_Con_Carne.png" }
     },
     {
       "name": "Potato Curry",
@@ -1381,7 +1457,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "c/c6/Potato_Curry.png" }
     },
     {
       "name": "Potent Health Potion",
@@ -1396,7 +1473,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "4/43/Potent_Health_Potion.png" }
     },
     {
       "name": "Potent Mana Potion",
@@ -1411,7 +1489,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "e/eb/Potent_Mana_Potion.png" }
     },
     {
       "name": "Puff Juice",
@@ -1443,7 +1522,8 @@
       "source": [
         { "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Botanist Bundle" },
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Business As Usual - Part 2/7" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d6/Puff_Tea.png" }
     },
     {
       "name": "Puffy Ice Cream",
@@ -1458,7 +1538,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "5/50/Puffy_Ice_Cream.png" }
     },
     {
       "name": "Purple Buzz",
@@ -1473,7 +1554,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "f/fa/Purple_Buzz.png" }
     },
     {
       "name": "Repair Kit",
@@ -1487,7 +1569,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "8/84/Repair_Kit.png" }
     },
     {
       "name": "Small Pouch",
@@ -1495,7 +1578,8 @@
       "category": "Gear",
       "license_amount": 100,
       "recipe": { "ingredient": [{ "name": "Leather", "quantity": 2, "id": 369 }], "craft_amount": 2 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "e/ed/Small_Pouch.png" }
     },
     {
       "name": "Revigorating Balm",
@@ -1540,7 +1624,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }],
+      "image": { "fandom_wiki_image_path": "0/05/Spectral_Pumpkin.png" }
     },
     {
       "name": "Spectral Pumpkin Pie",
@@ -1563,9 +1648,10 @@
       "category": "Consumables",
       "license_amount": 30,
       "recipe": { "ingredient": [{ "name": "Everwood", "quantity": 3, "id": 325 }], "craft_amount": 3 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "8/8d/Standard_Arrows.png" }
     },
-    { "name": "Everwood", "id": 325, "category": "Material" },
+    { "name": "Everwood", "id": 325, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Everwood.png" } },
     {
       "name": "Stasis Potion",
       "id": 326,
@@ -1614,7 +1700,8 @@
           ],
           "craft_amount": 50
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d5/Improved_Arcane_Catalyst.png" }
     },
     {
       "name": "Stasis Powder",
@@ -1644,7 +1731,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "7/7e/Steamed_Fish_%26_Rice.png" }
     },
     {
       "name": "Summer Delight",
@@ -1660,7 +1748,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "0/01/Summer_Delight.png" }
     },
     {
       "name": "Summer Juice",
@@ -1690,7 +1779,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "b/bd/Sun_Up.png" }
     },
     {
       "name": "Sunsation",
@@ -1705,7 +1795,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "c/ca/Sunsation.png" }
     },
     {
       "name": "The Huntress",
@@ -1723,7 +1814,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Winged Menaces" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1e/The_Huntress.png" }
     },
     {
       "name": "The Jelly",
@@ -1738,7 +1830,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "By the Book - Part 4/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "By the Book - Part 4/6" }],
+      "image": { "fandom_wiki_image_path": "b/bc/The_Jelly.png" }
     },
     {
       "name": "The Oceanic",
@@ -1753,7 +1846,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "By the Book - Part 4/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "By the Book - Part 4/6" }],
+      "image": { "fandom_wiki_image_path": "0/02/The_Oceanic.png" }
     },
     {
       "name": "Tower Tea",
@@ -1770,7 +1864,8 @@
       "source": [
         { "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Botanist Bundle" },
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Business As Usual - Part 2/7" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/5f/Tower_Tea.png" }
     },
     {
       "name": "Towering Ice Cream",
@@ -1785,7 +1880,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "4/43/Towering_Ice_Cream.png" }
     },
     {
       "name": "Veggies Noodles",
@@ -1800,7 +1896,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "0/0c/Veggies_Noodles.png" }
     },
     {
       "name": "Veggies Salad",
@@ -1828,7 +1925,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Open Horizons - Part 2/2" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Open Horizons - Part 2/2" }],
+      "image": { "fandom_wiki_image_path": "4/42/Weak_Elixir.png" }
     },
     {
       "name": "Weightless Potion",
@@ -1843,16 +1941,18 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "4/44/Weightless_Potion.png" }
     },
-    { "name": "Blushflower Petals", "id": 353, "category": "Material" },
+    { "name": "Blushflower Petals", "id": 353, "category": "Material", "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" } },
     {
       "name": "Whetstone",
       "id": 354,
       "category": "Consumables",
       "license_amount": 200,
       "recipe": { "ingredient": [{ "name": "Anthracite", "quantity": 2, "id": 235 }], "craft_amount": 2 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "9/9f/Whetstone.png" }
     },
     {
       "name": "White Cake",
@@ -1867,7 +1967,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "9/9a/White_Cake.png" }
     },
     {
       "name": "Armor Pouches",
@@ -1884,7 +1985,8 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b3/Citizen%27s_Mask.png" }
     },
     {
       "name": "Fishing Rod",
@@ -1915,9 +2017,10 @@
       "source": [
         { "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Starter Bundle" },
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Business As Usual - Part 2/7" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c1/Adventure_Map.png" }
     },
-    { "name": "Leather", "id": 369, "category": "Material" },
+    { "name": "Leather", "id": 369, "category": "Material", "image": { "fandom_wiki_image_path": "3/3d/Leather.png" } },
     {
       "name": "Arcane Armor",
       "id": 373,
@@ -1930,7 +2033,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "e/ef/Itm_gear_armor_arcane03.png" }
     },
     {
       "name": "Iron Armor",
@@ -1946,7 +2050,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "3/30/Iron_Armor.png" }
     },
     {
       "name": "Arcane Axe",
@@ -1965,7 +2070,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/3c/Gear_axe_arcane.png" }
     },
     {
       "name": "Iron Axe",
@@ -1980,7 +2086,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "9/9e/Gear_axe.png" }
     },
     {
       "name": "Arcane Boots",
@@ -1994,7 +2101,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "1/15/Arcane_Boots.png" }
     },
     {
       "name": "Travelling Boots",
@@ -2009,7 +2117,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "d/d4/Travelling_Boots.png" }
     },
     {
       "name": "Arcane Dagger",
@@ -2023,7 +2132,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "2/21/Arcane_Dagger.png" }
     },
     {
       "name": "Iron Dagger",
@@ -2037,7 +2147,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "3/3a/Iron_Dagger.png" }
     },
     {
       "name": "Arcane Fork",
@@ -2051,7 +2162,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Blacksmith Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Blacksmith Set" }],
+      "image": { "fandom_wiki_image_path": "0/07/Arcane_Fork.png" }
     },
     {
       "name": "Tactical Fork",
@@ -2065,7 +2177,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Blacksmith Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Blacksmith Set" }],
+      "image": { "fandom_wiki_image_path": "8/8b/Tactical_Fork.png" }
     },
     {
       "name": "Arcane Gauntlet",
@@ -2079,7 +2192,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "4/4c/Itm_gear_gauntlet_arcane02.png" }
     },
     {
       "name": "Iron Gauntlets",
@@ -2094,7 +2208,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "e/eb/Iron_Gauntlets.png" }
     },
     {
       "name": "Arcane Greaves",
@@ -2108,7 +2223,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "3/37/Itm_gear_legs_arcane02.png" }
     },
     {
       "name": "Iron Greaves",
@@ -2122,7 +2238,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "7/73/Iron_Greaves.png" }
     },
     {
       "name": "Arcane Helmet",
@@ -2156,7 +2273,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "f/f7/Iron_Helmet.png" }
     },
     {
       "name": "Arcane Shield",
@@ -2170,7 +2288,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "9/9d/Arcane_Shield.png" }
     },
     {
       "name": "Iron Shield",
@@ -2178,7 +2297,8 @@
       "category": "Gear",
       "license_amount": 250,
       "recipe": { "ingredient": [{ "name": "Iron", "quantity": 5, "id": 157 }], "craft_amount": 1 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "f/ff/Iron_Shield.png" }
     },
     {
       "name": "Arcane Sword",
@@ -2192,7 +2312,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "a/a4/Arcane_Sword.png" }
     },
     {
       "name": "Iron Sword",
@@ -2206,7 +2327,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "c/c7/Iron_Sword.png" }
     },
     {
       "name": "Arcane Tactical Pan",
@@ -2220,7 +2342,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Kitchen Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Kitchen Set" }],
+      "image": { "fandom_wiki_image_path": "9/9f/Itm_gear_pan_arcane.png" }
     },
     {
       "name": "Tactical Pan",
@@ -2234,7 +2357,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Kitchen Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Kitchen Set" }],
+      "image": { "fandom_wiki_image_path": "a/a4/Tactical_Pan.png" }
     },
     {
       "name": "Archipelago Botanical Compendium I",
@@ -2251,7 +2375,7 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Sea Lilac", "id": 396, "category": "Material" },
+    { "name": "Sea Lilac", "id": 396, "category": "Material", "image": { "fandom_wiki_image_path": "4/45/Sea_Lilac.png" } },
     {
       "name": "Archipelago Botanical Compendium II",
       "id": 397,
@@ -2295,7 +2419,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "1/11/Ardent_Glare.png" }
     },
     {
       "name": "Standard Bow",
@@ -2309,7 +2434,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "c/cb/Standard_Bow.png" }
     },
     {
       "name": "Basic Amulet",
@@ -2346,15 +2472,26 @@
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
       ]
     },
-    { "name": "Condensed Water Aether", "id": 406, "category": "Material" },
-    { "name": "Sharp Monster Teeth", "id": 407, "category": "Material" },
+    {
+      "name": "Condensed Water Aether",
+      "id": 406,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "e/ee/Itm_material_aether_water.png" }
+    },
+    {
+      "name": "Sharp Monster Teeth",
+      "id": 407,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "e/e1/Itm_material_monster_shark_teeth.png" }
+    },
     {
       "name": "Rope",
       "id": 418,
       "category": "Gear",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Bowstring", "quantity": 3, "id": 151 }], "craft_amount": 4 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "b/b4/Rope.png" }
     },
     {
       "name": "Bone Chest",
@@ -2374,7 +2511,7 @@
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb Seeds" }
       ]
     },
-    { "name": "Monster Bones", "id": 422, "category": "Material" },
+    { "name": "Monster Bones", "id": 422, "category": "Material", "image": { "fandom_wiki_image_path": "f/f7/Itm_material_monster_bones.png" } },
     { "name": "Sinew", "id": 423, "category": "Material" },
     {
       "name": "Bone Dagger",
@@ -2394,10 +2531,11 @@
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Jackals" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Steelsnappers" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Aetherclaws" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f2/Bone_Dagger.png" }
     },
-    { "name": "Monster Fangs", "id": 425, "category": "Material" },
-    { "name": "Monster Horn", "id": 426, "category": "Material" },
+    { "name": "Monster Fangs", "id": 425, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Monster_Fangs.png" } },
+    { "name": "Monster Horn", "id": 426, "category": "Material", "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" } },
     {
       "name": "Bone Dices",
       "id": 427,
@@ -2430,7 +2568,7 @@
       },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
     },
-    { "name": "Living Vine", "id": 429, "category": "Material" },
+    { "name": "Living Vine", "id": 429, "category": "Material", "image": { "fandom_wiki_image_path": "a/a0/Itm_material_vine.png" } },
     {
       "name": "Bone Gauntlets",
       "id": 430,
@@ -2485,7 +2623,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Drakegull [lower only]" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Coral Crabs" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1d/Bone_Helmet.png" }
     },
     {
       "name": "Bone Lure",
@@ -2550,9 +2689,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "5/50/Circlet.png" }
     },
-    { "name": "Rough Emerald", "id": 439, "category": "Material" },
+    { "name": "Rough Emerald", "id": 439, "category": "Material", "image": { "fandom_wiki_image_path": "a/ad/Rough_Emerald.png" } },
     {
       "name": "Climbing Kit",
       "id": 440,
@@ -2567,7 +2707,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "b/b5/Climbing_Kit.png" }
     },
     {
       "name": "Hook",
@@ -2575,7 +2716,8 @@
       "category": "Gear",
       "license_amount": 100,
       "recipe": { "ingredient": [{ "name": "Iron", "quantity": 3, "id": 157 }], "craft_amount": 1 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "4/47/Hook.png" }
     },
     {
       "name": "Pickaxe",
@@ -2589,9 +2731,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "b/b7/Pickaxe.png" }
     },
-    { "name": "Jute", "id": 444, "category": "Material" },
+    { "name": "Jute", "id": 444, "category": "Material", "image": { "fandom_wiki_image_path": "6/64/Jute.png" } },
     {
       "name": "Coral Lure",
       "id": 446,
@@ -2623,7 +2766,7 @@
         "craft_amount": 1
       }
     },
-    { "name": "Aetheric Sand", "id": 448, "category": "Material" },
+    { "name": "Aetheric Sand", "id": 448, "category": "Material", "image": { "fandom_wiki_image_path": "c/ce/Itm_material_aetheric_sand.png" } },
     {
       "name": "Corralline Dagger",
       "id": 449,
@@ -2742,7 +2885,7 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" }
       ]
     },
-    { "name": "Rune Stone", "id": 455, "category": "Material" },
+    { "name": "Rune Stone", "id": 455, "category": "Material", "image": { "fandom_wiki_image_path": "f/fa/Rune_Stone.png" } },
     {
       "name": "Ocean Extract",
       "id": 459,
@@ -2756,7 +2899,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "1/12/Itm_consum_potion_ocean_extract.png" }
     },
     {
       "name": "Emerald Amulet",
@@ -2786,7 +2930,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "7/78/Gear_armor_emerald.png" }
     },
     {
       "name": "Emerald Axe",
@@ -2801,7 +2946,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "9/9e/Gear_axe_emerald.png" }
     },
     {
       "name": "Emerald Gauntlets",
@@ -2831,7 +2977,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "0/0e/Itm_gear_leg_emerald.png" }
     },
     {
       "name": "Emerald Helmet",
@@ -2893,7 +3040,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "8/8a/Exploration_Kit.png" }
     },
     {
       "name": "Fiery Fork",
@@ -2907,7 +3055,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Blacksmith Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Blacksmith Set" }],
+      "image": { "fandom_wiki_image_path": "2/2d/Fiery_Fork.png" }
     },
     {
       "name": "Fire Armor",
@@ -2921,7 +3070,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "5/5b/Itm_gear_armor_fire02.png" }
     },
     {
       "name": "Fire Axe",
@@ -2940,7 +3090,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/fe/Gear_axe_fire.png" }
     },
     {
       "name": "Fire Boots",
@@ -2954,7 +3105,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "7/73/Fire_Boots.png" }
     },
     {
       "name": "Fire Dagger",
@@ -2968,7 +3120,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "5/5b/Fire_Dagger.png" }
     },
     {
       "name": "Fire Gauntlet",
@@ -2982,7 +3135,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "7/72/Itm_gear_gauntlet_fire02.png" }
     },
     {
       "name": "Fire Greaves",
@@ -2996,7 +3150,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "4/48/Itm_gear_legs_fire02.png" }
     },
     {
       "name": "Fire Helmet",
@@ -3029,7 +3184,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "1/18/Fire_Shield.png" }
     },
     {
       "name": "Fire Sword",
@@ -3043,7 +3199,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "7/77/Fire_Sword.png" }
     },
     {
       "name": "Flashlight",
@@ -3058,7 +3215,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "4/4d/Flashlight.png" }
     },
     {
       "name": "Frying Pan",
@@ -3072,7 +3230,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Kitchen Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Kitchen Set" }],
+      "image": { "fandom_wiki_image_path": "5/5d/Itm_gear_pan_fire.png" }
     },
     {
       "name": "Fungal Bow",
@@ -3087,7 +3246,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }],
+      "image": { "fandom_wiki_image_path": "1/1f/Fungal_Bow.png" }
     },
     {
       "name": "Fungal Sword",
@@ -3102,7 +3262,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Slice of Life - Part 2 - Part 5/6" }],
+      "image": { "fandom_wiki_image_path": "8/8b/Fungal_Sword.png" }
     },
     {
       "name": "Goggles",
@@ -3117,7 +3278,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "1/1a/Goggles.png" }
     },
     {
       "name": "Headband",
@@ -3132,7 +3294,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "9/92/Headband.png" }
     },
     {
       "name": "Healer's Coat",
@@ -3164,7 +3327,12 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
-    { "name": "Condensed Nature Aether", "id": 502, "category": "Material" },
+    {
+      "name": "Condensed Nature Aether",
+      "id": 502,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "f/f5/Itm_material_aether_nature.png" }
+    },
     {
       "name": "Hydrologist Grimoire",
       "id": 507,
@@ -3255,7 +3423,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "8/8b/Itm_consum_potion_nature_extract.png" }
     },
     {
       "name": "Leather Pouch",
@@ -3269,7 +3438,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "6/6c/Leather_Pouch.png" }
     },
     {
       "name": "Loot Finder",
@@ -3285,9 +3455,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "3/3a/Loot_Finder.png" }
     },
-    { "name": "Datablet", "id": 522, "category": "Material" },
+    { "name": "Datablet", "id": 522, "category": "Material", "image": { "fandom_wiki_image_path": "3/37/Datablet.png" } },
     {
       "name": "M&m Module: the Winged Terror",
       "id": 523,
@@ -3321,7 +3492,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/28/Manaweaving_Spellbook.png" }
     },
     {
       "name": "Mechanical Fan",
@@ -3336,7 +3508,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "d/df/Mechanical_Fan.png" }
     },
     {
       "name": "Mechanical Parts",
@@ -3344,7 +3517,8 @@
       "category": "Material",
       "license_amount": 1400,
       "recipe": { "ingredient": [{ "name": "Iron", "quantity": 5, "id": 157 }], "craft_amount": 2 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "a/a5/Mechanical_Parts.png" }
     },
     {
       "name": "Databoard",
@@ -3359,7 +3533,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "b/bd/Databoard.png" }
     },
     {
       "name": "Naturalist's Bag",
@@ -3388,7 +3563,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "f/f8/Pair_of_Arcane_Daggers.png" }
     },
     {
       "name": "Pair of Bone Daggers",
@@ -3408,7 +3584,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Jackals" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Steelsnappers" },
         { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt Coral Crabs" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/09/Pair_of_Bone_Daggers.png" }
     },
     {
       "name": "Pair of Iron Daggers",
@@ -3422,7 +3599,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "1/1e/Pair_of_Iron_Daggers.png" }
     },
     {
       "name": "Pair of Fire Daggers",
@@ -3436,7 +3614,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "6/6c/Pair_of_Fire_Daggers.png" }
     },
     {
       "name": "\"pelagos\" Sunglasses",
@@ -3453,7 +3632,7 @@
       },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
     },
-    { "name": "Aetheric Glass", "id": 539, "category": "Material" },
+    { "name": "Aetheric Glass", "id": 539, "category": "Material", "image": { "fandom_wiki_image_path": "a/a0/Itm_material_glass.png" } },
     {
       "name": "Perfected Rubber Ducky",
       "id": 540,
@@ -3467,7 +3646,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Home Set" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "name": "Home Set" }],
+      "image": { "fandom_wiki_image_path": "6/66/Itm_gear_ducky.png" }
     },
     {
       "name": "Powered Boots",
@@ -3481,7 +3661,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "8/87/Powered_Boots.png" }
     },
     {
       "name": "Praetorian Shoulders",
@@ -3515,9 +3696,10 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/fe/Pyromancy_Spellbook.png" }
     },
-    { "name": "Condensed Fire Aether", "id": 545, "category": "Material" },
+    { "name": "Condensed Fire Aether", "id": 545, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Condensed_Fire_Aether.png" } },
     {
       "name": "Radio",
       "id": 546,
@@ -3531,7 +3713,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "3/31/Radio.png" }
     },
     {
       "name": "Ranger's Bow",
@@ -3581,7 +3764,7 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
-    { "name": "Seastone", "id": 554, "category": "Material" },
+    { "name": "Seastone", "id": 554, "category": "Material", "image": { "fandom_wiki_image_path": "9/93/Itm_material_rawgem_seastone.png" } },
     {
       "name": "Seastone Armor",
       "id": 555,
@@ -3595,7 +3778,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "c/c2/Gear_armor_seastone.png" }
     },
     {
       "name": "Seastone Axe",
@@ -3610,7 +3794,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "f/fd/Gear_axe_seastone.png" }
     },
     {
       "name": "Seastone Circlet",
@@ -3643,7 +3828,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "9/9e/Itm_gear_gauntlet_seastone.png" }
     },
     {
       "name": "Seastone Greaves",
@@ -3658,7 +3844,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "a/a1/Itm_gear_leg_seastone.png" }
     },
     {
       "name": "Seastone Headband",
@@ -3739,7 +3926,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "a/a5/Skull_Cap.png" }
     },
     {
       "name": "Small Hammer",
@@ -3769,7 +3957,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "3/3e/Smart_Tablet.png" }
     },
     {
       "name": "Standard Dices",
@@ -3795,7 +3984,7 @@
       "recipe": { "ingredient": [{ "name": "Stone", "quantity": 5, "id": 581 }], "craft_amount": 1 },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Stone", "id": 581, "category": "Material" },
+    { "name": "Stone", "id": 581, "category": "Material", "image": { "fandom_wiki_image_path": "b/b8/Itm_material_stone_02.png" } },
     {
       "name": "Tentamulet",
       "id": 585,
@@ -3875,7 +4064,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Coastline" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Mushwurm" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/43/Training_Dummy_Kit.png" }
     },
     {
       "name": "Trapper's Cape",
@@ -3981,7 +4171,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "c/c6/Weaving_Needle.png" }
     },
     {
       "name": "Aetheric Focal",
@@ -3995,7 +4186,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "image": { "fandom_wiki_image_path": "d/d5/Aetheric_Focal.png" }
     },
     {
       "name": "Wood Lure",
@@ -4052,28 +4244,32 @@
       "id": 610,
       "category": "Material",
       "license_amount": 500,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "8/80/Ancient_Stories.png" }
     },
     {
       "name": "Figurine: Bloodslime",
       "id": 611,
       "category": "Material",
       "license_amount": 50,
-      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }]
+      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "e/ef/Itm_mat_figurine_bloodslime.png" }
     },
     {
       "name": "Figurine: Coral Crab",
       "id": 612,
       "category": "Material",
       "license_amount": 50,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "5/5d/Itm_mat_figurine_coral_crab.png" }
     },
     {
       "name": "Figurine: Drakegull",
       "id": 613,
       "category": "Material",
       "license_amount": 10,
-      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Drakegull" }]
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Drakegull" }],
+      "image": { "fandom_wiki_image_path": "b/ba/Itm_mat_figurine_drakegull.png" }
     },
     {
       "name": "Figurine: Fire Sprite",
@@ -4086,14 +4282,16 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/da/Itm_mat_figurine_firebloom_sprite.png" }
     },
     {
       "name": "Figurine: Seaslime",
       "id": 615,
       "category": "Material",
       "license_amount": 50,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "f/fc/Itm_mat_figurine_seaslime.png" }
     },
     {
       "name": "Acid",
@@ -4107,7 +4305,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "image": { "fandom_wiki_image_path": "1/18/Acid.png" }
     },
     {
       "name": "Ancient Diaries",
@@ -4183,7 +4382,7 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Cinder Wheat", "id": 625, "category": "Material" },
+    { "name": "Cinder Wheat", "id": 625, "category": "Material", "image": { "fandom_wiki_image_path": "5/5a/Cinder_Wheat.png" } },
     {
       "name": "Cryptozoology Treatise",
       "id": 627,
@@ -4197,7 +4396,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "5/52/Cryptozoology_Treatise.png" }
     },
     {
       "name": "Everspring Sprout",
@@ -4213,7 +4413,7 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Eyenemone", "id": 629, "category": "Material" },
+    { "name": "Eyenemone", "id": 629, "category": "Material", "image": { "fandom_wiki_image_path": "0/04/Itm_material_eyenemone.png" } },
     {
       "name": "Figurine: Arcane Wizard",
       "id": 632,
@@ -4227,7 +4427,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "image": { "fandom_wiki_image_path": "8/8d/Itm_mat_figurine_wizard.png" }
     },
     {
       "name": "Figurine: Baneana",
@@ -4242,7 +4443,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 3/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 3/6" }],
+      "image": { "fandom_wiki_image_path": "1/1e/Itm_mat_fig_banana.png" }
     },
     {
       "name": "Figurine: Healer",
@@ -4257,7 +4459,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "image": { "fandom_wiki_image_path": "6/66/Itm_mat_figurine_healer.png" }
     },
     {
       "name": "Figurine: Royal Knight",
@@ -4272,7 +4475,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "image": { "fandom_wiki_image_path": "8/82/Itm_mat_figurine_knight.png" }
     },
     {
       "name": "Jellyvenger's Adventures Vol.1",
@@ -4293,7 +4497,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townsfolks Small Task" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/28/Jellyvenger%27s_Adventures_Vol.1.png" }
     },
     {
       "name": "Luxurious Fabric - Blue",
@@ -4358,7 +4563,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business in a Can - Part 5/5" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business in a Can - Part 5/5" }],
+      "image": { "fandom_wiki_image_path": "9/90/Magic_Mint.png" }
     },
     {
       "name": "Oceanic Essence",
@@ -4410,9 +4616,15 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Library" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1e/Records_of_the_Old_World.png" }
     },
-    { "name": "Crabantula Shell", "id": 668, "category": "Material" },
+    {
+      "name": "Crabantula Shell",
+      "id": 668,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "4/47/Itm_material_crabantula_shell.png" }
+    },
     {
       "name": "Summer Glory Sprout",
       "id": 669,
@@ -4427,8 +4639,8 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Sunsugar Cane", "id": 671, "category": "Material" },
-    { "name": "Wheat", "id": 674, "category": "Material" },
+    { "name": "Sunsugar Cane", "id": 671, "category": "Material", "image": { "fandom_wiki_image_path": "2/2e/Sunsugar_Cane.png" } },
+    { "name": "Wheat", "id": 674, "category": "Material", "image": { "fandom_wiki_image_path": "e/e2/Wheat.png" } },
     {
       "name": "Regenerating Balm",
       "id": 730,
@@ -4538,10 +4750,7 @@
       "id": 1181,
       "category": "Consumables",
       "license_amount": 500,
-      "recipe": {
-        "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1179 }],
-        "craft_amount": 1
-      },
+      "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1179 }], "craft_amount": 1 },
       "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
     },
     {
@@ -4549,10 +4758,7 @@
       "id": 1182,
       "category": "Consumables",
       "license_amount": 500,
-      "recipe": {
-        "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1180 }],
-        "craft_amount": 1
-      },
+      "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1180 }], "craft_amount": 1 },
       "source": [{ "type": "Feat", "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
     }
   ]

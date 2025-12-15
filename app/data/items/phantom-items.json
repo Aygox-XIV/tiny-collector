@@ -1,17 +1,16 @@
 {
   "items": [
-    { "name": "Bloodberry Slime", "id": 139, "category": "Material" },
-    { "name": "Cursedconut", "id": 166, "category": "Material" },
-    { "name": "Ectoplasm", "id": 142, "category": "Material" },
-    { "name": "Pumpkin", "id": 238, "category": "Material" },
-    { "name": "Hexed Linen", "id": 492, "category": "Material" },
-    { "name": "Undead Bones", "id": 436, "category": "Material" },
-    { "name": "Bloodslime Residue", "id": 141, "category": "Material" },
-    { "name": "Ectogems", "id": 181, "category": "Material" },
-    { "name": "Cursedconut Leaves", "id": 190, "category": "Material" },
-    { "name": "Tombstone Eye", "id": 321, "category": "Material" },
-    { "name": "Spectral Fabric", "id": 638, "category": "Material" },
-    { "name": "Bloodslime Residus", "id": 738, "category": "Material" },
+    { "name": "Bloodberry Slime", "id": 139, "category": "Material", "image": { "fandom_wiki_image_path": "a/a9/Bloodberry_Slime.png" } },
+    { "name": "Cursedconut", "id": 166, "category": "Material", "image": { "fandom_wiki_image_path": "b/bf/Itm_event_HAL_cursedconut.png" } },
+    { "name": "Ectoplasm", "id": 142, "category": "Material", "image": { "fandom_wiki_image_path": "3/36/Ectoplasm.png" } },
+    { "name": "Pumpkin", "id": 238, "category": "Material", "image": { "fandom_wiki_image_path": "6/64/Pumpkin.png" } },
+    { "name": "Hexed Linen", "id": 492, "category": "Material", "image": { "fandom_wiki_image_path": "5/55/Hexed_Linen.png" } },
+    { "name": "Undead Bones", "id": 436, "category": "Material", "image": { "fandom_wiki_image_path": "0/0e/Undead_Bones.png" } },
+    { "name": "Ectogems", "id": 181, "category": "Material", "image": { "fandom_wiki_image_path": "0/07/Ectogems.png" } },
+    { "name": "Cursedconut Leaves", "id": 190, "category": "Material", "image": { "fandom_wiki_image_path": "3/3e/Cursedconut_Leaves.png" } },
+    { "name": "Tombstone Eye", "id": 321, "category": "Material", "image": { "fandom_wiki_image_path": "9/90/Tombstone_Eye.png" } },
+    { "name": "Spectral Fabric", "id": 638, "category": "Material", "image": { "fandom_wiki_image_path": "f/f0/Spectral_Fabric.png" } },
+    { "name": "Bloodslime Residus", "id": 738, "category": "Material", "image": { "fandom_wiki_image_path": "e/e1/Itm_material_slime_residus.png" } },
     {
       "name": "Blood Pearls",
       "id": 138,
@@ -28,7 +27,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1b/Blood_Pearls.png" }
     },
     {
       "name": "Bloody Cookies",
@@ -47,7 +47,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b6/Bloody_Cookies.png" }
     },
     {
       "name": "Coco Cookies",
@@ -66,7 +67,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/fe/Coco_Cookies.png" }
     },
     {
       "name": "Eldritch Croissant",
@@ -91,7 +93,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/73/Eldritch_Croissant.png" }
     },
     {
       "name": "Ghostly Cookies",
@@ -110,7 +113,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f5/Ghostly_Cookies.png" }
     },
     {
       "name": "Jackie's",
@@ -128,7 +132,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/9e/Jackie%27s.png" }
     },
     {
       "name": "Koko Jinx",
@@ -146,7 +151,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d4/Koko_Jinx.png" }
     },
     {
       "name": "Pumpkin Bread",
@@ -177,7 +183,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/7b/Pumpkin_Bread.png" }
     },
     {
       "name": "Pumpkin Cookies",
@@ -196,10 +203,11 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c5/Pumpkin_Cookies.png" }
     },
     {
-      "name": "Sweet O'wisp",
+      "name": "Sweet O' Wisp",
       "id": 340,
       "category": "Consumables",
       "license_amount": 500,
@@ -214,7 +222,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b7/Sweet_o%25_27_Wisp.png" }
     },
     {
       "name": "Hexed Boots",
@@ -233,7 +242,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a5/Hexed_Boots.png" }
     },
     {
       "name": "Hexed Garb",
@@ -252,7 +262,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/0c/Hexed_Garb.png" }
     },
     {
       "name": "Hexed Hat",
@@ -271,7 +282,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/2c/Hexed_Hat.png" }
     },
     {
       "name": "Hexed Mace",
@@ -290,7 +302,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/af/Hexed_Mace.png" }
     },
     {
       "name": "Corrupted Diary",
@@ -327,7 +340,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/69/Corrupted_Diary.png" }
     },
     {
       "name": "Bloody Berry",
@@ -337,7 +351,7 @@
       "recipe": {
         "ingredient": [
           { "name": "Bloodberry Slime", "quantity": 3, "id": 139 },
-          { "name": "Bloodslime Residue", "quantity": 2, "id": 141 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
           { "name": "Ectoplasm", "quantity": 4, "id": 142 }
         ],
         "craft_amount": 3
@@ -380,7 +394,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f5/Dread_Kokolada.png" }
     },
     {
       "name": "Mad Screecher Spectral",
@@ -430,7 +445,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O'wisp" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O'wisp" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/e1/Essence_of_Undeath.png" }
     },
     {
       "name": "Pumpkin Pie",
@@ -463,7 +479,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/7a/Itm_consum_cocktail_spectral.png" }
     },
     {
       "name": "Black Catula Mask",
@@ -833,7 +850,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/44/Spectral_Blade.png" }
     },
     {
       "name": "White Catula Mask",
@@ -888,7 +906,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Pumpkin Mimic" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Pumpkin Mimic" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/9b/Fig_pumpkin.png" }
     },
     {
       "name": "Figurine: Animated Tombstone",
@@ -906,7 +925,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/25/Fig_tombstone.png" }
     },
     {
       "name": "Figurine: Cursedconut",
@@ -924,7 +944,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/82/Itm_mat_figurine_cursedconut.png" }
     },
     {
       "name": "Figurine: Cursedconut Nut",
@@ -942,7 +963,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f3/Fig_cursedconut_nut.png" }
     },
     {
       "name": "Figurine: Diseased Corpse",
@@ -960,7 +982,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Diseased Corpse" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Diseased Corpse" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/bb/Fig_zombie_green.png" }
     },
     {
       "name": "Figurine: Dread Wisp",
@@ -978,7 +1001,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/9c/Fig_wisp_blue.png" }
     },
     {
       "name": "Figurine: Scarecrow",
@@ -996,7 +1020,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f6/Itm_mat_figurine_scarecrow.png" }
     },
     {
       "name": "Figurine: Soulfire Tombstone",
@@ -1014,7 +1039,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/fa/Fig_tombstone_soulfire.png" }
     },
     {
       "name": "Figurine: Spiky Bloodslime",
@@ -1024,7 +1050,7 @@
       "recipe": {
         "ingredient": [
           { "name": "Anthracite", "quantity": 2, "id": 235 },
-          { "name": "Bloodslime Residue", "quantity": 2, "id": 141 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
           { "name": "Slime Extract", "quantity": 1, "id": 173 }
         ],
         "craft_amount": 1
@@ -1032,7 +1058,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/98/Fig_bloodslime_spiky.png" }
     },
     {
       "name": "Figurine: Will O' Wisp",
@@ -1050,7 +1077,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c8/Itm_mat_figurine_wisp.png" }
     },
     {
       "name": "Figurine: Zombie",
@@ -1068,7 +1096,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/2b/Itm_mat_figurine_zombie.png" }
     },
     {
       "name": "Darkbloom Tunic",
@@ -1082,7 +1111,8 @@
           { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/fa/Darkbloom_Tunic.png" }
     },
     { "name": "Tombstone Fragment", "id": 740, "category": "Material" },
     {
@@ -1097,9 +1127,10 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "5/59/Darkbloom_Robe.png" }
     },
-    { "name": "Broken Scythe", "id": 742, "category": "Material" },
+    { "name": "Broken Scythe", "id": 742, "category": "Material", "image": { "fandom_wiki_image_path": "a/a3/Broken_Scythe.png" } },
     {
       "name": "Darkbloom Anklet",
       "id": 743,
@@ -1111,9 +1142,10 @@
           { "name": "Spectral Residus", "quantity": 2, "id": 744 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "e/ef/Darkbloom_Anklet.png" }
     },
-    { "name": "Spectral Residus", "id": 744, "category": "Material" },
+    { "name": "Spectral Residus", "id": 744, "category": "Material", "image": { "fandom_wiki_image_path": "d/d6/Spectral-Residus1.png" } },
     {
       "name": "Darkbloom Necklace",
       "id": 745,
@@ -1126,7 +1158,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "b/bd/Darkbloom_Necklace.png" }
     },
     {
       "name": "Darkbloom Headband",
@@ -1140,7 +1173,8 @@
           { "name": "Tombstone Eye", "quantity": 1, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "2/21/Darkbloom_Headband.png" }
     },
     {
       "name": "Darkbloom Mask",
@@ -1153,9 +1187,10 @@
           { "name": "Hexed Linen", "quantity": 2, "id": 492 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "d/d0/Darkbloom_Mask.png" }
     },
-    { "name": "Cursedconut Roots", "id": 748, "category": "Material" },
+    { "name": "Cursedconut Roots", "id": 748, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Cursedconut_Roots.png" } },
     {
       "name": "Cultist Tunic",
       "id": 749,
@@ -1224,7 +1259,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "8/8f/Darkbloom_Chakram.png" }
     },
     {
       "name": "Darkbloom Kama",
@@ -1252,7 +1288,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "d/d8/Darkbloom_Sword.png" }
     },
     {
       "name": "Pumpkin Donut",
@@ -1327,7 +1364,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "4/42/Spectral_Cheesecake.png" }
     },
     {
       "name": "Bloodberry Flan",
@@ -1505,7 +1543,7 @@
         "craft_amount": 1
       }
     },
-    { "name": "Cursedconut Log", "id": 773, "category": "Material" },
+    { "name": "Cursedconut Log", "id": 773, "category": "Material", "image": { "fandom_wiki_image_path": "6/68/Itm_material_cursedconut_log.png" } },
     {
       "name": "Headless Spring",
       "id": 774,

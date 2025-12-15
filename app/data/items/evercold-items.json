@@ -1,9 +1,20 @@
 {
   "items": [
-    { "name": "Cocoa", "id": 624, "category": "Material", "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }] },
-    { "name": "Enchanted Gingerbread Dough", "id": 196, "category": "Material" },
-    { "name": "Evercold Crystals", "id": 202, "category": "Material" },
-    { "name": "Enchanted Yarn", "id": 372, "category": "Material" },
+    {
+      "name": "Cocoa",
+      "id": 624,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Dwarf Cocoa Seed" }],
+      "image": { "fandom_wiki_image_path": "8/8d/Cocoa.png" }
+    },
+    {
+      "name": "Enchanted Gingerbread Dough",
+      "id": 196,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "b/b8/Enchanted_Gingerbread_Dough.png" }
+    },
+    { "name": "Evercold Crystals", "id": 202, "category": "Material", "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" } },
+    { "name": "Enchanted Yarn", "id": 372, "category": "Material", "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" } },
     { "name": "Frozen Documents", "id": 823, "category": "Material" },
     {
       "name": "Chocolate",
@@ -14,7 +25,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/df/Chocolate.png" }
     },
     {
       "name": "Chocolate Cookies",
@@ -32,7 +44,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b4/Chocolate_Cookies.png" }
     },
     {
       "name": "Chocolate Croissant",
@@ -60,7 +73,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b4/Chocolate_Croissant.png" }
     },
     {
       "name": "Chocolate Chips Ice Cream",
@@ -95,7 +109,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/42/Dark_Chocolate.png" }
     },
     {
       "name": "Enchanted Gingerbread Loaf",
@@ -112,7 +127,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/74/Enchanted_Gingerbread_Loaf.png" }
     },
     {
       "name": "Evercold Arrows",
@@ -130,7 +146,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/0b/Evercold_Arrows.png" }
     },
     {
       "name": "Evercold Oil",
@@ -159,7 +176,8 @@
           ],
           "craft_amount": 60
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/cf/Evercold_Oil.png" }
     },
     {
       "name": "Evercold Chocolate",
@@ -177,7 +195,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/e2/Evercold_Chocolate.png" }
     },
     {
       "name": "Evercold Gingerbread Biscuits",
@@ -195,7 +214,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/49/Evercold_Gingerbread_Biscuits.png" }
     },
     {
       "name": "Evercold Milk",
@@ -212,7 +232,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/84/Evercold_Milk.png" }
     },
     {
       "name": "Evercold Snow Balls",
@@ -229,7 +250,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f9/Evercold_Snow_Balls.png" }
     },
     {
       "name": "Gingerbread Chocolate Cookies",
@@ -247,7 +269,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/3f/Gingerbread_Chocolate_Cookies.png" }
     },
     {
       "name": "Gingerbread Cookies",
@@ -265,7 +288,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/90/Gingerbread_Cookies.png" }
     },
     {
       "name": "Health Chocolate",
@@ -283,7 +307,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a1/Health_Chocolate.png" }
     },
     {
       "name": "Hot Chocolate",
@@ -298,7 +323,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Sell 100 Chocolate" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Sell 100 Chocolate" }],
+      "image": { "fandom_wiki_image_path": "b/b0/Hot_Chocolate.png" }
     },
     {
       "name": "Mana Chocolate",
@@ -316,7 +342,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/42/Mana_Chocolate.png" }
     },
     {
       "name": "Milk Chocolate",
@@ -333,7 +360,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1d/Milk_Chocolate.png" }
     },
     {
       "name": "Potion of Evercold Breath",
@@ -348,7 +376,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Sell 150 Evercold Milk" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Sell 150 Evercold Milk" }],
+      "image": { "fandom_wiki_image_path": "f/f9/Potion_of_Evercold_Breath.png" }
     },
     {
       "name": "Potion of Fire Resistance",
@@ -366,7 +395,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/2e/Potion_of_Fire_Resistance.png" }
     },
     {
       "name": "Potion of Gingerbread Armor",
@@ -384,7 +414,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/82/Potion_of_Gingerbread_Armor.png" }
     },
     {
       "name": "Prescient Chocolate",
@@ -402,7 +433,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/87/Prescient_Chocolate.png" }
     },
     {
       "name": "Strength Chocolate",
@@ -422,7 +454,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/85/Strenght_Chocolate.png" }
     },
     {
       "name": "White Chocolate",
@@ -439,7 +472,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/6a/White_Chocolate.png" }
     },
     {
       "name": "Evercold Sword",
@@ -457,7 +491,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/29/Evercold_Sword.png" }
     },
     {
       "name": "Jelly Winter Gloves",
@@ -474,7 +509,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f8/Jelly_Winter_Gloves_%28Green%29.png" }
     },
     {
       "name": "Jelly Winter Hat",
@@ -491,7 +527,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/4e/Jelly_Winter_Hat_%28Green%29.png" }
     },
     {
       "name": "Jelly Winter Pull",
@@ -508,7 +545,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f1/Jelly_Winter_Pull_%28Green%29.png" }
     },
     {
       "name": "Jelly Winter Scarf",
@@ -525,7 +563,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/05/Jelly_Winter_Scarf_%28Green%29.png" }
     },
     {
       "name": "Chocolate Brownies",
@@ -841,7 +880,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "5/5e/Evercold_Dagger.png" }
     },
     {
       "name": "Evercold Staff",
@@ -980,7 +1020,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Ancient" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Ancient" }],
+      "image": { "fandom_wiki_image_path": "0/0c/Itm_mat_figurine_yetib.png" }
     },
     {
       "name": "Figurine: Frostbeard Yeti",
@@ -995,7 +1036,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Yeti" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Yeti" }],
+      "image": { "fandom_wiki_image_path": "c/c0/Itm_mat_figurine_yetia.png" }
     },
     {
       "name": "Figurine: Frostbeard Youngling",
@@ -1010,7 +1052,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Youngling" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Youngling" }],
+      "image": { "fandom_wiki_image_path": "1/1f/Itm_mat_figurine_yetic.png" }
     },
     {
       "name": "Figurine: Icemazon Duelist",
@@ -1025,7 +1068,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Dualist" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Dualist" }],
+      "image": { "fandom_wiki_image_path": "d/dd/Itm_mat_figurine_sistera.png" }
     },
     {
       "name": "Figurine: Icemazon Guardian",
@@ -1043,7 +1087,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian" },
         { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c4/Itm_mat_figurine_sisterc.png" }
     },
     {
       "name": "Figurine: Icemazon Soother",
@@ -1058,7 +1103,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Soother" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Soother" }],
+      "image": { "fandom_wiki_image_path": "6/6e/Itm_mat_figurine_sisterb.png" }
     },
     {
       "name": "Figurine: Mimiking",
@@ -1073,7 +1119,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seeds" }],
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_mat_figurine_mimiking.png" }
     },
     {
       "name": "Figurine: Mimiqueen",
@@ -1088,7 +1135,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "0/06/Itm_mat_figurine_mimiqueen.png" }
     },
     {
       "name": "Figurine: The Sculptor",
@@ -1096,7 +1144,8 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Evercold Crystals", "quantity": 10, "id": 202 }], "craft_amount": 1 },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Scultpor" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Scultpor" }],
+      "image": { "fandom_wiki_image_path": "8/83/Itm_mat_figurine_sculptor.png" }
     },
     {
       "name": "Chocolate Ice Cream",
@@ -1113,7 +1162,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/41/Chocolate_Ice_Cream.png" }
     },
     {
       "name": "Evercold Ice Cream",
@@ -1507,7 +1557,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/ef/Itm_fig_gustave.png" }
     },
     {
       "name": "Figurine: Jane",
@@ -1524,7 +1575,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/04/Itm_fig_jane.png" }
     },
     {
       "name": "Figurine: Jelly",
@@ -1541,7 +1593,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/ea/Itm_fig_jelly.png" }
     },
     {
       "name": "Figurine: John",
@@ -1558,7 +1611,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1f/Itm_fig_john.png" }
     },
     {
       "name": "Figurine: Evercold Observer",
@@ -1573,7 +1627,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Observer" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Observer" }],
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_fig_winter_sprite_03.png" }
     },
     {
       "name": "Figurine: Evercold Spectre",
@@ -1588,7 +1643,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Spectre" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Spectre" }],
+      "image": { "fandom_wiki_image_path": "0/0d/Itm_fig_winter_sprite_01.png" }
     },
     {
       "name": "Figurine: Evercold Sprite",
@@ -1603,7 +1659,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Sprite" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Sprite" }],
+      "image": { "fandom_wiki_image_path": "1/1c/Itm_fig_winter_sprite_02.png" }
     },
     {
       "name": "Elder Snowbinder Cape",
@@ -1662,7 +1719,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "8/88/Elder_Snowbinder_Scarf.png" }
     },
     {
       "name": "Pair of Evercold Daggers",
@@ -1677,7 +1735,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "2/22/Pair_of_Evercold_Daggers.png" }
     },
     {
       "name": "Mechkitty",
@@ -1699,28 +1758,32 @@
       "id": 363,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "c/c2/Shiny_Jelly_Winter_Gloves.png" }
     },
     {
       "name": "Shiny Jelly Winter Hat",
       "id": 364,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "b/b0/Shiny_Jelly_Winter_Hat.png" }
     },
     {
       "name": "Shiny Jelly Winter Pull",
       "id": 365,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "1/16/Shiny_Jelly_Winter_Pull.png" }
     },
     {
       "name": "Shiny Jelly Winter Scarf",
       "id": 366,
       "category": "Gear",
       "license_amount": 10,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seeds" }],
+      "image": { "fandom_wiki_image_path": "2/20/Shiny_Jelly_Winter_Scarf.png" }
     },
     {
       "name": "Aetheric Coolant",
