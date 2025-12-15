@@ -98,6 +98,10 @@ div.settings-item {
   width: 50%;
 }
 
+div.settings-group {
+  margin: 15px;
+}
+
 div.catalog-view {
   display: grid;
   grid-template-columns: 150px auto 600px;

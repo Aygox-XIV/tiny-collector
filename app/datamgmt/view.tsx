@@ -1,9 +1,9 @@
-import { loadFile, saveFile } from '../common/files';
+import { BASE_FILE_TYPES, loadFile, saveFile } from '../common/files';
 import {
+    REAL_FILES,
     setDbItems,
     setDbItemsAndCatalogs,
     useDatabase,
-    type AltRecipe,
     type CatalogDef,
     type CatalogList,
     type Database,
@@ -45,6 +45,8 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
     }
     const saveItemData = () => saveFile(JSON.stringify(extractItemData(db)));
     const saveNewItemData = () => saveFile(JSON.stringify(extractNewItemData(db)));
+    const saveItemDataSubset = (original: ItemData, fileName: string) =>
+        saveFile(JSON.stringify(extractItemDataSubset(db, original)), BASE_FILE_TYPES, fileName);
     const saveCatalogs = () => saveFile(JSON.stringify(extractCatalogList(db)));
     const loadFromLicenseCalc = () => {
         loadFile((f) => {
@@ -87,13 +89,27 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             </div>
             <div className="db-mgmt-options">
                 <div className="settings-item" onClick={saveItemData}>
-                    Export item data (one file)
+                    Export all item data (in one file)
                 </div>
                 <div className="settings-item" onClick={saveNewItemData}>
-                    Export new items (one file)
+                    Export new items (in one file)
+                </div>
+                <div className="settings-group">
+                    Subset item exports
+                    {REAL_FILES.itemFiles.map(([itemData, fileName]) => {
+                        return (
+                            <div
+                                className="settings-item"
+                                onClick={() => saveItemDataSubset(itemData, fileName)}
+                                key={fileName}
+                            >
+                                Export {fileName}
+                            </div>
+                        );
+                    })}
                 </div>
                 <div className="settings-item" onClick={saveCatalogs}>
-                    Export catalogs (one file)
+                    Export all catalogs (in one file)
                 </div>
                 <div className="settings-item" onClick={loadFromLicenseCalc}>
                     Import data from License Calculator (recipes) (will overwrite) [to be deleted]
@@ -115,14 +131,10 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
 
 function extractItemData(db: Database): ItemData {
     let items: Item[] = [];
-    let alt_recipes: AltRecipe[] = [];
     for (const item of Object.values(db.items)) {
         items.push(item);
     }
-    for (const ar of Object.values(db.alt_recipes)) {
-        alt_recipes.push(ar);
-    }
-    return { items, alt_recipes };
+    return { items };
 }
 
 function extractNewItemData(db: Database): ItemData {
@@ -130,6 +142,20 @@ function extractNewItemData(db: Database): ItemData {
     for (const item of Object.values(db.items)) {
         if (item.id > db.maxIdOnFirstLoad) {
             items.push(item);
+        }
+    }
+    return { items };
+}
+
+function extractItemDataSubset(db: Database, original: ItemData) {
+    let items: Item[] = [];
+    let itemsToExport: Set<string> = new Set();
+    for (const item of original.items) {
+        itemsToExport.add(item.id.toString());
+    }
+    for (const id of Object.keys(db.items)) {
+        if (itemsToExport.has(id)) {
+            items.push(db.items[id]);
         }
     }
     return { items };

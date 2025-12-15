@@ -26,42 +26,42 @@ import type { Source, SourceType } from './sources';
 /// raw data
 
 export interface FileCollection {
-    readonly itemFiles: ItemData[];
-    readonly catalogFiles: CatalogList[];
-    readonly sourceMetadata: SourceImageList[];
+    readonly itemFiles: [ItemData, string][];
+    readonly catalogFiles: [CatalogList, string][];
+    readonly sourceMetadata: [SourceImageList, string][];
 }
 
 const SAMPLE_FILES: FileCollection = {
-    itemFiles: [sampleItems as ItemData],
-    catalogFiles: [sampleCatalogs as CatalogList],
-    sourceMetadata: [sampleMetadata as SourceImageList],
+    itemFiles: [[sampleItems as ItemData, 'sample-data.json']],
+    catalogFiles: [[sampleCatalogs as CatalogList, 'sample-catalogs.json']],
+    sourceMetadata: [[sampleMetadata as SourceImageList, 'sample-source-images.json']],
 };
 
 // It would have been nice if this could be a config somewhere,
 // but static imports yield the fewest DB reloads, and this shouldn't change much.
 // (maybe a new items file once in a while if a new patch is large, or a new event is added)
-const REAL_FILES: FileCollection = {
+export const REAL_FILES: FileCollection = {
     itemFiles: [
-        itemFileEvercold as ItemData,
-        itemFileFlooded as ItemData,
-        itemFileMain1 as ItemData,
-        itemFileMain2 as ItemData,
-        itemFilePhantom as ItemData,
-        itemFileQuest as ItemData,
-        itemFileSun as ItemData,
+        [itemFileEvercold as ItemData, 'evercold-items.json'],
+        [itemFileFlooded as ItemData, 'flooded-expedition-items.json'],
+        [itemFileMain1 as ItemData, 'main-items-1.json'],
+        [itemFileMain2 as ItemData, 'main-items-2.json'],
+        [itemFilePhantom as ItemData, 'phantom-items.json'],
+        [itemFileQuest as ItemData, 'quest-items.json'],
+        [itemFileSun as ItemData, 'sun-festival-items.json'],
     ],
     catalogFiles: [
-        catalogFileMain as CatalogList,
-        catalogFileQuest as CatalogList,
-        catalogFileSun as CatalogList,
-        catalogFileFlooded as CatalogList,
-        catalogFilePhantom as CatalogList,
-        catalogFileEvercold as CatalogList,
+        [catalogFileMain as CatalogList, 'evercold-catalog.json'],
+        [catalogFileQuest as CatalogList, 'quest-catalog.json'],
+        [catalogFileSun as CatalogList, 'sun-festival-catalog.json'],
+        [catalogFileFlooded as CatalogList, 'flooded-expedition-catalog.json'],
+        [catalogFilePhantom as CatalogList, 'phantom-catalog.json'],
+        [catalogFileEvercold as CatalogList, 'evercold-catalog.json'],
     ],
     sourceMetadata: [
-        sourceMetaFileMain as SourceImageList,
-        sourceMetaFileWeekly as SourceImageList,
-        sourceMetaFileYearly as SourceImageList,
+        [sourceMetaFileMain as SourceImageList, 'main-source-metadata.json'],
+        [sourceMetaFileWeekly as SourceImageList, 'weekly-event-source-metadata.json'],
+        [sourceMetaFileYearly as SourceImageList, 'yearly-event-source-metadata.json'],
     ],
 };
 
@@ -237,7 +237,7 @@ function createDB(files: FileCollection): Database {
     let maxId = -1;
     let itemNameToIdMap: Record<string, number> = {};
 
-    files.sourceMetadata.forEach((sourceImages) => {
+    files.sourceMetadata.forEach(([sourceImages, _]) => {
         sourceImages.images.forEach((i) => {
             if (i.src) {
                 sourceImageMap[sourceId(i)] = i.src;
@@ -245,7 +245,7 @@ function createDB(files: FileCollection): Database {
         });
     });
 
-    files.itemFiles.forEach((itemData) => {
+    files.itemFiles.forEach(([itemData, _]) => {
         itemData.items.forEach((i) => {
             // TODO: support placeholder (negative?) ID so manual additions don't need to find the next available ID?
             // Or just use item count + 100 as next ID, which should also work
@@ -277,7 +277,7 @@ function createDB(files: FileCollection): Database {
     });
 
     let catalogs: Record<string, CatalogDef> = {};
-    files.catalogFiles.forEach((catalogData) => {
+    files.catalogFiles.forEach(([catalogData, _]) => {
         catalogData.catalogs.forEach((c) => {
             if (catalogs[c.key]) {
                 console.error('Duplicate catalog key ' + c.key);
