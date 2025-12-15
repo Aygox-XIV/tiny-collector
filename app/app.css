@@ -239,7 +239,7 @@ div.with-license {
   );
 }
 
-.name-tag {
+div.catalog-item > .item-name {
   width: 100%;
   overflow-y: visible;
   max-height: 25px;
@@ -413,7 +413,7 @@ img.event-selector {
 }
 
 .event-selection > .selected {
-  border: 2px solid black;
+  border: 2px solid green;
 }
 
 div.toggle-row {
@@ -498,6 +498,12 @@ div.droplist-item {
   grid-template-columns: 30px 30px auto 30px 50px;
   gap: 4px;
   background-color: rgb(239, 221, 197);
+}
+
+div.item-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 div.collected {

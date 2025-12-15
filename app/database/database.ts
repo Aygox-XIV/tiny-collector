@@ -181,14 +181,12 @@ export function isCollectable(item: Item) {
     switch (item.category) {
         case 'Decor':
         case 'Quest':
+        case 'Plant':
             return true;
         case 'Consumables':
         case 'Gear':
         case 'Material':
             return !item.license_amount && !item.recipe;
-        case 'Plant':
-            // TODO: figure out how to represent now-this-can-be-bought-from-Lily?
-            return false;
     }
 }
 
@@ -223,6 +221,7 @@ function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
     console.log('yield new db');
     const db = createDB(REAL_FILES);
+    // TODO: print inconsistencies in the db. (e.g. sources w/o kind/fragment info)
     return db;
 }
 

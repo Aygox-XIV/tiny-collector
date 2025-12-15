@@ -24,6 +24,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
 
     // TODO: update allowed categories dynamically based on actual items in the category
     // (or just have the data processor do that?)
+    // TODO: make the item category selector work like the other tabs.
     let allowedCategories: Set<Category> = new Set(['Material', 'Gear', 'Consumables', 'Decor', 'Quest', 'Plant']);
     if (filter.catalogView && db.catalogs[filter.catalogView].categories) {
         allowedCategories = new Set(db.catalogs[filter.catalogView].categories);

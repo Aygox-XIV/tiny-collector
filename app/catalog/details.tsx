@@ -1,5 +1,6 @@
 import { setLicenseAmount, useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
+import { ItemName } from '../common/itemname';
 import { EditingProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database/database';
@@ -27,7 +28,7 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     // TODO: recipe next to the icon, items link to item details
     return (
         <div className="details-panel">
-            <div className="detail-name">{item.name}</div>
+            <ItemName item={item} />
             <Icon src={item.image} />
             <StatusIcons id={id} />
             {item.license_amount && (

@@ -3,6 +3,7 @@ import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
 import { changeStatus, useCollectedItem } from '../collection';
 import { FragmentIcon } from '../common/fragmenticon';
+import { ItemName } from '../common/itemname';
 import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { CollectableStatusIcon, LicenseStatusIcon, RecipeStatusIcon } from '../common/statusicons';
@@ -79,11 +80,11 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
         <div className={'droplist-item ' + collectionClass}>
             <KindIcon kind={drop.kind} />
             <FragmentIcon fragment={drop.fragment} />
-            {item.name}
+            <ItemName item={item} />
             {drop.kind == 'recipe' && item.recipe && (
                 <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />
             )}
-            {drop.kind == 'item' && !isCollectable(item) && (
+            {drop.kind == 'item' && item.license_amount && (
                 <LicenseStatusIcon selected={collectedState.status.licensed} onClick={toggleLicense} />
             )}
             {isCollectable(item) && (
