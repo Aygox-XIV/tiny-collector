@@ -78,7 +78,6 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
     };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     // requires things to not break on empty image defs
-    // TODO: export items using existing file setup?
     return (
         <div className="db-data-management center-content">
             <div className="db-mgmt-heading">
@@ -149,13 +148,13 @@ function extractNewItemData(db: Database): ItemData {
 
 function extractItemDataSubset(db: Database, original: ItemData) {
     let items: Item[] = [];
-    let itemsToExport: Set<string> = new Set();
     for (const item of original.items) {
-        itemsToExport.add(item.id.toString());
-    }
-    for (const id of Object.keys(db.items)) {
-        if (itemsToExport.has(id)) {
-            items.push(db.items[id]);
+        if (db.items[item.id]) {
+            items.push(db.items[item.id]);
+        } else {
+            console.warn(
+                'Did not export item ' + item.name + ' with id ' + item.id + ". It's missing in the database.",
+            );
         }
     }
     return { items };
