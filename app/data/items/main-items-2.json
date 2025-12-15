@@ -17,7 +17,10 @@
       "name": "Ashen Wheat",
       "id": 1208,
       "category": "Plant",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" }]
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ]
     },
     {
       "name": "Arcanite Toothfish Skull",
@@ -31,9 +34,15 @@
       "name": "Huge Monster Scale",
       "id": 874,
       "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
       "image": { "fandom_wiki_image_path": "8/8b/Itm_material_monster_scale_giant.png" }
     },
-    { "name": "Empty Bottle", "id": 875, "category": "Material" },
+    {
+      "name": "Empty Bottle",
+      "id": 875,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+    },
     { "name": "Aethero Insulation Empty Bottle", "id": 876, "category": "Material" },
     { "name": "Trading Scrip", "id": 877, "category": "Material" },
     { "name": "Coastal Scrip", "id": 878, "category": "Material" },
@@ -41,13 +50,35 @@
     { "name": "Archipelago Botanical Copendum I", "id": 880, "category": "Material" },
     { "name": "Archipelago Botanical Copendum II", "id": 881, "category": "Material" },
     { "name": "Archipelago Botanical Copendum III", "id": 882, "category": "Material" },
-    { "name": "Ancient Text", "id": 883, "category": "Material", "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_ancient_text_basic.png" } },
+    {
+      "name": "Ancient Text",
+      "id": 883,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_ancient_text_basic.png" }
+    },
     { "name": "Ancient HIstory Records", "id": 884, "category": "Material" },
     { "name": "Figure: Bloodslime", "id": 885, "category": "Material" },
     { "name": "Cryptozoology Treatrise", "id": 886, "category": "Material" },
-    { "name": "Partially Translated Book", "id": 887, "category": "Material" },
-    { "name": "Ancient Novel", "id": 888, "category": "Material" },
-    { "name": "Inert Runestone", "id": 889, "category": "Material", "image": { "fandom_wiki_image_path": "d/d0/Itm_material_inert_runestone.png" } },
+    {
+      "name": "Partially Translated Book",
+      "id": 887,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+    },
+    {
+      "name": "Ancient Novel",
+      "id": 888,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+    },
+    {
+      "name": "Inert Runestone",
+      "id": 889,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "d/d0/Itm_material_inert_runestone.png" }
+    },
     {
       "name": "Runestone Fragments",
       "id": 890,
@@ -55,11 +86,22 @@
       "image": { "fandom_wiki_image_path": "0/01/Itm_material_runestone_fragments.png" }
     },
     { "name": "Mnemonic Crystal", "id": 891, "category": "Material", "image": { "fandom_wiki_image_path": "4/43/Itm_material_ancient_crystal.png" } },
-    { "name": "Ancient Alloy", "id": 892, "category": "Material", "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_alloy.png" } },
+    {
+      "name": "Ancient Alloy",
+      "id": 892,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_alloy.png" }
+    },
     { "name": "Golden Coin", "id": 893, "category": "Material", "image": { "fandom_wiki_image_path": "c/cc/Itm_material_ancient_gold_coin.png" } },
     { "name": "Silver Coin", "id": 894, "category": "Material", "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_silver_coin.png" } },
-    { "name": "Crabantula Web", "id": 895, "category": "Material", "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" } },
-    { "name": "Figurine: Seasline", "id": 896, "category": "Material" },
+    {
+      "name": "Crabantula Web",
+      "id": 895,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
+    },
     { "name": "Mages & Monsters 3,5 Edition Rulebook", "id": 897, "category": "Material" },
     { "name": "M&M Module 1: The Arcane Tower", "id": 898, "category": "Material" },
     { "name": "Figurine: Will O'Wisp", "id": 899, "category": "Material" },
@@ -112,16 +154,43 @@
     { "name": "Coral Crab Chunk", "id": 921, "category": "Material" },
     { "name": "Crabantula Silk", "id": 922, "category": "Material" },
     { "name": "Ashen Flour", "id": 923, "category": "Material" },
-    { "name": "Coffee Berries", "id": 924, "category": "Material", "image": { "fandom_wiki_image_path": "f/f8/Coffee_Berries.png" } },
+    {
+      "name": "Coffee Berries",
+      "id": 924,
+      "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f8/Coffee_Berries.png" }
+    },
     { "name": "Coffee", "id": 1217, "category": "Plant", "image": { "fandom_wiki_image_path": "6/67/Coffee_%28Seed%29.png" } },
     { "name": "Time Stalk", "id": 925, "category": "Material" },
     { "name": "Potted Aetheric Flowers", "id": 926, "category": "Material" },
     { "name": "Potted Violetines", "id": 927, "category": "Material" },
     { "name": "Potted Reddchidaes", "id": 928, "category": "Material" },
     { "name": "Potted Silverblooms", "id": 929, "category": "Material" },
-    { "name": "Sporetower Figurine", "id": 930, "category": "Material", "image": { "fandom_wiki_image_path": "f/f3/Sporetower_Figurine.png" } },
-    { "name": "Sunbiter Figurine", "id": 931, "category": "Material", "image": { "fandom_wiki_image_path": "a/a5/Sunbiter_Figurine.png" } },
-    { "name": "Field Stalker Figurine", "id": 932, "category": "Material", "image": { "fandom_wiki_image_path": "a/ae/Field_Stalker_Figurine.png" } },
+    {
+      "name": "Sporetower Figurine",
+      "id": 930,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "image": { "fandom_wiki_image_path": "f/f3/Sporetower_Figurine.png" }
+    },
+    {
+      "name": "Sunbiter Figurine",
+      "id": 931,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "image": { "fandom_wiki_image_path": "a/a5/Sunbiter_Figurine.png" }
+    },
+    {
+      "name": "Field Stalker Figurine",
+      "id": 932,
+      "category": "Material",
+      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "a/ae/Field_Stalker_Figurine.png" }
+    },
     { "name": "Infinite Stock", "id": 933, "category": "Consumables" },
     { "name": "Healing Draught", "id": 934, "category": "Consumables", "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" } },
     { "name": "Swift Crafting", "id": 935, "category": "Consumables", "image": { "fandom_wiki_image_path": "d/d3/Swift_Crafting.png" } },
@@ -286,9 +355,24 @@
     { "name": "Cheese Mix", "id": 1090, "category": "Consumables" },
     { "name": "Crate of Screechers", "id": 1091, "category": "Consumables" },
     { "name": "Coffee Drink", "id": 1092, "category": "Consumables" },
-    { "name": "Kraken Steak", "id": 1093, "category": "Consumables" },
-    { "name": "Moonfish Steak", "id": 1094, "category": "Consumables" },
-    { "name": "Fungal Steak", "id": 1095, "category": "Consumables" },
+    {
+      "name": "Kraken Steak",
+      "id": 1093,
+      "category": "Consumables",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+    },
+    {
+      "name": "Moonfish Steak",
+      "id": 1094,
+      "category": "Consumables",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+    },
+    {
+      "name": "Fungal Steak",
+      "id": 1095,
+      "category": "Consumables",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
+    },
     { "name": "Tombstones Blues", "id": 1096, "category": "Consumables" },
     { "name": "Spectral Bourguinon", "id": 1097, "category": "Consumables" },
     { "name": "Spectral Noodle", "id": 1098, "category": "Consumables" },
@@ -359,6 +443,12 @@
     { "name": "Biscuitmaker", "id": 1163, "category": "Gear" },
     { "name": "Flower Pot", "id": 1164, "category": "Gear" },
     { "name": "Circular Lamp", "id": 1165, "category": "Gear" },
-    { "name": "Canvas Bag", "id": 1166, "category": "Gear" }
+    { "name": "Canvas Bag", "id": 1166, "category": "Gear" },
+    {
+      "name": "Aetheric Salt",
+      "id": 896,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+    }
   ]
 }

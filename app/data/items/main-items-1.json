@@ -50,6 +50,7 @@
       "name": "Condensed Arcane Aether",
       "id": 105,
       "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
       "image": { "fandom_wiki_image_path": "5/56/Condensed_Arcane_Aether.png" }
     },
     {
@@ -122,7 +123,11 @@
       "name": "Purified Water",
       "id": 110,
       "category": "Material",
-      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "source": [
+        { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ],
       "image": { "fandom_wiki_image_path": "3/30/Purified_Water.png" }
     },
     {
@@ -193,10 +198,16 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
       ]
     },
-    { "name": "Kraken Grease", "id": 115, "category": "Material", "image": { "fandom_wiki_image_path": "2/27/Itm_material_kraken_grease.png" } },
+    {
+      "name": "Kraken Grease",
+      "id": 115,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "2/27/Itm_material_kraken_grease.png" }
+    },
     {
       "name": "Rice",
       "id": 118,
@@ -310,7 +321,13 @@
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
     },
-    { "name": "Summergreen Leaves", "id": 129, "category": "Material", "image": { "fandom_wiki_image_path": "d/d5/Summergreen_Leaves.png" } },
+    {
+      "name": "Summergreen Leaves",
+      "id": 129,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "d/d5/Summergreen_Leaves.png" }
+    },
     {
       "name": "Bana Ice Cream",
       "id": 130,
@@ -342,22 +359,41 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
     },
-    { "name": "Aetheric Water", "id": 132, "category": "Material", "image": { "fandom_wiki_image_path": "7/79/Itm_material_water_aetheric.png" } },
+    {
+      "name": "Aetheric Water",
+      "id": 132,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "7/79/Itm_material_water_aetheric.png" }
+    },
     { "name": "Aethero Insulating Empty Bottle", "id": 133, "category": "Material" },
     {
       "name": "Brightmoth Dust",
       "id": 134,
       "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "6/6a/Itm_material_brightmoth_glitter.png" }
     },
-    { "name": "Monster Blood", "id": 135, "category": "Material", "image": { "fandom_wiki_image_path": "2/2a/Itm_material_monster_blood.png" } },
+    {
+      "name": "Monster Blood",
+      "id": 135,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "2/2a/Itm_material_monster_blood.png" }
+    },
     {
       "name": "Blank Scroll Sheets",
       "id": 136,
       "category": "Consumables",
       "license_amount": 300,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 4, "id": 137 }], "craft_amount": 2 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+      ],
       "alt_recipes": [
         {
           "name": "Blank Scroll Sheets+",
@@ -386,7 +422,10 @@
       "name": "Drakegull Egg",
       "id": 144,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
     {
@@ -417,10 +456,19 @@
       "name": "Coast Lemons",
       "id": 153,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ],
       "image": { "fandom_wiki_image_path": "6/6e/Coast_Lemons.png" }
     },
-    { "name": "Snow Lilies", "id": 154, "category": "Material", "image": { "fandom_wiki_image_path": "3/3d/Itm_material_snow_lilies.png" } },
+    {
+      "name": "Snow Lilies",
+      "id": 154,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "3/3d/Itm_material_snow_lilies.png" }
+    },
     {
       "name": "Brioche",
       "id": 155,
@@ -457,7 +505,11 @@
       "name": "Iron",
       "id": 157,
       "category": "Material",
-      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "source": [
+        { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+      ],
       "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
     },
     {
@@ -479,9 +531,10 @@
       "name": "Spices",
       "id": 159,
       "category": "Material",
-      "sources": [
+      "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -500,11 +553,17 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
       ],
       "image": { "fandom_wiki_image_path": "6/67/Itm_consum_poison_constricting.png" }
     },
-    { "name": "Blue Headed Coral", "id": 168, "category": "Material", "image": { "fandom_wiki_image_path": "a/a2/Itm_material_coralpng.png" } },
+    {
+      "name": "Blue Headed Coral",
+      "id": 168,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "a/a2/Itm_material_coralpng.png" }
+    },
     {
       "name": "Eyenemone Venom",
       "id": 169,
@@ -520,7 +579,7 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
       ],
       "image": { "fandom_wiki_image_path": "5/5d/Itm_consum_venom_eyenemone.png" }
     },
@@ -544,7 +603,11 @@
       "name": "Monster Scales",
       "id": 171,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" }],
+      "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" }
     },
     {
@@ -602,7 +665,10 @@
       "name": "Drakegull Meat",
       "id": 177,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "e/e2/Drakegull_Meat.png" }
     },
     { "name": "Sumac Spice", "id": 178, "category": "Material", "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" } },
@@ -751,7 +817,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
       "image": { "fandom_wiki_image_path": "a/a7/Fire_Arrows.png" }
     },
-    { "name": "Firebloom Leaves", "id": 210, "category": "Material", "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" } },
+    {
+      "name": "Firebloom Leaves",
+      "id": 210,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" }
+    },
     {
       "name": "Cinderwheat Flour",
       "id": 211,
@@ -841,7 +913,10 @@
       "name": "Moonfish Filet",
       "id": 216,
       "category": "Material",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" }],
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ],
       "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
     {
@@ -1069,7 +1144,13 @@
       ],
       "image": { "fandom_wiki_image_path": "4/48/Itm_material_kraken_ink.png" }
     },
-    { "name": "Kraken Tentacle", "id": 251, "category": "Material", "image": { "fandom_wiki_image_path": "8/8d/Itm_material_tentacle_kraken.png" } },
+    {
+      "name": "Kraken Tentacle",
+      "id": 251,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "8/8d/Itm_material_tentacle_kraken.png" }
+    },
     {
       "name": "Kraken Chips",
       "id": 252,
@@ -1099,7 +1180,7 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
       ]
     },
     {
@@ -1434,7 +1515,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
       "image": { "fandom_wiki_image_path": "4/49/Mushy_Skewers.png" }
     },
-    { "name": "Brown Heads", "id": 284, "category": "Material", "image": { "fandom_wiki_image_path": "0/05/Brown_Heads.png" } },
+    {
+      "name": "Brown Heads",
+      "id": 284,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "0/05/Brown_Heads.png" }
+    },
     {
       "name": "Noodle Soup",
       "id": 285,
@@ -1719,7 +1806,10 @@
       "name": "Everwood",
       "id": 325,
       "category": "Material",
-      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "source": [
+        { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+      ],
       "image": { "fandom_wiki_image_path": "0/00/Everwood.png" }
     },
     {
@@ -2053,7 +2143,7 @@
       "category": "Gear",
       "license_amount": 850,
       "source": [
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Research", "name": "Archeology" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
       ],
       "image": { "fandom_wiki_image_path": "b/b3/Citizen%27s_Mask.png" }
@@ -2094,7 +2184,11 @@
       "name": "Leather",
       "id": 369,
       "category": "Material",
-      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "source": [
+        { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "3/3d/Leather.png" }
     },
     {
@@ -2193,7 +2287,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d4/Travelling_Boots.png" }
     },
     {
@@ -2528,7 +2625,7 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
       ]
     },
     {
@@ -2545,19 +2642,24 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
       ]
     },
     {
       "name": "Condensed Water Aether",
       "id": 406,
       "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ],
       "image": { "fandom_wiki_image_path": "e/ee/Itm_material_aether_water.png" }
     },
     {
       "name": "Sharp Monster Teeth",
       "id": 407,
       "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
       "image": { "fandom_wiki_image_path": "e/e1/Itm_material_monster_shark_teeth.png" }
     },
     {
@@ -2591,7 +2693,10 @@
       "name": "Monster Bones",
       "id": 422,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" }],
+      "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "f/f7/Itm_material_monster_bones.png" }
     },
     {
@@ -2624,8 +2729,23 @@
       ],
       "image": { "fandom_wiki_image_path": "f/f2/Bone_Dagger.png" }
     },
-    { "name": "Monster Fangs", "id": 425, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Monster_Fangs.png" } },
-    { "name": "Monster Horn", "id": 426, "category": "Material", "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" } },
+    {
+      "name": "Monster Fangs",
+      "id": 425,
+      "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/88/Monster_Fangs.png" }
+    },
+    {
+      "name": "Monster Horn",
+      "id": 426,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" }
+    },
     {
       "name": "Bone Dices",
       "id": 427,
@@ -2658,7 +2778,13 @@
       },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
     },
-    { "name": "Living Vine", "id": 429, "category": "Material", "image": { "fandom_wiki_image_path": "a/a0/Itm_material_vine.png" } },
+    {
+      "name": "Living Vine",
+      "id": 429,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "a/a0/Itm_material_vine.png" }
+    },
     {
       "name": "Bone Gauntlets",
       "id": 430,
@@ -2782,7 +2908,16 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
       "image": { "fandom_wiki_image_path": "5/50/Circlet.png" }
     },
-    { "name": "Rough Emerald", "id": 439, "category": "Material", "image": { "fandom_wiki_image_path": "a/ad/Rough_Emerald.png" } },
+    {
+      "name": "Rough Emerald",
+      "id": 439,
+      "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/ad/Rough_Emerald.png" }
+    },
     {
       "name": "Climbing Kit",
       "id": 440,
@@ -2824,7 +2959,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
       "image": { "fandom_wiki_image_path": "b/b7/Pickaxe.png" }
     },
-    { "name": "Jute", "id": 444, "category": "Material", "image": { "fandom_wiki_image_path": "6/64/Jute.png" } },
+    {
+      "name": "Jute",
+      "id": 444,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "image": { "fandom_wiki_image_path": "6/64/Jute.png" }
+    },
     {
       "name": "Coral Lure",
       "id": 446,
@@ -2856,7 +2997,13 @@
         "craft_amount": 1
       }
     },
-    { "name": "Aetheric Sand", "id": 448, "category": "Material", "image": { "fandom_wiki_image_path": "c/ce/Itm_material_aetheric_sand.png" } },
+    {
+      "name": "Aetheric Sand",
+      "id": 448,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "c/ce/Itm_material_aetheric_sand.png" }
+    },
     {
       "name": "Corralline Dagger",
       "id": 449,
@@ -3100,7 +3247,7 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
       ]
     },
     {
@@ -3421,6 +3568,10 @@
       "name": "Condensed Nature Aether",
       "id": 502,
       "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ],
       "image": { "fandom_wiki_image_path": "f/f5/Itm_material_aether_nature.png" }
     },
     {
@@ -3548,7 +3699,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
       "image": { "fandom_wiki_image_path": "3/3a/Loot_Finder.png" }
     },
-    { "name": "Datablet", "id": 522, "category": "Material", "image": { "fandom_wiki_image_path": "3/37/Datablet.png" } },
+    {
+      "name": "Datablet",
+      "id": 522,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "image": { "fandom_wiki_image_path": "3/37/Datablet.png" }
+    },
     {
       "name": "M&m Module: the Winged Terror",
       "id": 523,
@@ -3564,7 +3721,12 @@
       },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part III - Part 3/6" }]
     },
-    { "name": "Ancient Sketchbook", "id": 524, "category": "Material" },
+    {
+      "name": "Ancient Sketchbook",
+      "id": 524,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+    },
     {
       "name": "Manaweaving Spellbook",
       "id": 525,
@@ -3722,7 +3884,16 @@
       },
       "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
     },
-    { "name": "Aetheric Glass", "id": 539, "category": "Material", "image": { "fandom_wiki_image_path": "a/a0/Itm_material_glass.png" } },
+    {
+      "name": "Aetheric Glass",
+      "id": 539,
+      "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/a0/Itm_material_glass.png" }
+    },
     {
       "name": "Perfected Rubber Ducky",
       "id": 540,
@@ -3836,7 +4007,7 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
       ]
     },
     {
@@ -3854,7 +4025,13 @@
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
-    { "name": "Seastone", "id": 554, "category": "Material", "image": { "fandom_wiki_image_path": "9/93/Itm_material_rawgem_seastone.png" } },
+    {
+      "name": "Seastone",
+      "id": 554,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "9/93/Itm_material_rawgem_seastone.png" }
+    },
     {
       "name": "Seastone Armor",
       "id": 555,
@@ -3986,7 +4163,7 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
-        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
       ]
     },
     {
@@ -4074,7 +4251,16 @@
       "recipe": { "ingredient": [{ "name": "Stone", "quantity": 5, "id": 581 }], "craft_amount": 1 },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Stone", "id": 581, "category": "Material", "image": { "fandom_wiki_image_path": "b/b8/Itm_material_stone_02.png" } },
+    {
+      "name": "Stone",
+      "id": 581,
+      "category": "Material",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/b8/Itm_material_stone_02.png" }
+    },
     {
       "name": "Tentamulet",
       "id": 585,
@@ -4172,7 +4358,12 @@
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
     },
-    { "name": "Bana Leaves", "id": 594, "category": "Material" },
+    {
+      "name": "Bana Leaves",
+      "id": 594,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
+    },
     {
       "name": "Trapper's Mask",
       "id": 595,
@@ -4489,7 +4680,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Samples: Firebloom" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
       ]
     },
     {
@@ -4522,7 +4714,13 @@
       },
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
     },
-    { "name": "Eyenemone", "id": 629, "category": "Material", "image": { "fandom_wiki_image_path": "0/04/Itm_material_eyenemone.png" } },
+    {
+      "name": "Eyenemone",
+      "id": 629,
+      "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "0/04/Itm_material_eyenemone.png" }
+    },
     {
       "name": "Figurine: Arcane Wizard",
       "id": 632,
@@ -4732,6 +4930,7 @@
       "name": "Crabantula Shell",
       "id": 668,
       "category": "Material",
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "4/47/Itm_material_crabantula_shell.png" }
     },
     {
@@ -4923,7 +5122,11 @@
       "id": 1194,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "9/9e/Everspring_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+      ]
     },
     {
       "name": "Rice",
