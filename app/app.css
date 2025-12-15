@@ -40,6 +40,16 @@ div.menu-bar {
   gap: 5px;
 }
 
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 300px;
+}
+
+.header > .note {
+  font-size: small;
+}
+
 div.menu-item {
   text-align: center;
   vertical-align: middle;
