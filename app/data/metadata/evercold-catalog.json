@@ -47,6 +47,11 @@
         ["624", "Cocoa"],
         ["-1", null],
         ["-1", null],
+        ["-1", null],
+        ["148", "Blue Ribbon"],
+        ["229", "Green Ribbon"],
+        ["293", "Pink Ribbon"],
+        ["290", "Orange Ribbon"],
         ["223", "Gingerbread Loaf"],
         ["160", "Chocolate Cake"],
         ["469", "Evercold Bracer"],
@@ -166,10 +171,11 @@
         ["1210", "Winter Emblem"],
         ["1211", "Skin: Deepwinter Sprite"],
         ["1212", "Skin: Deepwinter Spirit"],
-        ["1213", "Cosmetic: Deepwniter Youngling"],
+        ["1213", "Cosmetic: Deepwinter Youngling"],
         ["1214", "Cosmetic: Spirit Mask"],
         ["1215", "Cosmetic: Warm Mug"],
-        ["1216", "Skin: Deepwinter Jelly"]
+        ["1216", "Skin: Deepwinter Jelly"],
+        ["1218", "Skin: Evercold Jelly"]
       ]
     }
   ]

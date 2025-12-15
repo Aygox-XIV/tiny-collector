@@ -2409,43 +2409,56 @@
       "name": "Winter Emblem",
       "id": 1210,
       "category": "Material",
-      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }]
+      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }],
+      "image": { "local_path": "/items/evercold/item_winter_emblem.png" }
     },
     {
       "name": "Skin: Deepwinter Sprite",
       "id": 1211,
       "category": "Cosmetic",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "local_path": "/items/evercold/skin_icy_sprite.png" }
     },
     {
       "name": "Skin: Deepwinter Spirit",
       "id": 1212,
       "category": "Cosmetic",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "local_path": "/items/evercold/skin_winter_spirit.png" }
     },
     {
-      "name": "Cosmetic: Deepwniter Youngling",
+      "name": "Cosmetic: Deepwinter Youngling",
       "id": 1213,
       "category": "Cosmetic",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "local_path": "/items/evercold/cosmetic_deepwinter_youngling.png" }
     },
     {
       "name": "Cosmetic: Spirit Mask",
       "id": 1214,
       "category": "Cosmetic",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "local_path": "/items/evercold/cosmetic_winter_spirit_mask.png" }
     },
     {
       "name": "Cosmetic: Warm Mug",
       "id": 1215,
       "category": "Cosmetic",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "local_path": "/items/evercold/cosmetic_mug.png" }
     },
     {
       "name": "Skin: Deepwinter Jelly",
       "id": 1216,
       "category": "Cosmetic",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "local_path": "/items/evercold/skin_deepwinter_jelly.png" }
+    },
+    {
+      "name": "Skin: Evercold Jelly",
+      "id": 1218,
+      "category": "Cosmetic",
+      "image": { "local_path": "/items/evercold/skin_evercold_jelly.png" }
     }
   ]
 }
