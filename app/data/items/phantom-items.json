@@ -1560,7 +1560,7 @@
       }
     },
     {
-      "name": "Spectral Noodles",
+      "name": "Spectral Noodle",
       "id": 775,
       "category": "Consumables",
       "license_amount": 750,
@@ -1890,10 +1890,44 @@
     },
     {
       "name": "Pumpkin",
+      "id": 1221,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }]
+    },
+    {
+      "name": "Pumpkin",
       "id": 1198,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "c/c9/Pumpkin_%28Seed%29.png" },
       "source": [{ "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" }]
+    },
+    {
+      "name": "Cursedconut Flan",
+      "id": 1219,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Cursedconut", "quantity": 2, "id": 166 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 500
+    },
+    {
+      "name": "Cursedconut Flan",
+      "id": 1220,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": -1 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": -1 },
+          { "name": "Cursedconut", "quantity": 2, "id": -1 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 500
     }
   ]
 }
