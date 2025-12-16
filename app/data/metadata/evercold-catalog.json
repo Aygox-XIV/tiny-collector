@@ -4,6 +4,7 @@
       "key": "evercold",
       "name": "Evercold Isle",
       "icon": { "local_path": "/catalog_evercold.png" },
+      "categories": ["Material", "Consumables", "Gear", "Plant", "Cosmetic"],
       "items": [
         ["-1", null],
         ["202", "Evercold Crystals"],

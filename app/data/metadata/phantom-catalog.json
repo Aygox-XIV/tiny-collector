@@ -4,6 +4,7 @@
       "key": "phantom",
       "name": "Phantom Isle",
       "icon": { "local_path": "/catalog_phantom.png" },
+      "categories": ["Material", "Consumables", "Gear", "Plant", "Cosmetic"],
       "items": [
         ["-1", null],
         ["-1", null],

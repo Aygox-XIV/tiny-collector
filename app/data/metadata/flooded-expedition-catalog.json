@@ -4,6 +4,7 @@
       "key": "floodEx",
       "name": "Flooded Expedition",
       "icon": { "local_path": "/catalog_fe.png" },
+      "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
       "items": []
     }
   ]

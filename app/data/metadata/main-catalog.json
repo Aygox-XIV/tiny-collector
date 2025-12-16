@@ -4,6 +4,7 @@
       "key": "catalog",
       "name": "Autolog",
       "icon": { "local_path": "/autolog.png" },
+      "categories": ["Material", "Consumables", "Gear"],
       "items": []
     }
   ]
