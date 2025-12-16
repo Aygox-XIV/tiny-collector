@@ -9,7 +9,12 @@
     { "name": "Almost Fresh Tendon", "id": 836, "category": "Quest" },
     { "name": "Introduction to Bakeromancy", "id": 837, "category": "Quest" },
     { "name": "Mysterious Note", "id": 838, "category": "Quest" },
-    { "name": "High Quality Moonfish", "id": 839, "category": "Quest" },
+    {
+      "name": "High Quality Moonfish",
+      "id": 839,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "4/42/Itm_material_fish_moonfish_HQ.png" }
+    },
     { "name": "Jelly's Special", "id": 1172, "category": "Quest" },
     { "name": "Gustave's Bourguignon", "id": 840, "category": "Quest" },
     { "name": "Clockwork Jelly", "id": 841, "category": "Quest" },
@@ -19,9 +24,24 @@
     { "name": "Damaged Bakeromancy Grimoire", "id": 845, "category": "Quest" },
     { "name": "Foul Journal", "id": 846, "category": "Quest" },
     { "name": "Foul Journal Page", "id": 847, "category": "Quest" },
-    { "name": "Outpost Plan: Trading", "id": 848, "category": "Quest" },
-    { "name": "Outpost Plan: Coastal", "id": 849, "category": "Quest" },
-    { "name": "Outpost Plan: Naturalist", "id": 850, "category": "Quest" },
+    {
+      "name": "Outpost Plan: Trading",
+      "id": 848,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "6/68/Quest_outpost_schema_trading.png" }
+    },
+    {
+      "name": "Outpost Plan: Coastal",
+      "id": 849,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "a/ac/Quest_outpost_schema_fishing.png" }
+    },
+    {
+      "name": "Outpost Plan: Naturalist",
+      "id": 850,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "8/89/Quest_outpost_schema_naturalist.png" }
+    },
     { "name": "Observations Report", "id": 851, "category": "Quest" },
     { "name": "Outpost Plan: Archeology", "id": 852, "category": "Quest" },
     { "name": "Glowing Crystal", "id": 853, "category": "Quest" },
@@ -30,7 +50,7 @@
     { "name": "Rulebook in Shambles", "id": 856, "category": "Quest" },
     { "name": "Bag O'Relics", "id": 857, "category": "Quest" },
     { "name": "Sculptor's Journal", "id": 858, "category": "Quest" },
-    { "name": "Sun Emblem", "id": 859, "category": "Quest" },
+    { "name": "Sun Emblem", "id": 859, "category": "Quest", "image": { "fandom_wiki_image_path": "0/0e/Sun_emblem_event.png" } },
     { "name": "Wing Shaped Fragment", "id": 860, "category": "Quest" },
     { "name": "Strange Loaf", "id": 861, "category": "Quest" },
     { "name": "Strange Looking Plants", "id": 862, "category": "Quest" },

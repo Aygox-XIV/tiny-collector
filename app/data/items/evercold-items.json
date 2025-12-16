@@ -73,7 +73,8 @@
       "name": "Frozen Documents",
       "id": 823,
       "category": "Material",
-      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }]
+      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }],
+      "image": { "fandom_wiki_image_path": "0/03/Itm_icy_document.png" }
     },
     {
       "name": "Chocolate",
@@ -648,7 +649,8 @@
           "subtype": "Evercold Isle (part 1)",
           "name": "Sell 150 items of the Chocolate category"
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_brownies.png" }
     },
     {
       "name": "Chocolate Gingerbread Cake",
@@ -672,7 +674,8 @@
           "subtype": "Evercold Isle (part 1)",
           "name": "Craft 100 items of the Chocolate category"
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/86/Itm_consum_cake_choco_round.png" }
     },
     {
       "name": "Chocolate Muffin",
@@ -687,7 +690,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Complete 35 journeys" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Complete 35 journeys" }],
+      "image": { "fandom_wiki_image_path": "d/da/Itm_consum_cupcake_choco.png" }
     },
     {
       "name": "Blue Ribbon",
@@ -1244,7 +1248,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/4c/Itm_consum_icecream_chocolate.png" }
     },
     {
       "name": "Evercold Ice Cream",
@@ -1261,7 +1266,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b4/Itm_consum_icecream_evercold.png" }
     },
     {
       "name": "Blue Woolsworn Boots",
@@ -1275,7 +1281,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "9/9d/Itm_gear_win_boot_blue.png" }
     },
     {
       "name": "Blue Woolsworn Coat",
@@ -1289,7 +1296,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "9/95/Itm_gear_win_chest_blue.png" }
     },
     {
       "name": "Blue Woolsworn Hat",
@@ -1303,7 +1311,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "8/8d/Itm_gear_win_hat_blue.png" }
     },
     {
       "name": "Chillmane Badge",
@@ -1320,7 +1329,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/61/Itm_gear_badge_moose.png" }
     },
     {
       "name": "Evercold Armor",
@@ -1339,7 +1349,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
         { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/22/Itm_gear_evercold_armor.png" }
     },
     {
       "name": "Evercold Gauntlet",
@@ -1358,7 +1369,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
         { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/7f/Itm_gear_evercold_gauntlet.png" }
     },
     {
       "name": "Evercold Greaves",
@@ -1377,7 +1389,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
         { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/6b/Itm_gear_evercold_greaves.png" }
     },
     {
       "name": "Evercold Helm",
@@ -1396,7 +1409,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiqueen" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Mimiking" },
         { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/bb/Itm_gear_evercold_helmet.png" }
     },
     {
       "name": "Frostbeard Badge",
@@ -1414,7 +1428,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Ancient" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Yeti" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Youngling" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f2/Itm_gear_badge_yeti.png" }
     },
     {
       "name": "Green Woolsworn Boots",
@@ -1428,7 +1443,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Uki Plushies" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Uki Plushies" }],
+      "image": { "fandom_wiki_image_path": "4/42/Itm_gear_win_boot_green.png" }
     },
     {
       "name": "Green Woolsworn Coat",
@@ -1442,7 +1458,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Jelly Plushies" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Jelly Plushies" }],
+      "image": { "fandom_wiki_image_path": "5/55/Itm_gear_win_chest_green.png" }
     },
     {
       "name": "Green Woolsworn Hat",
@@ -1456,7 +1473,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Complete 50 journeys" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Complete 50 journeys" }],
+      "image": { "fandom_wiki_image_path": "6/66/Itm_gear_win_hat_green.png" }
     },
     {
       "name": "Icemazon Badge",
@@ -1474,7 +1492,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Duelist" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Soother" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/17/Itm_gear_badge_penguinpng.png" }
     },
     {
       "name": "Pink Woolsworn Boots",
@@ -1488,7 +1507,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "d/da/Itm_gear_win_boot_pink.png" }
     },
     {
       "name": "Pink Woolsworn Coat",
@@ -1502,7 +1522,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "e/e2/Itm_gear_win_chest_pink.png" }
     },
     {
       "name": "Pink Woolsworn Hat",
@@ -1516,7 +1537,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "e/ec/Itm_gear_win_hat_pink.png" }
     },
     {
       "name": "Red Woolsworn Boots",
@@ -1530,7 +1552,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Aki Plushies" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Aki Plushies" }],
+      "image": { "fandom_wiki_image_path": "d/db/Itm_gear_win_boot_red.png" }
     },
     {
       "name": "Red Woolsworn Coat",
@@ -1544,7 +1567,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Harvest 100 Cocoa" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Harvest 100 Cocoa" }],
+      "image": { "fandom_wiki_image_path": "b/bb/Itm_gear_win_chest_red.png" }
     },
     {
       "name": "Red Woolsworn Hat",
@@ -1558,7 +1582,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Oki Plushies" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Sell 160 Oki Plushies" }],
+      "image": { "fandom_wiki_image_path": "4/42/Itm_gear_win_hat_red.png" }
     },
     {
       "name": "White Woolsworn Boots",
@@ -1574,7 +1599,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/60/Itm_gear_win_boot_white.png" }
     },
     {
       "name": "White Woolsworn Coat",
@@ -1590,7 +1616,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/12/Itm_gear_win_chest_white.png" }
     },
     {
       "name": "White Woolsworn Hat",
@@ -1606,7 +1633,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/07/Itm_gear_win_hat_white.png" }
     },
     {
       "name": "Evercold Tales",
@@ -1621,7 +1649,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Sculptor" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Sculptor" }],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_icy_sculptor_journal.png" }
     },
     {
       "name": "Figurine: Gustave",
@@ -1883,7 +1912,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "Final Chest" }]
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "Final Chest" }],
+      "image": { "fandom_wiki_image_path": "3/35/Itm_evercold_coolant.png" }
     },
     {
       "name": "Chocolate Brioche",
@@ -1899,7 +1929,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }]
+      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }],
+      "image": { "fandom_wiki_image_path": "d/d9/Itm_brioche_choco.png" }
     },
     {
       "name": "Chocolate Crunch",
@@ -1917,7 +1948,8 @@
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/35/Itm_pastry_choco02.png" }
     },
     {
       "name": "Chocolate Donut",
@@ -1936,7 +1968,8 @@
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/25/Itm_donut_choco.png" }
     },
     {
       "name": "Chocolate Fondant",
@@ -1955,7 +1988,8 @@
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d5/Itm_fondant_choco.png" }
     },
     {
       "name": "Chocolate Head",
@@ -1974,7 +2008,8 @@
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/52/Itm_estii_pastry_choco.png" }
     },
     {
       "name": "Chocolate Quindim",
@@ -1992,7 +2027,8 @@
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/7f/Itm_quindim_chocolate.png" }
     },
     {
       "name": "Deepfrost Oil",
@@ -2009,7 +2045,8 @@
       },
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/02/Itm_frost_oil.png" }
     },
     {
       "name": "Evercold Bandage",
@@ -2025,7 +2062,8 @@
       },
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/06/Itm_win_bandage.png" }
     },
     {
       "name": "Evercold Brioche",
@@ -2041,7 +2079,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "9/9b/Itm_brioche_evercold.png" }
     },
     {
       "name": "Evercold Cheesecake",
@@ -2061,7 +2100,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Gathering: Expedition Supplies" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_evercold_cheesecake.png" }
     },
     {
       "name": "Evercold Croissant",
@@ -2078,7 +2118,8 @@
       },
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/43/Itm_evercold_croissant.png" }
     },
     {
       "name": "Evercold Cupcake",
@@ -2095,7 +2136,8 @@
       },
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/18/Itm_evercold_muffin.png" }
     },
     {
       "name": "Evercold Donut",
@@ -2111,7 +2153,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "3/3c/Itm_donut_evercold.png" }
     },
     {
       "name": "Evercold Flan",
@@ -2129,7 +2172,8 @@
       },
       "source": [
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_evercold_flan.png" }
     },
     {
       "name": "Evercold Quindim",
@@ -2144,7 +2188,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "5/56/Itm_quindim_evercold.png" }
     },
     {
       "name": "North Rune Cake",
@@ -2160,7 +2205,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }]
+      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }],
+      "image": { "fandom_wiki_image_path": "0/0c/Itm_pastry_choco.png" }
     },
     {
       "name": "Aetheric Compass",
@@ -2175,7 +2221,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "5/58/Itm_win_compass.png" }
     },
     {
       "name": "Deepwinter Amulet",
@@ -2190,7 +2237,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "e/ea/Itm_win_amulet.png" }
     },
     {
       "name": "Deepwinter Fan",
@@ -2205,7 +2253,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "9/93/Itm_win_fan.png" }
     },
     {
       "name": "Mechcrabby",
@@ -2220,7 +2269,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "Final Chest" }]
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "Final Chest" }],
+      "image": { "fandom_wiki_image_path": "8/8f/Itm_win_crab.png" }
     },
     {
       "name": "Pathfinder Belt",
@@ -2235,7 +2285,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "7/7a/Itm_win_belt.png" }
     },
     {
       "name": "Pathfinder Boots",
@@ -2250,7 +2301,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "b/b8/Itm_win_chest.png" }
     },
     {
       "name": "Pathfinder Gloves",
@@ -2265,7 +2317,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "c/c2/Itm_win_gloves.png" }
     },
     {
       "name": "Pathfinder Hat",
@@ -2280,7 +2333,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "5/59/Itm_win_hat.png" }
     },
     {
       "name": "Pathfinder Trousers",
@@ -2295,7 +2349,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
+      "image": { "fandom_wiki_image_path": "4/4e/Itm_win_pant.png" }
     },
     {
       "name": "Pathfinder Tunic",
@@ -2310,7 +2365,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "b/b8/Itm_win_chest.png" }
     },
     {
       "name": "Blue Woolsworn Scarf",
@@ -2324,7 +2380,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "image": { "fandom_wiki_image_path": "5/58/Itm_gear_scarf_blue.png" }
     },
     {
       "name": "Green Woolsworn Scarf",
@@ -2338,7 +2395,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "image": { "fandom_wiki_image_path": "a/ab/Itm_gear_scarf_green.png" }
     },
     {
       "name": "Pink Woolsworn Scarf",
@@ -2352,7 +2410,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "image": { "fandom_wiki_image_path": "8/8c/Itm_gear_scarf_pink.png" }
     },
     {
       "name": "Red Woolsworn Scarf",
@@ -2366,7 +2425,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "image": { "fandom_wiki_image_path": "1/19/Itm_gear_scarf_red.png" }
     },
     {
       "name": "White Woolsworn Scarf",
@@ -2380,7 +2440,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "image": { "fandom_wiki_image_path": "4/4c/Itm_gear_scarf_white.png" }
     },
     {
       "name": "Jellykin Potion",
@@ -2395,7 +2456,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "image": { "fandom_wiki_image_path": "9/92/Itm_pot_jelly.png" }
     },
     {
       "name": "Dwarf Cocoa Seed",
@@ -2435,7 +2497,7 @@
       "id": 1210,
       "category": "Material",
       "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "??? [unknown, need reports]" }],
-      "image": { "local_path": "/items/evercold/item_winter_emblem.png" }
+      "image": { "fandom_wiki_image_path": "9/98/Win_victory_currency.png" }
     },
     {
       "name": "Skin: Deepwinter Sprite",
