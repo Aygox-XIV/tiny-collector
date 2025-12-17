@@ -133,9 +133,6 @@
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
     },
-    { "name": "Tombstone Fragments", "id": 900, "category": "Material", "image": { "fandom_wiki_image_path": "f/f7/Tombstone_Fragments.png" } },
-    { "name": "Slime Covered Bone", "id": 902, "category": "Material", "image": { "fandom_wiki_image_path": "4/4d/Itm_material_slime_bone.png" } },
-    { "name": "Tattered Hat", "id": 903, "category": "Material" },
     { "name": "Piezeroite [presumably]", "id": 908, "category": "Material" },
     {
       "name": "Figurine: Barrel Mimic",
@@ -288,8 +285,6 @@
     { "name": "Arcane Cheesecake", "id": 1013, "category": "Consumables" },
     { "name": "Arcane Flan", "id": 1014, "category": "Consumables" },
     { "name": "Lemon Flan", "id": 1015, "category": "Consumables" },
-    { "name": "Pumkin Soup", "id": 1016, "category": "Consumables" },
-    { "name": "Pumpkin Flan", "id": 1017, "category": "Consumables" },
     { "name": "Fire Flan", "id": 1018, "category": "Consumables" },
     { "name": "Fire Cheesecake", "id": 1019, "category": "Consumables" },
     { "name": "Fiery Brioche", "id": 1020, "category": "Consumables" },

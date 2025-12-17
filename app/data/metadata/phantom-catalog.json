@@ -122,7 +122,7 @@
         ["1220", "Cursedconut Flan"],
         ["-1", null],
         ["762", "Spectral Flan"],
-        ["1016", "Pumkin Soup"],
+        ["763", "Pumkin Soup"],
         ["764", "Pumpkin Flan"],
         ["-1", null],
         ["-1", null],
@@ -157,7 +157,11 @@
         ["778", "Spectral Quindim"],
         ["776", "Spectral Bourguignon"],
         ["775", "Spectral Noodle"],
-        ["777", "Spectral Pumpkin Soup"]
+        ["777", "Spectral Pumpkin Soup"],
+        ["-1", null],
+        ["-1", null],
+        ["-1", null],
+        ["1198", "Pumpkin"]
       ]
     }
   ]

@@ -11,6 +11,13 @@
     { "name": "Tombstone Eye", "id": 321, "category": "Material", "image": { "fandom_wiki_image_path": "9/90/Tombstone_Eye.png" } },
     { "name": "Spectral Fabric", "id": 638, "category": "Material", "image": { "fandom_wiki_image_path": "f/f0/Spectral_Fabric.png" } },
     { "name": "Bloodslime Residus", "id": 738, "category": "Material", "image": { "fandom_wiki_image_path": "e/e1/Itm_material_slime_residus.png" } },
+    { "name": "Cursedconut Log", "id": 773, "category": "Material", "image": { "fandom_wiki_image_path": "6/68/Itm_material_cursedconut_log.png" } },
+    { "name": "Broken Scythe", "id": 742, "category": "Material", "image": { "fandom_wiki_image_path": "a/a3/Broken_Scythe.png" } },
+    { "name": "Spectral Residus", "id": 744, "category": "Material", "image": { "fandom_wiki_image_path": "d/d6/Spectral-Residus1.png" } },
+    { "name": "Cursedconut Roots", "id": 748, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Cursedconut_Roots.png" } },
+    { "name": "Tombstone Fragments", "id": 900, "category": "Material", "image": { "fandom_wiki_image_path": "f/f7/Tombstone_Fragments.png" } },
+    { "name": "Slime Covered Bone", "id": 902, "category": "Material", "image": { "fandom_wiki_image_path": "4/4d/Itm_material_slime_bone.png" } },
+    { "name": "Tattered Hat", "id": 903, "category": "Material", "image": { "fandom_wiki_image_path": "6/6c/Itm_material_scarecrow_hat.png" } },
     {
       "name": "Blood Pearls",
       "id": 138,
@@ -359,7 +366,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/item_bloody_berry.png" }
     },
     {
       "name": "Cyclolipops Chill Grape",
@@ -376,7 +384,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/4e/Cyclolipops_Chill_Grape.png" }
     },
     {
       "name": "Dread Kokolada",
@@ -421,7 +430,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/6b/Itm_consum_soda_spectral.png" }
     },
     {
       "name": "Essence of Undeath",
@@ -461,7 +471,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }],
+      "image": { "local_path": "/items/phantom/item_pumpkin_pie.png" }
     },
     {
       "name": "Spectral Fairy",
@@ -498,7 +509,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/59/Itm_gear_mask_catula_black.png" }
     },
     {
       "name": "Blood Scythe",
@@ -518,7 +530,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Bloodslime" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b7/Itm_gear_scythe_blood.png" }
     },
     {
       "name": "Scythe",
@@ -536,7 +549,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/44/Itm_gear_scythe.png" }
     },
     {
       "name": "Bloodslime Mask",
@@ -550,7 +564,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Earn 1xp" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Earn 1xp" }],
+      "image": { "fandom_wiki_image_path": "e/ee/Itm_hal_mask_bloodslime.png" }
     },
     {
       "name": "Bone Scythe",
@@ -568,7 +583,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/6a/Itm_gear_scythe_bone.png" }
     },
     {
       "name": "Cursedconut Mask",
@@ -586,7 +602,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_hal_mask_mummy.png" }
     },
     {
       "name": "Ducky Mask",
@@ -604,7 +621,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/30/Itm_gear_mask_ducky.png" }
     },
     {
       "name": "Gravewarden Amulet",
@@ -624,7 +642,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f8/Itm_gear_amulet_gravewarden.png" }
     },
     {
       "name": "Gravewarden Armor",
@@ -646,7 +665,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/40/Itm_gear_armor_gravewarden.png" }
     },
     {
       "name": "Gravewarden Gauntlets",
@@ -667,7 +687,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/7c/Itm_gear_gauntlet_gravewarden.png" }
     },
     {
       "name": "Gravewarden Greaves",
@@ -688,7 +709,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/26/Itm_gear_legs_gravewarden.png" }
     },
     {
       "name": "Gravewarden Scythe",
@@ -709,7 +731,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/38/Itm_gear_scythe_spectral.png" }
     },
     {
       "name": "Gravewarden Shield",
@@ -732,7 +755,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/16/Itm_gear_shield_gravewarden.png" }
     },
     {
       "name": "Gravewarden Veil",
@@ -755,7 +779,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "2/21/Itm_gear_head_gravewarden.png" }
     },
     {
       "name": "Jelly Mask",
@@ -773,7 +798,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/3c/Itm_gear_mask_jelly.png" }
     },
     {
       "name": "Mummy Mask",
@@ -787,7 +813,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Complete 25 journeys" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Complete 25 journeys" }],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_hal_mask_mummy.png" }
     },
     {
       "name": "Pumpkin Mask",
@@ -801,7 +828,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }],
+      "image": { "fandom_wiki_image_path": "4/4b/Itm_hal_mask_pumpkin.png" }
     },
     {
       "name": "Screecher Mask",
@@ -819,7 +847,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/ee/Itm_gear_mask_screecher.png" }
     },
     {
       "name": "Skull Mask",
@@ -833,7 +862,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 120 Essense of Undeath" }]
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 120 Essense of Undeath" }],
+      "image": { "fandom_wiki_image_path": "7/7f/Itm_hal_mask_skull.png" }
     },
     {
       "name": "Spectral Blade",
@@ -869,7 +899,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/e0/Itm_gear_mask_white_catula.png" }
     },
     {
       "name": "Zombie Mask",
@@ -888,7 +919,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/57/Itm_hal_mask_zombie.png" }
     },
     {
       "name": "Figurine: Animated Pumpkin",
@@ -1130,7 +1162,6 @@
       },
       "image": { "fandom_wiki_image_path": "5/59/Darkbloom_Robe.png" }
     },
-    { "name": "Broken Scythe", "id": 742, "category": "Material", "image": { "fandom_wiki_image_path": "a/a3/Broken_Scythe.png" } },
     {
       "name": "Darkbloom Anklet",
       "id": 743,
@@ -1145,7 +1176,6 @@
       },
       "image": { "fandom_wiki_image_path": "e/ef/Darkbloom_Anklet.png" }
     },
-    { "name": "Spectral Residus", "id": 744, "category": "Material", "image": { "fandom_wiki_image_path": "d/d6/Spectral-Residus1.png" } },
     {
       "name": "Darkbloom Necklace",
       "id": 745,
@@ -1190,7 +1220,6 @@
       },
       "image": { "fandom_wiki_image_path": "d/d0/Darkbloom_Mask.png" }
     },
-    { "name": "Cursedconut Roots", "id": 748, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Cursedconut_Roots.png" } },
     {
       "name": "Cultist Tunic",
       "id": 749,
@@ -1203,7 +1232,8 @@
           { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "0/04/Itm_cult_top.png" }
     },
     {
       "name": "Cultist Belt",
@@ -1217,7 +1247,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_cult_belt.png" }
     },
     {
       "name": "Cultist Pants",
@@ -1231,7 +1262,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "3/36/Itm_cult_pant.png" }
     },
     {
       "name": "Cultist Headpiece",
@@ -1245,7 +1277,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_cult_hat.png" }
     },
     {
       "name": "Darkbloom Chakram",
@@ -1274,7 +1307,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "7/79/Itm_cult_scikle.png" }
     },
     {
       "name": "Darkbloom Sword",
@@ -1304,7 +1338,8 @@
           { "name": "Wheat Flour", "quantity": 1, "id": 125 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "5/56/Itm_donut_pumpkin.png" }
     },
     {
       "name": "Bloodberry Cheesecake",
@@ -1319,7 +1354,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/f8/Itm_cheesacake_bloodberry.png" }
     },
     {
       "name": "Cursedconut Cheesecake",
@@ -1334,7 +1370,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/fb/Itm_cheesacake_coco.png" }
     },
     {
       "name": "Pumpkin Cheesecake",
@@ -1349,7 +1386,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_cheesacake_pumpkin.png" }
     },
     {
       "name": "Spectral Cheesecake",
@@ -1380,7 +1418,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "3/34/Itm_pastry_bloodberry.png" }
     },
     {
       "name": "Spectral Flan",
@@ -1395,10 +1434,11 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/f9/Itm_pastry_spectral.png" }
     },
     {
-      "name": "Pumpkin Soup",
+      "name": "Pumkin Soup",
       "id": 763,
       "category": "Consumables",
       "license_amount": 600,
@@ -1409,7 +1449,8 @@
           { "name": "Spices", "quantity": 1, "id": 159 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "e/e6/Itm_soup_pumpkin.png" }
     },
     {
       "name": "Pumpkin Flan",
@@ -1424,7 +1465,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "b/be/Itm_pastry_pumpkin.png" }
     },
     {
       "name": "Monster Fizz Original",
@@ -1543,7 +1585,6 @@
         "craft_amount": 1
       }
     },
-    { "name": "Cursedconut Log", "id": 773, "category": "Material", "image": { "fandom_wiki_image_path": "6/68/Itm_material_cursedconut_log.png" } },
     {
       "name": "Headless Spring",
       "id": 774,
@@ -1621,7 +1662,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }],
+      "image": { "fandom_wiki_image_path": "b/b0/Itm_consum_pumpkin_pie.png" }
     },
     {
       "name": "Spectral Pumpkin Soup",
@@ -1892,7 +1934,8 @@
       "name": "Pumpkin",
       "id": 1221,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }],
+      "image": { "fandom_wiki_image_path": "f/fc/Itm_event_HAL_pumpkin.png" }
     },
     {
       "name": "Pumpkin",
@@ -1913,7 +1956,8 @@
         ],
         "craft_amount": 1
       },
-      "license_amount": 500
+      "license_amount": 500,
+      "image": { "fandom_wiki_image_path": "f/f0/Itm_consum_flan_cursedconut.png" }
     },
     {
       "name": "Cursedconut Flan",
@@ -1921,13 +1965,15 @@
       "category": "Consumables",
       "recipe": {
         "ingredient": [
-          { "name": "Fresh Milk", "quantity": 1, "id": -1 },
-          { "name": "Drakegull Egg", "quantity": 2, "id": -1 },
-          { "name": "Cursedconut", "quantity": 2, "id": -1 }
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Sunsugar", "quantity": 1, "id": -1 },
+          { "name": "Cursedconut", "quantity": 2, "id": 166 }
         ],
         "craft_amount": 1
       },
-      "license_amount": 500
+      "license_amount": 500,
+      "image": { "fandom_wiki_image_path": "3/37/Itm_pastry_coco.png" }
     }
   ]
 }

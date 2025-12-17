@@ -17,7 +17,11 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
     return (
         <div className="settings-view center-content">
             <div className="collection-data-management">
-                All per-user data is kept locally in the browser (localStorage); nothing is ever sent to the server.
+                All per-user data is kept locally in the browser (
+                <a className="text-with-link" href="https://www.w3schools.com/html/html5_webstorage.asp">
+                    localStorage
+                </a>
+                ); nothing is ever sent to the server.
                 <br />
                 Use this page to save your collection to a local file, for backup purposes or to e.g. move it to another
                 device. For now, only Chromium-based browsers (Chrome, Edge) support importing. A fallback option for

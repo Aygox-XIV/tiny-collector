@@ -23,6 +23,10 @@ div {
   padding: 1px;
 }
 
+.text-with-link {
+  text-decoration: underline;
+}
+
 .text-with-tt {
   text-decoration: dashed underline;
 }

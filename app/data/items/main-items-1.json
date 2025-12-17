@@ -2720,6 +2720,7 @@
       "category": "Material",
       "source": [
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Naturalist" }
       ],
@@ -2760,6 +2761,7 @@
       "id": 425,
       "category": "Material",
       "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
       ],
