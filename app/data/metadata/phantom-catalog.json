@@ -161,7 +161,18 @@
         ["-1", null],
         ["-1", null],
         ["-1", null],
-        ["1198", "Pumpkin"]
+        ["1198", "Pumpkin"],
+        ["1225", "Head: Cursedconut"],
+        ["1226", "Head: Zombie"],
+        ["1227", "Head: Bloodberry"],
+        ["1228", "Head: Mummy"],
+        ["1229", "Head: Skull"],
+        ["1230", "Head: Pumpkin"],
+        ["1231", "Full Skin: Pumpkin Overlord"],
+        ["1224", "Full Skin: Haunted Jelly"],
+        ["1222", "Skin: Ghostly Jelly"],
+        ["1223", "Skin: Skelly Jelly"],
+        ["1232", "SKin: Floating Eye"]
       ]
     }
   ]
