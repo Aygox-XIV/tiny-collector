@@ -230,6 +230,18 @@ export function importSourcesFromDataSheet(csvFile: string): Record<string, Sour
             case 'Spectral Noodles':
                 itemName = 'Spectral Noodle';
                 break;
+            case 'Crystalline Totem of Mana':
+                itemName = 'Crystalline Totem of Mana Shield';
+                break;
+            case 'Sporetower':
+                itemName = 'Sporetower Figurine';
+                break;
+            case 'Sunbiter':
+                itemName = 'Sunbiter Figurine';
+                break;
+            case 'Violet Duck':
+                itemName = 'Decor: Violet Duck';
+                break;
         }
         let sources = allSources[itemName] || [];
 

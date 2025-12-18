@@ -188,7 +188,7 @@
     { "name": "Time Stalk", "id": 925, "category": "Material" },
     { "name": "Potted Aetheric Flowers", "id": 926, "category": "Material" },
     { "name": "Potted Violetines", "id": 927, "category": "Material" },
-    { "name": "Potted Reddchidaes", "id": 928, "category": "Material" },
+    { "name": "Potted Redchidaes", "id": 928, "category": "Material" },
     { "name": "Potted Silverblooms", "id": 929, "category": "Material" },
     {
       "name": "Sporetower Figurine",
@@ -326,13 +326,13 @@
     { "name": "Berry Slimeflan", "id": 1055, "category": "Consumables" },
     { "name": "Lemon Slimeflan", "id": 1056, "category": "Consumables" },
     { "name": "Bread Loaf", "id": 1057, "category": "Consumables" },
-    { "name": "Cheese Sandwiwh", "id": 1058, "category": "Consumables" },
+    { "name": "Cheese Sandwich", "id": 1058, "category": "Consumables" },
     { "name": "Moonfish Sandwich", "id": 1059, "category": "Consumables" },
-    { "name": "Pain au chocolat", "id": 1060, "category": "Consumables" },
+    { "name": "Pain Au Chocolat", "id": 1060, "category": "Consumables" },
     { "name": "Chocolate Manju", "id": 1061, "category": "Consumables" },
     { "name": "Timefound Sourdough", "id": 1062, "category": "Consumables" },
     { "name": "Kraken Filled Loaf", "id": 1063, "category": "Consumables" },
-    { "name": "Soft Bread", "id": 1064, "category": "Consumables" },
+    { "name": "Softbread Loaf", "id": 1064, "category": "Consumables" },
     { "name": "Retrotemporal Bread", "id": 1065, "category": "Consumables" },
     { "name": "Timefound Loaf", "id": 1066, "category": "Consumables" },
     { "name": "Timefound Brioche", "id": 1067, "category": "Consumables" },
@@ -340,7 +340,7 @@
     { "name": "Experiment #127", "id": 1069, "category": "Consumables" },
     { "name": "Timefound Starbread", "id": 1070, "category": "Consumables" },
     { "name": "Timefound Loaf", "id": 1174, "category": "Consumables" },
-    { "name": "Timefound Traditional bread", "id": 1071, "category": "Consumables" },
+    { "name": "Timefound Traditional Loaf", "id": 1071, "category": "Consumables" },
     { "name": "Timefound Softbread", "id": 1072, "category": "Consumables" },
     { "name": "Timefound Rye Bread", "id": 1073, "category": "Consumables" },
     { "name": "Timefound Baguette", "id": 1074, "category": "Consumables" },
@@ -356,7 +356,7 @@
     { "name": "Latte", "id": 1081, "category": "Consumables" },
     { "name": "Dark Coffee", "id": 1082, "category": "Consumables" },
     { "name": "Waffles", "id": 1083, "category": "Consumables" },
-    { "name": "Mimi's special", "id": 1084, "category": "Consumables" },
+    { "name": "Mimi's Special", "id": 1084, "category": "Consumables" },
     { "name": "Crystalline Totem of Mana Shield", "id": 1085, "category": "Consumables" },
     { "name": "Crystalline Totem of Healing", "id": 1086, "category": "Consumables" },
     { "name": "Crystalline Totem of Power", "id": 1087, "category": "Consumables" },
@@ -434,6 +434,7 @@
       "id": 896,
       "category": "Material",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
-    }
+    },
+    { "name": "Decor: Violet Duck", "id": 1233, "category": "Decor" }
   ]
 }
