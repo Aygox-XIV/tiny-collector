@@ -2044,8 +2044,8 @@
       },
       "license_amount": 500,
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
-        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
       ],
       "image": { "fandom_wiki_image_path": "3/37/Itm_pastry_coco.png" }
     },

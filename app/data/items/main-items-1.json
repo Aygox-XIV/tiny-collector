@@ -251,8 +251,8 @@
       "category": "Material",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
       ],
       "image": { "fandom_wiki_image_path": "3/34/Fresh_Milk.png" }
     },
@@ -549,8 +549,8 @@
       "id": 159,
       "category": "Material",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
@@ -4596,11 +4596,11 @@
       "category": "Material",
       "license_amount": 10,
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Survey: Botanical Study" }
       ],
       "image": { "fandom_wiki_image_path": "d/da/Itm_mat_figurine_firebloom_sprite.png" }
     },

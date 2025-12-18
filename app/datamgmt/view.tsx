@@ -13,7 +13,7 @@ import {
     type ItemDB,
     type Recipe,
 } from '../database/database';
-import type { Source } from '../database/sources';
+import { validateSingleSource, type Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
 import { importSourcesFromDataSheet } from './parserForDataSheet';
@@ -147,9 +147,33 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 <div className="settings-item" onClick={loadImageUrlsFromWikiTable}>
                     Import item icons from wiki table
                 </div>
+                <div className="settings-item" onClick={() => validateDbIntegrity(db)}>
+                    Check database integrity (logs any warnings to the console)
+                </div>
             </div>
         </div>
     );
+}
+
+/**
+ * Checks whether there's any inconsistencies in the data:
+ * - items with a recipe and sources, but no recipe source
+ * - sources for recipe (fragments) for items that don't have a recipe (even though it's expected for new items)
+ * - source subtypes and names make sense for their main type (& the type is valid)
+ */
+function validateDbIntegrity(db: Database) {
+    for (const item of Object.values(db.items)) {
+        let hasRecipeSource = false;
+        for (const source of item.source || []) {
+            validateSingleSource(item, source);
+            if (source.kind == 'recipe') {
+                hasRecipeSource = true;
+            }
+        }
+        if (!hasRecipeSource && item.recipe && item.source) {
+            console.warn('Item ' + item.id + ' (' + item.name + ') has a recipe but no known sources for it.');
+        }
+    }
 }
 
 function extractItemData(db: Database): ItemData {

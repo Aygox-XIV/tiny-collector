@@ -1,3 +1,5 @@
+import type { Item } from './database';
+
 export type DropKind = 'item' | 'recipe' | 'unlock';
 
 interface UnknownSource {
@@ -350,4 +352,38 @@ export interface ShopLevelSource extends UnknownSource {
     readonly subtype?: undefined;
     // level
     readonly name: string;
+}
+
+/** Checks if a given source has valid data for the given item. Logs issues to the console. */
+export function validateSingleSource(item: Item, source: Source) {
+    switch (source.kind as string) {
+        case 'item':
+        case 'recipe':
+        case 'unlock':
+            break;
+        default:
+            console.warn('Bad kind (' + source.kind + ') for item ' + item.id);
+    }
+    if (source.kind == 'recipe' && !item.recipe) {
+        console.warn('Item ' + item.id + ' (' + item.name + ') has no recipe, but has a recipe source');
+    }
+    switch (source.type) {
+        case SourceType.Battle:
+            switch (source.subtype) {
+                case EventType.EvercoldIslePart2:
+                case EventType.FloodedExpedition:
+                case EventType.PhantomIslePart2:
+                case EventType.PhantomIslePart3:
+                    break;
+                default:
+                    console.warn(
+                        'Bad Battle source for ' +
+                            item.id +
+                            '; unexpected subtype ' +
+                            (source as UnknownSource).subtype,
+                    );
+            }
+            break;
+        // TODO: more
+    }
 }
