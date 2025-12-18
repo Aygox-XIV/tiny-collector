@@ -25,8 +25,6 @@
       "category": "Material",
       "image": { "fandom_wiki_image_path": "1/11/Arcanite_Toothfish_Skull.png" }
     },
-    { "name": "Ectoplash", "id": 872, "category": "Material" },
-    { "name": "Blooberry Slime", "id": 873, "category": "Material" },
     {
       "name": "Huge Monster Scale",
       "id": 874,
@@ -133,7 +131,6 @@
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
     },
-    { "name": "Piezeroite [presumably]", "id": 908, "category": "Material" },
     {
       "name": "Figurine: Barrel Mimic",
       "id": 909,
@@ -173,23 +170,57 @@
     { "name": "Kelp", "id": 920, "category": "Material" },
     { "name": "Coral Crab Chunk", "id": 921, "category": "Material" },
     { "name": "Crabantula Silk", "id": 922, "category": "Material" },
-    { "name": "Ashen Flour", "id": 923, "category": "Material" },
+    {
+      "name": "Ashen Flour",
+      "id": 923,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
     {
       "name": "Coffee Berries",
       "id": 924,
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee" }
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee Seed" }
       ],
       "image": { "fandom_wiki_image_path": "f/f8/Coffee_Berries.png" }
     },
     { "name": "Coffee", "id": 1217, "category": "Plant", "image": { "fandom_wiki_image_path": "6/67/Coffee_%28Seed%29.png" } },
     { "name": "Time Stalk", "id": 925, "category": "Material" },
-    { "name": "Potted Aetheric Flowers", "id": 926, "category": "Material" },
-    { "name": "Potted Violetines", "id": 927, "category": "Material" },
-    { "name": "Potted Redchidaes", "id": 928, "category": "Material" },
-    { "name": "Potted Silverblooms", "id": 929, "category": "Material" },
+    {
+      "name": "Potted Aetheric Flowers",
+      "id": 926,
+      "category": "Material",
+      "source": [
+        {
+          "type": "Battle",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Flooded Expedition",
+          "name": "Overgrown Ancient Chest (wave 12 of long dive)"
+        }
+      ]
+    },
+    {
+      "name": "Potted Violetines",
+      "id": 927,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }]
+    },
+    {
+      "name": "Potted Redchidaes",
+      "id": 928,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }]
+    },
+    {
+      "name": "Potted Silverblooms",
+      "id": 929,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }]
+    },
     {
       "name": "Sporetower Figurine",
       "id": 930,
@@ -225,7 +256,15 @@
     { "name": "Faded Xp Boost", "id": 944, "category": "Consumables" },
     { "name": "Faded Faster Selling", "id": 945, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/78/Faded_Faster_Selling.png" } },
     { "name": "Faded Income Boost", "id": 946, "category": "Consumables", "image": { "fandom_wiki_image_path": "c/ce/Faded_Income_Boost.png" } },
-    { "name": "Bourguignon", "id": 951, "category": "Consumables" },
+    {
+      "name": "Bourguignon",
+      "id": 951,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
+      ]
+    },
     { "name": "Vegan Bourguignon", "id": 952, "category": "Consumables" },
     {
       "name": "Antique Map",
@@ -287,84 +326,444 @@
     { "name": "Lemon Flan", "id": 1015, "category": "Consumables" },
     { "name": "Fire Flan", "id": 1018, "category": "Consumables" },
     { "name": "Fire Cheesecake", "id": 1019, "category": "Consumables" },
-    { "name": "Fiery Brioche", "id": 1020, "category": "Consumables" },
-    { "name": "Ashen Brioche", "id": 1021, "category": "Consumables" },
-    { "name": "Ashen Loaf", "id": 1022, "category": "Consumables" },
-    { "name": "Ashen Croissant", "id": 1023, "category": "Consumables" },
-    { "name": "Ham Croissant", "id": 1024, "category": "Consumables" },
-    { "name": "Blue Tower Jam", "id": 1025, "category": "Consumables" },
-    { "name": "Morning Glory Jam", "id": 1026, "category": "Consumables" },
-    { "name": "Puff Flower Jam", "id": 1027, "category": "Consumables" },
-    { "name": "Pancakes", "id": 1028, "category": "Consumables" },
-    { "name": "Flatbread", "id": 1029, "category": "Consumables" },
-    { "name": "Ashen Flatbread", "id": 1030, "category": "Consumables" },
-    { "name": "Baguette", "id": 1031, "category": "Consumables" },
-    { "name": "Ashen Baguette", "id": 1032, "category": "Consumables" },
-    { "name": "Fiery Baguette", "id": 1033, "category": "Consumables" },
-    { "name": "Ashen Noodles", "id": 1034, "category": "Consumables" },
-    { "name": "Sandwich Snack", "id": 1035, "category": "Consumables" },
-    { "name": "Ashen Sandwich", "id": 1036, "category": "Consumables" },
+    {
+      "name": "Fiery Brioche",
+      "id": 1020,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Cinderwheat" }]
+    },
+    {
+      "name": "Ashen Brioche",
+      "id": 1021,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
+    {
+      "name": "Ashen Loaf",
+      "id": 1022,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
+    {
+      "name": "Ashen Croissant",
+      "id": 1023,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
+    {
+      "name": "Ham Croissant",
+      "id": 1024,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Drakegull" }]
+    },
+    {
+      "name": "Blue Tower Jam",
+      "id": 1025,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+    },
+    {
+      "name": "Morning Glory Jam",
+      "id": 1026,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+    },
+    {
+      "name": "Puff Flower Jam",
+      "id": 1027,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Puff Flower" }]
+    },
+    {
+      "name": "Pancakes",
+      "id": 1028,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+    },
+    {
+      "name": "Flatbread",
+      "id": 1029,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+    },
+    {
+      "name": "Ashen Flatbread",
+      "id": 1030,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
+    {
+      "name": "Baguette",
+      "id": 1031,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+    },
+    {
+      "name": "Ashen Baguette",
+      "id": 1032,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
+    {
+      "name": "Fiery Baguette",
+      "id": 1033,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Cinderwheat" }]
+    },
+    {
+      "name": "Ashen Noodles",
+      "id": 1034,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+    },
+    {
+      "name": "Sandwich Snack",
+      "id": 1035,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" }]
+    },
+    {
+      "name": "Ashen Sandwich",
+      "id": 1036,
+      "category": "Consumables",
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }]
+    },
     { "name": "Firey Sandwich", "id": 1037, "category": "Consumables" },
-    { "name": "The Ash Delight", "id": 1038, "category": "Consumables" },
+    {
+      "name": "The Ash Delight",
+      "id": 1038,
+      "category": "Consumables",
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }]
+    },
     { "name": "Drakegull Steak", "id": 1039, "category": "Consumables" },
     { "name": "Fiery Coral Crab Noodles", "id": 1040, "category": "Consumables" },
     { "name": "Fiery Kraken Noodles", "id": 1041, "category": "Consumables" },
     { "name": "Fiery Mushroom Noodles", "id": 1042, "category": "Consumables" },
-    { "name": "Parmimigiano", "id": 1043, "category": "Consumables" },
-    { "name": "Emimimental", "id": 1044, "category": "Consumables" },
-    { "name": "Butter", "id": 1045, "category": "Consumables" },
-    { "name": "Mushroom Tartlet", "id": 1173, "category": "Consumables" },
-    { "name": "Drakegull Tartlet", "id": 1046, "category": "Consumables" },
-    { "name": "Moonfish Tartlet", "id": 1047, "category": "Consumables" },
-    { "name": "Fish Pastry", "id": 1048, "category": "Consumables" },
-    { "name": "Starbread", "id": 1049, "category": "Consumables" },
-    { "name": "Traditional Loaf", "id": 1050, "category": "Consumables" },
-    { "name": "Rye Bread", "id": 1051, "category": "Consumables" },
-    { "name": "Biscuit", "id": 1052, "category": "Consumables" },
-    { "name": "Whipped Cream Waffles", "id": 1053, "category": "Consumables" },
-    { "name": "Sourdough Bread", "id": 1054, "category": "Consumables" },
-    { "name": "Berry Slimeflan", "id": 1055, "category": "Consumables" },
-    { "name": "Lemon Slimeflan", "id": 1056, "category": "Consumables" },
-    { "name": "Bread Loaf", "id": 1057, "category": "Consumables" },
-    { "name": "Cheese Sandwich", "id": 1058, "category": "Consumables" },
-    { "name": "Moonfish Sandwich", "id": 1059, "category": "Consumables" },
+    {
+      "name": "Parmimigiano",
+      "id": 1043,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
+      ]
+    },
+    {
+      "name": "Emimimental",
+      "id": 1044,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Butter",
+      "id": 1045,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
+      ]
+    },
+    {
+      "name": "Mushroom Tartlet",
+      "id": 1173,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Drakegull Tartlet",
+      "id": 1046,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Moonfish Tartlet",
+      "id": 1047,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Fish Pastry",
+      "id": 1048,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Starbread",
+      "id": 1049,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Traditional Loaf",
+      "id": 1050,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Rye Bread",
+      "id": 1051,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Biscuit",
+      "id": 1052,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Whipped Cream Waffles",
+      "id": 1053,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Sourdough Bread",
+      "id": 1054,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Berry Slimeflan",
+      "id": 1055,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Lemon Slimeflan",
+      "id": 1056,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Bread Loaf",
+      "id": 1057,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Cheese Sandwich",
+      "id": 1058,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Moonfish Sandwich",
+      "id": 1059,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
     { "name": "Pain Au Chocolat", "id": 1060, "category": "Consumables" },
-    { "name": "Chocolate Manju", "id": 1061, "category": "Consumables" },
-    { "name": "Timefound Sourdough", "id": 1062, "category": "Consumables" },
-    { "name": "Kraken Filled Loaf", "id": 1063, "category": "Consumables" },
-    { "name": "Softbread Loaf", "id": 1064, "category": "Consumables" },
+    {
+      "name": "Chocolate Manju",
+      "id": 1061,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Timefound Sourdough",
+      "id": 1062,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Kraken Filled Loaf",
+      "id": 1063,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Softbread Loaf",
+      "id": 1064,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
     { "name": "Retrotemporal Bread", "id": 1065, "category": "Consumables" },
     { "name": "Timefound Loaf", "id": 1066, "category": "Consumables" },
-    { "name": "Timefound Brioche", "id": 1067, "category": "Consumables" },
-    { "name": "Sweetbread", "id": 1068, "category": "Consumables" },
-    { "name": "Experiment #127", "id": 1069, "category": "Consumables" },
-    { "name": "Timefound Starbread", "id": 1070, "category": "Consumables" },
+    {
+      "name": "Timefound Brioche",
+      "id": 1067,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Sweetbread",
+      "id": 1068,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Experiment #127",
+      "id": 1069,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Timefound Starbread",
+      "id": 1070,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
     { "name": "Timefound Loaf", "id": 1174, "category": "Consumables" },
-    { "name": "Timefound Traditional Loaf", "id": 1071, "category": "Consumables" },
-    { "name": "Timefound Softbread", "id": 1072, "category": "Consumables" },
-    { "name": "Timefound Rye Bread", "id": 1073, "category": "Consumables" },
-    { "name": "Timefound Baguette", "id": 1074, "category": "Consumables" },
-    { "name": "Roasted Blend", "id": 1075, "category": "Consumables" },
-    { "name": "Endberries", "id": 1076, "category": "Consumables" },
-    { "name": "Espresso", "id": 1077, "category": "Consumables" },
-    { "name": "Mocha", "id": 1078, "category": "Consumables" },
-    { "name": "Twilight Smoothie", "id": 1175, "category": "Consumables" },
-    { "name": "Sunset Smoothie", "id": 1079, "category": "Consumables" },
-    { "name": "Sunny Smoothie", "id": 1176, "category": "Consumables" },
-    { "name": "Berry Bliss Smoothie", "id": 1080, "category": "Consumables" },
-    { "name": "Matcha", "id": 1177, "category": "Consumables" },
-    { "name": "Latte", "id": 1081, "category": "Consumables" },
-    { "name": "Dark Coffee", "id": 1082, "category": "Consumables" },
-    { "name": "Waffles", "id": 1083, "category": "Consumables" },
-    { "name": "Mimi's Special", "id": 1084, "category": "Consumables" },
-    { "name": "Crystalline Totem of Mana Shield", "id": 1085, "category": "Consumables" },
-    { "name": "Crystalline Totem of Healing", "id": 1086, "category": "Consumables" },
-    { "name": "Crystalline Totem of Power", "id": 1087, "category": "Consumables" },
-    { "name": "Mato Sauce", "id": 1088, "category": "Consumables" },
-    { "name": "Sunriver Blend", "id": 1089, "category": "Consumables" },
-    { "name": "Cheese Mix", "id": 1090, "category": "Consumables" },
-    { "name": "Crate of Screechers", "id": 1091, "category": "Consumables" },
-    { "name": "Coffee Drink", "id": 1092, "category": "Consumables" },
+    {
+      "name": "Timefound Traditional Loaf",
+      "id": 1071,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Timefound Softbread",
+      "id": 1072,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Timefound Rye Bread",
+      "id": 1073,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Timefound Baguette",
+      "id": 1074,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Roasted Blend",
+      "id": 1075,
+      "category": "Consumables",
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }
+      ]
+    },
+    {
+      "name": "Endberries",
+      "id": 1076,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" }
+      ]
+    },
+    {
+      "name": "Espresso",
+      "id": 1077,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+    },
+    {
+      "name": "Mocha",
+      "id": 1078,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+    },
+    {
+      "name": "Twilight Smoothie",
+      "id": 1175,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
+      ]
+    },
+    {
+      "name": "Sunset Smoothie",
+      "id": 1079,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Sunny Smoothie",
+      "id": 1176,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Berry Bliss Smoothie",
+      "id": 1080,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Matcha",
+      "id": 1177,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Latte",
+      "id": 1081,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+    },
+    {
+      "name": "Dark Coffee",
+      "id": 1082,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+    },
+    {
+      "name": "Waffles",
+      "id": 1083,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
+    {
+      "name": "Mimi's Special",
+      "id": 1084,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+    },
+    {
+      "name": "Crystalline Totem of Mana Shield",
+      "id": 1085,
+      "category": "Consumables",
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (blue)" }]
+    },
+    {
+      "name": "Crystalline Totem of Healing",
+      "id": 1086,
+      "category": "Consumables",
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (green)" }]
+    },
+    {
+      "name": "Crystalline Totem of Power",
+      "id": 1087,
+      "category": "Consumables",
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (red)" }]
+    },
+    {
+      "name": "Mato Sauce",
+      "id": 1088,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+    },
+    {
+      "name": "Sunriver Blend",
+      "id": 1089,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+    },
+    {
+      "name": "Cheese Mix",
+      "id": 1090,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+    },
+    {
+      "name": "Crate of Screechers",
+      "id": 1091,
+      "category": "Consumables",
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small chest (3,6,9 tasks)" }]
+    },
+    {
+      "name": "Coffee Drink",
+      "id": 1092,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+    },
     {
       "name": "Kraken Steak",
       "id": 1093,
@@ -381,7 +780,10 @@
       "name": "Fungal Steak",
       "id": 1095,
       "category": "Consumables",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fungalossus" }
+      ]
     },
     { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
     { "name": "Coastguard Captain Armor", "id": 1121, "category": "Gear" },
@@ -424,17 +826,57 @@
     { "name": "Sunstriker", "id": 1159, "category": "Gear" },
     { "name": "Timefound Kettle", "id": 1160, "category": "Gear" },
     { "name": "Coffee Machine", "id": 1161, "category": "Gear" },
-    { "name": "Record Player", "id": 1162, "category": "Gear" },
-    { "name": "Biscuitmaker", "id": 1163, "category": "Gear" },
-    { "name": "Flower Pot", "id": 1164, "category": "Gear" },
-    { "name": "Circular Lamp", "id": 1165, "category": "Gear" },
-    { "name": "Canvas Bag", "id": 1166, "category": "Gear" },
+    {
+      "name": "Record Player",
+      "id": 1162,
+      "category": "Gear",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Biscuitmaker",
+      "id": 1163,
+      "category": "Gear",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
+    {
+      "name": "Flower Pot",
+      "id": 1164,
+      "category": "Gear",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }]
+    },
+    {
+      "name": "Circular Lamp",
+      "id": 1165,
+      "category": "Gear",
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3,6,9 tasks)" }]
+    },
+    {
+      "name": "Canvas Bag",
+      "id": 1166,
+      "category": "Gear",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+    },
     {
       "name": "Aetheric Salt",
       "id": 896,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
+      ]
     },
-    { "name": "Decor: Violet Duck", "id": 1233, "category": "Decor" }
+    {
+      "name": "Decor: Violet Duck",
+      "id": 1233,
+      "category": "Decor",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
+      ]
+    }
   ]
 }

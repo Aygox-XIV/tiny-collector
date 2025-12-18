@@ -328,7 +328,6 @@ export function importSourcesFromDataSheet(csvFile: string): Record<string, Sour
         allSources[itemName] = sources;
     }
 
-    console.log('new sources: ' + JSON.stringify(allSources));
     console.log(
         'skipped ' +
             unsafeSkippedCount +

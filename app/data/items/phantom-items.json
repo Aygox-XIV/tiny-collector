@@ -1480,7 +1480,10 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 100 items of the Masks category!" }
+      ]
     },
     {
       "name": "Bloodberry Ice Cream",
@@ -1495,7 +1498,11 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150 items of the Drinks category!" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ]
     },
     {
       "name": "Spectral Choco Ice Cream",
@@ -1510,7 +1517,17 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        {
+          "type": "Task",
+          "kind": "recipe",
+          "fragment": false,
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Sell 175 items of the Spectral category!"
+        },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ]
     },
     {
       "name": "Cultist Brochures",
@@ -1523,7 +1540,11 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 Essence of Undeath" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ]
     },
     {
       "name": "Blue Haze",
@@ -1538,7 +1559,10 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 80 items of the Food category!" }
+      ]
     },
     {
       "name": "Cursed Pumpkin Ice Cream",
@@ -1553,7 +1577,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Harvest 50 Pumpkin" }]
     },
     {
       "name": "Spirit Smash",
@@ -1568,7 +1593,10 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 80 items of the Cursed category!" }
+      ]
     },
     {
       "name": "Cult Torch",
@@ -1582,7 +1610,10 @@
           { "name": "Tombstone Fragment", "quantity": 1, "id": 740 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150x of the Right category" }
+      ]
     },
     {
       "name": "Headless Spring",
@@ -1597,7 +1628,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
     },
     {
       "name": "Spectral Noodle",
@@ -1612,7 +1644,8 @@
           { "name": "Spices", "quantity": 1, "id": 159 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
     },
     {
       "name": "Spectral Bourguignon",
@@ -1627,7 +1660,8 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
     },
     {
       "name": "Spectral Pumpkin",
@@ -1676,7 +1710,8 @@
           { "name": "Spices", "quantity": 1, "id": 159 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
     },
     {
       "name": "Spectral Quindim",
@@ -1691,7 +1726,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
     },
     {
       "name": "Ghostly Mary",
@@ -1706,7 +1742,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
     },
     {
       "name": "Monster Fizz Bloodberry",
@@ -1721,7 +1758,10 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 120 items of the Event category!" }
+      ]
     },
     {
       "name": "Cursed Bana Ice Cream",
@@ -1736,7 +1776,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Complete 25 Journeys" }]
     },
     {
       "name": "Shadow Libre",
@@ -1751,7 +1792,10 @@
           { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 200 items of the Cursed category!" }
+      ]
     },
     {
       "name": "Monster Fizz Pumpkin",
@@ -1766,7 +1810,10 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150 items of the Cookies category!" }
+      ]
     },
     {
       "name": "Cult Barbecue",
@@ -1781,7 +1828,8 @@
           { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
     },
     {
       "name": "Grilling Tools",
@@ -1795,7 +1843,8 @@
           { "name": "Tombstone Fragment", "quantity": 1, "id": 740 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
     },
     {
       "name": "Blender",
@@ -1809,7 +1858,8 @@
           { "name": "Mechanical Parts", "quantity": 1, "id": 527 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
     },
     {
       "name": "Cult Censer",
@@ -1824,7 +1874,8 @@
           { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
     },
     {
       "name": "Tombstone Blues",
@@ -1839,7 +1890,10 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 of the 'Right' category!" }
+      ]
     },
     {
       "name": "Monster Fizz Spectral",
@@ -1854,7 +1908,10 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 100 items of the Masks category!" }
+      ]
     },
     {
       "name": "Monster Mucus",
@@ -1869,7 +1926,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }]
     },
     {
       "name": "Bubbling Sunset",
@@ -1884,7 +1942,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumkin Carving" }]
     },
     {
       "name": "Black Bayou",
@@ -1899,7 +1958,16 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        {
+          "type": "Task Chest",
+          "kind": "recipe",
+          "fragment": false,
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Sell 125 items of the Masks category!"
+        }
+      ]
     },
     {
       "name": "Smash Fizz",
@@ -1914,7 +1982,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }]
     },
     {
       "name": "Koko Loco",
@@ -1927,7 +1996,8 @@
           { "name": "Sunsugar", "quantity": 2, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }]
     },
     {
       "name": "Pumpkin",
@@ -1983,14 +2053,14 @@
       "name": "Skin: Ghostly Jelly",
       "id": 1222,
       "category": "Cosmetic",
-      "source": [],
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }],
       "image": { "local_path": "/items/phantom/skin_ghostly.png" }
     },
     {
       "name": "Skin: Skelly Jelly",
       "id": 1223,
       "category": "Cosmetic",
-      "source": [],
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }],
       "image": { "local_path": "/items/phantom/skin_skelly.png" }
     },
     {
