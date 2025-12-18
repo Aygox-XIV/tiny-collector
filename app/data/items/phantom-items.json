@@ -1983,19 +1983,22 @@
       "name": "Skin: Ghostly Jelly",
       "id": 1222,
       "category": "Cosmetic",
-      "source": []
+      "source": [],
+      "image": { "local_path": "/items/phantom/skin_ghostly.png" }
     },
     {
       "name": "Skin: Skelly Jelly",
       "id": 1223,
       "category": "Cosmetic",
-      "source": []
+      "source": [],
+      "image": { "local_path": "/items/phantom/skin_skelly.png" }
     },
     {
       "name": "Skin: Floating Eye",
       "id": 1232,
       "category": "Cosmetic",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
+      "image": { "local_path": "/items/phantom/skin_floating_eye.png" }
     },
     {
       "name": "Full Skin: Haunted Jelly",
@@ -2010,7 +2013,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/skin_spectral.png" }
     },
     {
       "name": "Head: Cursedconut",
@@ -2019,7 +2023,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_cursedconut_mask.png" }
     },
     {
       "name": "Head: Zombie",
@@ -2034,7 +2039,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_zombie_mask.png" }
     },
     {
       "name": "Head: Bloodberry",
@@ -2043,7 +2049,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_bloodberry_mask.png" }
     },
     {
       "name": "Head: Mummy",
@@ -2052,7 +2059,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_mummy_mask.png" }
     },
     {
       "name": "Head: Skull",
@@ -2061,7 +2069,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_skull_mask.png" }
     },
     {
       "name": "Head: Pumpkin",
@@ -2070,7 +2079,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "All enemies" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "All enemies" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_pumpkin_mask.png" }
     },
     {
       "name": "Full Skin: Pumpkin Overlord",
@@ -2087,7 +2097,8 @@
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
         { "type": "Event Market", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)" },
         { "type": "Event Market", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)" }
-      ]
+      ],
+      "image": { "local_path": "/items/phantom/skin_pumpkin.png" }
     }
   ]
 }
