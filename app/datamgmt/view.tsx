@@ -16,7 +16,7 @@ import {
 import { validateSingleSource, type Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
-import { importSourcesFromDataSheet } from './parserForDataSheet';
+import { importRecipesFromDataSheet, importSourcesFromDataSheet } from './parserForDataSheet';
 import { importItemIconUrls } from './parserForFandomWiki';
 import { importCatalogList } from './parserForJourneyList';
 import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
@@ -97,6 +97,12 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             appDispatch(setDbItems(integrateSources(db, sources, true)));
         }, CSV_FILES);
     };
+    const loadRecipesFromDataSheet = () => {
+        loadFile((f) => {
+            const items = importRecipesFromDataSheet(f);
+            appDispatch(setDbItems(integrateItemsWithoutIds(db, items)));
+        }, CSV_FILES);
+    };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     // requires things to not break on empty image defs
     return (
@@ -143,6 +149,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 </div>
                 <div className="settings-item" onClick={loadSourcesFromDataSheet}>
                     Import sources from "Tiny shop data" (Sources tab)
+                </div>
+                <div className="settings-item" onClick={loadRecipesFromDataSheet}>
+                    Import recipes from "Tiny shop data" (All Items tab)
                 </div>
                 <div className="settings-item" onClick={loadImageUrlsFromWikiTable}>
                     Import item icons from wiki table

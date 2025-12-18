@@ -1,3 +1,4 @@
+import type { Category, Ingredient, Item, Recipe } from '../database/database';
 import {
     EventType,
     OutpostType,
@@ -175,6 +176,110 @@ const SAFE_ITEM_NAMES: Set<string> = new Set([
     // TODO: all SF and FE items
 ]);
 
+export function importRecipesFromDataSheet(csvFile: string): Item[] {
+    let items: Item[] = [];
+    /*
+      row 1: headers
+      row 2: would have been column titles
+
+      col 2: name
+      col 4: category
+      col 9: stock-on-stack == craft-amount
+      col 18: license amount
+      col 23: recipe
+
+      skip any row where any of the columns we care about has a ?
+      col 18 may be N/A or "-" for unlicensable items
+      col 23 may be "NO RECIPE" or "-"
+      skip names starting with _ or ~
+      skip names not in SAFE_ITEM_NAMES
+    */
+
+    const rows = parseCsv(csvFile);
+
+    for (const row of rows) {
+        if (row[1].length == 0) {
+            continue;
+        }
+        if (row[1].startsWith('_') || row[1].startsWith('~')) {
+            continue;
+        }
+        if (!SAFE_ITEM_NAMES.has(row[1])) {
+            continue;
+        }
+        if (
+            row[1].includes('?') ||
+            row[3].includes('?') ||
+            row[8].includes('?') ||
+            row[17].includes('?') ||
+            row[22].includes('?')
+        ) {
+            console.log('Skipping row with unknown data: ' + JSON.stringify(row));
+            continue;
+        }
+        const itemName = fixItemNameTypos(formatItemName(row[1]));
+        let category: Category;
+        switch (row[3]) {
+            case 'Consumable':
+                category = 'Consumables';
+                break;
+            case 'Materials':
+                category = 'Material';
+                break;
+            case 'Gear':
+                category = 'Gear';
+                break;
+            case 'Skin':
+                category = 'Cosmetic';
+                break;
+            case 'Decor':
+                category = 'Decor';
+                break;
+            case 'Quest':
+                category = 'Quest';
+                break;
+            default:
+                console.warn('Unknown category: ' + row[3] + ' for ' + row[1] + '. skipping.');
+                continue;
+        }
+        let license_amount: number | undefined;
+        switch (row[17]) {
+            case 'N/A':
+            case '-':
+                break;
+            default:
+                license_amount = parseInt(row[17]);
+                break;
+        }
+        let recipe = parseRecipe(row[8], row[22]);
+        items.push({ name: itemName, id: -1, category, license_amount, recipe });
+    }
+
+    return items;
+}
+
+function parseRecipe(amountStr: string, recipeStr: string): Recipe | undefined {
+    // Item 1/ct|"Item 2"/ct|...
+    if (amountStr.includes('?') || recipeStr.includes('?') || recipeStr == 'NO RECIPE' || recipeStr == '-') {
+        return undefined;
+    }
+    if (!recipeStr.includes('/')) {
+        console.warn('invalid recipe string: ' + recipeStr);
+    }
+    const craft_amount = parseInt(amountStr);
+    let ingredient: Ingredient[] = [];
+    for (const itemStr of recipeStr.split('|')) {
+        const parts = itemStr.split('/');
+        let name = parts[0];
+        if (name.startsWith('"')) {
+            name = name.substring(1, name.length - 1);
+        }
+        ingredient.push({ name, quantity: parseInt(parts[1]), id: -1 });
+    }
+
+    return { ingredient, craft_amount };
+}
+
 /**
  * Extracts item sources from the "Tiny shop data" spreadsheet (Sources tab). Returns a map from item name to sources.
  */
@@ -229,25 +334,7 @@ export function importSourcesFromDataSheet(csvFile: string): Record<string, Sour
             continue;
         }
 
-        let itemName = formatItemName(row[0]);
-        // Fix some typos
-        switch (itemName) {
-            case 'Spectral Noodles':
-                itemName = 'Spectral Noodle';
-                break;
-            case 'Crystalline Totem of Mana':
-                itemName = 'Crystalline Totem of Mana Shield';
-                break;
-            case 'Sporetower':
-                itemName = 'Sporetower Figurine';
-                break;
-            case 'Sunbiter':
-                itemName = 'Sunbiter Figurine';
-                break;
-            case 'Violet Duck':
-                itemName = 'Decor: Violet Duck';
-                break;
-        }
+        const itemName = fixItemNameTypos(formatItemName(row[0]));
         let sources = allSources[itemName] || [];
 
         switch (row[8]) {
@@ -348,6 +435,23 @@ export function importSourcesFromDataSheet(csvFile: string): Record<string, Sour
     );
 
     return allSources;
+}
+
+function fixItemNameTypos(name: string): string {
+    // Fix some typos
+    switch (name) {
+        case 'Spectral Noodles':
+            return 'Spectral Noodle';
+        case 'Crystalline Totem of Mana':
+            return 'Crystalline Totem of Mana Shield';
+        case 'Sporetower':
+            return 'Sporetower Figurine';
+        case 'Sunbiter':
+            return 'Sunbiter Figurine';
+        case 'Violet Duck':
+            return 'Decor: Violet Duck';
+    }
+    return name;
 }
 
 function getName(row: string[]): string | undefined {
