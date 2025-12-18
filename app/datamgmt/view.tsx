@@ -43,6 +43,19 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Pumpkin',
     'Sunseekers',
 ]);
+// most duplocate items aren't ingredients in non-duplicate items yet, except plants
+const PLANT_INGREDEIENT_IDS: Record<string, number> = {
+    'Blue Tower': 120,
+    'Puff Flower': 257,
+    'Summer Glory': 200,
+    'Sunsugar Cane': 671,
+    Wheat: 674,
+    Rice: 118,
+    Potatoes: 113,
+    'Ashen Wheat': 870,
+    Pumpkin: 238,
+    Sunseekers: 335,
+};
 
 const CSV_FILES: FilePickerAcceptType[] = [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }];
 
@@ -228,6 +241,9 @@ function extractCatalogList(db: Database): CatalogList {
 function buildExistingItemNameToId(items: ItemDB): [Record<string, number>, number] {
     let itemNameToId: Record<string, number> = {};
     let maxId = 99;
+    for (const name of Object.keys(PLANT_INGREDEIENT_IDS)) {
+        itemNameToId[name] = PLANT_INGREDEIENT_IDS[name];
+    }
     for (const idStr of Object.keys(items)) {
         const id = parseInt(idStr);
         const name = items[id].name;
@@ -258,13 +274,18 @@ function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
             console.log('Ignoring imported items with duplicate names for now: ' + item.name);
             continue;
         }
-        if (!itemNameToId[item.name]) {
-            itemNameToId[item.name] = ++maxId;
-        }
         for (const ingredient of item.recipe?.ingredient || []) {
             if (!itemNameToId[ingredient.name]) {
+                // plants are already added.
+                if (KNOWN_DUPLICATE_ITEM_NAMES.has(item.name)) {
+                    console.log('duplicate item in ingredients: ' + JSON.stringify(item));
+                    throw 'duplicate item in ingredient.';
+                }
                 itemNameToId[ingredient.name] = ++maxId;
             }
+        }
+        if (!itemNameToId[item.name]) {
+            itemNameToId[item.name] = ++maxId;
         }
     }
     for (const item of newItems) {
