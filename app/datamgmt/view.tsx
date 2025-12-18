@@ -312,8 +312,13 @@ function integrateSources(db: Database, sources: Record<string, Source[]>, keepO
             throw 'Item ' + name + ' was expected to be present in the database already.';
         }
         let newSources: Source[] = [];
-        if (keepOldSources) {
-            newSources.push(...(db.items[id].source || []));
+        if (keepOldSources && db.items[id].source) {
+            const newSourceSet = new Set(sources[name].map((s) => JSON.stringify(s)));
+            for (const existingSource of db.items[id].source || []) {
+                if (!newSourceSet.has(JSON.stringify(existingSource))) {
+                    newSources.push(existingSource);
+                }
+            }
         }
         newSources.push(...sources[name]);
 
