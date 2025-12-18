@@ -554,7 +554,7 @@
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
     },
     {
-      "name": "Tartare Moonfish Salad",
+      "name": "Tatare Moonfish Salad",
       "id": 341,
       "category": "Consumables",
       "license_amount": 950,
@@ -1699,9 +1699,49 @@
         "craft_amount": 4
       }
     },
+    {
+      "name": "Sunscreen",
+      "id": 1296,
+      "category": "Consumables",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sunseekers", "quantity": 1, "id": 335 },
+          { "name": "Koko Milk", "quantity": 1, "id": 117 },
+          { "name": "Redchidaes", "quantity": 1, "id": 667 }
+        ],
+        "craft_amount": 2
+      }
+    },
+    {
+      "name": "Beach Shorts",
+      "id": 1298,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Beach Shorts",
+      "id": 1299,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 }
+        ],
+        "craft_amount": 1
+      }
+    },
     { "name": "Floor Sand 01", "id": 1274, "category": "Decor" },
     { "name": "Floor Sand 02", "id": 1275, "category": "Decor" },
-    { "name": "Summer Stool ", "id": 1276, "category": "Decor" },
+    { "name": "Summer Stool", "id": 1276, "category": "Decor" },
     { "name": "Surf Shop - Divider", "id": 1277, "category": "Decor" },
     { "name": "Summer Table - Sunglasses", "id": 1278, "category": "Decor" },
     { "name": "Summer Table - Straw Hats", "id": 1279, "category": "Decor" },

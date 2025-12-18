@@ -1169,6 +1169,20 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
       ]
+    },
+    {
+      "name": "Sunscreen",
+      "id": 1297,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sunseekers", "quantity": 15, "id": 335 },
+          { "name": "Sunseeker's Stems", "quantity": 15, "id": 670 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
+        ],
+        "craft_amount": 1
+      }
     }
   ]
 }
