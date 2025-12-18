@@ -16,6 +16,7 @@ import {
 import type { Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
+import { importSourcesFromDataSheet } from './parserForDataSheet';
 import { importItemIconUrls } from './parserForFandomWiki';
 import { importCatalogList } from './parserForJourneyList';
 import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
@@ -27,6 +28,20 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Anniversary Cake', // 2024 (carrot/strawberry) and 2025 (chocolate)
     'Whole Birthday Cake', // 2024 (carrot/strawberry) and 2025 (chocolate)
     'Beach Shorts', // yellow & blue
+    "Where's My Kitty?", // 5 versions
+    "Jelly's Special", // 1 quest, 1 consumable
+    'Timefound Loaf', // 1 round, 1 rectangle
+    // Seeds with the same name as what they produce
+    'Blue Tower',
+    'Puff Flower',
+    'Summer Glory',
+    'Sunsugar Cane',
+    'Wheat',
+    'Rice',
+    'Potatoes',
+    'Ashen Wheat',
+    'Pumpkin',
+    'Sunseekers',
 ]);
 
 const CSV_FILES: FilePickerAcceptType[] = [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }];
@@ -57,7 +72,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
     const loadSourcesFromLicenseCalc = () => {
         loadFile((f) => {
             const sources = importLicenseWikiSheet(f);
-            appDispatch(setDbItems(integrateSources(db, sources)));
+            appDispatch(setDbItems(integrateSources(db, sources, false)));
         }, CSV_FILES);
     };
     const loadItemsFromJourneysAndCatalog = () => {
@@ -75,6 +90,12 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             const itemDb = integrateItemIcons(db, images);
             appDispatch(setDbItems(itemDb));
         });
+    };
+    const loadSourcesFromDataSheet = () => {
+        loadFile((f) => {
+            const sources = importSourcesFromDataSheet(f);
+            appDispatch(setDbItems(integrateSources(db, sources, true)));
+        }, CSV_FILES);
     };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     // requires things to not break on empty image defs
@@ -119,6 +140,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 </div>
                 <div className="settings-item" onClick={loadItemsFromJourneysAndCatalog}>
                     Import Item/catalog data from "Journey and catalog" (catalog tab)
+                </div>
+                <div className="settings-item" onClick={loadSourcesFromDataSheet}>
+                    Import sources from "Tiny shop data" (Sources tab)
                 </div>
                 <div className="settings-item" onClick={loadImageUrlsFromWikiTable}>
                     Import item icons from wiki table
@@ -176,7 +200,6 @@ function buildExistingItemNameToId(items: ItemDB): [Record<string, number>, numb
         const name = items[id].name;
         if (KNOWN_DUPLICATE_ITEM_NAMES.has(name)) {
             // TODO: handle these somehow? Requiring these to be manual is probably fine for now.
-            console.log('Ignoring existing items with duplicate names for now: ' + name);
             continue;
         }
         if (itemNameToId[name]) {
@@ -269,7 +292,7 @@ function fixCatalogIds(items: ItemDB, catalogs: CatalogDef[]): Record<string, Ca
     return fixedCatalogs;
 }
 
-function integrateSources(db: Database, sources: Record<string, Source[]>): ItemDB {
+function integrateSources(db: Database, sources: Record<string, Source[]>, keepOldSources: boolean): ItemDB {
     let [itemNameToId] = buildExistingItemNameToId(db.items);
 
     let updatedItemDb: ItemDB = {};
@@ -288,8 +311,13 @@ function integrateSources(db: Database, sources: Record<string, Source[]>): Item
         if (!id) {
             throw 'Item ' + name + ' was expected to be present in the database already.';
         }
+        let newSources: Source[] = [];
+        if (keepOldSources) {
+            newSources.push(...(db.items[id].source || []));
+        }
+        newSources.push(...sources[name]);
 
-        updatedItemDb[id] = { ...updatedItemDb[id], source: sources[name] };
+        updatedItemDb[id] = { ...updatedItemDb[id], source: newSources };
     }
     return updatedItemDb;
 }

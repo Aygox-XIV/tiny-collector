@@ -246,19 +246,19 @@ export type GardenSeed =
 
 export interface HarvestSource extends UnknownSource {
     readonly type: SourceType.Harvest;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: GardenSeed;
 }
 
 export interface PremiumPackSource extends UnknownSource {
     readonly type: SourceType.PremiumPack;
-    readonly subtype: EventType.SunFestival | undefined;
+    readonly subtype?: EventType.SunFestival | undefined;
     readonly name: 'Trading Guild Pack' | 'Kitchen Set' | 'Botanist Set' | 'Home Set' | 'Blacksmith Set' | string;
 }
 
 export interface BoutiqueSource extends UnknownSource {
     readonly type: SourceType.Boutique;
-    readonly subtype: 'Anniversary' | undefined;
+    readonly subtype?: 'Anniversary' | undefined;
     readonly name: undefined;
 }
 
@@ -268,41 +268,40 @@ export interface BattleSource extends UnknownSource {
         | EventType.FloodedExpedition
         | EventType.PhantomIslePart2
         | EventType.PhantomIslePart3
-        // TODO: I forget if part 1 has battles or not
         | EventType.EvercoldIslePart2;
     // name is untyped (too many enemies to list usefully)
     readonly name: string;
-    // TODO: journeys enemies can appear in from separate db?
+    // TODO: list journeys enemies can appear in using a separate db?
 }
 
 export interface JourneySource extends UnknownSource {
     readonly type: SourceType.Journey;
-    readonly subtype: EventType | undefined;
-    // name is untyped for now. might list them later.
+    readonly subtype?: EventType | undefined;
     readonly name: string;
 }
 
 export interface ShiftySource extends UnknownSource {
     readonly type: SourceType.Shifty;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     // TODO: name is undefined (direct purchase) | {crate names}
 }
 
 export interface EventMarketSource extends UnknownSource {
     readonly type: SourceType.EventMarket;
     readonly subtype: EventType;
-    readonly name: undefined;
+    // If present, name is a crate name.
+    readonly name?: string | undefined;
 }
 
 export interface MissionRewardSource extends UnknownSource {
     readonly type: SourceType.MissionReward;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: string;
 }
 
 export interface MarketSource extends UnknownSource {
     readonly type: SourceType.Market;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: 'Materials';
 }
 
@@ -341,14 +340,14 @@ export interface TaskChestSource extends UnknownSource {
 
 export interface CombineSource extends UnknownSource {
     readonly type: SourceType.Combine;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: string;
     readonly id: string;
 }
 
 export interface ShopLevelSource extends UnknownSource {
     readonly type: SourceType.ShopLevel;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     // level
     readonly name: string;
 }

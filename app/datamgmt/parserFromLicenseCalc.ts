@@ -9,7 +9,7 @@ import {
     type GardenSeed,
     type Source,
 } from '../database/sources';
-import { parseCsv } from './common';
+import { formatItemName, parseCsv } from './common';
 
 /**
  * parses a csv dump in the format of the "Tiny Shop License Calculator" (recipe/license tabs).
@@ -663,26 +663,6 @@ function assertSingleSource(sourceDesc: string, name: string) {
     if (sourceDesc.indexOf(',') > -1) {
         throw 'unhandled multiple entries in one row for ' + name + ': ' + sourceDesc;
     }
-}
-
-// TODO: more? mostly a hack so the task sources can use the item-name formatter as well
-const FULL_LOWER_INNER_WORDS = new Set(['of', 'the', 'a', 'in', 'to', 'items', 'category', 'journeys']);
-
-// Also formats journey names/etc. (practically: toPascalCase with some extra trimming)
-function formatItemName(sheetStr: string): string {
-    const upperStr = sheetStr.charAt(0) == '*' ? sheetStr.substring(1, sheetStr.length - 1) : sheetStr;
-    let parts = upperStr.trim().toLowerCase().split(' ');
-    for (let i = 0; i < parts.length; i++) {
-        if (i > 0 && FULL_LOWER_INNER_WORDS.has(parts[i])) {
-            continue;
-        }
-        if (parts[i].match('^i+$')) {
-            parts[i] = parts[i].toUpperCase();
-            continue;
-        }
-        parts[i] = parts[i].charAt(0).toUpperCase() + parts[i].substring(1);
-    }
-    return parts.join(' ');
 }
 
 function parseCategory(input: string): Category {
