@@ -7,7 +7,14 @@
       "source": [
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock" },
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }
-      ]
+      ],
+      "recipe": {
+        "ingredient": [
+          { "name": "Time Stalk", "quantity": 4, "id": 925 },
+          { "name": "Stasis Powder", "quantity": 4, "id": 328 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Half-digested Adventurer Bag",
@@ -182,7 +189,15 @@
       "name": "Ashen Flour",
       "id": 923,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Wheat", "quantity": 2, "id": 870 },
+          { "name": "Cinder Wheat", "quantity": 2, "id": 625 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Coffee Berries",
@@ -220,46 +235,74 @@
           "subtype": "Flooded Expedition",
           "name": "Overgrown Ancient Chest (wave 12 of long dive)"
         }
-      ]
+      ],
+      "license_amount": 250
     },
     {
       "name": "Potted Violetines",
       "id": 927,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
+          { "name": "Violetines", "quantity": 1, "id": 673 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potted Redchidaes",
       "id": 928,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
+          { "name": "Redchidaes", "quantity": 1, "id": 667 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potted Silverblooms",
       "id": 929,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
+          { "name": "Silverblooms", "quantity": 1, "id": 676 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Sporetower Figurine",
       "id": 930,
       "category": "Material",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
-      "image": { "fandom_wiki_image_path": "f/f3/Sporetower_Figurine.png" }
+      "image": { "fandom_wiki_image_path": "f/f3/Sporetower_Figurine.png" },
+      "license_amount": 1000
     },
     {
       "name": "Sunbiter Figurine",
       "id": 931,
       "category": "Material",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
-      "image": { "fandom_wiki_image_path": "a/a5/Sunbiter_Figurine.png" }
+      "image": { "fandom_wiki_image_path": "a/a5/Sunbiter_Figurine.png" },
+      "license_amount": 1000
     },
     {
       "name": "Field Stalker Figurine",
       "id": 932,
       "category": "Material",
       "source": [{ "type": "Shifty", "kind": "item", "fragment": false }],
-      "image": { "fandom_wiki_image_path": "a/ae/Field_Stalker_Figurine.png" }
+      "image": { "fandom_wiki_image_path": "a/ae/Field_Stalker_Figurine.png" },
+      "license_amount": 100
     },
     { "name": "Infinite Stock", "id": 933, "category": "Consumables" },
     { "name": "Healing Draught", "id": 934, "category": "Consumables", "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" } },
@@ -282,7 +325,17 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
-      ]
+      ],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
+          { "name": "Potatoes", "quantity": 2, "id": 113 },
+          { "name": "Firebloom Leaves", "quantity": 1, "id": 210 },
+          { "name": "Carrot", "quantity": 2, "id": 990 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Vegan Bourguignon",
@@ -354,115 +407,329 @@
       "name": "Fiery Brioche",
       "id": 1020,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Cinderwheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Cinderwheat" }],
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cinderwheat Flour", "quantity": 2, "id": 211 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ashen Brioche",
       "id": 1021,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 2, "id": 923 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ashen Loaf",
       "id": 1022,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 4, "id": 923 },
+          { "name": "Aetheric Water", "quantity": 4, "id": 132 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Ashen Croissant",
       "id": 1023,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 8, "id": 923 },
+          { "name": "Aetheric Water", "quantity": 8, "id": 132 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ham Croissant",
       "id": 1024,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Drakegull" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Drakegull" }],
+      "license_amount": 20,
+      "recipe": {
+        "ingredient": [
+          { "name": "Croissant", "quantity": 4, "id": 174 },
+          { "name": "Drakegull Meat", "quantity": 4, "id": 177 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Blue Tower Jam",
       "id": 1025,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Slime Extract", "quantity": 4, "id": 173 },
+          { "name": "Blue Tower", "quantity": 4, "id": 120 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Morning Glory Jam",
       "id": 1026,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Slime Extract", "quantity": 4, "id": 173 },
+          { "name": "Summer Glory", "quantity": 4, "id": 200 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Puff Flower Jam",
       "id": 1027,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Puff Flower" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Puff Flower" }],
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Slime Extract", "quantity": 4, "id": 173 },
+          { "name": "Puff Flower", "quantity": 4, "id": 257 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Pancakes",
       "id": 1028,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Flatbread",
       "id": 1029,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ashen Flatbread",
       "id": 1030,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 4, "id": 923 },
+          { "name": "Aetheric Water", "quantity": 4, "id": 132 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Baguette",
       "id": 1031,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Ashen Baguette",
       "id": 1032,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 4, "id": 923 },
+          { "name": "Aetheric Water", "quantity": 2, "id": 132 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Fiery Baguette",
       "id": 1033,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Cinderwheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Cinderwheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cinderwheat Flour", "quantity": 4, "id": 211 },
+          { "name": "Aetheric Water", "quantity": 2, "id": 132 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Ashen Noodles",
       "id": 1034,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Ashen Wheat" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 2, "id": 923 },
+          { "name": "Aetheric Water", "quantity": 2, "id": 132 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Sandwich Snack",
       "id": 1035,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Bread", "quantity": 1, "id": 185 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Ashen Sandwich",
       "id": 1036,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Loaf", "quantity": 1, "id": 1022 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
+        ],
+        "craft_amount": 2
+      }
     },
-    { "name": "Firey Sandwich", "id": 1037, "category": "Consumables" },
+    {
+      "name": "Fiery Sandwich",
+      "id": 1037,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fire Bread", "quantity": 1, "id": 188 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
+        ],
+        "craft_amount": 2
+      }
+    },
     {
       "name": "The Ash Delight",
       "id": 1038,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ashen Flour", "quantity": 3, "id": 923 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 }
+        ],
+        "craft_amount": 1
+      }
     },
-    { "name": "Drakegull Steak", "id": 1039, "category": "Consumables" },
-    { "name": "Fiery Coral Crab Noodles", "id": 1040, "category": "Consumables" },
-    { "name": "Fiery Kraken Noodles", "id": 1041, "category": "Consumables" },
-    { "name": "Fiery Mushroom Noodles", "id": 1042, "category": "Consumables" },
+    {
+      "name": "Drakegull Steak",
+      "id": 1039,
+      "category": "Consumables",
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "quantity": 1, "id": 177 },
+          { "name": "Archipelago Fries", "quantity": 1, "id": 114 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Fiery Coral Crab Noodles",
+      "id": 1040,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Fiery Kraken Noodles",
+      "id": 1041,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Fiery Mushroom Noodles",
+      "id": 1042,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
+          { "name": "Brown Heads", "quantity": 1, "id": 284 }
+        ],
+        "craft_amount": 1
+      }
+    },
     {
       "name": "Parmimigiano",
       "id": 1043,
@@ -470,13 +737,29 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
-      ]
+      ],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Aetheric Salt", "quantity": 1, "id": 896 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Emimimental",
       "id": 1044,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Aetheric Salt", "quantity": 1, "id": 896 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Butter",
@@ -485,7 +768,9 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
-      ]
+      ],
+      "license_amount": 650,
+      "recipe": { "ingredient": [{ "name": "Fresh Milk", "quantity": 4, "id": 121 }], "craft_amount": 4 }
     },
     {
       "name": "Mushroom Tartlet",
@@ -497,7 +782,16 @@
       "name": "Drakegull Tartlet",
       "id": 1046,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Butter", "quantity": 2, "id": 1045 },
+          { "name": "Drakegull Meat", "quantity": 2, "id": 177 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Moonfish Tartlet",
@@ -515,7 +809,15 @@
       "name": "Starbread",
       "id": 1049,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Traditional Loaf",
@@ -527,57 +829,150 @@
       "name": "Rye Bread",
       "id": 1051,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Ashen Flour", "quantity": 1, "id": 923 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Biscuit",
       "id": 1052,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Butter", "quantity": 4, "id": 1045 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Whipped Cream Waffles",
       "id": 1053,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Sourdough Bread",
       "id": 1054,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Berry Slimeflan",
       "id": 1055,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Slime Extract", "quantity": 4, "id": 173 },
+          { "name": "Endberries", "quantity": 2, "id": 1076 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Lemon Slimeflan",
       "id": 1056,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Slime Extract", "quantity": 4, "id": 173 },
+          { "name": "Coast Lemons", "quantity": 2, "id": 153 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Bread Loaf",
       "id": 1057,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Cheese Sandwich",
       "id": 1058,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Bread", "quantity": 1, "id": 185 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Emimimental", "quantity": 2, "id": 1044 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Moonfish Sandwich",
       "id": 1059,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Bread", "quantity": 1, "id": 185 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Moonfish Filet", "quantity": 1, "id": 216 }
+        ],
+        "craft_amount": 1
+      }
     },
-    { "name": "Pain Au Chocolat", "id": 1060, "category": "Consumables" },
+    {
+      "name": "Pain Au Chocolat",
+      "id": 1060,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Butter", "quantity": 2, "id": 1045 },
+          { "name": "Chocolate", "quantity": 4, "id": 161 }
+        ],
+        "craft_amount": 4
+      }
+    },
     {
       "name": "Chocolate Manju",
       "id": 1061,
@@ -606,20 +1001,48 @@
       "name": "Retrotemporal Bread",
       "id": 1065,
       "category": "Consumables",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Ashen Flour", "quantity": 2, "id": 923 },
+          { "name": "Improved Arcane Catalyst", "quantity": 1, "id": 327 },
+          { "name": "Stasis Powder", "quantity": 1, "id": 328 }
+        ],
+        "craft_amount": 2
+      }
     },
     { "name": "Timefound Loaf", "id": 1066, "category": "Consumables" },
     {
       "name": "Timefound Brioche",
       "id": 1067,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Brioche", "quantity": 4, "id": 155 },
+          { "name": "Arcane Extract", "quantity": 2, "id": 109 },
+          { "name": "Condensed Time", "quantity": 2, "id": 863 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Sweetbread",
       "id": 1068,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Experiment #127",
@@ -650,13 +1073,31 @@
       "name": "Timefound Rye Bread",
       "id": 1073,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Rye Bread", "quantity": 4, "id": 1051 },
+          { "name": "Arcane Extract", "quantity": 2, "id": 109 },
+          { "name": "Condensed Time", "quantity": 2, "id": 863 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Timefound Baguette",
       "id": 1074,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Baguette", "quantity": 1, "id": 1031 },
+          { "name": "Arcane Extract", "quantity": 1, "id": 109 },
+          { "name": "Condensed Time", "quantity": 1, "id": 863 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Roasted Blend",
@@ -665,7 +1106,9 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }
-      ]
+      ],
+      "license_amount": 650,
+      "recipe": { "ingredient": [{ "name": "Coffee Berries", "quantity": 6, "id": 924 }], "craft_amount": 4 }
     },
     {
       "name": "Endberries",
@@ -680,13 +1123,30 @@
       "name": "Espresso",
       "id": 1077,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 1, "id": 1075 },
+          { "name": "Purified Water", "quantity": 1, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Mocha",
       "id": 1078,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 2, "id": 1075 },
+          { "name": "Chocolate", "quantity": 2, "id": 161 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Twilight Smoothie",
@@ -695,13 +1155,33 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
-      ]
+      ],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Arcane Extract", "quantity": 1, "id": 109 },
+          { "name": "Void Stone", "quantity": 1, "id": 869 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Purified Water", "quantity": 1, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Sunset Smoothie",
       "id": 1079,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Endberries", "quantity": 2, "id": 1076 },
+          { "name": "Bana Fruits", "quantity": 2, "id": 124 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Sunny Smoothie",
@@ -713,7 +1193,17 @@
       "name": "Berry Bliss Smoothie",
       "id": 1080,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Endberries", "quantity": 2, "id": 1076 },
+          { "name": "Koko", "quantity": 2, "id": 150 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Matcha",
@@ -725,19 +1215,46 @@
       "name": "Latte",
       "id": 1081,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 2, "id": 1075 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Dark Coffee",
       "id": 1082,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 4, "id": 1075 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Waffles",
       "id": 1083,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 4, "id": 144 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Mimi's Special",
@@ -749,61 +1266,132 @@
       "name": "Crystalline Totem of Mana Shield",
       "id": 1085,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (blue)" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (blue)" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Condensed Water Aether", "quantity": 1, "id": 406 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crystalline Totem of Healing",
       "id": 1086,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (green)" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (green)" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Condensed Nature Aether", "quantity": 1, "id": 502 },
+          { "name": "Living Vine", "quantity": 1, "id": 429 },
+          { "name": "Monster Bones", "quantity": 1, "id": 422 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crystalline Totem of Power",
       "id": 1087,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (red)" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (red)" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Condensed Fire Aether", "quantity": 1, "id": 545 },
+          { "name": "Firebloom Leaves", "quantity": 1, "id": 210 },
+          { "name": "Fire Extract", "quantity": 1, "id": 213 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Mato Sauce",
       "id": 1088,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Koko Water", "quantity": 1, "id": 243 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Sunriver Blend",
       "id": 1089,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Everspring Leaves", "quantity": 2, "id": 137 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Spices", "quantity": 2, "id": 159 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Cheese Mix",
       "id": 1090,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Parmimigiano", "quantity": 1, "id": 1043 },
+          { "name": "Emimimental", "quantity": 1, "id": 1044 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Crate of Screechers",
       "id": 1091,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small chest (3,6,9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small chest (3,6,9 tasks)" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Mad Screecher Original", "quantity": 6, "id": 102 },
+          { "name": "Everwood", "quantity": 2, "id": 325 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coffee Drink",
       "id": 1092,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 2, "id": 1075 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Kraken Steak",
       "id": 1093,
       "category": "Consumables",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "license_amount": 650
     },
     {
       "name": "Moonfish Steak",
       "id": 1094,
       "category": "Consumables",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "license_amount": 650
     },
     {
       "name": "Fungal Steak",
@@ -812,7 +1400,16 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fungalossus" }
-      ]
+      ],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Mushrooms Portion", "quantity": 4, "id": 240 },
+          { "name": "Brown Heads", "quantity": 4, "id": 284 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 1
+      }
     },
     { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
     { "name": "Coastguard Captain Armor", "id": 1121, "category": "Gear" },
@@ -848,22 +1445,102 @@
     { "name": "Kneadfield Aegis", "id": 1151, "category": "Gear", "image": { "fandom_wiki_image_path": "b/b2/Itm_gear_croissant_shield.png" } },
     { "name": "Croissword", "id": 1152, "category": "Gear", "image": { "fandom_wiki_image_path": "2/2c/Itm_gear_croissant_sword.png" } },
     { "name": "Kneadfield Mantle", "id": 1153, "category": "Gear", "image": { "fandom_wiki_image_path": "a/a5/Itm_gear_croissant_cape.png" } },
-    { "name": "Yellow Bandana", "id": 1155, "category": "Gear" },
-    { "name": "Yellow Swimwear", "id": 1156, "category": "Gear" },
-    { "name": "Yellow Pareo", "id": 1157, "category": "Gear" },
-    { "name": "Yellow Beach Top", "id": 1158, "category": "Gear" },
-    { "name": "Sunstriker", "id": 1159, "category": "Gear" },
+    {
+      "name": "Yellow Bandana",
+      "id": 1155,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Swimwear",
+      "id": 1156,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Pareo",
+      "id": 1157,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Rope", "quantity": 1, "id": 418 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Beach Top",
+      "id": 1158,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Sunstriker",
+      "id": 1159,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sunseekers", "quantity": 15, "id": 335 },
+          { "name": "Sunseeker's Stems", "quantity": 15, "id": 670 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
+        ],
+        "craft_amount": 1
+      }
+    },
     {
       "name": "Timefound Kettle",
       "id": 1160,
       "category": "Gear",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }],
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Mechanical Parts", "quantity": 2, "id": 527 },
+          { "name": "Datablet", "quantity": 2, "id": 522 },
+          { "name": "Aether Charge", "quantity": 2, "id": 104 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Coffee Machine",
       "id": 1161,
       "category": "Gear",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }],
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Mechanical Parts", "quantity": 2, "id": 527 },
+          { "name": "Databoard", "quantity": 2, "id": 529 },
+          { "name": "Aether Charge", "quantity": 1, "id": 104 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Record Player",
@@ -875,13 +1552,31 @@
       "name": "Biscuitmaker",
       "id": 1163,
       "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 4, "id": 325 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "Monster Horn", "quantity": 2, "id": 426 },
+          { "name": "Monster Scales", "quantity": 2, "id": 171 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Flower Pot",
       "id": 1164,
       "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }],
+      "license_amount": 550,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 4, "id": 235 },
+          { "name": "Slime Extract", "quantity": 4, "id": 173 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Circular Lamp",
@@ -893,7 +1588,16 @@
       "name": "Canvas Bag",
       "id": 1166,
       "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Jute", "quantity": 1, "id": 444 },
+          { "name": "Sun Linen", "quantity": 2, "id": 415 },
+          { "name": "Leather", "quantity": 1, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Aetheric Salt",
