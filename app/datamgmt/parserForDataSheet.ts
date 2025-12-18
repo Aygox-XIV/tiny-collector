@@ -168,6 +168,11 @@ const SAFE_ITEM_NAMES: Set<string> = new Set([
     "Where's My Kitty?",
     "Where's My Kitty?",
     'Whipped Cream Waffles',
+    'Time Stalk',
+    'Coffee',
+    'Vegan Bourguignon',
+    'Condensed Time',
+    // TODO: all SF and FE items
 ]);
 
 /**
@@ -318,6 +323,14 @@ export function importSourcesFromDataSheet(csvFile: string): Record<string, Sour
                     kind: getKind(row),
                     fragment: getFragment(row),
                     subtype: row[9] == 'Daily' ? 'Daily' : getEventSubtype(row)!!,
+                    name: row[12],
+                });
+                break;
+            case 'Mission Reward':
+                sources.push({
+                    type: SourceType.MissionReward,
+                    kind: getKind(row),
+                    fragment: getFragment(row),
                     name: row[12],
                 });
                 break;

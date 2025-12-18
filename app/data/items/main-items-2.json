@@ -1,6 +1,14 @@
 {
   "items": [
-    { "name": "Condensed Time", "id": 863, "category": "Material" },
+    {
+      "name": "Condensed Time",
+      "id": 863,
+      "category": "Material",
+      "source": [
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock" },
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }
+      ]
+    },
     {
       "name": "Half-digested Adventurer Bag",
       "id": 867,
@@ -188,7 +196,18 @@
       "image": { "fandom_wiki_image_path": "f/f8/Coffee_Berries.png" }
     },
     { "name": "Coffee", "id": 1217, "category": "Plant", "image": { "fandom_wiki_image_path": "6/67/Coffee_%28Seed%29.png" } },
-    { "name": "Time Stalk", "id": 925, "category": "Material" },
+    {
+      "name": "Time Stalk",
+      "id": 925,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Metatemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" }
+      ]
+    },
     {
       "name": "Potted Aetheric Flowers",
       "id": 926,
@@ -265,7 +284,12 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
       ]
     },
-    { "name": "Vegan Bourguignon", "id": 952, "category": "Consumables" },
+    {
+      "name": "Vegan Bourguignon",
+      "id": 952,
+      "category": "Consumables",
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+    },
     {
       "name": "Antique Map",
       "id": 958,
@@ -578,7 +602,12 @@
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
     },
-    { "name": "Retrotemporal Bread", "id": 1065, "category": "Consumables" },
+    {
+      "name": "Retrotemporal Bread",
+      "id": 1065,
+      "category": "Consumables",
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }]
+    },
     { "name": "Timefound Loaf", "id": 1066, "category": "Consumables" },
     {
       "name": "Timefound Brioche",
@@ -824,8 +853,18 @@
     { "name": "Yellow Pareo", "id": 1157, "category": "Gear" },
     { "name": "Yellow Beach Top", "id": 1158, "category": "Gear" },
     { "name": "Sunstriker", "id": 1159, "category": "Gear" },
-    { "name": "Timefound Kettle", "id": 1160, "category": "Gear" },
-    { "name": "Coffee Machine", "id": 1161, "category": "Gear" },
+    {
+      "name": "Timefound Kettle",
+      "id": 1160,
+      "category": "Gear",
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }]
+    },
+    {
+      "name": "Coffee Machine",
+      "id": 1161,
+      "category": "Gear",
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }]
+    },
     {
       "name": "Record Player",
       "id": 1162,
