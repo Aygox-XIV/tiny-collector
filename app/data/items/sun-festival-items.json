@@ -1453,6 +1453,251 @@
       "id": 1203,
       "category": "Plant",
       "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }]
+    },
+    {
+      "name": "Potted Violetines",
+      "id": 927,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
+          { "name": "Violetines", "quantity": 1, "id": 673 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Potted Redchidaes",
+      "id": 928,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
+          { "name": "Redchidaes", "quantity": 1, "id": 667 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Potted Silverblooms",
+      "id": 929,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
+          { "name": "Silverblooms", "quantity": 1, "id": 676 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Bourguignon",
+      "id": 951,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
+      ],
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
+          { "name": "Potatoes", "quantity": 2, "id": 113 },
+          { "name": "Firebloom Leaves", "quantity": 1, "id": 210 },
+          { "name": "Carrot", "quantity": 2, "id": 990 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Vegan Bourguignon",
+      "id": 952,
+      "category": "Consumables",
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+    },
+    {
+      "name": "Drakegull Steak",
+      "id": 1039,
+      "category": "Consumables",
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "quantity": 1, "id": 177 },
+          { "name": "Archipelago Fries", "quantity": 1, "id": 114 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Fiery Coral Crab Noodles",
+      "id": 1040,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Fiery Mushroom Noodles",
+      "id": 1042,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
+          { "name": "Brown Heads", "quantity": 1, "id": 284 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Mato Sauce",
+      "id": 1088,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Koko Water", "quantity": 1, "id": 243 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Sunriver Blend",
+      "id": 1089,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Everspring Leaves", "quantity": 2, "id": 137 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Spices", "quantity": 2, "id": 159 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Cheese Mix",
+      "id": 1090,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Parmimigiano", "quantity": 1, "id": 1043 },
+          { "name": "Emimimental", "quantity": 1, "id": 1044 }
+        ],
+        "craft_amount": 4
+      }
+    },
+    {
+      "name": "Crate of Screechers",
+      "id": 1091,
+      "category": "Consumables",
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small chest (3,6,9 tasks)" }],
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Mad Screecher Original", "quantity": 6, "id": 102 },
+          { "name": "Everwood", "quantity": 2, "id": 325 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Bandana",
+      "id": 1155,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Swimwear",
+      "id": 1156,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Pareo",
+      "id": 1157,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Rope", "quantity": 1, "id": 418 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Yellow Beach Top",
+      "id": 1158,
+      "category": "Gear",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Linen", "quantity": 1, "id": 415 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Canvas Bag",
+      "id": 1166,
+      "category": "Gear",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Jute", "quantity": 1, "id": 444 },
+          { "name": "Sun Linen", "quantity": 2, "id": 415 },
+          { "name": "Leather", "quantity": 1, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
+    },
+    {
+      "name": "Flower Pot",
+      "id": 1164,
+      "category": "Gear",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }],
+      "license_amount": 550,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 4, "id": 235 },
+          { "name": "Slime Extract", "quantity": 4, "id": 173 }
+        ],
+        "craft_amount": 4
+      }
     }
   ]
 }

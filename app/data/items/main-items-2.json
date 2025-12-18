@@ -140,52 +140,6 @@
       "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_silver_coin.png" }
     },
     {
-      "name": "Crabantula Web",
-      "id": 895,
-      "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
-      "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
-    },
-    {
-      "name": "Figurine: Barrel Mimic",
-      "id": 909,
-      "category": "Material",
-      "image": { "fandom_wiki_image_path": "8/81/Itm_mat_fig_mimic_barrel.png" }
-    },
-    { "name": "Figurine: Moonfish", "id": 910, "category": "Material", "image": { "fandom_wiki_image_path": "0/04/Itm_mat_fig_moonfish.png" } },
-    {
-      "name": "Figurine: Water Sprite",
-      "id": 911,
-      "category": "Material",
-      "image": { "fandom_wiki_image_path": "3/30/Itm_mat_fig_water_sprite.png" }
-    },
-    {
-      "name": "Figurine: Coral Elemental",
-      "id": 912,
-      "category": "Material",
-      "image": { "fandom_wiki_image_path": "8/8f/Itm_mat_fig_coral_elemental.png" }
-    },
-    {
-      "name": "Figurine: Temple Coral Crab",
-      "id": 913,
-      "category": "Material",
-      "image": { "fandom_wiki_image_path": "5/5f/Itm_mat_fig_crab_coral.png" }
-    },
-    {
-      "name": "Figurine: Coral Praetorian",
-      "id": 914,
-      "category": "Material",
-      "image": { "fandom_wiki_image_path": "a/a0/Itm_mat_fig_crab_praetorian.png" }
-    },
-    { "name": "Figurine: Crabantula", "id": 915, "category": "Material", "image": { "fandom_wiki_image_path": "7/78/Itm_mat_fig_crabantula.png" } },
-    { "name": "Figurine: Kelpish", "id": 916, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Itm_mat_fig_kelp.png" } },
-    { "name": "Figurine: Hydrologist", "id": 917, "category": "Material", "image": { "fandom_wiki_image_path": "6/67/Itm_mat_fig_hydro.png" } },
-    { "name": "Figurine: Coastguard", "id": 918, "category": "Material", "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_fig_coast.png" } },
-    { "name": "Figurine: Disrupter", "id": 919, "category": "Material", "image": { "fandom_wiki_image_path": "b/bf/Itm_mat_fig_rogue.png" } },
-    { "name": "Kelp", "id": 920, "category": "Material" },
-    { "name": "Coral Crab Chunk", "id": 921, "category": "Material" },
-    { "name": "Crabantula Silk", "id": 922, "category": "Material" },
-    {
       "name": "Ashen Flour",
       "id": 923,
       "category": "Material",
@@ -222,63 +176,6 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" }
       ]
-    },
-    {
-      "name": "Potted Aetheric Flowers",
-      "id": 926,
-      "category": "Material",
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "item",
-          "fragment": false,
-          "subtype": "Flooded Expedition",
-          "name": "Overgrown Ancient Chest (wave 12 of long dive)"
-        }
-      ],
-      "license_amount": 250
-    },
-    {
-      "name": "Potted Violetines",
-      "id": 927,
-      "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
-          { "name": "Violetines", "quantity": 1, "id": 673 }
-        ],
-        "craft_amount": 4
-      }
-    },
-    {
-      "name": "Potted Redchidaes",
-      "id": 928,
-      "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
-          { "name": "Redchidaes", "quantity": 1, "id": 667 }
-        ],
-        "craft_amount": 4
-      }
-    },
-    {
-      "name": "Potted Silverblooms",
-      "id": 929,
-      "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Flower Pot", "quantity": 1, "id": 1164 },
-          { "name": "Silverblooms", "quantity": 1, "id": 676 }
-        ],
-        "craft_amount": 4
-      }
     },
     {
       "name": "Sporetower Figurine",
@@ -319,83 +216,12 @@
     { "name": "Faded Faster Selling", "id": 945, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/78/Faded_Faster_Selling.png" } },
     { "name": "Faded Income Boost", "id": 946, "category": "Consumables", "image": { "fandom_wiki_image_path": "c/ce/Faded_Income_Boost.png" } },
     {
-      "name": "Bourguignon",
-      "id": 951,
-      "category": "Consumables",
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
-      ],
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
-          { "name": "Potatoes", "quantity": 2, "id": 113 },
-          { "name": "Firebloom Leaves", "quantity": 1, "id": 210 },
-          { "name": "Carrot", "quantity": 2, "id": 990 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Vegan Bourguignon",
-      "id": 952,
-      "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
-    },
-    {
       "name": "Antique Map",
       "id": 958,
       "category": "Consumables",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }]
     },
     { "name": "Summon Theo - 3 days", "id": 963, "category": "Consumables" },
-    { "name": "Kraken Paella", "id": 965, "category": "Consumables" },
-    { "name": "Avocado Maki", "id": 966, "category": "Consumables" },
-    { "name": "Kraken Maki", "id": 967, "category": "Consumables" },
-    { "name": "Crab Maki", "id": 968, "category": "Consumables" },
-    { "name": "Moonfish Maki", "id": 969, "category": "Consumables" },
-    { "name": "Crab Sushi", "id": 970, "category": "Consumables" },
-    { "name": "Kraken Sushi", "id": 971, "category": "Consumables" },
-    { "name": "Temago Sushi", "id": 972, "category": "Consumables" },
-    { "name": "Onigiri", "id": 973, "category": "Consumables" },
-    { "name": "Crab Taco", "id": 974, "category": "Consumables" },
-    { "name": "Drakgull Taco", "id": 975, "category": "Consumables" },
-    { "name": "Kraken Taco", "id": 976, "category": "Consumables" },
-    { "name": "Veggie Taco", "id": 977, "category": "Consumables" },
-    { "name": "Crab Salad", "id": 978, "category": "Consumables" },
-    { "name": "Crab Soup", "id": 979, "category": "Consumables" },
-    { "name": "Crab Paella", "id": 980, "category": "Consumables" },
-    { "name": "Kraken Chili", "id": 981, "category": "Consumables" },
-    { "name": "Crab Chili", "id": 982, "category": "Consumables" },
-    { "name": "Eyenemone Noodles", "id": 983, "category": "Consumables" },
-    { "name": "Crab Arancini", "id": 984, "category": "Consumables" },
-    { "name": "Steamed Crab Bites", "id": 985, "category": "Consumables" },
-    { "name": "Kelp Jerky", "id": 986, "category": "Consumables" },
-    { "name": "Carrot Cake", "id": 987, "category": "Consumables" },
-    { "name": "Carrot Soup", "id": 988, "category": "Consumables" },
-    { "name": "Carrot Salad", "id": 989, "category": "Consumables" },
-    { "name": "Carrot", "id": 990, "category": "Consumables" },
-    { "name": "Rusting Poison", "id": 991, "category": "Consumables" },
-    { "name": "Silencing Poison", "id": 992, "category": "Consumables" },
-    { "name": "Crab Stock", "id": 993, "category": "Consumables" },
-    { "name": "Potion of Flowing Thoughts", "id": 994, "category": "Consumables" },
-    { "name": "Potion of Serenity", "id": 995, "category": "Consumables" },
-    { "name": "Crab Cakes", "id": 996, "category": "Consumables" },
-    { "name": "Hot Sauce", "id": 997, "category": "Consumables" },
-    { "name": "Enchanted Ink", "id": 998, "category": "Consumables" },
-    { "name": "Potion of Water Breathing", "id": 999, "category": "Consumables" },
-    { "name": "Potion of Chitin Armor", "id": 1000, "category": "Consumables" },
-    { "name": "Potion of Waveform", "id": 1001, "category": "Consumables" },
-    { "name": "Potion of Kraken Strength", "id": 1002, "category": "Consumables" },
-    { "name": "Potion of Inkform", "id": 1003, "category": "Consumables" },
-    { "name": "Coraline Arrows", "id": 1004, "category": "Consumables" },
-    { "name": "Poison Arrows", "id": 1005, "category": "Consumables" },
-    { "name": "Ink Arrows", "id": 1006, "category": "Consumables" },
-    { "name": "Water Arrows", "id": 1007, "category": "Consumables" },
-    { "name": "Water Bombs", "id": 1008, "category": "Consumables" },
-    { "name": "Ink Bombs", "id": 1009, "category": "Consumables" },
-    { "name": "Darkness Bombs", "id": 1010, "category": "Consumables" },
     { "name": "Quindim", "id": 1011, "category": "Consumables" },
     { "name": "Singing Hibis", "id": 1012, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/77/Itm_consum_tea_hibis.png" } },
     { "name": "Arcane Cheesecake", "id": 1013, "category": "Consumables" },
@@ -634,21 +460,6 @@
       }
     },
     {
-      "name": "Ashen Sandwich",
-      "id": 1036,
-      "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ashen Loaf", "quantity": 1, "id": 1022 },
-          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
-          { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
-        ],
-        "craft_amount": 2
-      }
-    },
-    {
       "name": "Fiery Sandwich",
       "id": 1037,
       "category": "Consumables",
@@ -663,48 +474,6 @@
       }
     },
     {
-      "name": "The Ash Delight",
-      "id": 1038,
-      "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "license_amount": 1000,
-      "recipe": {
-        "ingredient": [
-          { "name": "Ashen Flour", "quantity": 3, "id": 923 },
-          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
-          { "name": "Archipelago Greens", "quantity": 2, "id": 184 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Drakegull Steak",
-      "id": 1039,
-      "category": "Consumables",
-      "license_amount": 250,
-      "recipe": {
-        "ingredient": [
-          { "name": "Drakegull Meat", "quantity": 1, "id": 177 },
-          { "name": "Archipelago Fries", "quantity": 1, "id": 114 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Fiery Coral Crab Noodles",
-      "id": 1040,
-      "category": "Consumables",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
-          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
       "name": "Fiery Kraken Noodles",
       "id": 1041,
       "category": "Consumables",
@@ -713,19 +482,6 @@
         "ingredient": [
           { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
           { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Fiery Mushroom Noodles",
-      "id": 1042,
-      "category": "Consumables",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
-          { "name": "Brown Heads", "quantity": 1, "id": 284 }
         ],
         "craft_amount": 1
       }
@@ -1263,108 +1019,6 @@
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
     },
     {
-      "name": "Crystalline Totem of Mana Shield",
-      "id": 1085,
-      "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (blue)" }],
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Condensed Water Aether", "quantity": 1, "id": 406 },
-          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
-          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Crystalline Totem of Healing",
-      "id": 1086,
-      "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (green)" }],
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Condensed Nature Aether", "quantity": 1, "id": 502 },
-          { "name": "Living Vine", "quantity": 1, "id": 429 },
-          { "name": "Monster Bones", "quantity": 1, "id": 422 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Crystalline Totem of Power",
-      "id": 1087,
-      "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Unknown Crystal (red)" }],
-      "license_amount": 500,
-      "recipe": {
-        "ingredient": [
-          { "name": "Condensed Fire Aether", "quantity": 1, "id": 545 },
-          { "name": "Firebloom Leaves", "quantity": 1, "id": 210 },
-          { "name": "Fire Extract", "quantity": 1, "id": 213 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Mato Sauce",
-      "id": 1088,
-      "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
-      "license_amount": 250,
-      "recipe": {
-        "ingredient": [
-          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
-          { "name": "Koko Water", "quantity": 1, "id": 243 }
-        ],
-        "craft_amount": 4
-      }
-    },
-    {
-      "name": "Sunriver Blend",
-      "id": 1089,
-      "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
-      "license_amount": 250,
-      "recipe": {
-        "ingredient": [
-          { "name": "Everspring Leaves", "quantity": 2, "id": 137 },
-          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
-          { "name": "Spices", "quantity": 2, "id": 159 }
-        ],
-        "craft_amount": 4
-      }
-    },
-    {
-      "name": "Cheese Mix",
-      "id": 1090,
-      "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
-      "license_amount": 250,
-      "recipe": {
-        "ingredient": [
-          { "name": "Parmimigiano", "quantity": 1, "id": 1043 },
-          { "name": "Emimimental", "quantity": 1, "id": 1044 }
-        ],
-        "craft_amount": 4
-      }
-    },
-    {
-      "name": "Crate of Screechers",
-      "id": 1091,
-      "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small chest (3,6,9 tasks)" }],
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Mad Screecher Original", "quantity": 6, "id": 102 },
-          { "name": "Everwood", "quantity": 2, "id": 325 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
       "name": "Coffee Drink",
       "id": 1092,
       "category": "Consumables",
@@ -1412,23 +1066,6 @@
       }
     },
     { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
-    { "name": "Coastguard Captain Armor", "id": 1121, "category": "Gear" },
-    { "name": "Coastguard Captain Boots", "id": 1122, "category": "Gear" },
-    { "name": "Coastguard Captain Kilt", "id": 1123, "category": "Gear" },
-    { "name": "Coastguard Captain Shield", "id": 1124, "category": "Gear" },
-    { "name": "Coastguard Captain Turban", "id": 1125, "category": "Gear" },
-    { "name": "Coastguard Armor", "id": 1126, "category": "Gear" },
-    { "name": "Coastguard Boots", "id": 1127, "category": "Gear" },
-    { "name": "Coastguard Kilt", "id": 1128, "category": "Gear" },
-    { "name": "Coastguard Shield", "id": 1129, "category": "Gear" },
-    { "name": "Coastguard Turban", "id": 1130, "category": "Gear" },
-    { "name": "Hydrologist Jerkin", "id": 1131, "category": "Gear" },
-    { "name": "Hydrologist Skirt", "id": 1132, "category": "Gear" },
-    { "name": "Hydrologist Hat", "id": 1133, "category": "Gear" },
-    { "name": "Hydrologist Shoes", "id": 1134, "category": "Gear" },
-    { "name": "Hydrologist Staff", "id": 1135, "category": "Gear" },
-    { "name": "Inkosophist Brush", "id": 1136, "category": "Gear" },
-    { "name": "Coastguard Spear", "id": 1137, "category": "Gear" },
     { "name": "Emerald Shield", "id": 1138, "category": "Gear" },
     { "name": "Seastone Shield", "id": 1139, "category": "Gear" },
     { "name": "Coral Crab Plush", "id": 1140, "category": "Gear", "image": { "fandom_wiki_image_path": "2/2a/Furniture_plush_crab.png" } },
@@ -1445,59 +1082,6 @@
     { "name": "Kneadfield Aegis", "id": 1151, "category": "Gear", "image": { "fandom_wiki_image_path": "b/b2/Itm_gear_croissant_shield.png" } },
     { "name": "Croissword", "id": 1152, "category": "Gear", "image": { "fandom_wiki_image_path": "2/2c/Itm_gear_croissant_sword.png" } },
     { "name": "Kneadfield Mantle", "id": 1153, "category": "Gear", "image": { "fandom_wiki_image_path": "a/a5/Itm_gear_croissant_cape.png" } },
-    {
-      "name": "Yellow Bandana",
-      "id": 1155,
-      "category": "Gear",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Sun Linen", "quantity": 1, "id": 415 },
-          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Yellow Swimwear",
-      "id": 1156,
-      "category": "Gear",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Sun Linen", "quantity": 1, "id": 415 },
-          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Yellow Pareo",
-      "id": 1157,
-      "category": "Gear",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Sun Linen", "quantity": 1, "id": 415 },
-          { "name": "Rope", "quantity": 1, "id": 418 },
-          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Yellow Beach Top",
-      "id": 1158,
-      "category": "Gear",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Sun Linen", "quantity": 1, "id": 415 },
-          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
-        ],
-        "craft_amount": 1
-      }
-    },
     {
       "name": "Sunstriker",
       "id": 1159,
@@ -1560,41 +1144,6 @@
           { "name": "Iron", "quantity": 2, "id": 157 },
           { "name": "Monster Horn", "quantity": 2, "id": 426 },
           { "name": "Monster Scales", "quantity": 2, "id": 171 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
-      "name": "Flower Pot",
-      "id": 1164,
-      "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }],
-      "license_amount": 550,
-      "recipe": {
-        "ingredient": [
-          { "name": "Anthracite", "quantity": 4, "id": 235 },
-          { "name": "Slime Extract", "quantity": 4, "id": 173 }
-        ],
-        "craft_amount": 4
-      }
-    },
-    {
-      "name": "Circular Lamp",
-      "id": 1165,
-      "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3,6,9 tasks)" }]
-    },
-    {
-      "name": "Canvas Bag",
-      "id": 1166,
-      "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
-      "license_amount": 750,
-      "recipe": {
-        "ingredient": [
-          { "name": "Jute", "quantity": 1, "id": 444 },
-          { "name": "Sun Linen", "quantity": 2, "id": 415 },
-          { "name": "Leather", "quantity": 1, "id": 369 }
         ],
         "craft_amount": 1
       }
