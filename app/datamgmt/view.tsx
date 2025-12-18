@@ -31,6 +31,7 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     "Where's My Kitty?", // 5 versions
     "Jelly's Special", // 1 quest, 1 consumable
     'Timefound Loaf', // 1 round, 1 rectangle
+    'Kelp', // 1 material, 1 decor
     // Seeds with the same name as what they produce
     'Blue Tower',
     'Puff Flower',
@@ -43,7 +44,7 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Pumpkin',
     'Sunseekers',
 ]);
-// most duplocate items aren't ingredients in non-duplicate items yet, except plants
+// most duplicate items aren't ingredients in non-duplicate items yet, except plants
 const PLANT_INGREDEIENT_IDS: Record<string, number> = {
     'Blue Tower': 120,
     'Puff Flower': 257,
@@ -55,6 +56,8 @@ const PLANT_INGREDEIENT_IDS: Record<string, number> = {
     'Ashen Wheat': 870,
     Pumpkin: 238,
     Sunseekers: 335,
+    // not a seed, still a plant...
+    Kelp: 920,
 };
 
 const CSV_FILES: FilePickerAcceptType[] = [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }];

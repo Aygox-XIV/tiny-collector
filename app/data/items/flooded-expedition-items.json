@@ -244,13 +244,18 @@
     { "name": "Replica: Kelp", "id": 1263, "category": "Decor" },
     { "name": "Replica: Mimic Barrel", "id": 1264, "category": "Decor" },
     { "name": "Decor: Overgrown Ancient Chest", "id": 1265, "category": "Decor" },
-    { "name": "Decoe: Overgrown Lavoir", "id": 1266, "category": "Decor" },
+    { "name": "Decor: Overgrown Lavoir", "id": 1266, "category": "Decor" },
     { "name": "Replica: Coral Crab", "id": 1267, "category": "Decor" },
-    { "name": "Replica: Overgrown Basin", "id": 1268, "category": "Decor" },
+    { "name": "Decor: Overgrown Basin", "id": 1268, "category": "Decor" },
     { "name": "Replica: Coral Elemental", "id": 1269, "category": "Decor" },
     { "name": "Decor: Ancient Chest", "id": 1270, "category": "Decor" },
     { "name": "Decor: Aetheric Flowers", "id": 1271, "category": "Decor" },
     { "name": "Replica: Moonfish", "id": 1272, "category": "Decor" },
-    { "name": "Decor: Water Temple Arena", "id": 1273, "category": "Decor" }
+    { "name": "Decor: Water Temple Arena", "id": 1273, "category": "Decor" },
+    { "name": "Mannequin - Coastguard", "id": 1300, "category": "Decor" },
+    { "name": "Mannequin - Hydrologist", "id": 1301, "category": "Decor" },
+    { "name": "Recruit: Disrupter", "id": 1302, "category": "Quest" },
+    { "name": "Recruit: Coastguard", "id": 1303, "category": "Quest" },
+    { "name": "Recruit: Hydrologist", "id": 1304, "category": "Quest" }
   ]
 }
