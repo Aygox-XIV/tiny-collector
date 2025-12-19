@@ -1446,13 +1446,15 @@
       "name": "Sunseekers",
       "id": 1202,
       "category": "Plant",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }]
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "image": { "fandom_wiki_image_path": "c/c6/Sunseekers_%28Seed%29.png" }
     },
     {
       "name": "Koko Tree",
       "id": 1203,
       "category": "Plant",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }]
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "image": { "fandom_wiki_image_path": "4/4b/Koko_Tree_%28Seed%29.png" }
     },
     {
       "name": "Potted Violetines",

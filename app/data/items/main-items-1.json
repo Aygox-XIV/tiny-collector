@@ -676,7 +676,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/bf/Croissant_Tree_%28Seed%29.png" }
     },
     {
       "name": "Drakegull Meat",
@@ -5072,7 +5073,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f2/Arcane_Croissant_Tree_%28Seed%29.png" }
     },
     {
       "name": "Anniversary Cake",
@@ -5195,19 +5197,22 @@
       "name": "Bana Tree",
       "id": 1200,
       "category": "Plant",
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }],
+      "image": { "fandom_wiki_image_path": "5/54/Bana_Tree_%28Seed%29.png" }
     },
     {
       "name": "Bonefinger",
       "id": 1204,
       "category": "Plant",
-      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }]
+      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "e/e8/Bonefinger_%28Seed%29.png" }
     },
     {
       "name": "Scalebulb",
       "id": 1205,
       "category": "Plant",
-      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }]
+      "source": [{ "type": "Shifty", "kind": "item", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "a/a7/Scalebulb_%28Seed%29.png" }
     }
   ]
 }

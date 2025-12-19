@@ -11,6 +11,16 @@ import { useCatalogFilter } from './filtercontext';
 
 export interface CatalogFilterBarProps {}
 
+const ALL_CATEGORIES: Set<Category> = new Set([
+    'Material',
+    'Gear',
+    'Consumables',
+    'Decor',
+    'Quest',
+    'Plant',
+    'Cosmetic',
+]);
+
 export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
     const [filter, setFilter] = useCatalogFilter();
     const db = useDatabase();
@@ -24,15 +34,7 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
     };
 
     // TODO: make the item category selector work like the other tabs.
-    let allowedCategories: Set<Category> = new Set([
-        'Material',
-        'Gear',
-        'Consumables',
-        'Decor',
-        'Quest',
-        'Plant',
-        'Cosmetic',
-    ]);
+    let allowedCategories = ALL_CATEGORIES;
     if (filter.catalogView && db.catalogs[filter.catalogView].categories) {
         allowedCategories = new Set(db.catalogs[filter.catalogView].categories);
     }
@@ -108,12 +110,23 @@ interface CatSelectionProps {
 
 const CategorySelectionIcon: React.FC<CatSelectionProps> = ({ category }) => {
     const [filter, setFilter] = useCatalogFilter();
-    const toggleCategory = function (cat: Category) {
+    const toggleCategory = function (clickEvent: React.MouseEvent<SVGElement, MouseEvent>, cat: Category) {
         let cats = filter.hiddenCategories || new Set();
-        if (cats.has(cat)) {
-            cats.delete(cat);
+        if (clickEvent.ctrlKey.valueOf()) {
+            if (cats.has(cat)) {
+                cats.delete(cat);
+            } else {
+                cats.add(cat);
+            }
         } else {
-            cats.add(cat);
+            // TODO: don't have inconsistent behavior when switching between catalogs with different available categories.
+            if (cats.size == ALL_CATEGORIES.size - 1 && !cats.has(cat)) {
+                cats = new Set();
+            } else {
+                cats = new Set();
+                ALL_CATEGORIES.forEach((c) => cats.add(c));
+                cats.delete(cat);
+            }
         }
         setFilter({ ...filter, hiddenCategories: cats });
     };
@@ -146,7 +159,7 @@ const CategorySelectionIcon: React.FC<CatSelectionProps> = ({ category }) => {
     return (
         <IconType
             className={'category-selection' + selectedClass(!filter.hiddenCategories?.has(category))}
-            onClick={() => toggleCategory(category)}
+            onClick={(e) => toggleCategory(e, category)}
         />
     );
 };
