@@ -385,5 +385,7 @@ export function validateSingleSource(item: Item, source: Source) {
             }
             break;
         // TODO: more
+        // e.g.:
+        // - journeys don't drop non-fragmented recipes
     }
 }
