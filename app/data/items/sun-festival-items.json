@@ -1519,6 +1519,15 @@
       "name": "Vegan Bourguignon",
       "id": 952,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Potatoes", "quantity": 4, "id": 113 },
+          { "name": "Spices", "quantity": 2, "id": 159 },
+          { "name": "Firebloom Leaves", "quantity": 2, "id": 210 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 1000,
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
     },
     {

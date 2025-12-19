@@ -2123,7 +2123,7 @@
         "craft_amount": 3
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
-      "image": { "fandom_wiki_image_path": "4/44/Weightless_Potion.png" }
+      "image": { "fandom_wiki_image_path": "9/9a/Weightless_Potion1.png" }
     },
     { "name": "Blushflower Petals", "id": 353, "category": "Material", "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" } },
     {
@@ -3743,7 +3743,7 @@
       "image": { "fandom_wiki_image_path": "3/37/Datablet.png" }
     },
     {
-      "name": "M&M Module: the Winged Terror",
+      "name": "M&M Module: The Winged Terror",
       "id": 523,
       "category": "Gear",
       "license_amount": 850,
@@ -5087,7 +5087,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "c/cb/Item_anni_cake_3.png" }
     },
     {
       "name": "Anniversary Cake",
@@ -5102,7 +5103,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "f/ff/Anniversary_Cake_%282025%29.png" }
     },
     {
       "name": "Whole Birthday Cake",
@@ -5110,7 +5112,8 @@
       "category": "Consumables",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1179 }], "craft_amount": 1 },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }],
+      "image": { "fandom_wiki_image_path": "d/d5/Whole_Birthday_Cake_%282024%29.png" }
     },
     {
       "name": "Whole Birthday Cake",
@@ -5118,7 +5121,8 @@
       "category": "Consumables",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1180 }], "craft_amount": 1 },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }],
+      "image": { "fandom_wiki_image_path": "a/a7/Whole_Birthday_Cake_%282025%29.png.png" }
     },
     {
       "name": "Blue Tower",

@@ -644,6 +644,14 @@
       "name": "Circular Lamp",
       "id": 1165,
       "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 3, "id": 235 },
+          { "name": "Everwood", "quantity": 1, "id": 325 }
+        ],
+        "craft_amount": 1
+      },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
     },
     {
