@@ -13,6 +13,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     const collection = useFullCollection();
     let itemIds: string[];
 
+    // TODO: this needs some fixing. if the same item's there >1 time, it gets stuck
     if (filter.catalogView && db.catalogs[filter.catalogView]) {
         const itemNameList = db.catalogs[filter.catalogView].items;
         itemIds = [];
@@ -37,6 +38,17 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
         } else {
             setFilter({ ...filter, nameMatch: newValue.toLowerCase() });
         }
+    };
+
+    // Catalogs (specifically, the Flooded Expedition catalog) may have >1 entry for the same item.
+    // The key must be different between them, or they don't get removed from view.
+    let shownIds: Set<string> = new Set();
+    const keyFunction = (id: string) => {
+        while (shownIds.has(id)) {
+            id = id + '+';
+        }
+        shownIds.add(id);
+        return id;
     };
 
     return (
@@ -65,7 +77,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
             </div>
             <div className="catalog-content center-content">
                 {filteredItems.map((id) => {
-                    return <CatalogItem id={id.toString()} key={id} />;
+                    return <CatalogItem id={id.toString()} key={keyFunction(id)} />;
                 })}
             </div>
         </div>
