@@ -1,3 +1,4 @@
+import { BsHouse } from 'react-icons/bs';
 import { FaSeedling } from 'react-icons/fa';
 import { GiCarnivalMask } from 'react-icons/gi';
 import type { Item } from '../database/database';
@@ -12,6 +13,7 @@ export const ItemName: React.FC<ItemNameProps> = ({ item }) => {
             {item.name}
             {item.category == 'Plant' && <FaSeedling />}
             {item.category == 'Cosmetic' && <GiCarnivalMask />}
+            {item.category == 'Decor' && <BsHouse />}
         </div>
     );
 };
