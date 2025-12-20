@@ -1,5 +1,6 @@
 import { BASE_FILE_TYPES, loadFile, saveFile } from '../common/files';
 import {
+    CatalogType,
     REAL_FILES,
     setDbItems,
     setDbItemsAndCatalogs,
@@ -78,7 +79,8 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
     const saveNewItemData = () => saveFile(JSON.stringify(extractNewItemData(db)));
     const saveItemDataSubset = (original: ItemData, fileName: string) =>
         saveFile(JSON.stringify(extractItemDataSubset(db, original)), BASE_FILE_TYPES, fileName);
-    const saveCatalogs = () => saveFile(JSON.stringify(extractCatalogList(db)));
+    const saveCatalog = (c: CatalogType) =>
+        saveFile(JSON.stringify(extractCatalog(db, c)), BASE_FILE_TYPES, getCatalogFileName(c));
     const loadFromLicenseCalc = () => {
         loadFile((f) => {
             const items = importLicenseCalcSheet(f);
@@ -151,8 +153,15 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                         );
                     })}
                 </div>
-                <div className="settings-item" onClick={saveCatalogs}>
-                    Export all catalogs (in one file)
+                <div className="settings-group">
+                    Catalog exports
+                    {Object.values(CatalogType).map((c) => {
+                        return (
+                            <div className="settings-item" key={c} onClick={() => saveCatalog(c)}>
+                                Export the {db.catalogs[c].name} catalog
+                            </div>
+                        );
+                    })}
                 </div>
                 <div className="settings-item" onClick={loadFromLicenseCalc}>
                     Import data from License Calculator (recipes) (will overwrite) [to be deleted]
@@ -235,12 +244,26 @@ function extractItemDataSubset(db: Database, original: ItemData) {
     return { items };
 }
 
-function extractCatalogList(db: Database): CatalogList {
-    let defs: CatalogDef[] = [];
-    for (const def of Object.values(db.catalogs)) {
-        defs.push({ ...def, itemSet: undefined });
+function extractCatalog(db: Database, c: CatalogType): CatalogList {
+    // drop the synthetic and unserializable itemSet
+    return { catalogs: [{ ...db.catalogs[c], itemSet: undefined }] };
+}
+
+function getCatalogFileName(c: CatalogType): string {
+    switch (c) {
+        case CatalogType.EvercoldCatalog:
+            return 'evercold-catalog.json';
+        case CatalogType.FloodedCatalog:
+            return 'flooded-expedition-catalog.json';
+        case CatalogType.FullCatalog:
+            return 'main-catalog.json';
+        case CatalogType.PhantomCatalog:
+            return 'phantom-catalog.json';
+        case CatalogType.QuestCatalog:
+            return 'quest-catalog.json';
+        case CatalogType.SunCatalog:
+            return 'sun-festival-catalog.json';
     }
-    return { catalogs: defs };
 }
 
 function buildExistingItemNameToId(items: ItemDB): [Record<string, number>, number] {
