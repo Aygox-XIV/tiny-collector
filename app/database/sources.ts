@@ -387,5 +387,6 @@ export function validateSingleSource(item: Item, source: Source) {
         // TODO: more
         // e.g.:
         // - journeys don't drop non-fragmented recipes
+        // - research only drops recipes or unlocks
     }
 }

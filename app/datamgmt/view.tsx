@@ -199,6 +199,7 @@ function validateDbIntegrity(db: Database) {
         if (!hasRecipeSource && item.recipe && item.source) {
             console.warn('Item ' + item.id + ' (' + item.name + ') has a recipe but no known sources for it.');
         }
+        // TODO: recipe validation (name+id match & exist)
     }
 }
 

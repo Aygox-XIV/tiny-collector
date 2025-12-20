@@ -51,8 +51,15 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
     if (filter.hiddenCategories?.has(item.category)) {
         return false;
     }
-    if (hasNameFilter && !item.name.toLowerCase().match(filter.nameMatch)) {
-        return false;
+    try {
+        if (hasNameFilter && !item.name.toLowerCase().match(filter.nameMatch)) {
+            return false;
+        }
+    } catch (e) {
+        // Fall back to plain substring matching if the regex is invalid.
+        if (filter.nameMatch && !item.name.toLowerCase().includes(filter.nameMatch)) {
+            return false;
+        }
     }
     return true;
 }
