@@ -12,6 +12,7 @@ export interface CatalogFilter {
     readonly hideCollected?: boolean;
     // hide items with no known source
     readonly hideUnknown?: boolean;
+    readonly showOnlyMissingData?: boolean;
     // value of the search bar
     readonly nameMatch?: string;
 }
@@ -46,6 +47,9 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
         return false;
     }
     if (filter.hideUnknown && (!item.source || item.source.length == 0)) {
+        return false;
+    }
+    if (filter.showOnlyMissingData && item.source && item.image) {
         return false;
     }
     if (filter.hiddenCategories?.has(item.category)) {

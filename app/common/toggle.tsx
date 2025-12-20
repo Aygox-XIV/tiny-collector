@@ -4,7 +4,7 @@ import { HiOutlineX } from 'react-icons/hi';
 export interface ToggleProps {
     readonly text: string;
     readonly checked?: boolean;
-    readonly onClick: () => void;
+    readonly onClick: (e?: React.MouseEvent) => void;
 }
 
 export const Toggle: React.FC<ToggleProps> = ({ text, checked, onClick }) => {

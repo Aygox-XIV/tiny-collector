@@ -91,8 +91,12 @@ export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
                 <Toggle
                     text="Show items with missing data: "
                     checked={!filter.hideUnknown}
-                    onClick={() => {
-                        setFilter({ ...filter, hideUnknown: !filter.hideUnknown });
+                    onClick={(e) => {
+                        if (e?.altKey.valueOf()) {
+                            setFilter({ ...filter, showOnlyMissingData: !filter.showOnlyMissingData });
+                        } else {
+                            setFilter({ ...filter, hideUnknown: !filter.hideUnknown });
+                        }
                     }}
                 />
             </div>

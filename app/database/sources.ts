@@ -388,5 +388,7 @@ export function validateSingleSource(item: Item, source: Source) {
         // e.g.:
         // - journeys don't drop non-fragmented recipes
         // - research only drops recipes or unlocks
+        // - medium & large weekly task chests don't drop fragments (small chests only drop fragments, minus the tokens)
+        // - yearly event task chests don't drop fragments
     }
 }
