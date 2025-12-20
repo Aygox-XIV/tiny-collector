@@ -70,6 +70,7 @@
     },
     { "name": "Strange Loaf", "id": 861, "category": "Quest" },
     { "name": "Strange Looking Plants", "id": 862, "category": "Quest" },
+    { "name": "Condensed Time", "id": 1311, "category": "Quest", "image": { "fandom_wiki_image_path": "d/d2/Condensed_Time.png" } },
     { "name": "Where's My Kitty?", "id": 1167, "category": "Quest" },
     { "name": "Where's My Kitty?", "id": 1168, "category": "Quest" },
     { "name": "Where's My Kitty?", "id": 1169, "category": "Quest" },
