@@ -39,7 +39,7 @@
       "image": { "fandom_wiki_image_path": "3/30/Itm_mat_fig_water_sprite.png" }
     },
     {
-      "name": "Figurine: Coral Elemental",
+      "name": "Figurine:Coral Elemental",
       "id": 912,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }],
@@ -1058,18 +1058,27 @@
       "name": "Hiring Token: Mages",
       "id": 1307,
       "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+      ],
       "image": { "fandom_wiki_image_path": "0/0f/Itm_mat_recruit_token_magic.png" }
     },
     {
       "name": "Hiring Token: Fighters",
       "id": 1308,
       "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+      ],
       "image": { "fandom_wiki_image_path": "9/91/Itm_mat_recruit_token_fighter.png" }
     },
     {
       "name": "Hiring Token: Supports",
       "id": 1309,
       "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d4/Itm_mat_recruit_token_support.png" }
     },
     { "name": "Ancient Runes", "id": 1310, "category": "Quest", "image": { "fandom_wiki_image_path": "3/3e/Itm_mat_ancient_runes.png" } }
