@@ -7,7 +7,8 @@
       "source": [
         { "type": "Battle", "subtype": "Flooded Expedition", "kind": "item", "fragment": false, "name": "Crates" },
         { "type": "Battle", "subtype": "Flooded Expedition", "kind": "item", "fragment": false, "name": "Barrel" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/db/Carrots_%28Seed%29.png" }
     },
     {
       "name": "Crabantula Web",

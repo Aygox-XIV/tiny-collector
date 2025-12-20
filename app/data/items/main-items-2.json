@@ -520,19 +520,6 @@
       }
     },
     {
-      "name": "Fiery Kraken Noodles",
-      "id": 1041,
-      "category": "Consumables",
-      "license_amount": 650,
-      "recipe": {
-        "ingredient": [
-          { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
-          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
-        ],
-        "craft_amount": 1
-      }
-    },
-    {
       "name": "Parmimigiano",
       "id": 1043,
       "category": "Consumables",
@@ -920,7 +907,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/4d/Endberries.png" }
     },
     {
       "name": "Espresso",
