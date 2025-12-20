@@ -373,7 +373,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
       ],
-      "image": { "local_path": "/items/phantom/item_bloody_berry.png" }
+      "image": { "fandom_wiki_image_path": "d/d8/Itm_consum_cokctail_berry.png" }
     },
     {
       "name": "Cyclolipops Chill Grape",
@@ -478,7 +478,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }],
-      "image": { "local_path": "/items/phantom/item_pumpkin_pie.png" }
+      "image": { "fandom_wiki_image_path": "c/ca/Itm_consum_pie_pumpkin.png" }
     },
     {
       "name": "Spectral Fairy",
@@ -1145,13 +1145,12 @@
         "ingredient": [
           { "name": "Cursedconut Leaves", "quantity": 1, "id": 190 },
           { "name": "Hexed Linen", "quantity": 3, "id": 492 },
-          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
         ],
         "craft_amount": 1
       },
       "image": { "fandom_wiki_image_path": "f/fa/Darkbloom_Tunic.png" }
     },
-    { "name": "Tombstone Fragment", "id": 740, "category": "Material" },
     {
       "name": "Darkbloom Robe",
       "id": 741,
@@ -1234,7 +1233,7 @@
         "ingredient": [
           { "name": "Hexed Linen", "quantity": 3, "id": 492 },
           { "name": "Spectral Residus", "quantity": 2, "id": 744 },
-          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
         ],
         "craft_amount": 1
       },
@@ -1613,7 +1612,7 @@
         "ingredient": [
           { "name": "Cursedconut Log", "quantity": 1, "id": 773 },
           { "name": "Iron", "quantity": 4, "id": 157 },
-          { "name": "Tombstone Fragment", "quantity": 1, "id": 740 }
+          { "name": "Tombstone Fragments", "quantity": 1, "id": 900 }
         ],
         "craft_amount": 1
       },
@@ -1831,7 +1830,7 @@
           { "name": "Broken Scythe", "quantity": 2, "id": 742 },
           { "name": "Essence of Undeath", "quantity": 2, "id": 268 },
           { "name": "Iron", "quantity": 4, "id": 157 },
-          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
         ],
         "craft_amount": 1
       },
@@ -1846,7 +1845,7 @@
         "ingredient": [
           { "name": "Cursedconut Log", "quantity": 1, "id": 773 },
           { "name": "Iron", "quantity": 2, "id": 157 },
-          { "name": "Tombstone Fragment", "quantity": 1, "id": 740 }
+          { "name": "Tombstone Fragments", "quantity": 1, "id": 900 }
         ],
         "craft_amount": 1
       },
@@ -1877,7 +1876,7 @@
           { "name": "Broken Scythe", "quantity": 2, "id": 742 },
           { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
           { "name": "Iron", "quantity": 4, "id": 157 },
-          { "name": "Tombstone Fragment", "quantity": 2, "id": 740 }
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
         ],
         "craft_amount": 1
       },

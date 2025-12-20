@@ -101,13 +101,14 @@
       ],
       "image": { "fandom_wiki_image_path": "b/bf/Itm_mat_fig_rogue.png" }
     },
-    { "name": "Kelp", "id": 920, "category": "Material" },
-    { "name": "Coral Crab Chunk", "id": 921, "category": "Material" },
+    { "name": "Kelp", "id": 920, "category": "Material", "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_kelp.png" } },
+    { "name": "Coral Crab Chunk", "id": 921, "category": "Material", "image": { "fandom_wiki_image_path": "d/db/Itm_consum_coral_crab_chunk.png" } },
     {
       "name": "Crabantula Silk",
       "id": 922,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
+      "image": { "fandom_wiki_image_path": "0/0d/Itm_material_crabantula_silk.png" }
     },
     {
       "name": "Potted Aetheric Flowers",
@@ -128,91 +129,122 @@
       "name": "Kraken Paella",
       "id": 965,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "6/65/Itm_consum_kraken_paella.png" }
     },
     {
       "name": "Avocado Maki",
       "id": 966,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_maki_avocado.png" }
     },
     {
       "name": "Kraken Maki",
       "id": 967,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_consum_maki_kraken.png" }
     },
     {
       "name": "Crab Maki",
       "id": 968,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/5b/Itm_consum_maki_crab.png" }
     },
     {
       "name": "Moonfish Maki",
       "id": 969,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/74/Itm_consum_maki_moonfish.png" }
     },
     {
       "name": "Crab Sushi",
       "id": 970,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "c/c3/Itm_consum_sushi_crab.png" }
     },
     {
       "name": "Kraken Sushi",
       "id": 971,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_sushi_kraken.png" }
     },
     {
       "name": "Temago Sushi",
       "id": 972,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_sushi_temago.png" }
     },
     {
       "name": "Onigiri",
       "id": 973,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
+      "image": { "fandom_wiki_image_path": "9/98/Itm_consum_onigiri.png" }
     },
     {
       "name": "Crab Taco",
       "id": 974,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f7/Itm_consum_taco_crab.png" }
     },
     {
       "name": "Drakgull Taco",
       "id": 975,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "1/11/Itm_consum_taco_drakegull.png" }
     },
     {
       "name": "Kraken Taco",
       "id": 976,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/0c/Itm_consum_taco_kraken.png" }
     },
     {
       "name": "Veggie Taco",
       "id": 977,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_consum_taco_veggie.png" }
     },
     {
       "name": "Crab Salad",
       "id": 978,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
+      "image": { "fandom_wiki_image_path": "9/90/Itm_consum_crab_salad.png" }
     },
     {
       "name": "Crab Soup",
       "id": 979,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
+      "image": { "fandom_wiki_image_path": "b/b6/Itm_consum_crab_soup.png" }
     },
     {
       "name": "Crab Paella",
@@ -221,13 +253,15 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1d/Itm_consum_crab_paella.png" }
     },
     {
       "name": "Kraken Chili",
       "id": 981,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/a6/Itm_consum_kraken_chili.png" }
     },
     {
       "name": "Crab Chili",
@@ -236,7 +270,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_crab_chili.png" }
     },
     {
       "name": "Eyenemone Noodles",
@@ -245,49 +280,61 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "8/83/Itm_consum_kelp_sirashu.png" }
     },
     {
       "name": "Crab Arancini",
       "id": 984,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
+      "image": { "fandom_wiki_image_path": "a/a8/Itm_consum_crab_arrancini.png" }
     },
     {
       "name": "Steamed Crab Bites",
       "id": 985,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/bd/Itm_consum_crab_steamed_bites.png" }
     },
     {
       "name": "Kelp Jerky",
       "id": 986,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f2/Itm_consum_kelp_jerky.png" }
     },
     {
       "name": "Carrot Cake",
       "id": 987,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }],
+      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_carrot_cake.png" }
     },
     {
       "name": "Carrot Soup",
       "id": 988,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }],
+      "image": { "fandom_wiki_image_path": "c/c1/Itm_consum_soup_carrot.png" }
     },
     {
       "name": "Carrot Salad",
       "id": 989,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }],
+      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_salad_carrot.png" }
     },
     {
       "name": "Carrot",
       "id": 990,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Carrots" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Carrots" }],
+      "image": { "fandom_wiki_image_path": "c/c3/Carrot.png" }
     },
     {
       "name": "Rusting Poison",
@@ -297,7 +344,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/ca/Itm_consum_poison_rusting.png" }
     },
     {
       "name": "Silencing Poison",
@@ -306,13 +354,15 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a5/Itm_consum_poison_silence.png" }
     },
     {
       "name": "Crab Stock",
       "id": 993,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
+      "image": { "fandom_wiki_image_path": "0/02/Itm_consum_crab_broth.png" }
     },
     {
       "name": "Potion of Flowing Thoughts",
@@ -321,85 +371,105 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/ad/Itm_consum_potion_water.png" }
     },
     {
       "name": "Potion of Serenity",
       "id": 995,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }],
+      "image": { "fandom_wiki_image_path": "6/66/Itm_consum_potion_kraken_02.png" }
     },
     {
       "name": "Crab Cakes",
       "id": 996,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/68/Itm_consum_crab_cake.png" }
     },
     {
       "name": "Hot Sauce",
       "id": 997,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
+      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_hot_sauce.png" }
     },
     {
       "name": "Enchanted Ink",
       "id": 998,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "8/80/Itm_consum_enchanted_ink.png" }
     },
     {
       "name": "Potion of Water Breathing",
       "id": 999,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
+      "image": { "fandom_wiki_image_path": "f/ff/Itm_consum_potion_crab.png" }
     },
     {
       "name": "Potion of Chitin Armor",
       "id": 1000,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_consum_potion_chitin.png" }
     },
     {
       "name": "Potion of Waveform",
       "id": 1001,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" }]
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" }],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_potion_wave.png" }
     },
     {
       "name": "Potion of Kraken Strength",
       "id": 1002,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "2/2b/Itm_consum_potion_kraken.png" }
     },
     {
       "name": "Potion of Inkform",
       "id": 1003,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/01/Itm_consum_potion_ink.png" }
     },
     {
       "name": "Coraline Arrows",
       "id": 1004,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/70/Itm_consum_arrow_coral.png" }
     },
     {
       "name": "Poison Arrows",
       "id": 1005,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_arrow_poison.png" }
     },
     {
       "name": "Ink Arrows",
       "id": 1006,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "6/63/Itm_consum_arrow_ink.png" }
     },
     {
       "name": "Water Arrows",
       "id": 1007,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/64/Itm_consum_arrow_water.png" }
     },
     {
       "name": "Water Bombs",
@@ -408,7 +478,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c7/Itm_consum_bomb_water.png" }
     },
     {
       "name": "Ink Bombs",
@@ -417,13 +488,15 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/79/Itm_consum_bomb_ink.png" }
     },
     {
       "name": "Darkness Bombs",
       "id": 1010,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_bomb_dark.png" }
     },
     {
       "name": "Ashen Sandwich",
@@ -441,7 +514,8 @@
           { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "d/d1/Ashen_Sandwich.png" }
     },
     {
       "name": "The Ash Delight",
@@ -514,7 +588,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/05/Itm_gear_coastguard_captain_armor.png" }
     },
     {
       "name": "Coastguard Captain Boots",
@@ -523,7 +598,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d5/Itm_gear_coastguard_captain_shoes.png" }
     },
     {
       "name": "Coastguard Captain Kilt",
@@ -532,7 +608,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/30/Itm_gear_coastguard_captain_kilt.png" }
     },
     {
       "name": "Coastguard Captain Shield",
@@ -541,7 +618,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/37/Itm_gear_coastguard_caotin_shield.png" }
     },
     {
       "name": "Coastguard Captain Turban",
@@ -550,7 +628,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/40/Itm_gear_coastguard_captain_turban.png" }
     },
     {
       "name": "Coastguard Armor",
@@ -558,7 +637,8 @@
       "category": "Gear",
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b3/Itm_gear_coastguard_armor.png" }
     },
     {
       "name": "Coastguard Boots",
@@ -566,7 +646,8 @@
       "category": "Gear",
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/ed/Itm_gear_coastguard_shoes.png" }
     },
     {
       "name": "Coastguard Kilt",
@@ -574,7 +655,8 @@
       "category": "Gear",
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/db/Itm_gear_coastguard_kilt.png" }
     },
     {
       "name": "Coastguard Shield",
@@ -582,7 +664,8 @@
       "category": "Gear",
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/99/Itm_gear_coastguard_shield.png" }
     },
     {
       "name": "Coastguard Turban",
@@ -590,37 +673,43 @@
       "category": "Gear",
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/0f/Itm_gear_coastguard_turban.png" }
     },
     {
       "name": "Hydrologist Jerkin",
       "id": 1131,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "e/eb/Itm_gear_hydrologist_top.png" }
     },
     {
       "name": "Hydrologist Skirt",
       "id": 1132,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "8/87/Itm_gear_hydrologist_skirt.png" }
     },
     {
       "name": "Hydrologist Hat",
       "id": 1133,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "2/2a/Itm_gear_hydrologist_hat.png" }
     },
     {
       "name": "Hydrologist Shoes",
       "id": 1134,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/00/Itm_gear_hydrologist_shoes.png" }
     },
     {
       "name": "Hydrologist Staff",
       "id": 1135,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/12/Itm_gear_hydrologist_staff.png" }
     },
     {
       "name": "Inkosophist Brush",
@@ -629,7 +718,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/79/Itm_gear_inkosophist_brush.png" }
     },
     {
       "name": "Coastguard Spear",
@@ -638,7 +728,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/b1/Itm_gear_coastguard_spear.png" }
     },
     {
       "name": "Circular Lamp",
@@ -961,6 +1052,25 @@
       "id": 1304,
       "category": "Quest",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "All enemies" }]
-    }
+    },
+    {
+      "name": "Hiring Token: Mages",
+      "id": 1307,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "0/0f/Itm_mat_recruit_token_magic.png" }
+    },
+    {
+      "name": "Hiring Token: Fighters",
+      "id": 1308,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "9/91/Itm_mat_recruit_token_fighter.png" }
+    },
+    {
+      "name": "Hiring Token: Supports",
+      "id": 1309,
+      "category": "Material",
+      "image": { "fandom_wiki_image_path": "d/d4/Itm_mat_recruit_token_support.png" }
+    },
+    { "name": "Ancient Runes", "id": 1310, "category": "Quest", "image": { "fandom_wiki_image_path": "3/3e/Itm_mat_ancient_runes.png" } }
   ]
 }

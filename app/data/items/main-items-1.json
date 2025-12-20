@@ -5,14 +5,16 @@
       "id": 100,
       "category": "Consumables",
       "license_amount": 1200,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "6/6d/Itm_consum_potion_accuracy.png" }
     },
     {
       "name": "Fish Dumplings",
       "id": 101,
       "category": "Consumables",
       "license_amount": 800,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "2/2b/Itm_consum_dumpling.png" }
     },
     {
       "name": "Mad Screecher Original",
@@ -22,14 +24,16 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Selling", "name": "Sell Mad Screechers", "level": 5 }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/5c/Itm_consum_soda_original.png" }
     },
     {
       "name": "Mad Screecher Sunset",
       "id": 103,
       "category": "Consumables",
       "license_amount": 1200,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "2/29/Itm_consum_soda_orange.png" }
     },
     {
       "name": "Aether Charge",
@@ -98,14 +102,13 @@
       "recipe": {
         "ingredient": [
           { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 },
-          { "name": "Standard Arrow", "quantity": 1, "id": 108 }
+          { "name": "Standard Arrows", "quantity": 1, "id": 324 }
         ],
         "craft_amount": 3
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
       "image": { "fandom_wiki_image_path": "d/da/Arcane_Arrows.png" }
     },
-    { "name": "Standard Arrow", "id": 108, "category": "Material" },
     {
       "name": "Arcane Extract",
       "id": 109,
@@ -175,7 +178,8 @@
       "category": "Consumables",
       "license_amount": 700,
       "recipe": { "ingredient": [{ "name": "Potatoes", "quantity": 4, "id": 113 }], "craft_amount": 4 },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "f/f3/Consum_chips_salt.png" }
     },
     {
       "name": "Potatoes",
@@ -202,7 +206,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/40/Itm_consum_fries.png" }
     },
     {
       "name": "Kraken Grease",
@@ -283,9 +288,16 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_consum_bread_banana.png" }
     },
-    { "name": "Bana Fruits", "id": 124, "category": "Material" },
+    {
+      "name": "Bana Fruits",
+      "id": 124,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_bana.png" }
+    },
     {
       "name": "Wheat Flour",
       "id": 125,
@@ -307,7 +319,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "0/0d/Itm_consum_bana_chips.png" }
     },
     {
       "name": "Bana Drink",
@@ -322,7 +335,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "9/9f/Itm_consum_bana_juice.png" }
     },
     {
       "name": "Summergreen Leaves",
@@ -344,7 +358,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "b/b1/Itm_consum_icecream_banana.png" }
     },
     {
       "name": "Barkskin Potion",
@@ -360,7 +375,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "6/63/Itm_consum_potion_barkskin.png" }
     },
     {
       "name": "Aetheric Water",
@@ -376,7 +392,8 @@
       "name": "Aethero Insulating Empty Bottle",
       "id": 133,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_material_bottle_potion_empty_02.png" }
     },
     {
       "name": "Brightmoth Dust",
@@ -464,7 +481,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "f/f3/Itm_consum_potion_bravery.png" }
     },
     {
       "name": "Coast Lemons",
@@ -706,7 +724,7 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
       "image": { "fandom_wiki_image_path": "2/21/Cuter_Brioche.png" }
     },
-    { "name": "Archipelago Greens", "id": 184, "category": "Material" },
+    { "name": "Archipelago Greens", "id": 184, "category": "Material", "image": { "fandom_wiki_image_path": "5/59/Archipelago_greens.png" } },
     {
       "name": "Fresh Bread",
       "id": 185,
@@ -811,7 +829,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "2/2e/Itm_gem_bag_herb.png" }
     },
     {
       "name": "Summer Glory",
@@ -828,7 +847,7 @@
       "recipe": {
         "ingredient": [
           { "name": "Firebloom Leaves", "quantity": 1, "id": 210 },
-          { "name": "Standard Arrow", "quantity": 1, "id": 108 }
+          { "name": "Standard Arrows", "quantity": 1, "id": 324 }
         ],
         "craft_amount": 3
       },
@@ -928,7 +947,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "9/99/Itm_consum_fish_balls.png" }
     },
     {
       "name": "Moonfish Filet",
@@ -968,7 +988,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }],
+      "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_salad_drakegull.png" }
     },
     {
       "name": "Fried Moonfish Salad",
@@ -983,7 +1004,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 4/6" }],
+      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_salad_moonfish.png" }
     },
     {
       "name": "Glorious Ice Cream",
@@ -1030,7 +1052,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Misc", "name": "KROASSANT!", "level": 2 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Misc", "name": "KROASSANT!", "level": 2 }],
+      "image": { "fandom_wiki_image_path": "d/d9/Itm_consum_croissant_golden.png" }
     },
     {
       "name": "Health Lollipop",
@@ -1060,7 +1083,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "9/97/Itm_consum_hotdog.png" }
     },
     {
       "name": "Improved Smoke Bomb",
@@ -1152,7 +1176,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "2/22/Itm_food_noodle_ink.png" }
     },
     {
       "name": "Kraken Ink",
@@ -1184,7 +1209,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "0/07/Consum_chips_kraken.png" }
     },
     {
       "name": "Kraken on a Stick",
@@ -1202,7 +1228,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/58/Itm_consum_food_kraken.png" }
     },
     {
       "name": "Kraken Rings",
@@ -1217,7 +1244,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "7/7c/Itm_food_kraken_ring.png" }
     },
     {
       "name": "Large Elixir",
@@ -1336,7 +1364,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 4/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 4/7" }],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_character_sheet.png" }
     },
     {
       "name": "Mad Screecher Blue Sky",
@@ -1351,7 +1380,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "9/94/Itm_consum_soda_blue.png" }
     },
     {
       "name": "Mad Screecher Coral",
@@ -1366,7 +1396,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "e/e4/Itm_consum_soda_coral.png" }
     },
     {
       "name": "Mad Screecher Passion",
@@ -1381,7 +1412,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "a/a7/Itm_consum_soda_red.png" }
     },
     {
       "name": "Maelstrom Poison",
@@ -1469,7 +1501,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "1/14/Itm_consum_potion_invisibility.png" }
     },
     {
       "name": "Moonfish Soup",
@@ -1631,7 +1664,8 @@
       "category": "Consumables",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Potatoes", "quantity": 4, "id": 113 }], "craft_amount": 4 },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "d/dc/Itm_consum_chips_original.png" }
     },
     {
       "name": "Potato Con Carne",
@@ -1709,7 +1743,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "e/eb/Itm_gem_juice_puffy.png" }
     },
     {
       "name": "Puff Tea",
@@ -1798,7 +1833,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_gem_balm.png" }
     },
     {
       "name": "Salad & Fries",
@@ -1813,7 +1849,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 6/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 6/6" }],
+      "image": { "fandom_wiki_image_path": "b/bd/Itm_consum_salad_fries.png" }
     },
     {
       "name": "Standard Arrows",
@@ -1847,7 +1884,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }],
+      "image": { "fandom_wiki_image_path": "7/75/Itm_mat_stasis_potion.png" }
     },
     {
       "name": "Improved Arcane Catalyst",
@@ -1898,7 +1936,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 2 - Part 1/6" }],
+      "image": { "fandom_wiki_image_path": "c/c5/Itm_mat_stasis_powder.png" }
     },
     {
       "name": "Steamed Fish & Rice",
@@ -1946,7 +1985,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "1/19/Itm_gem_juice_glory.png" }
     },
     {
       "name": "Sun Up",
@@ -2093,7 +2133,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 1/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Cool As a Cucumber - Part 1/6" }],
+      "image": { "fandom_wiki_image_path": "f/ff/Itm_consum_salad_vegie.png" }
     },
     {
       "name": "Weak Elixir",
@@ -2124,7 +2165,7 @@
         "craft_amount": 3
       },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
-      "image": { "fandom_wiki_image_path": "9/9a/Weightless_Potion1.png" }
+      "image": { "fandom_wiki_image_path": "d/d1/Itm_consum_potion_weightless.png" }
     },
     { "name": "Blushflower Petals", "id": 353, "category": "Material", "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" } },
     {
@@ -2160,7 +2201,8 @@
       "source": [
         { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Naturalist" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/14/Itm_gear_pouch.png" }
     },
     {
       "name": "Citizen's Mask",
@@ -2179,14 +2221,16 @@
       "id": 361,
       "category": "Gear",
       "license_amount": 800,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "c/c8/Itm_gear_fishing_rod.png" }
     },
     {
       "name": "Ranger's Cape",
       "id": 362,
       "category": "Gear",
       "license_amount": 800,
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_gear_cape_ranger.png" }
     },
     {
       "name": "Adventure Map",
@@ -2457,7 +2501,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/04/Itm_gear_helmet_arcane02.png" }
     },
     {
       "name": "Iron Helmet",
@@ -2572,7 +2617,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "6/6e/Itm_gem_bot_compendium_1.png" }
     },
     { "name": "Sea Lilac", "id": 396, "category": "Material", "image": { "fandom_wiki_image_path": "4/45/Sea_Lilac.png" } },
     {
@@ -2588,7 +2634,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "1/13/Itm_gem_bot_compendium_2.png" }
     },
     {
       "name": "Archipelago Botanical Compendium III",
@@ -2603,7 +2650,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "7/79/Itm_gem_bot_compendium_3.png" }
     },
     {
       "name": "Ardent Glare",
@@ -2652,7 +2700,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/30/Itm_gear_amulet_basic.png" }
     },
     {
       "name": "Basic Ring",
@@ -2669,7 +2718,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/bc/Itm_gear_ring_basic.png" }
     },
     {
       "name": "Condensed Water Aether",
@@ -2713,7 +2763,8 @@
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/73/Itm_gear_bone_armor.png" }
     },
     {
       "name": "Monster Bones",
@@ -2734,7 +2785,8 @@
       "source": [
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c1/Itm_material_sinew.png" }
     },
     {
       "name": "Bone Dagger",
@@ -2791,7 +2843,8 @@
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/1e/Itm_gear_bone_dice.png" }
     },
     {
       "name": "Bone Fishing Rod",
@@ -2805,7 +2858,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "d/d8/Itm_fishing_rod_bone.png" }
     },
     {
       "name": "Living Vine",
@@ -2833,7 +2887,8 @@
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/93/Itm_gear_bone_gloves.png" }
     },
     {
       "name": "Bone Greaves",
@@ -2851,7 +2906,8 @@
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a5/Itm_gear_bone_greave.png" }
     },
     {
       "name": "Bone Helmet",
@@ -2886,7 +2942,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "8/82/Itm_bait_bone.png" }
     },
     {
       "name": "Bone Pants",
@@ -2904,7 +2961,8 @@
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "3/3a/Itm_gear_bone_pant.png" }
     },
     {
       "name": "Bone Spear",
@@ -2922,7 +2980,8 @@
       "source": [
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Scalebulb" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "5/5f/Itm_gear_bone_spear.png" }
     },
     {
       "name": "Circlet",
@@ -3014,7 +3073,8 @@
       "source": [
         { "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" },
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/6d/Itm_bait_coral.png" }
     },
     {
       "name": "Coralline Amulet",
@@ -3028,7 +3088,8 @@
           { "name": "Blue Headed Coral", "quantity": 5, "id": 168 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "e/e7/Itm_gear_amulet_coral.png" }
     },
     {
       "name": "Aetheric Sand",
@@ -3053,7 +3114,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "a/ad/Itm_gear_kraken_dagger.png" }
     },
     {
       "name": "Coralline Fishing Rod",
@@ -3067,7 +3129,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "2/2e/Itm_fishing_rod_coral.png" }
     },
     {
       "name": "Coralline Ring",
@@ -3082,7 +3145,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "d/df/Itm_gear_ring_coral.png" }
     },
     {
       "name": "Ducky Overlord",
@@ -3189,7 +3253,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "5/5b/Itm_gear_amulet_emerald.png" }
     },
     {
       "name": "Emerald Armor",
@@ -3236,7 +3301,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "9/95/Itm_gear_gauntlet_emerald.png" }
     },
     {
       "name": "Emerald Greaves",
@@ -3267,7 +3333,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "9/94/Itm_gear_helmet_emerald.png" }
     },
     {
       "name": "Emerald Ring",
@@ -3285,7 +3352,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d9/Itm_gear_ring_emerald.png" }
     },
     {
       "name": "Emerald Sword",
@@ -3300,7 +3368,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "9/9f/Itm_gear_sword_seastone.png" }
     },
     {
       "name": "Exploration Kit",
@@ -3444,7 +3513,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/14/Itm_gear_helmet_fire02.png" }
     },
     {
       "name": "Fire Shield",
@@ -3584,7 +3654,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "3/33/Itm_gear_garb_healer.png" }
     },
     {
       "name": "Healing Wand",
@@ -3599,7 +3670,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "e/e1/Itm_gear_wand_healing.png" }
     },
     {
       "name": "Condensed Nature Aether",
@@ -3625,7 +3697,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "f/f5/Itm_gear_book_hydro.png" }
     },
     {
       "name": "Inkosophist Grimoire",
@@ -3641,7 +3714,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "a/ad/Itm_gear_book_ink.png" }
     },
     {
       "name": "Kraken Lure",
@@ -3655,7 +3729,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "9/91/Itm_bait_kraken.png" }
     },
     {
       "name": "Kraken Rod",
@@ -3670,7 +3745,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "9/9c/Itm_gear_kraken_fishing.png" }
     },
     {
       "name": "Leafspeaker Grimoire",
@@ -3686,7 +3762,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "8/8a/Itm_gear_book_naturalist.png" }
     },
     {
       "name": "Nature Extract",
@@ -3756,13 +3833,15 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part III - Part 3/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part III - Part 3/6" }],
+      "image": { "fandom_wiki_image_path": "a/a4/Itm_gear_book_game_module_02.png" }
     },
     {
       "name": "Ancient Sketchbook",
       "id": 524,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "9/96/Itm_material_ancient_book_03.png" }
     },
     {
       "name": "Manaweaving Spellbook",
@@ -3838,7 +3917,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_gear_bag_naturalist.png" }
     },
     {
       "name": "Pair of Arcane Daggers",
@@ -3976,7 +4056,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "f/fc/Itm_gem_praetorian_shoulder.png" }
     },
     {
       "name": "Pyromancy Spellbook",
@@ -4028,7 +4109,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "e/ea/Itm_gear_bow_ranger.png" }
     },
     {
       "name": "Ranger's Dagger",
@@ -4046,7 +4128,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_gear_dagger_ranger.png" }
     },
     {
       "name": "Seastone Amulet",
@@ -4061,7 +4144,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "b/bf/Itm_gear_amulet_seastone.png" }
     },
     {
       "name": "Seastone",
@@ -4118,7 +4202,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/43/Itm_gear_circlet_seastone.png" }
     },
     {
       "name": "Seastone Gauntlets",
@@ -4169,7 +4254,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Water Samples" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/04/Itm_gear_headband_seastone.png" }
     },
     {
       "name": "Seastone Helmet",
@@ -4184,7 +4270,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "f/f0/Itm_gear_helmet_seastone.png" }
     },
     {
       "name": "Seastone Ring",
@@ -4202,7 +4289,8 @@
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/ae/Itm_gear_ring_seastone.png" }
     },
     {
       "name": "Seastone Sword",
@@ -4217,7 +4305,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "9/9f/Itm_gear_sword_seastone.png" }
     },
     {
       "name": "Skull Cap",
@@ -4246,7 +4335,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "6/65/Itm_gem_hammer.png" }
     },
     {
       "name": "Smart Tablet",
@@ -4271,7 +4361,8 @@
       "category": "Gear",
       "license_amount": 650,
       "recipe": { "ingredient": [{ "name": "Anthracite", "quantity": 2, "id": 235 }], "craft_amount": 3 },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "image": { "fandom_wiki_image_path": "7/78/Itm_gear_dices.png" }
     },
     {
       "name": "Straw Hat",
@@ -4279,7 +4370,8 @@
       "category": "Gear",
       "license_amount": 650,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 5, "id": 137 }], "craft_amount": 1 },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "5/55/Itm_hat_straw.png" }
     },
     {
       "name": "Stone Mortar",
@@ -4287,7 +4379,8 @@
       "category": "Gear",
       "license_amount": 1100,
       "recipe": { "ingredient": [{ "name": "Stone", "quantity": 5, "id": 581 }], "craft_amount": 1 },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "7/71/Itm_gem_mortar.png" }
     },
     {
       "name": "Stone",
@@ -4313,7 +4406,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "e/e5/Itm_gear_amulet_kraken.png" }
     },
     {
       "name": "Thorn Amulet",
@@ -4328,7 +4422,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "5/56/Itm_gear_amulet_thorn.png" }
     },
     {
       "name": "Thorn Ring",
@@ -4343,7 +4438,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "7/78/Itm_gear_ring_thorn.png" }
     },
     {
       "name": "Tongs",
@@ -4357,7 +4453,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "1/19/Itm_gem_tong.png" }
     },
     {
       "name": "Training Dummy Kit",
@@ -4395,13 +4492,15 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "/9/9c/Itm_gear_banana_cape.png" }
     },
     {
       "name": "Bana Leaves",
       "id": 594,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "0/07/Itm_mat_bana_leaves.png" }
     },
     {
       "name": "Trapper's Mask",
@@ -4416,7 +4515,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "9/9b/Itm_gear_banana_mask.png" }
     },
     {
       "name": "Trapper's Shield",
@@ -4431,7 +4531,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "0/09/Itm_gear_banana_shield.png" }
     },
     {
       "name": "Trapper's Tunic",
@@ -4446,7 +4547,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "d/d7/Itm_gear_banana_tunic.png" }
     },
     {
       "name": "Trapper's Whip",
@@ -4462,7 +4564,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
+      "image": { "fandom_wiki_image_path": "/3/3a/Itm_gear_banana_whip.png" }
     },
     {
       "name": "Wavy Cap",
@@ -4476,7 +4579,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "f/f6/Item_cap_wave.png" }
     },
     {
       "name": "Weaving Needle",
@@ -4521,7 +4625,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "5/5a/Itm_bait_wood.png" }
     },
     {
       "name": "Wooden Bowls",
@@ -4535,7 +4640,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "8/85/Itm_gem_bowl_pile.png" }
     },
     {
       "name": "Wooden Plates",
@@ -4549,7 +4655,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "4/46/Itm_gem_plate_pile.png" }
     },
     {
       "name": "Wooden Sandals",
@@ -4557,7 +4664,8 @@
       "category": "Gear",
       "license_amount": 50,
       "recipe": { "ingredient": [{ "name": "Everwood", "quantity": 2, "id": 325 }], "craft_amount": 1 },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A New Life - Part 6/6" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A New Life - Part 6/6" }],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_gear_sandal_wood.png" }
     },
     {
       "name": "Ancient Stories",
@@ -4641,7 +4749,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "2/2c/Itm_mat_book_orange.png" }
     },
     {
       "name": "Ancient History Records",
@@ -4656,7 +4765,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "d/d6/Itm_mat_book_green.png" }
     },
     {
       "name": "Armor Cleaner",
@@ -4671,7 +4781,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "f/f7/Itm_gem_cleaner.png" }
     },
     {
       "name": "Basic Bonemeal",
@@ -4686,7 +4797,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "4/45/Itm_material_bonemeal.png" }
     },
     {
       "name": "Blue Tower Sprout",
@@ -4700,7 +4812,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "d/df/Itm_gem_pot_plant_tower.png" }
     },
     {
       "name": "Cinder Wheat",
@@ -4751,7 +4864,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "2/28/Itm_gem_pot_plant_everspring.png" }
     },
     {
       "name": "Eyenemone",
@@ -4859,7 +4973,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_gem_fabric_blue.png" }
     },
     {
       "name": "M&M Module 1: The Arcane Tower",
@@ -4929,7 +5044,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/cf/Itm_gem_agent_theta.png" }
     },
     {
       "name": "Puff Flower Sprout",
@@ -4943,7 +5059,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "d/de/Itm_gem_pot_plant_puff.png" }
     },
     {
       "name": "Records of the Old World",
@@ -4984,7 +5101,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "f/f9/Itm_gem_pot_plant_glory.png" }
     },
     {
       "name": "Sunsugar Cane",
@@ -5016,7 +5134,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Outlaw Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Bandit Hideout" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/65/Itm_balm_healing.png" }
     },
     {
       "name": "Arcane Balm",
@@ -5035,7 +5154,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "f/f7/Itm_balm_arcane.png" }
     },
     {
       "name": "Fiery Balm",
@@ -5054,15 +5174,16 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/7d/Itm_balm_fire.png" }
     },
-    { "name": "Arcane Catalyst", "id": 822, "category": "Material" },
     {
       "name": "Arcane Croissant",
       "id": 964,
       "category": "Consumables",
       "license_amount": 1000,
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Arcane Croissant Tree" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Arcane Croissant Tree" }],
+      "image": { "fandom_wiki_image_path": "6/69/Itm_consum_croissant_arcane.png" }
     },
     {
       "name": "Arcane Croissant Tree",

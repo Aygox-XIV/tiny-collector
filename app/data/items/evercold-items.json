@@ -201,7 +201,7 @@
         "ingredient": [
           { "name": "Evercold Crystals", "quantity": 2, "id": 202 },
           { "name": "Evercold Oil", "quantity": 1, "id": 203 },
-          { "name": "Standard Arrow", "quantity": 3, "id": 108 }
+          { "name": "Standard Arrows", "quantity": 3, "id": 324 }
         ],
         "craft_amount": 3
       },

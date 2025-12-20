@@ -4,38 +4,50 @@
       "name": "Tinder Powder",
       "id": 147,
       "category": "Material",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "7/72/Itm_material_blackpowder.png" }
     },
-    { "name": "Koko", "id": 150, "category": "Material", "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }] },
+    {
+      "name": "Koko",
+      "id": 150,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }],
+      "image": { "fandom_wiki_image_path": "f/f0/Koko.png" }
+    },
     {
       "name": "Koko Water",
       "id": 243,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }],
+      "image": { "fandom_wiki_image_path": "5/58/Koko_water.png" }
     },
     {
       "name": "Koko Coir",
       "id": 402,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }],
+      "image": { "fandom_wiki_image_path": "5/5e/Koko_coir.png" }
     },
     {
       "name": "Sunseekers",
       "id": 335,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }],
+      "image": { "fandom_wiki_image_path": "3/3f/Sunseekers.png" }
     },
     {
       "name": "Sunseeker Seeds",
       "id": 339,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }],
+      "image": { "fandom_wiki_image_path": "7/71/Sunseeker_seeds.png" }
     },
     {
       "name": "Sunseeker's Stems",
       "id": 670,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }],
+      "image": { "fandom_wiki_image_path": "3/3a/Itm_material_sunflower_stem.png" }
     },
     {
       "name": "Violetines",
@@ -70,7 +82,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "6/6c/Archipelago_rice.png" }
     },
     {
       "name": "Blue Firework",
@@ -85,7 +98,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "3/3e/Itm_consum_firework_blue.png" }
     },
     {
       "name": "Blue Paint",
@@ -115,7 +129,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "e/e6/Itm_consum_bonbon_koko.png" }
     },
     {
       "name": "Curry Pizza",
@@ -130,7 +145,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/a9/Pizza_curry.png" }
     },
     {
       "name": "Curry Sauce",
@@ -160,7 +176,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "f/f5/Burger_drakegull.png" }
     },
     {
       "name": "Drakegull Curry",
@@ -176,7 +193,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "3/3e/Drakegull_curry.png" }
     },
     {
       "name": "Drakegull Fireger",
@@ -191,7 +209,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/02/Fireger_drakegull.png" }
     },
     {
       "name": "Fire Bread",
@@ -205,7 +224,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "3/3c/Fire_bread.png" }
     },
     {
       "name": "Fiery Egg Toast",
@@ -219,7 +239,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "6/67/Fire_egg_toast.png" }
     },
     {
       "name": "Green Firework",
@@ -234,7 +255,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "0/0b/Itm_consum_firework_green.pn" }
     },
     {
       "name": "Green Paint",
@@ -264,7 +286,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "f/f6/Itm_consum_koko_drink.png" }
     },
     {
       "name": "Koko Flan",
@@ -279,7 +302,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "4/46/Coco_flan.png" }
     },
     {
       "name": "Koko Friedbread",
@@ -294,7 +318,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "f/fd/Koko_flatbread.png" }
     },
     {
       "name": "Koko Ice Cream",
@@ -309,7 +334,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "a/a8/Itm_consum_icecream_koko.png" }
     },
     {
       "name": "Koko Rice Pudding",
@@ -324,7 +350,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/a9/Rice_pudding.png" }
     },
     {
       "name": "Kraken Curry",
@@ -340,7 +367,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/17/Kraken_curry.png" }
     },
     {
       "name": "Moonfish Bites",
@@ -355,7 +383,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "5/54/Moonfish_special.png" }
     },
     {
       "name": "Moonfish Burger",
@@ -370,7 +399,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "2/22/Burger_moonfish.png" }
     },
     {
       "name": "Moonfish Curry",
@@ -386,7 +416,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "9/9d/Moonfish_curry.png" }
     },
     {
       "name": "Orange Firework",
@@ -401,7 +432,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "e/e5/Itm_consum_firework_orange.png" }
     },
     {
       "name": "Orange Paint",
@@ -431,7 +463,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "5/5e/Itm_consum_firework_pink.png" }
     },
     {
       "name": "Pink Paint",
@@ -461,7 +494,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "e/e5/Itm_consum_firework_red.png" }
     },
     {
       "name": "Red Paint",
@@ -491,7 +525,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "e/e8/Itm_consum_firework_white.png" }
     },
     {
       "name": "White Paint",
@@ -521,7 +556,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/1e/Itm_consum_summer_can.png" }
     },
     {
       "name": "Sun Potion",
@@ -536,7 +572,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "e/e1/Itm_consum_sun_potion.png" }
     },
     {
       "name": "Sunseeker Bread",
@@ -551,7 +588,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "4/47/Itm_consum_bread_sesame.png" }
     },
     {
       "name": "Tatare Moonfish Salad",
@@ -566,7 +604,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "e/ee/Moonfish_salad.png" }
     },
     {
       "name": "Violet Firework",
@@ -581,7 +620,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "0/02/Itm_consum_firework_violet.png" }
     },
     {
       "name": "Violet Paint",
@@ -611,7 +651,8 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "1/16/Itm_consum_firework_yellow.png" }
     },
     {
       "name": "Yellow Paint",
@@ -641,7 +682,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "3/35/Gear_adventurer_belt.png" }
     },
     {
       "name": "Adventurer's Boots",
@@ -655,7 +697,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "7/7e/Gear_adventurer_boot02.png" }
     },
     {
       "name": "Artsy Palette",
@@ -669,7 +712,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "8/85/Itm_gear_art_kit.png" }
     },
     {
       "name": "Beach Necklace",
@@ -684,7 +728,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "6/63/Itm_gear_beach_necklace.png" }
     },
     {
       "name": "Black Paint",
@@ -714,7 +759,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "8/8c/Itm_gear_canvas_blank.png" }
     },
     {
       "name": "Blue Bandana",
@@ -728,7 +774,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "3/3d/Itm_gear_beach_bandana_blue.png" }
     },
     {
       "name": "Sun Linen",
@@ -745,7 +792,8 @@
           "ingredient": [{ "name": "Sunseeker's Stems", "quantity": 40, "id": 670 }],
           "craft_amount": 40
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/08/Itm_material_sun_linen.png" }
     },
     {
       "name": "Sunseeker Oil",
@@ -753,7 +801,8 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Sunseekers", "quantity": 4, "id": 335 }], "craft_amount": 4 },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
+      "image": { "fandom_wiki_image_path": "0/0c/Itm_material_sunseeker_oil.png" }
     },
     {
       "name": "Blue Beach Top",
@@ -767,7 +816,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/09/Itm_gear_beach_top_blue.png" }
     },
     {
       "name": "Blue Pareo",
@@ -782,7 +832,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/15/Itm_gear_beach_pareo_blue.png" }
     },
     {
       "name": "Blue Summer Top",
@@ -796,7 +847,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "8/84/Gear_commoner_top.png" }
     },
     {
       "name": "Blue Swimwear",
@@ -810,7 +862,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/aa/Itm_gear_beach_pant_blue.png" }
     },
     {
       "name": "Commonfolk's Belt",
@@ -825,7 +878,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "2/22/Gear_belt_commoner.png" }
     },
     {
       "name": "Commonfolk's Shoes",
@@ -839,7 +893,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "7/78/Gear_commoner_shoes.png" }
     },
     {
       "name": "Healer's Dress",
@@ -854,7 +909,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "c/cb/Gear_healer_dress.png" }
     },
     {
       "name": "Healer's Top",
@@ -869,7 +925,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "4/41/Gear_healer_top.png" }
     },
     {
       "name": "Rogue's Pant",
@@ -884,7 +941,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/1d/Gear_rogue_pant.png" }
     },
     {
       "name": "Rogue's Top",
@@ -899,7 +957,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "b/ba/Gear_rogue_top.png" }
     },
     {
       "name": "Sorceress Skirt",
@@ -914,7 +973,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "/1/11/Gear_sorc_waist.png" }
     },
     {
       "name": "Sorceress Top",
@@ -929,7 +989,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/ae/Gear_sorc_top.png" }
     },
     {
       "name": "Sorceress Wraps",
@@ -944,7 +1005,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/17/Gear_sorc_wraps.png" }
     },
     {
       "name": "Sun Oracle Skirt",
@@ -959,7 +1021,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "2/29/Gear_sunp_dress.png" }
     },
     {
       "name": "Sun Oracle Top",
@@ -974,7 +1037,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/ad/Gear_sunp_top.png" }
     },
     {
       "name": "Sun Oracle Wraps",
@@ -989,7 +1053,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "5/58/Gear_sunp_wraps.png" }
     },
     {
       "name": "Trader's Belt",
@@ -1004,7 +1069,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "0/0a/Gear_belt_commoner02.png" }
     },
     {
       "name": "Trader's Boots",
@@ -1018,7 +1084,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "d/d5/Gear_adventurer_boot.png" }
     },
     {
       "name": "Trader's Vest",
@@ -1033,7 +1100,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "d/d8/Gear_commoner_top_02.png" }
     },
     {
       "name": "Black Pigment",
@@ -1129,7 +1197,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "e/e7/Itm_consum_soda_koko.png" }
     },
     {
       "name": "Fiery Noodles",
@@ -1143,7 +1212,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }],
+      "image": { "fandom_wiki_image_path": "9/92/Sun_fire_noodle.png" }
     },
     {
       "name": "Black Flip Flops",
@@ -1158,7 +1228,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Botanists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Botanists Guild" }],
+      "image": { "fandom_wiki_image_path": "f/f4/Sun_flip_black.png" }
     },
     {
       "name": "Blue Beach Towel",
@@ -1173,7 +1244,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "4/47/Sun_towel_blue.png" }
     },
     {
       "name": "Solar Fibre",
@@ -1187,7 +1259,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
+      "image": { "fandom_wiki_image_path": "8/83/Solar_Fibre.png" }
     },
     {
       "name": "Blue Flip Flops",
@@ -1202,7 +1275,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Tailors Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Tailors Guild" }],
+      "image": { "fandom_wiki_image_path": "1/15/Sun_flip_blue.png" }
     },
     {
       "name": "Green Beach Towel",
@@ -1217,7 +1291,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/0c/Sun_towel_green.png" }
     },
     {
       "name": "Green Flip Flops",
@@ -1232,7 +1307,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "image": { "fandom_wiki_image_path": "a/a0/Sun_flip_green.png" }
     },
     {
       "name": "Pink Beach Towel",
@@ -1247,7 +1323,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "a/a3/Sun_towel_pink.png" }
     },
     {
       "name": "Pink Flip Flops",
@@ -1262,7 +1339,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }],
+      "image": { "fandom_wiki_image_path": "7/78/Sun_flip_pink.png" }
     },
     {
       "name": "Rogue's Belt",
@@ -1276,7 +1354,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "8/80/Gear_rogue_belt.png" }
     },
     {
       "name": "Solar Rope",
@@ -1284,7 +1363,8 @@
       "category": "Gear",
       "license_amount": 120,
       "recipe": { "ingredient": [{ "name": "Solar Fibre", "quantity": 2, "id": 717 }], "craft_amount": 1 },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "c/c7/Sun_rope.png" }
     },
     {
       "name": "Yellow Beach Towel",
@@ -1299,7 +1379,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "6/69/Sun_towel_yellow.png" }
     },
     {
       "name": "Yellow Flip Flops",
@@ -1314,7 +1395,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "image": { "fandom_wiki_image_path": "7/78/Sun_flip_yellow.png" }
     },
     {
       "name": "Solar Fishing Line",
@@ -1322,7 +1404,8 @@
       "category": "Material",
       "license_amount": 120,
       "recipe": { "ingredient": [{ "name": "Solar Fibre", "quantity": 2, "id": 717 }], "craft_amount": 2 },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "d/dd/Sun_fishing_line.png" }
     },
     {
       "name": "Sunseeker Fishing Rod",
@@ -1336,7 +1419,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
+      "image": { "fandom_wiki_image_path": "6/6d/Sun_fishing_rod_seeker.png" }
     },
     {
       "name": "The Cheesy Inferno",
@@ -1351,7 +1435,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/16/Sun_fire_cheese_pizza.png" }
     },
     {
       "name": "Black Cap",
@@ -1366,7 +1451,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }],
+      "image": { "fandom_wiki_image_path": "6/64/Hat_cap_black.png" }
     },
     {
       "name": "Blue Cap",
@@ -1381,7 +1467,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }],
+      "image": { "fandom_wiki_image_path": "4/4f/Hat_cap_blue.png" }
     },
     {
       "name": "Green Cap",
@@ -1396,7 +1483,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }],
+      "image": { "fandom_wiki_image_path": "f/f2/Hat_cap_green.png" }
     },
     {
       "name": "Pink Cap",
@@ -1411,7 +1499,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }],
+      "image": { "fandom_wiki_image_path": "5/5d/Hat_cap_pink.png" }
     },
     {
       "name": "White Cap",
@@ -1426,7 +1515,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }]
+      "source": [{ "type": "Event Market", "kind": "recipe", "fragment": false, "subtype": "Sun Festival" }],
+      "image": { "fandom_wiki_image_path": "8/80/Hat_cap_white.png" }
     },
     {
       "name": "Koko Milk",
@@ -1440,7 +1530,8 @@
         ],
         "craft_amount": 2
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }],
+      "image": { "fandom_wiki_image_path": "4/43/Itm_consum_koko_milk.png" }
     },
     {
       "name": "Sunseekers",
@@ -1515,7 +1606,8 @@
           { "name": "Carrot", "quantity": 2, "id": 990 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "a/a3/Itm_consum_dish_meat_bourguignon.png" }
     },
     {
       "name": "Vegan Bourguignon",
@@ -1530,7 +1622,8 @@
         "craft_amount": 1
       },
       "license_amount": 1000,
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
+      "image": { "fandom_wiki_image_path": "7/70/Itm_consum_dish_veggie_bourguignon.png" }
     },
     {
       "name": "Drakegull Steak",
@@ -1722,7 +1815,8 @@
           { "name": "Redchidaes", "quantity": 1, "id": 667 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "7/76/Sun_sunscreen.png" }
     },
     {
       "name": "Beach Shorts",
@@ -1748,7 +1842,8 @@
           { "name": "Blue Paint", "quantity": 1, "id": 146 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "e/e6/Itm_gear_beach_short_blue.png" }
     },
     { "name": "Floor Sand 01", "id": 1274, "category": "Decor" },
     { "name": "Floor Sand 02", "id": 1275, "category": "Decor" },

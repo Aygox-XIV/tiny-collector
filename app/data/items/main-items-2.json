@@ -14,7 +14,8 @@
           { "name": "Stasis Powder", "quantity": 4, "id": 328 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "d/d2/Condensed_Time.png" }
     },
     {
       "name": "Half-digested Adventurer Bag",
@@ -55,25 +56,29 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "7/70/Itm_material_bottle_potion_empty_01.png" }
     },
     {
       "name": "Trading Scrip",
       "id": 877,
       "category": "Material",
-      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Trading" }]
+      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Trading" }],
+      "image": { "fandom_wiki_image_path": "6/63/Writ_trading.png" }
     },
     {
       "name": "Coastal Scrip",
       "id": 878,
       "category": "Material",
-      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Coastal" }]
+      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Coastal" }],
+      "image": { "fandom_wiki_image_path": "b/b1/Writ_fishing.png" }
     },
     {
       "name": "Naturalist Scrip",
       "id": 879,
       "category": "Material",
-      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Naturalist" }]
+      "source": [{ "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Naturalist" }],
+      "image": { "fandom_wiki_image_path": "4/4e/Writ_nature.png" }
     },
     {
       "name": "Ancient Text",
@@ -90,13 +95,15 @@
       "name": "Partially Translated Book",
       "id": 887,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "b/b4/Itm_material_ancient_book_01.png" }
     },
     {
       "name": "Ancient Novel",
       "id": 888,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "e/e1/Itm_material_ancient_book_02.png" }
     },
     {
       "name": "Inert Runestone",
@@ -152,7 +159,8 @@
           { "name": "Cinder Wheat", "quantity": 2, "id": 625 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/fe/Ashen_Flour.png" }
     },
     {
       "name": "Coffee Berries",
@@ -239,7 +247,8 @@
       "name": "Antique Map",
       "id": 958,
       "category": "Consumables",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "image": { "fandom_wiki_image_path": "5/5e/Itm_consum_ancient_map.png" }
     },
     {
       "name": "Summon Theo - 3 Days",
@@ -247,13 +256,19 @@
       "category": "Consumables",
       "image": { "fandom_wiki_image_path": "3/39/Buff_scroll_adventurer.png" }
     },
-    { "name": "Quindim", "id": 1011, "category": "Consumables" },
+    {
+      "name": "Quindim",
+      "id": 1011,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }],
+      "image": { "fandom_wiki_image_path": "/6/60/Itm_consumable_quindim.png" }
+    },
     { "name": "Singing Hibis", "id": 1012, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/77/Itm_consum_tea_hibis.png" } },
-    { "name": "Arcane Cheesecake", "id": 1013, "category": "Consumables" },
-    { "name": "Arcane Flan", "id": 1014, "category": "Consumables" },
-    { "name": "Lemon Flan", "id": 1015, "category": "Consumables" },
-    { "name": "Fire Flan", "id": 1018, "category": "Consumables" },
-    { "name": "Fire Cheesecake", "id": 1019, "category": "Consumables" },
+    { "name": "Arcane Cheesecake", "id": 1013, "category": "Consumables", "image": { "fandom_wiki_image_path": "3/3e/Itm_cheesacake_arcane.png" } },
+    { "name": "Arcane Flan", "id": 1014, "category": "Consumables", "image": { "fandom_wiki_image_path": "a/a8/Itm_pastry_arcane.png" } },
+    { "name": "Lemon Flan", "id": 1015, "category": "Consumables", "image": { "fandom_wiki_image_path": "0/07/Itm_pastry_lemon.png" } },
+    { "name": "Fire Flan", "id": 1018, "category": "Consumables", "image": { "fandom_wiki_image_path": "0/06/Itm_pastry_fire.png" } },
+    { "name": "Fire Cheesecake", "id": 1019, "category": "Consumables", "image": { "fandom_wiki_image_path": "1/10/Itm_cheesacake_fire.png" } },
     {
       "name": "Fiery Brioche",
       "id": 1020,
@@ -282,7 +297,8 @@
           { "name": "Fresh Milk", "quantity": 4, "id": 121 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "2/23/Ashen_Brioche.png" }
     },
     {
       "name": "Ashen Loaf",
@@ -296,7 +312,8 @@
           { "name": "Aetheric Water", "quantity": 4, "id": 132 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "1/17/Ashen_Loaf.png" }
     },
     {
       "name": "Ashen Croissant",
@@ -310,7 +327,8 @@
           { "name": "Aetheric Water", "quantity": 8, "id": 132 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "0/0a/Ashen_Croissant.png" }
     },
     {
       "name": "Ham Croissant",
@@ -412,7 +430,8 @@
           { "name": "Aetheric Water", "quantity": 4, "id": 132 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "3/36/Ashen_Flatbread.png" }
     },
     {
       "name": "Baguette",
@@ -440,7 +459,8 @@
           { "name": "Aetheric Water", "quantity": 2, "id": 132 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "8/8e/Ashen_Baguette.png" }
     },
     {
       "name": "Fiery Baguette",
@@ -468,7 +488,8 @@
           { "name": "Aetheric Water", "quantity": 2, "id": 132 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "7/77/Ashen_Noodles.png" }
     },
     {
       "name": "Sandwich Snack",
@@ -889,7 +910,8 @@
         { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }
       ],
       "license_amount": 650,
-      "recipe": { "ingredient": [{ "name": "Coffee Berries", "quantity": 6, "id": 924 }], "craft_amount": 4 }
+      "recipe": { "ingredient": [{ "name": "Coffee Berries", "quantity": 6, "id": 924 }], "craft_amount": 4 },
+      "image": { "fandom_wiki_image_path": "6/61/Roasted_Blend.png" }
     },
     {
       "name": "Endberries",
@@ -912,7 +934,8 @@
           { "name": "Purified Water", "quantity": 1, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "a/ad/Espresso.png" }
     },
     {
       "name": "Mocha",
@@ -927,7 +950,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "4/48/Mocha.png" }
     },
     {
       "name": "Twilight Smoothie",
@@ -1005,7 +1029,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "2/2c/Latte.png" }
     },
     {
       "name": "Dark Coffee",
@@ -1019,7 +1044,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "c/c5/Dark_Coffee.png" }
     },
     {
       "name": "Waffles",
@@ -1056,7 +1082,8 @@
           { "name": "Sunsugar", "quantity": 2, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "9/9a/Coffee_Drink.png" }
     },
     {
       "name": "Kraken Steak",
@@ -1091,8 +1118,8 @@
       }
     },
     { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
-    { "name": "Emerald Shield", "id": 1138, "category": "Gear" },
-    { "name": "Seastone Shield", "id": 1139, "category": "Gear" },
+    { "name": "Emerald Shield", "id": 1138, "category": "Gear", "image": { "fandom_wiki_image_path": "7/70/Itm_gear_shield_emerald.png" } },
+    { "name": "Seastone Shield", "id": 1139, "category": "Gear", "image": { "fandom_wiki_image_path": "b/ba/Tim_gear_shield_seastone.png" } },
     { "name": "Coral Crab Plush", "id": 1140, "category": "Gear", "image": { "fandom_wiki_image_path": "2/2a/Furniture_plush_crab.png" } },
     { "name": "Glasses Crab Plush", "id": 1141, "category": "Gear", "image": { "fandom_wiki_image_path": "4/40/Hat_crab_glasses.png" } },
     { "name": "Stab Crab Plush", "id": 1142, "category": "Gear", "image": { "fandom_wiki_image_path": "c/c2/Hat_crab_knife.png" } },
@@ -1134,7 +1161,8 @@
           { "name": "Aether Charge", "quantity": 2, "id": 104 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/f4/Timefound_Kettle.png" }
     },
     {
       "name": "Coffee Machine",
@@ -1149,7 +1177,8 @@
           { "name": "Aether Charge", "quantity": 1, "id": 104 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "8/84/Coffee_Machine.png" }
     },
     {
       "name": "Record Player",
