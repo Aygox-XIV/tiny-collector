@@ -3,9 +3,7 @@ import {
     CatalogType,
     REAL_FILES,
     setDbItems,
-    setDbItemsAndCatalogs,
     useDatabase,
-    type CatalogDef,
     type CatalogList,
     type Database,
     type Ingredient,
@@ -19,8 +17,6 @@ import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
 import { importRecipesFromDataSheet, importSourcesFromDataSheet } from './parserForDataSheet';
 import { importItemIconUrls } from './parserForFandomWiki';
-import { importCatalogList } from './parserForJourneyList';
-import { importLicenseCalcSheet, importLicenseWikiSheet } from './parserFromLicenseCalc';
 
 const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Sunscreen', // sun festival lotion / premium pack sunflower shield
@@ -81,27 +77,6 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
         saveFile(JSON.stringify(extractItemDataSubset(db, original)), BASE_FILE_TYPES, fileName);
     const saveCatalog = (c: CatalogType) =>
         saveFile(JSON.stringify(extractCatalog(db, c)), BASE_FILE_TYPES, getCatalogFileName(c));
-    const loadFromLicenseCalc = () => {
-        loadFile((f) => {
-            const items = importLicenseCalcSheet(f);
-            appDispatch(setDbItems(integrateItemsWithoutIds(db, items)));
-        }, CSV_FILES);
-    };
-    const loadSourcesFromLicenseCalc = () => {
-        loadFile((f) => {
-            const sources = importLicenseWikiSheet(f);
-            appDispatch(setDbItems(integrateSources(db, sources, false)));
-        }, CSV_FILES);
-    };
-    const loadItemsFromJourneysAndCatalog = () => {
-        loadFile((f) => {
-            const [items, catalog] = importCatalogList(f);
-            const itemDb = integrateItemsWithoutIds(db, items);
-            console.log('new itemdb has ' + Object.keys(itemDb).length + ' items');
-            const catalogs = fixCatalogIds(itemDb, [catalog]);
-            appDispatch(setDbItemsAndCatalogs([itemDb, catalogs]));
-        }, CSV_FILES);
-    };
     const loadImageUrlsFromWikiTable = () => {
         loadFile((f) => {
             const images = importItemIconUrls(f);
@@ -162,16 +137,6 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                             </div>
                         );
                     })}
-                </div>
-                <div className="settings-item" onClick={loadFromLicenseCalc}>
-                    Import data from License Calculator (recipes) (will overwrite) [to be deleted]
-                </div>
-                <div className="settings-item" onClick={loadSourcesFromLicenseCalc}>
-                    Import data from License Calculator (sources) (will overwrite, must have imported recipes first) [to
-                    be deleted]
-                </div>
-                <div className="settings-item" onClick={loadItemsFromJourneysAndCatalog}>
-                    Import Item/catalog data from "Journey and catalog" (catalog tab)
                 </div>
                 <div className="settings-item" onClick={loadSourcesFromDataSheet}>
                     Import sources from "Tiny shop data" (Sources tab)
@@ -356,22 +321,6 @@ function integrateItemsWithoutIds(db: Database, newItems: Item[]): ItemDB {
         }
     }
     return combinedItemDb;
-}
-
-function fixCatalogIds(items: ItemDB, catalogs: CatalogDef[]): Record<string, CatalogDef> {
-    let fixedCatalogs: Record<string, CatalogDef> = {};
-    let [itemNameToId] = buildExistingItemNameToId(items);
-    for (const newCatalog of catalogs) {
-        let fixedItems: [string, string?][] = [];
-        for (let [id, name] of newCatalog.items) {
-            if (id.length == 0) {
-                id = itemNameToId[name!!].toString();
-            }
-            fixedItems.push([id, name]);
-        }
-        fixedCatalogs[newCatalog.key] = { ...newCatalog, items: fixedItems };
-    }
-    return fixedCatalogs;
 }
 
 function integrateSources(db: Database, sources: Record<string, Source[]>, keepOldSources: boolean): ItemDB {
