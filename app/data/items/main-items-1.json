@@ -4007,7 +4007,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }]
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Oceanic Item Crate" }],
+      "image": { "fandom_wiki_image_path": "2/27/Itm_sunglasses.png" }
     },
     {
       "name": "Aetheric Glass",
@@ -5002,7 +5003,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_mm_arcane_tower.png" }
     },
     {
       "name": "Mages & Monsters 3.5 Edition Rulebook",
@@ -5017,7 +5019,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "An Ancient Game - Part 5/5" }]
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "An Ancient Game - Part 5/5" }],
+      "image": { "local_path": "/items/item_mm_rulebook.png" }
     },
     {
       "name": "Magic Mint",
