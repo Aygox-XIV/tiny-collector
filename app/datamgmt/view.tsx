@@ -5,6 +5,7 @@ import {
     setDbItems,
     useDatabase,
     type CatalogList,
+    type Category,
     type Database,
     type Ingredient,
     type Item,
@@ -15,6 +16,7 @@ import {
 import { validateSingleSource, type Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
+import { parseCsv } from './common';
 import { importRecipesFromDataSheet, importSourcesFromDataSheet } from './parserForDataSheet';
 import { importItemIconUrls } from './parserForFandomWiki';
 
@@ -29,6 +31,7 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     "Jelly's Special", // 1 quest, 1 consumable
     'Timefound Loaf', // 1 round, 1 rectangle
     'Kelp', // 1 material, 1 decor
+    'Condensed Time', // 1 quest, 1 material
     // Seeds with the same name as what they produce
     'Blue Tower',
     'Puff Flower',
@@ -40,9 +43,22 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Ashen Wheat',
     'Pumpkin',
     'Sunseekers',
+    // Scrolls with different durations
+    'Swift Crafting',
+    'Infinite Stock',
+    // Some decor
+    'Grass Patch',
+    'Temple Fountain',
+    'Temple Spout',
+    'Temple Fountain Top',
+    'Ruined Temple Wall',
+    'Mannequin - Pareo',
+    'Mannequin - Swimsuit',
+    'Mannequin - Bathing Shorts',
 ]);
-// most duplicate items aren't ingredients in non-duplicate items yet, except plants
-const PLANT_INGREDEIENT_IDS: Record<string, number> = {
+
+// Most duplicate items only have at most one version used as ingredient elsewhere (all except the anniversary cake)
+const INGREDEIENT_IDS: Record<string, number> = {
     'Blue Tower': 120,
     'Puff Flower': 257,
     'Summer Glory': 200,
@@ -53,8 +69,8 @@ const PLANT_INGREDEIENT_IDS: Record<string, number> = {
     'Ashen Wheat': 870,
     Pumpkin: 238,
     Sunseekers: 335,
-    // not a seed, still a plant...
     Kelp: 920,
+    'Condensed Time': 863,
 };
 
 const CSV_FILES: FilePickerAcceptType[] = [{ description: 'CSV', accept: { 'text/plain': ['.csv'] } }];
@@ -94,6 +110,14 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
         loadFile((f) => {
             const items = importRecipesFromDataSheet(f);
             appDispatch(setDbItems(integrateItemsWithoutIds(db, items)));
+        }, CSV_FILES);
+    };
+    const exportMissingRecipes = () => {
+        saveFile(extractItemsWithMissingRecipe(db), CSV_FILES, 'missing-recipes.csv');
+    };
+    const loadRecipeHelperData = () => {
+        loadFile((f) => {
+            appDispatch(setDbItems(integrateRecipeHelperSheet(f, db)));
         }, CSV_FILES);
     };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
@@ -150,9 +174,85 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 <div className="settings-item" onClick={() => validateDbIntegrity(db)}>
                     Check database integrity (logs any warnings to the console)
                 </div>
+                <div className="settings-item" onClick={exportMissingRecipes}>
+                    Export items with missing recipes
+                </div>
+                <div className="settings-item" onClick={loadRecipeHelperData}>
+                    Import recipe helper sheet data (id,name,quantity,ingredient1,ingredient2,... csv)
+                </div>
             </div>
         </div>
     );
+}
+
+const CATEGORIES_WITH_POTENTIAL_RECIPES: Set<Category> = new Set(['Consumables', 'Gear', 'Material']);
+
+function extractItemsWithMissingRecipe(db: Database): string {
+    let items: string[] = [];
+
+    for (const item of Object.values(db.items)) {
+        if (item.recipe) {
+            continue;
+        }
+        if (!CATEGORIES_WITH_POTENTIAL_RECIPES.has(item.category)) {
+            continue;
+        }
+        // If sources are available, but none are for a recipe, assume there is no recipe [for this export]
+        if (item.source) {
+            let hasRecipeSource = false;
+            for (const s of item.source) {
+                if (s.kind == 'recipe') {
+                    hasRecipeSource = true;
+                    break;
+                }
+            }
+            if (!hasRecipeSource) {
+                continue;
+            }
+        }
+        items.push(item.id + ',' + item.name);
+    }
+    return items.join('\n');
+}
+
+function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
+    let [itemNameToId] = buildExistingItemNameToId(db.items);
+    let updatedItemDb: ItemDB = {};
+    for (const id of Object.keys(db.items)) {
+        updatedItemDb[id] = db.items[id];
+    }
+    /*
+    col 1: id
+    col 2: name
+    col 3: craft_amount
+    col 4,5,6,7: ingredients if craft_amount>0
+     */
+    let rows = parseCsv(csvFile);
+    for (let r = 1; r < rows.length; r++) {
+        const row = rows[r];
+        if (row[2].length == 0) {
+            continue;
+        }
+        const id = parseInt(row[0]);
+        const dbItem = db.items[id];
+        let ingredient: Ingredient[] = [];
+        for (let c = 3; c < 7 && c < row.length; c++) {
+            if (row[c].length > 0) {
+                const parts = row[c].split('/');
+                if (parts.length != 2) {
+                    console.log('bad ingredient format: ' + row[c] + ' for ' + row[1]);
+                    return db.items;
+                }
+                if (!itemNameToId[parts[0]]) {
+                    console.log('unknown ingredient name: ' + parts[0] + ' for ' + row[1]);
+                    return db.items;
+                }
+                ingredient.push({ name: parts[0], quantity: parseInt(parts[1]), id: itemNameToId[parts[0]] });
+            }
+        }
+        updatedItemDb[id] = { ...dbItem, recipe: { ingredient, craft_amount: parseInt(row[2]) } };
+    }
+    return updatedItemDb;
 }
 
 /**
@@ -174,6 +274,7 @@ function validateDbIntegrity(db: Database) {
             console.warn('Item ' + item.id + ' (' + item.name + ') has a recipe but no known sources for it.');
         }
         // TODO: recipe validation (name+id match & exist)
+        // TODO: only some known small set of items has a recipe but is unlicensable
     }
 }
 
@@ -234,8 +335,8 @@ function getCatalogFileName(c: CatalogType): string {
 function buildExistingItemNameToId(items: ItemDB): [Record<string, number>, number] {
     let itemNameToId: Record<string, number> = {};
     let maxId = 99;
-    for (const name of Object.keys(PLANT_INGREDEIENT_IDS)) {
-        itemNameToId[name] = PLANT_INGREDEIENT_IDS[name];
+    for (const name of Object.keys(INGREDEIENT_IDS)) {
+        itemNameToId[name] = INGREDEIENT_IDS[name];
     }
     for (const idStr of Object.keys(items)) {
         const id = parseInt(idStr);

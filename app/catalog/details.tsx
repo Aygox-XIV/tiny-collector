@@ -56,7 +56,6 @@ interface RecipeProps {
 }
 
 const RecipeOveriew: React.FC<RecipeProps> = ({ item }) => {
-    const db = useDatabase();
     if (!item.recipe) {
         return <div className="invis" />;
     }
