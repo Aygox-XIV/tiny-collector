@@ -220,7 +220,8 @@
           "name": "Overgrown Ancient Chest (wave 12 of long dive)"
         }
       ],
-      "license_amount": 250
+      "license_amount": 250,
+      "image": { "local_path": "/items/flooded/item_potted_aetheric.png" }
     },
     {
       "name": "Kraken Paella",
@@ -981,7 +982,8 @@
           { "name": "Archipelago Greens", "quantity": 2, "id": 184 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/flooded/item_ash_delight.png" }
     },
     {
       "name": "Crystalline Totem of Mana Shield",
@@ -996,7 +998,8 @@
           { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/flooded/item_blue_totem.png" }
     },
     {
       "name": "Crystalline Totem of Healing",
@@ -1011,7 +1014,8 @@
           { "name": "Monster Bones", "quantity": 1, "id": 422 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/flooded/item_green_totem.png" }
     },
     {
       "name": "Crystalline Totem of Power",
@@ -1026,7 +1030,8 @@
           { "name": "Fire Extract", "quantity": 1, "id": 213 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/flooded/item_red_totem.png" }
     },
     {
       "name": "Coastguard Captain Armor",
@@ -1322,61 +1327,73 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+      ],
+      "image": { "local_path": "/items/flooded/item_circular_lamp.png" }
     },
     {
       "name": "Water Grass - Dry",
       "id": 1234,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_water_grass_dry.png" }
     },
     {
       "name": "Water Grass",
       "id": 1235,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_water_grass.png" }
     },
     {
       "name": "Clover Patch",
       "id": 1236,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_clovers.png" }
     },
     {
       "name": "Grass Patch",
       "id": 1237,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_grass_patch_1.png" }
     },
     {
       "name": "Grass Patch",
       "id": 1238,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_grass_patch_2.png" }
     },
     {
       "name": "Temple Leaves",
       "id": 1239,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_leaves.png" }
     },
     {
       "name": "Water Lilies",
       "id": 1240,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_lilies.png" }
     },
     {
       "name": "Kelp",
       "id": 1241,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_kelp.png" }
     },
     {
       "name": "Tallgrass",
       "id": 1242,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_tallgrass.png" }
     },
     {
       "name": "Flat Heads",
@@ -1386,115 +1403,134 @@
         { "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_flat_heads.png" }
     },
     {
       "name": "Painting - Sunken Garden II",
       "id": 1244,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_painting_garden.png" }
     },
     {
       "name": "Painting - Azure Coastline I",
       "id": 1245,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_painting_coastline.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1246,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_fountain_1.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1247,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_fountain_2.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1248,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_fountain_top_1.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1249,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_spout_1.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1250,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_spout_2.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1251,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_spout_3.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1252,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_spout_4.png" }
     },
     {
       "name": "Blue Duck",
       "id": 1253,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_blue_duck.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1254,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_wall_1.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1255,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_wall_2.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1256,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_wall_3.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1257,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_wall_4.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1258,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_fountain_3.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1259,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_fountain_4.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1260,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_temple_fountain_top_2.png" }
     },
     {
       "name": "Replica: Water Sprite",
       "id": 1261,
       "category": "Decor",
-      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Water Sprite" }]
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Water Sprite" }],
+      "image": { "local_path": "/items/flooded/decor_replica_water_sprite.png" }
     },
     {
       "name": "Replica: Praetorian",
@@ -1503,19 +1539,22 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_replica_praetorian.png" }
     },
     {
       "name": "Replica: Kelp",
       "id": 1263,
       "category": "Decor",
-      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Kelpish" }]
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Kelpish" }],
+      "image": { "local_path": "/items/flooded/decor_replica_kelpish.png" }
     },
     {
       "name": "Replica: Mimic Barrel",
       "id": 1264,
       "category": "Decor",
-      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" }]
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" }],
+      "image": { "local_path": "/items/flooded/decor_replica_mimic.png" }
     },
     {
       "name": "Decor: Overgrown Ancient Chest",
@@ -1524,7 +1563,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_chest.png" }
     },
     {
       "name": "Decor: Overgrown Lavoir",
@@ -1533,7 +1573,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_lavoir.png" }
     },
     {
       "name": "Replica: Coral Crab",
@@ -1542,7 +1583,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_replica_crab.png" }
     },
     {
       "name": "Decor: Overgrown Basin",
@@ -1551,7 +1593,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_basin.png" }
     },
     {
       "name": "Replica: Coral Elemental",
@@ -1560,7 +1603,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_replica_coral_elemental.png" }
     },
     {
       "name": "Decor: Ancient Chest",
@@ -1569,7 +1613,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_chest2.png" }
     },
     {
       "name": "Decor: Aetheric Flowers",
@@ -1578,7 +1623,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_aetheric_flowers.png" }
     },
     {
       "name": "Replica: Moonfish",
@@ -1587,7 +1633,8 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_replica_moonfish.png" }
     },
     {
       "name": "Decor: Water Temple Arena",
@@ -1596,19 +1643,22 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/decor_arena.png" }
     },
     {
       "name": "Mannequin - Coastguard",
       "id": 1300,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_mann_coastguard.png" }
     },
     {
       "name": "Mannequin - Hydrologist",
       "id": 1301,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "image": { "local_path": "/items/flooded/decor_mann_hydrologist.png" }
     },
     {
       "name": "Recruit: Disrupter",
@@ -1616,7 +1666,8 @@
       "category": "Quest",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/recruit_disrupter.png" }
     },
     {
       "name": "Recruit: Coastguard",
@@ -1624,13 +1675,15 @@
       "category": "Quest",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
-      ]
+      ],
+      "image": { "local_path": "/items/flooded/recruit_coastguard.png" }
     },
     {
       "name": "Recruit: Hydrologist",
       "id": 1304,
       "category": "Quest",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "All enemies" }]
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "All enemies" }],
+      "image": { "local_path": "/items/flooded/recruit_hydrologist.png" }
     },
     {
       "name": "Hiring Token: Mages",
