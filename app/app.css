@@ -298,7 +298,7 @@ div.catalog-item > svg.item-icon {
   height: 100px;
 }
 
-div.details-panel > .item-icon-container {
+div.icon-and-recipe > .item-icon-container {
   height: 200px;
   width: 200px;
 }
@@ -311,6 +311,27 @@ div.catalog-item > .status-icons {
 
 div.catalog-content div.active {
   border: 2px solid darkslateblue;
+}
+
+.ingredients-container {
+  display: grid;
+  row-gap: 3px;
+}
+
+.icon-and-recipe {
+  display: flex;
+  column-gap: 20px;
+}
+
+.single-ingredient {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.single-ingredient > .item-icon-container {
+  height: 40px;
+  width: 40px;
 }
 
 div.license-bar {
