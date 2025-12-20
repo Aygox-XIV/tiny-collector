@@ -58,7 +58,7 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
 ]);
 
 // Most duplicate items only have at most one version used as ingredient elsewhere (all except the anniversary cake)
-const INGREDEIENT_IDS: Record<string, number> = {
+const INGREDIENT_IDS: Record<string, number> = {
     'Blue Tower': 120,
     'Puff Flower': 257,
     'Summer Glory': 200,
@@ -335,8 +335,8 @@ function getCatalogFileName(c: CatalogType): string {
 function buildExistingItemNameToId(items: ItemDB): [Record<string, number>, number] {
     let itemNameToId: Record<string, number> = {};
     let maxId = 99;
-    for (const name of Object.keys(INGREDEIENT_IDS)) {
-        itemNameToId[name] = INGREDEIENT_IDS[name];
+    for (const name of Object.keys(INGREDIENT_IDS)) {
+        itemNameToId[name] = INGREDIENT_IDS[name];
     }
     for (const idStr of Object.keys(items)) {
         const id = parseInt(idStr);
