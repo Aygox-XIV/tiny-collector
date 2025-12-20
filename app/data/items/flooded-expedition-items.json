@@ -22,56 +22,120 @@
       "id": 909,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" }],
-      "image": { "fandom_wiki_image_path": "8/81/Itm_mat_fig_mimic_barrel.png" }
+      "image": { "fandom_wiki_image_path": "8/81/Itm_mat_fig_mimic_barrel.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Everwood", "quantity": 1, "id": 325 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Moonfish",
       "id": 910,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Moonfish" }],
-      "image": { "fandom_wiki_image_path": "0/04/Itm_mat_fig_moonfish.png" }
+      "image": { "fandom_wiki_image_path": "0/04/Itm_mat_fig_moonfish.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Moonfish Filet", "quantity": 1, "id": 216 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Water Sprite",
       "id": 911,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Water Sprite" }],
-      "image": { "fandom_wiki_image_path": "3/30/Itm_mat_fig_water_sprite.png" }
+      "image": { "fandom_wiki_image_path": "3/30/Itm_mat_fig_water_sprite.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Purified Water", "quantity": 1, "id": 110 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine:Coral Elemental",
       "id": 912,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }],
-      "image": { "fandom_wiki_image_path": "8/8f/Itm_mat_fig_coral_elemental.png" }
+      "image": { "fandom_wiki_image_path": "8/8f/Itm_mat_fig_coral_elemental.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Temple Coral Crab",
       "id": 913,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" }],
-      "image": { "fandom_wiki_image_path": "5/5f/Itm_mat_fig_crab_coral.png" }
+      "image": { "fandom_wiki_image_path": "5/5f/Itm_mat_fig_crab_coral.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Coral Praetorian",
       "id": 914,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }],
-      "image": { "fandom_wiki_image_path": "a/a0/Itm_mat_fig_crab_praetorian.png" }
+      "image": { "fandom_wiki_image_path": "a/a0/Itm_mat_fig_crab_praetorian.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Crabantula Shell", "quantity": 2, "id": 668 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Crabantula",
       "id": 915,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }],
-      "image": { "fandom_wiki_image_path": "7/78/Itm_mat_fig_crabantula.png" }
+      "image": { "fandom_wiki_image_path": "7/78/Itm_mat_fig_crabantula.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Kelpish",
       "id": 916,
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Kelpish" }],
-      "image": { "fandom_wiki_image_path": "0/00/Itm_mat_fig_kelp.png" }
+      "image": { "fandom_wiki_image_path": "0/00/Itm_mat_fig_kelp.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Kelp", "quantity": 1, "id": 920 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Hydrologist",
@@ -81,7 +145,15 @@
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "6/67/Itm_mat_fig_hydro.png" }
+      "image": { "fandom_wiki_image_path": "6/67/Itm_mat_fig_hydro.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Coastguard",
@@ -91,7 +163,15 @@
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_fig_coast.png" }
+      "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_fig_coast.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Figurine: Disrupter",
@@ -100,7 +180,15 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "b/bf/Itm_mat_fig_rogue.png" }
+      "image": { "fandom_wiki_image_path": "b/bf/Itm_mat_fig_rogue.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Standard Catalyst", "quantity": 1, "id": 111 }
+        ],
+        "craft_amount": 1
+      }
     },
     { "name": "Kelp", "id": 920, "category": "Material", "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_kelp.png" } },
     { "name": "Coral Crab Chunk", "id": 921, "category": "Material", "image": { "fandom_wiki_image_path": "d/db/Itm_consum_coral_crab_chunk.png" } },
@@ -109,7 +197,15 @@
       "id": 922,
       "category": "Material",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
-      "image": { "fandom_wiki_image_path": "0/0d/Itm_material_crabantula_silk.png" }
+      "image": { "fandom_wiki_image_path": "0/0d/Itm_material_crabantula_silk.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Web", "quantity": 1, "id": 895 },
+          { "name": "Aetheric Sand", "quantity": 1, "id": 448 },
+          { "name": "Standard Catalyst", "quantity": 1, "id": 111 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Potted Aetheric Flowers",
@@ -131,7 +227,15 @@
       "id": 965,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "6/65/Itm_consum_kraken_paella.png" }
+      "image": { "fandom_wiki_image_path": "6/65/Itm_consum_kraken_paella.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Spices", "quantity": 1, "id": 159 },
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Avocado Maki",
@@ -140,14 +244,30 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_maki_avocado.png" }
+      "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_maki_avocado.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Kraken Maki",
       "id": 967,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "8/81/Itm_consum_maki_kraken.png" }
+      "image": { "fandom_wiki_image_path": "8/81/Itm_consum_maki_kraken.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Maki",
@@ -156,7 +276,15 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "5/5b/Itm_consum_maki_crab.png" }
+      "image": { "fandom_wiki_image_path": "5/5b/Itm_consum_maki_crab.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Moonfish Maki",
@@ -165,7 +293,15 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "7/74/Itm_consum_maki_moonfish.png" }
+      "image": { "fandom_wiki_image_path": "7/74/Itm_consum_maki_moonfish.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Moonfish Filet", "quantity": 1, "id": 216 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Sushi",
@@ -174,14 +310,30 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "c/c3/Itm_consum_sushi_crab.png" }
+      "image": { "fandom_wiki_image_path": "c/c3/Itm_consum_sushi_crab.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Kraken Sushi",
       "id": 971,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_sushi_kraken.png" }
+      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_sushi_kraken.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Temago Sushi",
@@ -190,14 +342,29 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_sushi_temago.png" }
+      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_sushi_temago.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Onigiri",
       "id": 973,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
-      "image": { "fandom_wiki_image_path": "9/98/Itm_consum_onigiri.png" }
+      "image": { "fandom_wiki_image_path": "9/98/Itm_consum_onigiri.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Taco",
@@ -206,7 +373,15 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "f/f7/Itm_consum_taco_crab.png" }
+      "image": { "fandom_wiki_image_path": "f/f7/Itm_consum_taco_crab.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Drakgull Taco",
@@ -215,14 +390,30 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "1/11/Itm_consum_taco_drakegull.png" }
+      "image": { "fandom_wiki_image_path": "1/11/Itm_consum_taco_drakegull.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Kraken Taco",
       "id": 976,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "0/0c/Itm_consum_taco_kraken.png" }
+      "image": { "fandom_wiki_image_path": "0/0c/Itm_consum_taco_kraken.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Veggie Taco",
@@ -231,21 +422,43 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "f/f1/Itm_consum_taco_veggie.png" }
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_consum_taco_veggie.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 },
+          { "name": "Archipelago Greens", "quantity": 3, "id": 184 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Salad",
       "id": 978,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
-      "image": { "fandom_wiki_image_path": "9/90/Itm_consum_crab_salad.png" }
+      "image": { "fandom_wiki_image_path": "9/90/Itm_consum_crab_salad.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Coral Crab Chunk", "quantity": 2, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Soup",
       "id": 979,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
-      "image": { "fandom_wiki_image_path": "b/b6/Itm_consum_crab_soup.png" }
+      "image": { "fandom_wiki_image_path": "b/b6/Itm_consum_crab_soup.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 },
+          { "name": "Crab Stock", "quantity": 1, "id": 993 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Paella",
@@ -255,14 +468,31 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" }
       ],
-      "image": { "fandom_wiki_image_path": "1/1d/Itm_consum_crab_paella.png" }
+      "image": { "fandom_wiki_image_path": "1/1d/Itm_consum_crab_paella.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Spices", "quantity": 1, "id": 159 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Kraken Chili",
       "id": 981,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "a/a6/Itm_consum_kraken_chili.png" }
+      "image": { "fandom_wiki_image_path": "a/a6/Itm_consum_kraken_chili.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 },
+          { "name": "Crab Stock", "quantity": 1, "id": 993 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Hot Sauce", "quantity": 1, "id": 997 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Chili",
@@ -272,7 +502,16 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
       ],
-      "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_crab_chili.png" }
+      "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_crab_chili.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 },
+          { "name": "Crab Stock", "quantity": 1, "id": 993 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 },
+          { "name": "Hot Sauce", "quantity": 1, "id": 997 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Eyenemone Noodles",
@@ -282,14 +521,30 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "8/83/Itm_consum_kelp_sirashu.png" }
+      "image": { "fandom_wiki_image_path": "8/83/Itm_consum_kelp_sirashu.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Eyenemone", "quantity": 1, "id": 629 },
+          { "name": "Kelp", "quantity": 2, "id": 920 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Crab Arancini",
       "id": 984,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
-      "image": { "fandom_wiki_image_path": "a/a8/Itm_consum_crab_arrancini.png" }
+      "image": { "fandom_wiki_image_path": "a/a8/Itm_consum_crab_arrancini.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Wheat", "quantity": 1, "id": 674 },
+          { "name": "Crab Stock", "quantity": 1, "id": 993 },
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Steamed Crab Bites",
@@ -298,7 +553,14 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "b/bd/Itm_consum_crab_steamed_bites.png" }
+      "image": { "fandom_wiki_image_path": "b/bd/Itm_consum_crab_steamed_bites.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Coral Crab Chunk", "quantity": 2, "id": 921 },
+          { "name": "Kelp", "quantity": 2, "id": 920 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Kelp Jerky",
@@ -307,28 +569,52 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "f/f2/Itm_consum_kelp_jerky.png" }
+      "image": { "fandom_wiki_image_path": "f/f2/Itm_consum_kelp_jerky.png" },
+      "recipe": { "ingredient": [{ "name": "Kelp", "quantity": 3, "id": 920 }], "craft_amount": 3 }
     },
     {
       "name": "Carrot Cake",
       "id": 987,
       "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }],
-      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_carrot_cake.png" }
+      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_carrot_cake.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Carrot", "quantity": 2, "id": 990 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Carrot Soup",
       "id": 988,
       "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }],
-      "image": { "fandom_wiki_image_path": "c/c1/Itm_consum_soup_carrot.png" }
+      "image": { "fandom_wiki_image_path": "c/c1/Itm_consum_soup_carrot.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Carrot", "quantity": 3, "id": 990 },
+          { "name": "Purified Water", "quantity": 1, "id": 110 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Carrot Salad",
       "id": 989,
       "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Carrots" }],
-      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_salad_carrot.png" }
+      "image": { "fandom_wiki_image_path": "3/31/Itm_consum_salad_carrot.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Carrot", "quantity": 3, "id": 990 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Carrot",
@@ -346,7 +632,15 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
       ],
-      "image": { "fandom_wiki_image_path": "c/ca/Itm_consum_poison_rusting.png" }
+      "image": { "fandom_wiki_image_path": "c/ca/Itm_consum_poison_rusting.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Oil", "quantity": 1, "id": 172 },
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Aetheric Sand", "quantity": 1, "id": 448 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Silencing Poison",
@@ -356,14 +650,30 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
       ],
-      "image": { "fandom_wiki_image_path": "a/a5/Itm_consum_poison_silence.png" }
+      "image": { "fandom_wiki_image_path": "a/a5/Itm_consum_poison_silence.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Oil", "quantity": 1, "id": 172 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Aetheric Sand", "quantity": 1, "id": 448 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Crab Stock",
       "id": 993,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
-      "image": { "fandom_wiki_image_path": "0/02/Itm_consum_crab_broth.png" }
+      "image": { "fandom_wiki_image_path": "0/02/Itm_consum_crab_broth.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Flowing Thoughts",
@@ -373,14 +683,30 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }
       ],
-      "image": { "fandom_wiki_image_path": "a/ad/Itm_consum_potion_water.png" }
+      "image": { "fandom_wiki_image_path": "a/ad/Itm_consum_potion_water.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Serenity",
       "id": 995,
       "category": "Consumables",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }],
-      "image": { "fandom_wiki_image_path": "6/66/Itm_consum_potion_kraken_02.png" }
+      "image": { "fandom_wiki_image_path": "6/66/Itm_consum_potion_kraken_02.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Runestone Fragments", "quantity": 1, "id": 890 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Crab Cakes",
@@ -389,56 +715,120 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "6/68/Itm_consum_crab_cake.png" }
+      "image": { "fandom_wiki_image_path": "6/68/Itm_consum_crab_cake.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 },
+          { "name": "Spices", "quantity": 1, "id": 159 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 2
+      }
     },
     {
       "name": "Hot Sauce",
       "id": 997,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
-      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_hot_sauce.png" }
+      "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_hot_sauce.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Eyenemone", "quantity": 1, "id": 629 },
+          { "name": "Sunseeker Oil", "quantity": 1, "id": 127 },
+          { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Enchanted Ink",
       "id": 998,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "8/80/Itm_consum_enchanted_ink.png" }
+      "image": { "fandom_wiki_image_path": "8/80/Itm_consum_enchanted_ink.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Kraken Ink", "quantity": 1, "id": 250 },
+          { "name": "Black Pigment", "quantity": 1, "id": 621 },
+          { "name": "Runestone Fragments", "quantity": 1, "id": 890 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Water Breathing",
       "id": 999,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
-      "image": { "fandom_wiki_image_path": "f/ff/Itm_consum_potion_crab.png" }
+      "image": { "fandom_wiki_image_path": "f/ff/Itm_consum_potion_crab.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 1, "id": 110 },
+          { "name": "Aetheric Sand", "quantity": 1, "id": 448 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Chitin Armor",
       "id": 1000,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" }],
-      "image": { "fandom_wiki_image_path": "1/1b/Itm_consum_potion_chitin.png" }
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_consum_potion_chitin.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 1, "id": 110 },
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Violetines", "quantity": 1, "id": 673 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Waveform",
       "id": 1001,
       "category": "Consumables",
       "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" }],
-      "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_potion_wave.png" }
+      "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_potion_wave.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Living Vine", "quantity": 1, "id": 429 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Kraken Strength",
       "id": 1002,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "2/2b/Itm_consum_potion_kraken.png" }
+      "image": { "fandom_wiki_image_path": "2/2b/Itm_consum_potion_kraken.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 },
+          { "name": "Kraken Tentacle", "quantity": 1, "id": 251 },
+          { "name": "Kelp", "quantity": 1, "id": 920 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Potion of Inkform",
       "id": 1003,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "0/01/Itm_consum_potion_ink.png" }
+      "image": { "fandom_wiki_image_path": "0/01/Itm_consum_potion_ink.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Kraken Ink", "quantity": 1, "id": 250 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Coraline Arrows",
@@ -447,21 +837,44 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "7/70/Itm_consum_arrow_coral.png" }
+      "image": { "fandom_wiki_image_path": "7/70/Itm_consum_arrow_coral.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Poison Arrows",
       "id": 1005,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_arrow_poison.png" }
+      "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_arrow_poison.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 3, "id": 325 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 },
+          { "name": "Eyenemone Venom", "quantity": 1, "id": 169 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ink Arrows",
       "id": 1006,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "6/63/Itm_consum_arrow_ink.png" }
+      "image": { "fandom_wiki_image_path": "6/63/Itm_consum_arrow_ink.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 3, "id": 325 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Kraken Ink", "quantity": 1, "id": 250 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Water Arrows",
@@ -470,7 +883,15 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
       ],
-      "image": { "fandom_wiki_image_path": "6/64/Itm_consum_arrow_water.png" }
+      "image": { "fandom_wiki_image_path": "6/64/Itm_consum_arrow_water.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 3, "id": 325 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Water Bombs",
@@ -480,7 +901,15 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "c/c7/Itm_consum_bomb_water.png" }
+      "image": { "fandom_wiki_image_path": "c/c7/Itm_consum_bomb_water.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Smoke Bomb", "quantity": 1, "id": 236 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ink Bombs",
@@ -490,14 +919,31 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "7/79/Itm_consum_bomb_ink.png" }
+      "image": { "fandom_wiki_image_path": "7/79/Itm_consum_bomb_ink.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Smoke Bomb", "quantity": 1, "id": 236 },
+          { "name": "Blue Headed Coral", "quantity": 1, "id": 168 },
+          { "name": "Kraken Ink", "quantity": 1, "id": 250 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Darkness Bombs",
       "id": 1010,
       "category": "Consumables",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_bomb_dark.png" }
+      "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_bomb_dark.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Smoke Bomb", "quantity": 1, "id": 236 },
+          { "name": "Tinder Powder", "quantity": 2, "id": 147 },
+          { "name": "Black Pigment", "quantity": 2, "id": 621 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Ashen Sandwich",
@@ -590,7 +1036,16 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "0/05/Itm_gear_coastguard_captain_armor.png" }
+      "image": { "fandom_wiki_image_path": "0/05/Itm_gear_coastguard_captain_armor.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 2, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Captain Boots",
@@ -600,7 +1055,16 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "d/d5/Itm_gear_coastguard_captain_shoes.png" }
+      "image": { "fandom_wiki_image_path": "d/d5/Itm_gear_coastguard_captain_shoes.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Leather", "quantity": 2, "id": 369 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Captain Kilt",
@@ -610,7 +1074,16 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "3/30/Itm_gear_coastguard_captain_kilt.png" }
+      "image": { "fandom_wiki_image_path": "3/30/Itm_gear_coastguard_captain_kilt.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Leather", "quantity": 1, "id": 369 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Captain Shield",
@@ -620,7 +1093,16 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "3/37/Itm_gear_coastguard_caotin_shield.png" }
+      "image": { "fandom_wiki_image_path": "3/37/Itm_gear_coastguard_caotin_shield.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Captain Turban",
@@ -630,7 +1112,15 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "4/40/Itm_gear_coastguard_captain_turban.png" }
+      "image": { "fandom_wiki_image_path": "4/40/Itm_gear_coastguard_captain_turban.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 2, "id": 922 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Armor",
@@ -639,7 +1129,15 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "b/b3/Itm_gear_coastguard_armor.png" }
+      "image": { "fandom_wiki_image_path": "b/b3/Itm_gear_coastguard_armor.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 2, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Boots",
@@ -648,7 +1146,15 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "e/ed/Itm_gear_coastguard_shoes.png" }
+      "image": { "fandom_wiki_image_path": "e/ed/Itm_gear_coastguard_shoes.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Leather", "quantity": 2, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Kilt",
@@ -657,7 +1163,15 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "d/db/Itm_gear_coastguard_kilt.png" }
+      "image": { "fandom_wiki_image_path": "d/db/Itm_gear_coastguard_kilt.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 },
+          { "name": "Leather", "quantity": 1, "id": 369 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Shield",
@@ -666,7 +1180,14 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "9/99/Itm_gear_coastguard_shield.png" }
+      "image": { "fandom_wiki_image_path": "9/99/Itm_gear_coastguard_shield.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Turban",
@@ -675,42 +1196,83 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "fandom_wiki_image_path": "0/0f/Itm_gear_coastguard_turban.png" }
+      "image": { "fandom_wiki_image_path": "0/0f/Itm_gear_coastguard_turban.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Shell", "quantity": 1, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 2, "id": 922 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Hydrologist Jerkin",
       "id": 1131,
       "category": "Gear",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "e/eb/Itm_gear_hydrologist_top.png" }
+      "image": { "fandom_wiki_image_path": "e/eb/Itm_gear_hydrologist_top.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Silk", "quantity": 3, "id": 922 },
+          { "name": "Leather", "quantity": 2, "id": 369 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Hydrologist Skirt",
       "id": 1132,
       "category": "Gear",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "8/87/Itm_gear_hydrologist_skirt.png" }
+      "image": { "fandom_wiki_image_path": "8/87/Itm_gear_hydrologist_skirt.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Silk", "quantity": 3, "id": 922 },
+          { "name": "Leather", "quantity": 2, "id": 369 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Hydrologist Hat",
       "id": 1133,
       "category": "Gear",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "2/2a/Itm_gear_hydrologist_hat.png" }
+      "image": { "fandom_wiki_image_path": "2/2a/Itm_gear_hydrologist_hat.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Crabantula Silk", "quantity": 3, "id": 922 },
+          { "name": "Leather", "quantity": 2, "id": 369 },
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Hydrologist Shoes",
       "id": 1134,
       "category": "Gear",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "0/00/Itm_gear_hydrologist_shoes.png" }
+      "image": { "fandom_wiki_image_path": "0/00/Itm_gear_hydrologist_shoes.png" },
+      "recipe": { "ingredient": [{ "name": "Leather", "quantity": 3, "id": 369 }], "craft_amount": 1 }
     },
     {
       "name": "Hydrologist Staff",
       "id": 1135,
       "category": "Gear",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
-      "image": { "fandom_wiki_image_path": "1/12/Itm_gear_hydrologist_staff.png" }
+      "image": { "fandom_wiki_image_path": "1/12/Itm_gear_hydrologist_staff.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Blue Headed Coral", "quantity": 3, "id": 168 },
+          { "name": "Aetheric Water", "quantity": 1, "id": 132 },
+          { "name": "Condensed Water Aether", "quantity": 1, "id": 406 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Inkosophist Brush",
@@ -720,7 +1282,15 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "7/79/Itm_gear_inkosophist_brush.png" }
+      "image": { "fandom_wiki_image_path": "7/79/Itm_gear_inkosophist_brush.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 2, "id": 325 },
+          { "name": "Koko Coir", "quantity": 1, "id": 402 },
+          { "name": "Kraken Ink", "quantity": 1, "id": 250 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Coastguard Spear",
@@ -730,7 +1300,15 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "fandom_wiki_image_path": "b/b1/Itm_gear_coastguard_spear.png" }
+      "image": { "fandom_wiki_image_path": "b/b1/Itm_gear_coastguard_spear.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 2, "id": 325 },
+          { "name": "Crabantula Shell", "quantity": 2, "id": 668 },
+          { "name": "Crabantula Silk", "quantity": 1, "id": 922 }
+        ],
+        "craft_amount": 1
+      }
     },
     {
       "name": "Circular Lamp",

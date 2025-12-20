@@ -25,7 +25,15 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Selling", "name": "Sell Mad Screechers", "level": 5 }
       ],
-      "image": { "fandom_wiki_image_path": "5/5c/Itm_consum_soda_original.png" }
+      "image": { "fandom_wiki_image_path": "5/5c/Itm_consum_soda_original.png" },
+      "recipe": {
+        "ingredient": [
+          { "name": "Aetheric Water", "quantity": 2, "id": 132 },
+          { "name": "Summergreen Leaves", "quantity": 3, "id": 129 },
+          { "name": "Snow Lilies", "quantity": 1, "id": 154 }
+        ],
+        "craft_amount": 4
+      }
     },
     {
       "name": "Mad Screecher Sunset",
