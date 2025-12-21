@@ -44,7 +44,8 @@
           { "name": "Everwood", "quantity": 1, "id": 325 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Moonfish",
@@ -59,7 +60,8 @@
           { "name": "Moonfish Filet", "quantity": 1, "id": 216 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Water Sprite",
@@ -74,7 +76,8 @@
           { "name": "Purified Water", "quantity": 1, "id": 110 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine:Coral Elemental",
@@ -92,7 +95,8 @@
           { "name": "Blue Headed Coral", "quantity": 1, "id": 168 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Temple Coral Crab",
@@ -110,7 +114,8 @@
           { "name": "Crabantula Shell", "quantity": 1, "id": 668 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Coral Praetorian",
@@ -128,7 +133,8 @@
           { "name": "Crabantula Shell", "quantity": 2, "id": 668 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Crabantula",
@@ -143,7 +149,8 @@
           { "name": "Crabantula Shell", "quantity": 1, "id": 668 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Kelpish",
@@ -158,7 +165,8 @@
           { "name": "Kelp", "quantity": 1, "id": 920 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Hydrologist",
@@ -176,7 +184,8 @@
           { "name": "Blue Headed Coral", "quantity": 1, "id": 168 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Coastguard",
@@ -194,7 +203,8 @@
           { "name": "Crabantula Shell", "quantity": 1, "id": 668 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Figurine: Disrupter",
@@ -211,7 +221,8 @@
           { "name": "Standard Catalyst", "quantity": 1, "id": 111 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Kelp",
@@ -262,7 +273,8 @@
           { "name": "Standard Catalyst", "quantity": 1, "id": 111 }
         ],
         "craft_amount": 2
-      }
+      },
+      "license_amount": 750
     },
     {
       "name": "Potted Aetheric Flowers",
@@ -285,7 +297,8 @@
           { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Avocado Maki",
@@ -302,7 +315,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Kraken Maki",
@@ -317,7 +331,8 @@
           { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Crab Maki",
@@ -334,7 +349,8 @@
           { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Moonfish Maki",
@@ -351,7 +367,8 @@
           { "name": "Moonfish Filet", "quantity": 1, "id": 216 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Crab Sushi",
@@ -368,7 +385,8 @@
           { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Kraken Sushi",
@@ -383,7 +401,8 @@
           { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Temago Sushi",
@@ -400,7 +419,8 @@
           { "name": "Drakegull Egg", "quantity": 1, "id": 144 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Onigiri",
@@ -414,7 +434,8 @@
           { "name": "Kelp", "quantity": 1, "id": 920 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Crab Taco",
@@ -431,7 +452,8 @@
           { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Drakgull Taco",
@@ -448,7 +470,8 @@
           { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Kraken Taco",
@@ -463,7 +486,8 @@
           { "name": "Kraken Tentacle", "quantity": 1, "id": 251 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Veggie Taco",
@@ -479,7 +503,8 @@
           { "name": "Archipelago Greens", "quantity": 3, "id": 184 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Crab Salad",
@@ -493,7 +518,8 @@
           { "name": "Coral Crab Chunk", "quantity": 2, "id": 921 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Crab Soup",
@@ -508,7 +534,8 @@
           { "name": "Spices", "quantity": 1, "id": 159 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Crab Paella",
@@ -528,7 +555,8 @@
           { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Kraken Chili",
@@ -544,7 +572,8 @@
           { "name": "Hot Sauce", "quantity": 1, "id": 997 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Crab Chili",
@@ -565,7 +594,8 @@
           { "name": "Hot Sauce", "quantity": 1, "id": 997 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Eyenemone Noodles",
@@ -582,7 +612,8 @@
           { "name": "Kelp", "quantity": 2, "id": 920 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Crab Arancini",
@@ -598,7 +629,8 @@
           { "name": "Coral Crab Chunk", "quantity": 1, "id": 921 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Steamed Crab Bites",
@@ -614,7 +646,8 @@
           { "name": "Kelp", "quantity": 2, "id": 920 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Kelp Jerky",
@@ -639,7 +672,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 2
-      }
+      },
+      "license_amount": 400
     },
     {
       "name": "Carrot Soup",
@@ -654,7 +688,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 400
     },
     {
       "name": "Carrot Salad",
@@ -668,7 +703,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 400
     },
     {
       "name": "Carrot",
@@ -696,7 +732,8 @@
           { "name": "Aetheric Sand", "quantity": 1, "id": 448 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Silencing Poison",
@@ -716,7 +753,8 @@
           { "name": "Aetheric Sand", "quantity": 1, "id": 448 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Crab Stock",
@@ -731,7 +769,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Potion of Flowing Thoughts",
@@ -749,7 +788,8 @@
           { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Potion of Serenity",
@@ -764,7 +804,8 @@
           { "name": "Runestone Fragments", "quantity": 1, "id": 890 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Crab Cakes",
@@ -781,7 +822,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 2
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Hot Sauce",
@@ -796,7 +838,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Enchanted Ink",
@@ -811,7 +854,8 @@
           { "name": "Runestone Fragments", "quantity": 1, "id": 890 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Potion of Water Breathing",
@@ -826,7 +870,8 @@
           { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 125
     },
     {
       "name": "Potion of Chitin Armor",
@@ -841,7 +886,8 @@
           { "name": "Violetines", "quantity": 1, "id": 673 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Potion of Waveform",
@@ -859,7 +905,8 @@
           { "name": "Living Vine", "quantity": 1, "id": 429 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Potion of Kraken Strength",
@@ -874,7 +921,8 @@
           { "name": "Kelp", "quantity": 1, "id": 920 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Potion of Inkform",
@@ -889,7 +937,8 @@
           { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Coraline Arrows",
@@ -905,7 +954,8 @@
           { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Poison Arrows",
@@ -920,7 +970,8 @@
           { "name": "Eyenemone Venom", "quantity": 1, "id": 169 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Ink Arrows",
@@ -935,7 +986,8 @@
           { "name": "Kraken Ink", "quantity": 1, "id": 250 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Water Arrows",
@@ -952,7 +1004,8 @@
           { "name": "Aetheric Water", "quantity": 1, "id": 132 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Water Bombs",
@@ -970,7 +1023,8 @@
           { "name": "Aetheric Water", "quantity": 1, "id": 132 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Ink Bombs",
@@ -988,7 +1042,8 @@
           { "name": "Kraken Ink", "quantity": 1, "id": 250 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Darkness Bombs",
@@ -1004,7 +1059,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Ashen Sandwich",
@@ -1101,7 +1157,8 @@
           { "name": "Yellow Paint", "quantity": 1, "id": 358 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Coastguard Captain Boots",
@@ -1117,7 +1174,8 @@
           { "name": "Yellow Paint", "quantity": 1, "id": 358 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Coastguard Captain Kilt",
@@ -1133,7 +1191,8 @@
           { "name": "Yellow Paint", "quantity": 1, "id": 358 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Coastguard Captain Shield",
@@ -1149,7 +1208,8 @@
           { "name": "Yellow Paint", "quantity": 1, "id": 358 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Coastguard Captain Turban",
@@ -1164,7 +1224,8 @@
           { "name": "Yellow Paint", "quantity": 1, "id": 358 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Coastguard Armor",
@@ -1181,7 +1242,8 @@
           { "name": "Sharp Monster Teeth", "quantity": 1, "id": 407 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Coastguard Boots",
@@ -1198,7 +1260,8 @@
           { "name": "Leather", "quantity": 2, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Coastguard Kilt",
@@ -1215,7 +1278,8 @@
           { "name": "Leather", "quantity": 1, "id": 369 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Coastguard Shield",
@@ -1231,7 +1295,8 @@
           { "name": "Crabantula Silk", "quantity": 1, "id": 922 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Coastguard Turban",
@@ -1247,7 +1312,8 @@
           { "name": "Crabantula Silk", "quantity": 2, "id": 922 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Hydrologist Jerkin",
@@ -1262,7 +1328,8 @@
           { "name": "Blue Paint", "quantity": 1, "id": 146 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Hydrologist Skirt",
@@ -1277,7 +1344,8 @@
           { "name": "Blue Paint", "quantity": 1, "id": 146 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 120
     },
     {
       "name": "Hydrologist Hat",
@@ -1293,7 +1361,8 @@
           { "name": "Blue Paint", "quantity": 1, "id": 146 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Hydrologist Shoes",
@@ -1301,7 +1370,8 @@
       "category": "Gear",
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "0/00/Itm_gear_hydrologist_shoes.png" },
-      "recipe": { "ingredient": [{ "name": "Leather", "quantity": 3, "id": 369 }], "craft_amount": 1 }
+      "recipe": { "ingredient": [{ "name": "Leather", "quantity": 3, "id": 369 }], "craft_amount": 1 },
+      "license_amount": 120
     },
     {
       "name": "Hydrologist Staff",
@@ -1316,7 +1386,8 @@
           { "name": "Condensed Water Aether", "quantity": 1, "id": 406 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 750
     },
     {
       "name": "Inkosophist Brush",
@@ -1331,7 +1402,8 @@
           { "name": "Kraken Ink", "quantity": 1, "id": 250 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Coastguard Spear",
@@ -1346,7 +1418,8 @@
           { "name": "Crabantula Silk", "quantity": 1, "id": 922 }
         ],
         "craft_amount": 1
-      }
+      },
+      "license_amount": 500
     },
     {
       "name": "Circular Lamp",

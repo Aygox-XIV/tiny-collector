@@ -363,7 +363,8 @@
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 250
     },
     {
       "name": "Singing Hibis",
@@ -402,7 +403,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
-      ]
+      ],
+      "license_amount": 600
     },
     {
       "name": "Arcane Flan",
@@ -423,7 +425,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
-      ]
+      ],
+      "license_amount": 600
     },
     {
       "name": "Lemon Flan",
@@ -439,7 +442,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Coastline" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Coastline" }],
+      "license_amount": 600
     },
     {
       "name": "Fire Flan",
@@ -460,7 +464,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "license_amount": 600
     },
     {
       "name": "Fire Cheesecake",
@@ -481,7 +486,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
-      ]
+      ],
+      "license_amount": 600
     },
     {
       "name": "Fiery Brioche",
@@ -1367,12 +1373,7 @@
         "craft_amount": 1
       }
     },
-    {
-      "name": "Bronze Sword",
-      "id": 1100,
-      "category": "Gear",
-      "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" }
-    },
+    { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
     {
       "name": "Emerald Shield",
       "id": 1138,
@@ -1386,7 +1387,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "license_amount": 850
     },
     {
       "name": "Seastone Shield",
@@ -1401,7 +1403,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
+      "license_amount": 850
     },
     {
       "name": "Coral Crab Plush",
@@ -1415,7 +1418,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }],
+      "license_amount": 350
     },
     {
       "name": "Glasses Crab Plush",
@@ -1429,7 +1433,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }],
+      "license_amount": 350
     },
     {
       "name": "Stab Crab Plush",
@@ -1443,7 +1448,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }],
+      "license_amount": 350
     },
     {
       "name": "Living Chest",
@@ -1458,7 +1464,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Wavesplitter",
@@ -1473,7 +1480,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "The Seer",
@@ -1488,7 +1496,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Sunseeker",
@@ -1539,7 +1548,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Kneadfield Cuirass",
@@ -1554,7 +1564,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Kneadfield Belt",
@@ -1569,7 +1580,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Kneadfield Aegis",
@@ -1584,7 +1596,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Croissword",
@@ -1599,7 +1612,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Kneadfield Mantle",
@@ -1614,7 +1628,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }],
+      "license_amount": 850
     },
     {
       "name": "Sunstriker",

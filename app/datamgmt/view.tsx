@@ -178,7 +178,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                     Export items with missing recipes
                 </div>
                 <div className="settings-item" onClick={loadRecipeHelperData}>
-                    Import recipe helper sheet data (id,name,quantity,ingredient1,ingredient2,... csv)
+                    Import recipe helper sheet data (id,name,quantity,ingredient1,2,3,4,license_amount csv)
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
 const CATEGORIES_WITH_POTENTIAL_RECIPES: Set<Category> = new Set(['Consumables', 'Gear', 'Material']);
 
 function extractItemsWithMissingRecipe(db: Database): string {
-    let items: string[] = [];
+    let items: string[] = ['id,name,num,ingredient 1,ingredient 2,ingredient 3,ingredient 4,license amount'];
 
     for (const item of Object.values(db.items)) {
         if (item.recipe) {
@@ -226,6 +226,7 @@ function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
     col 2: name
     col 3: craft_amount
     col 4,5,6,7: ingredients if craft_amount>0
+    col 8: license amount
      */
     let rows = parseCsv(csvFile);
     for (let r = 1; r < rows.length; r++) {
@@ -250,7 +251,16 @@ function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
                 ingredient.push({ name: parts[0], quantity: parseInt(parts[1]), id: itemNameToId[parts[0]] });
             }
         }
-        updatedItemDb[id] = { ...dbItem, recipe: { ingredient, craft_amount: parseInt(row[2]) } };
+
+        let license_amount: number | undefined;
+        if (row.length > 7 && row[7].length > 0) {
+            license_amount = parseInt(row[7]);
+        }
+        updatedItemDb[id] = {
+            ...dbItem,
+            recipe: { ingredient, craft_amount: parseInt(row[2]) },
+            license_amount: license_amount || dbItem.license_amount,
+        };
     }
     return updatedItemDb;
 }
