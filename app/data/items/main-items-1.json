@@ -64,7 +64,9 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }
       ],
       "image": { "fandom_wiki_image_path": "5/56/Condensed_Arcane_Aether.png" }
     },
@@ -463,7 +465,9 @@
       "category": "Material",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" }
       ],
       "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
@@ -551,7 +555,9 @@
       "source": [
         { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" }
       ],
       "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
     },
@@ -577,7 +583,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -649,7 +656,16 @@
       "source": [
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Jackals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" }
       ],
       "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" }
     },
@@ -711,11 +727,19 @@
       "category": "Material",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" }
       ],
       "image": { "fandom_wiki_image_path": "e/e2/Drakegull_Meat.png" }
     },
-    { "name": "Sumac Spice", "id": 178, "category": "Material", "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" } },
+    {
+      "name": "Sumac Spice",
+      "id": 178,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }],
+      "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" }
+    },
     {
       "name": "Cuter Brioche",
       "id": 179,
@@ -868,7 +892,9 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" }
       ],
       "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" }
     },
@@ -919,7 +945,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" }
+      ],
       "image": { "fandom_wiki_image_path": "b/b3/Fire_Extract.png" }
     },
     {
@@ -964,7 +993,9 @@
       "category": "Material",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" }
       ],
       "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
@@ -1153,7 +1184,11 @@
       "name": "Mushrooms Portion",
       "id": 240,
       "category": "Material",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "White Megashroom" }],
+      "source": [
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "White Megashroom" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" }
+      ],
       "image": { "fandom_wiki_image_path": "c/c6/Mushrooms_Portion.png" }
     },
     {
@@ -1582,7 +1617,11 @@
       "name": "Brown Heads",
       "id": 284,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" }
+      ],
       "image": { "fandom_wiki_image_path": "0/05/Brown_Heads.png" }
     },
     {
@@ -2265,7 +2304,11 @@
       "source": [
         { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Jackals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" }
       ],
       "image": { "fandom_wiki_image_path": "3/3d/Leather.png" }
     },
@@ -2459,7 +2502,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Herd" }
+      ],
       "image": { "fandom_wiki_image_path": "e/eb/Iron_Gauntlets.png" }
     },
     {
@@ -2525,7 +2571,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Herd" }
+      ],
       "image": { "fandom_wiki_image_path": "f/f7/Iron_Helmet.png" }
     },
     {
@@ -2810,10 +2859,11 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Jackals" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Steelsnappers" },
-        { "type": "Journey", "kind": "recipe", "fragment": false, "name": "Hunt: Aetherclaws" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Dreadfangs Herd" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Jackals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Steelsnappers" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Coral Crabs" }
       ],
       "image": { "fandom_wiki_image_path": "f/f2/Bone_Dagger.png" }
     },
@@ -2824,7 +2874,15 @@
       "source": [
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Jackals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }
       ],
       "image": { "fandom_wiki_image_path": "8/88/Monster_Fangs.png" }
     },
@@ -2832,7 +2890,14 @@
       "name": "Monster Horn",
       "id": 426,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" }
+      ],
       "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" }
     },
     {
@@ -3687,7 +3752,10 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Herd" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" }
       ],
       "image": { "fandom_wiki_image_path": "f/f5/Itm_material_aether_nature.png" }
     },
@@ -4088,7 +4156,13 @@
       ],
       "image": { "fandom_wiki_image_path": "f/fe/Pyromancy_Spellbook.png" }
     },
-    { "name": "Condensed Fire Aether", "id": 545, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Condensed_Fire_Aether.png" } },
+    {
+      "name": "Condensed Fire Aether",
+      "id": 545,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" }],
+      "image": { "fandom_wiki_image_path": "8/88/Condensed_Fire_Aether.png" }
+    },
     {
       "name": "Radio",
       "id": 546,
@@ -4837,10 +4911,10 @@
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "3/30/Cinderwheat_%28Seed%29.png" },
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Analysis: Cindergrove" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
       ]
@@ -5184,7 +5258,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" }
       ],
       "image": { "fandom_wiki_image_path": "7/7d/Itm_balm_fire.png" }
     },

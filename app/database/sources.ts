@@ -390,5 +390,6 @@ export function validateSingleSource(item: Item, source: Source) {
         // - research only drops recipes or unlocks
         // - medium & large weekly task chests don't drop fragments (small chests only drop fragments, minus the tokens)
         // - yearly event task chests don't drop fragments
+        // - not all categories can drop as fragments (plants, maybe more?)
     }
 }

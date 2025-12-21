@@ -24,7 +24,13 @@
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
     { "name": "Depleted Aether Charge", "id": 868, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Depleted_Aether_Charge.png" } },
-    { "name": "Void Stone", "id": 869, "category": "Material", "image": { "fandom_wiki_image_path": "c/c2/Void_Stone.png" } },
+    {
+      "name": "Void Stone",
+      "id": 869,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Spice Elemental" }],
+      "image": { "fandom_wiki_image_path": "c/c2/Void_Stone.png" }
+    },
     {
       "name": "Ashen Wheat",
       "id": 870,
@@ -46,6 +52,7 @@
       "name": "Arcanite Toothfish Skull",
       "id": 871,
       "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }],
       "image": { "fandom_wiki_image_path": "1/11/Arcanite_Toothfish_Skull.png" }
     },
     {
@@ -317,7 +324,8 @@
           { "name": "Arcane Extract", "quantity": 1, "id": 109 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" }]
     },
     {
       "name": "Arcane Flan",
@@ -332,7 +340,8 @@
           { "name": "Arcane Extract", "quantity": 1, "id": 109 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" }]
     },
     {
       "name": "Lemon Flan",
@@ -362,7 +371,11 @@
           { "name": "Fire Extract", "quantity": 1, "id": 213 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+      ]
     },
     {
       "name": "Fire Cheesecake",
@@ -377,7 +390,11 @@
           { "name": "Fire Extract", "quantity": 1, "id": 213 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+      ]
     },
     {
       "name": "Fiery Brioche",
@@ -627,7 +644,11 @@
           { "name": "Drakegull Meat", "quantity": 1, "id": 177 }
         ],
         "craft_amount": 2
-      }
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+      ]
     },
     {
       "name": "Parmimigiano",
