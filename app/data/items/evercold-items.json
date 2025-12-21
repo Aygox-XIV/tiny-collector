@@ -91,7 +91,9 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" }
       ],
       "image": { "fandom_wiki_image_path": "d/df/Chocolate.png" }
     },

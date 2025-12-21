@@ -205,12 +205,21 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee" },
-        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee Seed" }
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Coffee" }
       ],
       "image": { "fandom_wiki_image_path": "f/f8/Coffee_Berries.png" }
     },
-    { "name": "Coffee", "id": 1217, "category": "Plant", "image": { "fandom_wiki_image_path": "6/67/Coffee_%28Seed%29.png" } },
+    {
+      "name": "Coffee",
+      "id": 1217,
+      "category": "Plant",
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Metatemporal Breach" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/67/Coffee_%28Seed%29.png" }
+    },
     {
       "name": "Time Stalk",
       "id": 925,
@@ -961,7 +970,12 @@
           { "name": "Chocolate", "quantity": 4, "id": 161 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [
+        { "type": "Mission Reward", "kind": "recipe", "fragment": true, "name": "Once in a Dough Moon - Part 2" },
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Once in a Dough Moon - Part 2" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }
+      ]
     },
     {
       "name": "Chocolate Manju",
@@ -1019,7 +1033,12 @@
         "craft_amount": 2
       }
     },
-    { "name": "Timefound Loaf", "id": 1066, "category": "Consumables" },
+    {
+      "name": "Timefound Loaf",
+      "id": 1066,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
     {
       "name": "Timefound Brioche",
       "id": 1067,
@@ -1062,7 +1081,12 @@
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
     },
-    { "name": "Timefound Loaf", "id": 1174, "category": "Consumables" },
+    {
+      "name": "Timefound Loaf",
+      "id": 1174,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+    },
     {
       "name": "Timefound Traditional Loaf",
       "id": 1071,
@@ -1111,7 +1135,7 @@
       "category": "Consumables",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }
       ],
       "license_amount": 650,
       "recipe": { "ingredient": [{ "name": "Coffee Berries", "quantity": 6, "id": 924 }], "craft_amount": 4 },
@@ -1131,7 +1155,7 @@
       "name": "Espresso",
       "id": 1077,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }],
       "license_amount": 650,
       "recipe": {
         "ingredient": [
@@ -1146,7 +1170,7 @@
       "name": "Mocha",
       "id": 1078,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }],
       "license_amount": 650,
       "recipe": {
         "ingredient": [
@@ -1225,7 +1249,7 @@
       "name": "Latte",
       "id": 1081,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }],
       "license_amount": 650,
       "recipe": {
         "ingredient": [
@@ -1241,7 +1265,7 @@
       "name": "Dark Coffee",
       "id": 1082,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }],
       "license_amount": 650,
       "recipe": {
         "ingredient": [
@@ -1278,7 +1302,7 @@
       "name": "Coffee Drink",
       "id": 1092,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee Seed" }],
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }],
       "license_amount": 650,
       "recipe": {
         "ingredient": [
@@ -1322,7 +1346,12 @@
         "craft_amount": 1
       }
     },
-    { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
+    {
+      "name": "Bronze Sword",
+      "id": 1100,
+      "category": "Gear",
+      "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" }
+    },
     {
       "name": "Emerald Shield",
       "id": 1138,
@@ -1622,7 +1651,12 @@
         "craft_amount": 1
       }
     },
-    { "name": "Jam Waffles", "id": 1305, "category": "Consumables" },
+    {
+      "name": "Jam Waffles",
+      "id": 1305,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+    },
     {
       "name": "Jam Waffles",
       "id": 1306,
@@ -1636,7 +1670,8 @@
         ],
         "craft_amount": 4
       },
-      "license_amount": 650
+      "license_amount": 650,
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
     }
   ]
 }
