@@ -2345,7 +2345,7 @@
         "ingredient": [
           { "name": "Fresh Milk", "quantity": 1, "id": 121 },
           { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
-          { "name": "Sunsugar", "quantity": 1, "id": -1 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
           { "name": "Cursedconut", "quantity": 2, "id": 166 }
         ],
         "craft_amount": 1

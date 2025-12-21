@@ -79,11 +79,16 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                     />
                 </div>
             </div>
-            <div className="catalog-content center-content">
-                {filteredItems.map((id) => {
-                    return <CatalogItem id={id.toString()} key={keyFunction(id)} />;
-                })}
-            </div>
+            {filteredItems.length > 0 && (
+                <div className="catalog-content center-content">
+                    {filteredItems.map((id) => {
+                        return <CatalogItem id={id.toString()} key={keyFunction(id)} />;
+                    })}
+                </div>
+            )}
+            {filteredItems.length == 0 && (
+                <div className="catalog-content center-content">No items match the filter conditions.</div>
+            )}
         </div>
     );
 };

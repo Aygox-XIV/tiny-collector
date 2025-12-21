@@ -43,8 +43,19 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
     if (filter.hideUnlicensable && !item.license_amount) {
         return false;
     }
-    if (filter.hideCollected && (collection?.status?.collected || collection?.status?.haveRecipe)) {
-        return false;
+    if (filter.hideCollected) {
+        if (collection?.status?.collected) {
+            return false;
+        }
+        if (collection?.status?.haveRecipe && collection?.status?.licensed) {
+            return false;
+        }
+        if (collection?.status?.haveRecipe && !item.license_amount) {
+            return false;
+        }
+        if (collection?.status?.licensed && !item.recipe) {
+            return false;
+        }
     }
     if (filter.hideUnknown && (!item.source || item.source.length == 0)) {
         return false;

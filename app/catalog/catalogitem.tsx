@@ -23,6 +23,8 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
         collectionStateClass = ' missing-source';
     } else if (
         (collectedState.status.haveRecipe && collectedState.status.licensed) ||
+        (collectedState.status.licensed && !item.recipe) ||
+        (collectedState.status.haveRecipe && !item.license_amount) ||
         collectedState.status.collected
     ) {
         collectionStateClass = ' complete';
