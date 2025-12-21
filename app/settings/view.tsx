@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router';
-import { load, parseCollection, useFullCollection } from '../collection';
+import { load, parseCollection, resetCollection, useFullCollection } from '../collection';
 import { loadFile, saveFile } from '../common/files';
 import { useAppDispatch } from '../store';
 import type { Route } from './+types/view';
@@ -46,7 +46,7 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
                 <br />
                 <br />
                 <div className="settings-item">
-                    <a onClick={() => dispatch(load({ items: {} }))}>
+                    <a onClick={() => dispatch(resetCollection())}>
                         Reset collection (warning: not recoverable unless you've exported it)
                     </a>
                 </div>

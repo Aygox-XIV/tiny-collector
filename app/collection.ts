@@ -43,6 +43,11 @@ export const collectionSlice = createSlice({
             state.initialized = true;
             console.log('Loaded: ' + Object.keys(action.payload.items).length + ' items with a collection status');
         },
+        resetCollection: (state) => {
+            state.items = {};
+            saveCollection(state);
+            console.log('All collection state has been reset.');
+        },
         changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
             const args = action.payload;
             // TODO: optimize status by omitting `false` entries.
@@ -94,7 +99,7 @@ export function defaultCollectionState(id: string): CollectedItem {
     return { id, status: {} };
 }
 
-export const { load, changeStatus, setLicenseAmount } = collectionSlice.actions;
+export const { load, resetCollection, changeStatus, setLicenseAmount } = collectionSlice.actions;
 
 export function useFullCollection(): Collection {
     return useAppSelector((state) => state.collection);
