@@ -3,6 +3,8 @@ import { useAppSelector } from './store';
 
 export interface Collection {
     readonly items: Record<string, CollectedItem>;
+    // TODO: version number?
+    // For now: Sample data will have IDs < 100, real data >= 100
     readonly initialized?: boolean;
 }
 

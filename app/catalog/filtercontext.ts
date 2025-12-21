@@ -12,6 +12,7 @@ export interface CatalogFilter {
     readonly hideCollected?: boolean;
     // hide items with no known source
     readonly hideUnknown?: boolean;
+    readonly showOnlyMissingData?: boolean;
     // value of the search bar
     readonly nameMatch?: string;
 }
@@ -42,17 +43,38 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
     if (filter.hideUnlicensable && !item.license_amount) {
         return false;
     }
-    if (filter.hideCollected && (collection?.status?.collected || collection?.status?.haveRecipe)) {
-        return false;
+    if (filter.hideCollected) {
+        if (collection?.status?.collected) {
+            return false;
+        }
+        if (collection?.status?.haveRecipe && collection?.status?.licensed) {
+            return false;
+        }
+        if (collection?.status?.haveRecipe && !item.license_amount) {
+            return false;
+        }
+        if (collection?.status?.licensed && !item.recipe) {
+            return false;
+        }
     }
     if (filter.hideUnknown && (!item.source || item.source.length == 0)) {
+        return false;
+    }
+    if (filter.showOnlyMissingData && item.source && item.image) {
         return false;
     }
     if (filter.hiddenCategories?.has(item.category)) {
         return false;
     }
-    if (hasNameFilter && !item.name.toLowerCase().match(filter.nameMatch)) {
-        return false;
+    try {
+        if (hasNameFilter && !item.name.toLowerCase().match(filter.nameMatch)) {
+            return false;
+        }
+    } catch (e) {
+        // Fall back to plain substring matching if the regex is invalid.
+        if (filter.nameMatch && !item.name.toLowerCase().includes(filter.nameMatch)) {
+            return false;
+        }
     }
     return true;
 }

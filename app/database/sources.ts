@@ -1,5 +1,9 @@
+import type { Item } from './database';
+
+export type DropKind = 'item' | 'recipe' | 'unlock';
+
 interface UnknownSource {
-    readonly kind: 'item' | 'recipe';
+    readonly kind: DropKind;
     readonly fragment: boolean;
     readonly type: SourceType;
     readonly subtype?: string;
@@ -154,6 +158,41 @@ export function getEventPhase(type?: EventType): number | undefined {
     }
 }
 
+export function sourceSortFn(a: Source, b: Source): number {
+    const aIsMission = a.subtype == 'Mission';
+    const bIsMission = b.subtype == 'Mission';
+    if (aIsMission != bIsMission) {
+        return aIsMission ? 1 : -1;
+    }
+    const aEventCat = getEventCategory(a);
+    const bEventCat = getEventCategory(b);
+    if (aEventCat != bEventCat) {
+        if (aEventCat == EventCategory.NoEvent) {
+            return -1;
+        } else if (bEventCat == EventCategory.NoEvent) {
+            return 1;
+        } else if (aEventCat < bEventCat) {
+            // TODO: sun > flooded > phantom > evercold instead of alphabetical
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+    const aEventPhase = getEventPhase(a.subtype as EventType) || 0;
+    const bEventPhase = getEventPhase(b.subtype as EventType) || 0;
+    if (aEventPhase !== bEventPhase) {
+        if (aEventPhase < bEventPhase) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+    if (a.name === b.name) {
+        return 0;
+    }
+    return (a.name || '') < (b.name || '') ? -1 : 1;
+}
+
 export enum OutpostType {
     Trading = 'Trading',
     Coastal = 'Coastal',
@@ -215,19 +254,19 @@ export type GardenSeed =
 
 export interface HarvestSource extends UnknownSource {
     readonly type: SourceType.Harvest;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: GardenSeed;
 }
 
 export interface PremiumPackSource extends UnknownSource {
     readonly type: SourceType.PremiumPack;
-    readonly subtype: EventType.SunFestival | undefined;
+    readonly subtype?: EventType.SunFestival | undefined;
     readonly name: 'Trading Guild Pack' | 'Kitchen Set' | 'Botanist Set' | 'Home Set' | 'Blacksmith Set' | string;
 }
 
 export interface BoutiqueSource extends UnknownSource {
     readonly type: SourceType.Boutique;
-    readonly subtype: 'Anniversary' | undefined;
+    readonly subtype?: 'Anniversary' | undefined;
     readonly name: undefined;
 }
 
@@ -237,41 +276,41 @@ export interface BattleSource extends UnknownSource {
         | EventType.FloodedExpedition
         | EventType.PhantomIslePart2
         | EventType.PhantomIslePart3
-        // TODO: I forget if part 1 has battles or not
         | EventType.EvercoldIslePart2;
     // name is untyped (too many enemies to list usefully)
     readonly name: string;
-    // TODO: journeys enemies can appear in from separate db?
+    // TODO: list journeys enemies can appear in using a separate db?
 }
 
 export interface JourneySource extends UnknownSource {
     readonly type: SourceType.Journey;
-    readonly subtype: EventType | undefined;
-    // name is untyped for now. might list them later.
+    readonly subtype?: EventType | 'Mission' | undefined;
     readonly name: string;
+    readonly mission_name?: string | undefined;
 }
 
 export interface ShiftySource extends UnknownSource {
     readonly type: SourceType.Shifty;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     // TODO: name is undefined (direct purchase) | {crate names}
 }
 
 export interface EventMarketSource extends UnknownSource {
     readonly type: SourceType.EventMarket;
     readonly subtype: EventType;
-    readonly name: undefined;
+    // If present, name is a crate name.
+    readonly name?: string | undefined;
 }
 
 export interface MissionRewardSource extends UnknownSource {
     readonly type: SourceType.MissionReward;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: string;
 }
 
 export interface MarketSource extends UnknownSource {
     readonly type: SourceType.Market;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: 'Materials';
 }
 
@@ -310,14 +349,54 @@ export interface TaskChestSource extends UnknownSource {
 
 export interface CombineSource extends UnknownSource {
     readonly type: SourceType.Combine;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     readonly name: string;
     readonly id: string;
 }
 
 export interface ShopLevelSource extends UnknownSource {
     readonly type: SourceType.ShopLevel;
-    readonly subtype: undefined;
+    readonly subtype?: undefined;
     // level
     readonly name: string;
+}
+
+/** Checks if a given source has valid data for the given item. Logs issues to the console. */
+export function validateSingleSource(item: Item, source: Source) {
+    switch (source.kind as string) {
+        case 'item':
+        case 'recipe':
+        case 'unlock':
+            break;
+        default:
+            console.warn('Bad kind (' + source.kind + ') for item ' + item.id);
+    }
+    if (source.kind == 'recipe' && !item.recipe) {
+        console.warn('Item ' + item.id + ' (' + item.name + ') has no recipe, but has a recipe source');
+    }
+    switch (source.type) {
+        case SourceType.Battle:
+            switch (source.subtype) {
+                case EventType.EvercoldIslePart2:
+                case EventType.FloodedExpedition:
+                case EventType.PhantomIslePart2:
+                case EventType.PhantomIslePart3:
+                    break;
+                default:
+                    console.warn(
+                        'Bad Battle source for ' +
+                            item.id +
+                            '; unexpected subtype ' +
+                            (source as UnknownSource).subtype,
+                    );
+            }
+            break;
+        // TODO: more
+        // e.g.:
+        // - journeys don't drop non-fragmented recipes
+        // - research only drops recipes or unlocks
+        // - medium & large weekly task chests don't drop fragments (small chests only drop fragments, minus the tokens)
+        // - yearly event task chests don't drop fragments
+        // - not all categories can drop as fragments (plants, maybe more?)
+    }
 }

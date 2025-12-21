@@ -7,8 +7,16 @@ export interface IconProp {
 }
 
 export const Icon: React.FC<IconProp> = ({ src }) => {
-    if (src) {
-        return <img className="item-icon" src={getImgSrc(src)} />;
+    if (src && src.fandom_wiki_image_path != '') {
+        return (
+            <div className="item-icon-container">
+                <img className="item-icon" src={getImgSrc(src)} loading="lazy" decoding="async" />
+            </div>
+        );
     }
-    return <BsQuestionSquare className="item-icon" />;
+    return (
+        <div className="item-icon-container">
+            <BsQuestionSquare className="item-icon" />
+        </div>
+    );
 };

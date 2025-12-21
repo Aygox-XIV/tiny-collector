@@ -11,6 +11,7 @@ export interface EventIconProps {
 }
 
 export const EventIcon: React.FC<EventIconProps> = ({ type, showEventPhase, tooltipId }) => {
+    // TODO: expand to also show "mission-specific" status
     let IconChoice;
     switch (eventTypeToCategory(type)) {
         case EventCategory.EvercoldIsle:

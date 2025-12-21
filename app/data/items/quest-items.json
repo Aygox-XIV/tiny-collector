@@ -1,0 +1,263 @@
+{
+  "items": [
+    {
+      "name": "Attuned Rocks",
+      "id": 830,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Mission", "mission_name": "Open Horizons", "name": "On the Rocks!" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/38/Itm_material_stone.png" }
+    },
+    {
+      "name": "Rich Soil",
+      "id": 831,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Mission", "mission_name": "Open Horizons", "name": "Soil to Soil" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/fa/Rich_Soil.png" }
+    },
+    {
+      "name": "Aether Seed",
+      "id": 832,
+      "category": "Quest",
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "Open Horizons",
+          "name": "To Seed or Not to Seed"
+        }
+      ],
+      "image": { "fandom_wiki_image_path": "2/2e/Seed.png" }
+    },
+    {
+      "name": "Aether Infused Dagger",
+      "id": 833,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "A Scale-ing Problem - Part 3" }],
+      "image": { "fandom_wiki_image_path": "f/f2/Bone_Dagger.png" }
+    },
+    {
+      "name": "Arcane Catalyst",
+      "id": 822,
+      "category": "Material",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "Operation: Thundershroom - Part 5" }],
+      "image": { "fandom_wiki_image_path": "3/3a/Itm_material_catalyst_arcane.png" }
+    },
+    {
+      "name": "Prime Mushroom",
+      "id": 834,
+      "category": "Quest",
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "Operation: Thundershroom",
+          "name": "[unknown - Operation: Thundershroom]"
+        }
+      ],
+      "image": { "fandom_wiki_image_path": "8/85/Itm_material_glowshroom.png" }
+    },
+    {
+      "name": "Sharp Organic Blade",
+      "id": 835,
+      "category": "Quest",
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "Slife of Life  - Part II",
+          "name": "[unknown - Slice of Life - Part II]"
+        }
+      ],
+      "image": { "fandom_wiki_image_path": "8/8d/Itm_loot_broken_sample.png" }
+    },
+    {
+      "name": "Almost Fresh Tendon",
+      "id": 836,
+      "category": "Quest",
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "Slife of Life  - Part II",
+          "name": "[unknown - Slice of Life - Part II]"
+        }
+      ],
+      "image": { "fandom_wiki_image_path": "3/36/Itm_loot_fungal_tendon.png" }
+    },
+    { "name": "Introduction to Bakeromancy", "id": 837, "category": "Quest" },
+    {
+      "name": "Mysterious Note",
+      "id": 838,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "A Savory Threat - Part 3" }],
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" }
+    },
+    {
+      "name": "High Quality Moonfish",
+      "id": 839,
+      "category": "Quest",
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "unknown (likely Culinary Inspiration)",
+          "name": "[unknown - used in A Gastronomical Duel]"
+        }
+      ],
+      "image": { "fandom_wiki_image_path": "4/42/Itm_material_fish_moonfish_HQ.png" }
+    },
+    {
+      "name": "Jelly's Special",
+      "id": 1172,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "A Gastronomical Duel - Part 4/6" }],
+      "image": { "fandom_wiki_image_path": "a/a4/Itm_consum_dish_fish_skewer.png" }
+    },
+    {
+      "name": "Gustave's Bourguignon",
+      "id": 840,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "A Gastronomical Duel - Part 5/6" }],
+      "image": { "fandom_wiki_image_path": "c/c5/Gustave%27s_Bourguignon.png" }
+    },
+    {
+      "name": "Clockwork Jelly",
+      "id": 841,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Culinary Inspiration - Part 4" }],
+      "image": { "fandom_wiki_image_path": "f/fd/Clockwork_Jelly.png" }
+    },
+    { "name": "Intact Bakeromancy Pages", "id": 842, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    { "name": "Questionable Cult Brochure", "id": 843, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    { "name": "Oversized Note", "id": 844, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    { "name": "Damaged Bakeromancy Grimoire", "id": 845, "category": "Quest" },
+    { "name": "Foul Journal", "id": 846, "category": "Quest", "image": { "fandom_wiki_image_path": "6/67/Itm_material_book_03.png" } },
+    { "name": "Foul Journal Page", "id": 847, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    {
+      "name": "Outpost Plan: Trading",
+      "id": 848,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "6/68/Quest_outpost_schema_trading.png" }
+    },
+    {
+      "name": "Outpost Plan: Coastal",
+      "id": 849,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "a/ac/Quest_outpost_schema_fishing.png" }
+    },
+    {
+      "name": "Outpost Plan: Naturalist",
+      "id": 850,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "8/89/Quest_outpost_schema_naturalist.png" }
+    },
+    { "name": "Observations Report", "id": 851, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    {
+      "name": "Outpost Plan: Archeology",
+      "id": 852,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 4/4" }],
+      "image": { "fandom_wiki_image_path": "f/f0/Outpost_Plan-_Archeology.png" }
+    },
+    {
+      "name": "Glowing Crystal",
+      "id": 853,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part I - Part 1/5" }],
+      "image": { "fandom_wiki_image_path": "a/a3/Glowing_Crystal.png" }
+    },
+    {
+      "name": "Survey Report",
+      "id": 854,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 2" }],
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" }
+    },
+    { "name": "Curious Illustrated Page", "id": 855, "category": "Quest" },
+    {
+      "name": "Rulebook in Shambles",
+      "id": 856,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "An Ancient Game - Part III" }]
+    },
+    {
+      "name": "Bag O'Relics",
+      "id": 857,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part I - Part 2/5" }],
+      "image": { "fandom_wiki_image_path": "d/dd/Bag_O%27_Relics.png" }
+    },
+    { "name": "Sculptor's Journal", "id": 858, "category": "Quest", "image": { "fandom_wiki_image_path": "d/d2/Itm_icy_sculptor_journal.png" } },
+    {
+      "name": "Sun Emblem",
+      "id": 859,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/0e/Sun_emblem_event.png" }
+    },
+    {
+      "name": "Minor Runestones",
+      "id": 1312,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "All enemies" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/3e/Itm_mat_ancient_runes.png" }
+    },
+    {
+      "name": "Wing Shaped Fragment",
+      "id": 860,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "2/27/Itm_mat_quest_piezorite_fragment.png" }
+    },
+    {
+      "name": "Strange Loaf",
+      "id": 861,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "On the Dot - Part I" }]
+    },
+    { "name": "Strange Looking Plants", "id": 862, "category": "Quest" },
+    {
+      "name": "Condensed Time",
+      "id": 1311,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock - Part III" }],
+      "image": { "fandom_wiki_image_path": "d/d2/Condensed_Time.png" }
+    },
+    { "name": "Where's My Kitty?", "id": 1167, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1168, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1169, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1170, "category": "Quest" },
+    { "name": "Where's My Kitty?", "id": 1171, "category": "Quest" }
+  ]
+}

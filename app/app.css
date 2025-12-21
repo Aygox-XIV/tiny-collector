@@ -23,6 +23,10 @@ div {
   padding: 1px;
 }
 
+.text-with-link {
+  text-decoration: underline;
+}
+
 .text-with-tt {
   text-decoration: dashed underline;
 }
@@ -38,6 +42,16 @@ div.menu-bar {
   display: grid;
   grid-template-columns: repeat(6, 200px);
   gap: 5px;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 300px;
+}
+
+.header > .note {
+  font-size: small;
 }
 
 div.menu-item {
@@ -96,6 +110,10 @@ div.settings-item {
   cursor: pointer;
   border: 1px solid rgb(187, 156, 119);
   width: 50%;
+}
+
+div.settings-group {
+  margin: 15px;
 }
 
 div.catalog-view {
@@ -180,6 +198,7 @@ input.catalog-search {
   border: 1px solid black;
   background-color: rgb(215, 180, 137);
   width: 80%;
+  padding-left: 3px;
 }
 
 div.catalog-search-content {
@@ -235,7 +254,7 @@ div.with-license {
   );
 }
 
-.name-tag {
+div.catalog-item > .item-name {
   width: 100%;
   overflow-y: visible;
   max-height: 25px;
@@ -250,15 +269,37 @@ div.with-license {
 
 .item-icon {
   height: 150px;
-  width: 150px;
+  width: fit-content;
 }
 
-div.catalog-item > .item-icon {
+.item-icon-container {
+  display: flex;
+  align-items: end;
+}
+
+div.catalog-item > .item-icon-container {
   height: 100px;
   width: 100px;
 }
 
-div.details-panel > .item-icon {
+.item-icon-container > .item-icon {
+  width: fit-content;
+  height: fit-content;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.item-icon-container > svg.item-icon {
+  width: 100%;
+  height: 100%;
+}
+
+div.catalog-item > svg.item-icon {
+  width: 100px;
+  height: 100px;
+}
+
+div.icon-and-recipe > .item-icon-container {
   height: 200px;
   width: 200px;
 }
@@ -271,6 +312,27 @@ div.catalog-item > .status-icons {
 
 div.catalog-content div.active {
   border: 2px solid darkslateblue;
+}
+
+.ingredients-container {
+  display: grid;
+  row-gap: 3px;
+}
+
+.icon-and-recipe {
+  display: flex;
+  column-gap: 20px;
+}
+
+.single-ingredient {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.single-ingredient > .item-icon-container {
+  height: 40px;
+  width: 40px;
 }
 
 div.license-bar {
@@ -387,7 +449,7 @@ img.event-selector {
 }
 
 .event-selection > .selected {
-  border: 2px solid black;
+  border: 2px solid green;
 }
 
 div.toggle-row {
@@ -474,6 +536,12 @@ div.droplist-item {
   background-color: rgb(239, 221, 197);
 }
 
+div.item-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 div.collected {
   background-color: rgb(239, 233, 225);
   color: rgb(153, 137, 116);
@@ -513,7 +581,7 @@ div.license-list-entry {
   gap: 10px;
 }
 
-div.license-list-material-icon > .item-icon {
+div.license-list-material-icon > .item-icon-container {
   height: 80px;
   width: 80px;
 }

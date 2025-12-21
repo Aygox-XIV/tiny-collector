@@ -1,0 +1,2482 @@
+{
+  "items": [
+    {
+      "name": "Bloodberry Slime",
+      "id": 139,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/a9/Bloodberry_Slime.png" }
+    },
+    {
+      "name": "Cursedconut",
+      "id": 166,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/bf/Itm_event_HAL_cursedconut.png" }
+    },
+    {
+      "name": "Ectoplasm",
+      "id": 142,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/36/Ectoplasm.png" }
+    },
+    {
+      "name": "Pumpkin",
+      "id": 238,
+      "category": "Material",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }],
+      "image": { "fandom_wiki_image_path": "6/64/Pumpkin.png" }
+    },
+    {
+      "name": "Hexed Linen",
+      "id": 492,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/55/Hexed_Linen.png" }
+    },
+    {
+      "name": "Undead Bones",
+      "id": 436,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/0e/Undead_Bones.png" }
+    },
+    {
+      "name": "Ectogems",
+      "id": 181,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "All enemies" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/07/Ectogems.png" }
+    },
+    {
+      "name": "Cursedconut Leaves",
+      "id": 190,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/3e/Cursedconut_Leaves.png" }
+    },
+    {
+      "name": "Cursedconut Log",
+      "id": 773,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/68/Itm_material_cursedconut_log.png" }
+    },
+    {
+      "name": "Cursedconut Roots",
+      "id": 748,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/00/Cursedconut_Roots.png" }
+    },
+    {
+      "name": "Tombstone Eye",
+      "id": 321,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/90/Tombstone_Eye.png" }
+    },
+    {
+      "name": "Tombstone Fragments",
+      "id": 900,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f7/Tombstone_Fragments.png" }
+    },
+    {
+      "name": "Spectral Fabric",
+      "id": 638,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f0/Spectral_Fabric.png" }
+    },
+    {
+      "name": "Spectral Residus",
+      "id": 744,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "d/d6/Spectral-Residus1.png" }
+    },
+    {
+      "name": "Bloodslime Residus",
+      "id": 738,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
+      ],
+      "image": { "fandom_wiki_image_path": "e/e1/Itm_material_slime_residus.png" }
+    },
+    {
+      "name": "Slime Covered Bone",
+      "id": 902,
+      "category": "Material",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/4d/Itm_material_slime_bone.png" }
+    },
+    {
+      "name": "Broken Scythe",
+      "id": 742,
+      "category": "Material",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/a3/Broken_Scythe.png" }
+    },
+    {
+      "name": "Tattered Hat",
+      "id": 903,
+      "category": "Material",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/6c/Itm_material_scarecrow_hat.png" }
+    },
+    {
+      "name": "Blood Pearls",
+      "id": 138,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "fandom_wiki_image_path": "1/1b/Blood_Pearls.png" }
+    },
+    {
+      "name": "Bloody Cookies",
+      "id": 143,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/b6/Bloody_Cookies.png" }
+    },
+    {
+      "name": "Coco Cookies",
+      "id": 165,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 1, "id": 166 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/fe/Coco_Cookies.png" }
+    },
+    {
+      "name": "Eldritch Croissant",
+      "id": 192,
+      "category": "Consumables",
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Liquid Aether", "quantity": 4, "id": 193 },
+          { "name": "Unstable Essence", "quantity": 1, "id": 194 },
+          { "name": "Wheat Flour", "quantity": 8, "id": 125 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/73/Eldritch_Croissant.png" }
+    },
+    {
+      "name": "Ghostly Cookies",
+      "id": 220,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f5/Ghostly_Cookies.png" }
+    },
+    {
+      "name": "Jackie's",
+      "id": 237,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/9e/Jackie%27s.png" }
+    },
+    {
+      "name": "Koko Jinx",
+      "id": 247,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 1, "id": 166 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "d/d4/Koko_Jinx.png" }
+    },
+    {
+      "name": "Pumpkin Bread",
+      "id": 308,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Pumpkin", "quantity": 2, "id": 238 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/7b/Pumpkin_Bread.png" }
+    },
+    {
+      "name": "Pumpkin Cookies",
+      "id": 309,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "c/c5/Pumpkin_Cookies.png" }
+    },
+    {
+      "name": "Sweet O' Wisp",
+      "id": 340,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/b7/Sweet_o%25_27_Wisp.png" }
+    },
+    {
+      "name": "Hexed Boots",
+      "id": 503,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
+          { "name": "Monster Fangs", "quantity": 1, "id": 425 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/a5/Hexed_Boots.png" }
+    },
+    {
+      "name": "Hexed Garb",
+      "id": 504,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 1, "id": 166 },
+          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/0c/Hexed_Garb.png" }
+    },
+    {
+      "name": "Hexed Hat",
+      "id": 505,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
+          { "name": "Leather", "quantity": 1, "id": 369 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/2c/Hexed_Hat.png" }
+    },
+    {
+      "name": "Hexed Mace",
+      "id": 506,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 1, "id": 166 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/af/Hexed_Mace.png" }
+    },
+    {
+      "name": "Corrupted Diary",
+      "id": 626,
+      "category": "Material",
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 20, "id": 136 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 },
+          { "name": "Oil", "quantity": 5, "id": 172 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/69/Corrupted_Diary.png" }
+    },
+    {
+      "name": "Bloody Berry",
+      "id": 140,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 3, "id": 139 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "fandom_wiki_image_path": "d/d8/Itm_consum_cokctail_berry.png" }
+    },
+    {
+      "name": "Cyclolipops Chill Grape",
+      "id": 180,
+      "category": "Consumables",
+      "license_amount": 450,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectogems", "quantity": 1, "id": 181 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/4e/Cyclolipops_Chill_Grape.png" }
+    },
+    {
+      "name": "Dread Kokolada",
+      "id": 189,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 3, "id": 166 },
+          { "name": "Cursedconut Leaves", "quantity": 3, "id": 190 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f5/Dread_Kokolada.png" }
+    },
+    {
+      "name": "Mad Screecher Spectral",
+      "id": 267,
+      "category": "Consumables",
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Aetheric Water", "quantity": 2, "id": 132 },
+          { "name": "Coast Lemons", "quantity": 1, "id": 153 },
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/6b/Itm_consum_soda_spectral.png" }
+    },
+    {
+      "name": "Essence of Undeath",
+      "id": 268,
+      "category": "Material",
+      "license_amount": 1000,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectogems", "quantity": 20, "id": 181 },
+          { "name": "Ectoplasm", "quantity": 6, "id": 142 },
+          { "name": "Undead Bones", "quantity": 6, "id": 436 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
+      ],
+      "image": { "fandom_wiki_image_path": "e/e1/Essence_of_Undeath.png" }
+    },
+    {
+      "name": "Pumpkin Pie",
+      "id": 310,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }],
+      "image": { "fandom_wiki_image_path": "c/ca/Itm_consum_pie_pumpkin.png" }
+    },
+    {
+      "name": "Spectral Fairy",
+      "id": 320,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectogems", "quantity": 3, "id": 181 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 },
+          { "name": "Tombstone Eye", "quantity": 3, "id": 321 }
+        ],
+        "craft_amount": 3
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/7a/Itm_consum_cocktail_spectral.png" }
+    },
+    {
+      "name": "Black Catula Mask",
+      "id": 408,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Black Paint", "quantity": 1, "id": 409 },
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/59/Itm_gear_mask_catula_black.png" }
+    },
+    {
+      "name": "Blood Scythe",
+      "id": 411,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 },
+          { "name": "Scythe", "quantity": 1, "id": 412 },
+          { "name": "Standard Catalyst", "quantity": 1, "id": 111 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/b7/Itm_gear_scythe_blood.png" }
+    },
+    {
+      "name": "Scythe",
+      "id": 412,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Everwood", "quantity": 5, "id": 325 },
+          { "name": "Iron", "quantity": 5, "id": 157 },
+          { "name": "Whetstone", "quantity": 1, "id": 354 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/44/Itm_gear_scythe.png" }
+    },
+    {
+      "name": "Bloodslime Mask",
+      "id": 413,
+      "category": "Gear",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Earn 1xp" }],
+      "image": { "fandom_wiki_image_path": "e/ee/Itm_hal_mask_bloodslime.png" }
+    },
+    {
+      "name": "Bone Scythe",
+      "id": 435,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Scythe", "quantity": 1, "id": 412 },
+          { "name": "Standard Catalyst", "quantity": 1, "id": 111 },
+          { "name": "Undead Bones", "quantity": 4, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/6a/Itm_gear_scythe_bone.png" }
+    },
+    {
+      "name": "Cursedconut Mask",
+      "id": 452,
+      "category": "Gear",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 },
+          { "name": "Cursedconut", "quantity": 1, "id": 166 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_hal_mask_mummy.png" }
+    },
+    {
+      "name": "Ducky Mask",
+      "id": 453,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/30/Itm_gear_mask_ducky.png" }
+    },
+    {
+      "name": "Gravewarden Amulet",
+      "id": 489,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Undead Bones", "quantity": 3, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f8/Itm_gear_amulet_gravewarden.png" }
+    },
+    {
+      "name": "Gravewarden Armor",
+      "id": 490,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Iron", "quantity": 5, "id": 157 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/40/Itm_gear_armor_gravewarden.png" }
+    },
+    {
+      "name": "Gravewarden Gauntlets",
+      "id": 491,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Hexed Linen", "quantity": 2, "id": 492 },
+          { "name": "Iron", "quantity": 4, "id": 157 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/7c/Itm_gear_gauntlet_gravewarden.png" }
+    },
+    {
+      "name": "Gravewarden Greaves",
+      "id": 493,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Hexed Linen", "quantity": 2, "id": 492 },
+          { "name": "Iron", "quantity": 4, "id": 157 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/26/Itm_gear_legs_gravewarden.png" }
+    },
+    {
+      "name": "Gravewarden Scythe",
+      "id": 494,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 3, "id": 268 },
+          { "name": "Scythe", "quantity": 1, "id": 412 },
+          { "name": "Superior Catalyst", "quantity": 1, "id": 106 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/38/Itm_gear_scythe_spectral.png" }
+    },
+    {
+      "name": "Gravewarden Shield",
+      "id": 495,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Hexed Linen", "quantity": 1, "id": 492 },
+          { "name": "Iron", "quantity": 5, "id": 157 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "1/16/Itm_gear_shield_gravewarden.png" }
+    },
+    {
+      "name": "Gravewarden Veil",
+      "id": 496,
+      "category": "Gear",
+      "license_amount": 400,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/21/Itm_gear_head_gravewarden.png" }
+    },
+    {
+      "name": "Jelly Mask",
+      "id": 510,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 },
+          { "name": "Green Paint", "quantity": 1, "id": 228 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/3c/Itm_gear_mask_jelly.png" }
+    },
+    {
+      "name": "Mummy Mask",
+      "id": 530,
+      "category": "Gear",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Hexed Linen", "quantity": 1, "id": 492 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Complete 25 journeys" }],
+      "image": { "fandom_wiki_image_path": "8/81/Itm_hal_mask_mummy.png" }
+    },
+    {
+      "name": "Pumpkin Mask",
+      "id": 543,
+      "category": "Gear",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 50 Pumpkins" }],
+      "image": { "fandom_wiki_image_path": "4/4b/Itm_hal_mask_pumpkin.png" }
+    },
+    {
+      "name": "Screecher Mask",
+      "id": 551,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 },
+          { "name": "White Paint", "quantity": 1, "id": 319 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ],
+      "image": { "fandom_wiki_image_path": "e/ee/Itm_gear_mask_screecher.png" }
+    },
+    {
+      "name": "Skull Mask",
+      "id": 565,
+      "category": "Gear",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 120 Essense of Undeath" }],
+      "image": { "fandom_wiki_image_path": "7/7f/Itm_hal_mask_skull.png" }
+    },
+    {
+      "name": "Spectral Blade",
+      "id": 577,
+      "category": "Gear",
+      "license_amount": 300,
+      "recipe": {
+        "ingredient": [
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Iron Sword", "quantity": 1, "id": 392 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/44/Spectral_Blade.png" }
+    },
+    {
+      "name": "White Catula Mask",
+      "id": 603,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 },
+          { "name": "White Paint", "quantity": 1, "id": 319 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ],
+      "image": { "fandom_wiki_image_path": "e/e0/Itm_gear_mask_white_catula.png" }
+    },
+    {
+      "name": "Zombie Mask",
+      "id": 609,
+      "category": "Gear",
+      "license_amount": 200,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 1, "id": 136 },
+          { "name": "Bowstring", "quantity": 1, "id": 151 },
+          { "name": "Undead Bones", "quantity": 1, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/57/Itm_hal_mask_zombie.png" }
+    },
+    {
+      "name": "Figurine: Animated Pumpkin",
+      "id": 630,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Undead Bones", "quantity": 2, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Pumpkin Mimic" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Pumpkin Mimic" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/9b/Fig_pumpkin.png" }
+    },
+    {
+      "name": "Figurine: Animated Tombstone",
+      "id": 631,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/25/Fig_tombstone.png" }
+    },
+    {
+      "name": "Figurine: Cursedconut",
+      "id": 634,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/82/Itm_mat_figurine_cursedconut.png" }
+    },
+    {
+      "name": "Figurine: Cursedconut Nut",
+      "id": 635,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f3/Fig_cursedconut_nut.png" }
+    },
+    {
+      "name": "Figurine: Diseased Corpse",
+      "id": 636,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Undead Bones", "quantity": 2, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Diseased Corpse" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Diseased Corpse" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/bb/Fig_zombie_green.png" }
+    },
+    {
+      "name": "Figurine: Dread Wisp",
+      "id": 637,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Spectral Fabric", "quantity": 2, "id": 638 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/9c/Fig_wisp_blue.png" }
+    },
+    {
+      "name": "Figurine: Scarecrow",
+      "id": 649,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Undead Bones", "quantity": 2, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f6/Itm_mat_figurine_scarecrow.png" }
+    },
+    {
+      "name": "Figurine: Soulfire Tombstone",
+      "id": 650,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/fa/Fig_tombstone_soulfire.png" }
+    },
+    {
+      "name": "Figurine: Spiky Bloodslime",
+      "id": 651,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/98/Fig_bloodslime_spiky.png" }
+    },
+    {
+      "name": "Figurine: Will O' Wisp",
+      "id": 653,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Spectral Fabric", "quantity": 2, "id": 638 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "c/c8/Itm_mat_figurine_wisp.png" }
+    },
+    {
+      "name": "Figurine: Zombie",
+      "id": 654,
+      "category": "Material",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Undead Bones", "quantity": 2, "id": 436 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/2b/Itm_mat_figurine_zombie.png" }
+    },
+    {
+      "name": "Darkbloom Tunic",
+      "id": 739,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 1, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "f/fa/Darkbloom_Tunic.png" }
+    },
+    {
+      "name": "Darkbloom Robe",
+      "id": 741,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Hexed Linen", "quantity": 4, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "5/59/Darkbloom_Robe.png" }
+    },
+    {
+      "name": "Darkbloom Anklet",
+      "id": 743,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "e/ef/Darkbloom_Anklet.png" }
+    },
+    {
+      "name": "Darkbloom Necklace",
+      "id": 745,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/bd/Darkbloom_Necklace.png" }
+    },
+    {
+      "name": "Darkbloom Headband",
+      "id": 746,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 1, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/21/Darkbloom_Headband.png" }
+    },
+    {
+      "name": "Darkbloom Mask",
+      "id": 747,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Roots", "quantity": 2, "id": 748 },
+          { "name": "Hexed Linen", "quantity": 2, "id": 492 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "d/d0/Darkbloom_Mask.png" }
+    },
+    {
+      "name": "Cultist Tunic",
+      "id": 749,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "0/04/Itm_cult_top.png" }
+    },
+    {
+      "name": "Cultist Belt",
+      "id": 750,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 2, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "f/f1/Itm_cult_belt.png" }
+    },
+    {
+      "name": "Cultist Pants",
+      "id": 751,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 4, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "3/36/Itm_cult_pant.png" }
+    },
+    {
+      "name": "Cultist Headpiece",
+      "id": 752,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Hexed Linen", "quantity": 3, "id": 492 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_cult_hat.png" }
+    },
+    {
+      "name": "Darkbloom Chakram",
+      "id": 753,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 4, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/8f/Darkbloom_Chakram.png" }
+    },
+    {
+      "name": "Darkbloom Kama",
+      "id": 754,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 4, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/79/Itm_cult_scikle.png" }
+    },
+    {
+      "name": "Darkbloom Sword",
+      "id": 755,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 4, "id": 742 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" }
+      ],
+      "image": { "fandom_wiki_image_path": "d/d8/Darkbloom_Sword.png" }
+    },
+    {
+      "name": "Pumpkin Donut",
+      "id": 756,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 1, "id": 125 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/56/Itm_donut_pumpkin.png" }
+    },
+    {
+      "name": "Bloodberry Cheesecake",
+      "id": 757,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f8/Itm_cheesacake_bloodberry.png" }
+    },
+    {
+      "name": "Cursedconut Cheesecake",
+      "id": 758,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 1, "id": 166 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/fb/Itm_cheesacake_coco.png" }
+    },
+    {
+      "name": "Pumpkin Cheesecake",
+      "id": 759,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "1/1b/Itm_cheesacake_pumpkin.png" }
+    },
+    {
+      "name": "Spectral Cheesecake",
+      "id": 760,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/42/Spectral_Cheesecake.png" }
+    },
+    {
+      "name": "Bloodberry Flan",
+      "id": 761,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 1, "id": 139 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/34/Itm_pastry_bloodberry.png" }
+    },
+    {
+      "name": "Spectral Flan",
+      "id": 762,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f9/Itm_pastry_spectral.png" }
+    },
+    {
+      "name": "Pumkin Soup",
+      "id": 763,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "e/e6/Itm_soup_pumpkin.png" }
+    },
+    {
+      "name": "Pumpkin Flan",
+      "id": 764,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/be/Itm_pastry_pumpkin.png" }
+    },
+    {
+      "name": "Monster Fizz Original",
+      "id": 765,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 100 items of the Masks category!" }
+      ]
+    },
+    {
+      "name": "Bloodberry Ice Cream",
+      "id": 766,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 },
+          { "name": "Bloodslime Residus", "quantity": 4, "id": 738 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150 items of the Drinks category!" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ]
+    },
+    {
+      "name": "Spectral Choco Ice Cream",
+      "id": 767,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Chocolate", "quantity": 4, "id": 161 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        {
+          "type": "Task",
+          "kind": "recipe",
+          "fragment": false,
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Sell 175 items of the Spectral category!"
+        },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+      ]
+    },
+    {
+      "name": "Cultist Brochures",
+      "id": 768,
+      "category": "Consumables",
+      "license_amount": 250,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 5, "id": 136 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 Essence of Undeath" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ]
+    },
+    {
+      "name": "Blue Haze",
+      "id": 769,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 80 items of the Food category!" }
+      ]
+    },
+    {
+      "name": "Cursed Pumpkin Ice Cream",
+      "id": 770,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut", "quantity": 4, "id": 166 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Pumpkin", "quantity": 4, "id": 238 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Harvest 50 Pumpkin" }]
+    },
+    {
+      "name": "Spirit Smash",
+      "id": 771,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 80 items of the Cursed category!" }
+      ]
+    },
+    {
+      "name": "Cult Torch",
+      "id": 772,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Log", "quantity": 1, "id": 773 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Tombstone Fragments", "quantity": 1, "id": 900 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150x of the Right category" }
+      ]
+    },
+    {
+      "name": "Headless Spring",
+      "id": 774,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bana Fruits", "quantity": 2, "id": 124 },
+          { "name": "Bloodberry Slime", "quantity": 2, "id": 139 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+    },
+    {
+      "name": "Spectral Noodle",
+      "id": 775,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Fresh Noodles", "quantity": 1, "id": 217 },
+          { "name": "Spectral Residus", "quantity": 1, "id": 744 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+    },
+    {
+      "name": "Spectral Bourguignon",
+      "id": 776,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Meat", "quantity": 2, "id": 177 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Potatoes", "quantity": 2, "id": 113 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+    },
+    {
+      "name": "Spectral Pumpkin",
+      "id": 322,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectogems", "quantity": 1, "id": 181 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Pumpkin", "quantity": 1, "id": 238 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/05/Spectral_Pumpkin.png" }
+    },
+    {
+      "name": "Spectral Pumpkin Pie",
+      "id": 323,
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Spectral Pumpkin", "quantity": 1, "id": 322 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Pumpkin" }],
+      "image": { "fandom_wiki_image_path": "b/b0/Itm_consum_pumpkin_pie.png" }
+    },
+    {
+      "name": "Spectral Pumpkin Soup",
+      "id": 777,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Spectral Pumpkin", "quantity": 1, "id": 322 },
+          { "name": "Spices", "quantity": 1, "id": 159 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+    },
+    {
+      "name": "Spectral Quindim",
+      "id": 778,
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 },
+          { "name": "Spectral Residus", "quantity": 1, "id": 744 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+    },
+    {
+      "name": "Ghostly Mary",
+      "id": 779,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+    },
+    {
+      "name": "Monster Fizz Bloodberry",
+      "id": 780,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 120 items of the Event category!" }
+      ]
+    },
+    {
+      "name": "Cursed Bana Ice Cream",
+      "id": 781,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bana Fruits", "quantity": 4, "id": 124 },
+          { "name": "Cursedconut", "quantity": 4, "id": 166 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Complete 25 Journeys" }]
+    },
+    {
+      "name": "Shadow Libre",
+      "id": 782,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Tombstone Eye", "quantity": 2, "id": 321 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 200 items of the Cursed category!" }
+      ]
+    },
+    {
+      "name": "Monster Fizz Pumpkin",
+      "id": 783,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Pumpkin", "quantity": 2, "id": 238 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150 items of the Cookies category!" }
+      ]
+    },
+    {
+      "name": "Cult Barbecue",
+      "id": 784,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Essence of Undeath", "quantity": 2, "id": 268 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
+    },
+    {
+      "name": "Grilling Tools",
+      "id": 785,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Cursedconut Log", "quantity": 1, "id": 773 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "Tombstone Fragments", "quantity": 1, "id": 900 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
+    },
+    {
+      "name": "Blender",
+      "id": 786,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Databoard", "quantity": 1, "id": 529 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Mechanical Parts", "quantity": 1, "id": 527 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
+    },
+    {
+      "name": "Cult Censer",
+      "id": 787,
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Broken Scythe", "quantity": 2, "id": 742 },
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Tombstone Fragments", "quantity": 2, "id": 900 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
+    },
+    {
+      "name": "Tombstone Blues",
+      "id": 788,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 of the 'Right' category!" }
+      ]
+    },
+    {
+      "name": "Monster Fizz Spectral",
+      "id": 789,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 100 items of the Masks category!" }
+      ]
+    },
+    {
+      "name": "Monster Mucus",
+      "id": 790,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }]
+    },
+    {
+      "name": "Bubbling Sunset",
+      "id": 791,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Pumpkin", "quantity": 2, "id": 238 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumkin Carving" }]
+    },
+    {
+      "name": "Black Bayou",
+      "id": 792,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [
+        {
+          "type": "Task Chest",
+          "kind": "recipe",
+          "fragment": false,
+          "subtype": "Phantom Isle (part 3)",
+          "name": "Sell 125 items of the Masks category!"
+        }
+      ]
+    },
+    {
+      "name": "Smash Fizz",
+      "id": 793,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bloodberry Slime", "quantity": 2, "id": 139 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }]
+    },
+    {
+      "name": "Koko Loco",
+      "id": 794,
+      "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Koko", "quantity": 2, "id": 150 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }]
+    },
+    {
+      "name": "Pumpkin",
+      "id": 1198,
+      "category": "Plant",
+      "image": { "fandom_wiki_image_path": "c/c9/Pumpkin_%28Seed%29.png" },
+      "source": [
+        { "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" },
+        { "type": "Task Chest", "kind": "unlock", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ]
+    },
+    {
+      "name": "Cursedconut Flan",
+      "id": 1219,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Cursedconut", "quantity": 2, "id": 166 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 500,
+      "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Sell 100 Cursedconuts" }],
+      "image": { "fandom_wiki_image_path": "f/f0/Itm_consum_flan_cursedconut.png" }
+    },
+    {
+      "name": "Cursedconut Flan",
+      "id": 1220,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Fresh Milk", "quantity": 1, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Sunsugar", "quantity": 1, "id": 122 },
+          { "name": "Cursedconut", "quantity": 2, "id": 166 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 500,
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/37/Itm_pastry_coco.png" }
+    },
+    {
+      "name": "Skin: Ghostly Jelly",
+      "id": 1222,
+      "category": "Cosmetic",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }],
+      "image": { "local_path": "/items/phantom/skin_ghostly.png" }
+    },
+    {
+      "name": "Skin: Skelly Jelly",
+      "id": 1223,
+      "category": "Cosmetic",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }],
+      "image": { "local_path": "/items/phantom/skin_skelly.png" }
+    },
+    {
+      "name": "Skin: Floating Eye",
+      "id": 1232,
+      "category": "Cosmetic",
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
+      "image": { "local_path": "/items/phantom/skin_floating_eye.png" }
+    },
+    {
+      "name": "Full Skin: Haunted Jelly",
+      "id": 1224,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "local_path": "/items/phantom/skin_spectral.png" }
+    },
+    {
+      "name": "Head: Cursedconut",
+      "id": 1225,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_cursedconut_mask.png" }
+    },
+    {
+      "name": "Head: Zombie",
+      "id": 1226,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_zombie_mask.png" }
+    },
+    {
+      "name": "Head: Bloodberry",
+      "id": 1227,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_bloodberry_mask.png" }
+    },
+    {
+      "name": "Head: Mummy",
+      "id": 1228,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_mummy_mask.png" }
+    },
+    {
+      "name": "Head: Skull",
+      "id": 1229,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_skull_mask.png" }
+    },
+    {
+      "name": "Head: Pumpkin",
+      "id": 1230,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "All enemies" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "All enemies" }
+      ],
+      "image": { "local_path": "/items/phantom/cosmetic_pumpkin_mask.png" }
+    },
+    {
+      "name": "Full Skin: Pumpkin Overlord",
+      "id": 1231,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Event Market", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)" },
+        { "type": "Event Market", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)" }
+      ],
+      "image": { "local_path": "/items/phantom/skin_pumpkin.png" }
+    }
+  ]
+}

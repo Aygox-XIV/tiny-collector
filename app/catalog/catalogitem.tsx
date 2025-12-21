@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router';
 import { useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
+import { ItemName } from '../common/itemname';
 import { ProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database/database';
@@ -22,6 +23,8 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
         collectionStateClass = ' missing-source';
     } else if (
         (collectedState.status.haveRecipe && collectedState.status.licensed) ||
+        (collectedState.status.licensed && !item.recipe) ||
+        (collectedState.status.haveRecipe && !item.license_amount) ||
         collectedState.status.collected
     ) {
         collectionStateClass = ' complete';
@@ -38,7 +41,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
         <NavLink to={detailLink}>
             {({ isActive }) => (
                 <div className={'catalog-item' + (isActive ? ' active' : '') + collectionStateClass}>
-                    <NameTag name={item.name} />
+                    <ItemName item={item} />
                     <Icon src={item.image} />
                     <StatusIcons id={id} />
                     {item.license_amount && (

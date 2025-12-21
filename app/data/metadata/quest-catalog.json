@@ -1,0 +1,53 @@
+{
+  "catalogs": [
+    {
+      "key": "catalogSpec",
+      "name": "Autolog (Quest)",
+      "icon": { "local_path": "/catalog_quest.png" },
+      "categories": ["Quest"],
+      "items": [
+        ["830", "Attuned Rocks"],
+        ["831", "Rich Soil"],
+        ["832", "Aether Seed"],
+        ["833", "Aether Infused Dagger"],
+        ["822", "Arcane Catalyst"],
+        ["834", "Prime Mushroom"],
+        ["835", "Sharp Organic Blade"],
+        ["836", "Almost Fresh Tendon"],
+        ["837", "Introduction to Bakeromancy"],
+        ["838", "Mysterious Note"],
+        ["839", "High Quality Moonfish"],
+        ["1172", "Jelly's Special"],
+        ["840", "Gustave's Bourguignon"],
+        ["841", "Clockwork Jelly"],
+        ["842", "Intact Bakeromancy Pages"],
+        ["843", "Questionable Cult Brochure"],
+        ["844", "Oversized Note"],
+        ["845", "Damaged Bakeromancy Grimoire"],
+        ["846", "Foul Journal"],
+        ["847", "Foul Journal Page"],
+        ["848", "Outpost Plan: Trading"],
+        ["849", "Outpost Plan: Coastal"],
+        ["850", "Outpost Plan: Naturalist"],
+        ["851", "Observations Report"],
+        ["852", "Outpost Plan: Archeology"],
+        ["853", "Glowing Crystal"],
+        ["854", "Survey Report"],
+        ["855", "Curious Illustrated Page"],
+        ["856", "Rulebook in Shambles"],
+        ["857", "Bag O'Relics"],
+        ["858", "Sculptor's Journal"],
+        ["859", "Sun Emblem"],
+        ["860", "Wing Shaped Fragment"],
+        ["861", "Strange Loaf"],
+        ["862", "Strange Looking Plants"],
+        ["1311", "Condensed Time"],
+        ["1167", "Where's My Kitty?"],
+        ["1168", "Where's My Kitty?"],
+        ["1169", "Where's My Kitty?"],
+        ["1170", "Where's My Kitty?"],
+        ["1171", "Where's My Kitty?"]
+      ]
+    }
+  ]
+}

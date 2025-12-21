@@ -4,39 +4,56 @@
       "key": "catalog",
       "name": "Autolog",
       "icon": { "local_path": "/autolog.png" },
-      "items": ["-1", "1", "2", "3", "4", "5", "6", "7", "8", "19", "20", "21", "22", "23", "24"]
+      "items": [
+        ["-1"],
+        ["1", "Fake Rubber Ducky"],
+        ["2", "Fire Shield"],
+        ["3", "Iron Shield"],
+        ["4", "Fire Extract"],
+        ["5", "Standard Catalyst"],
+        ["6", "Slime Extract"],
+        ["7", "Anthracite"],
+        ["8", "Summer Glory"],
+        ["-1"],
+        ["19", "Spectral Bourguignon"],
+        ["20", "Drakegull Meat"],
+        ["21", "Potatoes"],
+        ["22", "Ectoplasm"],
+        ["23", "Tombstone Eye"],
+        ["24", "Figurine: Animated Tombstone"]
+      ]
     },
     {
       "key": "catalogSpec",
       "name": "Autolog (Quest)",
       "icon": { "local_path": "/catalog_quest.png" },
       "categories": ["Quest"],
-      "items": ["9", "2", "1"]
+      "items": [["9"], ["2"], ["1"]]
     },
     {
       "key": "sunFes",
       "name": "Sun Festival",
       "icon": { "local_path": "/catalog_sf.png" },
       "categories": ["Material", "Consumables", "Gear", "Plant", "Decor"],
-      "items": ["6", "7", "8", "16"]
+      "items": [["6"], ["7"], ["8"], ["16"]]
     },
     {
       "key": "floodEx",
       "name": "Flooded Expedition",
       "icon": { "local_path": "/catalog_fe.png" },
-      "items": ["3", "4", "5"]
+      "items": [["3"], ["4"], ["5"]]
     },
     {
       "key": "phantom",
       "name": "Phantom Isle",
       "icon": { "local_path": "/catalog_phantom.png" },
-      "items": ["19", "22", "23", "24"]
+      "items": [["19"], ["22"], ["23"], ["24"]]
     },
     {
       "key": "evercold",
       "name": "Evercold Isle",
       "icon": { "local_path": "/catalog_evercold.png" },
-      "items": ["13", "14", "15", "16"]
+      "items": [["13"], ["14"], ["15"], ["16"]]
     }
   ]
 }

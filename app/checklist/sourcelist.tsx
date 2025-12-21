@@ -4,7 +4,7 @@ import { EventIcon } from '../common/eventicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { dropIsCollected, sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
-import { getEventCategory, getEventType, SourceType } from '../database/sources';
+import { getEventCategory, getEventType, sourceSortFn, SourceType } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
 
@@ -62,13 +62,14 @@ interface SourceTypeEntryProps {
 }
 
 const ChecklistSourceTypeEntry: React.FC<SourceTypeEntryProps> = ({ type, sources }) => {
+    const sortedSources = sources.sort((a, b) => sourceSortFn(a.source, b.source));
     return (
         <div className="checklist-type-container">
             <div className="type-label">
                 <SourceTypeIcon type={type} /> {type}
             </div>
             <div className="checklist-type-contents">
-                {sources.map((s) => {
+                {sortedSources.map((s) => {
                     return <ChecklistSourceEntry key={sourceId(s.source)} details={s} />;
                 })}
             </div>

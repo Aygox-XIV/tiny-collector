@@ -3,6 +3,7 @@ import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
 import { changeStatus, useCollectedItem } from '../collection';
 import { FragmentIcon } from '../common/fragmenticon';
+import { ItemName } from '../common/itemname';
 import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { CollectableStatusIcon, LicenseStatusIcon, RecipeStatusIcon } from '../common/statusicons';
@@ -15,7 +16,7 @@ import {
     type ImageRef,
     type SourceDetails,
 } from '../database/database';
-import { EventType, SourceType, type Source } from '../database/sources';
+import { getEventType, SourceType, type Source } from '../database/sources';
 import { useAppDispatch } from '../store';
 import type { Route } from './+types/source-view';
 
@@ -79,11 +80,11 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
         <div className={'droplist-item ' + collectionClass}>
             <KindIcon kind={drop.kind} />
             <FragmentIcon fragment={drop.fragment} />
-            {item.name}
+            <ItemName item={item} />
             {drop.kind == 'recipe' && item.recipe && (
                 <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />
             )}
-            {drop.kind == 'item' && !isCollectable(item) && (
+            {drop.kind == 'item' && item.license_amount && (
                 <LicenseStatusIcon selected={collectedState.status.licensed} onClick={toggleLicense} />
             )}
             {isCollectable(item) && (
@@ -222,7 +223,9 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
 };
 
 const EventSubtypeDetails: React.FC<SourceProps> = ({ source }) => {
-    if (source.subtype as EventType) {
+    if (source.subtype == 'Mission') {
+        return <div>Only available during the "{source.mission_name}" mission.</div>;
+    } else if (getEventType(source)) {
         // TODO: tooltip, some highlighting?
         return <div>Only availble during the {source.subtype} event</div>;
     } else {

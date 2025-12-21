@@ -10,3 +10,7 @@ overrides:
       - '*.tsx'
     options:
       tabWidth: 4
+  - files:
+      - '*.json'
+    options:
+      printWidth: 150

@@ -1,19 +1,75 @@
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 import type { CollectedItem } from '../collection';
-import rawCatalogData from '../data/sample-catalogs.json';
-import rawItemData from '../data/sample-data.json';
-import rawSourceImageData from '../data/sample-source-images.json';
+import itemFileEvercold from '../data/items/evercold-items.json';
+import itemFileFlooded from '../data/items/flooded-expedition-items.json';
+import itemFileMain1 from '../data/items/main-items-1.json';
+import itemFileMain2 from '../data/items/main-items-2.json';
+import itemFilePhantom from '../data/items/phantom-items.json';
+import itemFileQuest from '../data/items/quest-items.json';
+import itemFileSun from '../data/items/sun-festival-items.json';
+import catalogFileEvercold from '../data/metadata/evercold-catalog.json';
+import catalogFileFlooded from '../data/metadata/flooded-expedition-catalog.json';
+import catalogFileMain from '../data/metadata/main-catalog.json';
+import sourceMetaFileMain from '../data/metadata/main-source-metadata.json';
+import catalogFilePhantom from '../data/metadata/phantom-catalog.json';
+import catalogFileQuest from '../data/metadata/quest-catalog.json';
+import catalogFileSun from '../data/metadata/sun-festival-catalog.json';
+import sourceMetaFileWeekly from '../data/metadata/weekly-event-source-metadata.json';
+import sourceMetaFileYearly from '../data/metadata/yearly-event-source-metadata.json';
+import sampleCatalogs from '../data/samples/sample-catalogs.json';
+import sampleItems from '../data/samples/sample-data.json';
+import sampleMetadata from '../data/samples/sample-source-images.json';
 import type { RootState } from '../store';
-import type { Source, SourceType } from './sources';
+import type { DropKind, Source, SourceType } from './sources';
 
 /// raw data
 
-export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' | 'Plant';
+export interface FileCollection {
+    readonly itemFiles: [ItemData, string][];
+    readonly catalogFiles: [CatalogList, string][];
+    readonly sourceMetadata: [SourceImageList, string][];
+}
+
+const SAMPLE_FILES: FileCollection = {
+    itemFiles: [[sampleItems as ItemData, 'sample-data.json']],
+    catalogFiles: [[sampleCatalogs as CatalogList, 'sample-catalogs.json']],
+    sourceMetadata: [[sampleMetadata as SourceImageList, 'sample-source-images.json']],
+};
+
+// It would have been nice if this could be a config somewhere,
+// but static imports yield the fewest DB reloads, and this shouldn't change much.
+// (maybe a new items file once in a while if a new patch is large, or a new event is added)
+export const REAL_FILES: FileCollection = {
+    itemFiles: [
+        [itemFileEvercold as ItemData, 'evercold-items.json'],
+        [itemFileFlooded as ItemData, 'flooded-expedition-items.json'],
+        [itemFileMain1 as ItemData, 'main-items-1.json'],
+        [itemFileMain2 as ItemData, 'main-items-2.json'],
+        [itemFilePhantom as ItemData, 'phantom-items.json'],
+        [itemFileQuest as ItemData, 'quest-items.json'],
+        [itemFileSun as ItemData, 'sun-festival-items.json'],
+    ],
+    catalogFiles: [
+        [catalogFileMain as CatalogList, 'evercold-catalog.json'],
+        [catalogFileQuest as CatalogList, 'quest-catalog.json'],
+        [catalogFileSun as CatalogList, 'sun-festival-catalog.json'],
+        [catalogFileFlooded as CatalogList, 'flooded-expedition-catalog.json'],
+        [catalogFilePhantom as CatalogList, 'phantom-catalog.json'],
+        [catalogFileEvercold as CatalogList, 'evercold-catalog.json'],
+    ],
+    sourceMetadata: [
+        [sourceMetaFileMain as SourceImageList, 'main-source-metadata.json'],
+        [sourceMetaFileWeekly as SourceImageList, 'weekly-event-source-metadata.json'],
+        [sourceMetaFileYearly as SourceImageList, 'yearly-event-source-metadata.json'],
+    ],
+};
+
+export type Category = 'Gear' | 'Consumables' | 'Material' | 'Decor' | 'Quest' | 'Plant' | 'Cosmetic';
 
 export interface IdentifiableEntity {
     readonly name: string;
-    // maintained/enforced by conversion script
+    // Real data starts at 100.
     readonly id: number;
     readonly image?: ImageRef;
     readonly source?: Source[];
@@ -30,7 +86,6 @@ export interface ImageRef {
 
 export interface ItemData {
     readonly items: Item[];
-    readonly alt_recipes: AltRecipe[];
 }
 
 export interface Item extends IdentifiableEntity {
@@ -61,8 +116,8 @@ export interface CatalogList {
 export enum CatalogType {
     FullCatalog = 'catalog',
     QuestCatalog = 'catalogSpec',
-    FloodedCatalog = 'floodEx',
     SunCatalog = 'sunFes',
+    FloodedCatalog = 'floodEx',
     PhantomCatalog = 'phantom',
     EvercoldCatalog = 'evercold',
 }
@@ -74,9 +129,8 @@ export interface CatalogDef {
     readonly icon: ImageRef;
     // Which item categories are present
     readonly categories?: Category[];
-    // IDs only. TODO: name+id for manual management?
-    // TODO: allow "empty" slots to better simulate autolog positioning
-    readonly items: string[];
+    // [ID, optional name]
+    readonly items: [string, string?][];
     // Populated after loading. ID -> true to simulate a serializable Set.
     readonly itemSet?: Record<string, boolean>;
 }
@@ -108,17 +162,17 @@ export interface SourceDetails {
 export interface DropDetail {
     readonly itemId: string;
     readonly fragment: boolean;
-    readonly kind: 'item' | 'recipe';
+    readonly kind: DropKind;
 }
 
 export interface Database {
     // Keyed by id
     readonly items: ItemDB;
-    // Keyed by name
-    readonly alt_recipes: Record<string, AltRecipe>;
     readonly catalogs: Record<CatalogType, CatalogDef>;
     // Keyed by synthetic source ID (type+name)
     readonly sources: Record<string, SourceDetails>;
+    // To support exporting only new items
+    readonly maxIdOnFirstLoad: number;
 }
 
 // Whether a single 'collected' state should be tracked instead of recipe+license
@@ -126,14 +180,13 @@ export function isCollectable(item: Item) {
     switch (item.category) {
         case 'Decor':
         case 'Quest':
+        case 'Plant':
+        case 'Cosmetic':
             return true;
         case 'Consumables':
         case 'Gear':
         case 'Material':
-            return !item.license_amount;
-        case 'Plant':
-            // TODO: figure out how to represent now-this-can-be-bought-from-Lily?
-            return false;
+            return !item.license_amount && !item.recipe;
     }
 }
 
@@ -148,84 +201,136 @@ export const dbSlice = createSlice({
             console.log('updating sources to have ' + Object.keys(newSources).length + ' entries.');
             state.sources = newSources;
         },
+        setDbItemsAndCatalogs: (state, action: PayloadAction<[ItemDB, Record<string, CatalogDef>]>) => {
+            console.log('setting item DB with ' + Object.keys(action.payload[0]).length + ' items');
+            state.items = action.payload[0];
+            const newSources = rebuildSourcesFromItemData(state);
+            console.log('updating sources to have ' + Object.keys(newSources).length + ' entries.');
+            state.sources = newSources;
+            for (const catType of Object.keys(action.payload[1])) {
+                console.log('overwriting catalog ' + catType);
+                state.catalogs[catType as CatalogType] = action.payload[1][catType as CatalogType];
+            }
+        },
     },
 });
 
-export const { setDbItems } = dbSlice.actions;
+export const { setDbItems, setDbItemsAndCatalogs } = dbSlice.actions;
 
 function initDb() {
     // TODO: can this be server-side-only somehow? (probably not the end of the world if not)
     console.log('yield new db');
-    // TODO: allow data to be split up for easier (manual) management
-    const db = createDB(rawItemData as ItemData, rawCatalogData as CatalogList, rawSourceImageData as SourceImageList);
+    const db = createDB(REAL_FILES);
+    // TODO: print inconsistencies in the db. (e.g. sources w/o kind/fragment info)
     return db;
-    // below needs to get the scheme+authority from somewhere to work, or run from clientLoader().
-    // may not be needed, depending on how it'll be hosted/served?
-    // const rawItemData = await fetch("/sample-data.json").then(r => r.json()) as ItemData;
 }
 
 export function useDatabase(): Database {
     return useSelector((state: RootState) => state.db);
 }
 
-function createDB(itemData: ItemData, catalogData: CatalogList, sourceImages: SourceImageList): Database {
+function createDB(files: FileCollection): Database {
     let items: ItemDB = {};
-    let alt_recipes: Record<string, AltRecipe> = {};
     let sources: Record<string, SourceDetails> = {};
     let sourceImageMap: Record<string, ImageRef> = {};
+    let maxId = -1;
+    let itemNameToIdMap: Record<string, number> = {};
 
-    sourceImages.images.forEach((i) => {
-        if (i.src) {
-            sourceImageMap[sourceId(i)] = i.src;
-        }
+    files.sourceMetadata.forEach(([sourceImages, _]) => {
+        sourceImages.images.forEach((i) => {
+            if (i.src) {
+                sourceImageMap[sourceId(i)] = i.src;
+            }
+        });
     });
 
-    itemData.items.forEach((i) => {
-        if (items[i.id]) {
-            throw 'Duplicate item id: ' + i.id;
-        }
-        items[i.id] = i;
+    files.itemFiles.forEach(([itemData, _]) => {
+        itemData.items.forEach((i) => {
+            // TODO: support placeholder (negative?) ID so manual additions don't need to find the next available ID?
+            // Or just use item count + 100 as next ID, which should also work
+            if (items[i.id]) {
+                console.error('Duplicate item id: ' + i.id);
+            }
+            items[i.id] = i;
+            maxId = Math.max(maxId, i.id);
 
-        if (i.source) {
-            i.source.forEach((s) => {
-                const sId = sourceId(s);
-                if (sources[sId]) {
-                    let drops = sources[sId].drops;
-                    drops.push(toDrop(i, s));
-                    sources[sId] = { ...sources[sId], drops: drops };
-                } else {
-                    sources[sId] = {
-                        source: s,
-                        drops: [toDrop(i, s)],
-                        imageSrc: sourceImageMap[sId],
-                    };
-                }
-            });
-        }
+            if (i.source) {
+                i.source.forEach((s) => {
+                    const sId = sourceId(s);
+                    if (sources[sId]) {
+                        let drops = sources[sId].drops;
+                        drops.push(toDrop(i, s));
+                        sources[sId] = { ...sources[sId], drops: drops };
+                    } else {
+                        sources[sId] = {
+                            source: s,
+                            drops: [toDrop(i, s)],
+                            imageSrc: sourceImageMap[sId],
+                        };
+                    }
+                });
+            }
+            // overwrites duplicates. that's fine; it's only for fixing the catalog.
+            itemNameToIdMap[i.name] = i.id;
+        });
     });
 
-    itemData.alt_recipes.forEach((r) => {
-        if (alt_recipes[r.name]) {
-            throw 'Duplicate Alt Recipe name ' + r.name;
-        }
-        alt_recipes[r.name] = r;
-    });
+    // sort the drops based on the dropped item name
+    for (const sId of Object.keys(sources)) {
+        const source = sources[sId];
+        sources[sId] = {
+            ...source,
+            drops: source.drops.sort((a, b) => (items[a.itemId].name < items[b.itemId].name ? -1 : 1)),
+        };
+    }
 
     let catalogs: Record<string, CatalogDef> = {};
-    catalogData.catalogs.forEach((c) => {
-        if (catalogs[c.key]) {
-            throw 'Duplicate catalog key ' + c.key;
-        }
-        let itemSet: Record<string, boolean> = {};
-        c.items.forEach((id) => {
-            itemSet[id] = true;
+    files.catalogFiles.forEach(([catalogData, _]) => {
+        catalogData.catalogs.forEach((c) => {
+            if (catalogs[c.key]) {
+                console.error('Duplicate catalog key ' + c.key);
+                return;
+            }
+            let itemSet: Record<string, boolean> = {};
+            let fixedItems: [string, string?][] = [];
+            for (let i = 0; i < c.items.length; i++) {
+                let [id, name] = c.items[i];
+                if (name && id.length > 0) {
+                    const dbItem = items[id];
+                    if (!dbItem || dbItem.name !== name) {
+                        console.error(
+                            'Catalog ' +
+                                c.name +
+                                ' has name ' +
+                                name +
+                                ' for item with id ' +
+                                id +
+                                ' but it is ' +
+                                dbItem?.name,
+                        );
+                        continue;
+                    }
+                } else if (name && id.length == 0) {
+                    // name without id; fix the id.
+                    if (!itemNameToIdMap[name]) {
+                        console.error(
+                            'Catalog ' + c.name + ' has item ' + name + ' without id, but it does not exist.',
+                        );
+                        continue;
+                    }
+                    id = itemNameToIdMap[name].toString();
+                }
+                fixedItems.push([id, name]);
+                itemSet[id] = true;
+            }
+            catalogs[c.key] = { ...c, itemSet, items: fixedItems };
         });
-        catalogs[c.key] = { ...c, itemSet };
     });
 
     console.log('created db: ' + Object.keys(items).length + ' items');
+    console.log(maxId + 1 + ' is the next available id');
 
-    return { items, alt_recipes, catalogs, sources };
+    return { items, catalogs, sources, maxIdOnFirstLoad: maxId };
 }
 
 /** Hack to let dm-mgmt imports show updates to the checklist. Will not try to fix source images. */
@@ -279,12 +384,18 @@ export function dropIsCollected(drop: DropDetail, item: CollectedItem) {
             // Recipe drops are only 'done' once the recipe is available.
             // I don't want to track collected fragment counts; having all fragments is considered equivalent to having the combined recipe.
             return item.status.haveRecipe;
+        case 'unlock':
+            // This is for plants being available in Lily's shop, and items being available in outpost shops or exchanges.
+            // It's a bit awkward for plants, but for now just consider the unlock done as soon as the item is marked as collected (plants, materials)
+            // or licensed (gear, etc).
+            return item.status.collected || item.status.licensed;
     }
 }
 
 export function getImgSrc(ref: ImageRef) {
     if (ref.fandom_wiki_image_path) {
         return 'https://static.wikia.nocookie.net/tiny-shop/images/' + ref.fandom_wiki_image_path;
+        // TODO: add /revision/latest/scale-to-width-down/<width> suffix?
     }
     if (ref.full_url) {
         if (!ref.full_url.startsWith('data:') && !ref.full_url.startsWith('https://')) {
