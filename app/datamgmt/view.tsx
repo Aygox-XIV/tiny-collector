@@ -275,6 +275,7 @@ function validateDbIntegrity(db: Database) {
         }
         // TODO: recipe validation (name+id match & exist, craft amount is set)
         // TODO: only some known small set of items has a recipe but is unlicensable
+        // TODO: subsequent event parts should have a source as well for non-task sources (barring some exceptions/bugs)
     }
 }
 

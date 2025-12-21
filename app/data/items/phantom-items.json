@@ -1378,6 +1378,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "f/fa/Darkbloom_Tunic.png" }
     },
     {
@@ -1393,6 +1394,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "5/59/Darkbloom_Robe.png" }
     },
     {
@@ -1407,6 +1409,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "e/ef/Darkbloom_Anklet.png" }
     },
     {
@@ -1422,6 +1425,14 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+      ],
       "image": { "fandom_wiki_image_path": "b/bd/Darkbloom_Necklace.png" }
     },
     {
@@ -1437,6 +1448,14 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+      ],
       "image": { "fandom_wiki_image_path": "2/21/Darkbloom_Headband.png" }
     },
     {
@@ -1451,6 +1470,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "d/d0/Darkbloom_Mask.png" }
     },
     {
@@ -1466,6 +1486,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "0/04/Itm_cult_top.png" }
     },
     {
@@ -1481,6 +1502,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "f/f1/Itm_cult_belt.png" }
     },
     {
@@ -1496,6 +1518,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "3/36/Itm_cult_pant.png" }
     },
     {
@@ -1511,6 +1534,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
       "image": { "fandom_wiki_image_path": "1/1b/Itm_cult_hat.png" }
     },
     {
@@ -1526,6 +1550,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+      ],
       "image": { "fandom_wiki_image_path": "8/8f/Darkbloom_Chakram.png" }
     },
     {
@@ -1541,6 +1569,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
+      ],
       "image": { "fandom_wiki_image_path": "7/79/Itm_cult_scikle.png" }
     },
     {
@@ -1556,6 +1588,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d8/Darkbloom_Sword.png" }
     },
     {
@@ -1572,6 +1608,10 @@
         ],
         "craft_amount": 2
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
       "image": { "fandom_wiki_image_path": "5/56/Itm_donut_pumpkin.png" }
     },
     {
@@ -1588,6 +1628,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
       "image": { "fandom_wiki_image_path": "f/f8/Itm_cheesacake_bloodberry.png" }
     },
     {
@@ -1604,6 +1648,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
       "image": { "fandom_wiki_image_path": "f/fb/Itm_cheesacake_coco.png" }
     },
     {
@@ -1620,6 +1668,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
       "image": { "fandom_wiki_image_path": "1/1b/Itm_cheesacake_pumpkin.png" }
     },
     {
@@ -1636,6 +1688,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
       "image": { "fandom_wiki_image_path": "4/42/Spectral_Cheesecake.png" }
     },
     {
@@ -1652,6 +1708,10 @@
         ],
         "craft_amount": 4
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }
+      ],
       "image": { "fandom_wiki_image_path": "3/34/Itm_pastry_bloodberry.png" }
     },
     {
@@ -1668,6 +1728,10 @@
         ],
         "craft_amount": 4
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
       "image": { "fandom_wiki_image_path": "f/f9/Itm_pastry_spectral.png" }
     },
     {
@@ -1683,6 +1747,10 @@
         ],
         "craft_amount": 1
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
       "image": { "fandom_wiki_image_path": "e/e6/Itm_soup_pumpkin.png" }
     },
     {
@@ -1699,6 +1767,10 @@
         ],
         "craft_amount": 4
       },
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
       "image": { "fandom_wiki_image_path": "b/be/Itm_pastry_pumpkin.png" }
     },
     {
