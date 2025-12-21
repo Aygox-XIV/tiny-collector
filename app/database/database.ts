@@ -275,6 +275,15 @@ function createDB(files: FileCollection): Database {
         });
     });
 
+    // sort the drops based on the dropped item name
+    for (const sId of Object.keys(sources)) {
+        const source = sources[sId];
+        sources[sId] = {
+            ...source,
+            drops: source.drops.sort((a, b) => (items[a.itemId].name < items[b.itemId].name ? -1 : 1)),
+        };
+    }
+
     let catalogs: Record<string, CatalogDef> = {};
     files.catalogFiles.forEach(([catalogData, _]) => {
         catalogData.catalogs.forEach((c) => {

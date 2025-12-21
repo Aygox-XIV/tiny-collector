@@ -198,6 +198,7 @@ input.catalog-search {
   border: 1px solid black;
   background-color: rgb(215, 180, 137);
   width: 80%;
+  padding-left: 3px;
 }
 
 div.catalog-search-content {
