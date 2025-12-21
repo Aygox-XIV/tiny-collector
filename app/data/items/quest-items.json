@@ -56,10 +56,27 @@
       "image": { "fandom_wiki_image_path": "f/f0/Outpost_Plan-_Archeology.png" }
     },
     { "name": "Glowing Crystal", "id": 853, "category": "Quest", "image": { "fandom_wiki_image_path": "a/a3/Glowing_Crystal.png" } },
-    { "name": "Survey Report", "id": 854, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    {
+      "name": "Survey Report",
+      "id": 854,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" },
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 2" }]
+    },
     { "name": "Curious Illustrated Page", "id": 855, "category": "Quest" },
-    { "name": "Rulebook in Shambles", "id": 856, "category": "Quest" },
-    { "name": "Bag O'Relics", "id": 857, "category": "Quest", "image": { "fandom_wiki_image_path": "d/dd/Bag_O%27_Relics.png" } },
+    {
+      "name": "Rulebook in Shambles",
+      "id": 856,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "An Ancient Game - Part III" }]
+    },
+    {
+      "name": "Bag O'Relics",
+      "id": 857,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part I - Part 2" }],
+      "image": { "fandom_wiki_image_path": "d/dd/Bag_O%27_Relics.png" }
+    },
     { "name": "Sculptor's Journal", "id": 858, "category": "Quest", "image": { "fandom_wiki_image_path": "d/d2/Itm_icy_sculptor_journal.png" } },
     {
       "name": "Sun Emblem",
@@ -86,8 +103,12 @@
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition Supplies" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "All enemies" }
-      ]
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "All enemies" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/3e/Itm_mat_ancient_runes.png" }
     },
     {
       "name": "Wing Shaped Fragment",
@@ -95,9 +116,20 @@
       "category": "Quest",
       "image": { "fandom_wiki_image_path": "2/27/Itm_mat_quest_piezorite_fragment.png" }
     },
-    { "name": "Strange Loaf", "id": 861, "category": "Quest" },
+    {
+      "name": "Strange Loaf",
+      "id": 861,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "On the Dot - Part I" }]
+    },
     { "name": "Strange Looking Plants", "id": 862, "category": "Quest" },
-    { "name": "Condensed Time", "id": 1311, "category": "Quest", "image": { "fandom_wiki_image_path": "d/d2/Condensed_Time.png" } },
+    {
+      "name": "Condensed Time",
+      "id": 1311,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock - Part III" }],
+      "image": { "fandom_wiki_image_path": "d/d2/Condensed_Time.png" }
+    },
     { "name": "Where's My Kitty?", "id": 1167, "category": "Quest" },
     { "name": "Where's My Kitty?", "id": 1168, "category": "Quest" },
     { "name": "Where's My Kitty?", "id": 1169, "category": "Quest" },

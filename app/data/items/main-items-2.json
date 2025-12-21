@@ -21,6 +21,7 @@
       "name": "Half-digested Adventurer Bag",
       "id": 867,
       "category": "Material",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 3" }],
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
     {
@@ -364,7 +365,24 @@
         "craft_amount": 4
       }
     },
-    { "name": "Singing Hibis", "id": 1012, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/77/Itm_consum_tea_hibis.png" } },
+    {
+      "name": "Singing Hibis",
+      "id": 1012,
+      "category": "Consumables",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Everspring Leaves", "quantity": 4, "id": 137 },
+          { "name": "Puff Flower", "quantity": 2, "id": 257 },
+          { "name": "Redchidaes", "quantity": 2, "id": 667 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
+      ],
+      "image": { "fandom_wiki_image_path": "7/77/Itm_consum_tea_hibis.png" }
+    },
     {
       "name": "Arcane Cheesecake",
       "id": 1013,
@@ -822,7 +840,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 650
     },
     {
       "name": "Rye Bread",
@@ -989,7 +1008,8 @@
           { "name": "Chocolate", "quantity": 2, "id": 161 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 650
     },
     {
       "name": "Timefound Sourdough",
@@ -1003,7 +1023,8 @@
           { "name": "Condensed Time", "quantity": 2, "id": 863 }
         ],
         "craft_amount": 4
-      }
+      },
+      "license_amount": 650
     },
     {
       "name": "Kraken Filled Loaf",
@@ -1364,7 +1385,8 @@
           { "name": "Rough Emerald", "quantity": 2, "id": 439 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Seastone Shield",
@@ -1378,7 +1400,8 @@
           { "name": "Seastone", "quantity": 1, "id": 554 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }]
     },
     {
       "name": "Coral Crab Plush",
@@ -1391,7 +1414,8 @@
           { "name": "Slime Extract", "quantity": 1, "id": 173 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }]
     },
     {
       "name": "Glasses Crab Plush",
@@ -1404,7 +1428,8 @@
           { "name": "Slime Extract", "quantity": 1, "id": 173 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }]
     },
     {
       "name": "Stab Crab Plush",
@@ -1417,7 +1442,8 @@
           { "name": "Slime Extract", "quantity": 1, "id": 173 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" }]
     },
     {
       "name": "Living Chest",
@@ -1431,7 +1457,8 @@
           { "name": "Runestone Fragments", "quantity": 4, "id": 890 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }]
     },
     {
       "name": "Wavesplitter",
@@ -1445,7 +1472,8 @@
           { "name": "Aetheric Sand", "quantity": 5, "id": 448 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }]
     },
     {
       "name": "The Seer",
@@ -1459,10 +1487,45 @@
           { "name": "Condensed Water Aether", "quantity": 2, "id": 406 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Flooded Bundle" }]
     },
-    { "name": "Sunseeker", "id": 1146, "category": "Gear", "image": { "fandom_wiki_image_path": "4/4a/Itm_gear_sunseeker.png" } },
-    { "name": "Ceremonial Barong", "id": 1147, "category": "Gear", "image": { "fandom_wiki_image_path": "4/40/Itm_gear_barong.png" } },
+    {
+      "name": "Sunseeker",
+      "id": 1146,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sunseekers", "quantity": 15, "id": 335 },
+          { "name": "Sunseeker's Stems", "quantity": 15, "id": 670 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/4a/Itm_gear_sunseeker.png" }
+    },
+    {
+      "name": "Ceremonial Barong",
+      "id": 1147,
+      "category": "Gear",
+      "license_amount": 850,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bana Leaves", "quantity": 15, "id": 594 },
+          { "name": "Bana Fruits", "quantity": 10, "id": 124 },
+          { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [
+        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/40/Itm_gear_barong.png" }
+    },
     {
       "name": "Kneadfield Helm",
       "id": 1148,
@@ -1475,7 +1538,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
     },
     {
       "name": "Kneadfield Cuirass",
@@ -1489,7 +1553,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
     },
     {
       "name": "Kneadfield Belt",
@@ -1503,7 +1568,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
     },
     {
       "name": "Kneadfield Aegis",
@@ -1517,7 +1583,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
     },
     {
       "name": "Croissword",
@@ -1531,7 +1598,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
     },
     {
       "name": "Kneadfield Mantle",
@@ -1545,7 +1613,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Croissant Bundle" }]
     },
     {
       "name": "Sunstriker",
@@ -1559,13 +1628,14 @@
           { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
     },
     {
       "name": "Timefound Kettle",
       "id": 1160,
       "category": "Gear",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon - Part 4" }],
       "license_amount": 750,
       "recipe": {
         "ingredient": [
@@ -1581,7 +1651,7 @@
       "name": "Coffee Machine",
       "id": 1161,
       "category": "Gear",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon - Part 4" }],
       "license_amount": 750,
       "recipe": {
         "ingredient": [
@@ -1649,7 +1719,8 @@
           { "name": "Condensed Arcane Aether", "quantity": 1, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
     },
     {
       "name": "Jam Waffles",

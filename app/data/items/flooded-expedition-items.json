@@ -1725,7 +1725,6 @@
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
       "image": { "fandom_wiki_image_path": "d/d4/Itm_mat_recruit_token_support.png" }
-    },
-    { "name": "Ancient Runes", "id": 1310, "category": "Quest", "image": { "fandom_wiki_image_path": "3/3e/Itm_mat_ancient_runes.png" } }
+    }
   ]
 }

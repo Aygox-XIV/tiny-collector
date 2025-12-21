@@ -3361,6 +3361,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
       "image": { "fandom_wiki_image_path": "e/e7/Itm_gear_amulet_coral.png" }
     },
     {
