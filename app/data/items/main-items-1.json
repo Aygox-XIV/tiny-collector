@@ -123,7 +123,10 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Outlaw Supplies" }
+      ],
       "image": { "fandom_wiki_image_path": "d/da/Arcane_Arrows.png" }
     },
     {
@@ -142,7 +145,8 @@
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "8/80/Arcane_Extract.png" }
     },
@@ -284,7 +288,8 @@
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" }
       ],
       "image": { "fandom_wiki_image_path": "3/34/Fresh_Milk.png" }
     },
@@ -372,7 +377,10 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "d/d5/Summergreen_Leaves.png" }
     },
@@ -492,7 +500,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" }
       ],
       "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
@@ -531,7 +540,10 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" }
       ],
       "image": { "fandom_wiki_image_path": "6/6e/Coast_Lemons.png" }
     },
@@ -574,7 +586,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" }
+      ],
       "image": { "fandom_wiki_image_path": "3/32/Cherry_Delight.png" }
     },
     {
@@ -591,7 +606,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" }
       ],
       "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
     },
@@ -607,7 +623,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" }
+      ],
       "image": { "fandom_wiki_image_path": "a/a8/Minor_Health_Potion.png" }
     },
     {
@@ -622,7 +641,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -770,7 +791,8 @@
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" }
       ],
       "image": { "fandom_wiki_image_path": "e/e2/Drakegull_Meat.png" }
     },
@@ -924,7 +946,10 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Outlaw Supplies" }
+      ],
       "image": { "fandom_wiki_image_path": "a/a7/Fire_Arrows.png" }
     },
     {
@@ -992,7 +1017,8 @@
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "b/b3/Fire_Extract.png" }
     },
@@ -1044,7 +1070,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
       ],
       "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
@@ -1187,7 +1215,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Bandit Hideout" }
+      ],
       "image": { "fandom_wiki_image_path": "8/89/Improved_Smoke_Bomb.png" }
     },
     {
@@ -1212,7 +1243,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" }
+      ],
       "image": { "fandom_wiki_image_path": "e/eb/Smoke_Bomb.png" }
     },
     {
@@ -1675,7 +1709,8 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" }
       ],
       "image": { "fandom_wiki_image_path": "0/05/Brown_Heads.png" }
     },
@@ -1724,7 +1759,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" }
+      ],
       "image": { "fandom_wiki_image_path": "e/ed/Ocean_Sip.png" }
     },
     {
@@ -1912,7 +1950,9 @@
       },
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Bandit Hideout" }
       ],
       "image": { "fandom_wiki_image_path": "8/84/Repair_Kit.png" }
     },
@@ -1963,7 +2003,10 @@
       "category": "Consumables",
       "license_amount": 30,
       "recipe": { "ingredient": [{ "name": "Everwood", "quantity": 3, "id": 325 }], "craft_amount": 3 },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Outlaw Supplies" }
+      ],
       "image": { "fandom_wiki_image_path": "8/8d/Standard_Arrows.png" }
     },
     {
@@ -2279,7 +2322,9 @@
       "category": "Material",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" }
       ],
       "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" }
     },
@@ -2510,7 +2555,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Bandit Hideout" }
+      ],
       "image": { "fandom_wiki_image_path": "3/3a/Iron_Dagger.png" }
     },
     {
@@ -2752,7 +2800,8 @@
       "category": "Material",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" }
       ],
       "image": { "fandom_wiki_image_path": "4/45/Sea_Lilac.png" }
     },
@@ -2818,7 +2867,8 @@
       },
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Outlaw Supplies" }
       ],
       "image": { "fandom_wiki_image_path": "c/cb/Standard_Bow.png" }
     },
@@ -3165,7 +3215,9 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Bandit Hideout" }
       ],
       "image": { "fandom_wiki_image_path": "a/ad/Rough_Emerald.png" }
     },
@@ -3393,7 +3445,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Raid: Outlaw Supplies" }
       ],
       "image": { "fandom_wiki_image_path": "f/fa/Rune_Stone.png" }
     },
@@ -5335,6 +5388,7 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Outlaw Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Bandit Hideout" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Supply Cache" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Skirmish: Bandit Outpost" }
@@ -5460,7 +5514,8 @@
       "image": { "fandom_wiki_image_path": "4/46/Blue_Tower_%28Seed%29.png" },
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" }
       ]
     },
     {
@@ -5468,7 +5523,10 @@
       "id": 1190,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "9/93/Summer_Glory_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
+      ]
     },
     {
       "name": "Puff Flower",
@@ -5477,7 +5535,8 @@
       "image": { "fandom_wiki_image_path": "1/17/Puff_Flower_%28Seed%29.png" },
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" }
       ]
     },
     {
@@ -5487,7 +5546,8 @@
       "image": { "fandom_wiki_image_path": "4/41/Sunsugar_Cane_%28Seed%29.png" },
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" }
       ]
     },
     {
@@ -5515,7 +5575,10 @@
       "image": { "fandom_wiki_image_path": "1/1e/Rice_%28Seed%29.png" },
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
       ]
     },
     {
@@ -5523,7 +5586,11 @@
       "id": 1196,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "3/38/Potatoes_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
+      ]
     },
     {
       "name": "White Megashroom",

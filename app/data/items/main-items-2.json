@@ -140,7 +140,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "d/d0/Itm_material_inert_runestone.png" }
     },
@@ -530,7 +531,7 @@
       "name": "Blue Tower Jam",
       "id": 1025,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task [South only]" }],
       "license_amount": 200,
       "recipe": {
         "ingredient": [
@@ -545,7 +546,7 @@
       "name": "Morning Glory Jam",
       "id": 1026,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task [North only]" }],
       "license_amount": 200,
       "recipe": {
         "ingredient": [
@@ -575,7 +576,7 @@
       "name": "Pancakes",
       "id": 1028,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task [South only]" }],
       "license_amount": 200,
       "recipe": {
         "ingredient": [
@@ -590,7 +591,7 @@
       "name": "Flatbread",
       "id": 1029,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task [North only]" }],
       "license_amount": 200,
       "recipe": {
         "ingredient": [
