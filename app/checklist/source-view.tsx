@@ -16,7 +16,7 @@ import {
     type ImageRef,
     type SourceDetails,
 } from '../database/database';
-import { EventType, SourceType, type Source } from '../database/sources';
+import { getEventType, SourceType, type Source } from '../database/sources';
 import { useAppDispatch } from '../store';
 import type { Route } from './+types/source-view';
 
@@ -223,7 +223,9 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
 };
 
 const EventSubtypeDetails: React.FC<SourceProps> = ({ source }) => {
-    if (source.subtype as EventType) {
+    if (source.subtype == 'Mission') {
+        return <div>Only available during the "{source.mission_name}" mission.</div>;
+    } else if (getEventType(source)) {
         // TODO: tooltip, some highlighting?
         return <div>Only availble during the {source.subtype} event</div>;
     } else {

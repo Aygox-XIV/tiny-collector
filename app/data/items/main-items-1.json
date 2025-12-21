@@ -5619,7 +5619,8 @@
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "A Handful of Seeds - Part 2/2" }
       ]
     },
     {
@@ -5627,7 +5628,10 @@
       "id": 1193,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "6/6e/Wheat_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "Wheat and Sea - Part 13/13" }
+      ]
     },
     {
       "name": "Everspring",
@@ -5651,7 +5655,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "A Handful of Seeds - Part 2/2" }
       ]
     },
     {
@@ -5662,7 +5667,8 @@
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "A Handful of Seeds - Part 2/2" }
       ]
     },
     {
@@ -5670,7 +5676,10 @@
       "id": 1197,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "e/ea/White_Megashroom_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "Operation: Thundershroom - Part 12/12" }
+      ]
     },
     {
       "name": "Bana Tree",

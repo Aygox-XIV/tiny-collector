@@ -159,6 +159,11 @@ export function getEventPhase(type?: EventType): number | undefined {
 }
 
 export function sourceSortFn(a: Source, b: Source): number {
+    const aIsMission = a.subtype == 'Mission';
+    const bIsMission = b.subtype == 'Mission';
+    if (aIsMission != bIsMission) {
+        return aIsMission ? 1 : -1;
+    }
     const aEventCat = getEventCategory(a);
     const bEventCat = getEventCategory(b);
     if (aEventCat != bEventCat) {
@@ -167,6 +172,7 @@ export function sourceSortFn(a: Source, b: Source): number {
         } else if (bEventCat == EventCategory.NoEvent) {
             return 1;
         } else if (aEventCat < bEventCat) {
+            // TODO: sun > flooded > phantom > evercold instead of alphabetical
             return -1;
         } else {
             return 1;
@@ -278,8 +284,9 @@ export interface BattleSource extends UnknownSource {
 
 export interface JourneySource extends UnknownSource {
     readonly type: SourceType.Journey;
-    readonly subtype?: EventType | undefined;
+    readonly subtype?: EventType | 'Mission' | undefined;
     readonly name: string;
+    readonly mission_name?: string | undefined;
 }
 
 export interface ShiftySource extends UnknownSource {

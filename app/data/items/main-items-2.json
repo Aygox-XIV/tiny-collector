@@ -319,6 +319,7 @@
         ],
         "craft_amount": 1
       },
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business As Usual - Part 7" }],
       "image": { "fandom_wiki_image_path": "d/d7/Mushroom_Soup.png" }
     },
     { "name": "Faded Swift Crafting", "id": 942, "category": "Consumables", "image": { "fandom_wiki_image_path": "0/0e/Faded_Swift_Crafting.png" } },
