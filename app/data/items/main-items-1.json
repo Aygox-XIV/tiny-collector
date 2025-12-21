@@ -55,7 +55,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" }
+      ],
       "image": { "fandom_wiki_image_path": "6/6c/Aether_Charge.png" }
     },
     {
@@ -68,7 +71,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" }
       ],
       "image": { "fandom_wiki_image_path": "5/56/Condensed_Arcane_Aether.png" }
     },
@@ -136,7 +141,8 @@
       },
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" }
       ],
       "image": { "fandom_wiki_image_path": "8/80/Arcane_Extract.png" }
     },
@@ -409,7 +415,8 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
       ],
       "image": { "fandom_wiki_image_path": "7/79/Itm_material_water_aetheric.png" }
     },
@@ -448,7 +455,8 @@
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 4, "id": 137 }], "craft_amount": 2 },
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" }
       ],
       "alt_recipes": [
         {
@@ -483,7 +491,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" }
       ],
       "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
@@ -581,7 +590,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" }
       ],
       "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
     },
@@ -610,7 +620,9 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -714,7 +726,10 @@
       "name": "Slime Extract",
       "id": 173,
       "category": "Material",
-      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "source": [
+        { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
+      ],
       "image": { "fandom_wiki_image_path": "a/a6/Slime_Extract.png" }
     },
     {
@@ -921,7 +936,9 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" }
       ],
       "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" }
     },
@@ -974,7 +991,8 @@
       },
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" }
       ],
       "image": { "fandom_wiki_image_path": "b/b3/Fire_Extract.png" }
     },
@@ -1024,7 +1042,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" }
       ],
       "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
@@ -1377,7 +1397,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
+      ],
       "image": { "fandom_wiki_image_path": "1/18/Large_Health_Potion.png" }
     },
     {
@@ -1887,7 +1910,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
+      ],
       "image": { "fandom_wiki_image_path": "8/84/Repair_Kit.png" }
     },
     {
@@ -1946,7 +1972,8 @@
       "category": "Material",
       "source": [
         { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
       ],
       "image": { "fandom_wiki_image_path": "0/00/Everwood.png" }
     },
@@ -2250,7 +2277,10 @@
       "name": "Blushflower Petals",
       "id": 353,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+      ],
       "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" }
     },
     {
@@ -2346,7 +2376,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Jackals" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
       ],
       "image": { "fandom_wiki_image_path": "3/3d/Leather.png" }
     },
@@ -2719,7 +2750,10 @@
       "name": "Sea Lilac",
       "id": 396,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+      ],
       "image": { "fandom_wiki_image_path": "4/45/Sea_Lilac.png" }
     },
     {
@@ -2782,7 +2816,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" }
+      ],
       "image": { "fandom_wiki_image_path": "c/cb/Standard_Bow.png" }
     },
     {
@@ -2828,7 +2865,9 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
       ],
       "image": { "fandom_wiki_image_path": "e/ee/Itm_material_aether_water.png" }
     },
@@ -2940,7 +2979,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
       ],
       "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" }
     },
@@ -3346,7 +3386,15 @@
       "name": "Rune Stone",
       "id": 455,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Gathering: Mineral Extraction" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Gathering: Mineral Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" }
+      ],
       "image": { "fandom_wiki_image_path": "f/fa/Rune_Stone.png" }
     },
     {
@@ -3950,7 +3998,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Water Samples" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Water Samples" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
       ],
       "image": { "fandom_wiki_image_path": "3/37/Datablet.png" }
     },
@@ -4218,7 +4268,10 @@
       "name": "Condensed Fire Aether",
       "id": 545,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" }
+      ],
       "image": { "fandom_wiki_image_path": "8/88/Condensed_Fire_Aether.png" }
     },
     {
@@ -4736,7 +4789,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" }
+      ],
       "image": { "fandom_wiki_image_path": "c/c6/Weaving_Needle.png" }
     },
     {
@@ -5097,7 +5153,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townsfolks Small Task" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townsfolks Small Task" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
       ],
       "image": { "fandom_wiki_image_path": "2/28/Jellyvenger%27s_Adventures_Vol.1.png" }
     },
@@ -5186,6 +5243,7 @@
         { "type": "Boutique", "kind": "recipe", "fragment": false },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Cache" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "c/cf/Itm_gem_agent_theta.png" }
@@ -5276,7 +5334,10 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Outlaw Supplies" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Bandit Hideout" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Raid: Bandit Hideout" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Sunken Cache" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Skirmish: Bandit Outpost" }
       ],
       "image": { "fandom_wiki_image_path": "6/65/Itm_balm_healing.png" }
     },
@@ -5397,7 +5458,10 @@
       "id": 1189,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "4/46/Blue_Tower_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
+      ]
     },
     {
       "name": "Summer Glory",
@@ -5421,7 +5485,10 @@
       "id": 1192,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "4/41/Sunsugar_Cane_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
+      ]
     },
     {
       "name": "Wheat",
@@ -5446,7 +5513,10 @@
       "id": 1195,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "1/1e/Rice_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" }
+      ]
     },
     {
       "name": "Potatoes",

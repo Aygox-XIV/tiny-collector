@@ -34,7 +34,11 @@
       "name": "Void Stone",
       "id": 869,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Spice Elemental" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Hunt: Spice Elemental" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" }
+      ],
       "image": { "fandom_wiki_image_path": "c/c2/Void_Stone.png" }
     },
     {
@@ -58,7 +62,10 @@
       "name": "Arcanite Toothfish Skull",
       "id": 871,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" }
+      ],
       "image": { "fandom_wiki_image_path": "1/11/Arcanite_Toothfish_Skull.png" }
     },
     {
@@ -131,7 +138,9 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
       ],
       "image": { "fandom_wiki_image_path": "d/d0/Itm_material_inert_runestone.png" }
     },
@@ -262,10 +271,25 @@
         "craft_amount": 1
       }
     },
-    { "name": "Swift Crafting", "id": 936, "category": "Consumables", "image": { "fandom_wiki_image_path": "0/07/Buff_scroll_craft_weak.png" } },
+    {
+      "name": "Swift Crafting",
+      "id": 936,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" }],
+      "image": { "fandom_wiki_image_path": "0/07/Buff_scroll_craft_weak.png" }
+    },
     { "name": "Infinite Stock", "id": 937, "category": "Consumables", "image": { "fandom_wiki_image_path": "d/df/Buff_scroll_stockpile_weak.png" } },
     { "name": "XP Boost", "id": 938, "category": "Consumables", "image": { "fandom_wiki_image_path": "d/d0/Buff_scroll_xp.png" } },
-    { "name": "Faster Selling", "id": 939, "category": "Consumables", "image": { "fandom_wiki_image_path": "b/b4/Buff_scroll_sale_speed.png" } },
+    {
+      "name": "Faster Selling",
+      "id": 939,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/b4/Buff_scroll_sale_speed.png" }
+    },
     { "name": "Income Boost", "id": 940, "category": "Consumables", "image": { "fandom_wiki_image_path": "f/f6/Buff_scroll_income.png" } },
     {
       "name": "Mushroom Soup",
@@ -290,7 +314,13 @@
       "image": { "fandom_wiki_image_path": "5/53/Buff_scroll_stockpile_faded.png" }
     },
     { "name": "Faded XP Boost", "id": 944, "category": "Consumables", "image": { "fandom_wiki_image_path": "0/05/Buff_scroll_xp_faded.png" } },
-    { "name": "Faded Faster Selling", "id": 945, "category": "Consumables", "image": { "fandom_wiki_image_path": "7/78/Faded_Faster_Selling.png" } },
+    {
+      "name": "Faded Faster Selling",
+      "id": 945,
+      "category": "Consumables",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" }],
+      "image": { "fandom_wiki_image_path": "7/78/Faded_Faster_Selling.png" }
+    },
     { "name": "Faded Income Boost", "id": 946, "category": "Consumables", "image": { "fandom_wiki_image_path": "c/ce/Faded_Income_Boost.png" } },
     {
       "name": "Antique Map",
@@ -338,7 +368,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
       ]
     },
     {
@@ -358,7 +389,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
       ]
     },
     {
@@ -394,7 +426,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
       ]
     },
     {
@@ -414,7 +447,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" }
       ]
     },
     {
@@ -669,7 +703,9 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
       ]
     },
     {
