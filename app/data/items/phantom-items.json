@@ -1,8 +1,48 @@
 {
   "items": [
-    { "name": "Bloodberry Slime", "id": 139, "category": "Material", "image": { "fandom_wiki_image_path": "a/a9/Bloodberry_Slime.png" } },
-    { "name": "Cursedconut", "id": 166, "category": "Material", "image": { "fandom_wiki_image_path": "b/bf/Itm_event_HAL_cursedconut.png" } },
-    { "name": "Ectoplasm", "id": 142, "category": "Material", "image": { "fandom_wiki_image_path": "3/36/Ectoplasm.png" } },
+    {
+      "name": "Bloodberry Slime",
+      "id": 139,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/a9/Bloodberry_Slime.png" }
+    },
+    {
+      "name": "Cursedconut",
+      "id": 166,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/bf/Itm_event_HAL_cursedconut.png" }
+    },
+    {
+      "name": "Ectoplasm",
+      "id": 142,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/36/Ectoplasm.png" }
+    },
     {
       "name": "Pumpkin",
       "id": 238,
@@ -10,20 +50,211 @@
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Pumpkin" }],
       "image": { "fandom_wiki_image_path": "6/64/Pumpkin.png" }
     },
-    { "name": "Hexed Linen", "id": 492, "category": "Material", "image": { "fandom_wiki_image_path": "5/55/Hexed_Linen.png" } },
-    { "name": "Undead Bones", "id": 436, "category": "Material", "image": { "fandom_wiki_image_path": "0/0e/Undead_Bones.png" } },
-    { "name": "Ectogems", "id": 181, "category": "Material", "image": { "fandom_wiki_image_path": "0/07/Ectogems.png" } },
-    { "name": "Cursedconut Leaves", "id": 190, "category": "Material", "image": { "fandom_wiki_image_path": "3/3e/Cursedconut_Leaves.png" } },
-    { "name": "Tombstone Eye", "id": 321, "category": "Material", "image": { "fandom_wiki_image_path": "9/90/Tombstone_Eye.png" } },
-    { "name": "Spectral Fabric", "id": 638, "category": "Material", "image": { "fandom_wiki_image_path": "f/f0/Spectral_Fabric.png" } },
-    { "name": "Bloodslime Residus", "id": 738, "category": "Material", "image": { "fandom_wiki_image_path": "e/e1/Itm_material_slime_residus.png" } },
-    { "name": "Cursedconut Log", "id": 773, "category": "Material", "image": { "fandom_wiki_image_path": "6/68/Itm_material_cursedconut_log.png" } },
-    { "name": "Broken Scythe", "id": 742, "category": "Material", "image": { "fandom_wiki_image_path": "a/a3/Broken_Scythe.png" } },
-    { "name": "Spectral Residus", "id": 744, "category": "Material", "image": { "fandom_wiki_image_path": "d/d6/Spectral-Residus1.png" } },
-    { "name": "Cursedconut Roots", "id": 748, "category": "Material", "image": { "fandom_wiki_image_path": "0/00/Cursedconut_Roots.png" } },
-    { "name": "Tombstone Fragments", "id": 900, "category": "Material", "image": { "fandom_wiki_image_path": "f/f7/Tombstone_Fragments.png" } },
-    { "name": "Slime Covered Bone", "id": 902, "category": "Material", "image": { "fandom_wiki_image_path": "4/4d/Itm_material_slime_bone.png" } },
-    { "name": "Tattered Hat", "id": 903, "category": "Material", "image": { "fandom_wiki_image_path": "6/6c/Itm_material_scarecrow_hat.png" } },
+    {
+      "name": "Hexed Linen",
+      "id": 492,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/55/Hexed_Linen.png" }
+    },
+    {
+      "name": "Undead Bones",
+      "id": 436,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/0e/Undead_Bones.png" }
+    },
+    {
+      "name": "Ectogems",
+      "id": 181,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "All enemies" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/07/Ectogems.png" }
+    },
+    {
+      "name": "Cursedconut Leaves",
+      "id": 190,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "3/3e/Cursedconut_Leaves.png" }
+    },
+    {
+      "name": "Cursedconut Log",
+      "id": 773,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/68/Itm_material_cursedconut_log.png" }
+    },
+    {
+      "name": "Cursedconut Roots",
+      "id": 748,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Nut" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/00/Cursedconut_Roots.png" }
+    },
+    {
+      "name": "Tombstone Eye",
+      "id": 321,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" }
+      ],
+      "image": { "fandom_wiki_image_path": "9/90/Tombstone_Eye.png" }
+    },
+    {
+      "name": "Tombstone Fragments",
+      "id": 900,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f7/Tombstone_Fragments.png" }
+    },
+    {
+      "name": "Spectral Fabric",
+      "id": 638,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "f/f0/Spectral_Fabric.png" }
+    },
+    {
+      "name": "Spectral Residus",
+      "id": 744,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" }
+      ],
+      "image": { "fandom_wiki_image_path": "d/d6/Spectral-Residus1.png" }
+    },
+    {
+      "name": "Bloodslime Residus",
+      "id": 738,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
+      ],
+      "image": { "fandom_wiki_image_path": "e/e1/Itm_material_slime_residus.png" }
+    },
+    {
+      "name": "Slime Covered Bone",
+      "id": 902,
+      "category": "Material",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Spiky Bloodslime" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Spiky Bloodslime" }
+      ],
+      "image": { "fandom_wiki_image_path": "4/4d/Itm_material_slime_bone.png" }
+    },
+    {
+      "name": "Broken Scythe",
+      "id": 742,
+      "category": "Material",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
+      ],
+      "image": { "fandom_wiki_image_path": "a/a3/Broken_Scythe.png" }
+    },
+    {
+      "name": "Tattered Hat",
+      "id": 903,
+      "category": "Material",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" }
+      ],
+      "image": { "fandom_wiki_image_path": "6/6c/Itm_material_scarecrow_hat.png" }
+    },
     {
       "name": "Blood Pearls",
       "id": 138,
@@ -458,9 +689,7 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O'wisp" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O'wisp" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
       ],
       "image": { "fandom_wiki_image_path": "e/e1/Essence_of_Undeath.png" }
     },
@@ -1834,7 +2063,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
     },
     {
       "name": "Grilling Tools",
@@ -1849,7 +2078,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
     },
     {
       "name": "Blender",
@@ -1864,7 +2093,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
     },
     {
       "name": "Cult Censer",
@@ -1880,7 +2109,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final (12-task) chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }]
     },
     {
       "name": "Tombstone Blues",
@@ -2009,7 +2238,16 @@
       "id": 1198,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "c/c9/Pumpkin_%28Seed%29.png" },
-      "source": [{ "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" },
+        { "type": "Task Chest", "kind": "unlock", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }
+      ]
     },
     {
       "name": "Cursedconut Flan",

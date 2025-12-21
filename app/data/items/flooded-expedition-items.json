@@ -1695,7 +1695,10 @@
       "id": 1307,
       "category": "Material",
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
       "image": { "fandom_wiki_image_path": "0/0f/Itm_mat_recruit_token_magic.png" }
     },
@@ -1704,7 +1707,10 @@
       "id": 1308,
       "category": "Material",
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
       "image": { "fandom_wiki_image_path": "9/91/Itm_mat_recruit_token_fighter.png" }
     },
@@ -1713,7 +1719,10 @@
       "id": 1309,
       "category": "Material",
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
       "image": { "fandom_wiki_image_path": "d/d4/Itm_mat_recruit_token_support.png" }
     },

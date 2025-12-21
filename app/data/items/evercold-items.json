@@ -25,6 +25,8 @@
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
       ],
       "image": { "fandom_wiki_image_path": "b/b8/Enchanted_Gingerbread_Dough.png" }
@@ -45,6 +47,8 @@
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
       ],
       "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" }
@@ -65,6 +69,8 @@
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Even Stranger Seed" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
       ],
       "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" }
@@ -2466,9 +2472,10 @@
       "image": { "fandom_wiki_image_path": "d/de/Dwarf_Cocoa_Seed_%28Seed%29.png" },
       "source": [
         { "type": "City", "subtype": "Shop", "kind": "item", "fragment": true, "name": "Lily's Garden" },
-        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
-        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Exploration: Dwarf Cocoa Forest" },
-        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" }
       ]
     },
     {
