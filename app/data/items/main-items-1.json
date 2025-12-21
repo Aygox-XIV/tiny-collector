@@ -3467,7 +3467,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_antique_scepter.png" }
     },
     {
       "name": "Benevolent Soulstone",
@@ -3477,7 +3478,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Request: Apothecary" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_benevolent_soulstone.png" }
     },
     {
       "name": "Majestic Cape",
@@ -3486,7 +3488,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Library" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruined Farmstead" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_majestic_cape.png" }
     },
     {
       "name": "Timeless Schematics",
@@ -3496,7 +3499,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Request: Garden Duty" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_timeless_schematics.png" }
     },
     {
       "name": "Rune Stone",
