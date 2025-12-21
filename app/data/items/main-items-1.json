@@ -66,7 +66,9 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
       ],
       "image": { "fandom_wiki_image_path": "5/56/Condensed_Arcane_Aether.png" }
     },
@@ -132,7 +134,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+      ],
       "image": { "fandom_wiki_image_path": "8/80/Arcane_Extract.png" }
     },
     {
@@ -142,7 +147,9 @@
       "source": [
         { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Water Samples" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
       ],
       "image": { "fandom_wiki_image_path": "3/30/Purified_Water.png" }
     },
@@ -160,7 +167,11 @@
         ],
         "craft_amount": 3
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Water Samples" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" }
+      ],
       "alt_recipes": [
         {
           "name": "Standard Catalyst+",
@@ -352,7 +363,11 @@
       "name": "Summergreen Leaves",
       "id": 129,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d5/Summergreen_Leaves.png" }
     },
     {
@@ -467,7 +482,8 @@
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
       ],
       "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
@@ -502,7 +518,11 @@
       "category": "Material",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
       ],
       "image": { "fandom_wiki_image_path": "6/6e/Coast_Lemons.png" }
     },
@@ -557,7 +577,11 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
       ],
       "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
     },
@@ -584,7 +608,9 @@
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -894,7 +920,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" }
       ],
       "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" }
     },
@@ -995,7 +1022,9 @@
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
       ],
       "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
@@ -1145,7 +1174,10 @@
       "name": "Anthracite",
       "id": 235,
       "category": "Material",
-      "source": [{ "type": "Market", "kind": "item", "fragment": false, "name": "Materials" }],
+      "source": [
+        { "type": "Market", "kind": "item", "fragment": false, "name": "Materials" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" }
+      ],
       "image": { "fandom_wiki_image_path": "f/ff/Anthracite.png" }
     },
     {
@@ -2214,7 +2246,13 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
       "image": { "fandom_wiki_image_path": "d/d1/Itm_consum_potion_weightless.png" }
     },
-    { "name": "Blushflower Petals", "id": 353, "category": "Material", "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" } },
+    {
+      "name": "Blushflower Petals",
+      "id": 353,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" }],
+      "image": { "fandom_wiki_image_path": "6/6d/Blushflower_Petals.png" }
+    },
     {
       "name": "Whetstone",
       "id": 354,
@@ -2677,7 +2715,13 @@
       "source": [{ "type": "Boutique", "kind": "recipe", "fragment": false }],
       "image": { "fandom_wiki_image_path": "6/6e/Itm_gem_bot_compendium_1.png" }
     },
-    { "name": "Sea Lilac", "id": 396, "category": "Material", "image": { "fandom_wiki_image_path": "4/45/Sea_Lilac.png" } },
+    {
+      "name": "Sea Lilac",
+      "id": 396,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" }],
+      "image": { "fandom_wiki_image_path": "4/45/Sea_Lilac.png" }
+    },
     {
       "name": "Archipelago Botanical Compendium II",
       "id": 397,
@@ -3079,7 +3123,9 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" }
       ],
       "image": { "fandom_wiki_image_path": "a/ad/Rough_Emerald.png" }
     },
@@ -3296,7 +3342,13 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" }
       ]
     },
-    { "name": "Rune Stone", "id": 455, "category": "Material", "image": { "fandom_wiki_image_path": "f/fa/Rune_Stone.png" } },
+    {
+      "name": "Rune Stone",
+      "id": 455,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Gathering: Mineral Extraction" }],
+      "image": { "fandom_wiki_image_path": "f/fa/Rune_Stone.png" }
+    },
     {
       "name": "Ocean Extract",
       "id": 459,
@@ -3893,7 +3945,13 @@
       "name": "Datablet",
       "id": 522,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Water Samples" }
+      ],
       "image": { "fandom_wiki_image_path": "3/37/Datablet.png" }
     },
     {
@@ -5238,7 +5296,8 @@
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" }
       ],
       "image": { "fandom_wiki_image_path": "f/f7/Itm_balm_arcane.png" }
     },
@@ -5352,7 +5411,10 @@
       "id": 1191,
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "1/17/Puff_Flower_%28Seed%29.png" },
-      "source": [{ "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }]
+      "source": [
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+      ]
     },
     {
       "name": "Sunsugar Cane",

@@ -23,7 +23,13 @@
       "category": "Material",
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
-    { "name": "Depleted Aether Charge", "id": 868, "category": "Material", "image": { "fandom_wiki_image_path": "8/88/Depleted_Aether_Charge.png" } },
+    {
+      "name": "Depleted Aether Charge",
+      "id": 868,
+      "category": "Material",
+      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }],
+      "image": { "fandom_wiki_image_path": "8/88/Depleted_Aether_Charge.png" }
+    },
     {
       "name": "Void Stone",
       "id": 869,
@@ -122,7 +128,11 @@
       "name": "Inert Runestone",
       "id": 889,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d0/Itm_material_inert_runestone.png" }
     },
     {
@@ -325,7 +335,11 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+      ]
     },
     {
       "name": "Arcane Flan",
@@ -341,7 +355,11 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" }]
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Surge" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }
+      ]
     },
     {
       "name": "Lemon Flan",
@@ -356,7 +374,8 @@
           { "name": "Coast Lemons", "quantity": 1, "id": 153 }
         ],
         "craft_amount": 4
-      }
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Coastline" }]
     },
     {
       "name": "Fire Flan",
@@ -374,7 +393,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
       ]
     },
     {
@@ -393,7 +413,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
       ]
     },
     {
@@ -647,7 +668,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Magmashells" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
       ]
     },
     {
