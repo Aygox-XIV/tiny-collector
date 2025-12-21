@@ -253,7 +253,8 @@
       "category": "Material",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
-        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Rice" }
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Rice" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }
       ],
       "image": { "fandom_wiki_image_path": "d/da/Rice.png" }
     },
@@ -289,7 +290,8 @@
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
       ],
       "image": { "fandom_wiki_image_path": "3/34/Fresh_Milk.png" }
     },
@@ -300,7 +302,7 @@
       "recipe": { "ingredient": [{ "name": "Sunsugar Cane", "quantity": 6, "id": 671 }], "craft_amount": 3 },
       "source": [
         { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Handful of Seeds - Part 2/2" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Chez Gustave" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
@@ -336,7 +338,10 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Wheat", "quantity": 4, "id": 674 }], "craft_amount": 2 },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 3/7" }],
+      "source": [
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Kroassant! - Part 3/7" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }
+      ],
       "image": { "fandom_wiki_image_path": "2/2c/Wheat_Flour.png" }
     },
     {
@@ -424,7 +429,10 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Water Sprite" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
       ],
       "image": { "fandom_wiki_image_path": "7/79/Itm_material_water_aetheric.png" }
     },
@@ -501,7 +509,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
       ],
       "image": { "fandom_wiki_image_path": "1/16/Drakegull_Egg.png" }
     },
@@ -643,7 +652,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -670,7 +680,16 @@
       "name": "Blue Headed Coral",
       "id": 168,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Coral Crab" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Elemental" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" }
+      ],
       "image": { "fandom_wiki_image_path": "a/a2/Itm_material_coralpng.png" }
     },
     {
@@ -688,7 +707,12 @@
       },
       "source": [
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Coastal" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
       ],
       "image": { "fandom_wiki_image_path": "5/5d/Itm_consum_venom_eyenemone.png" }
     },
@@ -800,7 +824,10 @@
       "name": "Sumac Spice",
       "id": 178,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" }
     },
     {
@@ -819,7 +846,16 @@
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
       "image": { "fandom_wiki_image_path": "2/21/Cuter_Brioche.png" }
     },
-    { "name": "Archipelago Greens", "id": 184, "category": "Material", "image": { "fandom_wiki_image_path": "5/59/Archipelago_greens.png" } },
+    {
+      "name": "Archipelago Greens",
+      "id": 184,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }
+      ],
+      "image": { "fandom_wiki_image_path": "5/59/Archipelago_greens.png" }
+    },
     {
       "name": "Fresh Bread",
       "id": 185,
@@ -1072,7 +1108,10 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Moonfish" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
       ],
       "image": { "fandom_wiki_image_path": "0/06/Moonfish_Filet.png" }
     },
@@ -1315,7 +1354,10 @@
       "license_amount": 1100,
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Research", "name": "Coastal" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
       ],
       "image": { "fandom_wiki_image_path": "4/48/Itm_material_kraken_ink.png" }
     },
@@ -1323,7 +1365,10 @@
       "name": "Kraken Tentacle",
       "id": 251,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+      ],
       "image": { "fandom_wiki_image_path": "8/8d/Itm_material_tentacle_kraken.png" }
     },
     {
@@ -2422,7 +2467,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Jackals" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }
       ],
       "image": { "fandom_wiki_image_path": "3/3d/Leather.png" }
     },
@@ -2925,7 +2971,10 @@
       "name": "Sharp Monster Teeth",
       "id": 407,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+      ],
       "image": { "fandom_wiki_image_path": "e/e1/Itm_material_monster_shark_teeth.png" }
     },
     {
@@ -3308,7 +3357,9 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
       ],
       "image": { "fandom_wiki_image_path": "c/ce/Itm_material_aetheric_sand.png" }
     },
@@ -3446,7 +3497,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Raid: Outlaw Supplies" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Raid: Outlaw Supplies" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
       ],
       "image": { "fandom_wiki_image_path": "f/fa/Rune_Stone.png" }
     },
@@ -5121,7 +5173,10 @@
       "name": "Eyenemone",
       "id": 629,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+      ],
       "image": { "fandom_wiki_image_path": "0/04/Itm_material_eyenemone.png" }
     },
     {
@@ -5340,7 +5395,11 @@
       "name": "Crabantula Shell",
       "id": 668,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Crabantula" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+      ],
       "image": { "fandom_wiki_image_path": "4/47/Itm_material_crabantula_shell.png" }
     },
     {
@@ -5578,7 +5637,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
       ]
     },
     {

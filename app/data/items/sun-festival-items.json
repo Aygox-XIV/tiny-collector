@@ -4,7 +4,10 @@
       "name": "Tinder Powder",
       "id": 147,
       "category": "Material",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Alchemists Guild" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" }
+      ],
       "image": { "fandom_wiki_image_path": "7/72/Itm_material_blackpowder.png" }
     },
     {
@@ -82,7 +85,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
+      ],
       "image": { "fandom_wiki_image_path": "6/6c/Archipelago_rice.png" }
     },
     {
@@ -784,7 +790,10 @@
       "category": "Material",
       "license_amount": 1000,
       "recipe": { "ingredient": [{ "name": "Sunseeker's Stems", "quantity": 4, "id": 670 }], "craft_amount": 2 },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
+      "source": [
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }
+      ],
       "alt_recipes": [
         {
           "name": "Sun Linen+",
@@ -1110,7 +1119,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Kraken Ink", "quantity": 1, "id": 250 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }
+      ],
       "image": { "fandom_wiki_image_path": "0/03/Itm_material_powder_black.png" }
     },
     {
@@ -1276,7 +1288,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Tailors Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
       "image": { "fandom_wiki_image_path": "1/15/Sun_flip_blue.png" }
     },
     {
@@ -1538,14 +1550,20 @@
       "name": "Sunseekers",
       "id": 1202,
       "category": "Plant",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+      ],
       "image": { "fandom_wiki_image_path": "c/c6/Sunseekers_%28Seed%29.png" }
     },
     {
       "name": "Koko Tree",
       "id": 1203,
       "category": "Plant",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+      ],
       "image": { "fandom_wiki_image_path": "4/4b/Koko_Tree_%28Seed%29.png" }
     },
     {
@@ -1597,10 +1615,7 @@
       "name": "Bourguignon",
       "id": 951,
       "category": "Consumables",
-      "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
-      ],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }],
       "license_amount": 1000,
       "recipe": {
         "ingredient": [

@@ -61,7 +61,34 @@
     { "name": "Rulebook in Shambles", "id": 856, "category": "Quest" },
     { "name": "Bag O'Relics", "id": 857, "category": "Quest", "image": { "fandom_wiki_image_path": "d/dd/Bag_O%27_Relics.png" } },
     { "name": "Sculptor's Journal", "id": 858, "category": "Quest", "image": { "fandom_wiki_image_path": "d/d2/Itm_icy_sculptor_journal.png" } },
-    { "name": "Sun Emblem", "id": 859, "category": "Quest", "image": { "fandom_wiki_image_path": "0/0e/Sun_emblem_event.png" } },
+    {
+      "name": "Sun Emblem",
+      "id": 859,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/0e/Sun_emblem_event.png" }
+    },
+    {
+      "name": "Minor Runestones",
+      "id": 1312,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "All enemies" }
+      ]
+    },
     {
       "name": "Wing Shaped Fragment",
       "id": 860,

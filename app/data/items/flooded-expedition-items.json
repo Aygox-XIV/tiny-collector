@@ -5,8 +5,11 @@
       "id": 1201,
       "category": "Plant",
       "source": [
-        { "type": "Battle", "subtype": "Flooded Expedition", "kind": "item", "fragment": false, "name": "Crates" },
-        { "type": "Battle", "subtype": "Flooded Expedition", "kind": "item", "fragment": false, "name": "Barrel" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
       ],
       "image": { "fandom_wiki_image_path": "d/db/Carrots_%28Seed%29.png" }
     },
@@ -14,14 +17,25 @@
       "name": "Crabantula Web",
       "id": 895,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Crabantula" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+      ],
       "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
     },
     {
       "name": "Figurine: Barrel Mimic",
       "id": 909,
       "category": "Material",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+      ],
       "image": { "fandom_wiki_image_path": "8/81/Itm_mat_fig_mimic_barrel.png" },
       "recipe": {
         "ingredient": [
@@ -66,7 +80,10 @@
       "name": "Figurine:Coral Elemental",
       "id": 912,
       "category": "Material",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" }
+      ],
       "image": { "fandom_wiki_image_path": "8/8f/Itm_mat_fig_coral_elemental.png" },
       "recipe": {
         "ingredient": [
@@ -81,7 +98,10 @@
       "name": "Figurine: Temple Coral Crab",
       "id": 913,
       "category": "Material",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Coral Crab" }
+      ],
       "image": { "fandom_wiki_image_path": "5/5f/Itm_mat_fig_crab_coral.png" },
       "recipe": {
         "ingredient": [
@@ -96,7 +116,10 @@
       "name": "Figurine: Coral Praetorian",
       "id": 914,
       "category": "Material",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" }
+      ],
       "image": { "fandom_wiki_image_path": "a/a0/Itm_mat_fig_crab_praetorian.png" },
       "recipe": {
         "ingredient": [
@@ -190,13 +213,47 @@
         "craft_amount": 1
       }
     },
-    { "name": "Kelp", "id": 920, "category": "Material", "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_kelp.png" } },
-    { "name": "Coral Crab Chunk", "id": 921, "category": "Material", "image": { "fandom_wiki_image_path": "d/db/Itm_consum_coral_crab_chunk.png" } },
+    {
+      "name": "Kelp",
+      "id": 920,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Kelpish" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+      ],
+      "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_kelp.png" }
+    },
+    {
+      "name": "Coral Crab Chunk",
+      "id": 921,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Crab" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Coral Crab" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+      ],
+      "image": { "fandom_wiki_image_path": "d/db/Itm_consum_coral_crab_chunk.png" }
+    },
     {
       "name": "Crabantula Silk",
       "id": 922,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" }
+      ],
       "image": { "fandom_wiki_image_path": "0/0d/Itm_material_crabantula_silk.png" },
       "recipe": {
         "ingredient": [
@@ -211,15 +268,7 @@
       "name": "Potted Aetheric Flowers",
       "id": 926,
       "category": "Material",
-      "source": [
-        {
-          "type": "Battle",
-          "kind": "item",
-          "fragment": false,
-          "subtype": "Flooded Expedition",
-          "name": "Overgrown Ancient Chest (wave 12 of long dive)"
-        }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "license_amount": 250,
       "image": { "local_path": "/items/flooded/item_potted_aetheric.png" }
     },
@@ -466,8 +515,10 @@
       "id": 980,
       "category": "Consumables",
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Crab" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Coral Crab" }
       ],
       "image": { "fandom_wiki_image_path": "1/1d/Itm_consum_crab_paella.png" },
       "recipe": {
@@ -500,8 +551,10 @@
       "id": 982,
       "category": "Consumables",
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" }
       ],
       "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_crab_chili.png" },
       "recipe": {
@@ -630,8 +683,10 @@
       "category": "Consumables",
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Crabantula" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" }
       ],
       "image": { "fandom_wiki_image_path": "c/ca/Itm_consum_poison_rusting.png" },
       "recipe": {
@@ -648,8 +703,10 @@
       "id": 992,
       "category": "Consumables",
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Elemental" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" }
       ],
       "image": { "fandom_wiki_image_path": "a/a5/Itm_consum_poison_silence.png" },
       "recipe": {
@@ -790,7 +847,10 @@
       "name": "Potion of Waveform",
       "id": 1001,
       "category": "Consumables",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Praetorian" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_potion_wave.png" },
       "recipe": {
         "ingredient": [
@@ -950,10 +1010,7 @@
       "name": "Ashen Sandwich",
       "id": 1036,
       "category": "Consumables",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "license_amount": 1000,
       "recipe": {
         "ingredient": [
@@ -969,10 +1026,7 @@
       "name": "The Ash Delight",
       "id": 1038,
       "category": "Consumables",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "license_amount": 1000,
       "recipe": {
         "ingredient": [
@@ -1037,10 +1091,7 @@
       "name": "Coastguard Captain Armor",
       "id": 1121,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "0/05/Itm_gear_coastguard_captain_armor.png" },
       "recipe": {
         "ingredient": [
@@ -1056,10 +1107,7 @@
       "name": "Coastguard Captain Boots",
       "id": 1122,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "d/d5/Itm_gear_coastguard_captain_shoes.png" },
       "recipe": {
         "ingredient": [
@@ -1075,10 +1123,7 @@
       "name": "Coastguard Captain Kilt",
       "id": 1123,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "3/30/Itm_gear_coastguard_captain_kilt.png" },
       "recipe": {
         "ingredient": [
@@ -1094,10 +1139,7 @@
       "name": "Coastguard Captain Shield",
       "id": 1124,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "3/37/Itm_gear_coastguard_caotin_shield.png" },
       "recipe": {
         "ingredient": [
@@ -1113,10 +1155,7 @@
       "name": "Coastguard Captain Turban",
       "id": 1125,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "4/40/Itm_gear_coastguard_captain_turban.png" },
       "recipe": {
         "ingredient": [
@@ -1283,10 +1322,7 @@
       "name": "Inkosophist Brush",
       "id": 1136,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "7/79/Itm_gear_inkosophist_brush.png" },
       "recipe": {
         "ingredient": [
@@ -1301,10 +1337,7 @@
       "name": "Coastguard Spear",
       "id": 1137,
       "category": "Gear",
-      "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "fandom_wiki_image_path": "b/b1/Itm_gear_coastguard_spear.png" },
       "recipe": {
         "ingredient": [
@@ -1401,7 +1434,6 @@
       "category": "Decor",
       "source": [
         { "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
       "image": { "local_path": "/items/flooded/decor_flat_heads.png" }
@@ -1536,10 +1568,7 @@
       "name": "Replica: Praetorian",
       "id": 1262,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_replica_praetorian.png" }
     },
     {
@@ -1553,97 +1582,73 @@
       "name": "Replica: Mimic Barrel",
       "id": 1264,
       "category": "Decor",
-      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" }],
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+      ],
       "image": { "local_path": "/items/flooded/decor_replica_mimic.png" }
     },
     {
       "name": "Decor: Overgrown Ancient Chest",
       "id": 1265,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_chest.png" }
     },
     {
       "name": "Decor: Overgrown Lavoir",
       "id": 1266,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_lavoir.png" }
     },
     {
       "name": "Replica: Coral Crab",
       "id": 1267,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_replica_crab.png" }
     },
     {
       "name": "Decor: Overgrown Basin",
       "id": 1268,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_basin.png" }
     },
     {
       "name": "Replica: Coral Elemental",
       "id": 1269,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_replica_coral_elemental.png" }
     },
     {
       "name": "Decor: Ancient Chest",
       "id": 1270,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_chest2.png" }
     },
     {
       "name": "Decor: Aetheric Flowers",
       "id": 1271,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_aetheric_flowers.png" }
     },
     {
       "name": "Replica: Moonfish",
       "id": 1272,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_replica_moonfish.png" }
     },
     {
       "name": "Decor: Water Temple Arena",
       "id": 1273,
       "category": "Decor",
-      "source": [
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ],
+      "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "image": { "local_path": "/items/flooded/decor_arena.png" }
     },
     {

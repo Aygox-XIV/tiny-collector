@@ -177,7 +177,11 @@
       "name": "Silver Coin",
       "id": 894,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+      ],
       "image": { "fandom_wiki_image_path": "3/35/Itm_material_ancient_silver_coin.png" }
     },
     {
