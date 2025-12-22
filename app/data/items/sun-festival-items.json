@@ -1672,7 +1672,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/item_fiery_coral_crab_noodles.png" }
+      "image": { "fandom_wiki_image_path": "e/e1/Fiery_Coral_Crab_Noodles.png" }
     },
     {
       "name": "Fiery Mushroom Noodles",
@@ -1687,7 +1687,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/item_fiery_mushroom_noodles.png" }
+      "image": { "fandom_wiki_image_path": "f/fa/Fiery_Mushroom_Noodles.png" }
     },
     {
       "name": "Mato Sauce",
@@ -1901,7 +1901,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_fiery_kraken_noodles.png" }
+      "image": { "fandom_wiki_image_path": "f/fa/Fiery_Mushroom_Noodles.png" }
     },
     {
       "name": "Floor Sand 01",

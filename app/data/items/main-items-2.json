@@ -578,7 +578,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/fb/Blue_Tower_Jam.png" }
     },
     {
       "name": "Morning Glory Jam",
@@ -593,7 +594,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "a/a7/Morning_Glory_Jam.png" }
     },
     {
       "name": "Puff Flower Jam",
@@ -608,7 +610,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "4/41/Puff_Flower_Jam.png" }
     },
     {
       "name": "Pancakes",
@@ -623,7 +626,8 @@
           { "name": "Drakegull Egg", "quantity": 2, "id": 144 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "6/6b/Pancakes.png" }
     },
     {
       "name": "Flatbread",
@@ -637,7 +641,8 @@
           { "name": "Purified Water", "quantity": 4, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "4/4f/Flatbread.png" }
     },
     {
       "name": "Ashen Flatbread",
@@ -666,7 +671,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "3/3b/Baguette.png" }
     },
     {
       "name": "Ashen Baguette",
@@ -695,7 +701,8 @@
           { "name": "Aetheric Water", "quantity": 2, "id": 132 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "d/dd/Fiery_Baguette.png" }
     },
     {
       "name": "Ashen Noodles",
@@ -787,7 +794,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
       ],
       "license_amount": 650,
-      "recipe": { "ingredient": [{ "name": "Fresh Milk", "quantity": 4, "id": 121 }], "craft_amount": 4 }
+      "recipe": { "ingredient": [{ "name": "Fresh Milk", "quantity": 4, "id": 121 }], "craft_amount": 4 },
+      "image": { "fandom_wiki_image_path": "f/f1/Butter.png" }
     },
     {
       "name": "Mushroom Tartlet",

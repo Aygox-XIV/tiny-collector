@@ -1093,7 +1093,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/flooded/item_ash_delight.png" }
+      "image": { "fandom_wiki_image_path": "d/d3/The_Ash_Delight.png" }
     },
     {
       "name": "Crystalline Totem of Mana Shield",
