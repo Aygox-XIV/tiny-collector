@@ -1045,6 +1045,14 @@
       "name": "Kraken Filled Loaf",
       "id": 1063,
       "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sourdough Bread", "quantity": 4, "id": 1054 },
+          { "name": "Kraken Tentacle", "quantity": 2, "id": 251 }
+        ],
+        "craft_amount": 4
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
     },
     {
@@ -1332,6 +1340,15 @@
       "name": "Mimi's Special",
       "id": 1084,
       "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 8, "id": 125 },
+          { "name": "Purified Water", "quantity": 8, "id": 110 },
+          { "name": "Butter", "quantity": 4, "id": 1045 }
+        ],
+        "craft_amount": 4
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
     },
     {
