@@ -269,7 +269,11 @@ interface ImageProps {
 
 const DetailImage: React.FC<ImageProps> = ({ src }) => {
     if (src) {
-        return <img src={getImgSrc(src)} className="detail-image" />;
+        return (
+            <div className="detail-image">
+                <img src={getImgSrc(src)} className="actual-detail-image" />
+            </div>
+        );
     } else {
         return <BsQuestionSquare className="detail-image" />;
     }

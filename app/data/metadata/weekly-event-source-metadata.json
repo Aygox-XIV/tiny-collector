@@ -19,25 +19,85 @@
     { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
     { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
     { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Ancient Crates" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Barrel" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Ancient Crates",
+      "src": { "local_path": "/sources/battle/battle_overgrown_crates.png" }
+    },
+    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Barrel", "src": { "local_path": "/sources/battle/battle_barrel.png" } },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Overgrown Barrel",
+      "src": { "local_path": "/sources/battle/battle_overgrown_barrel.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Barrel Mimic",
+      "src": { "fandom_wiki_image_path": "8/81/Itm_mat_fig_mimic_barrel.png" }
+    },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Crabantula" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Moonfish" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Water Sprite" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Coral Elemental" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Crabantula",
+      "src": { "fandom_wiki_image_path": "7/78/Itm_mat_fig_crabantula.png" }
+    },
+    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Moonfish", "src": { "fandom_wiki_image_path": "0/04/Itm_mat_fig_moonfish.png" } },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Water Sprite",
+      "src": { "fandom_wiki_image_path": "3/30/Itm_mat_fig_water_sprite.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Coral Elemental",
+      "src": { "fandom_wiki_image_path": "8/8f/Itm_mat_fig_coral_elemental.png" }
+    },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Coral Crab" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Coral Crab" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Coral Crab",
+      "src": { "fandom_wiki_image_path": "5/5f/Itm_mat_fig_crab_coral.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Overgrown Coral Crab",
+      "src": { "local_path": "/sources/battle/battle_overgown_coral_crab.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Coral Praetorian",
+      "src": { "fandom_wiki_image_path": "a/a0/Itm_mat_fig_crab_praetorian.png" }
+    },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Kelpish" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Ancient Chest" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Kelpish", "src": { "fandom_wiki_image_path": "0/00/Itm_mat_fig_kelp.png" } },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Ancient Chest",
+      "src": { "local_path": "/sources/battle/battle_ancient_chest.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Overgrown Ancient Chest",
+      "src": { "local_path": "/sources/battle/battle_overgrown_ancient_chest.png" }
+    },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "Unknown Crystal (blue)" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Unknown Crystal (green)" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Unknown Crystal (green)",
+      "src": { "local_path": "/sources/battle/battle_green_crystal.png" }
+    },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "Unknown Crystal (red)" },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "All enemies" },
     { "type": "Task Chest", "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" },
