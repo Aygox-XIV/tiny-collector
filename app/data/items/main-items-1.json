@@ -700,7 +700,8 @@
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Praetorian" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Coral Elemental" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Coral Elemental" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "a/a2/Itm_material_coralpng.png" }
     },
@@ -1369,7 +1370,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "4/48/Itm_material_kraken_ink.png" }
     },
@@ -1379,7 +1381,8 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "8/8d/Itm_material_tentacle_kraken.png" }
     },
@@ -5205,7 +5208,8 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "0/04/Itm_material_eyenemone.png" }
     },
@@ -5428,7 +5432,8 @@
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Crabantula" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "4/47/Itm_material_crabantula_shell.png" }
     },
