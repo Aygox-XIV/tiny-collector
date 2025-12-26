@@ -1162,7 +1162,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Dualist" }],
+      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Duelist" }],
       "image": { "fandom_wiki_image_path": "d/dd/Itm_mat_figurine_sistera.png" }
     },
     {

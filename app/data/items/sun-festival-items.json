@@ -1241,7 +1241,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Botanists Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "image": { "fandom_wiki_image_path": "f/f4/Sun_flip_black.png" }
     },
     {
@@ -1570,7 +1570,7 @@
       "name": "Potted Violetines",
       "id": 927,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 500,
       "recipe": {
         "ingredient": [
@@ -1585,7 +1585,7 @@
       "name": "Potted Redchidaes",
       "id": 928,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 500,
       "recipe": {
         "ingredient": [
@@ -1600,7 +1600,7 @@
       "name": "Potted Silverblooms",
       "id": 929,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 500,
       "recipe": {
         "ingredient": [
@@ -1672,7 +1672,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/item_fiery_coral_crab_noodles.png" }
+      "image": { "fandom_wiki_image_path": "e/e1/Fiery_Coral_Crab_Noodles.png" }
     },
     {
       "name": "Fiery Mushroom Noodles",
@@ -1687,7 +1687,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/item_fiery_mushroom_noodles.png" }
+      "image": { "fandom_wiki_image_path": "f/fa/Fiery_Mushroom_Noodles.png" }
     },
     {
       "name": "Mato Sauce",
@@ -1831,7 +1831,7 @@
       "name": "Flower Pot",
       "id": 1164,
       "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 550,
       "recipe": {
         "ingredient": [
@@ -1901,7 +1901,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_fiery_kraken_noodles.png" }
+      "image": { "fandom_wiki_image_path": "f/fa/Fiery_Mushroom_Noodles.png" }
     },
     {
       "name": "Floor Sand 01",

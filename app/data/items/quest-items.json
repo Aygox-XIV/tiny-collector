@@ -208,7 +208,7 @@
       "category": "Quest",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" },
@@ -224,7 +224,7 @@
       "id": 1312,
       "category": "Quest",
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "All enemies" },

@@ -231,7 +231,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_time_stalk.png" }
     },
     {
       "name": "Sporetower Figurine",
@@ -269,9 +270,16 @@
           { "name": "Condensed Arcane Aether", "quantity": 12, "id": 105 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }]
     },
-    { "name": "Healing Draught", "id": 934, "category": "Consumables", "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" } },
+    {
+      "name": "Healing Draught",
+      "id": 934,
+      "category": "Consumables",
+      "license_amount": 50,
+      "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" }
+    },
     {
       "name": "Swift Crafting",
       "id": 935,
@@ -293,7 +301,13 @@
       "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" }],
       "image": { "fandom_wiki_image_path": "0/07/Buff_scroll_craft_weak.png" }
     },
-    { "name": "Infinite Stock", "id": 937, "category": "Consumables", "image": { "fandom_wiki_image_path": "d/df/Buff_scroll_stockpile_weak.png" } },
+    {
+      "name": "Infinite Stock",
+      "id": 937,
+      "category": "Consumables",
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }],
+      "image": { "fandom_wiki_image_path": "d/df/Buff_scroll_stockpile_weak.png" }
+    },
     { "name": "XP Boost", "id": 938, "category": "Consumables", "image": { "fandom_wiki_image_path": "d/d0/Buff_scroll_xp.png" } },
     {
       "name": "Faster Selling",
@@ -349,7 +363,8 @@
       "name": "Summon Theo - 3 Days",
       "id": 963,
       "category": "Consumables",
-      "image": { "fandom_wiki_image_path": "3/39/Buff_scroll_adventurer.png" }
+      "image": { "fandom_wiki_image_path": "3/39/Buff_scroll_adventurer.png" },
+      "source": [{ "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Adventurer Bundle" }]
     },
     {
       "name": "Quindim",
@@ -380,9 +395,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
-      ],
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Sunny Bundle" }],
       "image": { "fandom_wiki_image_path": "7/77/Itm_consum_tea_hibis.png" }
     },
     {
@@ -578,7 +591,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "f/fb/Blue_Tower_Jam.png" }
     },
     {
       "name": "Morning Glory Jam",
@@ -593,7 +607,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "a/a7/Morning_Glory_Jam.png" }
     },
     {
       "name": "Puff Flower Jam",
@@ -608,7 +623,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "4/41/Puff_Flower_Jam.png" }
     },
     {
       "name": "Pancakes",
@@ -623,7 +639,8 @@
           { "name": "Drakegull Egg", "quantity": 2, "id": 144 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "6/6b/Pancakes.png" }
     },
     {
       "name": "Flatbread",
@@ -637,7 +654,8 @@
           { "name": "Purified Water", "quantity": 4, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "fandom_wiki_image_path": "4/4f/Flatbread.png" }
     },
     {
       "name": "Ashen Flatbread",
@@ -666,7 +684,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "3/3b/Baguette.png" }
     },
     {
       "name": "Ashen Baguette",
@@ -695,7 +714,8 @@
           { "name": "Aetheric Water", "quantity": 2, "id": 132 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "fandom_wiki_image_path": "d/dd/Fiery_Baguette.png" }
     },
     {
       "name": "Ashen Noodles",
@@ -762,7 +782,8 @@
           { "name": "Aetheric Salt", "quantity": 1, "id": 896 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/item_parmimigiano.png" }
     },
     {
       "name": "Emimimental",
@@ -776,7 +797,8 @@
           { "name": "Aetheric Salt", "quantity": 1, "id": 896 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_emimimental.png" }
     },
     {
       "name": "Butter",
@@ -787,13 +809,15 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }
       ],
       "license_amount": 650,
-      "recipe": { "ingredient": [{ "name": "Fresh Milk", "quantity": 4, "id": 121 }], "craft_amount": 4 }
+      "recipe": { "ingredient": [{ "name": "Fresh Milk", "quantity": 4, "id": 121 }], "craft_amount": 4 },
+      "image": { "fandom_wiki_image_path": "f/f1/Butter.png" }
     },
     {
       "name": "Mushroom Tartlet",
       "id": 1173,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "image": { "local_path": "/items/item_mushroom_tartlet.png" }
     },
     {
       "name": "Drakegull Tartlet",
@@ -808,19 +832,22 @@
           { "name": "Drakegull Meat", "quantity": 2, "id": 177 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "local_path": "/items/item_drakegull_tartlet.png" }
     },
     {
       "name": "Moonfish Tartlet",
       "id": 1047,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "image": { "local_path": "/items/item_moonfish_tartlet.png" }
     },
     {
       "name": "Fish Pastry",
       "id": 1048,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "image": { "local_path": "/items/item_fish_pastry.png" }
     },
     {
       "name": "Starbread",
@@ -834,7 +861,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_starbread.png" }
     },
     {
       "name": "Traditional Loaf",
@@ -848,7 +876,8 @@
         ],
         "craft_amount": 4
       },
-      "license_amount": 650
+      "license_amount": 650,
+      "image": { "local_path": "/items/item_traditional_loaf.png" }
     },
     {
       "name": "Rye Bread",
@@ -863,7 +892,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_rye_bread.png" }
     },
     {
       "name": "Biscuit",
@@ -878,7 +908,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_biscuit.png" }
     },
     {
       "name": "Whipped Cream Waffles",
@@ -894,7 +925,8 @@
           { "name": "Fresh Milk", "quantity": 2, "id": 121 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_whipped_cream_waffles.png" }
     },
     {
       "name": "Sourdough Bread",
@@ -908,7 +940,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_sourdough_bread.png" }
     },
     {
       "name": "Berry Slimeflan",
@@ -923,7 +956,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_berry_slimeflan.png" }
     },
     {
       "name": "Lemon Slimeflan",
@@ -938,7 +972,8 @@
           { "name": "Sunsugar", "quantity": 4, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_lemon_slimeflan.png" }
     },
     {
       "name": "Bread Loaf",
@@ -952,7 +987,8 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_bread_loaf.png" }
     },
     {
       "name": "Cheese Sandwich",
@@ -967,7 +1003,8 @@
           { "name": "Emimimental", "quantity": 2, "id": 1044 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/item_cheese_sandwich.png" }
     },
     {
       "name": "Moonfish Sandwich",
@@ -982,7 +1019,8 @@
           { "name": "Moonfish Filet", "quantity": 1, "id": 216 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/item_moonfish_sandwich.png" }
     },
     {
       "name": "Pain Au Chocolat",
@@ -1001,7 +1039,8 @@
         { "type": "Mission Reward", "kind": "recipe", "fragment": true, "name": "Once in a Dough Moon - Part 2" },
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Once in a Dough Moon - Part 2" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }
-      ]
+      ],
+      "image": { "local_path": "/items/item_pain_au_chocolat.png" }
     },
     {
       "name": "Chocolate Manju",
@@ -1016,7 +1055,8 @@
         ],
         "craft_amount": 4
       },
-      "license_amount": 650
+      "license_amount": 650,
+      "image": { "local_path": "/items/item_chocolate_manju.png" }
     },
     {
       "name": "Timefound Sourdough",
@@ -1031,19 +1071,30 @@
         ],
         "craft_amount": 4
       },
-      "license_amount": 650
+      "license_amount": 650,
+      "image": { "local_path": "/items/item_timefound_sourdough.png" }
     },
     {
       "name": "Kraken Filled Loaf",
       "id": 1063,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Sourdough Bread", "quantity": 4, "id": 1054 },
+          { "name": "Kraken Tentacle", "quantity": 2, "id": 251 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "image": { "local_path": "/items/item_kraken_filled_loaf.png" }
     },
     {
       "name": "Softbread Loaf",
       "id": 1064,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "image": { "local_path": "/items/item_softbread_loaf.png" }
     },
     {
       "name": "Retrotemporal Bread",
@@ -1059,13 +1110,24 @@
           { "name": "Stasis Powder", "quantity": 1, "id": 328 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "local_path": "/items/item_retrotemporal_bread.png" }
     },
     {
       "name": "Timefound Loaf",
       "id": 1066,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Bread Loaf", "quantity": 4, "id": 1057 },
+          { "name": "Arcane Extract", "quantity": 2, "id": 109 },
+          { "name": "Condensed Time", "quantity": 2, "id": 863 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_timefound_loaf_round.png" }
     },
     {
       "name": "Timefound Brioche",
@@ -1080,7 +1142,8 @@
           { "name": "Condensed Time", "quantity": 2, "id": 863 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_timefound_brioche.png" }
     },
     {
       "name": "Sweetbread",
@@ -1095,37 +1158,52 @@
           { "name": "Sunsugar", "quantity": 2, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_sweetbread.png" }
     },
     {
       "name": "Experiment #127",
       "id": 1069,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_experiment_127.png" }
     },
     {
       "name": "Timefound Starbread",
       "id": 1070,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Starbread", "quantity": 4, "id": 1049 },
+          { "name": "Arcane Extract", "quantity": 2, "id": 109 },
+          { "name": "Condensed Time", "quantity": 2, "id": 863 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_timefound_starbread.png" }
     },
     {
       "name": "Timefound Loaf",
       "id": 1174,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_timefound_loaf_square.png" }
     },
     {
       "name": "Timefound Traditional Loaf",
       "id": 1071,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_timefound_traditional_loaf.png" }
     },
     {
       "name": "Timefound Softbread",
       "id": 1072,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_timefound_softbread.png" }
     },
     {
       "name": "Timefound Rye Bread",
@@ -1140,7 +1218,8 @@
           { "name": "Condensed Time", "quantity": 2, "id": 863 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_timefound_rye_bread.png" }
     },
     {
       "name": "Timefound Baguette",
@@ -1155,7 +1234,8 @@
           { "name": "Condensed Time", "quantity": 1, "id": 863 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/item_timefound_baguette.png" }
     },
     {
       "name": "Roasted Blend",
@@ -1227,7 +1307,8 @@
           { "name": "Purified Water", "quantity": 1, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_twilight_smoothie.png" }
     },
     {
       "name": "Sunset Smoothie",
@@ -1243,13 +1324,15 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_sunset_smoothie.png" }
     },
     {
       "name": "Sunny Smoothie",
       "id": 1176,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "image": { "local_path": "/items/item_sunny_smoothie.png" }
     },
     {
       "name": "Berry Bliss Smoothie",
@@ -1265,13 +1348,15 @@
           { "name": "Purified Water", "quantity": 2, "id": 110 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_berry_bliss_smoothie.png" }
     },
     {
       "name": "Matcha",
       "id": 1177,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "image": { "local_path": "/items/item_matcha.png" }
     },
     {
       "name": "Latte",
@@ -1318,13 +1403,24 @@
           { "name": "Sunsugar", "quantity": 2, "id": 122 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item_waffles.png" }
     },
     {
       "name": "Mimi's Special",
       "id": 1084,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }]
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 8, "id": 125 },
+          { "name": "Purified Water", "quantity": 8, "id": 110 },
+          { "name": "Butter", "quantity": 4, "id": 1045 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "image": { "local_path": "/items/item_mimis_special.png" }
     },
     {
       "name": "Coffee Drink",
@@ -1513,9 +1609,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
-      ],
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Sunny Bundle" }],
       "image": { "fandom_wiki_image_path": "4/4a/Itm_gear_sunseeker.png" }
     },
     {
@@ -1531,9 +1625,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
-      ],
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Sunny Bundle" }],
       "image": { "fandom_wiki_image_path": "4/40/Itm_gear_barong.png" }
     },
     {
@@ -1683,7 +1775,17 @@
       "name": "Record Player",
       "id": 1162,
       "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }]
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Mechanical Parts", "quantity": 1, "id": 527 },
+          { "name": "Databoard", "quantity": 1, "id": 529 },
+          { "name": "Aether Charge", "quantity": 1, "id": 104 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
+      "image": { "local_path": "/items/item_record_player.png" }
     },
     {
       "name": "Biscuitmaker",
@@ -1699,7 +1801,8 @@
           { "name": "Monster Scales", "quantity": 2, "id": 171 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "local_path": "/items/item_biscuitmaker.png" }
     },
     {
       "name": "Aetheric Salt",
@@ -1718,9 +1821,9 @@
       "id": 1233,
       "category": "Decor",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
       ]
     },
     {
@@ -1742,7 +1845,18 @@
       "name": "Jam Waffles",
       "id": 1305,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Morning Glory Jam", "quantity": 4, "id": 1026 }
+        ],
+        "craft_amount": 4
+      },
+      "license_amount": 650,
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "image": { "local_path": "/items/item_jam_waffles_yellow.png" }
     },
     {
       "name": "Jam Waffles",
@@ -1758,7 +1872,8 @@
         "craft_amount": 4
       },
       "license_amount": 650,
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
+      "image": { "local_path": "/items/item_jam_waffles_red.png" }
     }
   ]
 }

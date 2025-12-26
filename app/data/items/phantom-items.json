@@ -2198,7 +2198,7 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 of the 'Right' category!" }
+        { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 of the 'Right' category!" }
       ]
     },
     {
@@ -2249,7 +2249,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumkin Carving" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }]
     },
     {
       "name": "Black Bayou",
@@ -2267,7 +2267,7 @@
       },
       "source": [
         {
-          "type": "Task Chest",
+          "type": "Task",
           "kind": "recipe",
           "fragment": false,
           "subtype": "Phantom Isle (part 3)",

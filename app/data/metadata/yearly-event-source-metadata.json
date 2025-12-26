@@ -1,3 +1,254 @@
 {
-  "images": []
+  "images": [
+    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "The Sculptor",
+      "src": { "fandom_wiki_image_path": "8/83/Itm_mat_figurine_sculptor.png" }
+    },
+    { "type": "Battle", "subtype": "Evercold Isle (part 2)", "name": "??? [unknown, need reports]" },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Frostbeard Ancient",
+      "src": { "fandom_wiki_image_path": "0/0c/Itm_mat_figurine_yetib.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Frostbeard Yeti",
+      "src": { "fandom_wiki_image_path": "c/c0/Itm_mat_figurine_yetia.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Frostbeard Youngling",
+      "src": { "fandom_wiki_image_path": "1/1f/Itm_mat_figurine_yetic.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Icemazon Duelist",
+      "src": { "fandom_wiki_image_path": "d/dd/Itm_mat_figurine_sistera.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Icemazon Soother",
+      "src": { "fandom_wiki_image_path": "6/6e/Itm_mat_figurine_sisterb.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Icemazon Guardian",
+      "src": { "fandom_wiki_image_path": "c/c4/Itm_mat_figurine_sisterc.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Mimiqueen",
+      "src": { "fandom_wiki_image_path": "0/06/Itm_mat_figurine_mimiqueen.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Mimiking",
+      "src": { "fandom_wiki_image_path": "1/1b/Itm_mat_figurine_mimiking.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Ice Observer",
+      "src": { "fandom_wiki_image_path": "f/f1/Itm_fig_winter_sprite_03.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Ice Spectre",
+      "src": { "fandom_wiki_image_path": "0/0d/Itm_fig_winter_sprite_01.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Ice Sprite",
+      "src": { "fandom_wiki_image_path": "1/1c/Itm_fig_winter_sprite_02.png" }
+    },
+    { "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "name": "Final Chest" },
+    { "type": "Event Market", "subtype": "Evercold Isle (part 2)" },
+
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Hunt: Cluster of Bloodberry Slime" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Hunt: Cluster of Bloodberry Slime" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Hunt: Pandemonium of Scarecrow" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Hunt: Pandemonium of Scarecrow" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Stealth: Colony of Cursedconuts" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Hunt: Swarm of Will O Wisps" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Hunt: Swarm of Will O Wisps" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+    { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp", "src": { "fandom_wiki_image_path": "9/9c/Fig_wisp_blue.png" } },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp", "src": { "fandom_wiki_image_path": "9/9c/Fig_wisp_blue.png" } },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Will O' Wisp",
+      "src": { "fandom_wiki_image_path": "c/c8/Itm_mat_figurine_wisp.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Will O' Wisp",
+      "src": { "fandom_wiki_image_path": "c/c8/Itm_mat_figurine_wisp.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Cursedconut Nut",
+      "src": { "fandom_wiki_image_path": "f/f3/Fig_cursedconut_nut.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Cursedconut Nut",
+      "src": { "fandom_wiki_image_path": "f/f3/Fig_cursedconut_nut.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Cursedconut Tree",
+      "src": { "fandom_wiki_image_path": "8/82/Itm_mat_figurine_cursedconut.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Cursedconut Tree",
+      "src": { "fandom_wiki_image_path": "8/82/Itm_mat_figurine_cursedconut.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Animated Tombstone",
+      "src": { "fandom_wiki_image_path": "2/25/Fig_tombstone.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Animated Tombstone",
+      "src": { "fandom_wiki_image_path": "2/25/Fig_tombstone.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Soulfire Tombstone",
+      "src": { "fandom_wiki_image_path": "f/fa/Fig_tombstone_soulfire.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Soulfire Tombstone",
+      "src": { "fandom_wiki_image_path": "f/fa/Fig_tombstone_soulfire.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Bloodslime",
+      "src": { "fandom_wiki_image_path": "e/ef/Itm_mat_figurine_bloodslime.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Bloodslime",
+      "src": { "fandom_wiki_image_path": "e/ef/Itm_mat_figurine_bloodslime.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Spiky Bloodslime",
+      "src": { "fandom_wiki_image_path": "9/98/Fig_bloodslime_spiky.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Spiky Bloodslime",
+      "src": { "fandom_wiki_image_path": "9/98/Fig_bloodslime_spiky.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Scarecrow",
+      "src": { "fandom_wiki_image_path": "f/f6/Itm_mat_figurine_scarecrow.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Scarecrow",
+      "src": { "fandom_wiki_image_path": "f/f6/Itm_mat_figurine_scarecrow.png" }
+    },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Zombie",
+      "src": { "fandom_wiki_image_path": "2/2b/Itm_mat_figurine_zombie.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Zombie",
+      "src": { "fandom_wiki_image_path": "2/2b/Itm_mat_figurine_zombie.png" }
+    },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Pumpkin Mimic", "src": { "fandom_wiki_image_path": "9/9b/Fig_pumpkin.png" } },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Pumpkin Mimic", "src": { "fandom_wiki_image_path": "9/9b/Fig_pumpkin.png" } },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Diseased Corpse",
+      "src": { "fandom_wiki_image_path": "b/bb/Fig_zombie_green.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Diseased Corpse",
+      "src": { "fandom_wiki_image_path": "b/bb/Fig_zombie_green.png" }
+    },
+    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "All enemies" },
+    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "All enemies" },
+    { "type": "Shifty", "name": "Gravewarden Crate" },
+    { "type": "Task Chest", "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" },
+    { "type": "Task Chest", "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" },
+    { "type": "Task Chest", "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" },
+    { "type": "Event Market", "subtype": "Phantom Isle (part 2)" },
+    { "type": "Event Market", "subtype": "Phantom Isle (part 3)" }
+  ]
 }

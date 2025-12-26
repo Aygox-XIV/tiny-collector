@@ -50,6 +50,9 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
                         Reset collection (warning: not recoverable unless you've exported it)
                     </a>
                 </div>
+                <br />
+                <br />
+                <br />
             </div>
             <div className="dev-settings-link">
                 <NavLink to="/db-mgmt">Click here for database management options.</NavLink>
