@@ -660,7 +660,8 @@
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "f/f2/Itm_consum_kelp_jerky.png" },
-      "recipe": { "ingredient": [{ "name": "Kelp", "quantity": 3, "id": 920 }], "craft_amount": 3 }
+      "recipe": { "ingredient": [{ "name": "Kelp", "quantity": 3, "id": 920 }], "craft_amount": 3 },
+      "license_amount": 125
     },
     {
       "name": "Carrot Cake",

@@ -273,7 +273,13 @@
       },
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }]
     },
-    { "name": "Healing Draught", "id": 934, "category": "Consumables", "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" } },
+    {
+      "name": "Healing Draught",
+      "id": 934,
+      "category": "Consumables",
+      "license_amount": 50,
+      "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" }
+    },
     {
       "name": "Swift Crafting",
       "id": 935,
@@ -357,7 +363,8 @@
       "name": "Summon Theo - 3 Days",
       "id": 963,
       "category": "Consumables",
-      "image": { "fandom_wiki_image_path": "3/39/Buff_scroll_adventurer.png" }
+      "image": { "fandom_wiki_image_path": "3/39/Buff_scroll_adventurer.png" },
+      "source": [{ "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Adventurer Bundle" }]
     },
     {
       "name": "Quindim",

@@ -354,6 +354,7 @@ function validateDbIntegrity(db: Database) {
             }
         }
         // TODO: only some known small set of items has a recipe but is unlicensable
+        // TODO: only some known small-ish set of items is licenseable but has no recipe
         // TODO: subsequent event parts should have a source as well for non-task sources (barring some exceptions/bugs)
     }
 }
