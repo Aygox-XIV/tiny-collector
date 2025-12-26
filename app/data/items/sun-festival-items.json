@@ -1241,7 +1241,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Botanists Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "image": { "fandom_wiki_image_path": "f/f4/Sun_flip_black.png" }
     },
     {
@@ -1570,7 +1570,7 @@
       "name": "Potted Violetines",
       "id": 927,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 500,
       "recipe": {
         "ingredient": [
@@ -1585,7 +1585,7 @@
       "name": "Potted Redchidaes",
       "id": 928,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 500,
       "recipe": {
         "ingredient": [
@@ -1600,7 +1600,7 @@
       "name": "Potted Silverblooms",
       "id": 929,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 500,
       "recipe": {
         "ingredient": [
@@ -1831,7 +1831,7 @@
       "name": "Flower Pot",
       "id": 1164,
       "category": "Gear",
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanist's Guild" }],
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" }],
       "license_amount": 550,
       "recipe": {
         "ingredient": [
