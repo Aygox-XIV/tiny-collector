@@ -16,9 +16,19 @@
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" },
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Croissant Bundle" },
 
-    { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
-    { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
-    { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
+    {
+      "type": "Journey",
+      "subtype": "Flooded Expedition",
+      "name": "Expedition: Adventurer's Billboard",
+      "src": { "local_path": "/sources/journey_flooded.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Flooded Expedition",
+      "name": "Expedition: Temple Promenade",
+      "src": { "local_path": "/sources/journey_flooded.png" }
+    },
+    { "type": "Journey", "subtype": "Flooded Expedition", "name": "Expedition: Supplies", "src": { "local_path": "/sources/journey_flooded.png" } },
     {
       "type": "Battle",
       "subtype": "Flooded Expedition",
@@ -103,7 +113,12 @@
     { "type": "Task Chest", "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" },
     { "type": "Task Chest", "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" },
     { "type": "Task Chest", "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" },
-    { "type": "Event Market", "subtype": "Flooded Expedition", "name": "Temple Material Crate" },
+    {
+      "type": "Event Market",
+      "subtype": "Flooded Expedition",
+      "name": "Temple Material Crate",
+      "src": { "local_path": "/sources/market_temple_material_crate.png" }
+    },
     { "type": "Premium Pack", "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" },
     { "type": "Premium Pack", "subtype": "Flooded Expedition", "name": "Flooded Bundle" }
   ]
