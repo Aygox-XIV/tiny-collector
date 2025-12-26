@@ -224,7 +224,7 @@
       "id": 1312,
       "category": "Quest",
       "source": [
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Temple Promenade" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "All enemies" },

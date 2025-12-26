@@ -12,8 +12,10 @@ import {
     type ItemData,
     type ItemDB,
     type Recipe,
+    type SourceImage,
+    type SourceImageList,
 } from '../database/database';
-import { validateSingleSource, type Source } from '../database/sources';
+import { SourceType, validateSingleSource, type Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
 import { parseCsv } from './common';
@@ -120,6 +122,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             appDispatch(setDbItems(integrateRecipeHelperSheet(f, db)));
         }, CSV_FILES);
     };
+    const exportSourceMetadata = () => {
+        saveFile(JSON.stringify(extractSourceMetadata(db)));
+    };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     // requires things to not break on empty image defs
     // TODO: export single catalogs
@@ -162,6 +167,9 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                         );
                     })}
                 </div>
+                <div className="settings-item" onClick={exportSourceMetadata}>
+                    Export source metadata (one file)
+                </div>
                 <div className="settings-item" onClick={loadSourcesFromDataSheet}>
                     Import sources from "Tiny shop data" (Sources tab)
                 </div>
@@ -183,6 +191,34 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             </div>
         </div>
     );
+}
+
+// Combine and Harvest sources also have images, but they are the relevant item's image
+const SOURCE_TYPES_WITH_IMAGES: Set<SourceType> = new Set([
+    SourceType.Outpost,
+    SourceType.City,
+    SourceType.Battle,
+    SourceType.Journey,
+    SourceType.Shifty,
+    SourceType.EventMarket,
+    SourceType.TaskChest,
+    SourceType.PremiumPack,
+]);
+
+function extractSourceMetadata(db: Database): SourceImageList {
+    let images: SourceImage[] = [];
+    for (const source of Object.values(db.sources)) {
+        if (!SOURCE_TYPES_WITH_IMAGES.has(source.source.type)) {
+            continue;
+        }
+        images.push({
+            type: source.source.type,
+            subtype: source.source.subtype,
+            name: source.source.name,
+            src: source.imageSrc,
+        });
+    }
+    return { images };
 }
 
 const CATEGORIES_WITH_POTENTIAL_RECIPES: Set<Category> = new Set(['Consumables', 'Gear', 'Material']);
@@ -274,6 +310,7 @@ function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
 function validateDbIntegrity(db: Database) {
     for (const item of Object.values(db.items)) {
         let hasRecipeSource = false;
+        const logPrefix = 'Item ' + item.id + ' (' + item.name + ') ';
         for (const source of item.source || []) {
             validateSingleSource(item, source);
             if (source.kind == 'recipe') {
@@ -281,9 +318,41 @@ function validateDbIntegrity(db: Database) {
             }
         }
         if (!hasRecipeSource && item.recipe && item.source) {
-            console.warn('Item ' + item.id + ' (' + item.name + ') has a recipe but no known sources for it.');
+            console.warn(logPrefix + 'has a recipe but no known sources for it.');
         }
-        // TODO: recipe validation (name+id match & exist, craft amount is set)
+        if (item.recipe) {
+            if (!item.recipe.ingredient || item.recipe.ingredient.length == 0) {
+                console.warn(logPrefix + 'has a recipe with no ingredients');
+            }
+            for (const ingredient of item.recipe.ingredient) {
+                const dbIngredient = db.items[ingredient.id];
+                if (!dbIngredient) {
+                    console.warn(
+                        logPrefix + ' has an ingredient (' + ingredient.name + ') with invalid id ' + ingredient.id,
+                    );
+                } else if (dbIngredient.name != ingredient.name) {
+                    console.warn(
+                        logPrefix +
+                            'has an ingredient (' +
+                            ingredient.name +
+                            ') with id for a different item. The ID points to ' +
+                            dbIngredient.name,
+                    );
+                }
+                if (!ingredient.quantity || ingredient.quantity <= 0) {
+                    console.warn(
+                        logPrefix +
+                            'has an ingredient (' +
+                            ingredient.name +
+                            ') with invalid quantity ' +
+                            ingredient.quantity,
+                    );
+                }
+            }
+            if (!item.recipe.craft_amount || item.recipe.craft_amount <= 0) {
+                console.warn(logPrefix + 'has a recipe without craft amount');
+            }
+        }
         // TODO: only some known small set of items has a recipe but is unlicensable
         // TODO: subsequent event parts should have a source as well for non-task sources (barring some exceptions/bugs)
     }

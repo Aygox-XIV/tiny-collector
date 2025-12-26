@@ -14,6 +14,7 @@ import {
     useDatabase,
     type DropDetail,
     type ImageRef,
+    type Item,
     type SourceDetails,
 } from '../database/database';
 import { getEventType, SourceType, type Source } from '../database/sources';
@@ -130,7 +131,9 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
             return (
                 <div>
                     Additional reward when combining the fragments for{' '}
-                    <NavLink to={'/catalog/' + source.id}>{source.name}</NavLink>
+                    <NavLink to={'/catalog/' + source.id} className="text-with-link">
+                        {source.name}
+                    </NavLink>
                     <div>
                         <NavLink to={'/catalog/' + source.id}>
                             <DetailImage src={db.items[source.id].image} />
@@ -139,6 +142,14 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                 </div>
             );
         case SourceType.EventMarket:
+            if (source.name) {
+                return (
+                    <div>
+                        Exchange for the "{source.name}" in the {source.subtype} event market.
+                        <DetailImage src={details.imageSrc} />
+                    </div>
+                );
+            }
             return (
                 <div>
                     Buy from the {source.subtype} event market.
@@ -151,13 +162,26 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                     Complete level {source.level} of the Feat "{source.name}" in the {source.subtype} category.
                 </div>
             );
-        case SourceType.Harvest:
+        case SourceType.Harvest: {
+            let seedItem: Item | undefined;
+            for (const item of Object.values(db.items)) {
+                if (item.category == 'Plant' && item.name == source.name) {
+                    seedItem = item;
+                    break;
+                }
+            }
             return (
                 <div>
                     Harvest {source.name} plants.
-                    <DetailImage src={details.imageSrc} />
+                    {seedItem && (
+                        <NavLink to={'/catalog/' + seedItem.id}>
+                            <DetailImage src={seedItem.image} />
+                        </NavLink>
+                    )}
+                    {!seedItem && <DetailImage />}
                 </div>
             );
+        }
         case SourceType.Journey:
             return (
                 <div>
@@ -182,6 +206,7 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                 <div>
                     <EventSubtypeDetails source={source} />
                     Buy the "{source.name}" premium pack.
+                    <DetailImage src={details.imageSrc} />
                 </div>
             );
         case SourceType.Shifty:
@@ -199,7 +224,12 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                 source.name === 'Coastal' ||
                 source.name === 'Trader'
             ) {
-                return <div>Complete tasks from any outpost with a {source.name} occupation</div>;
+                return (
+                    <div>
+                        Complete tasks from any outpost with a {source.name} occupation.{' '}
+                        <DetailImage src={details.imageSrc} />
+                    </div>
+                );
             }
             return (
                 <div>

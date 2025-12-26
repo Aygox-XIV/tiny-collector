@@ -1743,9 +1743,9 @@
       "id": 1233,
       "category": "Decor",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
       ]
     },
     {

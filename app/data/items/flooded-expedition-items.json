@@ -173,7 +173,7 @@
       "id": 917,
       "category": "Material",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" },
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
       "image": { "fandom_wiki_image_path": "6/67/Itm_mat_fig_hydro.png" },
@@ -192,7 +192,7 @@
       "id": 918,
       "category": "Material",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" },
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
       "image": { "fandom_wiki_image_path": "e/e8/Itm_mat_fig_coast.png" },
@@ -235,7 +235,8 @@
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "b/bc/Itm_consum_kelp.png" }
     },
@@ -253,7 +254,8 @@
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "d/db/Itm_consum_coral_crab_chunk.png" }
     },
@@ -288,7 +290,7 @@
       "name": "Kraken Paella",
       "id": 965,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "6/65/Itm_consum_kraken_paella.png" },
       "recipe": {
         "ingredient": [
@@ -305,7 +307,7 @@
       "id": 966,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_maki_avocado.png" },
       "recipe": {
@@ -322,7 +324,7 @@
       "name": "Kraken Maki",
       "id": 967,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "8/81/Itm_consum_maki_kraken.png" },
       "recipe": {
         "ingredient": [
@@ -339,7 +341,7 @@
       "id": 968,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "5/5b/Itm_consum_maki_crab.png" },
       "recipe": {
@@ -357,7 +359,7 @@
       "id": 969,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "7/74/Itm_consum_maki_moonfish.png" },
       "recipe": {
@@ -375,7 +377,7 @@
       "id": 970,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "c/c3/Itm_consum_sushi_crab.png" },
       "recipe": {
@@ -392,7 +394,7 @@
       "name": "Kraken Sushi",
       "id": 971,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "3/3f/Itm_consum_sushi_kraken.png" },
       "recipe": {
         "ingredient": [
@@ -409,7 +411,7 @@
       "id": 972,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "3/31/Itm_consum_sushi_temago.png" },
       "recipe": {
@@ -442,7 +444,7 @@
       "id": 974,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "f/f7/Itm_consum_taco_crab.png" },
       "recipe": {
@@ -460,7 +462,7 @@
       "id": 975,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "1/11/Itm_consum_taco_drakegull.png" },
       "recipe": {
@@ -477,7 +479,7 @@
       "name": "Kraken Taco",
       "id": 976,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "0/0c/Itm_consum_taco_kraken.png" },
       "recipe": {
         "ingredient": [
@@ -494,7 +496,7 @@
       "id": 977,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "f/f1/Itm_consum_taco_veggie.png" },
       "recipe": {
@@ -562,7 +564,7 @@
       "name": "Kraken Chili",
       "id": 981,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "a/a6/Itm_consum_kraken_chili.png" },
       "recipe": {
         "ingredient": [
@@ -637,7 +639,7 @@
       "id": 985,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "b/bd/Itm_consum_crab_steamed_bites.png" },
       "recipe": {
@@ -654,7 +656,7 @@
       "id": 986,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "f/f2/Itm_consum_kelp_jerky.png" },
       "recipe": { "ingredient": [{ "name": "Kelp", "quantity": 3, "id": 920 }], "craft_amount": 3 }
@@ -812,7 +814,7 @@
       "id": 996,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "6/68/Itm_consum_crab_cake.png" },
       "recipe": {
@@ -845,7 +847,7 @@
       "name": "Enchanted Ink",
       "id": 998,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "8/80/Itm_consum_enchanted_ink.png" },
       "recipe": {
         "ingredient": [
@@ -912,7 +914,7 @@
       "name": "Potion of Kraken Strength",
       "id": 1002,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "2/2b/Itm_consum_potion_kraken.png" },
       "recipe": {
         "ingredient": [
@@ -928,7 +930,7 @@
       "name": "Potion of Inkform",
       "id": 1003,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "0/01/Itm_consum_potion_ink.png" },
       "recipe": {
         "ingredient": [
@@ -945,7 +947,7 @@
       "id": 1004,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "7/70/Itm_consum_arrow_coral.png" },
       "recipe": {
@@ -961,7 +963,7 @@
       "name": "Poison Arrows",
       "id": 1005,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_arrow_poison.png" },
       "recipe": {
         "ingredient": [
@@ -977,7 +979,7 @@
       "name": "Ink Arrows",
       "id": 1006,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "6/63/Itm_consum_arrow_ink.png" },
       "recipe": {
         "ingredient": [
@@ -994,7 +996,7 @@
       "id": 1007,
       "category": "Consumables",
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }
       ],
       "image": { "fandom_wiki_image_path": "6/64/Itm_consum_arrow_water.png" },
       "recipe": {
@@ -1049,7 +1051,7 @@
       "name": "Darkness Bombs",
       "id": 1010,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_bomb_dark.png" },
       "recipe": {
         "ingredient": [
@@ -1319,7 +1321,7 @@
       "name": "Hydrologist Jerkin",
       "id": 1131,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "e/eb/Itm_gear_hydrologist_top.png" },
       "recipe": {
         "ingredient": [
@@ -1335,7 +1337,7 @@
       "name": "Hydrologist Skirt",
       "id": 1132,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "8/87/Itm_gear_hydrologist_skirt.png" },
       "recipe": {
         "ingredient": [
@@ -1351,7 +1353,7 @@
       "name": "Hydrologist Hat",
       "id": 1133,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "2/2a/Itm_gear_hydrologist_hat.png" },
       "recipe": {
         "ingredient": [
@@ -1368,7 +1370,7 @@
       "name": "Hydrologist Shoes",
       "id": 1134,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "0/00/Itm_gear_hydrologist_shoes.png" },
       "recipe": { "ingredient": [{ "name": "Leather", "quantity": 3, "id": 369 }], "craft_amount": 1 },
       "license_amount": 120
@@ -1377,7 +1379,7 @@
       "name": "Hydrologist Staff",
       "id": 1135,
       "category": "Gear",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "fandom_wiki_image_path": "1/12/Itm_gear_hydrologist_staff.png" },
       "recipe": {
         "ingredient": [
@@ -1434,7 +1436,7 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }
+        { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
       "image": { "local_path": "/items/flooded/item_circular_lamp.png" }
     },
@@ -1442,63 +1444,63 @@
       "name": "Water Grass - Dry",
       "id": 1234,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_water_grass_dry.png" }
     },
     {
       "name": "Water Grass",
       "id": 1235,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_water_grass.png" }
     },
     {
       "name": "Clover Patch",
       "id": 1236,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_clovers.png" }
     },
     {
       "name": "Grass Patch",
       "id": 1237,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_grass_patch_1.png" }
     },
     {
       "name": "Grass Patch",
       "id": 1238,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_grass_patch_2.png" }
     },
     {
       "name": "Temple Leaves",
       "id": 1239,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_leaves.png" }
     },
     {
       "name": "Water Lilies",
       "id": 1240,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_lilies.png" }
     },
     {
       "name": "Kelp",
       "id": 1241,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_kelp.png" }
     },
     {
       "name": "Tallgrass",
       "id": 1242,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_tallgrass.png" }
     },
     {
@@ -1506,7 +1508,7 @@
       "id": 1243,
       "category": "Decor",
       "source": [
-        { "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" },
+        { "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
       "image": { "local_path": "/items/flooded/decor_flat_heads.png" }
@@ -1515,119 +1517,119 @@
       "name": "Painting - Sunken Garden II",
       "id": 1244,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_painting_garden.png" }
     },
     {
       "name": "Painting - Azure Coastline I",
       "id": 1245,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small chest (3, 6, 9 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_painting_coastline.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1246,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_fountain_1.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1247,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_fountain_2.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1248,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_fountain_top_1.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1249,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_spout_1.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1250,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_spout_2.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1251,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_spout_3.png" }
     },
     {
       "name": "Temple Spout",
       "id": 1252,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_spout_4.png" }
     },
     {
       "name": "Blue Duck",
       "id": 1253,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_blue_duck.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1254,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_wall_1.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1255,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_wall_2.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1256,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_wall_3.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1257,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium chest (12,24 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_wall_4.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1258,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_fountain_3.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1259,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_fountain_4.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1260,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_temple_fountain_top_2.png" }
     },
     {
@@ -1728,14 +1730,14 @@
       "name": "Mannequin - Coastguard",
       "id": 1300,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_mann_coastguard.png" }
     },
     {
       "name": "Mannequin - Hydrologist",
       "id": 1301,
       "category": "Decor",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large chest (36 tasks)" }],
+      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
       "image": { "local_path": "/items/flooded/decor_mann_hydrologist.png" }
     },
     {

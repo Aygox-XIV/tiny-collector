@@ -393,7 +393,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [South only]" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
       ],
       "image": { "fandom_wiki_image_path": "d/d5/Summergreen_Leaves.png" }
@@ -564,7 +564,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [South only]" }
       ],
       "image": { "fandom_wiki_image_path": "6/6e/Coast_Lemons.png" }
     },
@@ -663,7 +663,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
       ],
@@ -1120,7 +1120,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [North only]" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Moonfish" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
@@ -2985,7 +2985,8 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "e/e1/Itm_material_monster_shark_teeth.png" }
     },
@@ -3327,7 +3328,18 @@
       "name": "Jute",
       "id": 444,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }],
+      "license_amount": 30,
+      "recipe": {
+        "ingredient": [
+          { "name": "Everspring Leaves", "quantity": 2, "id": 137 },
+          { "name": "Summergreen Leaves", "quantity": 1, "id": 129 }
+        ],
+        "craft_amount": 2
+      },
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
+        { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Trading" }
+      ],
       "image": { "fandom_wiki_image_path": "6/64/Jute.png" }
     },
     {
@@ -3372,7 +3384,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
-        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" }
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "c/ce/Itm_material_aetheric_sand.png" }
     },
@@ -5278,7 +5291,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townsfolks Small Task" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
       ],
       "image": { "fandom_wiki_image_path": "2/28/Jellyvenger%27s_Adventures_Vol.1.png" }
@@ -5591,7 +5604,7 @@
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [South only]" }
       ]
     },
     {
@@ -5601,7 +5614,7 @@
       "image": { "fandom_wiki_image_path": "9/93/Summer_Glory_%28Seed%29.png" },
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [North only]" }
       ]
     },
     {
@@ -5612,7 +5625,7 @@
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [South only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [South only]" }
       ]
     },
     {
@@ -5658,7 +5671,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Farm Work" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Apothecary" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [North only]" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
         { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "A Handful of Seeds - Part 2/2" }
       ]
@@ -5671,7 +5684,7 @@
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townsfolks Small Task [North only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [North only]" },
         { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "A Handful of Seeds - Part 2/2" }
       ]
     },
