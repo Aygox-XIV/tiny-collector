@@ -9,12 +9,12 @@
     { "type": "Premium Pack", "name": "Kitchen Set" },
     { "type": "Premium Pack", "name": "Home Set" },
 
-    { "type": "City", "subtype": "Research", "name": "Gizmoshop" },
-    { "type": "City", "subtype": "Research", "name": "Ardent Forge" },
-    { "type": "City", "subtype": "Research", "name": "Almo's Lab" },
-    { "type": "City", "subtype": "Shop", "name": "Lily's Garden" },
-    { "type": "City", "subtype": "Research", "name": "Chez Gustave" },
-    { "type": "City", "subtype": "Shop", "name": "Chez Gustave" },
+    { "type": "City", "subtype": "Research", "name": "Gizmoshop", "src": { "fandom_wiki_image_path": "b/ba/Gizmoshop.png" } },
+    { "type": "City", "subtype": "Research", "name": "Ardent Forge", "src": { "fandom_wiki_image_path": "b/b2/Ardent_Forge.png" } },
+    { "type": "City", "subtype": "Research", "name": "Almo's Lab", "src": { "fandom_wiki_image_path": "6/68/Almo%27s_Lab.png" } },
+    { "type": "City", "subtype": "Shop", "name": "Lily's Garden", "src": { "fandom_wiki_image_path": "5/5a/Lily%27s_Garden.png" } },
+    { "type": "City", "subtype": "Research", "name": "Chez Gustave", "src": { "fandom_wiki_image_path": "7/77/Chez_Gustave.png" } },
+    { "type": "City", "subtype": "Shop", "name": "Chez Gustave", "src": { "fandom_wiki_image_path": "7/77/Chez_Gustave.png" } },
 
     { "type": "Outpost", "subtype": "Exchange", "name": "Trading" },
     { "type": "Outpost", "subtype": "Research", "name": "Trading" },
