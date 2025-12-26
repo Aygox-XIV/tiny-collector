@@ -395,9 +395,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
-      ],
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Sunny Bundle" }],
       "image": { "fandom_wiki_image_path": "7/77/Itm_consum_tea_hibis.png" }
     },
     {
@@ -1611,9 +1609,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
-      ],
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Sunny Bundle" }],
       "image": { "fandom_wiki_image_path": "4/4a/Itm_gear_sunseeker.png" }
     },
     {
@@ -1629,9 +1625,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" }
-      ],
+      "source": [{ "type": "Premium Pack", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Sunny Bundle" }],
       "image": { "fandom_wiki_image_path": "4/40/Itm_gear_barong.png" }
     },
     {

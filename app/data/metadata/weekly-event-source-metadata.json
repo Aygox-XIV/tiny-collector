@@ -20,7 +20,7 @@
     },
     { "type": "Task Chest", "subtype": "Sun Festival", "name": "Large Chest (36 tasks)", "src": { "fandom_wiki_image_path": "b/b3/Chest.png" } },
     { "type": "Event Market", "subtype": "Sun Festival" },
-    { "type": "Premium Pack", "subtype": "Sun Festival", "name": "One of the Sun Festival Boutique sets" },
+    { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Sunny Bundle" },
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Croissant Bundle" },
 
     {
