@@ -5,6 +5,7 @@ import { FaShield } from 'react-icons/fa6';
 import { GiCarnivalMask } from 'react-icons/gi';
 import { TbFlask2Filled } from 'react-icons/tb';
 import { VscRuby } from 'react-icons/vsc';
+import { useSearchParams } from 'react-router';
 import { Toggle } from '../common/toggle';
 import { getImgSrc, useDatabase, type CatalogType, type Category } from '../database/database';
 import { useCatalogFilter } from './filtercontext';
@@ -21,15 +22,21 @@ const ALL_CATEGORIES: Set<Category> = new Set([
     'Cosmetic',
 ]);
 
+export const CATALOG_PARAM = 'c';
+
 export const CatalogFilterBar: React.FC<CatalogFilterBarProps> = ({}) => {
     const [filter, setFilter] = useCatalogFilter();
+    const [searchParams, setSearchParams] = useSearchParams();
     const db = useDatabase();
 
     const setCatalog = function (key: CatalogType) {
         if (filter.catalogView == key) {
             setFilter({ ...filter, catalogView: undefined });
+
+            setSearchParams({});
         } else {
             setFilter({ ...filter, catalogView: key });
+            setSearchParams({ [CATALOG_PARAM]: key });
         }
     };
 

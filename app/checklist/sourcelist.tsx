@@ -83,13 +83,14 @@ interface SourceDetailsProps {
 
 const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
     const collection = useFullCollection();
+    const [sourceFilter] = useSourceFilter();
     let collectedDrops = 0;
     for (const drop of details.drops) {
         if (isDropCollected(drop, collection)) {
             collectedDrops++;
         }
     }
-    const detailLink = '/checklist/' + sourceId(details.source);
+    const detailLink = '/checklist/' + sourceId(details.source) + (sourceFilter.urlParam || '');
     return (
         <NavLink to={detailLink}>
             {({ isActive }) => (

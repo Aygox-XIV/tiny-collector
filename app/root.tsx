@@ -1,11 +1,15 @@
-import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router';
+import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration, useSearchParams } from 'react-router';
 
 import { useState } from 'react';
 import { Provider } from 'react-redux';
 import type { Route } from './+types/root';
 import './app.css';
+import { CATALOG_PARAM } from './catalog/filterbar';
 import { CatalogFilterContext, type CatalogFilter } from './catalog/filtercontext';
+import { CHECKLIST_EVENT_PARAM } from './checklist/eventfilter';
 import { SourceFilterContext, type SourceFilter } from './checklist/filtercontext';
+import { CatalogType } from './database/database';
+import { EventCategory } from './database/sources';
 import { LicenseFilterContext, type LicenseFilter } from './license/filtercontext';
 import { store } from './store';
 
@@ -50,10 +54,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App({ loaderData }: Route.ComponentProps) {
+    const [searchParams] = useSearchParams();
     // Filter contexts are put here so they persist between navigating
-    const sourceFilterState = useState<SourceFilter>({});
+    const sourceFilterState = useState<SourceFilter>(getDefaultChecklistFilter(searchParams));
     const licenseFilterstate = useState<LicenseFilter>({});
-    const catalogFilterState = useState<CatalogFilter>({});
+    const catalogFilterState = useState<CatalogFilter>(getDefaultCatalogFilter(searchParams));
     return (
         <Provider store={store}>
             <CatalogFilterContext value={catalogFilterState}>
@@ -65,6 +70,24 @@ export default function App({ loaderData }: Route.ComponentProps) {
             </CatalogFilterContext>
         </Provider>
     );
+}
+
+function getDefaultCatalogFilter(searchParams: URLSearchParams): CatalogFilter {
+    const catalogType = searchParams.get(CATALOG_PARAM) as CatalogType;
+    if (new Set(Object.values(CatalogType)).has(catalogType)) {
+        return { catalogView: catalogType };
+    }
+    return {};
+}
+
+function getDefaultChecklistFilter(searchParams: URLSearchParams): SourceFilter {
+    const eventCategory = searchParams.get(CHECKLIST_EVENT_PARAM) as EventCategory;
+    if (new Set(Object.values(EventCategory)).has(eventCategory)) {
+        const hiddenEvents = new Set(Object.values(EventCategory));
+        hiddenEvents.delete(eventCategory);
+        return { hiddenEvents, urlParam: '?' + CHECKLIST_EVENT_PARAM + '=' + eventCategory };
+    }
+    return {};
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

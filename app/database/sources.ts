@@ -59,7 +59,7 @@ export enum EventType {
 }
 
 export enum EventCategory {
-    NoEvent = '',
+    NoEvent = 'No event',
     SunFestival = 'Sun Festival',
     FloodedExpedition = 'Flooded Expedition',
     PhantomIsle = 'Phantom Isle',

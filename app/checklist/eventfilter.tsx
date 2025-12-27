@@ -1,7 +1,10 @@
+import { useSearchParams } from 'react-router';
 import { Toggle } from '../common/toggle';
 import { EventCategory } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
+
+export const CHECKLIST_EVENT_PARAM = 'e';
 
 export const ChecklistEventFilterBar: React.FC<NoProps> = ({}) => {
     const [filter, setFilter] = useSourceFilter();
@@ -35,6 +38,7 @@ interface EventProps {
 
 const EventSelector: React.FC<EventProps> = ({ event }) => {
     const [filter, setFilter] = useSourceFilter();
+    const [, setSearchParams] = useSearchParams();
     const selectionClass = filter.hiddenEvents?.has(event) ? 'unselected' : 'selected';
     let iconPath = '/autolog.png';
     switch (event) {
@@ -62,18 +66,21 @@ const EventSelector: React.FC<EventProps> = ({ event }) => {
             } else {
                 hiddenEvents.add(event);
             }
-            setFilter({ ...filter, hiddenEvents });
+            setFilter({ ...filter, hiddenEvents, urlParam: undefined });
+            setSearchParams({});
         } else {
             let hiddenEvents = filter.hiddenEvents || new Set();
             if (hiddenEvents.size == Object.values(EventCategory).length - 1 && !hiddenEvents.has(event)) {
-                setFilter({ ...filter, hiddenEvents: new Set() });
+                setFilter({ ...filter, hiddenEvents: new Set(), urlParam: undefined });
+                setSearchParams({});
             } else {
                 hiddenEvents = new Set();
                 Object.values(EventCategory).forEach((e) => {
                     hiddenEvents.add(e as EventCategory);
                 });
                 hiddenEvents.delete(event);
-                setFilter({ ...filter, hiddenEvents });
+                setFilter({ ...filter, hiddenEvents, urlParam: '?' + CHECKLIST_EVENT_PARAM + '=' + event });
+                setSearchParams({ [CHECKLIST_EVENT_PARAM]: event });
             }
         }
     }

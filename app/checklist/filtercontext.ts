@@ -3,6 +3,7 @@ import type { EventCategory, SourceType } from '../database/sources';
 
 export interface SourceFilter {
     readonly hiddenEvents?: Set<EventCategory>;
+    readonly urlParam?: string;
     readonly hiddenTypes?: Set<SourceType>;
     readonly hideCompleted?: boolean;
 }

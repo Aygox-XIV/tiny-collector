@@ -86,7 +86,7 @@
       "type": "Battle",
       "subtype": "Flooded Expedition",
       "name": "Overgrown Coral Crab",
-      "src": { "local_path": "/sources/battle/battle_overgown_coral_crab.png" }
+      "src": { "local_path": "/sources/battle/battle_overgrown_coral_crab.png" }
     },
     {
       "type": "Battle",
