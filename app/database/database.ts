@@ -114,6 +114,7 @@ export interface CatalogList {
 }
 
 export enum CatalogType {
+    // TODO: change this to readable names now that  it's visible in the URL?
     FullCatalog = 'catalog',
     QuestCatalog = 'catalogSpec',
     SunCatalog = 'sunFes',
