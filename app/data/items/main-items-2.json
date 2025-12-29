@@ -1093,6 +1093,14 @@
       "name": "Softbread Loaf",
       "id": 1064,
       "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
       "image": { "local_path": "/items/item_softbread_loaf.png" }
     },

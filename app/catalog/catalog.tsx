@@ -29,7 +29,8 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
     let filteredItems: string[] = [];
     let blankCounter = 0; // if there's >1 blank, don't require the catalog to keep those blanks unique to hide react warnings of duplicate keys
     itemIds.forEach((id) => {
-        if (itemMatchesFilter(db.items[id], collection.items[id], filter)) {
+        const itemId = id.charAt(0) == '?' ? id.slice(1) : id;
+        if (itemMatchesFilter(db.items[itemId], collection.items[itemId], filter)) {
             filteredItems.push(id.charAt(0) == '-' ? (--blankCounter).toString() : id);
         }
     });
@@ -81,8 +82,14 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
             </div>
             {filteredItems.length > 0 && (
                 <div className="catalog-content center-content">
-                    {filteredItems.map((id) => {
-                        return <CatalogItem id={id.toString()} key={keyFunction(id)} />;
+                    {filteredItems.map((rawId) => {
+                        let id = rawId;
+                        let guess = false;
+                        if (rawId.charAt(0) == '?') {
+                            id = rawId.slice(1);
+                            guess = true;
+                        }
+                        return <CatalogItem id={id} key={keyFunction(id)} guess={guess} />;
                     })}
                 </div>
             )}
