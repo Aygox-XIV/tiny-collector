@@ -8,10 +8,11 @@ import { useDatabase } from '../database/database';
 
 export interface CatalogItemProps {
     readonly id: string;
+    readonly guess?: boolean;
 }
 
 /** element in the catalog list */
-export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
+export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
     const db = useDatabase();
     const collectedState = useCollectedItem(id);
     const item = db.items[id];
@@ -34,6 +35,9 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id }) => {
         collectionStateClass = ' with-license';
     } else {
         collectionStateClass = ' missing';
+    }
+    if (guess) {
+        collectionStateClass += ' catalog-guess';
     }
     const detailLink = '/catalog/' + id;
     // TODO: move status icons to be vertical next to the icon to save some vertical space

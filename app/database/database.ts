@@ -297,7 +297,7 @@ function createDB(files: FileCollection): Database {
             for (let i = 0; i < c.items.length; i++) {
                 let [id, name] = c.items[i];
                 if (name && id.length > 0) {
-                    const dbItem = items[id];
+                    const dbItem = id.charAt(0) == '?' ? items[id.slice(1)] : items[id];
                     if (!dbItem || dbItem.name !== name) {
                         console.error(
                             'Catalog ' +

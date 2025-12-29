@@ -230,6 +230,12 @@ div.missing-source {
   background-color: rgb(240, 135, 156);
 }
 
+div.catalog-guess {
+  border-style: dashed;
+  border-radius: 25px;
+  border-color: rgb(161, 59, 80);
+}
+
 div.complete {
   background-color: rgb(242, 245, 214);
 }
