@@ -665,7 +665,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Spices Crate" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -816,7 +817,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival" }
       ],
       "image": { "fandom_wiki_image_path": "b/bf/Croissant_Tree_%28Seed%29.png" }
     },
@@ -839,7 +841,8 @@
       "category": "Material",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Spices Crate" }
       ],
       "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" }
     },
