@@ -218,25 +218,24 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
         case SourceType.ShopLevel:
             return <div>Rewards for reaching Shop Level {source.name}</div>;
         case SourceType.Task:
-            if (
-                source.name === 'Archeology' ||
-                source.name === 'Naturalist' ||
-                source.name === 'Coastal' ||
-                source.name === 'Trader'
-            ) {
-                return (
-                    <div>
-                        Complete tasks from any outpost with a {source.name} occupation.{' '}
-                        <DetailImage src={details.imageSrc} />
-                    </div>
-                );
+            switch (source.subtype) {
+                case 'Outpost':
+                    return (
+                        <div>
+                            Complete tasks from any outpost with a {source.name} occupation.{' '}
+                            <DetailImage src={details.imageSrc} />
+                        </div>
+                    );
+                case 'Daily':
+                    return <div>Complete daily tasks.</div>;
+                default:
+                    return (
+                        <div>
+                            <EventSubtypeDetails source={source} />
+                            Complete the task "{source.name}"
+                        </div>
+                    );
             }
-            return (
-                <div>
-                    <EventSubtypeDetails source={source} />
-                    Complete the task "{source.name}"
-                </div>
-            );
         case SourceType.TaskChest:
             if (source.subtype == 'Daily') {
                 return <div>Reward from daily task chests</div>;
