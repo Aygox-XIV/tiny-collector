@@ -271,7 +271,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }]
+      "source": [
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+      ]
     },
     {
       "name": "Healing Draught",
@@ -292,7 +295,11 @@
           { "name": "Firebloom Leaves", "quantity": 12, "id": 210 }
         ],
         "craft_amount": 1
-      }
+      },
+      "source": [
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
+      ]
     },
     {
       "name": "Swift Crafting",

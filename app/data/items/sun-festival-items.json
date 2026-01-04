@@ -70,7 +70,10 @@
       "name": "Redchidaes",
       "id": 667,
       "category": "Material",
-      "source": [{ "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" }],
+      "source": [
+        { "type": "Journey", "subtype": "Sun Festival", "kind": "item", "fragment": false, "name": "Workshop: Botanists Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival" }
+      ],
       "image": { "fandom_wiki_image_path": "9/96/Itm_material_redchidae.png" }
     },
     {
@@ -1121,7 +1124,8 @@
       "recipe": { "ingredient": [{ "name": "Kraken Ink", "quantity": 1, "id": 250 }], "craft_amount": 4 },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
       ],
       "image": { "fandom_wiki_image_path": "0/03/Itm_material_powder_black.png" }
     },
@@ -1131,7 +1135,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Blue Tower", "quantity": 1, "id": 120 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "3/30/Itm_material_powder_blue.png" }
     },
     {
@@ -1140,7 +1147,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Everspring Leaves", "quantity": 1, "id": 137 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "4/4f/Itm_material_powder_green.png" }
     },
     {
@@ -1149,7 +1159,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Summer Glory", "quantity": 1, "id": 200 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "4/48/Itm_material_powder_orange.png" }
     },
     {
@@ -1158,7 +1171,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Puff Flower", "quantity": 1, "id": 257 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "e/ed/Itm_material_powder_pink.png" }
     },
     {
@@ -1167,7 +1183,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Redchidaes", "quantity": 1, "id": 667 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "1/1c/Itm_material_powder_red.png" }
     },
     {
@@ -1176,7 +1195,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Violetines", "quantity": 1, "id": 673 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "0/0d/Itm_material_powder_purple.png" }
     },
     {
@@ -1185,7 +1207,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Silverblooms", "quantity": 1, "id": 676 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "8/84/Itm_material_powder_white.png" }
     },
     {
@@ -1194,7 +1219,10 @@
       "category": "Material",
       "license_amount": 500,
       "recipe": { "ingredient": [{ "name": "Sunseekers", "quantity": 1, "id": 335 }], "craft_amount": 4 },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Pigments Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "3/35/Itm_material_powder_yellow.png" }
     },
     {
@@ -1552,7 +1580,8 @@
       "category": "Plant",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival" }
       ],
       "image": { "fandom_wiki_image_path": "c/c6/Sunseekers_%28Seed%29.png" }
     },
@@ -1562,7 +1591,8 @@
       "category": "Plant",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival" }
       ],
       "image": { "fandom_wiki_image_path": "4/4b/Koko_Tree_%28Seed%29.png" }
     },
@@ -1579,7 +1609,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_potted_violetines.png" }
+      "image": { "fandom_wiki_image_path": "7/73/Potted_Violetines.png" }
     },
     {
       "name": "Potted Redchidaes",
@@ -1594,7 +1624,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_potted_redchidaes.png" }
+      "image": { "fandom_wiki_image_path": "f/f0/Potted_Redchidaes.png" }
     },
     {
       "name": "Potted Silverblooms",
@@ -1609,7 +1639,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_potted_silverblooms.png" }
+      "image": { "fandom_wiki_image_path": "6/63/Potted_Silverblooms.png" }
     },
     {
       "name": "Bourguignon",
@@ -1657,7 +1687,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/item_drakegull_steak.png" }
+      "image": { "fandom_wiki_image_path": "2/21/Drakegull_Steak.png" }
     },
     {
       "name": "Fiery Coral Crab Noodles",
@@ -1702,7 +1732,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_mato_sauce.png" }
+      "image": { "fandom_wiki_image_path": "1/10/Mato_Sauce.png" }
     },
     {
       "name": "Sunriver Blend",
@@ -1718,7 +1748,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_sunriver_blend.png" }
+      "image": { "fandom_wiki_image_path": "e/e3/Sunriver_Blend.png" }
     },
     {
       "name": "Cheese Mix",
@@ -1748,7 +1778,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/sun/item_crate_of_screechers.png" }
+      "image": { "fandom_wiki_image_path": "3/3d/Crate_of_Screechers.png" }
     },
     {
       "name": "Yellow Bandana",
@@ -1840,7 +1870,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_flower_pot.png" }
+      "image": { "fandom_wiki_image_path": "c/cc/Flower_Pot.png" }
     },
     {
       "name": "Sunscreen",

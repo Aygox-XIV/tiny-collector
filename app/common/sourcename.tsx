@@ -82,15 +82,14 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
         case SourceType.ShopLevel:
             return <div>Reach shop level {source.name}.</div>;
         case SourceType.Task:
-            if (
-                source.name === 'Archeology' ||
-                source.name === 'Naturalist' ||
-                source.name === 'Coastal' ||
-                source.name === 'Trading'
-            ) {
-                return <div>Complete tasks from any outpost with a {source.name} occupation</div>;
+            switch (source.subtype) {
+                case 'Outpost':
+                    return <div>Complete tasks from any outpost with a {source.name} occupation</div>;
+                case 'Daily':
+                    return <div>Reward from daily tasks.</div>;
+                default:
+                    return <div>{source.name}</div>;
             }
-            return <div>{source.name}</div>;
         case SourceType.TaskChest:
             if (source.subtype === 'Daily') {
                 return <div>Reward from daily task chests</div>;

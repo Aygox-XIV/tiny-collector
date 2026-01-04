@@ -57,7 +57,8 @@
       },
       "source": [
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "6/6c/Aether_Charge.png" }
     },
@@ -73,7 +74,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "5/56/Condensed_Arcane_Aether.png" }
     },
@@ -628,7 +630,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Coastline" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Bandit Outpost" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "4/45/Iron.png" }
     },
@@ -665,7 +668,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Spices Crate" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "9/94/Spices.png" }
     },
@@ -761,7 +766,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" }
     },
@@ -816,7 +823,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Dense Aether" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival" }
       ],
       "image": { "fandom_wiki_image_path": "b/bf/Croissant_Tree_%28Seed%29.png" }
     },
@@ -839,7 +847,8 @@
       "category": "Material",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Spices Crate" }
       ],
       "image": { "fandom_wiki_image_path": "d/d8/Sumac_Spice.png" }
     },
@@ -1012,7 +1021,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Magmashells" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "c/cb/Firebloom_Leaves.png" }
     },
@@ -1325,7 +1336,8 @@
       "source": [
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "White Megashroom" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "c/c6/Mushrooms_Portion.png" }
     },
@@ -1510,7 +1522,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Almo's Lab" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+      ],
       "image": { "fandom_wiki_image_path": "3/34/Large_Mana_Potion.png" }
     },
     {
@@ -3080,7 +3095,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "8/88/Monster_Fangs.png" }
     },
@@ -3095,7 +3111,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" }
     },
@@ -3282,7 +3299,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Supply Cache" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Bandit Hideout" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Raid: Bandit Hideout" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "a/ad/Rough_Emerald.png" }
     },
@@ -3933,7 +3951,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }],
+      "source": [
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" },
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+      ],
       "image": { "fandom_wiki_image_path": "1/1a/Goggles.png" }
     },
     {
@@ -4138,7 +4159,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Water Samples" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ancient Derelict" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "3/37/Datablet.png" }
     },
@@ -4408,7 +4430,8 @@
       "category": "Material",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fire Elementals" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
       ],
       "image": { "fandom_wiki_image_path": "8/88/Condensed_Fire_Aether.png" }
     },
