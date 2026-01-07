@@ -1937,7 +1937,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }],
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": false, "name": "First chest (3 tasks)" }],
       "image": { "fandom_wiki_image_path": "d/d9/Itm_brioche_choco.png" }
     },
     {
