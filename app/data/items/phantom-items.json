@@ -483,9 +483,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }
       ],
       "image": { "fandom_wiki_image_path": "a/a5/Hexed_Boots.png" }
     },
@@ -523,9 +523,9 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Exploration: Cultists Endeavours" },
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
       ],
       "image": { "fandom_wiki_image_path": "2/2c/Hexed_Hat.png" }
     },
