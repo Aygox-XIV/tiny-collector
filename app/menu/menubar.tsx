@@ -29,6 +29,7 @@ export const MenuBar: React.FC = () => {
             <MenuItem text="License Calculator" url="/calc" />
             <MenuItem text="Checklist" url={'/checklist' + (checklistFilter.urlParam || '')} />
             <MenuItem text="Data management" url="/settings" />
+            <MenuItem text="Help" url="/help" />
         </div>
     );
 };

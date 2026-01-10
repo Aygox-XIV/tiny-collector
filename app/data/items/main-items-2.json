@@ -823,6 +823,15 @@
       "name": "Mushroom Tartlet",
       "id": 1173,
       "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Butter", "quantity": 2, "id": 1045 },
+          { "name": "Brown Heads", "quantity": 2, "id": 284 }
+        ],
+        "craft_amount": 2
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
       "image": { "local_path": "/items/item_mushroom_tartlet.png" }
     },

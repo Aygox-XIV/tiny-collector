@@ -1922,7 +1922,7 @@
       "name": "Fiery Kraken Noodles",
       "id": 1041,
       "category": "Consumables",
-      "license_amount": 650,
+      "license_amount": 750,
       "recipe": {
         "ingredient": [
           { "name": "Fiery Noodles", "quantity": 1, "id": 714 },
