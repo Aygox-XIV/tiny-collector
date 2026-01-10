@@ -20,5 +20,6 @@ export default [
         ]),
         route('settings', 'settings/view.tsx'),
         route('db-mgmt', 'datamgmt/view.tsx'),
+        route('help', 'settings/help-view.tsx'),
     ]),
 ] satisfies RouteConfig;
