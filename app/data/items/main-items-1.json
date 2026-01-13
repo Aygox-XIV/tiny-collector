@@ -5358,7 +5358,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Dense Aether" }
       ],
-      "image": { "local_path": "/items/item_mm_arcane_tower.png" }
+      "image": { "fandom_wiki_image_path": "8/8c/M%26M_Module_1-_The_Arcane_Tower.png" }
     },
     {
       "name": "Mages & Monsters 3.5 Edition Rulebook",
@@ -5374,7 +5374,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "An Ancient Game - Part 5/5" }],
-      "image": { "local_path": "/items/item_mm_rulebook.png" }
+      "image": { "fandom_wiki_image_path": "7/7f/Mages_%26_Monsters_3.5_Edition_Rulebook.png" }
     },
     {
       "name": "Magic Mint",

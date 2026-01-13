@@ -305,7 +305,10 @@
       "name": "Swift Crafting",
       "id": 936,
       "category": "Consumables",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
+      ],
       "image": { "fandom_wiki_image_path": "0/07/Buff_scroll_craft_weak.png" }
     },
     {
@@ -1467,14 +1470,16 @@
       "id": 1093,
       "category": "Consumables",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
-      "license_amount": 650
+      "license_amount": 650,
+      "image": { "fandom_wiki_image_path": "5/5d/Kraken_Steak.png" }
     },
     {
       "name": "Moonfish Steak",
       "id": 1094,
       "category": "Consumables",
       "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
-      "license_amount": 650
+      "license_amount": 650,
+      "image": { "fandom_wiki_image_path": "9/92/Moonfish_Steak.png" }
     },
     {
       "name": "Fungal Steak",
@@ -1492,7 +1497,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 1
-      }
+      },
+      "image": { "fandom_wiki_image_path": "7/70/Fungal_Steak.png" }
     },
     { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
     {

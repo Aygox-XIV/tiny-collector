@@ -245,9 +245,24 @@
     { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "All enemies" },
     { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "All enemies" },
     { "type": "Shifty", "name": "Gravewarden Crate" },
-    { "type": "Task Chest", "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" },
-    { "type": "Task Chest", "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" },
-    { "type": "Task Chest", "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" },
+    {
+      "type": "Task Chest",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Final Chest (12 tasks)",
+      "src": { "fandom_wiki_image_path": "1/12/Chest-final.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Phantom Isle (part 1)",
+      "name": "Final Chest (12 tasks)",
+      "src": { "fandom_wiki_image_path": "1/12/Chest-final.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Final Chest (12 tasks)",
+      "src": { "fandom_wiki_image_path": "1/12/Chest-final.png" }
+    },
     { "type": "Event Market", "subtype": "Phantom Isle (part 2)" },
     { "type": "Event Market", "subtype": "Phantom Isle (part 3)" }
   ]
