@@ -1383,7 +1383,8 @@
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
-        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "4/48/Itm_material_kraken_ink.png" }
     },
@@ -5456,7 +5457,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Crabantula" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
-        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "4/47/Itm_material_crabantula_shell.png" }
     },
