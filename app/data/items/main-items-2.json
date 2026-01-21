@@ -232,7 +232,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Surge" }
       ],
-      "image": { "local_path": "/items/item_time_stalk.png" }
+      "image": { "fandom_wiki_image_path": "1/12/Time_Stalk.png" }
     },
     {
       "name": "Sporetower Figurine",
@@ -1147,7 +1147,7 @@
         ],
         "craft_amount": 2
       },
-      "image": { "local_path": "/items/item_retrotemporal_bread.png" }
+      "image": { "fandom_wiki_image_path": "3/31/Retrotemporal_Bread.png" }
     },
     {
       "name": "Timefound Loaf",

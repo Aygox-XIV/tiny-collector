@@ -244,7 +244,7 @@
     },
     { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "All enemies" },
     { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "All enemies" },
-    { "type": "Shifty", "name": "Gravewarden Crate" },
+    { "type": "Shifty", "name": "Gravewarden Crate", "src": { "fandom_wiki_image_path": "d/de/Gravewarden_Set.png" } },
     {
       "type": "Task Chest",
       "subtype": "Phantom Isle (part 2)",
