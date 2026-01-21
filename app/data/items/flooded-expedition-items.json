@@ -25,7 +25,8 @@
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
-        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" },
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Temple Material Crate" }
       ],
       "image": { "fandom_wiki_image_path": "4/4f/Itm_material_crabantula_web.png" }
     },
@@ -285,7 +286,7 @@
       "category": "Material",
       "source": [{ "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
       "license_amount": 250,
-      "image": { "local_path": "/items/flooded/item_potted_aetheric.png" }
+      "image": { "fandom_wiki_image_path": "1/1c/Potted_Aetheric_Flowers.png" }
     },
     {
       "name": "Kraken Paella",
@@ -1113,7 +1114,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/flooded/item_blue_totem.png" }
+      "image": { "fandom_wiki_image_path": "2/23/Crystalline_Totem_of_Mana_Shield.png" }
     },
     {
       "name": "Crystalline Totem of Healing",
@@ -1129,7 +1130,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/flooded/item_green_totem.png" }
+      "image": { "fandom_wiki_image_path": "a/ab/Crystalline_Totem_of_Healing.png" }
     },
     {
       "name": "Crystalline Totem of Power",
@@ -1145,7 +1146,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/flooded/item_red_totem.png" }
+      "image": { "fandom_wiki_image_path": "9/9e/Crystalline_Totem_of_Power.png" }
     },
     {
       "name": "Coastguard Captain Armor",
@@ -1440,7 +1441,7 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }
       ],
-      "image": { "local_path": "/items/flooded/item_circular_lamp.png" }
+      "image": { "fandom_wiki_image_path": "2/2b/Circular_Lamp.png" }
     },
     {
       "name": "Water Grass - Dry",
@@ -1749,7 +1750,7 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "local_path": "/items/flooded/recruit_disrupter.png" }
+      "image": { "fandom_wiki_image_path": "d/d4/Disrupter.png" }
     },
     {
       "name": "Recruit: Coastguard",
@@ -1758,7 +1759,7 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
       ],
-      "image": { "local_path": "/items/flooded/recruit_coastguard.png" }
+      "image": { "fandom_wiki_image_path": "2/25/Coastguard.png" }
     },
     {
       "name": "Recruit: Hydrologist",

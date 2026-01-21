@@ -20,6 +20,7 @@
     },
     { "type": "Task Chest", "subtype": "Sun Festival", "name": "Large Chest (36 tasks)", "src": { "fandom_wiki_image_path": "b/b3/Chest.png" } },
     { "type": "Event Market", "subtype": "Sun Festival" },
+    { "type": "Event Market", "subtype": "Sun Festival", "name": "Spices Crate", "src": { "fandom_wiki_image_path": "7/72/Spices_Crate.png" } },
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Sunny Bundle" },
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Croissant Bundle" },
 
@@ -139,7 +140,7 @@
       "type": "Event Market",
       "subtype": "Flooded Expedition",
       "name": "Temple Material Crate",
-      "src": { "local_path": "/sources/market_temple_material_crate.png" }
+      "src": { "fandom_wiki_image_path": "3/30/Temple_Material_Crate.png" }
     },
     { "type": "Premium Pack", "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" },
     { "type": "Premium Pack", "subtype": "Flooded Expedition", "name": "Flooded Bundle" }
