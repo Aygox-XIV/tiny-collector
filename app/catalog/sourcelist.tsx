@@ -67,7 +67,7 @@ const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
                 <SourceName source={source} tooltipId={SOURCE_TOOLTIP} />
             </div>
             <NavLink to={'/checklist/' + sourceId(source)}>
-                <TbInfoSquareRounded />
+                <TbInfoSquareRounded className="source-detail-link-icon" />
             </NavLink>
         </div>
     );

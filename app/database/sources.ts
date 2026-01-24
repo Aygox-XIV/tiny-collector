@@ -158,7 +158,16 @@ export function getEventPhase(type?: EventType): number | undefined {
     }
 }
 
+const EVENT_CATEGORY_ORDER: Record<EventCategory, number> = {
+    [EventCategory.NoEvent]: 0,
+    [EventCategory.SunFestival]: 1,
+    [EventCategory.FloodedExpedition]: 2,
+    [EventCategory.PhantomIsle]: 3,
+    [EventCategory.EvercoldIsle]: 4,
+};
+
 export function sourceSortFn(a: Source, b: Source): number {
+    // Mission journeys go at the end
     const aIsMission = a.subtype == 'Mission';
     const bIsMission = b.subtype == 'Mission';
     if (aIsMission != bIsMission) {
@@ -171,11 +180,8 @@ export function sourceSortFn(a: Source, b: Source): number {
             return -1;
         } else if (bEventCat == EventCategory.NoEvent) {
             return 1;
-        } else if (aEventCat < bEventCat) {
-            // TODO: sun > flooded > phantom > evercold instead of alphabetical
-            return -1;
         } else {
-            return 1;
+            return EVENT_CATEGORY_ORDER[aEventCat] - EVENT_CATEGORY_ORDER[bEventCat];
         }
     }
     const aEventPhase = getEventPhase(a.subtype as EventType) || 0;

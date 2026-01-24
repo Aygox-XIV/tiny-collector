@@ -428,9 +428,14 @@ div.individual-sources {
 
 div.single-source {
   display: grid;
-  /* event icon (opt) - item/recipe icon - fragment icon (opt) - strings */
-  grid-template-columns: 20px 20px 20px auto 20px;
+  /* event icon (opt) - item/recipe icon - fragment icon (opt) - name - details-link */
+  grid-template-columns: 20px 20px 20px auto 30px;
   background-color: rgb(239, 221, 197);
+}
+
+.source-detail-link-icon {
+  height: 100%;
+  width: fit-content;
 }
 
 div.checklist-view {
