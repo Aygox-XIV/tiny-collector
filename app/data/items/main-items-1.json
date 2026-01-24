@@ -246,7 +246,10 @@
       "name": "Kraken Grease",
       "id": 115,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }],
+      "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ],
       "image": { "fandom_wiki_image_path": "2/27/Itm_material_kraken_grease.png" }
     },
     {
@@ -439,6 +442,7 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
@@ -451,7 +455,10 @@
       "name": "Aethero Insulating Empty Bottle",
       "id": 133,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }],
+      "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
+      ],
       "image": { "fandom_wiki_image_path": "1/1b/Itm_material_bottle_potion_empty_02.png" }
     },
     {
@@ -459,6 +466,7 @@
       "id": 134,
       "category": "Material",
       "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
       ],
@@ -470,6 +478,7 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Naturalist" }
       ],
       "image": { "fandom_wiki_image_path": "2/2a/Itm_material_monster_blood.png" }
@@ -575,6 +584,7 @@
       "id": 154,
       "category": "Material",
       "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Naturalist" }
       ],
@@ -1378,7 +1388,7 @@
       "category": "Material",
       "license_amount": 1100,
       "source": [
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Research", "name": "Coastal" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
@@ -1393,9 +1403,10 @@
       "id": 251,
       "category": "Material",
       "source": [
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
-        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
       ],
       "image": { "fandom_wiki_image_path": "8/8d/Itm_material_tentacle_kraken.png" }
     },
@@ -3045,6 +3056,7 @@
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Bonefinger" },
         { "type": "Harvest", "kind": "item", "fragment": false, "name": "Scalebulb" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Naturalist" }
       ],
       "image": { "fandom_wiki_image_path": "f/f7/Itm_material_monster_bones.png" }
@@ -3156,6 +3168,7 @@
       "id": 429,
       "category": "Material",
       "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Naturalist" }
       ],
@@ -4352,6 +4365,7 @@
       "id": 539,
       "category": "Material",
       "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
@@ -4507,7 +4521,10 @@
       "name": "Seastone",
       "id": 554,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Archeology" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" }
+      ],
       "image": { "fandom_wiki_image_path": "9/93/Itm_material_rawgem_seastone.png" }
     },
     {
@@ -5231,9 +5248,10 @@
       "id": 629,
       "category": "Material",
       "source": [
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Crates" },
-        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" }
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Flooded Expedition" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
       ],
       "image": { "fandom_wiki_image_path": "0/04/Itm_material_eyenemone.png" }
     },

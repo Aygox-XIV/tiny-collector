@@ -82,6 +82,7 @@
       "category": "Material",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Coastal" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Coastal" }
       ],
       "image": { "fandom_wiki_image_path": "7/70/Itm_material_bottle_potion_empty_01.png" }
@@ -112,6 +113,7 @@
       "id": 883,
       "category": "Material",
       "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" },
         { "type": "Task", "kind": "item", "fragment": false, "subtype": "Outpost", "name": "Archeology" }
@@ -157,7 +159,10 @@
       "name": "Mnemonic Crystal",
       "id": 891,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "unlock", "fragment": false, "subtype": "Research", "name": "Archeology" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }
+      ],
       "image": { "fandom_wiki_image_path": "4/43/Itm_material_ancient_crystal.png" }
     },
     {
