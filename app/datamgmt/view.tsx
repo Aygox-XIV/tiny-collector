@@ -301,6 +301,17 @@ function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
     return updatedItemDb;
 }
 
+const CRAFTABLE_BUT_UNLICENSABLE = new Set([
+    122, // Sunsugar
+    196, // Enchanted Gingerbread Dough
+    202, // Evercold Crystals
+    372, // Enchanted Yarn
+    863, // Condensed Time
+    933, // Infinite Stock
+    935, // Swift Crafting
+    941, // Mushroom Soup
+]);
+
 /**
  * Checks whether there's any inconsistencies in the data:
  * - items with a recipe and sources, but no recipe source
@@ -310,7 +321,7 @@ function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
 function validateDbIntegrity(db: Database) {
     for (const item of Object.values(db.items)) {
         let hasRecipeSource = false;
-        const logPrefix = 'Item ' + item.id + ' (' + item.name + ') ';
+        const logPrefix = `Item ${item.id} (${item.name})`;
         for (const source of item.source || []) {
             validateSingleSource(item, source);
             if (source.kind == 'recipe') {
@@ -318,43 +329,38 @@ function validateDbIntegrity(db: Database) {
             }
         }
         if (!hasRecipeSource && item.recipe && item.source) {
-            console.warn(logPrefix + 'has a recipe but no known sources for it.');
+            console.warn(`${logPrefix} has a recipe but no known sources for it.`);
         }
         if (item.recipe) {
             if (!item.recipe.ingredient || item.recipe.ingredient.length == 0) {
-                console.warn(logPrefix + 'has a recipe with no ingredients');
+                console.warn(`${logPrefix} has a recipe with no ingredients`);
             }
             for (const ingredient of item.recipe.ingredient) {
                 const dbIngredient = db.items[ingredient.id];
                 if (!dbIngredient) {
                     console.warn(
-                        logPrefix + ' has an ingredient (' + ingredient.name + ') with invalid id ' + ingredient.id,
+                        `${logPrefix} has an ingredient (${ingredient.name}) with invalid id ${ingredient.id}`,
                     );
                 } else if (dbIngredient.name != ingredient.name) {
                     console.warn(
-                        logPrefix +
-                            'has an ingredient (' +
-                            ingredient.name +
-                            ') with id for a different item. The ID points to ' +
-                            dbIngredient.name,
+                        `${logPrefix} has an ingredient (${ingredient.name}) with id for a different item. The ID points to ${dbIngredient.name}`,
                     );
                 }
                 if (!ingredient.quantity || ingredient.quantity <= 0) {
                     console.warn(
-                        logPrefix +
-                            'has an ingredient (' +
-                            ingredient.name +
-                            ') with invalid quantity ' +
-                            ingredient.quantity,
+                        `${logPrefix} has an ingredient (${ingredient.name}) with invalid quantity ${ingredient.quantity}`,
                     );
                 }
             }
             if (!item.recipe.craft_amount || item.recipe.craft_amount <= 0) {
-                console.warn(logPrefix + 'has a recipe without craft amount');
+                console.warn(`${logPrefix} has a recipe without craft amount`);
+            }
+
+            if (item.license_amount == undefined && !CRAFTABLE_BUT_UNLICENSABLE.has(item.id)) {
+                console.warn(`${logPrefix} has a recipe but is unlicensable`);
             }
         }
-        // TODO: only some known small set of items has a recipe but is unlicensable
-        // TODO: only some known small-ish set of items is licenseable but has no recipe
+        // TODO?: only some known small-ish set of items is licenseable but has no recipe
         // TODO: subsequent event parts should have a source as well for non-task sources (barring some exceptions/bugs)
     }
 }
