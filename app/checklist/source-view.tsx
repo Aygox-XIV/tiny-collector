@@ -1,4 +1,3 @@
-import { BiInfoSquare } from 'react-icons/bi';
 import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
 import { changeStatus, useCollectedItem } from '../collection';
@@ -81,7 +80,10 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
         <div className={'droplist-item ' + collectionClass}>
             <KindIcon kind={drop.kind} />
             <FragmentIcon fragment={drop.fragment} />
-            <ItemName item={item} />
+            <NavLink to={'/catalog/' + drop.itemId}>
+                <ItemName item={item} />
+            </NavLink>
+            <div />
             {drop.kind == 'recipe' && item.recipe && (
                 <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />
             )}
@@ -91,9 +93,6 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
             {isCollectable(item) && (
                 <CollectableStatusIcon selected={collectedState.status.collected} onClick={toggleCollected} />
             )}
-            <NavLink to={'/catalog/' + drop.itemId}>
-                <BiInfoSquare />
-            </NavLink>
         </div>
     );
 };

@@ -1073,7 +1073,7 @@
         { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Once in a Dough Moon - Part 2" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }
       ],
-      "image": { "local_path": "/items/item_pain_au_chocolat.png" }
+      "image": { "fandom_wiki_image_path": "9/91/Pain_Au_Chocolat.png" }
     },
     {
       "name": "Chocolate Manju",
