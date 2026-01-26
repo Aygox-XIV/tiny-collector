@@ -1243,6 +1243,14 @@
       "name": "Timefound Softbread",
       "id": 1072,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Softbread Loaf", "quantity": 4, "id": 1064 },
+          { "name": "Arcane Extract", "quantity": 2, "id": 109 },
+          { "name": "Condensed Time", "quantity": 2, "id": 863 }
+        ],
+        "craft_amount": 4
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
       "image": { "local_path": "/items/item_timefound_softbread.png" }
     },
@@ -1868,7 +1876,8 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Paratemporal Breach" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Orthotemporal Breach" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Anomaly: Metatemporal Breach" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "9/95/Violet_Duck.png" }
     },
     {
       "name": "Sunscreen",
