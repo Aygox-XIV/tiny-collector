@@ -428,9 +428,14 @@ div.individual-sources {
 
 div.single-source {
   display: grid;
-  /* event icon (opt) - item/recipe icon - fragment icon (opt) - strings */
-  grid-template-columns: 20px 20px 20px auto 20px;
+  /* event icon (opt) - item/recipe icon - fragment icon (opt) - name - details-link */
+  grid-template-columns: 20px 20px 20px auto 30px;
   background-color: rgb(239, 221, 197);
+}
+
+.source-detail-link-icon {
+  height: 100%;
+  width: fit-content;
 }
 
 div.checklist-view {
@@ -548,9 +553,17 @@ div.source-details-droplist {
 
 div.droplist-item {
   display: grid;
-  grid-template-columns: 30px 30px auto 30px 50px;
+  /* kind | fragment | icon | name | padding | collection icon | padding */
+  grid-template-columns: 30px 30px 25px auto 20px 30px 50px;
   gap: 4px;
   background-color: rgb(239, 221, 197);
+  align-items: center;
+}
+
+.droplist-item-icon {
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
 }
 
 div.item-name {

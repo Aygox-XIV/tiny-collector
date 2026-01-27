@@ -1,8 +1,8 @@
-import { BiInfoSquare } from 'react-icons/bi';
 import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
 import { changeStatus, useCollectedItem } from '../collection';
 import { FragmentIcon } from '../common/fragmenticon';
+import { Icon } from '../common/icon';
 import { ItemName } from '../common/itemname';
 import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
@@ -81,7 +81,13 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
         <div className={'droplist-item ' + collectionClass}>
             <KindIcon kind={drop.kind} />
             <FragmentIcon fragment={drop.fragment} />
-            <ItemName item={item} />
+            <NavLink className="droplist-item-icon" to={'/catalog/' + drop.itemId}>
+                <Icon src={item.image} />
+            </NavLink>
+            <NavLink to={'/catalog/' + drop.itemId}>
+                <ItemName item={item} />
+            </NavLink>
+            <div />
             {drop.kind == 'recipe' && item.recipe && (
                 <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />
             )}
@@ -91,9 +97,6 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
             {isCollectable(item) && (
                 <CollectableStatusIcon selected={collectedState.status.collected} onClick={toggleCollected} />
             )}
-            <NavLink to={'/catalog/' + drop.itemId}>
-                <BiInfoSquare />
-            </NavLink>
         </div>
     );
 };

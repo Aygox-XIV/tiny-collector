@@ -158,7 +158,16 @@ export function getEventPhase(type?: EventType): number | undefined {
     }
 }
 
+const EVENT_CATEGORY_ORDER: Record<EventCategory, number> = {
+    [EventCategory.NoEvent]: 0,
+    [EventCategory.SunFestival]: 1,
+    [EventCategory.FloodedExpedition]: 2,
+    [EventCategory.PhantomIsle]: 3,
+    [EventCategory.EvercoldIsle]: 4,
+};
+
 export function sourceSortFn(a: Source, b: Source): number {
+    // Mission journeys go at the end
     const aIsMission = a.subtype == 'Mission';
     const bIsMission = b.subtype == 'Mission';
     if (aIsMission != bIsMission) {
@@ -171,11 +180,8 @@ export function sourceSortFn(a: Source, b: Source): number {
             return -1;
         } else if (bEventCat == EventCategory.NoEvent) {
             return 1;
-        } else if (aEventCat < bEventCat) {
-            // TODO: sun > flooded > phantom > evercold instead of alphabetical
-            return -1;
         } else {
-            return 1;
+            return EVENT_CATEGORY_ORDER[aEventCat] - EVENT_CATEGORY_ORDER[bEventCat];
         }
     }
     const aEventPhase = getEventPhase(a.subtype as EventType) || 0;
@@ -369,10 +375,19 @@ export function validateSingleSource(item: Item, source: Source) {
         case 'unlock':
             break;
         default:
-            console.warn('Bad kind (' + source.kind + ') for item ' + item.id);
+            console.warn(`Bad kind (${source.kind}) for item ${item.id}`);
     }
     if (source.kind == 'recipe' && !item.recipe) {
-        console.warn('Item ' + item.id + ' (' + item.name + ') has no recipe, but has a recipe source');
+        console.warn(`Item ${item.id} (${item.name}) has no recipe, but has a recipe source`);
+    }
+    if (source.fragment) {
+        switch (item.category) {
+            case 'Plant':
+                console.warn(
+                    `Unexpected fragment source for item ${item.id} (${item.name}) with category ${item.category}`,
+                );
+                break;
+        }
     }
     switch (source.type) {
         case SourceType.Battle:
@@ -384,19 +399,68 @@ export function validateSingleSource(item: Item, source: Source) {
                     break;
                 default:
                     console.warn(
-                        'Bad Battle source for ' +
-                            item.id +
-                            '; unexpected subtype ' +
-                            (source as UnknownSource).subtype,
+                        `Bad Battle source for ${item.id}; unexpected subtype ${(source as UnknownSource).subtype}`,
                     );
             }
             break;
-        // TODO: more
-        // e.g.:
-        // - journeys don't drop non-fragmented recipes
-        // - research only drops recipes or unlocks
-        // - medium & large weekly task chests don't drop fragments (small chests only drop fragments, minus the tokens)
-        // - yearly event task chests don't drop fragments
-        // - not all categories can drop as fragments (plants, maybe more?)
+        case SourceType.City:
+            if (source.subtype == 'Research') {
+                if (source.kind != 'recipe') {
+                    console.warn(
+                        `Bad City source for ${item.id} (${item.name}); unexpected kind ${source.kind} for Research`,
+                    );
+                }
+            }
+            break;
+        case SourceType.Outpost:
+            if (source.subtype == 'Research') {
+                if (source.kind != 'recipe' && source.kind != 'unlock') {
+                    console.warn(
+                        `Bad Outpost source for ${item.id} (${item.name}); unexpected kind ${source.kind} for Research`,
+                    );
+                }
+            }
+            break;
+        case SourceType.Journey:
+            if (source.kind == 'recipe') {
+                // the best info we have about some of the bone items is that their recipes drop directly
+                if (!source.fragment && ![432, 503, 505, 534].includes(item.id)) {
+                    console.warn(
+                        `Bad Journey source for ${item.id} (${item.name}); recipes should only drop as fragments`,
+                    );
+                }
+            }
+            break;
+        case SourceType.TaskChest:
+            switch (getEventCategory(source)) {
+                case EventCategory.FloodedExpedition:
+                case EventCategory.SunFestival:
+                    if (source.kind == 'recipe') {
+                        if (source.name?.toLowerCase()?.includes('small')) {
+                            if (!source.fragment) {
+                                console.warn(
+                                    `Bad TaskChest source for ${item.id} (${item.name}); weekly small chests only have fragmented recipes`,
+                                );
+                            }
+                        } else {
+                            if (source.fragment) {
+                                console.warn(
+                                    `Bad TaskChest source for ${item.id} (${item.name}); weekly medium & large chests only have complete recipes`,
+                                );
+                            }
+                        }
+                    }
+                    break;
+                case EventCategory.EvercoldIsle:
+                case EventCategory.PhantomIsle:
+                    if (source.fragment) {
+                        console.warn(
+                            `Bad TaskChest source for ${item.id} (${item.name}); yearly chests don't drop fragments`,
+                        );
+                    }
+                    break;
+            }
+            break;
+        // TODO: more?
     }
 }

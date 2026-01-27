@@ -1584,7 +1584,7 @@
       "id": 1253,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_blue_duck.png" }
+      "image": { "fandom_wiki_image_path": "0/0c/Blue_Duck.png" }
     },
     {
       "name": "Ruined Temple Wall",
