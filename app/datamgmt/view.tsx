@@ -360,6 +360,20 @@ function validateDbIntegrity(db: Database) {
                 console.warn(`${logPrefix} has a recipe but is unlicensable`);
             }
         }
+        if (item.image) {
+            if (item.image.fandom_wiki_image_path) {
+                if (!item.image.fandom_wiki_image_path.match('^./../[^/]*\.png$')) {
+                    console.warn(
+                        `${logPrefix} has an unexpected wiki image path format: ${item.image.fandom_wiki_image_path}`,
+                    );
+                }
+            }
+            if (item.image.local_path) {
+                if (!item.image.local_path.match('^/[a-z0-9_/]*\.png$')) {
+                    console.warn(`${logPrefix} has an unexpected local image path format: ${item.image.local_path}`);
+                }
+            }
+        }
         // TODO?: only some known small-ish set of items is licenseable but has no recipe
         // TODO: subsequent event parts should have a source as well for non-task sources (barring some exceptions/bugs)
     }

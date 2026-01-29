@@ -4866,7 +4866,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
-      "image": { "fandom_wiki_image_path": "/9/9c/Itm_gear_banana_cape.png" }
+      "image": { "fandom_wiki_image_path": "9/9c/Itm_gear_banana_cape.png" }
     },
     {
       "name": "Bana Leaves",
@@ -4938,7 +4938,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Bana Tree" }],
-      "image": { "fandom_wiki_image_path": "/3/3a/Itm_gear_banana_whip.png" }
+      "image": { "fandom_wiki_image_path": "3/3a/Itm_gear_banana_whip.png" }
     },
     {
       "name": "Wavy Cap",

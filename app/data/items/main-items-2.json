@@ -386,7 +386,6 @@
       "id": 1011,
       "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }],
-      "image": { "fandom_wiki_image_path": "/6/60/Itm_consumable_quindim.png" },
       "recipe": {
         "ingredient": [
           { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
@@ -395,7 +394,8 @@
         ],
         "craft_amount": 4
       },
-      "license_amount": 250
+      "license_amount": 250,
+      "image": { "fandom_wiki_image_path": "6/60/Itm_consumable_quindim.png" }
     },
     {
       "name": "Singing Hibis",
