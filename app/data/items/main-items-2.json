@@ -279,7 +279,8 @@
       },
       "source": [
         { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
-        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Something about dimensions - Part 5/5" }
       ]
     },
     {
@@ -305,7 +306,8 @@
       },
       "source": [
         { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
-        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Something about dimensions - Part 5/5" }
       ]
     },
     {
