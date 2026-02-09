@@ -5,8 +5,8 @@
       "id": 863,
       "category": "Material",
       "source": [
-        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock" },
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock - Part 3/5" },
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock - Part 3/5" }
       ],
       "recipe": {
         "ingredient": [
@@ -220,6 +220,7 @@
       "id": 1217,
       "category": "Plant",
       "source": [
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "Once in a Dough Moon - Part 4/4" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Metatemporal Breach" }
@@ -286,6 +287,7 @@
       "id": 934,
       "category": "Consumables",
       "license_amount": 50,
+      "source": [{ "type": "Shop Level", "kind": "unlock", "fragment": false, "name": "1" }],
       "image": { "fandom_wiki_image_path": "e/e4/Healing_Draught.png" }
     },
     {
@@ -351,7 +353,16 @@
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business As Usual - Part 7" }],
       "image": { "fandom_wiki_image_path": "d/d7/Mushroom_Soup.png" }
     },
-    { "name": "Faded Swift Crafting", "id": 942, "category": "Consumables", "image": { "fandom_wiki_image_path": "0/0e/Faded_Swift_Crafting.png" } },
+    {
+      "name": "Faded Swift Crafting",
+      "id": 942,
+      "category": "Consumables",
+      "source": [
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Operation: Thundershroom - Part 9/12" },
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Slife of Life - Part 1 - Part 3/5" }
+      ],
+      "image": { "fandom_wiki_image_path": "0/0e/Faded_Swift_Crafting.png" }
+    },
     {
       "name": "Faded Infinite Stock",
       "id": 943,
@@ -386,7 +397,6 @@
       "id": 1011,
       "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Koko Tree" }],
-      "image": { "fandom_wiki_image_path": "/6/60/Itm_consumable_quindim.png" },
       "recipe": {
         "ingredient": [
           { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
@@ -395,7 +405,8 @@
         ],
         "craft_amount": 4
       },
-      "license_amount": 250
+      "license_amount": 250,
+      "image": { "fandom_wiki_image_path": "6/60/Itm_consumable_quindim.png" }
     },
     {
       "name": "Singing Hibis",
@@ -1069,8 +1080,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Mission Reward", "kind": "recipe", "fragment": true, "name": "Once in a Dough Moon - Part 2" },
-        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Once in a Dough Moon - Part 2" },
+        { "type": "Mission Reward", "kind": "recipe", "fragment": true, "name": "Once in a Dough Moon - Part 2/4" },
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Once in a Dough Moon - Part 2/4" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }
       ],
       "image": { "fandom_wiki_image_path": "9/91/Pain_Au_Chocolat.png" }
@@ -1141,7 +1152,7 @@
       "name": "Retrotemporal Bread",
       "id": 1065,
       "category": "Consumables",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Beating the Clock - Part 5/5" }],
       "license_amount": 650,
       "recipe": {
         "ingredient": [
@@ -1405,6 +1416,14 @@
       "id": 1177,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
+      "recipe": {
+        "ingredient": [
+          { "name": "Summergreen Leaves", "quantity": 2, "id": -1 },
+          { "name": "Everspring Leaves", "quantity": 2, "id": -1 },
+          { "name": "Purified Water", "quantity": 2, "id": 110 }
+        ],
+        "craft_amount": 4
+      },
       "image": { "local_path": "/items/item_matcha.png" }
     },
     {
@@ -1522,7 +1541,13 @@
       },
       "image": { "fandom_wiki_image_path": "7/70/Fungal_Steak.png" }
     },
-    { "name": "Bronze Sword", "id": 1100, "category": "Gear", "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" } },
+    {
+      "name": "Bronze Sword",
+      "id": 1100,
+      "category": "Gear",
+      "source": [{ "type": "Shop Level", "kind": "unlock", "fragment": false, "name": "1" }],
+      "image": { "fandom_wiki_image_path": "9/9f/Bronze_Sword.png" }
+    },
     {
       "name": "Emerald Shield",
       "id": 1138,
@@ -1795,7 +1820,7 @@
       "name": "Timefound Kettle",
       "id": 1160,
       "category": "Gear",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon - Part 4" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon - Part 4/4" }],
       "license_amount": 750,
       "recipe": {
         "ingredient": [
@@ -1811,7 +1836,7 @@
       "name": "Coffee Machine",
       "id": 1161,
       "category": "Gear",
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon - Part 4" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Once in a Dough Moon - Part 4/4" }],
       "license_amount": 750,
       "recipe": {
         "ingredient": [

@@ -1789,7 +1789,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 100 items of the Masks category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d5/Monster_Fizz_Original.png" }
     },
     {
       "name": "Bloodberry Ice Cream",
@@ -1850,7 +1851,8 @@
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 Essence of Undeath" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/12/Cultist_Brochures.png" }
     },
     {
       "name": "Blue Haze",
@@ -1868,7 +1870,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 80 items of the Food category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/d4/Blue_Haze.png" }
     },
     {
       "name": "Cursed Pumpkin Ice Cream",
@@ -1902,7 +1905,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 80 items of the Cursed category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "c/c9/Spirit_Smash.png" }
     },
     {
       "name": "Cult Torch",
@@ -1935,7 +1939,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
+      "image": { "fandom_wiki_image_path": "4/48/Headless_Spring.png" }
     },
     {
       "name": "Spectral Noodle",
@@ -2049,7 +2054,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
+      "image": { "fandom_wiki_image_path": "9/90/Ghostly_Mary.png" }
     },
     {
       "name": "Monster Fizz Bloodberry",
@@ -2067,7 +2073,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Craft 120 items of the Event category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a5/Monster_Fizz_Bloodberry.png" }
     },
     {
       "name": "Cursed Bana Ice Cream",
@@ -2101,7 +2108,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 200 items of the Cursed category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "6/66/Shadow_Libre.png" }
     },
     {
       "name": "Monster Fizz Pumpkin",
@@ -2119,7 +2127,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150 items of the Cookies category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/0c/Monster_Fizz_Pumpkin.png" }
     },
     {
       "name": "Cult Barbecue",
@@ -2199,7 +2208,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 120 of the 'Right' category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/e2/Tombstone_Blues.png" }
     },
     {
       "name": "Monster Fizz Spectral",
@@ -2217,7 +2227,8 @@
       },
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 100 items of the Masks category!" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "e/e8/Monster_Fizz_Spectral.png" }
     },
     {
       "name": "Monster Mucus",
@@ -2233,7 +2244,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }],
+      "image": { "fandom_wiki_image_path": "f/fc/Monster_Mucus.png" }
     },
     {
       "name": "Bubbling Sunset",
@@ -2249,7 +2261,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }],
+      "image": { "fandom_wiki_image_path": "c/c7/Bubbling_Sunset.png" }
     },
     {
       "name": "Black Bayou",
@@ -2273,7 +2286,8 @@
           "subtype": "Phantom Isle (part 3)",
           "name": "Sell 125 items of the Masks category!"
         }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "a/a2/Black_Bayou.png" }
     },
     {
       "name": "Smash Fizz",
@@ -2289,7 +2303,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }],
+      "image": { "fandom_wiki_image_path": "4/42/Smash_Fizz.png" }
     },
     {
       "name": "Koko Loco",
@@ -2303,7 +2318,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }]
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }],
+      "image": { "fandom_wiki_image_path": "1/11/Koko_Loco.png" }
     },
     {
       "name": "Pumpkin",
