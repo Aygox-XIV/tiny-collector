@@ -45,6 +45,13 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
                 </div>
             );
         case SourceType.EventMarket:
+            if (source.name) {
+                return (
+                    <div>
+                        {source.name} from the {source.subtype} event market.
+                    </div>
+                );
+            }
             return <div>Buy from the {source.subtype} event market.</div>;
         case SourceType.Feat:
             return (
@@ -57,7 +64,6 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
                 </div>
             );
         case SourceType.Harvest:
-            // TODO: link to plant item
             return <div>{source.name}</div>;
         case SourceType.Journey:
             return <div>{source.name}</div>;
@@ -84,7 +90,11 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
         case SourceType.Task:
             switch (source.subtype) {
                 case 'Outpost':
-                    return <div>Complete tasks from any outpost with a {source.name} occupation</div>;
+                    return (
+                        <div>
+                            Complete tasks from <OutpostDescription type={source.name!} tooltipId={tooltipId} />
+                        </div>
+                    );
                 case 'Daily':
                     return <div>Reward from daily tasks.</div>;
                 default:
