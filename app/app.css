@@ -638,7 +638,7 @@ div.icon-desc {
   display: flex;
   align-items: center;
 }
-div.section-desc > p > ul {
+div.section-desc > span > ul {
   padding-left: 15px;
 }
 div.event-desc {

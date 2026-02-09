@@ -5,9 +5,11 @@ import { ItemName } from '../common/itemname';
 import { ProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase } from '../database/database';
+import { isRecipeMissing } from './filtercontext';
 
 export interface CatalogItemProps {
     readonly id: string;
+    // Whether the current location in the catalog is a guess (adds an extra css class)
     readonly guess?: boolean;
 }
 
@@ -20,7 +22,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
         return <div className="catalog-item empty-item" />;
     }
     let collectionStateClass = '';
-    if (!item.source || item.source.length == 0) {
+    if (!item.source || item.source.length == 0 || isRecipeMissing(item)) {
         collectionStateClass = ' missing-source';
     } else if (
         (collectedState.status.haveRecipe && collectedState.status.licensed) ||
