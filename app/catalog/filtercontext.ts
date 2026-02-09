@@ -34,7 +34,8 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
             filter.hideUnknown ||
             filter.hideUnlicensable ||
             hasNameFilter ||
-            (filter.hiddenCategories && filter.hiddenCategories.size > 0)
+            (filter.hiddenCategories && filter.hiddenCategories.size > 0) ||
+            filter.showOnlyMissingData
         ) {
             return false;
         }
@@ -57,10 +58,11 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
             return false;
         }
     }
-    if (filter.hideUnknown && (!item.source || item.source.length == 0)) {
+    const missingRecipe = isRecipeMissing(item);
+    if (filter.hideUnknown && (!item.source || item.source.length == 0 || missingRecipe)) {
         return false;
     }
-    if (filter.showOnlyMissingData && item.source && item.image) {
+    if (filter.showOnlyMissingData && item.source && item.image && !missingRecipe) {
         return false;
     }
     if (filter.hiddenCategories?.has(item.category)) {
@@ -77,4 +79,8 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
         }
     }
     return true;
+}
+
+export function isRecipeMissing(item: Item) {
+    return !item.recipe && item.source && item.source.find((s) => s.kind == 'recipe');
 }

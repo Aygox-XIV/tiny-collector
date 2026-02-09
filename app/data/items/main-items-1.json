@@ -5753,7 +5753,7 @@
       "category": "Plant",
       "source": [
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" },
-        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 6/6" }
+        { "type": "Mission Reward", "kind": "unlock", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 6/6" }
       ],
       "image": { "fandom_wiki_image_path": "5/54/Bana_Tree_%28Seed%29.png" }
     },

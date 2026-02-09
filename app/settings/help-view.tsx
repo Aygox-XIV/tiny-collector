@@ -10,7 +10,7 @@ export default function HelpView({ params, matches }: Route.ComponentProps) {
         <div className="help-view center-content">
             <div className="section-desc">
                 <h3>Catalog</h3>
-                <p>
+                <span>
                     Shows all items available in the game, and lets you mark off collection status by clicking the
                     relevant icons on each item:
                     <div className="icon-desc">
@@ -40,14 +40,15 @@ export default function HelpView({ params, matches }: Route.ComponentProps) {
                             one, have licensed it if it is licensable, or have marked it as collected if it is neither)
                         </li>
                         <li>
-                            Red: there is no documented source for this item. (please report it in the Discord's
-                            #wiki-project channel if you found where it's from!)
+                            Red: there is no documented source for this item, or there is a known recipe source but no
+                            documented recipe. (please report it in the Discord's #wiki-project channel if you found
+                            where it's from or have the recipe!)
                         </li>
                     </ul>
                     The border may be dashed red if it's not 100% certain where in the catalog the item is placed, for
                     situations where the recipe fragment drops are rare and the silhouettes are too similar.
-                </p>
-                <p>
+                </span>
+                <span>
                     Use the menu on the left and the search box to change which items are displayed:
                     <div className="sub-desc">
                         Click a Catalog Type icon to change which set of items is being displayed:
@@ -67,17 +68,17 @@ export default function HelpView({ params, matches }: Route.ComponentProps) {
                             <Icon src={db.catalogs[CatalogType.FloodedCatalog].icon} /> shows the items in, and in the
                             same order as, the Flooded Expedition's Catalog ([i] on the event tasks page) in the game.
                             After the catalog-included items are the items that are obtainable through battles (which
-                            aren't included in the in-game event atalog even though they are event-specific)
+                            aren't included in the in-game event catalog even though they are event-specific)
                         </div>
                         <div className="event-desc">
                             <Icon src={db.catalogs[CatalogType.PhantomCatalog].icon} /> shows the subset of items from
                             the main Catalog that are only available during the Phantom Isle (Halloween) yearly event.
-                            The items are sorted and placed based on their location in the main ctalog.
+                            The items are sorted and placed based on their location in the main catalog.
                         </div>
                         <div className="event-desc">
                             <Icon src={db.catalogs[CatalogType.EvercoldCatalog].icon} /> shows the subset of items from
                             the main Catalog that are only available during the Evercold Isle ('Winter') yearly event.
-                            The items are sorted and placed based on their location in the main ctalog.
+                            The items are sorted and placed based on their location in the main catalog.
                         </div>
                     </div>
                     <div className="sub-desc">
@@ -96,7 +97,7 @@ export default function HelpView({ params, matches }: Route.ComponentProps) {
                         view. (hold Alt while clicking his option to toggle <i>only</i> seeing items with missing data,
                         including items with missing icons)
                     </div>
-                </p>
+                </span>
             </div>
             <div className="section-desc">
                 <h3>License Calculator</h3>
