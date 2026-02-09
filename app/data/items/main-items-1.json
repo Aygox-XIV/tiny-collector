@@ -3372,6 +3372,7 @@
         "craft_amount": 2
       },
       "source": [
+        { "type": "Shop Level", "kind": "unlock", "fragment": false, "name": "1" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Trading" }
       ],

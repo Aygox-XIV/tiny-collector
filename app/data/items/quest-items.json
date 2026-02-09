@@ -141,7 +141,13 @@
       "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Culinary Inspiration - Part 4" }],
       "image": { "fandom_wiki_image_path": "f/fd/Clockwork_Jelly.png" }
     },
-    { "name": "Intact Bakeromancy Pages", "id": 842, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    {
+      "name": "Intact Bakeromancy Pages",
+      "id": 842,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "By The Book" }],
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" }
+    },
     { "name": "Questionable Cult Brochure", "id": 843, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
     { "name": "Oversized Note", "id": 844, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
     {
@@ -156,21 +162,30 @@
       "name": "Outpost Plan: Trading",
       "id": 848,
       "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "An Important Announcement - Part 6/7" }],
       "image": { "fandom_wiki_image_path": "6/68/Quest_outpost_schema_trading.png" }
     },
     {
       "name": "Outpost Plan: Coastal",
       "id": 849,
       "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Goen Fishin' - Part 6/7" }],
       "image": { "fandom_wiki_image_path": "a/ac/Quest_outpost_schema_fishing.png" }
     },
     {
       "name": "Outpost Plan: Naturalist",
       "id": 850,
       "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "100% Natural - Part 4/5" }],
       "image": { "fandom_wiki_image_path": "8/89/Quest_outpost_schema_naturalist.png" }
     },
-    { "name": "Observations Report", "id": 851, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    {
+      "name": "Observations Report",
+      "id": 851,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "An Important Announcement - Part ?/7" }],
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" }
+    },
     {
       "name": "Outpost Plan: Archeology",
       "id": 852,
@@ -196,13 +211,14 @@
       "name": "Curious Illustrated Page",
       "id": 855,
       "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "An Ancient Game - Part 1/5" }],
       "image": { "fandom_wiki_image_path": "4/48/Curious_Illustrated_Page.png" }
     },
     {
       "name": "Rulebook in Shambles",
       "id": 856,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "An Ancient Game - Part III" }],
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "An Ancient Game - Part 3/5" }],
       "image": { "fandom_wiki_image_path": "7/74/Rulebook_In_Shambles.png" }
     },
     {
@@ -249,27 +265,67 @@
       "name": "Wing Shaped Fragment",
       "id": 860,
       "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Crystal Clear - Part I - Part 1/4" }],
       "image": { "fandom_wiki_image_path": "2/27/Itm_mat_quest_piezorite_fragment.png" }
     },
     {
       "name": "Strange Loaf",
       "id": 861,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "On the Dot - Part I" }],
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "On the Dot - Part I - Part 1/5" }],
       "image": { "fandom_wiki_image_path": "3/31/Retrotemporal_Bread.png" }
     },
-    { "name": "Strange Looking Plants", "id": 862, "category": "Quest", "image": { "fandom_wiki_image_path": "1/12/Time_Stalk.png" } },
+    {
+      "name": "Strange Looking Plants",
+      "id": 862,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock" }],
+      "image": { "fandom_wiki_image_path": "1/12/Time_Stalk.png" }
+    },
     {
       "name": "Condensed Time",
       "id": 1311,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock - Part III" }],
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Beating the Clock" }],
       "image": { "fandom_wiki_image_path": "d/d2/Condensed_Time.png" }
     },
-    { "name": "Where's My Kitty?", "id": 1167, "category": "Quest", "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" } },
-    { "name": "Where's My Kitty?", "id": 1168, "category": "Quest", "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" } },
-    { "name": "Where's My Kitty?", "id": 1169, "category": "Quest", "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" } },
-    { "name": "Where's My Kitty?", "id": 1170, "category": "Quest", "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" } },
-    { "name": "Where's My Kitty?", "id": 1171, "category": "Quest", "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" } }
+    {
+      "name": "Where's My Kitty?",
+      "id": 1167,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Where's My Kitty?" }],
+      "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" }
+    },
+    {
+      "name": "Where's My Kitty?",
+      "id": 1168,
+      "category": "Quest",
+      "source": [{ "type": "Feat", "kind": "item", "fragment": false, "name": "Cheesemaster" }],
+      "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" }
+    },
+    {
+      "name": "Where's My Kitty?",
+      "id": 1169,
+      "category": "Quest",
+      "source": [
+        { "type": "Mission Reward", "kind": "item", "fragment": true, "name": "Where's My Kitty?" },
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" }
+      ],
+      "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" }
+    },
+    {
+      "name": "Where's My Kitty?",
+      "id": 1170,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Where's My Kitty?" }],
+      "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" }
+    },
+    {
+      "name": "Where's My Kitty?",
+      "id": 1171,
+      "category": "Quest",
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Where's My Kitty?" }],
+      "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" }
+    }
   ]
 }
