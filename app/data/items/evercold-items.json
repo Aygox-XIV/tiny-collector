@@ -2473,6 +2473,7 @@
       "category": "Plant",
       "image": { "fandom_wiki_image_path": "d/de/Dwarf_Cocoa_Seed_%28Seed%29.png" },
       "source": [
+        { "type": "Task Chest", "kind": "unlock", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" },
         { "type": "City", "subtype": "Shop", "kind": "item", "fragment": false, "name": "Lily's Garden" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" },
