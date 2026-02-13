@@ -328,8 +328,14 @@ function createDB(files: FileCollection): Database {
         });
     });
 
-    console.log('created db: ' + Object.keys(items).length + ' items');
-    console.log(maxId + 1 + ' is the next available id');
+    console.log(`created db: ${Object.keys(items).length} items`);
+    let itemCounts = {} as Record<Category, number>;
+    Object.values(items).forEach((i) => {
+        itemCounts[i.category] = (itemCounts[i.category] || 0) + 1;
+    });
+    console.log(`distribution: ${JSON.stringify(itemCounts)}`);
+    console.log(`${Object.values(items).filter((i) => i.license_amount).length} are licensable`);
+    console.log(`${maxId + 1}  is the next available id`);
 
     return { items, catalogs, sources, maxIdOnFirstLoad: maxId };
 }

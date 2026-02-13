@@ -1252,6 +1252,15 @@
       "name": "Timefound Loaf",
       "id": 1174,
       "category": "Consumables",
+      "license_amount": 650,
+      "recipe": {
+        "ingredient": [
+          { "name": "Softbread Loaf", "quantity": 4, "id": 1064 },
+          { "name": "Arcane Extract", "quantity": 2, "id": 109 },
+          { "name": "Condensed Time", "quantity": 2, "id": 863 }
+        ],
+        "craft_amount": 4
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
       "image": { "local_path": "/items/item_timefound_loaf_square.png" }
     },
