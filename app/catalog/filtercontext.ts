@@ -17,6 +17,8 @@ export interface CatalogFilter {
     readonly nameMatch?: string;
 }
 
+// TODO: show items not in any catalog
+
 export type CatalogFilterState = [CatalogFilter, Dispatch<SetStateAction<CatalogFilter>>];
 
 export const CatalogFilterContext = createContext<CatalogFilterState>([{}, () => undefined]);

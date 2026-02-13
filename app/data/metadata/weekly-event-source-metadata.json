@@ -21,6 +21,7 @@
     { "type": "Task Chest", "subtype": "Sun Festival", "name": "Large Chest (36 tasks)", "src": { "fandom_wiki_image_path": "b/b3/Chest.png" } },
     { "type": "Event Market", "subtype": "Sun Festival" },
     { "type": "Event Market", "subtype": "Sun Festival", "name": "Spices Crate", "src": { "fandom_wiki_image_path": "7/72/Spices_Crate.png" } },
+    { "type": "Event Market", "subtype": "Sun Festival", "name": "Greens Crate", "src": { "fandom_wiki_image_path": "7/72/Spices_Crate.png" } },
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Sunny Bundle" },
     { "type": "Premium Pack", "subtype": "Sun Festival", "name": "Croissant Bundle" },
 
