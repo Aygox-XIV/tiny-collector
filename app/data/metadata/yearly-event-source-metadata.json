@@ -208,14 +208,42 @@
       "name": "Scarecrow",
       "src": { "fandom_wiki_image_path": "f/f6/Itm_mat_figurine_scarecrow.png" }
     },
-    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
-    { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Cursemage",
+      "src": { "local_path": "/sources/battle/source-battle-cursemage.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Cursemage",
+      "src": { "local_path": "/sources/battle/source-battle-cursemage.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Cursed Healer",
+      "src": { "local_path": "/sources/battle/source-battle-cursed-healer.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Cursed Healer",
+      "src": { "local_path": "/sources/battle/source-battle-cursed-healer.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 2)",
+      "name": "Ectoknight",
+      "src": { "local_path": "/sources/battle/source-battle-ectoknight.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Phantom Isle (part 3)",
+      "name": "Ectoknight",
+      "src": { "local_path": "/sources/battle/source-battle-ectoknight.png" }
+    },
     {
       "type": "Battle",
       "subtype": "Phantom Isle (part 2)",

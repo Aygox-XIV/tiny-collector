@@ -58,7 +58,12 @@
       "name": "Barrel Mimic",
       "src": { "fandom_wiki_image_path": "8/81/Itm_mat_fig_mimic_barrel.png" }
     },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Overgrown Barrel Mimic",
+      "src": { "local_path": "/sources/battle/source-battle-overgrown-mimic.png" }
+    },
     {
       "type": "Battle",
       "subtype": "Flooded Expedition",
@@ -97,7 +102,12 @@
       "name": "Coral Praetorian",
       "src": { "fandom_wiki_image_path": "a/a0/Itm_mat_fig_crab_praetorian.png" }
     },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Overgrown Praetorian" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Overgrown Praetorian",
+      "src": { "local_path": "/sources/battle/source-battle-overgrown-praetorian.png" }
+    },
     { "type": "Battle", "subtype": "Flooded Expedition", "name": "Kelpish", "src": { "fandom_wiki_image_path": "0/00/Itm_mat_fig_kelp.png" } },
     {
       "type": "Battle",

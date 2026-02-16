@@ -257,6 +257,7 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                 <div>
                     <EventSubtypeDetails source={source} />
                     Reward from {source.name}
+                    <DetailImage src={details.imageSrc} />
                 </div>
             );
         default:

@@ -661,10 +661,10 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Will O' Wisp" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Will O' Wisp" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
       ],
@@ -686,8 +686,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" }
       ],
@@ -874,8 +874,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Zombie" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Zombie" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
       ],
       "image": { "fandom_wiki_image_path": "f/f8/Itm_gear_amulet_gravewarden.png" }
@@ -897,8 +897,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
       ],
       "image": { "fandom_wiki_image_path": "4/40/Itm_gear_armor_gravewarden.png" }
@@ -919,8 +919,8 @@
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursedconut Tree" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursedconut Tree" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
       ],
       "image": { "fandom_wiki_image_path": "7/7c/Itm_gear_gauntlet_gravewarden.png" }
@@ -987,8 +987,8 @@
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Animated Tombstone" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Soulfire Tombstone" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Soulfire Tombstone" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
         { "type": "Shifty", "kind": "recipe", "fragment": false, "name": "Gravewarden Crate" }
       ],
       "image": { "fandom_wiki_image_path": "1/16/Itm_gear_shield_gravewarden.png" }
@@ -1427,11 +1427,11 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" }
       ],
       "image": { "fandom_wiki_image_path": "b/bd/Darkbloom_Necklace.png" }
     },
@@ -1450,11 +1450,11 @@
       },
       "source": [
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
         { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" }
       ],
       "image": { "fandom_wiki_image_path": "2/21/Darkbloom_Headband.png" }
     },
@@ -1551,8 +1551,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" }
       ],
       "image": { "fandom_wiki_image_path": "8/8f/Darkbloom_Chakram.png" }
     },
@@ -1589,8 +1589,8 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" }
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" }
       ],
       "image": { "fandom_wiki_image_path": "d/d8/Darkbloom_Sword.png" }
     },
@@ -2496,10 +2496,10 @@
       "source": [
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Scarecrow" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Scarecrow" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Mage" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Knight" },
-        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Knight" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursemage" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Ectoknight" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Ectoknight" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Cursed Healer" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Cursed Healer" },
         { "type": "Event Market", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 2)" },
