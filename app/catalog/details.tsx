@@ -26,7 +26,6 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     };
 
     // TODO: describe best way to report new findings when no sources are listed
-    // TODO: recipe next to the icon, items link to item details
     return (
         <div className="details-panel">
             <ItemName item={item} />

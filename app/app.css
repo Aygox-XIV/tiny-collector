@@ -9,6 +9,7 @@
 html,
 body {
   background-color: rgb(150, 116, 76);
+  height: 100%;
 }
 
 main {
@@ -32,21 +33,23 @@ div {
 }
 
 div.content {
-  height: 100vh;
+  height: 100%;
   display: grid;
+  /* title > menu > content > footer */
   grid-template-rows: 50px 50px auto 20px;
   padding: 0px;
 }
 
 div.menu-bar {
   display: grid;
-  grid-template-columns: repeat(6, 200px);
+  grid-template-columns: repeat(5, 1fr);
   gap: 5px;
 }
 
 .header {
   display: grid;
   align-items: center;
+  /* title > Note */
   grid-template-columns: auto 300px;
 }
 
@@ -57,6 +60,7 @@ div.menu-bar {
 div.menu-item {
   text-align: center;
   vertical-align: middle;
+  max-width: 200px;
 }
 
 div.menu-item > a.active {
@@ -77,7 +81,6 @@ div.footer > a {
 /* TODO: standardize colors more. */
 
 div.vert-filter-bar {
-  max-height: calc(100lvh - 120px);
   background-color: rgb(187, 156, 119);
   overflow-y: auto;
   border-radius: 0px;
@@ -90,8 +93,10 @@ div.toggle-row {
 
 div.center-content {
   max-height: 100%;
+  min-width: 400px;
   background-color: bisque;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
 div.license-view {
@@ -118,15 +123,16 @@ div.settings-group {
 
 div.catalog-view {
   display: grid;
-  grid-template-columns: 150px auto 600px;
+  /* filter > catalog items > details panel */
+  grid-template-columns: 150px auto max(250px, min(600px, 30dvw));
   background-color: antiquewhite;
-  max-height: calc(100vh - 120px);
-  height: calc(100vh - 120px);
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
   padding: 0px;
 }
 
 div.catalog-filter {
-  max-height: calc(100lvh - 120px);
   background-color: rgb(187, 156, 119);
   padding: 3px;
   border-radius: 0px;
@@ -168,9 +174,11 @@ svg.selected {
 div.catalog {
   display: grid;
   grid-template-rows: 50px auto;
-  max-height: calc(100vh - 120px);
+  overflow-y: hidden;
   background-color: bisque;
   padding: 0px;
+  border-radius: 0px;
+  min-width: 400px;
 }
 
 div.search-bar {
@@ -210,10 +218,11 @@ div.catalog-search-content {
 
 div.catalog-content {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 200px);
   grid-template-rows: auto-fit;
   padding: 15px;
   gap: 20px;
+  overflow-x: auto;
 }
 
 div.catalog-item {
@@ -386,7 +395,6 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 div.details-panel {
-  max-height: calc(100lvh - 120px);
   overflow-x: auto;
   overflow-y: auto;
 }
@@ -435,20 +443,23 @@ div.single-source {
 
 .source-detail-link-icon {
   height: 100%;
+  max-height: 30px;
   width: fit-content;
 }
 
 div.checklist-view {
   display: grid;
-  grid-template-columns: 150px 150px auto 600px;
+  /* event > category > list > detail */
+  grid-template-columns: max(75px, min(150px, 10dvw)) max(75px, min(150px, 12dvw)) auto max(250px, min(600px, 30dvw));
   background-color: antiquewhite;
-  max-height: calc(100vh - 120px);
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
   column-gap: 1px;
   padding: 0px;
 }
 
 div.event-filter {
-  max-height: calc(100lvh - 120px);
   background-color: rgb(187, 156, 119);
   padding: 3px;
   border-radius: 0px;
@@ -514,6 +525,7 @@ div.checklist-source-entry {
 div.source-details-panel {
   max-height: 100%;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
 div.source-details-type {
@@ -521,6 +533,7 @@ div.source-details-type {
   gap: 20px;
   align-items: center;
   margin-bottom: 10px;
+  overflow-x: auto;
 }
 
 div.source-details-type > .source-icon {
@@ -598,7 +611,6 @@ div.license-materials-list {
 
 div.license-item-list {
   padding: 10px;
-  max-height: calc(100lvh - 120px);
   overflow-y: auto;
   background-color: antiquewhite;
 }

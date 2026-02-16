@@ -102,7 +102,9 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
                     }
                 >
                     <EventIcon showEventPhase={true} type={getEventType(details.source)} tooltipId="no-tooltip" />
-                    <SourceName source={details.source} disableLinks={true} />
+                    <div className="source-name">
+                        <SourceName source={details.source} disableLinks={true} />
+                    </div>
                     <div className="drop-detail">
                         {collectedDrops} / {details.drops.length}
                     </div>
