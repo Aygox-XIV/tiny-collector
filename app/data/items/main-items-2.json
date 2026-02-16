@@ -544,7 +544,8 @@
           { "name": "Fresh Milk", "quantity": 2, "id": 121 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item-fiery-brioche.png" }
     },
     {
       "name": "Ashen Brioche",
@@ -604,7 +605,8 @@
           { "name": "Drakegull Meat", "quantity": 4, "id": 177 }
         ],
         "craft_amount": 4
-      }
+      },
+      "image": { "local_path": "/items/item-ham-croissant.png" }
     },
     {
       "name": "Blue Tower Jam",
@@ -772,7 +774,8 @@
           { "name": "Archipelago Greens", "quantity": 1, "id": 184 }
         ],
         "craft_amount": 2
-      }
+      },
+      "image": { "local_path": "/items/item-sandwich-snack.png" }
     },
     {
       "name": "Fiery Sandwich",
@@ -793,7 +796,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
-      ]
+      ],
+      "image": { "local_path": "/items/item-fiery-sandwich.png" }
     },
     {
       "name": "Parmimigiano",
@@ -1856,7 +1860,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
+      "image": { "local_path": "/items/item-sunstriker.png" }
     },
     {
       "name": "Timefound Kettle",
@@ -1933,7 +1938,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
-      ]
+      ],
+      "image": { "local_path": "/items/item-aetheric-salt.png" }
     },
     {
       "name": "Decor: Violet Duck",
@@ -1959,7 +1965,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }]
+      "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
+      "image": { "local_path": "/items/item-sunscreen.png" }
     },
     {
       "name": "Jam Waffles",
