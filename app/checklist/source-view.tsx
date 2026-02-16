@@ -214,9 +214,19 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
             );
         case SourceType.Shifty:
             if (source.name) {
-                return <div>Exchange for the "{source.name}" at Shifty's Bazaar</div>;
+                return (
+                    <div>
+                        Exchange for the "{source.name}" at Shifty's Bazaar
+                        <DetailImage src={details.imageSrc} />
+                    </div>
+                );
             } else {
-                return <div>Exchange directly at Shifty's Bazaar</div>;
+                return (
+                    <div>
+                        Exchange directly at Shifty's Bazaar
+                        <DetailImage src={details.imageSrc} />
+                    </div>
+                );
             }
         case SourceType.ShopLevel:
             return <div>Rewards for reaching Shop Level {source.name}</div>;
