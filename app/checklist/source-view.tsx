@@ -1,5 +1,6 @@
 import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
+import { Tooltip } from 'react-tooltip';
 import { changeStatus, useCollectedItem } from '../collection';
 import { FragmentIcon } from '../common/fragmenticon';
 import { Icon } from '../common/icon';
@@ -58,6 +59,8 @@ interface DropDetailProps {
     readonly drop: DropDetail;
 }
 
+const DROP_TOOLTIP = 'drop-tooltip';
+
 const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
     const db = useDatabase();
     const collectedState = useCollectedItem(drop.itemId);
@@ -79,8 +82,9 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
     const collectionClass = collected ? 'collected' : 'uncollected';
     return (
         <div className={'droplist-item ' + collectionClass}>
-            <KindIcon kind={drop.kind} />
-            <FragmentIcon fragment={drop.fragment} />
+            <Tooltip id={DROP_TOOLTIP} />
+            <KindIcon kind={drop.kind} tooltipId={DROP_TOOLTIP} />
+            <FragmentIcon fragment={drop.fragment} tooltipId={DROP_TOOLTIP} />
             <NavLink className="droplist-item-icon" to={'/catalog/' + drop.itemId}>
                 <Icon src={item.image} />
             </NavLink>
@@ -89,13 +93,25 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
             </NavLink>
             <div />
             {drop.kind == 'recipe' && item.recipe && (
-                <RecipeStatusIcon selected={collectedState.status.haveRecipe} onClick={toggleRecipe} />
+                <RecipeStatusIcon
+                    selected={collectedState.status.haveRecipe}
+                    onClick={toggleRecipe}
+                    tooltipId={DROP_TOOLTIP}
+                />
             )}
             {drop.kind == 'item' && item.license_amount && (
-                <LicenseStatusIcon selected={collectedState.status.licensed} onClick={toggleLicense} />
+                <LicenseStatusIcon
+                    selected={collectedState.status.licensed}
+                    onClick={toggleLicense}
+                    tooltipId={DROP_TOOLTIP}
+                />
             )}
             {isCollectable(item) && (
-                <CollectableStatusIcon selected={collectedState.status.collected} onClick={toggleCollected} />
+                <CollectableStatusIcon
+                    selected={collectedState.status.collected}
+                    onClick={toggleCollected}
+                    tooltipId={DROP_TOOLTIP}
+                />
             )}
         </div>
     );

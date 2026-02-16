@@ -306,7 +306,7 @@
       "name": "Where's My Kitty?",
       "id": 1168,
       "category": "Quest",
-      "source": [{ "type": "Feat", "kind": "item", "fragment": false, "name": "Cheesemaster" }],
+      "source": [{ "type": "Feat", "kind": "item", "fragment": false, "name": "Cheesemaster", "level": 2 }],
       "image": { "fandom_wiki_image_path": "2/2a/Where%27s-My-Kitty.png" }
     },
     {
