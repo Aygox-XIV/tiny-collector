@@ -81,7 +81,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                 </div>
             </div>
             {filteredItems.length > 0 && (
-                <div className="catalog-content center-content">
+                <div className="center-content catalog-content">
                     {filteredItems.map((rawId) => {
                         let id = rawId;
                         let guess = false;
@@ -93,9 +93,7 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                     })}
                 </div>
             )}
-            {filteredItems.length == 0 && (
-                <div className="catalog-content center-content">No items match the filter conditions.</div>
-            )}
+            {filteredItems.length == 0 && <div className="center-content">No items match the filter conditions.</div>}
         </div>
     );
 };

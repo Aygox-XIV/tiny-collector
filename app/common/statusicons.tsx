@@ -6,9 +6,10 @@ import { useAppDispatch } from '../store';
 
 export interface StatusIconProps {
     readonly id: string;
+    readonly tooltipId?: string;
 }
 
-export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
+export const StatusIcons: React.FC<StatusIconProps> = ({ id, tooltipId }) => {
     const status = useCollectedItem(id).status;
     const dispatch = useAppDispatch();
     const dbItem = useDatabase().items[id];
@@ -26,14 +27,20 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
         dispatch(changeStatus({ id, status: { ...status, collected: !status.collected } }));
     }
 
-    // TODO: tooltips/ move them next to the icon stacked vertically
+    // TODO: move them next to the icon stacked vertically
     // TODO: better markers for no-recipe & unlicensable items?
 
     return (
         <div className="status-icons">
-            {dbItem.recipe && <RecipeStatusIcon selected={status?.haveRecipe} onClick={toggleRecipe} />}
-            {dbItem.license_amount && <LicenseStatusIcon selected={status?.licensed} onClick={toggleLicense} />}
-            {isCollectable(dbItem) && <CollectableStatusIcon selected={status?.collected} onClick={toggleCollected} />}
+            {dbItem.recipe && (
+                <RecipeStatusIcon selected={status?.haveRecipe} onClick={toggleRecipe} tooltipId={tooltipId} />
+            )}
+            {dbItem.license_amount && (
+                <LicenseStatusIcon selected={status?.licensed} onClick={toggleLicense} tooltipId={tooltipId} />
+            )}
+            {isCollectable(dbItem) && (
+                <CollectableStatusIcon selected={status?.collected} onClick={toggleCollected} tooltipId={tooltipId} />
+            )}
         </div>
     );
 };
@@ -41,19 +48,41 @@ export const StatusIcons: React.FC<StatusIconProps> = ({ id }) => {
 export interface SingleIconProps {
     readonly selected?: boolean;
     readonly onClick: () => void;
+    readonly tooltipId?: string;
 }
 
-export const RecipeStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
+export const RecipeStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick, tooltipId }) => {
     const IconType = selected ? TbChefHat : TbChefHatOff;
-    return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
+    return (
+        <IconType
+            className={'status-icon ' + (selected ? 'selected' : 'unselected')}
+            onClick={onClick}
+            data-tooltip-id={tooltipId || 'no-tooltip'}
+            data-tooltip-content="Toggle recipe collection status"
+        />
+    );
 };
 
-export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
+export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick, tooltipId }) => {
     const IconType = selected ? TbLicense : TbLicenseOff;
-    return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
+    return (
+        <IconType
+            className={'status-icon ' + (selected ? 'selected' : 'unselected')}
+            onClick={onClick}
+            data-tooltip-id={tooltipId || 'no-tooltip'}
+            data-tooltip-content="Toggle licensed status"
+        />
+    );
 };
 
-export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick }) => {
+export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick, tooltipId }) => {
     const IconType = selected ? HiOutlineCheck : HiOutlineX;
-    return <IconType className={'status-icon ' + (selected ? 'selected' : 'unselected')} onClick={onClick} />;
+    return (
+        <IconType
+            className={'status-icon ' + (selected ? 'selected' : 'unselected')}
+            onClick={onClick}
+            data-tooltip-id={tooltipId || 'no-tooltip'}
+            data-tooltip-content="Toggle collected status"
+        />
+    );
 };

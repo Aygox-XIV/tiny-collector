@@ -122,8 +122,8 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
             appDispatch(setDbItems(integrateRecipeHelperSheet(f, db)));
         }, CSV_FILES);
     };
-    const exportSourceMetadata = () => {
-        saveFile(JSON.stringify(extractSourceMetadata(db)));
+    const exportSourceMetadata = (onlyMissing = false) => {
+        saveFile(JSON.stringify(extractSourceMetadata(db, onlyMissing)));
     };
     // TODO: item to export source metadata with empty image defs for missing entries so just the image links can be added without having to add the boilerplate manually
     // requires things to not break on empty image defs
@@ -167,8 +167,19 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                         );
                     })}
                 </div>
-                <div className="settings-item" onClick={exportSourceMetadata}>
-                    Export source metadata (one file)
+                <div className="settings-group">
+                    Source metadata exports
+                    <div className="settings-item" onClick={() => exportSourceMetadata(false)}>
+                        Export all source metadata (one file)
+                    </div>
+                    <div className="settings-item" onClick={() => exportSourceMetadata(true)}>
+                        Export incomplete source metadata (one file)
+                    </div>
+                </div>
+                <div className="settings-group">
+                    <div className="settings-item" onClick={() => validateDbIntegrity(db)}>
+                        Check database integrity (logs any warnings to the console)
+                    </div>
                 </div>
                 <div className="settings-item" onClick={loadSourcesFromDataSheet}>
                     Import sources from "Tiny shop data" (Sources tab)
@@ -178,9 +189,6 @@ export default function DatabaseManagementView({ params, matches }: Route.Compon
                 </div>
                 <div className="settings-item" onClick={loadImageUrlsFromWikiTable}>
                     Import item icons from wiki table
-                </div>
-                <div className="settings-item" onClick={() => validateDbIntegrity(db)}>
-                    Check database integrity (logs any warnings to the console)
                 </div>
                 <div className="settings-item" onClick={exportMissingRecipes}>
                     Export items with missing recipes
@@ -205,10 +213,13 @@ const SOURCE_TYPES_WITH_IMAGES: Set<SourceType> = new Set([
     SourceType.PremiumPack,
 ]);
 
-function extractSourceMetadata(db: Database): SourceImageList {
+function extractSourceMetadata(db: Database, onlyMissing = false): SourceImageList {
     let images: SourceImage[] = [];
     for (const source of Object.values(db.sources)) {
         if (!SOURCE_TYPES_WITH_IMAGES.has(source.source.type)) {
+            continue;
+        }
+        if (onlyMissing && source.imageSrc) {
             continue;
         }
         images.push({
@@ -349,6 +360,11 @@ function validateDbIntegrity(db: Database) {
                 if (!ingredient.quantity || ingredient.quantity <= 0) {
                     console.warn(
                         `${logPrefix} has an ingredient (${ingredient.name}) with invalid quantity ${ingredient.quantity}`,
+                    );
+                }
+                if (!Number.isInteger(ingredient.quantity)) {
+                    console.warn(
+                        `${logPrefix} has an ingredient (${ingredient.name}) with fractioncal quantity ${ingredient.quantity}`,
                     );
                 }
             }

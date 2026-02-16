@@ -128,8 +128,8 @@ const LicenseListEntry: React.FC<LicenseItemProps> = ({ id, amount }) => {
                     <Icon src={item.image} />
                 </div>
                 <div className="license-list-details">
+                    <div className="item-amount">Need: {amount}</div>
                     <div className="item-name">{item.name}</div>
-                    <div className="item-amount">Needed: {amount}</div>
                 </div>
             </div>
         </NavLink>

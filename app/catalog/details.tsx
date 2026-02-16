@@ -6,7 +6,7 @@ import { EditingProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { useDatabase, type Item } from '../database/database';
 import { useAppDispatch } from '../store';
-import { SourceList } from './sourcelist';
+import { SOURCE_TOOLTIP, SourceList } from './sourcelist';
 
 export interface DetailsProps {
     readonly id: string;
@@ -26,7 +26,6 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     };
 
     // TODO: describe best way to report new findings when no sources are listed
-    // TODO: recipe next to the icon, items link to item details
     return (
         <div className="details-panel">
             <ItemName item={item} />
@@ -34,7 +33,7 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
                 <Icon src={item.image} />
                 <RecipeOveriew item={item} />
             </div>
-            <StatusIcons id={id} />
+            <StatusIcons id={id} tooltipId={SOURCE_TOOLTIP} />
             {item.license_amount && (
                 <div className="detail-license-data">
                     <EditingProgressBar
