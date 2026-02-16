@@ -3,10 +3,10 @@
     { "type": "Shifty" },
     { "type": "Shifty", "name": "Oceanic Item Crate", "src": { "fandom_wiki_image_path": "7/78/Oceanic_Decors_Crate.png" } },
 
-    { "type": "Premium Pack", "name": "Botanist Set" },
+    { "type": "Premium Pack", "name": "Botanist Set", "src": { "local_path": "/sources/premium/pack-botanist.png" } },
     { "type": "Premium Pack", "name": "Trading Guild Pack" },
-    { "type": "Premium Pack", "name": "Blacksmith Set" },
-    { "type": "Premium Pack", "name": "Kitchen Set" },
+    { "type": "Premium Pack", "name": "Blacksmith Set", "src": { "local_path": "/sources/premium/pack-blacksmith.png" } },
+    { "type": "Premium Pack", "name": "Kitchen Set", "src": { "local_path": "/sources/premium/pack-kitchen.png" } },
     { "type": "Premium Pack", "name": "Home Set" },
 
     { "type": "City", "subtype": "Research", "name": "Gizmoshop", "src": { "fandom_wiki_image_path": "b/ba/Gizmoshop.png" } },

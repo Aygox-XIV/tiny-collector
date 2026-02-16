@@ -2097,7 +2097,7 @@
       "license_amount": 500,
       "recipe": {
         "ingredient": [
-          { "name": "Drakegull Egg", "quantity": 0.2, "id": 144 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
           { "name": "Evercold Oil", "quantity": 1, "id": 203 },
           { "name": "Fresh Milk", "quantity": 1, "id": 121 },
           { "name": "Sunsugar", "quantity": 1, "id": 122 }
