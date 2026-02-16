@@ -121,7 +121,12 @@
       "name": "Overgrown Ancient Chest",
       "src": { "local_path": "/sources/battle/battle_overgrown_ancient_chest.png" }
     },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Unknown Crystal (blue)" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Unknown Crystal (blue)",
+      "src": { "local_path": "/sources/battle/source-battle-blue-crystal.png" }
+    },
     {
       "type": "Battle",
       "subtype": "Flooded Expedition",
