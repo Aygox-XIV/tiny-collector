@@ -27,6 +27,7 @@ export const LicenseList: React.FC<NoProps> = ({}) => {
             return;
         }
         // Even if an item also has a non-premium source (teas, map), still consider it a premium-only item
+        // This is arguably not correct for some of the spells since theie non-premium sources are repeatable, but they aren't licensable anyway.
         if (filter.hidePremiumItems) {
             for (const source of item.source || []) {
                 if (source.type == SourceType.PremiumPack) {
