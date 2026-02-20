@@ -1,12 +1,15 @@
 import { NavLink } from 'react-router';
+import { Tooltip } from 'react-tooltip';
 import { useFullCollection, type Collection } from '../collection';
 import { EventIcon } from '../common/eventicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { dropIsCollected, sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
-import { getEventCategory, getEventType, sourceSortFn, SourceType } from '../database/sources';
+import { eventCategoryToType, getEventCategory, getEventType, sourceSortFn, SourceType } from '../database/sources';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
+
+const CHECKLIST_TOOLTIP = 'checklist-tooltip';
 
 export const ChecklistSourceList: React.FC<NoProps> = ({}) => {
     const [filter] = useSourceFilter();
@@ -52,6 +55,7 @@ export const ChecklistSourceList: React.FC<NoProps> = ({}) => {
                 const type = t as SourceType;
                 return <ChecklistSourceTypeEntry key={t} type={type} sources={toDisplay[t]} />;
             })}
+            <Tooltip id={CHECKLIST_TOOLTIP} />
         </div>
     );
 };
@@ -101,7 +105,20 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
                         (collectedDrops == details.drops.length ? 'collected' : 'uncollected')
                     }
                 >
-                    <EventIcon showEventPhase={true} type={getEventType(details.source)} tooltipId="no-tooltip" />
+                    {details.source.subtype && (
+                        <EventIcon
+                            showEventPhase={true}
+                            type={getEventType(details.source)}
+                            tooltipId={CHECKLIST_TOOLTIP}
+                        />
+                    )}
+                    {!details.source.subtype && (
+                        <EventIcon
+                            showEventPhase={false}
+                            type={eventCategoryToType(getEventCategory(details.source), -1)}
+                            tooltipId={CHECKLIST_TOOLTIP}
+                        />
+                    )}
                     <div className="source-name">
                         <SourceName source={details.source} disableLinks={true} />
                     </div>

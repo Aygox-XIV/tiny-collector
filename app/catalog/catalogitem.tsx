@@ -19,7 +19,7 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
     const collectedState = useCollectedItem(id);
     const item = db.items[id];
     if (!item) {
-        return <div className="catalog-item empty-item" />;
+        return <div className={'catalog-item empty-item' + (guess ? ' catalog-guess' : '')} />;
     }
     let collectionStateClass = '';
     if (!item.source || item.source.length == 0 || isRecipeMissing(item)) {
