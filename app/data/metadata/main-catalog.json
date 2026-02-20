@@ -681,6 +681,7 @@
         ["719", "Green Beach Towel"],
         ["721", "Pink Beach Towel"],
         ["725", "Yellow Beach Towel"],
+        ["1179", "Anniversary Cake"],
         ["730", "Regenerating Balm"],
         ["732", "Fiery Balm"],
         ["731", "Arcane Balm"],
@@ -987,7 +988,19 @@
         ["778", "Spectral Quindim"],
         ["776", "Spectral Bourguignon"],
         ["775", "Spectral Noodle"],
-        ["777", "Spectral Pumpkin Soup"]
+        ["777", "Spectral Pumpkin Soup"],
+        ["?1317", "???"],
+        ["1313", "Spiced Bread"],
+        ["?1318", "???"],
+        ["1314", "Choux"],
+        ["1315", "Cream Puff"],
+        ["1316", "Spiced Roll"],
+        ["?1319", "???"],
+        ["?1320", "???"],
+        ["?1321", "???"],
+        ["?1322", "???"],
+        ["?1323", "???"],
+        ["?1324", "???"]
       ]
     }
   ]

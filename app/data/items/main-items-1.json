@@ -354,7 +354,9 @@
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" }
       ],
       "image": { "fandom_wiki_image_path": "2/2c/Wheat_Flour.png" }
     },

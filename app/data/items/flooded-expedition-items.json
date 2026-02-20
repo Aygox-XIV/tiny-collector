@@ -1152,7 +1152,10 @@
       "name": "Coastguard Captain Armor",
       "id": 1121,
       "category": "Gear",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
+      ],
       "image": { "fandom_wiki_image_path": "0/05/Itm_gear_coastguard_captain_armor.png" },
       "recipe": {
         "ingredient": [
@@ -1169,7 +1172,10 @@
       "name": "Coastguard Captain Boots",
       "id": 1122,
       "category": "Gear",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d5/Itm_gear_coastguard_captain_shoes.png" },
       "recipe": {
         "ingredient": [
@@ -1186,7 +1192,10 @@
       "name": "Coastguard Captain Kilt",
       "id": 1123,
       "category": "Gear",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
+      ],
       "image": { "fandom_wiki_image_path": "3/30/Itm_gear_coastguard_captain_kilt.png" },
       "recipe": {
         "ingredient": [
@@ -1203,7 +1212,10 @@
       "name": "Coastguard Captain Shield",
       "id": 1124,
       "category": "Gear",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
+      ],
       "image": { "fandom_wiki_image_path": "3/37/Itm_gear_coastguard_caotin_shield.png" },
       "recipe": {
         "ingredient": [
@@ -1220,7 +1232,10 @@
       "name": "Coastguard Captain Turban",
       "id": 1125,
       "category": "Gear",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
+      ],
       "image": { "fandom_wiki_image_path": "4/40/Itm_gear_coastguard_captain_turban.png" },
       "recipe": {
         "ingredient": [
@@ -1237,7 +1252,8 @@
       "id": 1126,
       "category": "Gear",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "b/b3/Itm_gear_coastguard_armor.png" },
       "recipe": {
@@ -1255,7 +1271,8 @@
       "id": 1127,
       "category": "Gear",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "e/ed/Itm_gear_coastguard_shoes.png" },
       "recipe": {
@@ -1273,7 +1290,8 @@
       "id": 1128,
       "category": "Gear",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "d/db/Itm_gear_coastguard_kilt.png" },
       "recipe": {
@@ -1291,7 +1309,8 @@
       "id": 1129,
       "category": "Gear",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "9/99/Itm_gear_coastguard_shield.png" },
       "recipe": {
@@ -1308,7 +1327,8 @@
       "id": 1130,
       "category": "Gear",
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Expedition: Adventurer's Billboard" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
       ],
       "image": { "fandom_wiki_image_path": "0/0f/Itm_gear_coastguard_turban.png" },
       "recipe": {
@@ -1414,7 +1434,10 @@
       "name": "Coastguard Spear",
       "id": 1137,
       "category": "Gear",
-      "source": [{ "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
+      "source": [
+        { "type": "Battle", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Flooded Expedition" }
+      ],
       "image": { "fandom_wiki_image_path": "b/b1/Itm_gear_coastguard_spear.png" },
       "recipe": {
         "ingredient": [

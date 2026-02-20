@@ -6,13 +6,13 @@
     { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" },
     { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
     { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" },
+    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" },
     { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
     { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" },
     { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
     { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
     { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
     { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" },
     {
       "type": "Battle",
       "subtype": "Evercold Isle (part 2)",
@@ -86,6 +86,10 @@
       "name": "Ice Sprite",
       "src": { "fandom_wiki_image_path": "1/1c/Itm_fig_winter_sprite_02.png" }
     },
+
+    { "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "name": "First Chest (3 tasks)" },
+    { "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" },
+    { "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "name": "Third Chest (6 tasks)" },
     { "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "name": "Final Chest" },
     { "type": "Event Market", "subtype": "Evercold Isle (part 2)" },
 
@@ -110,6 +114,7 @@
     { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Hunt: Unkindness of Skeletons" },
     { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Hunt: Unkindness of Skeletons" },
     { "type": "Journey", "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" },
+
     { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "Dread Wisp", "src": { "fandom_wiki_image_path": "9/9c/Fig_wisp_blue.png" } },
     { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "Dread Wisp", "src": { "fandom_wiki_image_path": "9/9c/Fig_wisp_blue.png" } },
     {
@@ -272,7 +277,7 @@
     },
     { "type": "Battle", "subtype": "Phantom Isle (part 2)", "name": "All enemies" },
     { "type": "Battle", "subtype": "Phantom Isle (part 3)", "name": "All enemies" },
-    { "type": "Shifty", "name": "Gravewarden Crate", "src": { "fandom_wiki_image_path": "d/de/Gravewarden_Set.png" } },
+
     {
       "type": "Task Chest",
       "subtype": "Phantom Isle (part 2)",
@@ -291,6 +296,8 @@
       "name": "Final Chest (12 tasks)",
       "src": { "fandom_wiki_image_path": "1/12/Chest-final.png" }
     },
+
+    { "type": "Shifty", "name": "Gravewarden Crate", "src": { "fandom_wiki_image_path": "d/de/Gravewarden_Set.png" } },
     { "type": "Event Market", "subtype": "Phantom Isle (part 2)" },
     { "type": "Event Market", "subtype": "Phantom Isle (part 3)" }
   ]
