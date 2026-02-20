@@ -318,7 +318,9 @@
       "category": "Consumables",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
-        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Crafting Bundle" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Spell Bundle" }
       ],
       "image": { "fandom_wiki_image_path": "0/07/Buff_scroll_craft_weak.png" }
     },
@@ -326,7 +328,11 @@
       "name": "Infinite Stock",
       "id": 937,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" }],
+      "source": [
+        { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Dimensional Bundle" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Spell Bundle" }
+      ],
       "image": { "fandom_wiki_image_path": "d/df/Buff_scroll_stockpile_weak.png" }
     },
     { "name": "XP Boost", "id": 938, "category": "Consumables", "image": { "fandom_wiki_image_path": "d/d0/Buff_scroll_xp.png" } },
@@ -336,11 +342,22 @@
       "category": "Consumables",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Merchant Bundle" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Spell Bundle" }
       ],
       "image": { "fandom_wiki_image_path": "b/b4/Buff_scroll_sale_speed.png" }
     },
-    { "name": "Income Boost", "id": 940, "category": "Consumables", "image": { "fandom_wiki_image_path": "f/f6/Buff_scroll_income.png" } },
+    {
+      "name": "Income Boost",
+      "id": 940,
+      "category": "Consumables",
+      "image": { "fandom_wiki_image_path": "f/f6/Buff_scroll_income.png" },
+      "source": [
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Merchant Bundle" },
+        { "type": "Premium Pack", "kind": "item", "fragment": false, "name": "Spell Bundle" }
+      ]
+    },
     {
       "name": "Mushroom Soup",
       "id": 941,

@@ -88,6 +88,23 @@ export function getEventCategory(source: Source): EventCategory {
         case EventType.SunFestival:
             return EventCategory.SunFestival;
         default:
+            // While technically not locked to the events if you have the seeds,
+            // treat seed drops as belonging to the event that released them.
+            if (source.type == SourceType.Harvest) {
+                switch (source.name) {
+                    case 'Dwarf Cocoa Seed':
+                    case 'Strange Seed':
+                    case 'Even Stranger Seed':
+                        return EventCategory.EvercoldIsle;
+                    case 'Pumpkin':
+                        return EventCategory.PhantomIsle;
+                    case 'Carrots':
+                        return EventCategory.FloodedExpedition;
+                    case 'Sunseekers':
+                    case 'Koko Tree':
+                        return EventCategory.SunFestival;
+                }
+            }
             return EventCategory.NoEvent;
     }
 }
@@ -110,12 +127,13 @@ export function eventTypeToCategory(type?: EventType): EventCategory {
     }
 }
 
-export function eventCategoryToType(category: EventCategory, phase?: number): EventType {
+export function eventCategoryToType(category: EventCategory, phase?: number): EventType | undefined {
     switch (category) {
         case EventCategory.NoEvent:
-            throw 'NoEvent has no associated event type';
+            return undefined;
         case EventCategory.EvercoldIsle:
             switch (phase) {
+                case -1:
                 case 1:
                     return EventType.EvercoldIslePart1;
                 case 2:
@@ -124,6 +142,7 @@ export function eventCategoryToType(category: EventCategory, phase?: number): Ev
             throw 'Unknown evercold event phase ' + phase;
         case EventCategory.PhantomIsle:
             switch (phase) {
+                case -1:
                 case 1:
                     return EventType.PhantomIslePart1;
                 case 2:
@@ -133,12 +152,12 @@ export function eventCategoryToType(category: EventCategory, phase?: number): Ev
             }
             throw 'Unknown phantom  event phase ' + phase;
         case EventCategory.FloodedExpedition:
-            if (phase !== undefined) {
+            if (phase !== undefined && phase != -1) {
                 throw 'unknown flooded expedition event phase ' + phase;
             }
             return EventType.FloodedExpedition;
         case EventCategory.SunFestival:
-            if (phase !== undefined) {
+            if (phase !== undefined && phase != -1) {
                 throw 'unknown sun festival event phase ' + phase;
             }
             return EventType.SunFestival;
