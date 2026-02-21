@@ -2554,8 +2554,8 @@
       "recipe": {
         "ingredient": [
           { "name": "Wheat Flour", "quantity": 3, "id": 125 },
-          { "name": "Moonfish Filet", "quantity": 2, "id": -1 },
-          { "name": "Purified Water", "quantity": 4, "id": -1 }
+          { "name": "Moonfish Filet", "quantity": 2, "id": 216 },
+          { "name": "Purified Water", "quantity": 4, "id": 110 }
         ],
         "craft_amount": 4
       },
@@ -2570,7 +2570,7 @@
         "ingredient": [
           { "name": "Wheat Flour", "quantity": 2, "id": 125 },
           { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
-          { "name": "Evercold Oil", "quantity": 2, "id": -1 }
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 }
         ],
         "craft_amount": 1
       },
@@ -2583,9 +2583,9 @@
       "license_amount": 550,
       "recipe": {
         "ingredient": [
-          { "name": "Moonfish Filet", "quantity": 3, "id": -1 },
-          { "name": "Potatoes", "quantity": 2, "id": -1 },
-          { "name": "Coast Lemons", "quantity": 1, "id": -1 }
+          { "name": "Moonfish Filet", "quantity": 3, "id": 216 },
+          { "name": "Potatoes", "quantity": 2, "id": 113 },
+          { "name": "Coast Lemons", "quantity": 1, "id": 153 }
         ],
         "craft_amount": 1
       },
@@ -2613,9 +2613,9 @@
       "license_amount": 750,
       "recipe": {
         "ingredient": [
-          { "name": "Iron", "quantity": 4, "id": -1 },
-          { "name": "Evercold Crystals", "quantity": 4, "id": -1 },
-          { "name": "Evercold Oil", "quantity": 2, "id": -1 }
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Evercold Crystals", "quantity": 4, "id": 202 },
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 }
         ],
         "craft_amount": 1
       },
@@ -2628,9 +2628,9 @@
       "license_amount": 550,
       "recipe": {
         "ingredient": [
-          { "name": "Moonfish Filet", "quantity": 2, "id": -1 },
-          { "name": "Spice", "quantity": 2, "id": -1 },
-          { "name": "Coast Lemons", "quantity": 1, "id": -1 }
+          { "name": "Moonfish Filet", "quantity": 2, "id": 216 },
+          { "name": "Spice", "quantity": 2, "id": 159 },
+          { "name": "Coast Lemons", "quantity": 1, "id": 153 }
         ],
         "craft_amount": 1
       },
