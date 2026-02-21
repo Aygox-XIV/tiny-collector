@@ -141,7 +141,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
@@ -241,7 +241,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "alt_recipes": [
         {
@@ -272,7 +272,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "e/e2/Evercold_Chocolate.png" }
     },
@@ -309,7 +309,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "8/84/Evercold_Milk.png" }
     },
@@ -327,7 +327,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "f/f9/Evercold_Snow_Balls.png" }
     },
@@ -472,7 +472,7 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "2/2e/Potion_of_Fire_Resistance.png" }
     },
@@ -1087,7 +1087,7 @@
         "craft_amount": 1
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "8/87/Itm_gear_book_training_win.png" }
     },
@@ -1263,7 +1263,7 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "4/4c/Itm_consum_icecream_chocolate.png" }
     },
@@ -1281,7 +1281,7 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "b/b4/Itm_consum_icecream_evercold.png" }
     },
@@ -1945,7 +1945,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": false, "name": "First Chest (3 tasks)" }],
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": false, "name": "Final Chest" }],
       "image": { "fandom_wiki_image_path": "d/d9/Itm_brioche_choco.png" }
     },
     {
@@ -2221,7 +2221,7 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": false, "name": "??? [unknown, need reports]" }],
+      "source": [{ "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": false, "name": "Final Chest" }],
       "image": { "fandom_wiki_image_path": "0/0c/Itm_pastry_choco.png" }
     },
     {
@@ -2559,7 +2559,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Third Chest (9 tasks)" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Third Chest (9 tasks)" }],
+      "image": { "local_path": "/items/evercold/item-moonfish-bagel.png" }
     },
     {
       "name": "Evercold Cake",
@@ -2574,7 +2575,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }],
+      "image": { "local_path": "/items/evercold/item-evercold-cake.png" }
     },
     {
       "name": "Grilled Moonfish",
@@ -2589,22 +2591,54 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }],
+      "image": { "local_path": "/items/evercold/item-grilled-moonfish.png" }
     },
     {
-      "name": "???",
+      "name": "Frosthaven Kettle",
       "id": 1320,
-      "category": "Consumables"
+      "category": "Gear",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Datablet", "quantity": 1, "id": 522 },
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "First Chest (3 tasks)" }],
+      "image": { "local_path": "/items/evercold/item-frosthaven-kettle.png" }
     },
     {
-      "name": "???",
+      "name": "Frosthaven Lamp",
       "id": 1321,
-      "category": "Consumables"
+      "category": "Gear",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "First Chest (3 tasks)" }],
+      "image": { "local_path": "/items/evercold/item-frosthaven-lamp-green.png" }
     },
     {
-      "name": "???",
+      "name": "Frosthaven Lamp",
       "id": 1322,
-      "category": "Consumables"
+      "category": "Gear",
+      "license_amount": 600,
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Evercold Oil", "quantity": 2, "id": 203 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "First Chest (3 tasks)" }],
+      "image": { "local_path": "/items/evercold/item-frosthaven-lamp-yellow.png" }
     },
     {
       "name": "Strange Snow Globe",
@@ -2619,7 +2653,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" }]
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" }
+      ],
+      "image": { "local_path": "/items/evercold/item-strange-snow-globe.png" }
     },
     {
       "name": "Smoked Moonfish",
@@ -2629,12 +2666,13 @@
       "recipe": {
         "ingredient": [
           { "name": "Moonfish Filet", "quantity": 2, "id": 216 },
-          { "name": "Spice", "quantity": 2, "id": 159 },
+          { "name": "Spices", "quantity": 2, "id": 159 },
           { "name": "Coast Lemons", "quantity": 1, "id": 153 }
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }]
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }],
+      "image": { "local_path": "/items/evercold/item-smoked-moonfish.png" }
     },
     {
       "name": "Dwarf Cocoa Seed",
@@ -2700,7 +2738,9 @@
       "category": "Material",
       "source": [
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Icy Enemies" },
-        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Mimics" }
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": true, "name": "All Icy Enemies" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Mimics" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": true, "name": "All Mimics" }
       ],
       "image": { "fandom_wiki_image_path": "9/98/Win_victory_currency.png" }
     },

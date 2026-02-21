@@ -1,25 +1,83 @@
 {
   "images": [
-    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Gingerbread Falls" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Gingerbread Falls" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Chilling Around" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Chilling Around" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Crystals Formations" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Crystals Formations" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Snowflower Fields" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Snowflower Fields" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Exploration: Dwarf Cocoa Forest" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 1)", "name": "Gathering: Expedition Supplies" },
-    { "type": "Journey", "subtype": "Evercold Isle (part 2)", "name": "Gathering: Expedition Supplies" },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Exploration: Gingerbread Falls",
+      "src": { "local_path": "/sources/source-evercold-journeys-1.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Exploration: Gingerbread Falls",
+      "src": { "local_path": "/sources/source-evercold-journeys-2.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Exploration: Chilling Around",
+      "src": { "local_path": "/sources/source-evercold-journeys-1.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Exploration: Chilling Around",
+      "src": { "local_path": "/sources/source-evercold-journeys-2.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Exploration: Crystals Formations",
+      "src": { "local_path": "/sources/source-evercold-journeys-1.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Explo: Ancient Crystals Formations",
+      "src": { "local_path": "/sources/source-evercold-journeys-2.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Exploration: Snowflower Fields",
+      "src": { "local_path": "/sources/source-evercold-journeys-1.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Exploration: Snowflower Fields",
+      "src": { "local_path": "/sources/source-evercold-journeys-2.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Exploration: Dwarf Cocoa Forest",
+      "src": { "local_path": "/sources/source-evercold-journeys-1.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Exploration: Dwarf Cocoa Forest",
+      "src": { "local_path": "/sources/source-evercold-journeys-2.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Gathering: Expedition Supplies",
+      "src": { "local_path": "/sources/source-evercold-journeys-1.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Gathering: Expedition Supplies",
+      "src": { "local_path": "/sources/source-evercold-journeys-2.png" }
+    },
     {
       "type": "Battle",
       "subtype": "Evercold Isle (part 2)",
       "name": "The Sculptor",
       "src": { "fandom_wiki_image_path": "8/83/Itm_mat_figurine_sculptor.png" }
     },
-    { "type": "Battle", "subtype": "Evercold Isle (part 2)", "name": "??? [unknown, need reports]" },
     {
       "type": "Battle",
       "subtype": "Evercold Isle (part 2)",
@@ -86,12 +144,56 @@
       "name": "Ice Sprite",
       "src": { "fandom_wiki_image_path": "1/1c/Itm_fig_winter_sprite_02.png" }
     },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "All Icy Enemies",
+      "src": { "local_path": "/sources/source-evercold-icy-enemy.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "All Mimics",
+      "src": { "local_path": "/sources/source-evercold-mimics.png" }
+    },
 
-    { "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "name": "First Chest (3 tasks)" },
-    { "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" },
-    { "type": "Task Chest", "subtype": "Evercold Isle (part 1)", "name": "Third Chest (6 tasks)" },
-    { "type": "Task Chest", "subtype": "Evercold Isle (part 2)", "name": "Final Chest" },
-    { "type": "Event Market", "subtype": "Evercold Isle (part 2)" },
+    {
+      "type": "Task Chest",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "First Chest (3 tasks)",
+      "src": { "fandom_wiki_image_path": "c/c5/Chest-small.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Second Chest (6 tasks)",
+      "src": { "fandom_wiki_image_path": "c/c5/Chest-small.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Third Chest (9 tasks)",
+      "src": { "fandom_wiki_image_path": "c/c5/Chest-small.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Evercold Isle (part 1)",
+      "name": "Final Chest",
+      "src": { "local_path": "/sources/source-evercold-final-chest.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "First Chest (3 tasks)",
+      "src": { "fandom_wiki_image_path": "c/c5/Chest-small.png" }
+    },
+    {
+      "type": "Task Chest",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "Final Chest",
+      "src": { "local_path": "/sources/source-evercold-final-chest.png" }
+    },
+    { "type": "Event Market", "subtype": "Evercold Isle (part 2)", "src": { "local_path": "/sources/source-evercold-market.png" } },
 
     { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
     { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
