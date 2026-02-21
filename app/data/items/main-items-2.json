@@ -564,7 +564,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item-fiery-brioche.png" }
+      "image": { "fandom_wiki_image_path": "2/29/Fiery_Brioche.png" }
     },
     {
       "name": "Ashen Brioche",
@@ -625,7 +625,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item-ham-croissant.png" }
+      "image": { "fandom_wiki_image_path": "2/25/Ham_Croissant.png" }
     },
     {
       "name": "Blue Tower Jam",
@@ -794,7 +794,7 @@
         ],
         "craft_amount": 2
       },
-      "image": { "local_path": "/items/item-sandwich-snack.png" }
+      "image": { "fandom_wiki_image_path": "2/2d/Sandwich_Snack.png" }
     },
     {
       "name": "Fiery Sandwich",
@@ -816,7 +816,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Survey: Botanical Study" }
       ],
-      "image": { "local_path": "/items/item-fiery-sandwich.png" }
+      "image": { "fandom_wiki_image_path": "1/1b/Fiery_Sandwich.png" }
     },
     {
       "name": "Parmimigiano",
@@ -834,7 +834,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/item_parmimigiano.png" }
+      "image": { "fandom_wiki_image_path": "8/8f/Parmimigiano.png" }
     },
     {
       "name": "Emimimental",
@@ -849,7 +849,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_emimimental.png" }
+      "image": { "fandom_wiki_image_path": "7/74/Emimimental.png" }
     },
     {
       "name": "Butter",
@@ -877,7 +877,7 @@
         "craft_amount": 2
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
-      "image": { "local_path": "/items/item_mushroom_tartlet.png" }
+      "image": { "fandom_wiki_image_path": "5/52/Mushroom_Tartlet.png" }
     },
     {
       "name": "Drakegull Tartlet",
@@ -893,7 +893,7 @@
         ],
         "craft_amount": 2
       },
-      "image": { "local_path": "/items/item_drakegull_tartlet.png" }
+      "image": { "fandom_wiki_image_path": "8/88/Drakegull_Tartlet.png" }
     },
     {
       "name": "Moonfish Tartlet",
@@ -909,7 +909,7 @@
         "craft_amount": 2
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
-      "image": { "local_path": "/items/item_moonfish_tartlet.png" }
+      "image": { "fandom_wiki_image_path": "0/01/Moonfish_Tartlet.png" }
     },
     {
       "name": "Fish Pastry",
@@ -922,11 +922,11 @@
           { "name": "Moonfish Filet", "quantity": 2, "id": 216 },
           { "name": "Archipelago Greens", "quantity": 2, "id": 184 }
         ],
-        "craft_amount": 2
+        "craft_amount": 1
       },
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
-      "image": { "local_path": "/items/item_fish_pastry.png" }
+      "image": { "fandom_wiki_image_path": "8/8a/Fish_Pastry.png" }
     },
     {
       "name": "Starbread",
@@ -972,7 +972,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_rye_bread.png" }
+      "image": { "fandom_wiki_image_path": "7/7c/Rye_Bread.png" }
     },
     {
       "name": "Biscuit",
@@ -988,7 +988,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_biscuit.png" }
+      "image": { "fandom_wiki_image_path": "2/23/Biscuit.png" }
     },
     {
       "name": "Whipped Cream Waffles",
@@ -1005,7 +1005,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_whipped_cream_waffles.png" }
+      "image": { "fandom_wiki_image_path": "d/d0/Whipped_Cream_Waffles.png" }
     },
     {
       "name": "Sourdough Bread",
@@ -1020,7 +1020,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_sourdough_bread.png" }
+      "image": { "fandom_wiki_image_path": "c/c6/Sourdough_Bread.png" }
     },
     {
       "name": "Berry Slimeflan",
@@ -1036,7 +1036,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_berry_slimeflan.png" }
+      "image": { "fandom_wiki_image_path": "c/cf/Berry_Slimeflan.png" }
     },
     {
       "name": "Lemon Slimeflan",
@@ -1052,7 +1052,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_lemon_slimeflan.png" }
+      "image": { "fandom_wiki_image_path": "9/96/Lemon_Slimeflan.png" }
     },
     {
       "name": "Bread Loaf",
@@ -1067,7 +1067,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_bread_loaf.png" }
+      "image": { "fandom_wiki_image_path": "9/98/Bread_Loaf.png" }
     },
     {
       "name": "Cheese Sandwich",
@@ -1083,7 +1083,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/item_cheese_sandwich.png" }
+      "image": { "fandom_wiki_image_path": "e/e7/Cheese_Sandwich.png" }
     },
     {
       "name": "Moonfish Sandwich",
@@ -1099,7 +1099,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/item_moonfish_sandwich.png" }
+      "image": { "fandom_wiki_image_path": "7/7f/Moonfish_Sandwich.png" }
     },
     {
       "name": "Pain Au Chocolat",
@@ -1135,7 +1135,7 @@
         "craft_amount": 4
       },
       "license_amount": 650,
-      "image": { "local_path": "/items/item_chocolate_manju.png" }
+      "image": { "fandom_wiki_image_path": "1/1e/Chocolate_Manju.png" }
     },
     {
       "name": "Timefound Sourdough",
@@ -1151,7 +1151,7 @@
         "craft_amount": 4
       },
       "license_amount": 650,
-      "image": { "local_path": "/items/item_timefound_sourdough.png" }
+      "image": { "fandom_wiki_image_path": "c/cb/Timefound_Sourdough.png" }
     },
     {
       "name": "Kraken Filled Loaf",
@@ -1166,7 +1166,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
-      "image": { "local_path": "/items/item_kraken_filled_loaf.png" }
+      "image": { "fandom_wiki_image_path": "e/ee/Kraken_Filled_Loaf.png" }
     },
     {
       "name": "Softbread Loaf",
@@ -1214,7 +1214,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_timefound_loaf_round.png" }
+      "image": { "fandom_wiki_image_path": "4/42/Timefound_Loaf_%28Round%29.png" }
     },
     {
       "name": "Timefound Brioche",
@@ -1230,7 +1230,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_timefound_brioche.png" }
+      "image": { "fandom_wiki_image_path": "d/dc/Timefound_Brioche.png" }
     },
     {
       "name": "Sweetbread",
@@ -1269,7 +1269,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_timefound_starbread.png" }
+      "image": { "fandom_wiki_image_path": "b/b1/Timefound_Starbread.png" }
     },
     {
       "name": "Timefound Loaf",
@@ -1285,7 +1285,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_timefound_loaf_square.png" }
+      "image": { "fandom_wiki_image_path": "0/0a/Timefound_Loaf.png" }
     },
     {
       "name": "Timefound Traditional Loaf",
@@ -1333,7 +1333,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_timefound_rye_bread.png" }
+      "image": { "fandom_wiki_image_path": "6/6f/Timefound_Rye_Bread.png" }
     },
     {
       "name": "Timefound Baguette",
@@ -1349,7 +1349,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/item_timefound_baguette.png" }
+      "image": { "fandom_wiki_image_path": "f/f1/Timefound_Baguette.png" }
     },
     {
       "name": "Roasted Blend",
@@ -1422,7 +1422,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_twilight_smoothie.png" }
+      "image": { "fandom_wiki_image_path": "a/ac/Twilight_Smoothie.png" }
     },
     {
       "name": "Sunset Smoothie",
@@ -1473,7 +1473,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_berry_bliss_smoothie.png" }
+      "image": { "fandom_wiki_image_path": "a/a0/Berry_Bliss_Smoothie.png" }
     },
     {
       "name": "Matcha",
@@ -1537,7 +1537,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_waffles.png" }
+      "image": { "fandom_wiki_image_path": "e/e8/Waffles.png" }
     },
     {
       "name": "Mimi's Special",
@@ -1553,7 +1553,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
-      "image": { "local_path": "/items/item_mimis_special.png" }
+      "image": { "fandom_wiki_image_path": "6/6d/Mimi%27s_Special.png" }
     },
     {
       "name": "Coffee Drink",
@@ -1880,7 +1880,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
-      "image": { "local_path": "/items/item-sunstriker.png" }
+      "image": { "fandom_wiki_image_path": "b/b4/Sunstriker.png" }
     },
     {
       "name": "Timefound Kettle",
@@ -1928,7 +1928,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_record_player.png" }
+      "image": { "fandom_wiki_image_path": "e/e3/Record_Player.png" }
     },
     {
       "name": "Biscuitmaker",
@@ -1945,7 +1945,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/item_biscuitmaker.png" }
+      "image": { "fandom_wiki_image_path": "6/67/Biscuitmaker.png" }
     },
     {
       "name": "Aetheric Salt",
@@ -1958,7 +1958,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" }
       ],
-      "image": { "local_path": "/items/item-aetheric-salt.png" }
+      "image": { "fandom_wiki_image_path": "6/68/Aetheric_Salt.png" }
     },
     {
       "name": "Decor: Violet Duck",
@@ -1985,7 +1985,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Sunseekers" }],
-      "image": { "local_path": "/items/item-sunscreen.png" }
+      "image": { "fandom_wiki_image_path": "8/8f/Sunscreen_%28Bow%29.png" }
     },
     {
       "name": "Jam Waffles",
@@ -2002,7 +2002,7 @@
       },
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
-      "image": { "local_path": "/items/item_jam_waffles_yellow.png" }
+      "image": { "fandom_wiki_image_path": "7/78/Jam_Waffles_%28Yellow%29.png" }
     },
     {
       "name": "Jam Waffles",
@@ -2019,7 +2019,7 @@
       },
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
-      "image": { "local_path": "/items/item_jam_waffles_red.png" }
+      "image": { "fandom_wiki_image_path": "8/81/Jam_Waffles_%28Red%29.png" }
     }
   ]
 }

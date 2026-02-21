@@ -1793,7 +1793,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_yellow_bandana.png" }
+      "image": { "fandom_wiki_image_path": "4/4c/Yellow_Bandana.png" }
     },
     {
       "name": "Yellow Swimwear",
@@ -1808,7 +1808,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_yellow_swimwear.png" }
+      "image": { "fandom_wiki_image_path": "d/dc/Yellow_Swimwear.png" }
     },
     {
       "name": "Yellow Pareo",
@@ -1824,7 +1824,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_yellow_pareo.png" }
+      "image": { "fandom_wiki_image_path": "6/6d/Yellow_Pareo.png" }
     },
     {
       "name": "Yellow Beach Top",
@@ -1839,7 +1839,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_yellow_beach_top.png" }
+      "image": { "fandom_wiki_image_path": "f/ff/Yellow_Beach_Top.png" }
     },
     {
       "name": "Canvas Bag",
@@ -1855,7 +1855,7 @@
         ],
         "craft_amount": 1
       },
-      "image": { "local_path": "/items/sun/item_canvas_bag.png" }
+      "image": { "fandom_wiki_image_path": "7/7a/Canvas_Bag.png" }
     },
     {
       "name": "Flower Pot",
@@ -1901,7 +1901,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/item_yellow_beach_shorts.png" }
+      "image": { "fandom_wiki_image_path": "7/73/Beach_Shorts_%28Yellow%29.png" }
     },
     {
       "name": "Beach Shorts",
