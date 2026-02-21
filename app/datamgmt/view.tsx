@@ -385,7 +385,7 @@ function validateDbIntegrity(db: Database) {
                 }
             }
             if (item.image.local_path) {
-                if (!item.image.local_path.match('^/[a-z0-9_/]*\.png$')) {
+                if (!item.image.local_path.match('^/([a-z0-9_/]|-)*\.png$')) {
                     console.warn(`${logPrefix} has an unexpected local image path format: ${item.image.local_path}`);
                 }
             }
