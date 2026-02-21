@@ -925,9 +925,9 @@
         ["1078", "Mocha"],
         ["1175", "Twilight Smoothie"],
         ["1079", "Sunset Smoothie"],
-        ["?1176", "Sunny Smoothie"],
+        ["1176", "Sunny Smoothie"],
         ["1080", "Berry Bliss Smoothie"],
-        ["?1177", "Matcha"],
+        ["1177", "Matcha"],
         ["1081", "Latte"],
         ["1082", "Dark Coffee"],
         ["924", "Coffee Berries"],
@@ -989,18 +989,18 @@
         ["776", "Spectral Bourguignon"],
         ["775", "Spectral Noodle"],
         ["777", "Spectral Pumpkin Soup"],
-        ["?1317", "???"],
+        ["1317", "Moonfish Bagel"],
         ["1313", "Spiced Bread"],
-        ["?1318", "???"],
+        ["1319", "Grilled Moonfish"],
         ["1314", "Choux"],
         ["1315", "Cream Puff"],
         ["1316", "Spiced Roll"],
-        ["?1319", "???"],
+        ["1318", "Evercold Cake"],
         ["?1320", "???"],
         ["?1321", "???"],
         ["?1322", "???"],
-        ["?1323", "???"],
-        ["?1324", "???"]
+        ["1323", "Strange Snow Globe"],
+        ["1324", "Smoked Moonfish"]
       ]
     }
   ]

@@ -2547,19 +2547,49 @@
       "image": { "local_path": "/items/evercold/item-spiced-roll.png" }
     },
     {
-      "name": "???",
+      "name": "Moonfish Bagel",
       "id": 1317,
-      "category": "Consumables"
+      "category": "Consumables",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 3, "id": 125 },
+          { "name": "Moonfish Filet", "quantity": 2, "id": -1 },
+          { "name": "Purified Water", "quantity": 4, "id": -1 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Third Chest (9 tasks)" }]
     },
     {
-      "name": "???",
+      "name": "Evercold Cake",
       "id": 1318,
-      "category": "Consumables"
+      "category": "Consumables",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Evercold Oil", "quantity": 2, "id": -1 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }]
     },
     {
-      "name": "???",
+      "name": "Grilled Moonfish",
       "id": 1319,
-      "category": "Consumables"
+      "category": "Consumables",
+      "license_amount": 550,
+      "recipe": {
+        "ingredient": [
+          { "name": "Moonfish Filet", "quantity": 3, "id": -1 },
+          { "name": "Potatoes", "quantity": 2, "id": -1 },
+          { "name": "Coast Lemons", "quantity": 1, "id": -1 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }]
     },
     {
       "name": "???",
@@ -2577,14 +2607,34 @@
       "category": "Consumables"
     },
     {
-      "name": "???",
+      "name": "Strange Snow Globe",
       "id": 1323,
-      "category": "Consumables"
+      "category": "Gear",
+      "license_amount": 750,
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron", "quantity": 4, "id": -1 },
+          { "name": "Evercold Crystals", "quantity": 4, "id": -1 },
+          { "name": "Evercold Oil", "quantity": 2, "id": -1 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" }]
     },
     {
-      "name": "???",
+      "name": "Smoked Moonfish",
       "id": 1324,
-      "category": "Consumables"
+      "category": "Consumables",
+      "license_amount": 550,
+      "recipe": {
+        "ingredient": [
+          { "name": "Moonfish Filet", "quantity": 2, "id": -1 },
+          { "name": "Spice", "quantity": 2, "id": -1 },
+          { "name": "Coast Lemons", "quantity": 1, "id": -1 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }]
     },
     {
       "name": "Dwarf Cocoa Seed",
@@ -2615,6 +2665,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Gathering: Expedition Supplies" },
@@ -2629,6 +2681,15 @@
       "source": [
         { "type": "Event Market", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Gathering: Expedition Supplies" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Dwarf Cocoa Forest" }
       ]
