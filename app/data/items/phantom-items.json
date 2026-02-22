@@ -1810,7 +1810,7 @@
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150 items of the Drinks category!" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
-      "image": { "local_path": "/items/phantom/item-bloodberry-ice-cream.png" }
+      "image": { "fandom_wiki_image_path": "d/d8/Bloodberry_Ice_Cream.png" }
     },
     {
       "name": "Spectral Choco Ice Cream",
@@ -1836,7 +1836,7 @@
         },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
-      "image": { "local_path": "/items/phantom/item-spectral-choco-ice-cream.png" }
+      "image": { "fandom_wiki_image_path": "8/8a/Spectral_Choco_Ice_Cream.png" }
     },
     {
       "name": "Cultist Brochures",
@@ -1890,7 +1890,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Harvest 50 Pumpkin" }],
-      "image": { "local_path": "/items/phantom/item-cursed-pumpkin-ice-cream.png" }
+      "image": { "fandom_wiki_image_path": "b/b7/Cursed_Pumpkin_Ice_Cream.png" }
     },
     {
       "name": "Spirit Smash",
@@ -1927,7 +1927,7 @@
       "source": [
         { "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Sell 150x of the Right category" }
       ],
-      "image": { "local_path": "/items/phantom/item-cult-torch.png" }
+      "image": { "fandom_wiki_image_path": "0/01/Cult_Torch.png" }
     },
     {
       "name": "Headless Spring",
@@ -1961,7 +1961,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
-      "image": { "local_path": "/items/phantom/item-spectral-noodle.png" }
+      "image": { "fandom_wiki_image_path": "0/0c/Spectral_Noodles.png" }
     },
     {
       "name": "Spectral Bourguignon",
@@ -1978,7 +1978,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
-      "image": { "local_path": "/items/phantom/item-spectral-bourguignon.png" }
+      "image": { "fandom_wiki_image_path": "9/9e/Spectral_Bourguignon.png" }
     },
     {
       "name": "Spectral Pumpkin",
@@ -2029,7 +2029,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
-      "image": { "local_path": "/items/phantom/item-spectral-pumpkin-soup.png" }
+      "image": { "fandom_wiki_image_path": "b/b1/Spectral_Pumpkin_Soup.png" }
     },
     {
       "name": "Spectral Quindim",
@@ -2046,7 +2046,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
-      "image": { "local_path": "/items/phantom/item-spectral-quindim.png" }
+      "image": { "fandom_wiki_image_path": "f/f0/Spectral_Quindim.png" }
     },
     {
       "name": "Ghostly Mary",
@@ -2099,7 +2099,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Complete 25 Journeys" }],
-      "image": { "local_path": "/items/phantom/item-cursed-bana-ice-cream.png" }
+      "image": { "fandom_wiki_image_path": "3/31/Cursed_Bana_Ice_Cream.png" }
     },
     {
       "name": "Shadow Libre",
@@ -2154,7 +2154,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
-      "image": { "local_path": "/items/phantom/item-cult-barbecue.png" }
+      "image": { "fandom_wiki_image_path": "1/15/Cult_Barbecue.png" }
     },
     {
       "name": "Grilling Tools",
@@ -2170,7 +2170,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
-      "image": { "local_path": "/items/phantom/item-grilling-tools.png" }
+      "image": { "fandom_wiki_image_path": "d/df/Grilling_Tools.png" }
     },
     {
       "name": "Blender",
@@ -2186,7 +2186,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
-      "image": { "local_path": "/items/phantom/item-blender.png" }
+      "image": { "fandom_wiki_image_path": "3/39/Blender.png" }
     },
     {
       "name": "Cult Censer",
@@ -2203,7 +2203,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
-      "image": { "local_path": "/items/phantom/item-cult-censer.png" }
+      "image": { "fandom_wiki_image_path": "2/2a/Cult_Censer.png" }
     },
     {
       "name": "Tombstone Blues",
