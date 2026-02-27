@@ -114,25 +114,25 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
 export function getSimpleSourceName(source: Source): string {
     switch (source.type) {
         case SourceType.Battle:
-            return `Defeat ${source.name}`;
+            return `Defeat ${source.name} during ${getEventCategory(source)}`;
         case SourceType.Boutique:
-            return 'Boutique purchase';
+            return source.subtype == 'Anniversary' ? 'Anniversary boutique purchase' : 'Boutique purchase';
         case SourceType.City:
             return `${source.subtype} at ${source.name}`;
         case SourceType.Combine:
-            return `Combine ${source.name} fragments`;
+            return `Combine fragments for ${source.name}`;
         case SourceType.EventMarket:
-            return `${getEventCategory(source)} market`;
+            return `${getEventCategory(source)} market purchase`;
         case SourceType.Feat:
-            return `Complete the ${source.name} feat`;
+            return `Complete the ${source.name} feat (Lvl ${source.level})`;
         case SourceType.Harvest:
             return `Harvest ${source.name}`;
         case SourceType.Journey:
-            return source.name;
+            return `Finish journey: ${source.name}`;
         case SourceType.Market:
             return 'Market purchase';
         case SourceType.MissionReward:
-            return `Complete ${source.name}`;
+            return `Complete mission: ${source.name}`;
         case SourceType.Outpost:
             return `${source.subtype} at ${source.name} outposts`;
         case SourceType.PremiumPack:
@@ -140,9 +140,16 @@ export function getSimpleSourceName(source: Source): string {
         case SourceType.Shifty:
             return `Shifty's Bazaar`;
         case SourceType.ShopLevel:
-            return `Level your shop to ${source.name}`;
+            return `Level up your shop to ${source.name}`;
         case SourceType.Task:
-            return `Complete ${source.name}`;
+            switch (source.subtype) {
+                case 'Daily':
+                    return 'Complete daily tasks';
+                case 'Outpost':
+                    return `Complete tasks from ${source.name} outposts`;
+                default:
+                    return `Complete task: ${source.name} during ${getEventCategory(source)}`;
+            }
         case SourceType.TaskChest:
             return `Open a ${source.subtype} task chest`;
     }

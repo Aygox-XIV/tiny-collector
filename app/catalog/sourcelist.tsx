@@ -77,5 +77,5 @@ export function getSimpleSourceListString(sources: Source[] | undefined): string
     if (!sources || sources.length == 0) {
         return 'No known sources yet';
     }
-    return `Sources:\n- ${sources.map(getSimpleSourceName).join(',\n- ')}`;
+    return `Sources:\n- ${sources.map(getSimpleSourceName).join('\n- ')}`;
 }
