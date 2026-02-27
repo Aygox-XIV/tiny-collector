@@ -2396,7 +2396,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "source": [
+        { "type": "Shifty", "kind": "recipe", "fragment": true },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
       "image": { "fandom_wiki_image_path": "5/58/Itm_gear_scarf_blue.png" }
     },
     {
@@ -2411,7 +2414,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "source": [
+        { "type": "Shifty", "kind": "recipe", "fragment": true },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
       "image": { "fandom_wiki_image_path": "a/ab/Itm_gear_scarf_green.png" }
     },
     {
@@ -2426,7 +2432,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "source": [
+        { "type": "Shifty", "kind": "recipe", "fragment": true },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
       "image": { "fandom_wiki_image_path": "8/8c/Itm_gear_scarf_pink.png" }
     },
     {
@@ -2441,7 +2450,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "source": [
+        { "type": "Shifty", "kind": "recipe", "fragment": true },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
       "image": { "fandom_wiki_image_path": "1/19/Itm_gear_scarf_red.png" }
     },
     {
@@ -2456,7 +2468,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "source": [
+        { "type": "Shifty", "kind": "recipe", "fragment": true },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
       "image": { "fandom_wiki_image_path": "4/4c/Itm_gear_scarf_white.png" }
     },
     {
@@ -2472,7 +2487,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
+      "source": [
+        { "type": "Shifty", "kind": "recipe", "fragment": true },
+        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
+      ],
       "image": { "fandom_wiki_image_path": "9/92/Itm_pot_jelly.png" }
     },
     {
@@ -2791,6 +2809,74 @@
       "id": 1218,
       "category": "Cosmetic",
       "image": { "local_path": "/items/evercold/skin_evercold_jelly.png" }
+    },
+    {
+      "name": "Strange Coordinates",
+      "id": 1325,
+      "category": "Quest",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Explo: Ancient Crystals Formations" },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Ice-Bound Notes", "id": 1326 },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icy Mimiking" }
+      ],
+      "image": { "fandom_wiki_image_path": "1/13/Itm_icy_coordinate.png" }
+    },
+    {
+      "name": "Ice-Bound Notes",
+      "id": 1326,
+      "category": "Quest",
+      "source": [
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Snowfight Tactics: Icemazon Rookery", "id": 1327 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Snowfight Tactics: Frostbeard Clan", "id": 1328 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Snowfight Tactics: Primordial Ice", "id": 1329 }
+      ],
+      "image": { "fandom_wiki_image_path": "7/78/Itm_icy_notes.png" }
+    },
+    {
+      "name": "Snowfight Tactics: Icemazon Rookery",
+      "id": 1327,
+      "category": "Quest",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Guardian" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Soother" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Icemazon Duelist" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/87/Itm_gear_book_training_win.png" }
+    },
+    {
+      "name": "Snowfight Tactics: Frostbeard Clan",
+      "id": 1328,
+      "category": "Quest",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Ancient" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Yeti" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Frostbeard Youngling" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/87/Itm_gear_book_training_win.png" }
+    },
+    {
+      "name": "Snowfight Tactics: Primordial Ice",
+      "id": 1329,
+      "category": "Quest",
+      "source": [
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "The Sculptor" },
+        { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Ice Observer" }
+      ],
+      "image": { "fandom_wiki_image_path": "8/87/Itm_gear_book_training_win.png" }
+    },
+    {
+      "name": "Timelost Present",
+      "id": 1330,
+      "category": "Quest",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Strange Seed" }],
+      "image": { "fandom_wiki_image_path": "4/44/Violet_Present%2C_Snowy.png" }
+    },
+    {
+      "name": "Splendid Aquarium",
+      "id": 1331,
+      "category": "Decor",
+      "source": [{ "type": "Combine", "kind": "unlock", "fragment": false, "name": "Timelost Present", "id": 1330 }],
+      "image": { "fandom_wiki_image_path": "6/6b/Splendid_Aquarium.png" }
     }
   ]
 }

@@ -1181,7 +1181,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
-      "image": { "local_path": "/items/item_softbread_loaf.png" }
+      "image": { "fandom_wiki_image_path": "9/98/Softbread_Loaf.png" }
     },
     {
       "name": "Retrotemporal Bread",
@@ -1439,7 +1439,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_sunset_smoothie.png" }
+      "image": { "fandom_wiki_image_path": "f/f2/Sunset_Smoothie.png" }
     },
     {
       "name": "Sunny Smoothie",
