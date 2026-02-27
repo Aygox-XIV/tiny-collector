@@ -46,9 +46,11 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
             )}
             {item.source && <SourceList sources={item.source} />}
             {!item.source && <div className="no-source">No catalogued (or known) sources.</div>}
-            <meta property="og:title" content={'Tiny-Collector: ' + item.name} />
+            <meta property="og:title" content={'Tiny Collector: ' + item.name} />
             {item.image?.fandom_wiki_image_path && <meta property="og:image" content={getImgSrc(item.image)} />}
-            {item.source && <meta property="og:description" content={getSimpleSourceListString(item.source)} />}
+            {(item.source?.length || 0) > 0 && (
+                <meta property="og:description" content={getSimpleSourceListString(item.source)} />
+            )}
         </div>
     );
 };
