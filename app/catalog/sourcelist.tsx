@@ -5,7 +5,7 @@ import { EventIcon } from '../common/eventicon';
 import { FragmentIcon } from '../common/fragmenticon';
 import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
-import { SourceName } from '../common/sourcename';
+import { getSimpleSourceName, SourceName } from '../common/sourcename';
 import { sourceId } from '../database/database';
 import { getEventType, sourceSortFn, type Source } from '../database/sources';
 
@@ -72,3 +72,10 @@ const SingleSource: React.FC<SingleSourceProps> = ({ source }) => {
         </div>
     );
 };
+
+export function getSimpleSourceListString(sources: Source[] | undefined): string {
+    if (!sources || sources.length == 0) {
+        return 'No known sources yet';
+    }
+    return `Sources:\n- ${sources.map(getSimpleSourceName).join('\n- ')}`;
+}

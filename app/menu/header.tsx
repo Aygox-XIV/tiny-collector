@@ -5,7 +5,7 @@ export const Header: React.FC<NoProps> = ({}) => {
     return (
         <div className="header">
             <div className="title">
-                <NavLink to="/">TinyCollector -- a collection tracker for Tiny Shop</NavLink>
+                <NavLink to="/">Tiny Collector -- a collection tracker for Tiny Shop</NavLink>
             </div>
             {/* <div className="note">
                 (NOTE: some data may still be missing. Join{' '}

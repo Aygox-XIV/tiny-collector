@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router';
-import { SourceType, type Source } from '../database/sources';
+import { getEventCategory, SourceType, type Source } from '../database/sources';
 
 interface SourceNameProps {
     readonly source: Source;
@@ -110,6 +110,50 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
             return <div>Unknown source type for: {JSON.stringify(source)}</div>;
     }
 };
+
+export function getSimpleSourceName(source: Source): string {
+    switch (source.type) {
+        case SourceType.Battle:
+            return `Defeat ${source.name} during ${getEventCategory(source)}`;
+        case SourceType.Boutique:
+            return source.subtype == 'Anniversary' ? 'Anniversary boutique purchase' : 'Boutique purchase';
+        case SourceType.City:
+            return `${source.subtype} at ${source.name}`;
+        case SourceType.Combine:
+            return `Combine fragments for ${source.name}`;
+        case SourceType.EventMarket:
+            return `${getEventCategory(source)} market purchase`;
+        case SourceType.Feat:
+            return `Complete the ${source.name} feat (Lvl ${source.level})`;
+        case SourceType.Harvest:
+            return `Harvest ${source.name}`;
+        case SourceType.Journey:
+            return `Finish journey: ${source.name}`;
+        case SourceType.Market:
+            return 'Market purchase';
+        case SourceType.MissionReward:
+            return `Complete mission: ${source.name}`;
+        case SourceType.Outpost:
+            return `${source.subtype} at ${source.name} outposts`;
+        case SourceType.PremiumPack:
+            return `Buy the ${source.name}`;
+        case SourceType.Shifty:
+            return `Shifty's Bazaar`;
+        case SourceType.ShopLevel:
+            return `Level up your shop to ${source.name}`;
+        case SourceType.Task:
+            switch (source.subtype) {
+                case 'Daily':
+                    return 'Complete daily tasks';
+                case 'Outpost':
+                    return `Complete tasks from ${source.name} outposts`;
+                default:
+                    return `Complete task: ${source.name} during ${getEventCategory(source)}`;
+            }
+        case SourceType.TaskChest:
+            return `Open a ${source.subtype} task chest`;
+    }
+}
 
 interface OutpostTypeProp {
     readonly type: string;
