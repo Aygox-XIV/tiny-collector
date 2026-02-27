@@ -2151,7 +2151,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "1/18/Itm_evercold_muffin.png" }
     },
@@ -2187,7 +2188,8 @@
         "craft_amount": 4
       },
       "source": [
-        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" }
+        { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "recipe", "fragment": true, "name": "Exploration: Crystals Formations" },
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "Explo: Ancient Crystals Formations" }
       ],
       "image": { "fandom_wiki_image_path": "8/81/Itm_evercold_flan.png" }
     },

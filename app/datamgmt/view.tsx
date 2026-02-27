@@ -15,7 +15,7 @@ import {
     type SourceImage,
     type SourceImageList,
 } from '../database/database';
-import { SourceType, validateSingleSource, type Source } from '../database/sources';
+import { EventType, SourceType, validateSingleSource, type Source } from '../database/sources';
 import type { Route } from '../datamgmt/+types/view';
 import { useAppDispatch } from '../store';
 import { parseCsv } from './common';
@@ -323,6 +323,35 @@ const CRAFTABLE_BUT_UNLICENSABLE = new Set([
     941, // Mushroom Soup
 ]);
 
+const LICENSABLE_BUT_UNCRAFTABLE = new Set([
+    100, // Accuracy Potion
+    101, // Fish Dumplings
+    103, // Mad Screecher Sunset
+    250, // Kraken Ink
+    359, // Armor Pouches
+    360, // Citizen's Mask
+    361, // Fishing Rod
+    362, // Ranger's Cape
+    363, // Shiny Jelly Winter Gloves
+    364, // Shiny Jelly Winter Hat
+    365, // Shiny Jelly Winterer Pull
+    366, // Shiny Jelly Winter Scarf
+    610, // Ancient Stories
+    611, // Figurine: Bloodslime
+    612, // Figurine: Coral Crab
+    613, // Figurine: Drakegull
+    614, // Figurine: Fire Sprite
+    615, // Figurine: Seaslime
+    926, // Potted Aetheric Flowers
+    930, // Sporetower Figurine
+    931, // Sunbiter Figurine
+    932, // Field Stalker Figurine
+    934, // Healing Draught
+    964, // Arcane Croissant
+    1093, // Kraken Steak
+    1094, // Moonfish Steak
+]);
+
 /**
  * Checks whether there's any inconsistencies in the data:
  * - items with a recipe and sources, but no recipe source
@@ -333,10 +362,31 @@ function validateDbIntegrity(db: Database) {
     for (const item of Object.values(db.items)) {
         let hasRecipeSource = false;
         const logPrefix = `Item ${item.id} (${item.name})`;
+        const eventPhases = new Set<EventType>();
         for (const source of item.source || []) {
             validateSingleSource(item, source);
             if (source.kind == 'recipe') {
                 hasRecipeSource = true;
+            }
+            if (source.subtype as EventType) {
+                if (source.type != SourceType.Task && source.type != SourceType.TaskChest) {
+                    eventPhases.add(source.subtype as EventType);
+                }
+            }
+        }
+        if (eventPhases.has(EventType.EvercoldIslePart1)) {
+            if (!eventPhases.has(EventType.EvercoldIslePart2)) {
+                console.warn(`${logPrefix} has a source for Evercold pt 1 but not pt 2`);
+            }
+        }
+        if (eventPhases.has(EventType.PhantomIslePart1)) {
+            if (!eventPhases.has(EventType.PhantomIslePart2)) {
+                console.warn(`${logPrefix} has a source for Phantom pt 1 but not pt 2`);
+            }
+        }
+        if (eventPhases.has(EventType.PhantomIslePart2)) {
+            if (!eventPhases.has(EventType.PhantomIslePart3)) {
+                console.warn(`${logPrefix} has a source for Phantom pt 2 but not pt 3`);
             }
         }
         if (!hasRecipeSource && item.recipe && item.source) {
@@ -375,6 +425,11 @@ function validateDbIntegrity(db: Database) {
             if (item.license_amount == undefined && !CRAFTABLE_BUT_UNLICENSABLE.has(item.id)) {
                 console.warn(`${logPrefix} has a recipe but is unlicensable`);
             }
+        } else {
+            // !recipe
+            if (item.license_amount && !LICENSABLE_BUT_UNCRAFTABLE.has(item.id)) {
+                console.warn(`${logPrefix} is licensable but not craftable`);
+            }
         }
         if (item.image) {
             if (item.image.fandom_wiki_image_path) {
@@ -390,8 +445,16 @@ function validateDbIntegrity(db: Database) {
                 }
             }
         }
-        // TODO?: only some known small-ish set of items is licenseable but has no recipe
-        // TODO: subsequent event parts should have a source as well for non-task sources (barring some exceptions/bugs)
+    }
+    for (const id of LICENSABLE_BUT_UNCRAFTABLE) {
+        if (!db.items[id].license_amount || db.items[id].recipe) {
+            console.warn(`Item ${db.items[id].name} (id: ${id}) is not licensable-but-uncraftable`);
+        }
+    }
+    for (const id of CRAFTABLE_BUT_UNLICENSABLE) {
+        if (db.items[id].license_amount || !db.items[id].recipe) {
+            console.warn(`Item ${db.items[id].name} (id: ${id}) is not craftable-but-unlicensable`);
+        }
     }
 }
 
