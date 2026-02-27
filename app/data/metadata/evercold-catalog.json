@@ -196,7 +196,14 @@
         ["1214", "Cosmetic: Spirit Mask"],
         ["1215", "Cosmetic: Warm Mug"],
         ["1216", "Skin: Deepwinter Jelly"],
-        ["1218", "Skin: Evercold Jelly"]
+        ["1218", "Skin: Evercold Jelly"],
+        ["1325", "Strange Coordinates"],
+        ["1326", "Ice-Bound Notes"],
+        ["1327", "Snowfight Tactics: Icemazon Rookery"],
+        ["1328", "Snowfight Tactics: Frostbeard Clan"],
+        ["1329", "Snowfight Tactics: Primordial Ice"],
+        ["1330", "Timelost Present"],
+        ["1331", "Splendid Aquarium"]
       ]
     }
   ]
