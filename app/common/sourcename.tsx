@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router';
-import { SourceType, type Source } from '../database/sources';
+import { getEventCategory, SourceType, type Source } from '../database/sources';
 
 interface SourceNameProps {
     readonly source: Source;
@@ -110,6 +110,43 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
             return <div>Unknown source type for: {JSON.stringify(source)}</div>;
     }
 };
+
+export function getSimpleSourceName(source: Source): string {
+    switch (source.type) {
+        case SourceType.Battle:
+            return `Defeat ${source.name}`;
+        case SourceType.Boutique:
+            return 'Boutique purchase';
+        case SourceType.City:
+            return `${source.subtype} at ${source.name}`;
+        case SourceType.Combine:
+            return `Combine ${source.name} fragments`;
+        case SourceType.EventMarket:
+            return `${getEventCategory(source)} market`;
+        case SourceType.Feat:
+            return `Complete the ${source.name} feat`;
+        case SourceType.Harvest:
+            return `Harvest ${source.name}`;
+        case SourceType.Journey:
+            return source.name;
+        case SourceType.Market:
+            return 'Market purchase';
+        case SourceType.MissionReward:
+            return `Complete ${source.name}`;
+        case SourceType.Outpost:
+            return `${source.subtype} at ${source.name} outposts`;
+        case SourceType.PremiumPack:
+            return `Buy the ${source.name}`;
+        case SourceType.Shifty:
+            return `Shifty's Bazaar`;
+        case SourceType.ShopLevel:
+            return `Level your shop to ${source.name}`;
+        case SourceType.Task:
+            return `Complete ${source.name}`;
+        case SourceType.TaskChest:
+            return `Open a ${source.subtype} task chest`;
+    }
+}
 
 interface OutpostTypeProp {
     readonly type: string;

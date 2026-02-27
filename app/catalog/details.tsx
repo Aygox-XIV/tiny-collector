@@ -4,9 +4,9 @@ import { Icon } from '../common/icon';
 import { ItemName } from '../common/itemname';
 import { EditingProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
-import { useDatabase, type Item } from '../database/database';
+import { getImgSrc, useDatabase, type Item } from '../database/database';
 import { useAppDispatch } from '../store';
-import { SOURCE_TOOLTIP, SourceList } from './sourcelist';
+import { getSimpleSourceListString, SOURCE_TOOLTIP, SourceList } from './sourcelist';
 
 export interface DetailsProps {
     readonly id: string;
@@ -46,6 +46,9 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
             )}
             {item.source && <SourceList sources={item.source} />}
             {!item.source && <div className="no-source">No catalogued (or known) sources.</div>}
+            <meta property="og:title" content={'Tiny-Collector: ' + item.name} />
+            {item.image?.fandom_wiki_image_path && <meta property="og:image" content={getImgSrc(item.image)} />}
+            {item.source && <meta property="og:description" content={getSimpleSourceListString(item.source)} />}
         </div>
     );
 };
