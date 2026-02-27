@@ -5214,7 +5214,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Cindergrove" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Samples: Firebloom" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Shifty", "kind": "item", "fragment": false }
       ]
     },
     {
