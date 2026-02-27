@@ -2398,10 +2398,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Shifty", "kind": "recipe", "fragment": true },
-        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ],
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
       "image": { "fandom_wiki_image_path": "5/58/Itm_gear_scarf_blue.png" }
     },
     {
@@ -2416,10 +2413,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Shifty", "kind": "recipe", "fragment": true },
-        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ],
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
       "image": { "fandom_wiki_image_path": "a/ab/Itm_gear_scarf_green.png" }
     },
     {
@@ -2434,10 +2428,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Shifty", "kind": "recipe", "fragment": true },
-        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ],
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
       "image": { "fandom_wiki_image_path": "8/8c/Itm_gear_scarf_pink.png" }
     },
     {
@@ -2452,10 +2443,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Shifty", "kind": "recipe", "fragment": true },
-        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ],
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
       "image": { "fandom_wiki_image_path": "1/19/Itm_gear_scarf_red.png" }
     },
     {
@@ -2470,10 +2458,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [
-        { "type": "Shifty", "kind": "recipe", "fragment": true },
-        { "type": "Event Market", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)" }
-      ],
+      "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true }],
       "image": { "fandom_wiki_image_path": "4/4c/Itm_gear_scarf_white.png" }
     },
     {
