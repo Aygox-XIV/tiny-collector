@@ -3499,7 +3499,7 @@
       "category": "Quest",
       "image": { "fandom_wiki_image_path": "8/89/Enigquatic_fragment_2.png" },
       "source": [
-        { "type": "Combine", "kind": "item", "fragment": true, "name": "Antique Crown", "id": 1184 },
+        { "type": "Combine", "kind": "item", "fragment": true, "name": "Ancient Crown", "id": 1184 },
         { "type": "Combine", "kind": "item", "fragment": true, "name": "Antique Scepter", "id": 1185 },
         { "type": "Combine", "kind": "item", "fragment": true, "name": "Benevolent Soulstone", "id": 1186 },
         { "type": "Combine", "kind": "item", "fragment": true, "name": "Majestic Cape", "id": 1187 },
@@ -3507,10 +3507,11 @@
       ]
     },
     {
-      "name": "Antique Crown",
+      "name": "Ancient Crown",
       "id": 1184,
       "category": "Quest",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" }]
+      "source": [{ "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" }],
+      "image": { "fandom_wiki_image_path": "f/ff/Ancient_Crown.png" }
     },
     {
       "name": "Antique Scepter",
@@ -3521,7 +3522,7 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" }
       ],
-      "image": { "local_path": "/items/item_antique_scepter.png" }
+      "image": { "fandom_wiki_image_path": "f/fd/Antique_Scepter.png" }
     },
     {
       "name": "Benevolent Soulstone",
@@ -3532,7 +3533,7 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Request: Apothecary" }
       ],
-      "image": { "local_path": "/items/item_benevolent_soulstone.png" }
+      "image": { "fandom_wiki_image_path": "3/37/Benevolent_Soulstone.png" }
     },
     {
       "name": "Majestic Cape",
@@ -3542,7 +3543,7 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Library" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruined Farmstead" }
       ],
-      "image": { "local_path": "/items/item_majestic_cape.png" }
+      "image": { "fandom_wiki_image_path": "7/79/Majestic_Cape.png" }
     },
     {
       "name": "Timeless Schematics",
