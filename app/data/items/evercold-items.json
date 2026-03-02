@@ -29,7 +29,9 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
-        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" },
+        { "type": "Shifty", "kind": "item", "fragment": false },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
       ],
       "image": { "fandom_wiki_image_path": "b/b8/Enchanted_Gingerbread_Dough.png" }
     },
@@ -57,7 +59,9 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Gingerbread Falls" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Gathering: Expedition Supplies" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Gathering: Expedition Supplies" },
-        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" },
+        { "type": "Shifty", "kind": "item", "fragment": false },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
       ],
       "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" }
     },
@@ -79,7 +83,9 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
-        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" }
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" },
+        { "type": "Shifty", "kind": "item", "fragment": false },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
       ],
       "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" }
     },
@@ -87,7 +93,10 @@
       "name": "Frozen Documents",
       "id": 823,
       "category": "Material",
-      "source": [{ "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Icy Enemies" }],
+      "source": [
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Icy Enemies" },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
+      ],
       "image": { "fandom_wiki_image_path": "0/03/Itm_icy_document.png" }
     },
     {
@@ -101,7 +110,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Evercold Isle (part 2)", "name": "Exploration: Dwarf Cocoa Forest" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Orthotemporal Breach" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Anomaly: Paratemporal Breach" },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
       ],
       "image": { "fandom_wiki_image_path": "d/df/Chocolate.png" }
     },
@@ -2692,7 +2702,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Crystals Formations" },
-        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" }
+        { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" },
+        { "type": "Shifty", "kind": "item", "fragment": false }
       ]
     },
     {

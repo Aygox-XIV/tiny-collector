@@ -55,7 +55,8 @@
       "category": "Plant",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Survey: Botanical Study" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Shifty", "kind": "item", "fragment": false }
       ],
       "image": { "fandom_wiki_image_path": "1/1c/Ashen_Wheat_%28Seed%29.png" }
     },

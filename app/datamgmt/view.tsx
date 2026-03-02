@@ -352,6 +352,10 @@ const LICENSABLE_BUT_UNCRAFTABLE = new Set([
     1094, // Moonfish Steak
 ]);
 
+const UNLICENSABLE_GEAR = new Set([
+    1100, // Bronze Sword
+]);
+
 /**
  * Checks whether there's any inconsistencies in the data:
  * - items with a recipe and sources, but no recipe source
@@ -444,6 +448,13 @@ function validateDbIntegrity(db: Database) {
                     console.warn(`${logPrefix} has an unexpected local image path format: ${item.image.local_path}`);
                 }
             }
+        }
+        switch (item.category) {
+            case 'Gear':
+                if ((item.license_amount == undefined) != UNLICENSABLE_GEAR.has(item.id)) {
+                    console.warn(`${logPrefix} is gear with unexpected licensable state`);
+                }
+                break;
         }
     }
     for (const id of LICENSABLE_BUT_UNCRAFTABLE) {

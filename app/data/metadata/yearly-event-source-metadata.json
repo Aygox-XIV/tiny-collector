@@ -194,6 +194,7 @@
       "src": { "local_path": "/sources/source-evercold-final-chest.png" }
     },
     { "type": "Event Market", "subtype": "Evercold Isle (part 2)", "src": { "local_path": "/sources/source-evercold-market.png" } },
+    { "type": "Shifty", "name": "Frozen Crate", "src": { "fandom_wiki_image_path": "b/bf/Frozen_Crate.png" } },
 
     { "type": "Journey", "subtype": "Phantom Isle (part 1)", "name": "Gathering: Expedition Supplies" },
     { "type": "Journey", "subtype": "Phantom Isle (part 2)", "name": "Gathering: Expedition Supplies" },
@@ -400,6 +401,8 @@
     },
 
     { "type": "Shifty", "name": "Gravewarden Crate", "src": { "fandom_wiki_image_path": "d/de/Gravewarden_Set.png" } },
+    { "type": "Shifty", "name": "Phantom Crate", "src": { "fandom_wiki_image_path": "0/05/Phantom_Crate.png" } },
+    { "type": "Shifty", "name": "Phantom Monster Materials", "src": { "fandom_wiki_image_path": "0/05/Phantom_Crate.png" } },
     { "type": "Event Market", "subtype": "Phantom Isle (part 2)" },
     { "type": "Event Market", "subtype": "Phantom Isle (part 3)" }
   ]
