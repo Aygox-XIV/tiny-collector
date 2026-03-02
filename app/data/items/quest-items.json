@@ -44,7 +44,7 @@
     {
       "name": "Arcane Catalyst",
       "id": 822,
-      "category": "Material",
+      "category": "Quest",
       "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "Operation: Thundershroom - Part 5" }],
       "image": { "fandom_wiki_image_path": "3/3a/Itm_material_catalyst_arcane.png" }
     },

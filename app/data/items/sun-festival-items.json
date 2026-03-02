@@ -13,14 +13,14 @@
     {
       "name": "Koko",
       "id": 150,
-      "category": "Material",
+      "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }],
       "image": { "fandom_wiki_image_path": "f/f0/Koko.png" }
     },
     {
       "name": "Koko Water",
       "id": 243,
-      "category": "Material",
+      "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Koko Tree" }],
       "image": { "fandom_wiki_image_path": "5/58/Koko_water.png" }
     },
@@ -41,7 +41,7 @@
     {
       "name": "Sunseeker Seeds",
       "id": 339,
-      "category": "Material",
+      "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Sunseekers" }],
       "image": { "fandom_wiki_image_path": "7/71/Sunseeker_seeds.png" }
     },

@@ -1864,7 +1864,7 @@
     {
       "name": "Cultist Brochures",
       "id": 768,
-      "category": "Consumables",
+      "category": "Material",
       "license_amount": 250,
       "recipe": {
         "ingredient": [

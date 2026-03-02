@@ -339,7 +339,7 @@
     {
       "name": "Bana Fruits",
       "id": 124,
-      "category": "Material",
+      "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Bana Tree" }],
       "image": { "fandom_wiki_image_path": "b/ba/Itm_consum_bana.png" }
     },
@@ -883,7 +883,7 @@
     {
       "name": "Archipelago Greens",
       "id": 184,
-      "category": "Material",
+      "category": "Consumables",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
@@ -2873,7 +2873,7 @@
     {
       "name": "Archipelago Botanical Compendium I",
       "id": 395,
-      "category": "Gear",
+      "category": "Material",
       "license_amount": 1000,
       "recipe": {
         "ingredient": [
@@ -2900,7 +2900,7 @@
     {
       "name": "Archipelago Botanical Compendium II",
       "id": 397,
-      "category": "Gear",
+      "category": "Material",
       "license_amount": 1000,
       "recipe": {
         "ingredient": [
@@ -2916,7 +2916,7 @@
     {
       "name": "Archipelago Botanical Compendium III",
       "id": 398,
-      "category": "Gear",
+      "category": "Material",
       "license_amount": 1000,
       "recipe": {
         "ingredient": [
@@ -4187,7 +4187,7 @@
     {
       "name": "M&M Module: The Winged Terror",
       "id": 523,
-      "category": "Gear",
+      "category": "Material",
       "license_amount": 850,
       "recipe": {
         "ingredient": [
