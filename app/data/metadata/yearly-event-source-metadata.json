@@ -156,6 +156,12 @@
       "name": "All Mimics",
       "src": { "local_path": "/sources/source-evercold-mimics.png" }
     },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
+      "name": "All Enemies",
+      "src": { "local_path": "/sources/source-evercold-battles.png" }
+    },
 
     {
       "type": "Task Chest",
