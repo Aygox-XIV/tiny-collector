@@ -31,7 +31,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Snowflower Fields" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" },
         { "type": "Shifty", "kind": "item", "fragment": false },
-        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Enemies" }
       ],
       "image": { "fandom_wiki_image_path": "b/b8/Enchanted_Gingerbread_Dough.png" }
     },
@@ -61,7 +62,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Gathering: Expedition Supplies" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" },
         { "type": "Shifty", "kind": "item", "fragment": false },
-        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Enemies" }
       ],
       "image": { "fandom_wiki_image_path": "f/fb/Evercold_Crystals.png" }
     },
@@ -85,7 +87,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "recipe", "fragment": true, "name": "The Sculptor" },
         { "type": "Shifty", "kind": "item", "fragment": false },
-        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" }
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Frozen Crate" },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Enemies" }
       ],
       "image": { "fandom_wiki_image_path": "f/f4/Enchanted_Yarn.png" }
     },
@@ -2703,7 +2706,8 @@
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Exploration: Chilling Around" },
         { "type": "Journey", "subtype": "Evercold Isle (part 1)", "kind": "item", "fragment": false, "name": "Exploration: Crystals Formations" },
         { "type": "Journey", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "Explo: Ancient Crystals Formations" },
-        { "type": "Shifty", "kind": "item", "fragment": false }
+        { "type": "Shifty", "kind": "item", "fragment": false },
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Enemies" }
       ]
     },
     {
@@ -2754,9 +2758,8 @@
       "category": "Material",
       "source": [
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Icy Enemies" },
-        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": true, "name": "All Icy Enemies" },
         { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": false, "name": "All Mimics" },
-        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": true, "name": "All Mimics" }
+        { "type": "Battle", "subtype": "Evercold Isle (part 2)", "kind": "item", "fragment": true, "name": "All Enemies" }
       ],
       "image": { "fandom_wiki_image_path": "9/98/Win_victory_currency.png" }
     },
