@@ -244,7 +244,6 @@
       "name": "Evercold Oil",
       "id": 203,
       "category": "Material",
-      "license_amount": 35102,
       "recipe": {
         "ingredient": [
           { "name": "Evercold Crystals", "quantity": 2, "id": 202 },
@@ -2333,7 +2332,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
-      "image": { "fandom_wiki_image_path": "b/b8/Itm_win_chest.png" }
+      "image": { "fandom_wiki_image_path": "1/1c/Itm_win_boot.png" }
     },
     {
       "name": "Pathfinder Gloves",

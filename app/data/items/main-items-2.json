@@ -1318,7 +1318,7 @@
       },
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_timefound_softbread.png" }
+      "image": { "fandom_wiki_image_path": "d/d9/Timefound_Softbread.png" }
     },
     {
       "name": "Timefound Rye Bread",
