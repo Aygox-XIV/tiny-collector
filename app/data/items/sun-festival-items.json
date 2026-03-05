@@ -1763,7 +1763,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/sun/item_cheese_mix.png" }
+      "image": { "fandom_wiki_image_path": "4/45/Cheese_Mix.png" }
     },
     {
       "name": "Crate of Screechers",

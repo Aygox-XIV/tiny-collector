@@ -244,7 +244,6 @@
       "name": "Evercold Oil",
       "id": 203,
       "category": "Material",
-      "license_amount": 35102,
       "recipe": {
         "ingredient": [
           { "name": "Evercold Crystals", "quantity": 2, "id": 202 },
@@ -2333,7 +2332,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Even Stranger Seed" }],
-      "image": { "fandom_wiki_image_path": "b/b8/Itm_win_chest.png" }
+      "image": { "fandom_wiki_image_path": "1/1c/Itm_win_boot.png" }
     },
     {
       "name": "Pathfinder Gloves",
@@ -2507,7 +2506,7 @@
         "craft_amount": 2
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "First Chest (3 tasks)" }],
-      "image": { "local_path": "/items/evercold/item-spiced-bread.png" }
+      "image": { "fandom_wiki_image_path": "d/da/Spiced_Bread.png" }
     },
     {
       "name": "Choux",
@@ -2526,7 +2525,7 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" }
       ],
-      "image": { "local_path": "/items/evercold/item-choux.png" }
+      "image": { "fandom_wiki_image_path": "3/35/Choux.png" }
     },
     {
       "name": "Cream Puff",
@@ -2543,7 +2542,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "First Chest (3 tasks)" }],
-      "image": { "local_path": "/items/evercold/item-cream-puff.png" }
+      "image": { "fandom_wiki_image_path": "a/a6/Cream_Puff.png" }
     },
     {
       "name": "Spiced Roll",
@@ -2562,7 +2561,7 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" }
       ],
-      "image": { "local_path": "/items/evercold/item-spiced-roll.png" }
+      "image": { "fandom_wiki_image_path": "5/58/Spiced_Roll.png" }
     },
     {
       "name": "Moonfish Bagel",
@@ -2578,7 +2577,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Third Chest (9 tasks)" }],
-      "image": { "local_path": "/items/evercold/item-moonfish-bagel.png" }
+      "image": { "fandom_wiki_image_path": "8/8f/Moonfish_Bagel.png" }
     },
     {
       "name": "Evercold Cake",
@@ -2594,7 +2593,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }],
-      "image": { "local_path": "/items/evercold/item-evercold-cake.png" }
+      "image": { "fandom_wiki_image_path": "3/39/Evercold_Cake.png" }
     },
     {
       "name": "Grilled Moonfish",
@@ -2610,7 +2609,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }],
-      "image": { "local_path": "/items/evercold/item-grilled-moonfish.png" }
+      "image": { "fandom_wiki_image_path": "0/07/Grilled_Moonfish.png" }
     },
     {
       "name": "Frosthaven Kettle",
@@ -2626,7 +2625,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "First Chest (3 tasks)" }],
-      "image": { "local_path": "/items/evercold/item-frosthaven-kettle.png" }
+      "image": { "fandom_wiki_image_path": "a/a3/Frosthaven_Kettle.png" }
     },
     {
       "name": "Frosthaven Lamp",
@@ -2641,7 +2640,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "First Chest (3 tasks)" }],
-      "image": { "local_path": "/items/evercold/item-frosthaven-lamp-green.png" }
+      "image": { "fandom_wiki_image_path": "a/a6/Frosthaven_Lamp_%28Green%29.png" }
     },
     {
       "name": "Frosthaven Lamp",
@@ -2656,7 +2655,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 2)", "name": "First Chest (3 tasks)" }],
-      "image": { "local_path": "/items/evercold/item-frosthaven-lamp-yellow.png" }
+      "image": { "fandom_wiki_image_path": "4/44/Frosthaven_Lamp_%28Orange%29.png" }
     },
     {
       "name": "Strange Snow Globe",
@@ -2674,7 +2673,7 @@
       "source": [
         { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Second Chest (6 tasks)" }
       ],
-      "image": { "local_path": "/items/evercold/item-strange-snow-globe.png" }
+      "image": { "fandom_wiki_image_path": "6/69/Strange_Snow_Globe.png" }
     },
     {
       "name": "Smoked Moonfish",
@@ -2690,7 +2689,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Evercold Isle (part 1)", "name": "Final Chest" }],
-      "image": { "local_path": "/items/evercold/item-smoked-moonfish.png" }
+      "image": { "fandom_wiki_image_path": "c/cc/Smoked_Moonfish.png" }
     },
     {
       "name": "Dwarf Cocoa Seed",

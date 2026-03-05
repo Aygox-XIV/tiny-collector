@@ -941,7 +941,6 @@
       "name": "Unstable Essence",
       "id": 194,
       "category": "Material",
-      "license_amount": 500,
       "recipe": {
         "ingredient": [
           { "name": "Condensed Arcane Aether", "quantity": 5, "id": 105 },

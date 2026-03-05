@@ -957,7 +957,7 @@
         "craft_amount": 4
       },
       "license_amount": 650,
-      "image": { "local_path": "/items/item_traditional_loaf.png" }
+      "image": { "fandom_wiki_image_path": "9/92/Traditional_Loaf.png" }
     },
     {
       "name": "Rye Bread",
@@ -1247,7 +1247,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_sweetbread.png" }
+      "image": { "fandom_wiki_image_path": "2/25/Sweetbread.png" }
     },
     {
       "name": "Experiment #127",
@@ -1318,7 +1318,7 @@
       },
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_timefound_softbread.png" }
+      "image": { "fandom_wiki_image_path": "d/d9/Timefound_Softbread.png" }
     },
     {
       "name": "Timefound Rye Bread",
@@ -1457,7 +1457,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Orthotemporal Breach" }],
-      "image": { "local_path": "/items/item_sunny_smoothie.png" }
+      "image": { "fandom_wiki_image_path": "6/6c/Sunny_Smoothie.png" }
     },
     {
       "name": "Berry Bliss Smoothie",
