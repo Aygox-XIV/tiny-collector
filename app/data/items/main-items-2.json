@@ -1253,6 +1253,15 @@
       "name": "Experiment #127",
       "id": 1069,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Aetheric Water", "quantity": 2, "id": 132 },
+          { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 },
+          { "name": "Unstable Essence", "quantity": 2, "id": 194 }
+        ],
+        "craft_amount": 4
+      },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
       "image": { "local_path": "/items/item_experiment_127.png" }
     },
