@@ -47,16 +47,23 @@ export function itemMatchesFilter(item: Item, collection: CollectedItem, filter:
         return false;
     }
     if (filter.hideCollected) {
-        if (collection?.status?.collected) {
-            return false;
-        }
+        // Having both recipe and license always means it's collected
         if (collection?.status?.haveRecipe && collection?.status?.licensed) {
             return false;
         }
+        // If the item isn't licensable, having the recipe means it's collected
         if (collection?.status?.haveRecipe && !item.license_amount) {
             return false;
         }
+        // If the item has no recipe, having the license means it's collected
         if (collection?.status?.licensed && !item.recipe) {
+            return false;
+        }
+        // The separate "collected" state only counts if there's no recipe or license.
+        // Usually this isn't an issue since the toggle for it won't appear if either of these exist,
+        // but it can happen if an item didn't have a documented license or recipe before it was
+        // marked as collected
+        if (collection?.status?.collected && !item.license_amount && !item.recipe) {
             return false;
         }
     }
