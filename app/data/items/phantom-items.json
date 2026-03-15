@@ -861,7 +861,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 2)", "name": "Stealth: Colony of Cursedconuts" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }
       ],
-      "image": { "fandom_wiki_image_path": "8/81/Itm_hal_mask_mummy.png" }
+      "image": { "fandom_wiki_image_path": "3/34/Itm_hal_mask_cursedconut.png" }
     },
     {
       "name": "Ducky Mask",

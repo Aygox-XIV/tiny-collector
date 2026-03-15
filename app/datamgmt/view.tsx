@@ -365,6 +365,7 @@ const UNLICENSABLE_GEAR = new Set([
  * - source subtypes and names make sense for their main type (& the type is valid)
  */
 function validateDbIntegrity(db: Database) {
+    const imageUrls: Set<string> = new Set();
     for (const item of Object.values(db.items)) {
         let hasRecipeSource = false;
         const logPrefix = `Item ${item.id} (${item.name})`;
@@ -455,6 +456,19 @@ function validateDbIntegrity(db: Database) {
             case 'Gear':
                 if ((item.license_amount == undefined) != UNLICENSABLE_GEAR.has(item.id)) {
                     console.warn(`${logPrefix} is gear with unexpected licensable state`);
+                }
+                break;
+        }
+        switch (item.category) {
+            case 'Gear':
+            case 'Consumables':
+            case 'Material':
+                if (item.image && item.image.fandom_wiki_image_path) {
+                    if (imageUrls.has(item.image.fandom_wiki_image_path)) {
+                        console.warn(`${logPrefix} has a duplicate image url ${item.image.fandom_wiki_image_path}`);
+                    } else {
+                        imageUrls.add(item.image.fandom_wiki_image_path);
+                    }
                 }
                 break;
         }
