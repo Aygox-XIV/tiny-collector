@@ -3717,7 +3717,7 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Outpost", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Archeology" }],
-      "image": { "fandom_wiki_image_path": "9/9f/Itm_gear_sword_seastone.png" }
+      "image": { "fandom_wiki_image_path": "a/ae/Itm_gear_sword_emerald.png" }
     },
     {
       "name": "Exploration Kit",
@@ -5344,6 +5344,7 @@
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Patrol: Island" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ruined Farmstead" },
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Townfolks Small Task" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Exploration: Ancient Derelict" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Skirmish: Stolen Goods" }
       ],
       "image": { "fandom_wiki_image_path": "2/28/Jellyvenger%27s_Adventures_Vol.1.png" }
