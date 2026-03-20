@@ -120,7 +120,7 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
                         />
                     )}
                     <div className="source-name">
-                        <SourceName source={details.source} disableLinks={true} />
+                        <SourceName source={details.source} disableLinks={true} omitFeatLevels={true} />
                     </div>
                     <div className="drop-detail">
                         {collectedDrops} / {details.drops.length}
