@@ -178,7 +178,7 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
         case SourceType.Feat:
             return (
                 <div>
-                    Complete level {source.level} of the Feat "{source.name}" in the {source.subtype} category.
+                    Complete levels of the Feat "{source.name}" in the {source.subtype} category.
                 </div>
             );
         case SourceType.Harvest: {

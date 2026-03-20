@@ -5,11 +5,12 @@ interface SourceNameProps {
     readonly source: Source;
     readonly tooltipId?: string;
     readonly disableLinks?: boolean;
+    readonly omitFeatLevels?: boolean;
 }
 
 const NO_TOOLTIP = 'no-tooltip';
 
-export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disableLinks }) => {
+export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disableLinks, omitFeatLevels }) => {
     switch (source.type) {
         case SourceType.Battle:
             return (
@@ -54,15 +55,27 @@ export const SourceName: React.FC<SourceNameProps> = ({ source, tooltipId, disab
             }
             return <div>Buy from the {source.subtype} event market.</div>;
         case SourceType.Feat:
-            return (
-                <div
-                    data-tooltip-id={tooltipId || NO_TOOLTIP}
-                    data-tooltip-content={'Feat category: ' + source.subtype}
-                    data-tooltip-place="top-start"
-                >
-                    Reward for level {source.level} of {source.name}
-                </div>
-            );
+            if (omitFeatLevels) {
+                return (
+                    <div
+                        data-tooltip-id={tooltipId || NO_TOOLTIP}
+                        data-tooltip-content={'Feat category: ' + source.subtype}
+                        data-tooltip-place="top-start"
+                    >
+                        Reward for the {source.name} feat
+                    </div>
+                );
+            } else {
+                return (
+                    <div
+                        data-tooltip-id={tooltipId || NO_TOOLTIP}
+                        data-tooltip-content={'Feat category: ' + source.subtype}
+                        data-tooltip-place="top-start"
+                    >
+                        Reward for level {source.level} of {source.name}
+                    </div>
+                );
+            }
         case SourceType.Harvest:
             return <div>{source.name}</div>;
         case SourceType.Journey:
