@@ -27,6 +27,7 @@ export interface CollectedItem {
 export interface ChangeStatusArgs {
     readonly id: string;
     readonly status: ItemStatus;
+    readonly skipStorageUpdate?: boolean;
 }
 
 export interface SetLicenceAmountArgs {
@@ -48,6 +49,9 @@ export const collectionSlice = createSlice({
             saveCollection(state);
             console.log('All collection state has been reset.');
         },
+        saveCurrentState: (state) => {
+            saveCollection(state);
+        },
         changeStatus: (state, action: PayloadAction<ChangeStatusArgs>) => {
             const args = action.payload;
             // TODO: optimize status by omitting `false` entries.
@@ -56,7 +60,9 @@ export const collectionSlice = createSlice({
             } else {
                 state.items[args.id] = { ...state.items[args.id], status: args.status };
             }
-            saveCollection(state);
+            if (!args.skipStorageUpdate) {
+                saveCollection(state);
+            }
         },
         setLicenseAmount: (state, action: PayloadAction<SetLicenceAmountArgs>) => {
             const args = action.payload;
@@ -99,7 +105,7 @@ export function defaultCollectionState(id: string): CollectedItem {
     return { id, status: {} };
 }
 
-export const { load, resetCollection, changeStatus, setLicenseAmount } = collectionSlice.actions;
+export const { load, resetCollection, saveCurrentState, changeStatus, setLicenseAmount } = collectionSlice.actions;
 
 export function useFullCollection(): Collection {
     return useAppSelector((state) => state.collection);

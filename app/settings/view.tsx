@@ -1,19 +1,46 @@
 import { NavLink } from 'react-router';
-import { load, parseCollection, resetCollection, useFullCollection } from '../collection';
+import {
+    changeStatus,
+    load,
+    parseCollection,
+    resetCollection,
+    saveCurrentState,
+    useFullCollection,
+} from '../collection';
 import { loadFile, saveFile } from '../common/files';
+import { useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';
 import type { Route } from './+types/view';
 
 export default function SettingsView({ params, matches }: Route.ComponentProps) {
-    const dispatch = useAppDispatch();
+    const appDispatch = useAppDispatch();
+    const db = useDatabase();
     // TODO: compress by removing redundant fields (maybe provide as separate option to compress localStorage?)
     const collectionJson = JSON.stringify({ items: useFullCollection().items });
     const collectionJsonBase64 = btoa(collectionJson);
     // TODO: something that works in more than just Chromium (textbox input, probably)
-    const loadColl = () => loadFile((f) => dispatch(load(parseCollection(f))));
+    const loadColl = () => loadFile((f) => appDispatch(load(parseCollection(f))));
     const saveColl = () => saveFile(collectionJson);
     // this yields an error (in dev?) when loading the /settings directly because SSR!=CSR. that's fine if it's only in dev.
     let fsAvailable = typeof window !== 'undefined' && window.showSaveFilePicker !== undefined;
+
+    const markAllCollected = () => {
+        for (const item of Object.values(db.items)) {
+            appDispatch(
+                changeStatus({
+                    id: item.id.toString(),
+                    status: {
+                        collected: !item.recipe && !item.license_amount,
+                        haveRecipe: !!item.recipe,
+                        licensed: !!item.license_amount,
+                    },
+                    skipStorageUpdate: true,
+                }),
+            );
+        }
+        appDispatch(saveCurrentState());
+        console.log('All items are marked as collected');
+    };
     return (
         <div className="settings-view center-content">
             <div className="collection-data-management">
@@ -44,11 +71,14 @@ export default function SettingsView({ params, matches }: Route.ComponentProps) 
                 <br />
                 <br />
                 <br />
-                <br />
-                <div className="settings-item">
-                    <a onClick={() => dispatch(resetCollection())}>
-                        Reset collection (warning: not recoverable unless you've exported it)
-                    </a>
+                <div className="settings-group">
+                    All-or-nothing options. Prior state cannot be recovered unless you've exported your collection.
+                    <div className="settings-item">
+                        <a onClick={() => appDispatch(resetCollection())}>Reset collection</a>
+                    </div>
+                    <div className="settings-item">
+                        <a onClick={markAllCollected}>Mark everything as collected</a>
+                    </div>
                 </div>
                 <br />
                 <br />
