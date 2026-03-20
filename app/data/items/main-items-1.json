@@ -5634,6 +5634,22 @@
       "image": { "fandom_wiki_image_path": "f/ff/Anniversary_Cake_%282025%29.png" }
     },
     {
+      "name": "Anniversary Cake",
+      "id": 1332,
+      "category": "Consumables",
+      "license_amount": 550,
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Arcane Extract", "quantity": 1, "id": 109 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }]
+    },
+    {
       "name": "Whole Birthday Cake",
       "id": 1181,
       "category": "Consumables",
@@ -5650,6 +5666,110 @@
       "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1180 }], "craft_amount": 1 },
       "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }],
       "image": { "fandom_wiki_image_path": "a/a7/Whole_Birthday_Cake_%282025%29.png.png" }
+    },
+    {
+      "name": "Whole Birthday Cake",
+      "id": 1333,
+      "category": "Consumables",
+      "license_amount": 550,
+      "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1332 }], "craft_amount": 1 },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+    },
+    {
+      "name": "Party Hat - Arcane",
+      "id": 1334,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 4, "id": 136 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 },
+          { "name": "Violet Paint", "quantity": 1, "id": 350 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 3 }]
+    },
+    {
+      "name": "Party Hat - Cloud",
+      "id": 1335,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 4, "id": 136 },
+          { "name": "Blue Paint", "quantity": 1, "id": 146 },
+          { "name": "White Paint", "quantity": 1, "id": 319 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 3 }]
+    },
+    {
+      "name": "Party Hat - Crown",
+      "id": 1336,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 4, "id": 136 },
+          { "name": "Violet Paint", "quantity": 1, "id": 350 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+    },
+    {
+      "name": "Party Hat - Fire",
+      "id": 1337,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 4, "id": 136 },
+          { "name": "Orange Paint", "quantity": 1, "id": 289 },
+          { "name": "Black Paint", "quantity": 1, "id": 409 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+    },
+    {
+      "name": "Party Hat - Jelly",
+      "id": 1338,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 4, "id": 136 },
+          { "name": "Black Paint", "quantity": 1, "id": 409 },
+          { "name": "Green Paint", "quantity": 1, "id": 228 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+    },
+    {
+      "name": "Party Hat - Nature",
+      "id": 1339,
+      "category": "Gear",
+      "license_amount": 500,
+      "recipe": {
+        "ingredient": [
+          { "name": "Blank Scroll Sheets", "quantity": 4, "id": 136 },
+          { "name": "Green Paint", "quantity": 1, "id": 228 },
+          { "name": "Yellow Paint", "quantity": 1, "id": 358 },
+          { "name": "Slime Extract", "quantity": 2, "id": 173 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
     },
     {
       "name": "Blue Tower",
