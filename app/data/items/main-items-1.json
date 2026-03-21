@@ -5647,7 +5647,8 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }]
+      "source": [{ "type": "Boutique", "subtype": "Anniversary", "kind": "recipe", "fragment": false }],
+      "image": { "fandom_wiki_image_path": "0/07/Anniversary_Cake_%282026%29.png" }
     },
     {
       "name": "Whole Birthday Cake",
@@ -5673,7 +5674,8 @@
       "category": "Consumables",
       "license_amount": 550,
       "recipe": { "ingredient": [{ "name": "Anniversary Cake", "quantity": 4, "id": 1332 }], "craft_amount": 1 },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 2 }],
+      "image": { "fandom_wiki_image_path": "2/23/Whole_Birthday_Cake_%282026%29.png" }
     },
     {
       "name": "Party Hat - Arcane",
@@ -5689,7 +5691,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 3 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 3 }],
+      "image": { "fandom_wiki_image_path": "e/e3/Party_Hat_-_Arcane.png" }
     },
     {
       "name": "Party Hat - Cloud",
@@ -5705,7 +5708,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 3 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 3 }],
+      "image": { "fandom_wiki_image_path": "3/36/Party_Hat_-_Cloud.png" }
     },
     {
       "name": "Party Hat - Crown",
@@ -5721,7 +5725,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }],
+      "image": { "fandom_wiki_image_path": "b/b8/Party_Hat_-_Crown.png" }
     },
     {
       "name": "Party Hat - Fire",
@@ -5737,7 +5742,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }],
+      "image": { "fandom_wiki_image_path": "6/6e/Party_Hat_-_Fire.png" }
     },
     {
       "name": "Party Hat - Jelly",
@@ -5753,7 +5759,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }],
+      "image": { "fandom_wiki_image_path": "e/e8/Party_Hat_-_Jelly.png" }
     },
     {
       "name": "Party Hat - Nature",
@@ -5769,7 +5776,8 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }]
+      "source": [{ "type": "Feat", "kind": "recipe", "fragment": false, "subtype": "Event", "name": "Sell Anniversary Cakes", "level": 4 }],
+      "image": { "fandom_wiki_image_path": "6/63/Party_Hat_-_Nature.png" }
     },
     {
       "name": "Blue Tower",
