@@ -114,8 +114,8 @@
           "kind": "item",
           "fragment": false,
           "subtype": "Mission",
-          "mission_name": "unknown (likely Culinary Inspiration)",
-          "name": "[unknown - used in A Gastronomical Duel]"
+          "mission_name": "A Gastronomical Duel",
+          "name": "Fish & Chill"
         }
       ],
       "image": { "fandom_wiki_image_path": "4/42/Itm_material_fish_moonfish_HQ.png" }
@@ -145,16 +145,65 @@
       "name": "Intact Bakeromancy Pages",
       "id": 842,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "By The Book" }],
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "By the Book",
+          "name": "Ruins: Charred Fortified Windmill"
+        }
+      ],
       "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" }
     },
-    { "name": "Questionable Cult Brochure", "id": 843, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
-    { "name": "Oversized Note", "id": 844, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },
+    {
+      "name": "Questionable Cult Brochure",
+      "id": 843,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" },
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "By the Book",
+          "name": "Ruins: Overgrown Tower"
+        }
+      ]
+    },
+    {
+      "name": "Oversized Note",
+      "id": 844,
+      "category": "Quest",
+      "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" },
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "By the Book",
+          "name": "Ruins: Flooded Fortified Tower"
+        }
+      ]
+    },
     {
       "name": "Damaged Bakeromancy Grimoire",
       "id": 845,
       "category": "Quest",
-      "image": { "fandom_wiki_image_path": "8/88/Itm_material_book_01.png" }
+      "image": { "fandom_wiki_image_path": "8/88/Itm_material_book_01.png" },
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "By the Book",
+          "name": "Ruins: Charred Fortified Windmill"
+        }
+      ]
     },
     { "name": "Foul Journal", "id": 846, "category": "Quest", "image": { "fandom_wiki_image_path": "6/67/Itm_material_book_03.png" } },
     { "name": "Foul Journal Page", "id": 847, "category": "Quest", "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" } },

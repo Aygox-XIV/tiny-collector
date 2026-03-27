@@ -104,6 +104,6 @@
     { "type": "Journey", "subtype": "Mission", "name": "To Seed or Not to Seed" },
     { "type": "Journey", "subtype": "Mission", "name": "[unknown - Operation: Thundershroom]" },
     { "type": "Journey", "subtype": "Mission", "name": "[unknown - Slice of Life - Part II]" },
-    { "type": "Journey", "subtype": "Mission", "name": "[unknown - used in A Gastronomical Duel]" }
+    { "type": "Journey", "subtype": "Mission", "name": "Fish & Chill", "src": { "local_path": "/sources/source-mission-fish-chill.png" } }
   ]
 }
