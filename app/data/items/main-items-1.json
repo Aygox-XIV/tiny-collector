@@ -3496,7 +3496,7 @@
       "name": "Enigquacktic Fragment",
       "id": 1183,
       "category": "Quest",
-      "image": { "fandom_wiki_image_path": "8/89/Enigquatic_fragment_2.png" },
+      "image": { "fandom_wiki_image_path": "1/11/Enigquacktic_Fragment.png" },
       "source": [
         { "type": "Combine", "kind": "item", "fragment": true, "name": "Ancient Crown", "id": 1184 },
         { "type": "Combine", "kind": "item", "fragment": true, "name": "Antique Scepter", "id": 1185 },
@@ -3553,7 +3553,7 @@
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Request: Garden Duty" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Lost Alchemist Cache" }
       ],
-      "image": { "local_path": "/items/item_timeless_schematics.png" }
+      "image": { "fandom_wiki_image_path": "a/aa/Timeless_Schematics.png" }
     },
     {
       "name": "Rune Stone",
