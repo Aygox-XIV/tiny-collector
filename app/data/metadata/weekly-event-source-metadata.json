@@ -1,11 +1,41 @@
 {
   "images": [
-    { "type": "Journey", "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
-    { "type": "Journey", "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" },
-    { "type": "Journey", "subtype": "Sun Festival", "name": "Workshop: Art Initiation" },
-    { "type": "Journey", "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
-    { "type": "Journey", "subtype": "Sun Festival", "name": "Workshop: Culinary Initiation" },
-    { "type": "Journey", "subtype": "Sun Festival", "name": "Workshop: Alchemists Guild" },
+    {
+      "type": "Journey",
+      "subtype": "Sun Festival",
+      "name": "Workshop: Trading Guild",
+      "src": { "local_path": "/sources/journeys/source-journey-sun-festival.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Sun Festival",
+      "name": "Workshop: Tailors Guild",
+      "src": { "local_path": "/sources/journeys/source-journey-sun-festival.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Sun Festival",
+      "name": "Workshop: Art Initiation",
+      "src": { "local_path": "/sources/journeys/source-journey-sun-festival.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Sun Festival",
+      "name": "Workshop: Botanists Guild",
+      "src": { "local_path": "/sources/journeys/source-journey-sun-festival.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Sun Festival",
+      "name": "Workshop: Culinary Initiation",
+      "src": { "local_path": "/sources/journeys/source-journey-sun-festival.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Sun Festival",
+      "name": "Workshop: Alchemists Guild",
+      "src": { "local_path": "/sources/journeys/source-journey-sun-festival.png" }
+    },
     {
       "type": "Task Chest",
       "subtype": "Sun Festival",
@@ -125,16 +155,26 @@
       "type": "Battle",
       "subtype": "Flooded Expedition",
       "name": "Unknown Crystal (blue)",
-      "src": { "local_path": "/sources/battle/source-battle-blue-crystal.png" }
+      "src": { "fandom_wiki_image_path": "2/23/Crystalline_Totem_of_Mana_Shield.png" }
     },
     {
       "type": "Battle",
       "subtype": "Flooded Expedition",
       "name": "Unknown Crystal (green)",
-      "src": { "local_path": "/sources/battle/battle_green_crystal.png" }
+      "src": { "fandom_wiki_image_path": "a/ab/Crystalline_Totem_of_Healing.png" }
     },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "Unknown Crystal (red)" },
-    { "type": "Battle", "subtype": "Flooded Expedition", "name": "All enemies" },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "Unknown Crystal (red)",
+      "src": { "fandom_wiki_image_path": "9/9e/Crystalline_Totem_of_Power.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Flooded Expedition",
+      "name": "All enemies",
+      "src": { "local_path": "/sources/battle/source-flooded-battle-all.png" }
+    },
     {
       "type": "Task Chest",
       "subtype": "Flooded Expedition",
@@ -164,7 +204,17 @@
       "name": "Temple Material Crate",
       "src": { "fandom_wiki_image_path": "3/30/Temple_Material_Crate.png" }
     },
-    { "type": "Premium Pack", "subtype": "Flooded Expedition", "name": "Coral Crab Bundle" },
-    { "type": "Premium Pack", "subtype": "Flooded Expedition", "name": "Flooded Bundle" }
+    {
+      "type": "Premium Pack",
+      "subtype": "Flooded Expedition",
+      "name": "Coral Crab Bundle",
+      "src": { "local_path": "/sources/premium/source-bundle-crab.png" }
+    },
+    {
+      "type": "Premium Pack",
+      "subtype": "Flooded Expedition",
+      "name": "Flooded Bundle",
+      "src": { "local_path": "/sources/premium/source-bundle-flooded.png" }
+    }
   ]
 }
