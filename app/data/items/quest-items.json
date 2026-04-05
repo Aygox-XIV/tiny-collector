@@ -239,21 +239,30 @@
       "name": "Outpost Plan: Archeology",
       "id": 852,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 4/4" }],
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part 2 - Part 4/4" }],
       "image": { "fandom_wiki_image_path": "f/f0/Outpost_Plan-_Archeology.png" }
     },
     {
       "name": "Glowing Crystal",
       "id": 853,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part I - Part 1/5" }],
+      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part 1 - Part 1/5" }],
       "image": { "fandom_wiki_image_path": "a/a3/Glowing_Crystal.png" }
     },
     {
       "name": "Survey Report",
       "id": 854,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 2" }],
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "No Stone Unturned - Part 2 - Part 2/4",
+          "name": "Survey: Local Landscape"
+        }
+      ],
       "image": { "fandom_wiki_image_path": "2/28/Survey_Report.png" }
     },
     {
@@ -274,7 +283,17 @@
       "name": "Bag O'Relics",
       "id": 857,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part I - Part 2/5" }],
+      "source": [
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part 1 - Part 2/5" },
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "No Stone Unturned - Part 1 - Part 3/5",
+          "name": "Search: Old Time Relics"
+        }
+      ],
       "image": { "fandom_wiki_image_path": "d/dd/Bag_O%27_Relics.png" }
     },
     {

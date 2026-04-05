@@ -21,7 +21,16 @@
       "name": "Half-digested Adventurer Bag",
       "id": 867,
       "category": "Material",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": false, "name": "No Stone Unturned - Part II - Part 3" }],
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "No Stone Unturned - Part 2 - Part 3/4",
+          "name": "Exploration: ???"
+        }
+      ],
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
     {
@@ -1262,6 +1271,7 @@
         ],
         "craft_amount": 4
       },
+      "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
       "image": { "local_path": "/items/item_experiment_127.png" }
     },

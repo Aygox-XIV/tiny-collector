@@ -1586,7 +1586,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 4/7" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part 2 - Part 4/7" }],
       "image": { "fandom_wiki_image_path": "d/d2/Itm_consum_character_sheet.png" }
     },
     {
@@ -4196,7 +4196,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part III - Part 3/6" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part 3 - Part 3/6" }],
       "image": { "fandom_wiki_image_path": "a/a4/Itm_gear_book_game_module_02.png" }
     },
     {
@@ -4739,7 +4739,7 @@
       "category": "Gear",
       "license_amount": 650,
       "recipe": { "ingredient": [{ "name": "Anthracite", "quantity": 2, "id": 235 }], "craft_amount": 3 },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part 2 - Part 7/7" }],
       "image": { "fandom_wiki_image_path": "7/78/Itm_gear_dices.png" }
     },
     {
@@ -5274,7 +5274,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part 2 - Part 7/7" }],
       "image": { "fandom_wiki_image_path": "8/8d/Itm_mat_figurine_wizard.png" }
     },
     {
@@ -5306,7 +5306,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part 2 - Part 7/7" }],
       "image": { "fandom_wiki_image_path": "6/66/Itm_mat_figurine_healer.png" }
     },
     {
@@ -5322,7 +5322,7 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part II - Part 7/7" }],
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "A Flying Opportunity - Part 2 - Part 7/7" }],
       "image": { "fandom_wiki_image_path": "8/82/Itm_mat_figurine_knight.png" }
     },
     {
