@@ -147,6 +147,12 @@
     {
       "type": "Battle",
       "subtype": "Evercold Isle (part 2)",
+      "name": "Icy Mimiking",
+      "src": { "local_path": "/sources/battle/source-battle-icy-mimiking.png" }
+    },
+    {
+      "type": "Battle",
+      "subtype": "Evercold Isle (part 2)",
       "name": "All Icy Enemies",
       "src": { "local_path": "/sources/source-evercold-icy-enemy.png" }
     },
