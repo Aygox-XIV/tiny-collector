@@ -29,7 +29,13 @@
           "subtype": "Mission",
           "mission_name": "No Stone Unturned - Part 2 - Part 3/4",
           "name": "Exploration: ???"
-        }
+        },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull [lower only]" }
       ],
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
@@ -37,7 +43,10 @@
       "name": "Depleted Aether Charge",
       "id": 868,
       "category": "Material",
-      "source": [{ "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" }],
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
+        { "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Adventurer's Bag" }
+      ],
       "image": { "fandom_wiki_image_path": "8/88/Depleted_Aether_Charge.png" }
     },
     {
@@ -154,7 +163,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Metal Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Lost Alchemist Cache" },
+        { "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Adventurer's Bag" }
       ],
       "image": { "fandom_wiki_image_path": "d/d0/Itm_material_inert_runestone.png" }
     },
@@ -162,7 +172,10 @@
       "name": "Runestone Fragments",
       "id": 890,
       "category": "Material",
-      "source": [{ "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" }],
+      "source": [
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Archeology" },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Adventurer's Bag" }
+      ],
       "image": { "fandom_wiki_image_path": "0/01/Itm_material_runestone_fragments.png" }
     },
     {
@@ -381,7 +394,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business As Usual - Part 7" }],
+      "source": [
+        { "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Business As Usual - Part 7" },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Adventurer's Bag" }
+      ],
       "image": { "fandom_wiki_image_path": "d/d7/Mushroom_Soup.png" }
     },
     {
@@ -627,7 +643,7 @@
       "id": 1024,
       "category": "Consumables",
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Drakegull" }],
-      "license_amount": 20,
+      "license_amount": 200,
       "recipe": {
         "ingredient": [
           { "name": "Croissant", "quantity": 4, "id": 174 },

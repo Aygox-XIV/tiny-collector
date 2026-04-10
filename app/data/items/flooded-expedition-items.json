@@ -1054,7 +1054,10 @@
       "name": "Darkness Bombs",
       "id": 1010,
       "category": "Consumables",
-      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
+      "source": [
+        { "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Adventurer's Bag" }
+      ],
       "image": { "fandom_wiki_image_path": "4/4a/Itm_consum_bomb_dark.png" },
       "recipe": {
         "ingredient": [

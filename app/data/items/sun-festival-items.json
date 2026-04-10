@@ -707,7 +707,10 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" },
+        { "type": "Shifty", "kind": "item", "fragment": false, "name": "Adventurer's Bag" }
+      ],
       "image": { "fandom_wiki_image_path": "7/7e/Gear_adventurer_boot02.png" }
     },
     {

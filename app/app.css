@@ -240,6 +240,16 @@ div.missing-source {
   background-color: rgb(240, 135, 156);
 }
 
+div.missing-recipe {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(239, 212, 218),
+    rgb(239, 212, 218) 15px,
+    transparent 15px,
+    transparent 30px
+  );
+}
+
 div.catalog-guess {
   border-style: dashed;
   border-radius: 25px;

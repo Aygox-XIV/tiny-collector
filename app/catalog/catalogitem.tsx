@@ -22,8 +22,10 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
         return <div className={'catalog-item empty-item' + (guess ? ' catalog-guess' : '')} />;
     }
     let collectionStateClass = '';
-    if (!item.source || item.source.length == 0 || isRecipeMissing(item)) {
+    if (!item.source || item.source.length == 0) {
         collectionStateClass = ' missing-source';
+    } else if (isRecipeMissing(item)) {
+        collectionStateClass = ' missing-recipe';
     } else if (
         (collectedState.status.haveRecipe && collectedState.status.licensed) ||
         (collectedState.status.licensed && !item.recipe) ||
