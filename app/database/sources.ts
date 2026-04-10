@@ -291,7 +291,7 @@ export interface PremiumPackSource extends UnknownSource {
 
 export interface BoutiqueSource extends UnknownSource {
     readonly type: SourceType.Boutique;
-    readonly subtype?: 'Anniversary' | undefined;
+    readonly subtype?: 'Anniversary' | 'Evercold Isle (part 1)' | 'Evercold Isle (part 2)' | undefined;
     readonly name: undefined;
 }
 

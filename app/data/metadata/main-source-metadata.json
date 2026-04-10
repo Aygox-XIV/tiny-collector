@@ -2,6 +2,7 @@
   "images": [
     { "type": "Shifty", "src": { "local_path": "/sources/source-shifty.png" } },
     { "type": "Shifty", "name": "Oceanic Item Crate", "src": { "fandom_wiki_image_path": "7/78/Oceanic_Decors_Crate.png" } },
+    { "type": "Shifty", "name": "Adventurer's Bag", "src": { "fandom_wiki_image_path": "d/dd/Bag_O%27_Relics.png" } },
 
     { "type": "Premium Pack", "name": "Botanist Set", "src": { "local_path": "/sources/premium/pack-botanist.png" } },
     { "type": "Premium Pack", "name": "Trading Guild Pack", "src": { "local_path": "/sources/premium/pack-trading-guild.png" } },

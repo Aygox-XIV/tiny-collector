@@ -134,10 +134,14 @@ const SpecificDetails: React.FC<SourceDetailsProps> = ({ details }) => {
                 </div>
             );
         case SourceType.Boutique:
-            if (source.subtype == 'Anniversary') {
-                return <div>Obtain from the Anniversary boutique</div>;
-            } else {
-                return <div>Buy from the Boutique (Premium menu, Boutique tab)</div>;
+            switch (source.subtype) {
+                case 'Anniversary':
+                    return <div>Obtain from the Anniversary boutique</div>;
+                case 'Evercold Isle (part 1)':
+                case 'Evercold Isle (part 2)':
+                    return <div>Buy from the Evercold boutique during the Evercold Isle event.</div>;
+                default:
+                    return <div>Buy from the Boutique (Premium menu, Boutique tab)</div>;
             }
         case SourceType.City:
             return (

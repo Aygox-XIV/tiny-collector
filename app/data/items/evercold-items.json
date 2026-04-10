@@ -2808,7 +2808,78 @@
       "name": "Skin: Evercold Jelly",
       "id": 1218,
       "category": "Cosmetic",
-      "image": { "local_path": "/items/evercold/skin_evercold_jelly.png" }
+      "image": { "local_path": "/items/evercold/skin_evercold_jelly.png" },
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Cosmetic: Raindeer Hat",
+      "id": 1340,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Cosmetic: Cardigan",
+      "id": 1341,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Cosmetic: Lumberer Hat",
+      "id": 1342,
+      "category": "Cosmetic",
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Decorative Mechkitty",
+      "id": 1343,
+      "category": "Decor",
+      "image": { "fandom_wiki_image_path": "2/26/Decorative_Mechkitty.png" },
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Chillmane Wall Badge",
+      "id": 1344,
+      "category": "Decor",
+      "image": { "fandom_wiki_image_path": "3/32/Chillmane_Wall_Badge.png" },
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Icemazon Wall Badge",
+      "id": 1345,
+      "category": "Decor",
+      "image": { "fandom_wiki_image_path": "d/d6/Icemazon_Wall_Badge.png" },
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
+    },
+    {
+      "name": "Frostbeard Wall Badge",
+      "id": 1346,
+      "category": "Decor",
+      "image": { "fandom_wiki_image_path": "0/0c/Frostbeard_Wall_Badge.png" },
+      "source": [
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 1)" },
+        { "type": "Boutique", "kind": "item", "fragment": false, "subtype": "Evercold Isle (part 2)" }
+      ]
     },
     {
       "name": "Strange Coordinates",
