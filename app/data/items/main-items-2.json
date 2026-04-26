@@ -35,6 +35,7 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Steelsnappers" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull [lower only]" }
       ],
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
@@ -157,6 +158,14 @@
       "name": "Inert Runestone",
       "id": 889,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Runestone Fragments", "id": 890, "quantity": 5 },
+          { "name": "Standard Catalyst", "id": 111, "quantity": 1 },
+          { "name": "Slime Extract", "id": 173, "quantity": 5 }
+        ],
+        "craft_amount": 1
+      },
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Archeology" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Mineral Extraction" },
@@ -967,7 +976,7 @@
         ],
         "craft_amount": 4
       },
-      "image": { "local_path": "/items/item_starbread.png" }
+      "image": { "fandom_wiki_image_path": "7/7d/Starbread.png" }
     },
     {
       "name": "Traditional Loaf",
@@ -1289,7 +1298,7 @@
       },
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_experiment_127.png" }
+      "image": { "fandom_wiki_image_path": "6/60/Experiment.png" }
     },
     {
       "name": "Timefound Starbread",
@@ -1337,7 +1346,7 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Metatemporal Breach" }],
-      "image": { "local_path": "/items/item_timefound_traditional_loaf.png" }
+      "image": { "fandom_wiki_image_path": "4/4f/Timefound_Traditional_Loaf.png" }
     },
     {
       "name": "Timefound Softbread",
@@ -1525,7 +1534,7 @@
         "craft_amount": 4
       },
       "license_amount": 650,
-      "image": { "local_path": "/items/item_matcha.png" }
+      "image": { "fandom_wiki_image_path": "2/2e/Matcha.png" }
     },
     {
       "name": "Latte",

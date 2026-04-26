@@ -40,9 +40,13 @@ export default function HelpView({ params, matches }: Route.ComponentProps) {
                             one, have licensed it if it is licensable, or have marked it as collected if it is neither)
                         </li>
                         <li>
-                            Red: there is no documented source for this item, or there is a known recipe source but no
-                            documented recipe. (please report it in the Discord's #wiki-project channel if you found
-                            where it's from or have the recipe!)
+                            Red: there is no documented source for this item. (please report it in the Discord's
+                            #wiki-project channel if you found where it's from!)
+                        </li>
+                        <li>
+                            Striped violet: there is a known source for the item's recipe, but no report of the
+                            completed recipe has been made yet. (please report it in the Discord's #wiki-project if you
+                            have the recipe!)
                         </li>
                     </ul>
                     The border may be dashed red if it's not 100% certain where in the catalog the item is placed, for

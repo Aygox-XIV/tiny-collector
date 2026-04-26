@@ -1941,7 +1941,7 @@
       "id": 1274,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_floor_sand_1.png" }
+      "image": { "fandom_wiki_image_path": "4/40/Floor_Sand_01.png" }
     },
     {
       "name": "Floor Sand 02",
