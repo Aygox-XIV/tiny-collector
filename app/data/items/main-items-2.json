@@ -36,7 +36,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Dreadfangs Band" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull [lower only]" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull [lower only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" }
       ],
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
