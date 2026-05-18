@@ -1561,21 +1561,21 @@
       "id": 1246,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_1.png" }
+      "image": { "fandom_wiki_image_path": "a/a7/Temple_Fountain.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1247,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_2.png" }
+      "image": { "fandom_wiki_image_path": "7/7d/Temple_Fountain_%28Top%29.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1248,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_top_1.png" }
+      "image": { "fandom_wiki_image_path": "f/f9/Temple_Fountain_Top.png" }
     },
     {
       "name": "Temple Spout",
@@ -1666,21 +1666,21 @@
       "id": 1261,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Water Sprite" }],
-      "image": { "local_path": "/items/flooded/decor_replica_water_sprite.png" }
+      "image": { "fandom_wiki_image_path": "2/21/Replica-_Water_Sprite.png" }
     },
     {
       "name": "Replica: Praetorian",
       "id": 1262,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "image": { "local_path": "/items/flooded/decor_replica_praetorian.png" }
+      "image": { "fandom_wiki_image_path": "f/ff/Replica-_Praetorian.png" }
     },
     {
       "name": "Replica: Kelp",
       "id": 1263,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Kelpish" }],
-      "image": { "local_path": "/items/flooded/decor_replica_kelpish.png" }
+      "image": { "fandom_wiki_image_path": "9/96/Replica-_Kelp.png" }
     },
     {
       "name": "Replica: Mimic Barrel",
@@ -1690,7 +1690,7 @@
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Barrel Mimic" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Barrel Mimic" }
       ],
-      "image": { "local_path": "/items/flooded/decor_replica_mimic.png" }
+      "image": { "fandom_wiki_image_path": "0/0b/Replica-_Mimic_Barrel.png" }
     },
     {
       "name": "Decor: Overgrown Ancient Chest",
@@ -1711,7 +1711,7 @@
       "id": 1267,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "image": { "local_path": "/items/flooded/decor_replica_crab.png" }
+      "image": { "fandom_wiki_image_path": "3/36/Replica-_Coral_Crab.png" }
     },
     {
       "name": "Decor: Overgrown Basin",
@@ -1725,7 +1725,7 @@
       "id": 1269,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "image": { "local_path": "/items/flooded/decor_replica_coral_elemental.png" }
+      "image": { "fandom_wiki_image_path": "0/0e/Replica-_Coral_Elemental.png" }
     },
     {
       "name": "Decor: Ancient Chest",
@@ -1746,7 +1746,7 @@
       "id": 1272,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "image": { "local_path": "/items/flooded/decor_replica_moonfish.png" }
+      "image": { "fandom_wiki_image_path": "b/b8/Replica-_Moonfish.png" }
     },
     {
       "name": "Decor: Water Temple Arena",

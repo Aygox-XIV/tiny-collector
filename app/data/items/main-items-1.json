@@ -4476,7 +4476,8 @@
       },
       "source": [
         { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Samples: Firebloom" },
-        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" }
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Analysis: Cindergrove" },
+        { "type": "Journey", "kind": "recipe", "fragment": true, "name": "Hunt: Fire Elementals" }
       ],
       "image": { "fandom_wiki_image_path": "f/fe/Pyromancy_Spellbook.png" }
     },
