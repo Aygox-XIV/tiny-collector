@@ -1561,21 +1561,21 @@
       "id": 1246,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_1.png" }
+      "image": { "fandom_wiki_image_path": "a/a7/Temple_Fountain.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1247,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_2.png" }
+      "image": { "fandom_wiki_image_path": "7/7d/Temple_Fountain_%28Top%29.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1248,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_top_1.png" }
+      "image": { "fandom_wiki_image_path": "f/f9/Temple_Fountain_Top.png" }
     },
     {
       "name": "Temple Spout",
