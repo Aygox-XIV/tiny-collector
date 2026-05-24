@@ -1547,14 +1547,14 @@
       "id": 1244,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_painting_garden.png" }
+      "image": { "fandom_wiki_image_path": "9/9f/Painting_-_Sunken_Garden_II.png" }
     },
     {
       "name": "Painting - Azure Coastline I",
       "id": 1245,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_painting_coastline.png" }
+      "image": { "fandom_wiki_image_path": "8/89/Painting_-_Azure_Coastline_I.png" }
     },
     {
       "name": "Temple Fountain",

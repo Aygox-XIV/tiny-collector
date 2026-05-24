@@ -43,9 +43,17 @@
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
     {
-      "name": "Depleted Aether Charge",
+      "name": "Aether Charge Casing",
       "id": 868,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron", "quantity": 4, "id": 157 },
+          { "name": "Aetheric Glass", "quantity": 2, "id": 539 },
+          { "name": "Superior Catalyst", "quantity": 1, "id": 106 }
+        ],
+        "craft_amount": 2
+      },
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Analysis: Aether Anomaly" },
         { "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Adventurer's Bag" }
