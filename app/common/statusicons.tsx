@@ -1,6 +1,6 @@
 import { HiOutlineCheck, HiOutlineX } from 'react-icons/hi';
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
-import { changeStatus, useCollectedItem } from '../collection';
+import { setCollected, setHaveRecipe, setLicensed, useCollectedItem } from '../collection';
 import { isCollectable, useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';
 
@@ -10,77 +10,74 @@ export interface StatusIconProps {
 }
 
 export const StatusIcons: React.FC<StatusIconProps> = ({ id, tooltipId }) => {
-    const status = useCollectedItem(id).status;
-    const dispatch = useAppDispatch();
     const dbItem = useDatabase().items[id];
-    function toggleRecipe() {
-        dispatch(changeStatus({ id, status: { ...status, haveRecipe: !status.haveRecipe } }));
-    }
-    function toggleLicense() {
-        // Since it's extremely rare to license an item without having 100% progress, the license amount could be maxed.
-        // (in practice this only happens if the license amount is updated after it has already been licensed)
-        // However, just let the displayed license amount for licensed items be the max instead so we can cheaply
-        // guard against misclicks.
-        dispatch(changeStatus({ id, status: { ...status, licensed: !status.licensed } }));
-    }
-    function toggleCollected() {
-        dispatch(changeStatus({ id, status: { ...status, collected: !status.collected } }));
-    }
 
     // TODO: move them next to the icon stacked vertically
     // TODO: better markers for no-recipe & unlicensable items?
 
     return (
         <div className="status-icons">
-            {dbItem.recipe && (
-                <RecipeStatusIcon selected={status?.haveRecipe} onClick={toggleRecipe} tooltipId={tooltipId} />
-            )}
-            {dbItem.license_amount && (
-                <LicenseStatusIcon selected={status?.licensed} onClick={toggleLicense} tooltipId={tooltipId} />
-            )}
-            {isCollectable(dbItem) && (
-                <CollectableStatusIcon selected={status?.collected} onClick={toggleCollected} tooltipId={tooltipId} />
-            )}
+            {dbItem.recipe && <RecipeStatusIcon id={id} tooltipId={tooltipId} />}
+            {dbItem.license_amount && <LicenseStatusIcon id={id} tooltipId={tooltipId} />}
+            {isCollectable(dbItem) && <CollectableStatusIcon id={id} tooltipId={tooltipId} />}
         </div>
     );
 };
 
 export interface SingleIconProps {
-    readonly selected?: boolean;
-    readonly onClick: () => void;
+    readonly id: string;
     readonly tooltipId?: string;
 }
 
-export const RecipeStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick, tooltipId }) => {
-    const IconType = selected ? TbChefHat : TbChefHatOff;
+export const RecipeStatusIcon: React.FC<SingleIconProps> = ({ id, tooltipId }) => {
+    const haveRecipe = useCollectedItem(id).status.haveRecipe;
+    const dispatch = useAppDispatch();
+    const IconType = haveRecipe ? TbChefHat : TbChefHatOff;
+    function toggleRecipe() {
+        dispatch(setHaveRecipe({ id, newValue: !haveRecipe }));
+    }
     return (
         <IconType
-            className={'status-icon ' + (selected ? 'selected' : 'unselected')}
-            onClick={onClick}
+            className={'status-icon ' + (haveRecipe ? 'selected' : 'unselected')}
+            onClick={toggleRecipe}
             data-tooltip-id={tooltipId || 'no-tooltip'}
             data-tooltip-content="Toggle recipe collection status"
         />
     );
 };
 
-export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick, tooltipId }) => {
-    const IconType = selected ? TbLicense : TbLicenseOff;
+export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ id, tooltipId }) => {
+    const licensed = useCollectedItem(id).status.licensed;
+    const dispatch = useAppDispatch();
+    const IconType = licensed ? TbLicense : TbLicenseOff;
+    function toggleLicense() {
+        // Since it's extremely rare to license an item without having 100% progress, the license amount could be maxed.
+        // (in practice this only happens if the license amount is updated after it has already been licensed)
+        // However, just let the displayed license amount for licensed items be the max instead so we can cheaply
+        // guard against misclicks.
+        dispatch(setLicensed({ id, newValue: !licensed }));
+    }
     return (
         <IconType
-            className={'status-icon ' + (selected ? 'selected' : 'unselected')}
-            onClick={onClick}
+            className={'status-icon ' + (licensed ? 'selected' : 'unselected')}
+            onClick={toggleLicense}
             data-tooltip-id={tooltipId || 'no-tooltip'}
             data-tooltip-content="Toggle licensed status"
         />
     );
 };
 
-export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ selected, onClick, tooltipId }) => {
-    const IconType = selected ? HiOutlineCheck : HiOutlineX;
+export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ id, tooltipId }) => {
+    const collected = useCollectedItem(id).status.collected;
+    const dispatch = useAppDispatch();
+    const IconType = collected ? HiOutlineCheck : HiOutlineX;
+    function toggleCollected() {
+        dispatch(setCollected({ id, newValue: !collected }));
+    }
     return (
         <IconType
-            className={'status-icon ' + (selected ? 'selected' : 'unselected')}
-            onClick={onClick}
+            className={'status-icon ' + (collected ? 'selected' : 'unselected')}
+            onClick={toggleCollected}
             data-tooltip-id={tooltipId || 'no-tooltip'}
             data-tooltip-content="Toggle collected status"
         />

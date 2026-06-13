@@ -336,7 +336,7 @@ div.catalog-item > .status-icons {
   gap: 2px;
 }
 
-div.catalog-content div.active {
+div.catalog-content a.active > div {
   border: 2px solid darkslateblue;
 }
 

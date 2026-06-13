@@ -47,36 +47,18 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
     // TODO: move status icons to be vertical next to the icon to save some vertical space
     return (
         <NavLink to={detailLink}>
-            {({ isActive }) => (
-                <div className={'catalog-item' + (isActive ? ' active' : '') + collectionStateClass}>
-                    <ItemName item={item} />
-                    <Icon src={item.image} />
-                    <StatusIcons id={id} />
-                    {item.license_amount && (
-                        <ProgressBar
-                            max={item.license_amount}
-                            actual={collectedState.licenseProgress}
-                            autoMax={collectedState.status.licensed}
-                        />
-                    )}
-                </div>
-            )}
+            <div className={'catalog-item' + collectionStateClass}>
+                <ItemName item={item} />
+                <Icon src={item.image} />
+                <StatusIcons id={id} />
+                {item.license_amount && (
+                    <ProgressBar
+                        max={item.license_amount}
+                        actual={collectedState.licenseProgress}
+                        autoMax={collectedState.status.licensed}
+                    />
+                )}
+            </div>
         </NavLink>
     );
-};
-
-interface NameTagProps {
-    readonly name: string;
-}
-const NameTag: React.FC<NameTagProps> = ({ name }) => {
-    return <div className="name-tag">{name}</div>;
-    // TODO: figure out if anything fancy is needed to fit things neatly.
-    // maybe the overflow onto the icon is fine though.
-    // return (
-    //     <svg className="name-tag" viewBox="0 0 240 25">
-    //         <text x="0" y="15">
-    //             {name}
-    //         </text>
-    //     </svg>
-    // );
 };
