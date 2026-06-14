@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router';
+import { memo } from 'react';
 import { useCollectedItem } from '../collection';
 import { Icon } from '../common/icon';
 import { ItemName } from '../common/itemname';
 import { ProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
-import { useDatabase } from '../database/database';
+import { useDbItem } from '../database/database';
 import { isRecipeMissing } from './filtercontext';
 
 export interface CatalogItemProps {
@@ -14,10 +14,9 @@ export interface CatalogItemProps {
 }
 
 /** element in the catalog list */
-export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
-    const db = useDatabase();
+export const CatalogItem: React.FC<CatalogItemProps> = memo(({ id, guess }) => {
     const collectedState = useCollectedItem(id);
-    const item = db.items[id];
+    const item = useDbItem(id);
     if (!item) {
         return <div className={'catalog-item empty-item' + (guess ? ' catalog-guess' : '')} />;
     }
@@ -43,22 +42,20 @@ export const CatalogItem: React.FC<CatalogItemProps> = ({ id, guess }) => {
     if (guess) {
         collectionStateClass += ' catalog-guess';
     }
-    const detailLink = '/catalog/' + id;
     // TODO: move status icons to be vertical next to the icon to save some vertical space
     return (
-        <NavLink to={detailLink}>
-            <div className={'catalog-item' + collectionStateClass}>
-                <ItemName item={item} />
-                <Icon src={item.image} />
-                <StatusIcons id={id} />
-                {item.license_amount && (
-                    <ProgressBar
-                        max={item.license_amount}
-                        actual={collectedState.licenseProgress}
-                        autoMax={collectedState.status.licensed}
-                    />
-                )}
-            </div>
-        </NavLink>
+        <div className={'catalog-item' + collectionStateClass}>
+            <ItemName item={item} />
+            <Icon src={item.image} />
+            <StatusIcons id={id} />
+            {item.license_amount && (
+                <ProgressBar
+                    max={item.license_amount}
+                    actual={collectedState.licenseProgress}
+                    autoMax={collectedState.status.licensed}
+                />
+            )}
+        </div>
     );
-};
+});
+CatalogItem.displayName = 'memo(CatalogItem)';

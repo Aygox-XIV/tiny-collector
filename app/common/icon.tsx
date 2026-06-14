@@ -1,4 +1,5 @@
 import type React from 'react';
+import { memo } from 'react';
 import { BsQuestionSquare } from 'react-icons/bs';
 import { getImgSrc, type ImageRef } from '../database/database';
 
@@ -6,7 +7,7 @@ export interface IconProp {
     readonly src?: ImageRef;
 }
 
-export const Icon: React.FC<IconProp> = ({ src }) => {
+export const Icon: React.FC<IconProp> = memo(({ src }) => {
     if (src && src.fandom_wiki_image_path != '') {
         return (
             <div className="item-icon-container">
@@ -19,4 +20,5 @@ export const Icon: React.FC<IconProp> = ({ src }) => {
             <BsQuestionSquare className="item-icon" />
         </div>
     );
-};
+});
+Icon.displayName = 'memo(Icon)';
