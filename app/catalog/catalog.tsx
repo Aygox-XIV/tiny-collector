@@ -93,8 +93,8 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
 
                         const detailLink = '/catalog/' + id;
                         return (
-                            <NavLink to={detailLink}>
-                                <CatalogItem id={id} key={keyFunction(id)} guess={guess} />
+                            <NavLink key={keyFunction(id)} to={detailLink}>
+                                <CatalogItem id={id} guess={guess} />
                             </NavLink>
                         );
                     })}
