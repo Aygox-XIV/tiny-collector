@@ -35,6 +35,11 @@ export interface SetLicenceAmountArgs {
     readonly amount: number;
 }
 
+export interface BoolActionArgs {
+    readonly id: string;
+    readonly newValue: boolean;
+}
+
 export const collectionSlice = createSlice({
     name: 'collection',
     initialState: { items: {} } as Collection,
@@ -73,6 +78,34 @@ export const collectionSlice = createSlice({
             }
             saveCollection(state);
         },
+        // TODO: optimize status by omitting `false` entries.
+        setHaveRecipe: (state, action: PayloadAction<BoolActionArgs>) => {
+            const args = action.payload;
+            const currentState = state.items[args.id] || defaultCollectionState(args.id);
+            state.items[args.id] = {
+                ...currentState,
+                status: { ...currentState.status, haveRecipe: args.newValue },
+            };
+            saveCollection(state);
+        },
+        setLicensed: (state, action: PayloadAction<BoolActionArgs>) => {
+            const args = action.payload;
+            const currentState = state.items[args.id] || defaultCollectionState(args.id);
+            state.items[args.id] = {
+                ...currentState,
+                status: { ...currentState.status, licensed: args.newValue },
+            };
+            saveCollection(state);
+        },
+        setCollected: (state, action: PayloadAction<BoolActionArgs>) => {
+            const args = action.payload;
+            const currentState = state.items[args.id] || defaultCollectionState(args.id);
+            state.items[args.id] = {
+                ...currentState,
+                status: { ...currentState.status, collected: args.newValue },
+            };
+            saveCollection(state);
+        },
         // TODO: toggle to keep crafting even if it's licensed
         // TODO: toggle to craft at all even if it's not licensable
         // TODO: maybe a toggle per source? could have some "game state" settings to toggle a bunch of these by default ('active event', etc)
@@ -105,7 +138,16 @@ export function defaultCollectionState(id: string): CollectedItem {
     return { id, status: {} };
 }
 
-export const { load, resetCollection, saveCurrentState, changeStatus, setLicenseAmount } = collectionSlice.actions;
+export const {
+    load,
+    resetCollection,
+    saveCurrentState,
+    changeStatus,
+    setLicenseAmount,
+    setHaveRecipe,
+    setLicensed,
+    setCollected,
+} = collectionSlice.actions;
 
 export function useFullCollection(): Collection {
     return useAppSelector((state) => state.collection);

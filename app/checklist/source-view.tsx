@@ -1,7 +1,7 @@
 import { BsQuestionSquare } from 'react-icons/bs';
 import { NavLink } from 'react-router';
 import { Tooltip } from 'react-tooltip';
-import { changeStatus, useCollectedItem } from '../collection';
+import { useCollectedItem } from '../collection';
 import { FragmentIcon } from '../common/fragmenticon';
 import { Icon } from '../common/icon';
 import { ItemName } from '../common/itemname';
@@ -19,7 +19,6 @@ import {
     type SourceDetails,
 } from '../database/database';
 import { getEventType, SourceType, type Source } from '../database/sources';
-import { useAppDispatch } from '../store';
 import type { Route } from './+types/source-view';
 
 export default function SourceDetailView({ params, matches }: Route.ComponentProps) {
@@ -64,18 +63,6 @@ const DROP_TOOLTIP = 'drop-tooltip';
 const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
     const db = useDatabase();
     const collectedState = useCollectedItem(drop.itemId);
-    const dispatch = useAppDispatch();
-    const status = collectedState.status;
-
-    function toggleRecipe() {
-        dispatch(changeStatus({ id: drop.itemId, status: { ...status, haveRecipe: !status.haveRecipe } }));
-    }
-    function toggleLicense() {
-        dispatch(changeStatus({ id: drop.itemId, status: { ...status, licensed: !status.licensed } }));
-    }
-    function toggleCollected() {
-        dispatch(changeStatus({ id: drop.itemId, status: { ...status, collected: !status.collected } }));
-    }
 
     const item = db.items[drop.itemId];
     const collected = dropIsCollected(drop, collectedState);
@@ -92,27 +79,11 @@ const DropDetailItem: React.FC<DropDetailProps> = ({ drop }) => {
                 <ItemName item={item} />
             </NavLink>
             <div />
-            {drop.kind == 'recipe' && item.recipe && (
-                <RecipeStatusIcon
-                    selected={collectedState.status.haveRecipe}
-                    onClick={toggleRecipe}
-                    tooltipId={DROP_TOOLTIP}
-                />
-            )}
+            {drop.kind == 'recipe' && item.recipe && <RecipeStatusIcon id={drop.itemId} tooltipId={DROP_TOOLTIP} />}
             {drop.kind == 'item' && item.license_amount && (
-                <LicenseStatusIcon
-                    selected={collectedState.status.licensed}
-                    onClick={toggleLicense}
-                    tooltipId={DROP_TOOLTIP}
-                />
+                <LicenseStatusIcon id={drop.itemId} tooltipId={DROP_TOOLTIP} />
             )}
-            {isCollectable(item) && (
-                <CollectableStatusIcon
-                    selected={collectedState.status.collected}
-                    onClick={toggleCollected}
-                    tooltipId={DROP_TOOLTIP}
-                />
-            )}
+            {isCollectable(item) && <CollectableStatusIcon id={drop.itemId} tooltipId={DROP_TOOLTIP} />}
         </div>
     );
 };

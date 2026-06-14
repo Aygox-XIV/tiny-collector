@@ -1,5 +1,6 @@
 import type { ChangeEvent } from 'react';
 import { HiOutlineX } from 'react-icons/hi';
+import { NavLink } from 'react-router';
 import { useFullCollection } from '../collection';
 import { getImgSrc, useDatabase } from '../database/database';
 import { CatalogItem } from './catalogitem';
@@ -89,7 +90,13 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
                             id = rawId.slice(1);
                             guess = true;
                         }
-                        return <CatalogItem id={id} key={keyFunction(id)} guess={guess} />;
+
+                        const detailLink = '/catalog/' + id;
+                        return (
+                            <NavLink key={keyFunction(id)} to={detailLink}>
+                                <CatalogItem id={id} guess={guess} />
+                            </NavLink>
+                        );
                     })}
                 </div>
             )}

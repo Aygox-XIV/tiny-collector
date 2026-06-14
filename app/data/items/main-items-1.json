@@ -65,7 +65,13 @@
         {
           "name": "Aether Charge Plus",
           "id": 1,
-          "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Adventurer's Bag" }]
+          "source": [{ "type": "Shifty", "kind": "recipe", "fragment": true, "name": "Adventurer's Bag" }],
+          "ingredient": [
+            { "name": "Aether Charge Casing", "quantity": 5, "id": 868 },
+            { "name": "Superior Catalyst", "quantity": 1, "id": 106 },
+            { "name": "Condensed Arcane Aether", "quantity": 2, "id": 105 }
+          ],
+          "craft_amount": 5
         }
       ]
     },

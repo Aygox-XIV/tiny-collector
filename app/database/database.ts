@@ -230,6 +230,10 @@ export function useDatabase(): Database {
     return useSelector((state: RootState) => state.db);
 }
 
+export function useDbItem(id: string): Item | undefined {
+    return useDatabase().items[id];
+}
+
 function createDB(files: FileCollection): Database {
     let items: ItemDB = {};
     let sources: Record<string, SourceDetails> = {};
