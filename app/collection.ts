@@ -78,27 +78,31 @@ export const collectionSlice = createSlice({
             }
             saveCollection(state);
         },
+        // TODO: optimize status by omitting `false` entries.
         setHaveRecipe: (state, action: PayloadAction<BoolActionArgs>) => {
             const args = action.payload;
+            const currentState = state.items[args.id] || defaultCollectionState(args.id);
             state.items[args.id] = {
-                id: args.id,
-                status: { ...(state.items[args.id]?.status || {}), haveRecipe: args.newValue },
+                ...currentState,
+                status: { ...currentState.status, haveRecipe: args.newValue },
             };
             saveCollection(state);
         },
         setLicensed: (state, action: PayloadAction<BoolActionArgs>) => {
             const args = action.payload;
+            const currentState = state.items[args.id] || defaultCollectionState(args.id);
             state.items[args.id] = {
-                id: args.id,
-                status: { ...(state.items[args.id]?.status || {}), licensed: args.newValue },
+                ...currentState,
+                status: { ...currentState.status, licensed: args.newValue },
             };
             saveCollection(state);
         },
         setCollected: (state, action: PayloadAction<BoolActionArgs>) => {
             const args = action.payload;
+            const currentState = state.items[args.id] || defaultCollectionState(args.id);
             state.items[args.id] = {
-                id: args.id,
-                status: { ...(state.items[args.id]?.status || {}), collected: args.newValue },
+                ...currentState,
+                status: { ...currentState.status, collected: args.newValue },
             };
             saveCollection(state);
         },
