@@ -6,6 +6,7 @@ import { SourceTypeIcon } from '../common/sourceicon';
 import { SourceName } from '../common/sourcename';
 import { dropIsCollected, sourceId, useDatabase, type DropDetail, type SourceDetails } from '../database/database';
 import { eventCategoryToType, getEventCategory, getEventType, sourceSortFn, SourceType } from '../database/sources';
+import { useSmallScreenStyle } from '../style';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
 
@@ -88,6 +89,7 @@ interface SourceDetailsProps {
 const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
     const collection = useFullCollection();
     const [sourceFilter] = useSourceFilter();
+    const smallScreen = useSmallScreenStyle();
     let collectedDrops = 0;
     for (const drop of details.drops) {
         if (isDropCollected(drop, collection)) {
@@ -97,36 +99,32 @@ const ChecklistSourceEntry: React.FC<SourceDetailsProps> = ({ details }) => {
     const detailLink = '/checklist/' + sourceId(details.source) + (sourceFilter.urlParam || '');
     return (
         <NavLink to={detailLink}>
-            {({ isActive }) => (
-                <div
-                    className={
-                        'checklist-source-entry ' +
-                        (isActive ? 'active ' : '') +
-                        (collectedDrops == details.drops.length ? 'collected' : 'uncollected')
-                    }
-                >
-                    {details.source.subtype && (
-                        <EventIcon
-                            showEventPhase={true}
-                            type={getEventType(details.source)}
-                            tooltipId={CHECKLIST_TOOLTIP}
-                        />
-                    )}
-                    {!details.source.subtype && (
-                        <EventIcon
-                            showEventPhase={false}
-                            type={eventCategoryToType(getEventCategory(details.source), -1)}
-                            tooltipId={CHECKLIST_TOOLTIP}
-                        />
-                    )}
-                    <div className="source-name">
-                        <SourceName source={details.source} disableLinks={true} omitFeatLevels={true} />
-                    </div>
-                    <div className="drop-detail">
-                        {collectedDrops} / {details.drops.length}
-                    </div>
+            <div
+                className={
+                    'checklist-source-entry ' + (collectedDrops == details.drops.length ? 'collected' : 'uncollected')
+                }
+            >
+                {details.source.subtype && (
+                    <EventIcon
+                        showEventPhase={true}
+                        type={getEventType(details.source)}
+                        tooltipId={CHECKLIST_TOOLTIP}
+                    />
+                )}
+                {!details.source.subtype && (
+                    <EventIcon
+                        showEventPhase={false}
+                        type={eventCategoryToType(getEventCategory(details.source), -1)}
+                        tooltipId={CHECKLIST_TOOLTIP}
+                    />
+                )}
+                <div className="drop-detail">
+                    {collectedDrops} / {details.drops.length}
                 </div>
-            )}
+                <div className="source-name">
+                    <SourceName source={details.source} disableLinks={true} omitFeatLevels={true} />
+                </div>
+            </div>
         </NavLink>
     );
 };

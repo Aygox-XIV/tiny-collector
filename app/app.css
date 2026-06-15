@@ -627,7 +627,8 @@ div.checklist-type-contents {
 
 div.checklist-source-entry {
   display: grid;
-  grid-template-columns: 40px auto 60px;
+  /* icon > count > name */
+  grid-template-columns: 40px 50px auto;
   background-color: rgb(228, 201, 169);
   min-height: 30px;
 }
