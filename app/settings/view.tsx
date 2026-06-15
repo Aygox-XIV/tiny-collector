@@ -1,12 +1,6 @@
 import { NavLink } from 'react-router';
-import {
-    changeStatus,
-    load,
-    parseCollection,
-    resetCollection,
-    saveCurrentState,
-    useFullCollection,
-} from '../collection';
+import { useFullCollection } from '../collection';
+import { changeStatus, load, parseCollection, resetCollection, saveCurrentState } from '../collectionSlice';
 import { loadFile, saveFile } from '../common/files';
 import { useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';

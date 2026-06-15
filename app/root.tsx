@@ -12,6 +12,7 @@ import { CatalogType } from './database/database';
 import { EventCategory } from './database/sources';
 import { LicenseFilterContext, type LicenseFilter } from './license/filtercontext';
 import { store } from './store';
+import { StyleInfoContext, type StyleInfo } from './style';
 
 export const links: Route.LinksFunction = () => [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -59,15 +60,18 @@ export default function App({ loaderData }: Route.ComponentProps) {
     const sourceFilterState = useState<SourceFilter>(getDefaultChecklistFilter(searchParams));
     const licenseFilterstate = useState<LicenseFilter>({});
     const catalogFilterState = useState<CatalogFilter>(getDefaultCatalogFilter(searchParams));
+    const styleState = useState<StyleInfo>({});
     return (
         <Provider store={store}>
-            <CatalogFilterContext value={catalogFilterState}>
-                <LicenseFilterContext value={licenseFilterstate}>
-                    <SourceFilterContext value={sourceFilterState}>
-                        <Outlet />
-                    </SourceFilterContext>
-                </LicenseFilterContext>
-            </CatalogFilterContext>
+            <StyleInfoContext value={styleState}>
+                <CatalogFilterContext value={catalogFilterState}>
+                    <LicenseFilterContext value={licenseFilterstate}>
+                        <SourceFilterContext value={sourceFilterState}>
+                            <Outlet />
+                        </SourceFilterContext>
+                    </LicenseFilterContext>
+                </CatalogFilterContext>
+            </StyleInfoContext>
         </Provider>
     );
 }

@@ -1,4 +1,5 @@
 import { BsQuestionSquare } from 'react-icons/bs';
+import { ImCross } from 'react-icons/im';
 import { NavLink } from 'react-router';
 import { Tooltip } from 'react-tooltip';
 import { useCollectedItem } from '../collection';
@@ -19,6 +20,7 @@ import {
     type SourceDetails,
 } from '../database/database';
 import { getEventType, SourceType, type Source } from '../database/sources';
+import { useSmallScreenStyle } from '../style';
 import type { Route } from './+types/source-view';
 
 export default function SourceDetailView({ params, matches }: Route.ComponentProps) {
@@ -33,12 +35,16 @@ interface SourceDetailsProps {
 }
 
 const SourceDetailPanel: React.FC<SourceDetailsProps> = ({ details }) => {
+    const smallScreen = useSmallScreenStyle();
     let i = 0;
     return (
         <div className="source-details-panel">
-            <div className="source-details-type">
-                <SourceTypeIcon type={details.source.type} />
-                {details.source.type}
+            <div className="source-details-top-row">
+                <div className="source-details-type">
+                    <SourceTypeIcon type={details.source.type} />
+                    {details.source.type}
+                </div>
+                {smallScreen && <CloseDetailsButton />}
             </div>
             <div className="source-details-specifics">
                 <SpecificDetails details={details} />
@@ -50,6 +56,16 @@ const SourceDetailPanel: React.FC<SourceDetailsProps> = ({ details }) => {
                     return <DropDetailItem key={i++} drop={d} />;
                 })}
             </div>
+        </div>
+    );
+};
+
+const CloseDetailsButton: React.FC = () => {
+    return (
+        <div className="close-details-button">
+            <NavLink to="/checklist">
+                <ImCross />
+            </NavLink>
         </div>
     );
 };

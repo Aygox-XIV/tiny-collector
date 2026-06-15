@@ -1,6 +1,7 @@
 import { useSearchParams } from 'react-router';
 import { Toggle } from '../common/toggle';
 import { EventCategory } from '../database/sources';
+import { useSmallScreenStyle } from '../style';
 import type { NoProps } from '../util';
 import { useSourceFilter } from './filtercontext';
 
@@ -8,6 +9,7 @@ export const CHECKLIST_EVENT_PARAM = 'e';
 
 export const ChecklistEventFilterBar: React.FC<NoProps> = ({}) => {
     const [filter, setFilter] = useSourceFilter();
+    const smallScreen = useSmallScreenStyle();
     const toggleHideCompleted = function () {
         setFilter({ ...filter, hideCompleted: !filter.hideCompleted });
     };
@@ -22,12 +24,14 @@ export const ChecklistEventFilterBar: React.FC<NoProps> = ({}) => {
             <br />
             <br />
             <div className="checklist-options">
-                <Toggle text="Hide completed: " checked={filter.hideCompleted} onClick={toggleHideCompleted} />
+                <Toggle text="Hide completed:" checked={filter.hideCompleted} onClick={toggleHideCompleted} />
             </div>
             <br />
             <br />
             <br />
-            Click to select, click again to select all. Hold Ctrl to add to or remove from the selection.
+            {smallScreen
+                ? 'Tap to select one, tap again to select all'
+                : 'Click to select, click again to select all. Hold Ctrl to add to or remove from the selection.'}
         </div>
     );
 };
@@ -59,6 +63,7 @@ const EventSelector: React.FC<EventProps> = ({ event }) => {
             break;
     }
     function handleEventClick(clickEvent: React.MouseEvent<HTMLImageElement, MouseEvent>): void {
+        // TODO: long-click alternative to ctrl?
         if (clickEvent.ctrlKey.valueOf()) {
             let hiddenEvents = filter.hiddenEvents || new Set();
             if (hiddenEvents.has(event)) {

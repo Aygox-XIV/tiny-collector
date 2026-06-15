@@ -1,19 +1,35 @@
+import { useCallback, useContext } from 'react';
+import { BsArrowLeftRight } from 'react-icons/bs';
+import { MdMonitor, MdSmartphone } from 'react-icons/md';
 import { NavLink } from 'react-router';
-import type { NoProps } from '../util';
+import { changeStyle } from '../collectionSlice';
+import { useAppDispatch } from '../store';
+import { StyleInfoContext, useSmallScreenStyle } from '../style';
 
-export const Header: React.FC<NoProps> = ({}) => {
+export const Header: React.FC = () => {
+    const smallScreenStyle = useSmallScreenStyle();
+    const [, setStyleInfo] = useContext(StyleInfoContext);
+    const dispatch = useAppDispatch();
+    const StyleIcon = smallScreenStyle ? MdMonitor : MdSmartphone;
+    const OtherStyleIcon = smallScreenStyle ? MdSmartphone : MdMonitor;
+    const toggleStlye = useCallback(() => {
+        setStyleInfo({ smallScreen: !smallScreenStyle });
+        dispatch(changeStyle({ smallScreen: !smallScreenStyle }));
+    }, [dispatch, smallScreenStyle]);
     return (
         <div className="header">
             <div className="title">
-                <NavLink to="/">Tiny Collector -- a collection tracker for Tiny Shop</NavLink>
+                <NavLink to="/">Tiny Collector{!smallScreenStyle && ' -- a collection tracker for Tiny Shop'}</NavLink>
             </div>
-            {/* <div className="note">
-                (NOTE: some data may still be missing. Join{' '}
-                <a className="text-with-link" href="https://discord.gg/tiny-shop-590578198056534018">
-                    the Discord
-                </a>{' '}
-                to help populate it)
-            </div> */}
+            <div className="style-toggle" onClick={toggleStlye}>
+                <span />
+                <span className="style-toggle-icons">
+                    <StyleIcon />
+                    <BsArrowLeftRight />
+                    <OtherStyleIcon />
+                </span>
+                <span>{smallScreenStyle ? 'Small-screen mode' : 'Large-screen mode'}</span>
+            </div>
         </div>
     );
 };

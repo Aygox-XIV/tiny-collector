@@ -1,10 +1,12 @@
 import { Toggle } from '../common/toggle';
 import { CatalogType } from '../database/database';
+import { useSmallScreenStyle } from '../style';
 import type { NoProps } from '../util';
 import { useLicenseFilter } from './filtercontext';
 
 export const LicenseCalatogFilterBar: React.FC<NoProps> = ({}) => {
     const [filter, setFilter] = useLicenseFilter();
+    const smallScreen = useSmallScreenStyle();
 
     // (class names use the 'event' filter for convenience even though this selects catalogs)
     return (
@@ -34,7 +36,9 @@ export const LicenseCalatogFilterBar: React.FC<NoProps> = ({}) => {
                 }}
             />
             <br />
-            Click to select, click again to select all. Hold Ctrl to add to or remove from the selection.
+            {smallScreen
+                ? 'Tap to select one, tap again to select all'
+                : 'Click to select, click again to select all. Hold Ctrl to add to or remove from the selection.'}
         </div>
     );
 };
@@ -65,6 +69,7 @@ const CatalogSelector: React.FC<CatalogProps> = ({ catalog }) => {
             break;
     }
     function handleEventClick(clickEvent: React.MouseEvent<HTMLImageElement, MouseEvent>): void {
+        // TODO: long-click alternative to ctrl?
         if (clickEvent.ctrlKey.valueOf()) {
             let hiddenCatalogs = filter.hiddenCatalogs || new Set();
             if (hiddenCatalogs.has(catalog)) {

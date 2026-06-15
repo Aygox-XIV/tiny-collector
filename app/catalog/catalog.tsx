@@ -1,17 +1,21 @@
 import type { ChangeEvent } from 'react';
 import { HiOutlineX } from 'react-icons/hi';
-import { NavLink } from 'react-router';
+import { useNavigate } from 'react-router';
 import { useFullCollection } from '../collection';
 import { getImgSrc, useDatabase } from '../database/database';
 import { CatalogItem } from './catalogitem';
 import { itemMatchesFilter, useCatalogFilter } from './filtercontext';
 
-export interface CatalogProps {}
+export interface CatalogProps {
+    readonly currentId?: string;
+}
 
-export const Catalog: React.FC<CatalogProps> = ({}) => {
+export const Catalog: React.FC<CatalogProps> = ({ currentId }) => {
     const db = useDatabase();
     const [filter, setFilter] = useCatalogFilter();
     const collection = useFullCollection();
+    // Must call this instead of using NavLink, to let status icon clicks _not_ navigate.
+    const navigate = useNavigate();
     let itemIds: string[];
 
     if (filter.catalogView && db.catalogs[filter.catalogView]) {
@@ -93,9 +97,13 @@ export const Catalog: React.FC<CatalogProps> = ({}) => {
 
                         const detailLink = '/catalog/' + id;
                         return (
-                            <NavLink key={keyFunction(id)} to={detailLink}>
+                            <div
+                                key={keyFunction(id)}
+                                className={'catalog-item-wrapper ' + (currentId === id ? 'active' : 'inactive')}
+                                onClick={() => navigate(detailLink)}
+                            >
                                 <CatalogItem id={id} guess={guess} />
-                            </NavLink>
+                            </div>
                         );
                     })}
                 </div>
