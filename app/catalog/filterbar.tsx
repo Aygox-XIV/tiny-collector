@@ -123,6 +123,7 @@ const CategorySelectionIcon: React.FC<CatSelectionProps> = ({ category }) => {
     const [filter, setFilter] = useCatalogFilter();
     const toggleCategory = function (clickEvent: React.MouseEvent<SVGElement, MouseEvent>, cat: Category) {
         let cats = filter.hiddenCategories || new Set();
+        // TODO: long-click alternative to ctrl?
         if (clickEvent.ctrlKey.valueOf()) {
             if (cats.has(cat)) {
                 cats.delete(cat);

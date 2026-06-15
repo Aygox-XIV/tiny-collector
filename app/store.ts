@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch, useSelector } from 'react-redux';
-import { collectionSlice } from './collection';
+import { collectionSlice } from './collectionSlice';
 import { dbSlice } from './database/database';
 
 export const store = configureStore({

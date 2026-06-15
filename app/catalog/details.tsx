@@ -1,11 +1,14 @@
+import { ImCross } from 'react-icons/im';
 import { NavLink } from 'react-router';
-import { setLicenseAmount, useCollectedItem } from '../collection';
+import { useCollectedItem } from '../collection';
+import { setLicenseAmount } from '../collectionSlice';
 import { Icon } from '../common/icon';
 import { ItemName } from '../common/itemname';
 import { EditingProgressBar } from '../common/progressbar';
 import { StatusIcons } from '../common/statusicons';
 import { getImgSrc, useDatabase, type Item } from '../database/database';
 import { useAppDispatch } from '../store';
+import { useSmallScreenStyle } from '../style';
 import { getSimpleSourceListString, SOURCE_TOOLTIP, SourceList } from './sourcelist';
 
 export interface DetailsProps {
@@ -17,6 +20,7 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     const db = useDatabase();
     const collectionDetails = useCollectedItem(id);
     const dispatch = useAppDispatch();
+    const smallScreen = useSmallScreenStyle();
     const item = db.items[id];
 
     // TODO: debounce if it's being changed through scrolling?
@@ -28,7 +32,10 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
     // TODO: describe best way to report new findings when no sources are listed
     return (
         <div className="details-panel">
-            <ItemName item={item} />
+            <div className="details-name-row">
+                <ItemName item={item} />
+                {smallScreen && <CloseDetailsButton />}
+            </div>
             <div className="icon-and-recipe">
                 <Icon src={item.image} />
                 <RecipeOveriew item={item} />
@@ -51,6 +58,16 @@ export const Details: React.FC<DetailsProps> = ({ id }) => {
             {(item.source?.length || 0) > 0 && (
                 <meta property="og:description" content={getSimpleSourceListString(item.source)} />
             )}
+        </div>
+    );
+};
+
+const CloseDetailsButton: React.FC = () => {
+    return (
+        <div className="close-details-button">
+            <NavLink to="/catalog">
+                <ImCross />
+            </NavLink>
         </div>
     );
 };

@@ -1,7 +1,8 @@
 import { memo, useCallback } from 'react';
 import { HiOutlineCheck, HiOutlineX } from 'react-icons/hi';
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
-import { setCollected, setHaveRecipe, setLicensed, useCollectedItem } from '../collection';
+import { useCollectedItem } from '../collection';
+import { setCollected, setHaveRecipe, setLicensed } from '../collectionSlice';
 import { isCollectable, useDatabase } from '../database/database';
 import { useAppDispatch } from '../store';
 
