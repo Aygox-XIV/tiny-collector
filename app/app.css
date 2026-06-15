@@ -414,7 +414,11 @@ div.catalog-item > .status-icons {
   gap: 2px;
 }
 
-div.catalog-content a.active > div {
+.catalog-item-wrapper {
+  cursor: pointer;
+}
+
+div.catalog-content .active > div {
   border: 2px solid darkslateblue;
 }
 

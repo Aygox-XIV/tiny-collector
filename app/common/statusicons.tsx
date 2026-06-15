@@ -1,4 +1,4 @@
-import { memo, useCallback } from 'react';
+import { memo, useCallback, type MouseEventHandler } from 'react';
 import { HiOutlineCheck, HiOutlineX } from 'react-icons/hi';
 import { TbChefHat, TbChefHatOff, TbLicense, TbLicenseOff } from 'react-icons/tb';
 import { useCollectedItem } from '../collection';
@@ -36,9 +36,13 @@ export const RecipeStatusIcon: React.FC<SingleIconProps> = ({ id, tooltipId }) =
     const haveRecipe = useCollectedItem(id).status.haveRecipe;
     const dispatch = useAppDispatch();
     const IconType = haveRecipe ? TbChefHat : TbChefHatOff;
-    const toggleRecipe = useCallback(() => {
-        dispatch(setHaveRecipe({ id, newValue: !haveRecipe }));
-    }, [dispatch, haveRecipe]);
+    const toggleRecipe: MouseEventHandler = useCallback(
+        (e) => {
+            dispatch(setHaveRecipe({ id, newValue: !haveRecipe }));
+            e.stopPropagation();
+        },
+        [dispatch, haveRecipe],
+    );
     return (
         <IconType
             className={'status-icon ' + (haveRecipe ? 'selected' : 'unselected')}
@@ -53,13 +57,17 @@ export const LicenseStatusIcon: React.FC<SingleIconProps> = ({ id, tooltipId }) 
     const licensed = useCollectedItem(id).status.licensed;
     const dispatch = useAppDispatch();
     const IconType = licensed ? TbLicense : TbLicenseOff;
-    const toggleLicense = useCallback(() => {
-        // Since it's extremely rare to license an item without having 100% progress, the license amount could be maxed.
-        // (in practice this only happens if the license amount is updated after it has already been licensed)
-        // However, just let the displayed license amount for licensed items be the max instead so we can cheaply
-        // guard against misclicks.
-        dispatch(setLicensed({ id, newValue: !licensed }));
-    }, [dispatch, licensed]);
+    const toggleLicense: MouseEventHandler = useCallback(
+        (e) => {
+            // Since it's extremely rare to license an item without having 100% progress, the license amount could be maxed.
+            // (in practice this only happens if the license amount is updated after it has already been licensed)
+            // However, just let the displayed license amount for licensed items be the max instead so we can cheaply
+            // guard against misclicks.
+            dispatch(setLicensed({ id, newValue: !licensed }));
+            e.stopPropagation();
+        },
+        [dispatch, licensed],
+    );
     return (
         <IconType
             className={'status-icon ' + (licensed ? 'selected' : 'unselected')}
@@ -74,9 +82,13 @@ export const CollectableStatusIcon: React.FC<SingleIconProps> = ({ id, tooltipId
     const collected = useCollectedItem(id).status.collected;
     const dispatch = useAppDispatch();
     const IconType = collected ? HiOutlineCheck : HiOutlineX;
-    const toggleCollected = useCallback(() => {
-        dispatch(setCollected({ id, newValue: !collected }));
-    }, [dispatch, collected]);
+    const toggleCollected: MouseEventHandler = useCallback(
+        (e) => {
+            dispatch(setCollected({ id, newValue: !collected }));
+            e.stopPropagation();
+        },
+        [dispatch, collected],
+    );
     return (
         <IconType
             className={'status-icon ' + (collected ? 'selected' : 'unselected')}

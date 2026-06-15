@@ -9,7 +9,7 @@ export default function CatalogView({ params, matches }: Route.ComponentProps) {
     return (
         <div className="catalog-view">
             <CatalogFilterBar />
-            {(!smallScreen || params.iid === undefined) && <Catalog />}
+            {(!smallScreen || params.iid === undefined) && <Catalog currentId={params.iid} />}
             <Outlet />
         </div>
     );
