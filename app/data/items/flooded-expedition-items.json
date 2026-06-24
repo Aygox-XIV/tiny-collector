@@ -1631,14 +1631,14 @@
       "id": 1256,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_wall_3.png" }
+      "image": { "fandom_wiki_image_path": "8/8c/Ruined_Temple_Wall_%28Dawnspikes%29.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1257,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_wall_4.png" }
+      "image": { "fandom_wiki_image_path": "a/a0/Ruined_Temple_Wall_%28Rosettes%29.png" }
     },
     {
       "name": "Temple Fountain",

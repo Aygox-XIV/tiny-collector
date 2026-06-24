@@ -2004,28 +2004,28 @@
       "id": 1283,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_buoy_yellow.png" }
+      "image": { "fandom_wiki_image_path": "9/90/Decorative_Buoy_-_Yellow.png" }
     },
     {
       "name": "Decorative Buoy - Blue",
       "id": 1284,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_buoy_blue.png" }
+      "image": { "fandom_wiki_image_path": "c/c5/Decorative_Buoy_-_Blue.png" }
     },
     {
       "name": "Decorative Buoy - White",
       "id": 1285,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_buoy_white.png" }
+      "image": { "fandom_wiki_image_path": "e/e6/Decorative_Buoy_-_White.png" }
     },
     {
       "name": "Tropical Shop Wall",
       "id": 1286,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_wall.png" }
+      "image": { "fandom_wiki_image_path": "c/ce/Tropical_Divider.png" }
     },
     {
       "name": "Tropical Shop Floor",

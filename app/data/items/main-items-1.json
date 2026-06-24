@@ -5335,7 +5335,16 @@
         ],
         "craft_amount": 1
       },
-      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Fungal Troubles - Part 3 - Part 3/6" }],
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "recipe",
+          "fragment": false,
+          "subtype": "Mission",
+          "mission_name": "Fungal Troubles - Part 3 - Part 3/6",
+          "name": "Ambush: Baneana Tree"
+        }
+      ],
       "image": { "fandom_wiki_image_path": "1/1e/Itm_mat_fig_banana.png" }
     },
     {
