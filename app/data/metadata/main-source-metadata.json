@@ -109,6 +109,18 @@
     { "type": "Journey", "subtype": "Mission", "name": "To Seed or Not to Seed" },
     { "type": "Journey", "subtype": "Mission", "name": "[unknown - Operation: Thundershroom]" },
     { "type": "Journey", "subtype": "Mission", "name": "[unknown - Slice of Life - Part II]" },
-    { "type": "Journey", "subtype": "Mission", "name": "Fish & Chill", "src": { "local_path": "/sources/source-mission-fish-chill.png" } }
+    { "type": "Journey", "subtype": "Mission", "name": "Fish & Chill", "src": { "local_path": "/sources/source-mission-fish-chill.png" } },
+    {
+      "type": "Journey",
+      "subtype": "Mission",
+      "name": "Ambush: Baneana Tree",
+      "src": { "local_path": "/sources/source-mission-ambush-baneana-tree.png" }
+    },
+    {
+      "type": "Journey",
+      "subtype": "Mission",
+      "name": "Research: Great Library",
+      "src": { "local_path": "/sources/source-mission-research-great-library.png" }
+    }
   ]
 }
