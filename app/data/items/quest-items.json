@@ -276,7 +276,16 @@
       "name": "Rulebook in Shambles",
       "id": 856,
       "category": "Quest",
-      "source": [{ "type": "Mission Reward", "kind": "item", "fragment": true, "name": "An Ancient Game - Part 3/5" }],
+      "source": [
+        {
+          "type": "Journey",
+          "kind": "item",
+          "fragment": true,
+          "subtype": "Mission",
+          "mission_name": "An Ancient Game - Part 3/5",
+          "name": "Research: Great Library"
+        }
+      ],
       "image": { "fandom_wiki_image_path": "7/74/Rulebook_In_Shambles.png" }
     },
     {
