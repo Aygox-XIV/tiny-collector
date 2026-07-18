@@ -2039,14 +2039,14 @@
       "id": 1288,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_surf_smile.png" }
+      "image": { "fandom_wiki_image_path": "a/aa/Surf_Board_-_Yellow_Smile.png" }
     },
     {
       "name": "Surf Board - Stripped",
       "id": 1289,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_surf_striped.png" }
+      "image": { "fandom_wiki_image_path": "8/83/Surf_Board_-_Stripped.png" }
     },
     {
       "name": "Mannequin - Pareo",

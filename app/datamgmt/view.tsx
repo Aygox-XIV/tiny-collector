@@ -319,6 +319,7 @@ const CRAFTABLE_BUT_UNLICENSABLE = new Set([
     202, // Evercold Crystals
     203, // Evercold Oil
     372, // Enchanted Yarn
+    455, // Rune Stone
     863, // Condensed Time
     868, // Aether Charge Casing
     889, // Inert Runestone
