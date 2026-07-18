@@ -3592,6 +3592,14 @@
       "name": "Rune Stone",
       "id": 455,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Inert Runestone", "quantity": 1, "id": 889 },
+          { "name": "Superior Catalyst", "quantity": 1, "id": 106 },
+          { "name": "Aether Charge", "quantity": 4, "id": 104 }
+        ],
+        "craft_amount": 1
+      },
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Gathering: Mineral Extraction" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Library" },

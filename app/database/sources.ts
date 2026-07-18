@@ -386,6 +386,15 @@ export interface ShopLevelSource extends UnknownSource {
     readonly name: string;
 }
 
+// the best info we have about some of the bone and hexed items is that their recipes drop directly
+const FULL_RECIPE_DROPS = [
+    432, // Bone Helmet
+    503, // Hexed Boots
+    505, // Hexed Hat
+    534, // Pair of Bone Daggers
+    633, // Figurine: Baneana (mission journey)
+];
+
 /** Checks if a given source has valid data for the given item. Logs issues to the console. */
 export function validateSingleSource(item: Item, source: Source) {
     switch (source.kind as string) {
@@ -442,8 +451,7 @@ export function validateSingleSource(item: Item, source: Source) {
             break;
         case SourceType.Journey:
             if (source.kind == 'recipe') {
-                // the best info we have about some of the bone items is that their recipes drop directly
-                if (!source.fragment && ![432, 503, 505, 534].includes(item.id)) {
+                if (!source.fragment && !FULL_RECIPE_DROPS.includes(item.id)) {
                     console.warn(
                         `Bad Journey source for ${item.id} (${item.name}); recipes should only drop as fragments`,
                     );
