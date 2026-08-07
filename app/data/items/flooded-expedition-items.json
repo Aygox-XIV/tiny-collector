@@ -1617,14 +1617,14 @@
       "id": 1254,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_wall_1.png" }
+      "image": { "fandom_wiki_image_path": "f/f1/Ruined_Temple_Wall.png" }
     },
     {
       "name": "Ruined Temple Wall",
       "id": 1255,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_wall_2.png" }
+      "image": { "fandom_wiki_image_path": "2/29/Ruined_Temple_Wall_%2803%29.png" }
     },
     {
       "name": "Ruined Temple Wall",
@@ -1645,21 +1645,21 @@
       "id": 1258,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_3.png" }
+      "image": { "fandom_wiki_image_path": "1/12/Temple_Fountain_%2804%29.png" }
     },
     {
       "name": "Temple Fountain",
       "id": 1259,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_4.png" }
+      "image": { "fandom_wiki_image_path": "7/75/Temple_Fountain_%2803%29.png" }
     },
     {
       "name": "Temple Fountain Top",
       "id": 1260,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_fountain_top_2.png" }
+      "image": { "fandom_wiki_image_path": "8/8d/Temple_Fountain_Top_%2802%29.png" }
     },
     {
       "name": "Replica: Water Sprite",
@@ -1760,14 +1760,14 @@
       "id": 1300,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_mann_coastguard.png" }
+      "image": { "fandom_wiki_image_path": "9/91/Mannequin_-_Coastguard.png" }
     },
     {
       "name": "Mannequin - Hydrologist",
       "id": 1301,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_mann_hydrologist.png" }
+      "image": { "fandom_wiki_image_path": "a/ac/Mannequin_-_Hydrologist.png" }
     },
     {
       "name": "Recruit: Disrupter",
