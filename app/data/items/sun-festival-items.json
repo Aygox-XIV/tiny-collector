@@ -1948,56 +1948,56 @@
       "id": 1275,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_floor_sand_2.png" }
+      "image": { "fandom_wiki_image_path": "2/27/Floor_Sand_02.png" }
     },
     {
       "name": "Summer Stool",
       "id": 1276,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_summer_stool.png" }
+      "image": { "fandom_wiki_image_path": "5/5c/Summer_Stool.png" }
     },
     {
       "name": "Surf Shop - Divider",
       "id": 1277,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_divider.png" }
+      "image": { "fandom_wiki_image_path": "f/fb/Surf_Shop_-_Divider.png" }
     },
     {
       "name": "Summer Table - Sunglasses",
       "id": 1278,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_table_sunglasses.png" }
+      "image": { "fandom_wiki_image_path": "b/b2/Summer_Table_-_Sunglasses.png" }
     },
     {
       "name": "Summer Table - Straw Hats",
       "id": 1279,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_table_hats.png" }
+      "image": { "fandom_wiki_image_path": "1/1b/Summer_Table_-_Straw_Hats.png" }
     },
     {
       "name": "Summer Table",
       "id": 1280,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_table.png" }
+      "image": { "fandom_wiki_image_path": "4/4c/Summer_Table.png" }
     },
     {
       "name": "Summer Table - Sandals",
       "id": 1281,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Sun Festival", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_table_sandals.png" }
+      "image": { "fandom_wiki_image_path": "7/77/Summer_Table_-_Sandals.png" }
     },
     {
       "name": "Surf Board - Wood",
       "id": 1282,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Medium Chest (12, 24 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_surf_wood.png" }
+      "image": { "fandom_wiki_image_path": "2/21/Surf_Board_-_Wood.png" }
     },
     {
       "name": "Decorative Buoy - Yellow",
@@ -2032,7 +2032,7 @@
       "id": 1287,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_floor.png" }
+      "image": { "fandom_wiki_image_path": "6/65/Tropical_Shop_Floor.png" }
     },
     {
       "name": "Surf Board - Yellow Smile",
@@ -2053,42 +2053,42 @@
       "id": 1290,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_mann_pareo_blue.png" }
+      "image": { "fandom_wiki_image_path": "2/2c/Mannequin_-_Pareo_%28Blue%29.png" }
     },
     {
       "name": "Mannequin - Swimsuit",
       "id": 1291,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_mann_swim_blue.png" }
+      "image": { "fandom_wiki_image_path": "6/60/Mannequin_-_Swimsuit_%28Blue%29.png" }
     },
     {
       "name": "Mannequin - Bathing Shorts",
       "id": 1292,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_mann_bath_blue.png" }
+      "image": { "fandom_wiki_image_path": "8/8c/Mannequin_-_Bathing_Shorts_%28Blue%29.png" }
     },
     {
       "name": "Mannequin - Pareo",
       "id": 1293,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_mann_pareo_yellow.png" }
+      "image": { "fandom_wiki_image_path": "d/d4/Mannequin_-_Pareo_%28Yellow%29.png" }
     },
     {
       "name": "Mannequin - Swimsuit",
       "id": 1294,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_mann_swim_yellow.png" }
+      "image": { "fandom_wiki_image_path": "8/81/Mannequin_-_Swimsuit_%28Yellow%29.png" }
     },
     {
       "name": "Mannequin - Bathing Shorts",
       "id": 1295,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Large Chest (36 tasks)" }],
-      "image": { "local_path": "/items/sun/decor_sun_mann_bath_yellow.png" }
+      "image": { "fandom_wiki_image_path": "3/36/Mannequin_-_Bathing_Shorts_%28Yellow%29.png" }
     }
   ]
 }
