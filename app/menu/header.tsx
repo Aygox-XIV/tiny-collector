@@ -1,5 +1,5 @@
 import { useCallback, useContext } from 'react';
-import { BsArrowLeftRight } from 'react-icons/bs';
+import { CgToggleOff, CgToggleOn } from 'react-icons/cg';
 import { MdMonitor, MdSmartphone } from 'react-icons/md';
 import { NavLink } from 'react-router';
 import { changeStyle } from '../collectionSlice';
@@ -10,8 +10,7 @@ export const Header: React.FC = () => {
     const smallScreenStyle = useSmallScreenStyle();
     const [, setStyleInfo] = useContext(StyleInfoContext);
     const dispatch = useAppDispatch();
-    const StyleIcon = smallScreenStyle ? MdMonitor : MdSmartphone;
-    const OtherStyleIcon = smallScreenStyle ? MdSmartphone : MdMonitor;
+    const ToggleIcon = smallScreenStyle ? CgToggleOn : CgToggleOff;
     const toggleStlye = useCallback(() => {
         setStyleInfo({ smallScreen: !smallScreenStyle });
         dispatch(changeStyle({ smallScreen: !smallScreenStyle }));
@@ -24,9 +23,9 @@ export const Header: React.FC = () => {
             <div className="style-toggle" onClick={toggleStlye}>
                 <span />
                 <span className="style-toggle-icons">
-                    <StyleIcon />
-                    <BsArrowLeftRight />
-                    <OtherStyleIcon />
+                    <MdSmartphone />
+                    <ToggleIcon />
+                    <MdMonitor />
                 </span>
                 <span>{smallScreenStyle ? 'Small-screen mode' : 'Large-screen mode'}</span>
             </div>
