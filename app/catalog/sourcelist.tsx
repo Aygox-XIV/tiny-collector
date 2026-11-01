@@ -7,7 +7,7 @@ import { KindIcon } from '../common/kindicon';
 import { SourceTypeIcon } from '../common/sourceicon';
 import { getSimpleSourceName, SourceName } from '../common/sourcename';
 import { sourceId } from '../database/database';
-import { getEventType, sourceSortFn, type Source } from '../database/sources';
+import { getEventType, sourceSortFn, type DropKind, type Source } from '../database/sources';
 
 export interface SourceListProps {
     sources: Source[];
@@ -77,5 +77,20 @@ export function getSimpleSourceListString(sources: Source[] | undefined): string
     if (!sources || sources.length == 0) {
         return 'No known sources yet';
     }
-    return `Sources:\n- ${sources.map(getSimpleSourceName).join('\n- ')}`;
+    const sourceMap: Record<DropKind, Source[]> = {
+        item: [],
+        recipe: [],
+        unlock: [],
+    };
+    sources.forEach((s) => {
+        sourceMap[s.kind].push(s);
+    });
+    const sourceStrings: string[] = [];
+    if (sourceMap.unlock.length != 0)
+        sourceStrings.push(`Unlock sources:\n- ${sourceMap.unlock.map(getSimpleSourceName).join('\n- ')}`);
+    if (sourceMap.recipe.length != 0)
+        sourceStrings.push(`Recipe sources:\n- ${sourceMap.recipe.map(getSimpleSourceName).join('\n- ')}`);
+    if (sourceMap.item.length != 0)
+        sourceStrings.push(`Item sources:\n- ${sourceMap.item.map(getSimpleSourceName).join('\n- ')}`);
+    return sourceStrings.join('\n\n');
 }
