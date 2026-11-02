@@ -2352,7 +2352,7 @@
           { "name": "Koko", "quantity": 2, "id": 150 },
           { "name": "Sunsugar", "quantity": 2, "id": 122 }
         ],
-        "craft_amount": 4
+        "craft_amount": 2
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }],
       "image": { "fandom_wiki_image_path": "1/11/Koko_Loco.png" }
@@ -2530,6 +2530,278 @@
         { "type": "Event Market", "kind": "item", "fragment": true, "subtype": "Phantom Isle (part 3)" }
       ],
       "image": { "local_path": "/items/phantom/skin_pumpkin.png" }
+    },
+    {
+      "name": "Bloodberry Cupcake",
+      "id": 1347,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Second Chest (6 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Cursedconut Cupcake",
+      "id": 1348,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Cursedconut", "quantity": 4, "id": 166 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Third Chest (9 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Pumpkin Cupcake",
+      "id": 1349,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Pumpkin", "quantity": 4, "id": 238 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "First Chest (3 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Spectral Cupcake",
+      "id": 1350,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 4, "id": 125 },
+          { "name": "Fresh Milk", "quantity": 4, "id": 121 },
+          { "name": "Sunsugar", "quantity": 4, "id": 122 },
+          { "name": "Ectoplasm", "quantity": 1, "id": 142 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Pumpkin Tea",
+      "id": 1361,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Summer Glory", "quantity": 2, "id": 200 },
+          { "name": "Pumpkin", "quantity": 4, "id": 238 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "First Chest (3 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Cursedconut Tea",
+      "id": 1362,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Snow Lilies", "quantity": 2, "id": 154 },
+          { "name": "Cursedconut", "quantity": 4, "id": 166 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Second Chest (6 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Bloodberry Tea",
+      "id": 1386,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Firebloom Leaves", "quantity": 2, "id": 210 },
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Third Chest (9 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Spectral Tea",
+      "id": 1387,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Pumpkin Cocktail",
+      "id": 1388,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Sun Up", "quantity": 4, "id": 336 },
+          { "name": "Pumpkin", "quantity": 2, "id": 238 },
+          { "name": "Cursedconut Leaves", "quantity": 2, "id": 190 },
+          { "name": "Bana Drink", "quantity": 4, "id": 128 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "First Chest (3 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Bloodberry Cocktail",
+      "id": 1405,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Cherry Delight", "quantity": 4, "id": 156 },
+          { "name": "Bloodberry Slime", "quantity": 2, "id": 139 },
+          { "name": "Bloodslime Residus", "quantity": 2, "id": 738 },
+          { "name": "Coast Lemons", "quantity": 4, "id": 153 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Second Chest (6 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Spectral Juice",
+      "id": 1406,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Summergreen Leaves", "quantity": 2, "id": 129 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Ectoplasm", "quantity": 4, "id": 142 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Bloodberry Juice",
+      "id": 1409,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Puff Flower", "quantity": 10, "id": 257 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Pumpkin Juice",
+      "id": 1411,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Purified Water", "quantity": 4, "id": 110 },
+          { "name": "Coast Lemons", "quantity": 2, "id": 153 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Pumpkin", "quantity": 4, "id": 238 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Cursedconut Ghost",
+      "id": 1410,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Cursedconut", "quantity": 2, "id": 166 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Pumpkin Cake",
+      "id": 1417,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Wheat Flour", "quantity": 2, "id": 125 },
+          { "name": "Drakegull Egg", "quantity": 2, "id": 144 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Pumpkin", "quantity": 2, "id": 238 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Pumpkin Spice Latte",
+      "id": 1407,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 2, "id": 1075 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Pumpkin", "quantity": 4, "id": 238 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Pumpkin Carving" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Cursedconut Latte",
+      "id": 1408,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 2, "id": 1075 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Cursedconut", "quantity": 5, "id": 166 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }],
+      "license_amount": 550
     }
   ]
 }

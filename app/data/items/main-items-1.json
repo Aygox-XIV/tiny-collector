@@ -797,7 +797,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
         { "type": "Task Chest", "kind": "item", "fragment": false, "subtype": "Daily" },
-        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" }
       ],
       "image": { "fandom_wiki_image_path": "5/53/Monster_Scales.png" }
     },
@@ -905,8 +906,18 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Trading Guild" },
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Expedition: Supplies" },
-        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Greens Crate" }
+        { "type": "Event Market", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Greens Crate" },
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }
       ],
+      "recipe": {
+        "ingredient": [
+          { "name": "Ruby Matoes", "quantity": 5, "id": 1363 },
+          { "name": "Cyclop Onions", "quantity": 5, "id": 1360 },
+          { "name": "Salad", "quantity": 5, "id": 1380 },
+          { "name": "Brown Heads", "quantity": 5, "id": 284 }
+        ],
+        "craft_amount": 10
+      },
       "image": { "fandom_wiki_image_path": "5/59/Archipelago_greens.png" }
     },
     {
@@ -1821,7 +1832,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Mushwurm" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
+        { "type": "Harvest", "kind": "item", "fragment": false, "name": "Brown Heads" }
       ],
       "image": { "fandom_wiki_image_path": "0/05/Brown_Heads.png" }
     },
@@ -2541,7 +2553,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
-        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" }
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Tailors Guild" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" }
       ],
       "image": { "fandom_wiki_image_path": "3/3d/Leather.png" }
     },
@@ -3143,7 +3156,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Spice Elemental" },
-        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" }
       ],
       "image": { "fandom_wiki_image_path": "8/88/Monster_Fangs.png" }
     },
@@ -3159,7 +3173,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Winged Menaces" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
-        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" }
+        { "type": "Task", "kind": "item", "fragment": false, "subtype": "Daily" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" }
       ],
       "image": { "fandom_wiki_image_path": "b/b1/Monster_Horn.png" }
     },

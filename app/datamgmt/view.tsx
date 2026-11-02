@@ -34,6 +34,8 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Timefound Loaf', // 1 round, 1 rectangle
     'Kelp', // 1 material, 1 decor
     'Condensed Time', // 1 quest, 1 material
+    'Frosthaven Lamp', // yellow, blue
+    'Ancient Alloy', // 1 flat, 1 ingot
     // Seeds with the same name as what they produce
     'Blue Tower',
     'Puff Flower',
@@ -45,6 +47,8 @@ const KNOWN_DUPLICATE_ITEM_NAMES = new Set([
     'Ashen Wheat',
     'Pumpkin',
     'Sunseekers',
+    'Brown Heads',
+    'Salad',
     // Scrolls with different durations
     'Swift Crafting',
     'Infinite Stock',
@@ -355,6 +359,7 @@ const LICENSABLE_BUT_UNCRAFTABLE = new Set([
     964, // Arcane Croissant
     1093, // Kraken Steak
     1094, // Moonfish Steak
+    1364, // Raw Piezorite
 ]);
 
 const UNLICENSABLE_GEAR = new Set([
@@ -369,6 +374,7 @@ const UNLICENSABLE_GEAR = new Set([
  */
 function validateDbIntegrity(db: Database) {
     const imageUrls: Set<string> = new Set();
+    const itemNames: Set<string> = new Set();
     for (const item of Object.values(db.items)) {
         let hasRecipeSource = false;
         const logPrefix = `Item ${item.id} (${item.name})`;
@@ -458,7 +464,7 @@ function validateDbIntegrity(db: Database) {
         switch (item.category) {
             case 'Gear':
                 if ((item.license_amount == undefined) != UNLICENSABLE_GEAR.has(item.id)) {
-                    console.warn(`${logPrefix} is gear with unexpected licensable state`);
+                    console.warn(`${logPrefix} is gear, but is not marked as licensable`);
                 }
                 break;
         }
@@ -475,6 +481,10 @@ function validateDbIntegrity(db: Database) {
                 }
                 break;
         }
+        if (itemNames.has(item.name) && !KNOWN_DUPLICATE_ITEM_NAMES.has(item.name)) {
+            console.warn(`${logPrefix} has a duplicate item name without being in KNOWN_DUPLICATE_ITEM_NAMES`);
+        }
+        itemNames.add(item.name);
     }
     for (const id of LICENSABLE_BUT_UNCRAFTABLE) {
         if (!db.items[id].license_amount || db.items[id].recipe) {

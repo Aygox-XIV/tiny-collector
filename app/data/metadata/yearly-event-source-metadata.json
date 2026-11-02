@@ -395,13 +395,13 @@
 
     {
       "type": "Task Chest",
-      "subtype": "Phantom Isle (part 2)",
+      "subtype": "Phantom Isle (part 1)",
       "name": "Final Chest (12 tasks)",
       "src": { "fandom_wiki_image_path": "1/12/Chest-final.png" }
     },
     {
       "type": "Task Chest",
-      "subtype": "Phantom Isle (part 1)",
+      "subtype": "Phantom Isle (part 2)",
       "name": "Final Chest (12 tasks)",
       "src": { "fandom_wiki_image_path": "1/12/Chest-final.png" }
     },

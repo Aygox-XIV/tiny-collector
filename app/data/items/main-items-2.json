@@ -39,7 +39,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Drakegull" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Hornetoises" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Coral Crabs" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Aetherclaws" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" }
       ],
       "image": { "fandom_wiki_image_path": "1/12/Half-Digested_Adventurer_Bag.png" }
     },
@@ -1413,7 +1414,8 @@
       "category": "Consumables",
       "source": [
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" },
-        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" }
+        { "type": "Harvest", "kind": "recipe", "fragment": true, "name": "Coffee" },
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }
       ],
       "license_amount": 650,
       "recipe": { "ingredient": [{ "name": "Coffee Berries", "quantity": 6, "id": 924 }], "craft_amount": 4 },
@@ -2076,6 +2078,403 @@
       "license_amount": 650,
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": true, "name": "Anomaly: Paratemporal Breach" }],
       "image": { "fandom_wiki_image_path": "8/81/Jam_Waffles_%28Red%29.png" }
+    },
+    {
+      "name": "Botanical Samples",
+      "id": 1351,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Fungalossus" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Request: Garden Duty" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Sunken Meadow" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruined Farmstead" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Exploration: Ruins" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [North only]" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" }
+      ]
+    },
+    {
+      "name": "Landshark Meat",
+      "id": 1352,
+      "category": "Material",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+      ]
+    },
+    {
+      "name": "Landshark Steak",
+      "id": 1389,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Landshark Meat", "quantity": 1, "id": 1352 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Sunriver Blend", "quantity": 1, "id": 1089 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Landshark Sushi",
+      "id": 1390,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Rice", "quantity": 1, "id": 118 },
+          { "name": "Kelp", "quantity": 1, "id": 920 },
+          { "name": "Landshark Meat", "quantity": 1, "id": 1352 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Landshark Steak and fries",
+      "id": 1412,
+      "category": "Consumables",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Cloudpeach Landshark Steak",
+      "id": 1413,
+      "category": "Consumables",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Pomecurrant Landshark Steak",
+      "id": 1414,
+      "category": "Consumables",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Landshark Skewers",
+      "id": 1415,
+      "category": "Consumables",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Landshark Soup",
+      "id": 1416,
+      "category": "Consumables",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+    },
+    {
+      "name": "Onion",
+      "id": 1353,
+      "category": "Plant",
+      "source": [
+        { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
+      ]
+    },
+    {
+      "name": "Cyclop Onions",
+      "id": 1360,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Onion" }]
+    },
+    {
+      "name": "Decor: Cyclop Onions",
+      "id": 1367,
+      "category": "Decor",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Onion" }]
+    },
+    {
+      "name": "Mato",
+      "id": 1354,
+      "category": "Plant",
+      "source": [
+        { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
+      ]
+    },
+    {
+      "name": "Ruby Mato",
+      "id": 1363,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Mato" }]
+    },
+    {
+      "name": "Decor: Ruby Matoes",
+      "id": 1368,
+      "category": "Decor",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Mato" }]
+    },
+    {
+      "name": "Salad",
+      "id": 1355,
+      "category": "Plant",
+      "source": [
+        { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
+      ]
+    },
+    {
+      "name": "Salad",
+      "id": 1380,
+      "category": "Consumables",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Salad" }]
+    },
+    {
+      "name": "Decor: Salad",
+      "id": 1381,
+      "category": "Decor",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Salad" }]
+    },
+    {
+      "name": "Brown Heads",
+      "id": 1356,
+      "category": "Plant",
+      "source": [
+        { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
+        { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
+      ]
+    },
+    {
+      "name": "Decor: Brown Heads",
+      "id": 1366,
+      "category": "Decor",
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": true, "name": "Brown Heads" }]
+    },
+    {
+      "name": "Pomecurrants",
+      "id": 1357,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+      ]
+    },
+    {
+      "name": "Cloudpeaches",
+      "id": 1358,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+      ]
+    },
+    {
+      "name": "Papagoes",
+      "id": 1359,
+      "category": "Consumables",
+      "source": [
+        { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+      ]
+    },
+    {
+      "name": "Raw Piezorite",
+      "id": 1364,
+      "category": "Material",
+      "source": [
+        { "type": "Mission Reward", "kind": "item", "fragment": false, "name": "Light Hearted - Part 1" },
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Trading" }
+      ],
+      "license_amount": 100
+    },
+    {
+      "name": "Piezorite",
+      "id": 1365,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+    },
+    {
+      "name": "GEAR_PIEZORITE_LENS",
+      "id": 1391,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+    },
+    {
+      "name": "Aetheric Spyglass",
+      "id": 1392,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+    },
+    {
+      "name": "GEAR_PIEZORITE_FOCAL",
+      "id": 1393,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+    },
+    {
+      "name": "Aetheric Torchlight",
+      "id": 1394,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+    },
+    {
+      "name": "Aetheric Decoy",
+      "id": 1395,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
+    },
+    {
+      "name": "Ancient Alloy",
+      "id": 1396,
+      "category": "Material",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbraker's Shield",
+      "id": 1397,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Rapier",
+      "id": 1398,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Staff",
+      "id": 1399,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Boots",
+      "id": 1400,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Kilt",
+      "id": 1401,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Shoulder Guards",
+      "id": 1402,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Armor",
+      "id": 1403,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "Spellbreaker's Helmet",
+      "id": 1404,
+      "category": "Gear",
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+    },
+    {
+      "name": "M&M Module: The Sunken Palace",
+      "id": 1369,
+      "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Sketchbook", "quantity": 1, "id": 524 },
+          { "name": "Kraken Ink", "quantity": 1, "id": 250 },
+          { "name": "Leather", "quantity": 5, "id": 369 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Times - Part 3" }],
+      "license_amount": 250
+    },
+    {
+      "name": "Sunken Myrmidon",
+      "id": 1370,
+      "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Monster Fangs", "quantity": 5, "id": 425 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Times - Part 3" }],
+      "license_amount": 250
+    },
+    {
+      "name": "Undead Sunken Myrmidon",
+      "id": 1371,
+      "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Anthracite", "quantity": 2, "id": 235 },
+          { "name": "Slime Extract", "quantity": 1, "id": 173 },
+          { "name": "Monster Fangs", "quantity": 5, "id": 425 }
+        ],
+        "craft_amount": 1
+      },
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Times - Part 3" }],
+      "license_amount": 250
+    },
+    {
+      "name": "Naturalist's Shoulders",
+      "id": 1382,
+      "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Living Vine", "quantity": 4, "id": 429 },
+          { "name": "Brightmoth Dust", "quantity": 2, "id": 134 },
+          { "name": "Condensed Nature Aether", "quantity": 1, "id": 502 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Hearted - Part 1" }]
+    },
+    {
+      "name": "Naturalist's Tunic",
+      "id": 1383,
+      "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Living Vine", "quantity": 4, "id": 429 },
+          { "name": "Brightmoth Dust", "quantity": 2, "id": 134 },
+          { "name": "Condensed Nature Aether", "quantity": 1, "id": 502 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Hearted - Part 1" }]
+    },
+    {
+      "name": "Naturalist's Sarong",
+      "id": 1384,
+      "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Living Vine", "quantity": 4, "id": 429 },
+          { "name": "Brightmoth Dust", "quantity": 4, "id": 134 },
+          { "name": "Condensed Nature Aether", "quantity": 1, "id": 502 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Hearted - Part 1" }]
+    },
+    {
+      "name": "Naturalist's Bracers",
+      "id": 1385,
+      "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Living Vine", "quantity": 2, "id": 429 },
+          { "name": "Brightmoth Dust", "quantity": 2, "id": 134 },
+          { "name": "Condensed Nature Aether", "quantity": 1, "id": 502 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
+      "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Hearted - Part 1" }]
     }
   ]
 }
