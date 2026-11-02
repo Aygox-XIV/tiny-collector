@@ -957,6 +957,7 @@
         ["930", "Sporetower Figurine"],
         ["931", "Sunbiter Figurine"],
         ["932", "Field Stalker Figurine"],
+        ["1364", "Raw Piezorite"],
         ["1093", "Kraken Steak"],
         ["1094", "Moonfish Steak"],
         ["1095", "Fungal Steak"],
@@ -1008,7 +1009,59 @@
         ["1336", "Party Hat - Crown"],
         ["1337", "Party Hat - Fire"],
         ["1338", "Party Hat - Jelly"],
-        ["1339", "Party Hat - Nature"]
+        ["1339", "Party Hat - Nature"],
+        ["1352", "Landshark Meat"],
+
+        ["?1415", "Landshark Skewers"],
+        ["?1416", "Landshark Soup"],
+        ["1389", "Landshark Steak"],
+        ["?1413", "Cloudpeach Landshark Steak"],
+        ["?1412", "Landshark Steak and fries"],
+
+        ["?1414", "Pomecurrant Landshark Steak"],
+        ["1390", "Landshark Sushi"],
+        ["1357", "Pomecurrants"],
+        ["1358", "Cloudpeaches"],
+        ["1359", "Papagoes"],
+
+        ["1369", "M&M Module: The Sunken Palace"],
+        ["1370", "Sunken Myrmidon"],
+        ["1371", "Undead Sunken Myrmidon"],
+        ["", ""],
+        ["1385", "Naturalist's Bracers"],
+
+        ["1383", "Naturalist's Tunic"],
+        ["1382", "Naturalist's Shoulders"],
+        ["1384", "Naturalist's Sarong"],
+        ["1363", "Ruby Mato"],
+        ["1360", "Cyclop Onions"],
+
+        ["1380", "Salad"],
+        ["1351", "Botanical Samples"],
+        ["", ""],
+        ["1408", "Cursedconut Latte"],
+        ["1407", "Pumpkin Spice Latte"],
+
+        ["1347", "Bloodberry Cupcake"],
+        ["1348", "Cursedconut Cupcake"],
+        ["1349", "Pumpkin Cupcake"],
+        ["1350", "Spectral Cupcake"],
+        ["1405", "Bloodberry Cocktail"],
+
+        ["1388", "Pumpkin Cocktail"],
+        ["", ""],
+        ["", ""],
+        ["1417", "Pumpkin Cake"],
+        ["1410", "Cursedconut Ghost"],
+
+        ["1386", "Bloodberry Tea"],
+        ["1362", "Cursedconut Tea"],
+        ["1361", "Pumpkin Tea"],
+        ["1387", "Spectral Tea"],
+        ["1411", "Pumpkin Juice"],
+
+        ["1406", "Spectral Juice"],
+        ["1409", "Bloodberry Juice"]
       ]
     }
   ]

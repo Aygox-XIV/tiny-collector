@@ -1474,49 +1474,49 @@
       "id": 1234,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_water_grass_dry.png" }
+      "image": { "fandom_wiki_image_path": "d/d3/Water_Grass_Dry.png" }
     },
     {
       "name": "Water Grass",
       "id": 1235,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_water_grass.png" }
+      "image": { "fandom_wiki_image_path": "c/c2/Water_Grass.png" }
     },
     {
       "name": "Clover Patch",
       "id": 1236,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_clovers.png" }
+      "image": { "fandom_wiki_image_path": "4/40/Clover_Patch.png" }
     },
     {
       "name": "Grass Patch",
       "id": 1237,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_grass_patch_1.png" }
+      "image": { "fandom_wiki_image_path": "6/6a/Grass_Patch_%2802%29.png" }
     },
     {
       "name": "Grass Patch",
       "id": 1238,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_grass_patch_2.png" }
+      "image": { "fandom_wiki_image_path": "c/c2/Grass_Patch.png" }
     },
     {
       "name": "Temple Leaves",
       "id": 1239,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_temple_leaves.png" }
+      "image": { "fandom_wiki_image_path": "f/fc/Temple_Leaves.png" }
     },
     {
       "name": "Water Lilies",
       "id": 1240,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_lilies.png" }
+      "image": { "fandom_wiki_image_path": "d/df/Water_Lilies.png" }
     },
     {
       "name": "Kelp",
@@ -1530,7 +1530,7 @@
       "id": 1242,
       "category": "Decor",
       "source": [{ "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" }],
-      "image": { "local_path": "/items/flooded/decor_tallgrass.png" }
+      "image": { "fandom_wiki_image_path": "0/03/Tallgrass.png" }
     },
     {
       "name": "Flat Heads",
@@ -1540,7 +1540,7 @@
         { "type": "Task Chest", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Small Chest (3, 6, 9 tasks)" },
         { "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ],
-      "image": { "local_path": "/items/flooded/decor_flat_heads.png" }
+      "image": { "fandom_wiki_image_path": "1/14/Flat_Heads.png" }
     },
     {
       "name": "Painting - Sunken Garden II",
@@ -1732,14 +1732,14 @@
       "id": 1270,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "image": { "local_path": "/items/flooded/decor_chest2.png" }
+      "image": { "fandom_wiki_image_path": "0/03/Ancient_Chest_%28Decor_02%29.png" }
     },
     {
       "name": "Decor: Aetheric Flowers",
       "id": 1271,
       "category": "Decor",
       "source": [{ "type": "Battle", "kind": "item", "fragment": true, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }],
-      "image": { "local_path": "/items/flooded/decor_aetheric_flowers.png" }
+      "image": { "fandom_wiki_image_path": "6/6e/Aetheric_Flowers.png" }
     },
     {
       "name": "Replica: Moonfish",

@@ -393,6 +393,13 @@ const FULL_RECIPE_DROPS = [
     505, // Hexed Hat
     534, // Pair of Bone Daggers
     633, // Figurine: Baneana (mission journey)
+    1406, // Spectral Juice
+    1407, // Pumpkin Spice Latte
+    1408, // Cursedconut Latte
+    1409, // Bloodberry Juice
+    1410, // Cursedconut Ghost
+    1411, // Pumpkin Juice
+    1417, // Pumpkin Cake
 ];
 
 /** Checks if a given source has valid data for the given item. Logs issues to the console. */
@@ -411,9 +418,11 @@ export function validateSingleSource(item: Item, source: Source) {
     if (source.fragment) {
         switch (item.category) {
             case 'Plant':
-                console.warn(
-                    `Unexpected fragment source for item ${item.id} (${item.name}) with category ${item.category}`,
-                );
+                // 0.1.223 plant unlocks are 1/1 fragments
+                if (source.kind != 'unlock')
+                    console.warn(
+                        `Unexpected fragment source for item ${item.id} (${item.name}) with category ${item.category}`,
+                    );
                 break;
         }
     }
