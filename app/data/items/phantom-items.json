@@ -2692,6 +2692,38 @@
       "license_amount": 550
     },
     {
+      "name": "Spectral Cocktail",
+      "id": 1419,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Magic Mint", "quantity": 2, "id": 660 },
+          { "name": "Ectoplasm", "quantity": 2, "id": 142 },
+          { "name": "Spectral Residus", "quantity": 2, "id": 744 },
+          { "name": "Koko Milk", "quantity": 2, "id": 117 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Third Chest (9 tasks)" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Phantom Cocktail",
+      "id": 1420,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ocean Sip", "quantity": 4, "id": 287 },
+          { "name": "Ectogems", "quantity": 1, "id": 181 },
+          { "name": "Essence of Undeath", "quantity": 1, "id": 268 },
+          { "name": "Summergreen Leaves", "quantity": 4, "id": 129 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Final Chest (12 tasks)" }],
+      "license_amount": 550
+    },
+    {
       "name": "Spectral Juice",
       "id": 1406,
       "category": "Consumables",
@@ -2801,6 +2833,22 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }],
+      "license_amount": 550
+    },
+    {
+      "name": "Bloodberry Latte",
+      "id": 1418,
+      "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Roasted Blend", "quantity": 2, "id": 1075 },
+          { "name": "Fresh Milk", "quantity": 2, "id": 121 },
+          { "name": "Sunsugar", "quantity": 2, "id": 122 },
+          { "name": "Bloodberry Slime", "quantity": 4, "id": 139 }
+        ],
+        "craft_amount": 4
+      },
+      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }],
       "license_amount": 550
     }
   ]
