@@ -400,6 +400,7 @@ const FULL_RECIPE_DROPS = [
     1410, // Cursedconut Ghost
     1411, // Pumpkin Juice
     1417, // Pumpkin Cake
+    1418, // Bloodberry Latte
 ];
 
 /** Checks if a given source has valid data for the given item. Logs issues to the console. */

@@ -318,6 +318,7 @@ function integrateRecipeHelperSheet(csvFile: string, db: Database): ItemDB {
 
 const CRAFTABLE_BUT_UNLICENSABLE = new Set([
     122, // Sunsugar
+    184, // Archipelago Greens
     194, // Unstable Essence
     196, // Enchanted Gingerbread Dough
     202, // Evercold Crystals
@@ -330,6 +331,7 @@ const CRAFTABLE_BUT_UNLICENSABLE = new Set([
     933, // Infinite Stock
     935, // Swift Crafting
     941, // Mushroom Soup
+    1365, // Piezorite
 ]);
 
 const LICENSABLE_BUT_UNCRAFTABLE = new Set([

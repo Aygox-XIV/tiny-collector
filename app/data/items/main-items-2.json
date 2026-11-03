@@ -2137,30 +2137,79 @@
       "name": "Landshark Steak and fries",
       "id": 1412,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Landshark Meat", "quantity": 1, "id": 1352 },
+          { "name": "Potatoes", "quantity": 2, "id": 113 },
+          { "name": "Drakegull Egg", "quantity": 1, "id": 144 },
+          { "name": "Sunriver Blend", "quantity": 1, "id": 1089 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
       "name": "Cloudpeach Landshark Steak",
       "id": 1413,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Landshark Meat", "quantity": 1, "id": 1352 },
+          { "name": "Cloudpeaches", "quantity": 2, "id": 1358 },
+          { "name": "Brown Heads", "quantity": 2, "id": 284 },
+          { "name": "Sunriver Blend", "quantity": 1, "id": 1089 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
       "name": "Pomecurrant Landshark Steak",
       "id": 1414,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Landshark Meat", "quantity": 1, "id": 1352 },
+          { "name": "Pomecurrants", "quantity": 2, "id": 1357 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Sunriver Blend", "quantity": 1, "id": 1089 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
       "name": "Landshark Skewers",
       "id": 1415,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Landshark Meat", "quantity": 1, "id": 1352 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Aetheric Salt", "quantity": 1, "id": 896 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
       "name": "Landshark Soup",
       "id": 1416,
       "category": "Consumables",
+      "recipe": {
+        "ingredient": [
+          { "name": "Landshark Meat", "quantity": 2, "id": 1352 },
+          { "name": "Purified Water", "quantity": 3, "id": 110 },
+          { "name": "Archipelago Greens", "quantity": 2, "id": 184 },
+          { "name": "Papagoes", "quantity": 2, "id": 1359 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 800,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
     },
     {
@@ -2194,7 +2243,7 @@
       ]
     },
     {
-      "name": "Ruby Mato",
+      "name": "Ruby Matoes",
       "id": 1363,
       "category": "Consumables",
       "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Mato" }]
@@ -2285,6 +2334,14 @@
       "name": "Piezorite",
       "id": 1365,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Raw Piezorite", "quantity": 1, "id": 1364 },
+          { "name": "Aetheric Sand", "quantity": 1, "id": 448 },
+          { "name": "Brightmoth Dust", "quantity": 1, "id": 134 }
+        ],
+        "craft_amount": 2
+      },
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
@@ -2303,12 +2360,31 @@
       "name": "GEAR_PIEZORITE_FOCAL",
       "id": 1393,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Piezorite", "quantity": 1, "id": 1365 },
+          { "name": "Ancient Alloy", "quantity": 1, "id": 1396 },
+          { "name": "Databoard", "quantity": 1, "id": 529 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
       "name": "Aetheric Torchlight",
       "id": 1394,
-      "category": "Material",
+      "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 1, "id": 1396 },
+          { "name": "Iron", "quantity": 1, "id": 157 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 },
+          { "name": "Aether Charge", "quantity": 1, "id": 104 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
@@ -2321,6 +2397,15 @@
       "name": "Ancient Alloy",
       "id": 1396,
       "category": "Material",
+      "recipe": {
+        "ingredient": [
+          { "name": "Iron", "quantity": 1, "id": 157 },
+          { "name": "Ancient Alloy", "quantity": 1, "id": 892 },
+          { "name": "Superior Catalyst", "quantity": 1, "id": 106 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 100,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
