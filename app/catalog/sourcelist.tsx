@@ -87,10 +87,24 @@ export function getSimpleSourceListString(sources: Source[] | undefined): string
     });
     const sourceStrings: string[] = [];
     if (sourceMap.unlock.length != 0)
-        sourceStrings.push(`Unlock sources:\n- ${sourceMap.unlock.map(getSimpleSourceName).join('\n- ')}`);
+        sourceStrings.push(
+            `Unlock sources:\n- ${uniqueStrings(sourceMap.unlock.map(getSimpleSourceName)).join('\n- ')}`,
+        );
     if (sourceMap.recipe.length != 0)
-        sourceStrings.push(`Recipe sources:\n- ${sourceMap.recipe.map(getSimpleSourceName).join('\n- ')}`);
+        sourceStrings.push(
+            `Recipe sources:\n- ${uniqueStrings(sourceMap.recipe.map(getSimpleSourceName)).join('\n- ')}`,
+        );
     if (sourceMap.item.length != 0)
-        sourceStrings.push(`Item sources:\n- ${sourceMap.item.map(getSimpleSourceName).join('\n- ')}`);
-    return sourceStrings.join('\n\n');
+        sourceStrings.push(`Item sources:\n- ${uniqueStrings(sourceMap.item.map(getSimpleSourceName)).join('\n- ')}`);
+    return sourceStrings.join('\n');
+}
+
+function uniqueStrings(vals: string[]): string[] {
+    const out: string[] = [];
+    const seen = new Set<string>();
+    vals.forEach((v) => {
+        if (!seen.has(v)) out.push(v);
+        seen.add(v);
+    });
+    return out;
 }
