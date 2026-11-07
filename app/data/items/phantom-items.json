@@ -2736,7 +2736,10 @@
         ],
         "craft_amount": 4
       },
-      "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" }],
+      "source": [
+        { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
+        { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }
+      ],
       "license_amount": 550
     },
     {
