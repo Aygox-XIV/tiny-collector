@@ -2100,7 +2100,9 @@
       "category": "Material",
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Hunt: Frenzied Landsharks" },
-        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" }
+        { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
       ]
     },
     {
@@ -2297,7 +2299,9 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" }
       ]
     },
     {
@@ -2307,7 +2311,9 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" }
       ]
     },
     {
@@ -2317,7 +2323,9 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": false, "subtype": "Sun Festival", "name": "Workshop: Botanists Guild" },
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Naturalist" },
-        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" }
+        { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
+        { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" }
       ]
     },
     {
@@ -2354,6 +2362,16 @@
       "name": "Aetheric Spyglass",
       "id": 1392,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 1, "id": 1396 },
+          { "name": "Iron", "quantity": 1, "id": 157 },
+          { "name": "GEAR_PIEZORITE_FOCAL", "quantity": 1, "id": 1393 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
@@ -2391,6 +2409,16 @@
       "name": "Aetheric Decoy",
       "id": 1395,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 1, "id": 1396 },
+          { "name": "Iron", "quantity": 1, "id": 157 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 },
+          { "name": "Aether Charge", "quantity": 1, "id": 104 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Gizmoshop" }]
     },
     {
@@ -2412,24 +2440,63 @@
       "name": "Spellbraker's Shield",
       "id": 1397,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "GEAR_PIEZORITE_FOCAL", "quantity": 1, "id": 1393 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
       "name": "Spellbreaker's Rapier",
       "id": 1398,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 },
+          { "name": "Sun Linen", "quantity": 1, "id": 415 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
       "name": "Spellbreaker's Staff",
       "id": 1399,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "GEAR_PIEZORITE_FOCAL", "quantity": 1, "id": 1393 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
       "name": "Spellbreaker's Boots",
       "id": 1400,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "Piezorite", "quantity": 1, "id": 1365 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
