@@ -2545,7 +2545,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Second Chest (6 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "5/54/Bloodberry_Cupcake.png" }
     },
     {
       "name": "Cursedconut Cupcake",
@@ -2561,7 +2562,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Third Chest (9 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "3/35/Cursedconut_Cupcake.png" }
     },
     {
       "name": "Pumpkin Cupcake",
@@ -2577,7 +2579,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "First Chest (3 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "9/98/Pumpkin_Cupcake.png" }
     },
     {
       "name": "Spectral Cupcake",
@@ -2593,7 +2596,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 1)", "name": "Final Chest (12 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "b/b8/Spectral_Cupcake.png" }
     },
     {
       "name": "Pumpkin Tea",
@@ -2609,7 +2613,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "First Chest (3 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "2/20/Pumpkin_Tea.png" }
     },
     {
       "name": "Cursedconut Tea",
@@ -2625,7 +2630,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Second Chest (6 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "2/25/Cursedconut_Tea.png" }
     },
     {
       "name": "Bloodberry Tea",
@@ -2641,7 +2647,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Third Chest (9 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "d/d4/Bloodberry_Tea.png" }
     },
     {
       "name": "Spectral Tea",
@@ -2657,7 +2664,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 2)", "name": "Final Chest (12 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "c/cd/Spectral_Tea.png" }
     },
     {
       "name": "Pumpkin Cocktail",
@@ -2673,7 +2681,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "First Chest (3 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "d/d7/Pumpkin_Cocktail.png" }
     },
     {
       "name": "Bloodberry Cocktail",
@@ -2689,7 +2698,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Task Chest", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Second Chest (6 tasks)" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "0/05/Bloodberry_Cocktail.png" }
     },
     {
       "name": "Spectral Cocktail",
@@ -2740,7 +2750,8 @@
         { "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Spectral Jungle" },
         { "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }
       ],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "c/cb/Spectral_Juice.png" }
     },
     {
       "name": "Bloodberry Juice",
@@ -2756,7 +2767,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Touristic Tour" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "f/f4/Bloodberry_Juice.png" }
     },
     {
       "name": "Pumpkin Juice",
@@ -2772,7 +2784,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Lazybone Mountain" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "6/6b/Pumpkin_Juice.png" }
     },
     {
       "name": "Cursedconut Ghost",
@@ -2788,7 +2801,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "f/ff/Cursedconut_Ghost.png" }
     },
     {
       "name": "Pumpkin Cake",
@@ -2804,7 +2818,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Cafetaria" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "b/b8/Pumpkin_Cake.png" }
     },
     {
       "name": "Pumpkin Spice Latte",
@@ -2836,7 +2851,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Blacksand Beach" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "a/a1/Cursedconut_Latte.png" }
     },
     {
       "name": "Bloodberry Latte",
@@ -2852,7 +2868,8 @@
         "craft_amount": 4
       },
       "source": [{ "type": "Journey", "kind": "recipe", "fragment": false, "subtype": "Phantom Isle (part 3)", "name": "Resort: Slime Lake" }],
-      "license_amount": 550
+      "license_amount": 550,
+      "image": { "fandom_wiki_image_path": "c/cb/Bloodberry_Latte.png" }
     }
   ]
 }
