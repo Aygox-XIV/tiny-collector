@@ -2092,7 +2092,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Seaside" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Townfolks Small Task [North only]" },
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Gathering: Flowers" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "b/bf/Botanical_Samples.png" }
     },
     {
       "name": "Landshark Meat",
@@ -2103,7 +2104,8 @@
         { "type": "Outpost", "kind": "item", "fragment": false, "subtype": "Exchange", "name": "Coastal" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Ancient Chest" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Ancient Chest" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/19/Landshark_Meat.png" }
     },
     {
       "name": "Landshark Steak",
@@ -2118,7 +2120,8 @@
         "craft_amount": 1
       },
       "license_amount": 800,
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Chez Gustave" }],
+      "image": { "fandom_wiki_image_path": "c/c0/Landshark_Steak.png" }
     },
     {
       "name": "Landshark Sushi",
@@ -2221,13 +2224,15 @@
       "source": [
         { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "d/db/Onion_Seed.png" }
     },
     {
       "name": "Cyclop Onions",
       "id": 1360,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Onion" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Onion" }],
+      "image": { "fandom_wiki_image_path": "3/3a/Cyclop_Onions.png" }
     },
     {
       "name": "Decor: Cyclop Onions",
@@ -2242,7 +2247,8 @@
       "source": [
         { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/48/Mato_Seed.png" }
     },
     {
       "name": "Ruby Matoes",
@@ -2263,13 +2269,15 @@
       "source": [
         { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/11/Salad_Seed.png" }
     },
     {
       "name": "Salad",
       "id": 1380,
       "category": "Consumables",
-      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Salad" }]
+      "source": [{ "type": "Harvest", "kind": "item", "fragment": false, "name": "Salad" }],
+      "image": { "fandom_wiki_image_path": "7/7e/Salad.png" }
     },
     {
       "name": "Decor: Salad",
@@ -2284,7 +2292,8 @@
       "source": [
         { "type": "Mission Reward", "kind": "unlock", "fragment": true, "name": "Botanical Request" },
         { "type": "City", "kind": "item", "fragment": false, "subtype": "Shop", "name": "Lily's Garden" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "0/02/Brown_Heads_Seed.png" }
     },
     {
       "name": "Decor: Brown Heads",
@@ -2302,7 +2311,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "4/4c/Pomecurrants.png" }
     },
     {
       "name": "Cloudpeaches",
@@ -2314,7 +2324,8 @@
         { "type": "Journey", "kind": "item", "fragment": false, "name": "Patrol: Island" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Barrel" },
         { "type": "Battle", "kind": "item", "fragment": false, "subtype": "Flooded Expedition", "name": "Overgrown Barrel" }
-      ]
+      ],
+      "image": { "fandom_wiki_image_path": "1/16/Cloudpeaches.png" }
     },
     {
       "name": "Papagoes",
@@ -2434,7 +2445,8 @@
         "craft_amount": 1
       },
       "license_amount": 100,
-      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
+      "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
+      "image": { "fandom_wiki_image_path": "e/e4/Ancient_Alloy.png" }
     },
     {
       "name": "Spellbraker's Shield",
@@ -2492,7 +2504,7 @@
         "ingredient": [
           { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
           { "name": "Iron", "quantity": 2, "id": 157 },
-          { "name": "Piezorite", "quantity": 1, "id": 1365 }
+          { "name": "Piezorite", "quantity": 2, "id": 1365 }
         ],
         "craft_amount": 1
       },
@@ -2503,24 +2515,61 @@
       "name": "Spellbreaker's Kilt",
       "id": 1401,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 1, "id": 1396 },
+          { "name": "Sun Linen", "quantity": 4, "id": 415 },
+          { "name": "Leather", "quantity": 2, "id": 369 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
       "name": "Spellbreaker's Shoulder Guards",
       "id": 1402,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 1, "id": 1396 },
+          { "name": "Iron", "quantity": 5, "id": 157 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
       "name": "Spellbreaker's Armor",
       "id": 1403,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
+          { "name": "Iron", "quantity": 2, "id": 157 },
+          { "name": "GEAR_PIEZORITE_FOCAL", "quantity": 1, "id": 1393 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
       "name": "Spellbreaker's Helmet",
       "id": 1404,
       "category": "Gear",
+      "recipe": {
+        "ingredient": [
+          { "name": "Ancient Alloy", "quantity": 2, "id": 1396 },
+          { "name": "Iron", "quantity": 1, "id": 157 },
+          { "name": "GEAR_PIEZORITE_LENS", "quantity": 1, "id": 1391 },
+          { "name": "Leather", "quantity": 4, "id": 369 }
+        ],
+        "craft_amount": 1
+      },
+      "license_amount": 750,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }]
     },
     {
@@ -2536,7 +2585,8 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Times - Part 3" }],
-      "license_amount": 250
+      "license_amount": 250,
+      "image": { "fandom_wiki_image_path": "e/e8/MM_Module_The_Sunken_Palace.png" }
     },
     {
       "name": "Sunken Myrmidon",
@@ -2551,7 +2601,8 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Times - Part 3" }],
-      "license_amount": 250
+      "license_amount": 250,
+      "image": { "fandom_wiki_image_path": "7/7b/Sunken_Myrmidon.png" }
     },
     {
       "name": "Undead Sunken Myrmidon",
@@ -2566,7 +2617,8 @@
         "craft_amount": 1
       },
       "source": [{ "type": "Mission Reward", "kind": "recipe", "fragment": false, "name": "Light Times - Part 3" }],
-      "license_amount": 250
+      "license_amount": 250,
+      "image": { "fandom_wiki_image_path": "6/60/Undead_Sunken_Myrmidon.png" }
     },
     {
       "name": "Naturalist's Shoulders",
