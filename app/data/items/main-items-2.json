@@ -2446,7 +2446,7 @@
       },
       "license_amount": 100,
       "source": [{ "type": "City", "kind": "recipe", "fragment": false, "subtype": "Research", "name": "Ardent Forge" }],
-      "image": { "fandom_wiki_image_path": "e/e4/Ancient_Alloy.png" }
+      "image": { "fandom_wiki_image_path": "9/95/Ancient_Alloy_Ingot.png" }
     },
     {
       "name": "Spellbraker's Shield",
