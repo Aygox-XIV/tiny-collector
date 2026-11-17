@@ -3568,7 +3568,8 @@
       "source": [
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ruins" },
         { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Sunken Meadow" },
-        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" }
+        { "type": "Journey", "kind": "item", "fragment": true, "name": "Exploration: Ancient Derelict" },
+        { "type": "Shifty", "kind": "item", "fragment": true }
       ],
       "image": { "fandom_wiki_image_path": "f/fd/Antique_Scepter.png" }
     },
